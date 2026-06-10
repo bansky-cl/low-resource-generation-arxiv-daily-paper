@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.10
+## Updated on 2026.06.11
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **332**
-- Recent 30 days: **128**
-- Older than 30 days: **204**
+- Recent 30 days: **124**
+- Older than 30 days: **208**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -146,15 +146,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-12**|**Executable Agentic Memory for GUI Agent**|cs.AI|[2605.12294v1](http://arxiv.org/abs/2605.12294v1)|null|
 |**2026-05-12**|**Sign Language Recognition and Translation for Low-Resource Languages: Challenges and Pathways Forward**|cs.CL|[2605.12096v1](http://arxiv.org/abs/2605.12096v1)|null|
 |**2026-05-12**|**Towards Visually-Guided Movie Subtitle Translation for Indic Languages**|cs.CL|[2605.11993v1](http://arxiv.org/abs/2605.11993v1)|null|
-|**2026-05-11**|**Neural at ArchEHR-QA 2026: One Method Fits All: Unified Prompt Optimization for Clinical QA over EHRs**|cs.CL, cs.IR|[2605.10877v1](http://arxiv.org/abs/2605.10877v1)|null|
-|**2026-05-11**|**An Annotation Scheme and Classifier for Personal Facts in Dialogue**|cs.CL|[2605.10339v1](http://arxiv.org/abs/2605.10339v1)|null|
-|**2026-05-11**|**Active Tabular Augmentation via Policy-Guided Diffusion Inpainting**|cs.LG, cs.AI|[2605.10315v1](http://arxiv.org/abs/2605.10315v1)|null|
-|**2026-05-11**|**Medical Incident Causal Factors and Preventive Measures Generation Using Tag-based Example Selection in Few-shot Learning**|cs.CL, cs.AI|[2605.10025v1](http://arxiv.org/abs/2605.10025v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-05-11**|**Neural at ArchEHR-QA 2026: One Method Fits All: Unified Prompt Optimization for Clinical QA over EHRs**|cs.CL, cs.IR|[2605.10877v1](http://arxiv.org/abs/2605.10877v1)|null|
+|**2026-05-11**|**An Annotation Scheme and Classifier for Personal Facts in Dialogue**|cs.CL|[2605.10339v1](http://arxiv.org/abs/2605.10339v1)|null|
+|**2026-05-11**|**Active Tabular Augmentation via Policy-Guided Diffusion Inpainting**|cs.LG, cs.AI|[2605.10315v1](http://arxiv.org/abs/2605.10315v1)|null|
+|**2026-05-11**|**Medical Incident Causal Factors and Preventive Measures Generation Using Tag-based Example Selection in Few-shot Learning**|cs.CL, cs.AI|[2605.10025v1](http://arxiv.org/abs/2605.10025v1)|null|
 |**2026-05-10**|**Crosslingual On-Policy Self-Distillation for Multilingual Reasoning**|cs.CL|[2605.09548v1](http://arxiv.org/abs/2605.09548v1)|**[code](https://github.com/cisnlp/COPSD)**|
 |**2026-05-09**|**Lost in Translation? Exploring the Shift in Grammatical Gender from Latin to Occitan**|cs.CL, cs.AI|[2605.09156v2](http://arxiv.org/abs/2605.09156v2)|**[code](https://github.com/ahan-2000/Lost-in-Translation-)**|
 |**2026-05-09**|**LLiMba: Sardinian on a Single GPU -- Adapting a 3B Language Model to a Vanishing Romance Language**|cs.CL, cs.LG|[2605.09015v1](http://arxiv.org/abs/2605.09015v1)|null|
