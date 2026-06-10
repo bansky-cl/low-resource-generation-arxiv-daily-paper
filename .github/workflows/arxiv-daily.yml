@@ -1,0 +1,64 @@
+name: Arxiv Daily Update
+
+"on":
+  workflow_dispatch:
+  schedule:
+    # GitHub cron uses UTC. Run at 08:15 and 22:15 Asia/Shanghai.
+    - cron: "15 0,14 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/arxiv-daily.yml"
+      - "daily_arxiv.py"
+      - "docs/_config.yml"
+      - ".gitignore"
+
+env:
+  GITHUB_USER_NAME: bansky-cl
+  GITHUB_USER_EMAIL: cxy1365@163.com
+  TZ: Asia/Shanghai
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+  PYTHONUNBUFFERED: "1"
+
+concurrency:
+  group: arxiv-daily-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: update
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python Env
+        uses: actions/setup-python@v6
+        with:
+          python-version: 3.10.20
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install arxiv matplotlib
+
+      - name: Run daily arxiv
+        run: |
+          python -u daily_arxiv.py
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "${GITHUB_USER_NAME}"
+          git config user.email "${GITHUB_USER_EMAIL}"
+          git add README.md docs/arxiv-daily.json docs/_config.yml imgs/trend.png .gitignore
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Github Action Automatic Update Low-Resource Generation Arxiv Papers"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
