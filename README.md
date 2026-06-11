@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **332**
-- Recent 30 days: **124**
+- Total papers in JSON: **335**
+- Recent 30 days: **127**
 - Older than 30 days: **208**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-10**|**Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay**|cs.CL|[2606.11786v1](http://arxiv.org/abs/2606.11786v1)|null|
+|**2026-06-09**|**Schützen: Evaluating LLM Safety in Bulgarian and German Contexts**|cs.CL|[2606.11316v1](http://arxiv.org/abs/2606.11316v1)|**[code](https://github.com/xnlp-lab/Schutzen)**|
 |**2026-06-09**|**Small Data, Big Noise: Adversarial Training for Robust Parameter-Efficient Fine-Tuning**|cs.CL|[2606.10610v1](http://arxiv.org/abs/2606.10610v1)|null|
 |**2026-06-08**|**Data Synthesis and Parameter-Efficient Fine-Tuning for Low-Resource NMT: A Case Study on Q'eqchi' Mayan**|cs.CL, cs.AI, cs.LG|[2606.09767v1](http://arxiv.org/abs/2606.09767v1)|null|
 |**2026-06-08**|**Transition-Based Digital Twin Modelling for Alzheimer's Disease under Sparse Longitudinal Data**|cs.LG, cs.AI|[2606.09671v1](http://arxiv.org/abs/2606.09671v1)|null|
@@ -64,6 +66,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-31**|**ExpWeaver: LLM Agents Learn from Experience via Latent RAG**|cs.CL|[2606.01041v1](http://arxiv.org/abs/2606.01041v1)|**[code](https://github.com/ulab-uiuc/ExpWeaver)**|
 |**2026-05-31**|**PolySpeech-100: A Large-Scale Benchmark for Speech Understanding Across 100+ Languages and Dialects**|cs.CL, cs.AI, eess.AS|[2606.01016v1](http://arxiv.org/abs/2606.01016v1)|**[code](https://github.com/YoungSeng/PolySpeech-100)**|
 |**2026-05-30**|**Manifold Diffusion for Structure Generation of Transition Metal Complexes**|cond-mat.mtrl-sci, cs.LG, physics.chem-ph|[2606.00666v1](http://arxiv.org/abs/2606.00666v1)|null|
+|**2026-05-29**|**Few-Shot Resampling for Scalable Statistically-Sound Data Mining**|cs.LG, cs.DB, stat.ME|[2606.11235v1](http://arxiv.org/abs/2606.11235v1)|null|
 |**2026-05-29**|**Sample-Efficient Post-Training for LEGO Spatial-Physics Reasoning**|cs.LG, cs.AI|[2606.07602v1](http://arxiv.org/abs/2606.07602v1)|null|
 |**2026-05-29**|**HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads**|cs.RO, cs.LG|[2606.00252v1](http://arxiv.org/abs/2606.00252v1)|null|
 |**2026-05-29**|**Beyond Augmentation: Score-Guided Pathological Prior for EEG-based Depression Detection**|cs.LG, cs.AI|[2606.00180v1](http://arxiv.org/abs/2606.00180v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-04-18**|**SAVE: A Generalizable Framework for Multi-Condition Single-Cell Generation with Gene Block Attention**|cs.AI|[2604.16776v1](http://arxiv.org/abs/2604.16776v1)|**[code](https://github.com/fdu-wangfeilab/sc-save)**|
 |**2026-04-17**|**Cross-Modal Generation: From Commodity WiFi to High-Fidelity mmWave and RFID Sensing**|cs.LG|[2604.16558v1](http://arxiv.org/abs/2604.16558v1)|null|
 |**2026-04-16**|**Think Multilingual, Not Harder: A Data-Efficient Framework for Teaching Reasoning Models to Code-Switch**|cs.CL|[2604.15490v1](http://arxiv.org/abs/2604.15490v1)|null|
-|**2026-04-16**|**Exploring LLM-based Verilog Code Generation with Data-Efficient Fine-Tuning and Testbench Automation**|cs.AR, cs.AI|[2604.15388v1](http://arxiv.org/abs/2604.15388v1)|null|
-|**2026-04-16**|**Blazing the trails before beating the path: Sample-efficient Monte-Carlo planning**|cs.LG|[2604.14974v1](http://arxiv.org/abs/2604.14974v1)|null|
-|**2026-04-16**|**Constraint-based Pre-training: From Structured Constraints to Scalable Model Initialization**|cs.LG|[2604.14769v1](http://arxiv.org/abs/2604.14769v1)|null|
 
-README omitted **132** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **135** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

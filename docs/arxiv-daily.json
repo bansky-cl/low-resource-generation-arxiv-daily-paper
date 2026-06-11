@@ -7286,6 +7286,66 @@
       "abs_url": "http://arxiv.org/abs/2603.00199v2",
       "pdf_url": "https://arxiv.org/pdf/2603.00199v2",
       "code_url": null
+    },
+    "2606.11786": {
+      "id": "2606.11786",
+      "version": "2606.11786v1",
+      "title": "Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay",
+      "authors": [
+        "Joanito Agili Lopo",
+        "Yunita Sari",
+        "Guntur Budi Herwanto"
+      ],
+      "published": "2026-06-10",
+      "updated": "2026-06-10",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large Language Models (LLMs) offer new potential for translation tasks but often experience performance degradation when handling low-resource languages. To address this limitation, we propose an approach for fine-tuning LLMs on a low-resource language, Kupang Malay. Our approach involves designing a set of instructions by leveraging explicit lexical and semantic features from a bilingual dictionary, and introducing Continual Instruction Tuning (CIT), a training paradigm that enables iterative instruction-based training. Experimental results demonstrate that our model, named Lius, yields notable improvements over standard instruction-tuned models by outperforming 4-6 points, and surpassing both Neural Machine Translation (NMT) and Multilingual LLM models by 10-13 points on several evaluation metrics. These findings highlight the potential of our approach to mitigate the reliance on large-scale parallel data in low-resource language translation.",
+      "abs_url": "http://arxiv.org/abs/2606.11786v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11786v1",
+      "code_url": null
+    },
+    "2606.11316": {
+      "id": "2606.11316",
+      "version": "2606.11316v1",
+      "title": "Schützen: Evaluating LLM Safety in Bulgarian and German Contexts",
+      "authors": [
+        "Kiril Georgiev",
+        "Yuxia Wang",
+        "Dimitar Iliyanov Dimitrov",
+        "Preslav Nakov",
+        "Ivan Koychev"
+      ],
+      "published": "2026-06-09",
+      "updated": "2026-06-09",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large language models are increasingly deployed across professional domains, bringing hard-to-predict risks, including the generation of harmful or disrespectful content. Although substantial progress has been made in developing safety evaluation datasets, existing resources remain overwhelmingly English- and Chinese-centric. This limitation is particularly pronounced when evaluating languages that operate within shared sociocultural, legal, and ethical contexts. To address this gap, we introduce Schützen: a German--Bulgarian safety dataset designed to assess model answerability under risk, covering both a low-resource language (Bulgarian) and a high-resource language (German). Experiments with multilingual and language-specific LLMs reveal pronounced cross-language differences in safety behavior, highlighting the necessity of tailored, region-specific evaluation resources to support the responsible deployment of LLMs in Germany and Bulgaria. Datasets and code are available at https://github.com/xnlp-lab/Schutzen. Warning: this paper contains examples that may be offensive, harmful, or biased.",
+      "abs_url": "http://arxiv.org/abs/2606.11316v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11316v1",
+      "code_url": "https://github.com/xnlp-lab/Schutzen"
+    },
+    "2606.11235": {
+      "id": "2606.11235",
+      "version": "2606.11235v1",
+      "title": "Few-Shot Resampling for Scalable Statistically-Sound Data Mining",
+      "authors": [
+        "Leonardo Pellegrina",
+        "Fabio Vandin"
+      ],
+      "published": "2026-05-29",
+      "updated": "2026-05-29",
+      "categories": [
+        "cs.LG",
+        "cs.DB",
+        "stat.ME"
+      ],
+      "abstract": "A key step in knowledge discovery is the evaluation of data mining results. In several applications, including pattern mining, graph analysis, and others, this step includes the evaluation of the statistical significance of the results, to avoid spurious discoveries due only to noise or random fluctuations in the data. While specialized procedures have been developed for some specific applications, resampling-based approaches are widely used, in particular for complex analyses where analytical results cannot be derived. However, current resampling-based approaches require the generation and analysis of thousands of resampled datasets, and are therefore impractical for large datasets or computationally intensive analyses. In this paper, we introduce FewRS, a simple and effective resampling-based approach to assess the statistical significance of data mining results with rigorous guarantees on the probability of false discoveries. Our approach can be used in every situation where resampling-based approaches are applied. FewRS builds on our derivation of a novel bound to the supremum deviation of test statistics representing the quality of data mining results. We prove that FewRS needs to generate and analyze an extremely small number of resampled datasets, leading to a highly scalable approach with wide applicability. We test our approach on common tasks such as pattern mining and network analysis. In all cases, our approach results in a reduction of up to two orders of magnitude in running time compared to the state of the art, while preserving high statistical power, enabling the statistical validation of data mining results on large-scale real-world datasets.",
+      "abs_url": "http://arxiv.org/abs/2606.11235v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11235v1",
+      "code_url": null
     }
   }
 }
