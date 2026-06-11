@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.11
+## Updated on 2026.06.12
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **335**
-- Recent 30 days: **127**
-- Older than 30 days: **208**
+- Recent 30 days: **122**
+- Older than 30 days: **213**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -144,16 +144,16 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-13**|**Does language matter for spoken word classification? A multilingual generative meta-learning approach**|cs.CL, cs.AI|[2605.13084v2](http://arxiv.org/abs/2605.13084v2)|null|
 |**2026-05-13**|**Scaling few-shot spoken word classification with generative meta-continual learning**|cs.CL, cs.AI|[2605.13075v3](http://arxiv.org/abs/2605.13075v3)|null|
 |**2026-05-13**|**Context Training with Active Information Seeking**|cs.CL, cs.AI|[2605.13050v2](http://arxiv.org/abs/2605.13050v2)|null|
-|**2026-05-12**|**DocAtlas: Multilingual Document Understanding Across 80+ Languages**|cs.CL, cs.CV, cs.LG|[2605.12623v2](http://arxiv.org/abs/2605.12623v2)|**[code](https://github.com/ahmedheakl/DocAtlas)**|
-|**2026-05-12**|**Predicting Decisions of AI Agents from Limited Interaction through Text-Tabular Modeling**|cs.LG, cs.AI, cs.CL, cs.MA|[2605.12411v1](http://arxiv.org/abs/2605.12411v1)|null|
-|**2026-05-12**|**Executable Agentic Memory for GUI Agent**|cs.AI|[2605.12294v1](http://arxiv.org/abs/2605.12294v1)|null|
-|**2026-05-12**|**Sign Language Recognition and Translation for Low-Resource Languages: Challenges and Pathways Forward**|cs.CL|[2605.12096v1](http://arxiv.org/abs/2605.12096v1)|null|
-|**2026-05-12**|**Towards Visually-Guided Movie Subtitle Translation for Indic Languages**|cs.CL|[2605.11993v1](http://arxiv.org/abs/2605.11993v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-05-12**|**DocAtlas: Multilingual Document Understanding Across 80+ Languages**|cs.CL, cs.CV, cs.LG|[2605.12623v2](http://arxiv.org/abs/2605.12623v2)|**[code](https://github.com/ahmedheakl/DocAtlas)**|
+|**2026-05-12**|**Predicting Decisions of AI Agents from Limited Interaction through Text-Tabular Modeling**|cs.LG, cs.AI, cs.CL, cs.MA|[2605.12411v1](http://arxiv.org/abs/2605.12411v1)|null|
+|**2026-05-12**|**Executable Agentic Memory for GUI Agent**|cs.AI|[2605.12294v1](http://arxiv.org/abs/2605.12294v1)|null|
+|**2026-05-12**|**Sign Language Recognition and Translation for Low-Resource Languages: Challenges and Pathways Forward**|cs.CL|[2605.12096v1](http://arxiv.org/abs/2605.12096v1)|null|
+|**2026-05-12**|**Towards Visually-Guided Movie Subtitle Translation for Indic Languages**|cs.CL|[2605.11993v1](http://arxiv.org/abs/2605.11993v1)|null|
 |**2026-05-11**|**Neural at ArchEHR-QA 2026: One Method Fits All: Unified Prompt Optimization for Clinical QA over EHRs**|cs.CL, cs.IR|[2605.10877v1](http://arxiv.org/abs/2605.10877v1)|null|
 |**2026-05-11**|**An Annotation Scheme and Classifier for Personal Facts in Dialogue**|cs.CL|[2605.10339v1](http://arxiv.org/abs/2605.10339v1)|null|
 |**2026-05-11**|**Active Tabular Augmentation via Policy-Guided Diffusion Inpainting**|cs.LG, cs.AI|[2605.10315v1](http://arxiv.org/abs/2605.10315v1)|null|
