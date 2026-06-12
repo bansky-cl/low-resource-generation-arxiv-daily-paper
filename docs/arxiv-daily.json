@@ -7346,6 +7346,57 @@
       "abs_url": "http://arxiv.org/abs/2606.11235v1",
       "pdf_url": "https://arxiv.org/pdf/2606.11235v1",
       "code_url": null
+    },
+    "2606.13647": {
+      "id": "2606.13647",
+      "version": "2606.13647v1",
+      "title": "SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation",
+      "authors": [
+        "Marek Šuppa",
+        "Andrej Ridzik",
+        "Daniel Hládek",
+        "Natália Kňažeková",
+        "Viktória Ondrejová"
+      ],
+      "published": "2026-06-11",
+      "updated": "2026-06-11",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "We introduce SkMTEB, the first comprehensive MTEB-style text embedding benchmark for Slovak, a low-resource West Slavic language, comprising 31 datasets across 7 task types -- nearly 4$\\times$ the depth of existing multilingual benchmark coverage for Slovak. Our evaluation of 31 embedding models reveals that large instruction-tuned multilingual models achieve the strongest performance, while existing Slovak-specific models trained for NLU tasks transfer poorly to embedding tasks. To address the need for efficient, locally-deployable Slovak embeddings, we develop \\texttt{e5-sk-small} (45M parameters) and \\texttt{e5-sk-large} (365M) by applying vocabulary trimming and fine-tuning to Multilingual E5 models. Despite size reductions of up to 62\\%, our open-source models achieve competitive performance with proprietary APIs while remaining locally deployable for semantic search and retrieval-augmented generation (RAG). We release the benchmark, models, datasets, and code openly, hoping our approach offers a replicable path for other under-resourced languages.",
+      "abs_url": "http://arxiv.org/abs/2606.13647v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13647v1",
+      "code_url": null
+    },
+    "2606.12936": {
+      "id": "2606.12936",
+      "version": "2606.12936v1",
+      "title": "An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
+      "authors": [
+        "Zhe Liu",
+        "Huanbo Jin",
+        "Zhaohui Du",
+        "Zhe Wang",
+        "He Xu",
+        "Peijia Li",
+        "Jiaming Gu",
+        "Quan Lu",
+        "Qi Wang",
+        "Bin Ji",
+        "Ting Xiao"
+      ],
+      "published": "2026-06-11",
+      "updated": "2026-06-11",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "abstract": "Wet-lab robots can improve the reproducibility, throughput, and safety of biomedical experiments, but scaling their learning requires customizable simulators for safe and reproducible task generation, open editable laboratory assets, and efficient pipelines that turn limited demonstrations into usable training data. We present Pipette, an embodied simulation platform, benchmark, and data-efficient augmentation framework for wet-lab robot learning. Pipette releases over 43 open-source and re-editable wet-lab assets, together with an extensible asset-building pipeline. A key component of Pipette is its simulation-based data augmentation pipeline, replaying human demonstrations in simulation, applies lighting, camera, speed, and action perturbations, and filters generated episodes with automatic task success checks, rapidly expanding usable training data from limited manual demonstrations. We further introduce an 11-task wet-lab embodied benchmark covering sample handling, culture-ware manipulation, device operation, and precision placement. With only 30 demonstrations per task, ACT achieves 65.5% average success rate, while simulation augmentation improves SmolVLA from 44.1% to 74.7% and π0 from 40.4% to 46.5%, validating the effectiveness of Pipette for data-efficient VLA training and evaluation. Pipette also supports natural-language-driven scene construction and task registration, lowering the barrier for non-expert users to define new wet-lab robotic tasks.",
+      "abs_url": "http://arxiv.org/abs/2606.12936v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.12936v1",
+      "code_url": null
     }
   }
 }

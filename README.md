@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **335**
-- Recent 30 days: **122**
+- Total papers in JSON: **337**
+- Recent 30 days: **124**
 - Older than 30 days: **213**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-11**|**SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation**|cs.CL, cs.AI, cs.LG|[2606.13647v1](http://arxiv.org/abs/2606.13647v1)|null|
+|**2026-06-11**|**An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics**|cs.RO, cs.AI|[2606.12936v1](http://arxiv.org/abs/2606.12936v1)|null|
 |**2026-06-10**|**Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay**|cs.CL|[2606.11786v1](http://arxiv.org/abs/2606.11786v1)|null|
 |**2026-06-09**|**Schützen: Evaluating LLM Safety in Bulgarian and German Contexts**|cs.CL|[2606.11316v1](http://arxiv.org/abs/2606.11316v1)|**[code](https://github.com/xnlp-lab/Schutzen)**|
 |**2026-06-09**|**Small Data, Big Noise: Adversarial Training for Robust Parameter-Efficient Fine-Tuning**|cs.CL|[2606.10610v1](http://arxiv.org/abs/2606.10610v1)|null|
@@ -225,10 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-04-18**|**No One Fits All: From Fixed Prompting to Learned Routing in Multilingual LLMs**|cs.CL|[2604.16937v2](http://arxiv.org/abs/2604.16937v2)|null|
 |**2026-04-18**|**Self-Reinforcing Controllable Synthesis of Rare Relational Data via Bayesian Calibration**|cs.LG, cs.AI|[2604.16817v2](http://arxiv.org/abs/2604.16817v2)|**[code](https://github.com/cszhangLMU/RDDG)**|
 |**2026-04-18**|**SAVE: A Generalizable Framework for Multi-Condition Single-Cell Generation with Gene Block Attention**|cs.AI|[2604.16776v1](http://arxiv.org/abs/2604.16776v1)|**[code](https://github.com/fdu-wangfeilab/sc-save)**|
-|**2026-04-17**|**Cross-Modal Generation: From Commodity WiFi to High-Fidelity mmWave and RFID Sensing**|cs.LG|[2604.16558v1](http://arxiv.org/abs/2604.16558v1)|null|
-|**2026-04-16**|**Think Multilingual, Not Harder: A Data-Efficient Framework for Teaching Reasoning Models to Code-Switch**|cs.CL|[2604.15490v1](http://arxiv.org/abs/2604.15490v1)|null|
 
-README omitted **135** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **137** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
