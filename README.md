@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.12
+## Updated on 2026.06.13
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **337**
-- Recent 30 days: **124**
-- Older than 30 days: **213**
+- Recent 30 days: **116**
+- Older than 30 days: **221**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -138,6 +138,11 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-15**|**ALSO: Adversarial Online Strategy Optimization for Social Agents**|cs.AI, cs.CY|[2605.15768v2](http://arxiv.org/abs/2605.15768v2)|null|
 |**2026-05-14**|**Mitigating Data Scarcity in Psychological Defense Classification with Context-Aware Synthetic Augmentation**|cs.CL|[2605.14380v1](http://arxiv.org/abs/2605.14380v1)|**[code](https://github.com/htdgv/CASA-PDC)**|
 |**2026-05-14**|**Reinforcement Learning with Semantic Rewards Enables Low-Resource Language Expansion without Alignment Tax**|cs.CL, cs.LG|[2605.14366v1](http://arxiv.org/abs/2605.14366v1)|null|
+
+## Older Than 30 Days
+
+|Date|Title|Categories|PDF|Code|
+|---|---|---|---|---|
 |**2026-05-13**|**SLAP: Stratified Loss-based Pruning for On-Policy Data-Efficient Instruction Tuning**|cs.CL|[2605.23969v1](http://arxiv.org/abs/2605.23969v1)|null|
 |**2026-05-13**|**WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data**|cs.CL, cs.AI|[2605.13846v1](http://arxiv.org/abs/2605.13846v1)|null|
 |**2026-05-13**|**Conformal Anomaly Detection in Python: Moving Beyond Heuristic Thresholds with 'nonconform'**|stat.ML, cs.LG, stat.CO|[2605.13642v1](http://arxiv.org/abs/2605.13642v1)|null|
@@ -146,11 +151,6 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-13**|**Does language matter for spoken word classification? A multilingual generative meta-learning approach**|cs.CL, cs.AI|[2605.13084v2](http://arxiv.org/abs/2605.13084v2)|null|
 |**2026-05-13**|**Scaling few-shot spoken word classification with generative meta-continual learning**|cs.CL, cs.AI|[2605.13075v3](http://arxiv.org/abs/2605.13075v3)|null|
 |**2026-05-13**|**Context Training with Active Information Seeking**|cs.CL, cs.AI|[2605.13050v2](http://arxiv.org/abs/2605.13050v2)|null|
-
-## Older Than 30 Days
-
-|Date|Title|Categories|PDF|Code|
-|---|---|---|---|---|
 |**2026-05-12**|**DocAtlas: Multilingual Document Understanding Across 80+ Languages**|cs.CL, cs.CV, cs.LG|[2605.12623v2](http://arxiv.org/abs/2605.12623v2)|**[code](https://github.com/ahmedheakl/DocAtlas)**|
 |**2026-05-12**|**Predicting Decisions of AI Agents from Limited Interaction through Text-Tabular Modeling**|cs.LG, cs.AI, cs.CL, cs.MA|[2605.12411v1](http://arxiv.org/abs/2605.12411v1)|null|
 |**2026-05-12**|**Executable Agentic Memory for GUI Agent**|cs.AI|[2605.12294v1](http://arxiv.org/abs/2605.12294v1)|null|
