@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.15
+## Updated on 2026.06.16
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **337**
-- Recent 30 days: **111**
-- Older than 30 days: **226**
+- Recent 30 days: **107**
+- Older than 30 days: **230**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -129,15 +129,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-18**|**The Annotation Scarcity Paradox in Low-Resource NLP Evaluation: A Decade of Acceleration and Emerging Constraints**|cs.CL|[2605.19066v1](http://arxiv.org/abs/2605.19066v1)|null|
 |**2026-05-18**|**Ancient Greek to Modern Greek Machine Translation: A Novel Benchmark and Fine-Tuning Experiments on LLMs and NMT Models**|cs.CL|[2605.18504v1](http://arxiv.org/abs/2605.18504v1)|null|
 |**2026-05-18**|**Multilingual jailbreaking of LLMs using low-resource languages**|cs.CL, cs.AI|[2605.18239v1](http://arxiv.org/abs/2605.18239v1)|null|
-|**2026-05-16**|**ZeroUnlearn: Few-Shot Knowledge Unlearning in Large Language Models**|cs.LG, cs.AI, cs.CL|[2605.18879v3](http://arxiv.org/abs/2605.18879v3)|**[code](https://github.com/XMUDeepLIT/ZeroUnlearn)**|
-|**2026-05-16**|**Why Do Safety Guardrails Degrade Across Languages?**|cs.CL, cs.AI, cs.LG|[2605.17173v1](http://arxiv.org/abs/2605.17173v1)|null|
-|**2026-05-16**|**D$^2$Evo: Dual Difficulty-Aware Self-Evolution for Data-Efficient Reinforcement Learning**|cs.LG, cs.AI, cs.CL|[2605.17037v1](http://arxiv.org/abs/2605.17037v1)|null|
-|**2026-05-16**|**Retrieval-Based Multi-Label Legal Annotation: Extensible, Data-Efficient and Hallucination-Free**|cs.CL|[2605.16767v1](http://arxiv.org/abs/2605.16767v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-05-16**|**ZeroUnlearn: Few-Shot Knowledge Unlearning in Large Language Models**|cs.LG, cs.AI, cs.CL|[2605.18879v3](http://arxiv.org/abs/2605.18879v3)|**[code](https://github.com/XMUDeepLIT/ZeroUnlearn)**|
+|**2026-05-16**|**Why Do Safety Guardrails Degrade Across Languages?**|cs.CL, cs.AI, cs.LG|[2605.17173v1](http://arxiv.org/abs/2605.17173v1)|null|
+|**2026-05-16**|**D$^2$Evo: Dual Difficulty-Aware Self-Evolution for Data-Efficient Reinforcement Learning**|cs.LG, cs.AI, cs.CL|[2605.17037v1](http://arxiv.org/abs/2605.17037v1)|null|
+|**2026-05-16**|**Retrieval-Based Multi-Label Legal Annotation: Extensible, Data-Efficient and Hallucination-Free**|cs.CL|[2605.16767v1](http://arxiv.org/abs/2605.16767v1)|null|
 |**2026-05-15**|**GenAI-FDIA: Physics-Informed Generative Models for False Data Injection Attacks**|cs.CR, cs.AI, cs.LG|[2605.18873v1](http://arxiv.org/abs/2605.18873v1)|null|
 |**2026-05-15**|**From Flat Language Labels to Typological Priors: Structured Language Conditioning for Multilingual Speech-to-Speech Translation**|cs.CL, cs.AI|[2605.16026v1](http://arxiv.org/abs/2605.16026v1)|null|
 |**2026-05-15**|**ALSO: Adversarial Online Strategy Optimization for Social Agents**|cs.AI, cs.CY|[2605.15768v2](http://arxiv.org/abs/2605.15768v2)|null|
