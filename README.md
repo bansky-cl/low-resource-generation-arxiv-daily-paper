@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **337**
-- Recent 30 days: **107**
+- Total papers in JSON: **344**
+- Recent 30 days: **114**
 - Older than 30 days: **230**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,13 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-15**|**Diffusion Offline Reinforcement Learning for Fair and Energy-Efficient UAV-Assisted Wireless Networks**|cs.LG|[2606.16331v1](http://arxiv.org/abs/2606.16331v1)|null|
+|**2026-06-14**|**CIWI-CKT: Chaos-Informed Wave Interference Feature Fusion and Cross-City Knowledge Transfer for Traffic Flow Forecasting**|cs.LG, cs.AI|[2606.15642v1](http://arxiv.org/abs/2606.15642v1)|null|
+|**2026-06-14**|**HAPI-EP: Towards Hybrid, Adaptive, and Predictive Digital Twins of Cardiac Electrophysiology**|cs.LG|[2606.15637v1](http://arxiv.org/abs/2606.15637v1)|null|
+|**2026-06-13**|**PHINN: Persistent Homology Inspired Neural Network for Rare-Event Time Series Generation**|cs.LG, math.AT, q-fin.RM, stat.ML|[2606.15452v1](http://arxiv.org/abs/2606.15452v1)|null|
+|**2026-06-13**|**Few-Shot Biomedical Relation Extraction with Large Language Models: A Viable Alternative to Supervised Learning?**|cs.CL, cs.AI|[2606.15412v1](http://arxiv.org/abs/2606.15412v1)|null|
+|**2026-06-13**|**Towards a Unified Generative Model for Scarce Time Series with Domain Experts**|cs.LG|[2606.15172v1](http://arxiv.org/abs/2606.15172v1)|null|
+|**2026-06-12**|**Combining Retrieval-Augmented Text Generation with LLMs for Reading Content Recommendations**|cs.IR, cs.AI|[2606.14817v1](http://arxiv.org/abs/2606.14817v1)|null|
 |**2026-06-11**|**SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation**|cs.CL, cs.AI, cs.LG|[2606.13647v1](http://arxiv.org/abs/2606.13647v1)|null|
 |**2026-06-11**|**An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics**|cs.RO, cs.AI|[2606.12936v1](http://arxiv.org/abs/2606.12936v1)|null|
 |**2026-06-10**|**Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay**|cs.CL|[2606.11786v1](http://arxiv.org/abs/2606.11786v1)|null|
@@ -220,15 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-04-21**|**OLLM: Options-based Large Language Models**|cs.AI|[2604.19087v1](http://arxiv.org/abs/2604.19087v1)|null|
 |**2026-04-20**|**Retrieval Augmented Generation Framework for the Nepali Legal Domain Question Answering**|cs.CL, cs.AI|[2606.07523v1](http://arxiv.org/abs/2606.07523v1)|null|
 |**2026-04-20**|**Syntax as a Rosetta Stone: Universal Dependencies for In-Context Coptic Translation**|cs.CL|[2604.18758v2](http://arxiv.org/abs/2604.18758v2)|null|
-|**2026-04-20**|**CodePivot: Bootstrapping Multilingual Transpilation in LLMs via Reinforcement Learning without Parallel Corpora**|cs.SE, cs.CL|[2604.18027v1](http://arxiv.org/abs/2604.18027v1)|**[code](https://github.com/lishangyu-hkust/CodePivot)**|
-|**2026-04-20**|**Adversarial Arena: Crowdsourcing Data Generation through Interactive Competition**|cs.AI, cs.LG|[2604.17803v1](http://arxiv.org/abs/2604.17803v1)|null|
-|**2026-04-20**|**LLM-AUG: Robust Wireless Data Augmentation with In-Context Learning in Large Language Models**|cs.LG|[2604.17770v1](http://arxiv.org/abs/2604.17770v1)|null|
-|**2026-04-19**|**MoVE: Translating Laughter and Tears via Mixture of Vocalization Experts in Speech-to-Speech Translation**|cs.CL, cs.AI, cs.SD, eess.AS|[2604.17435v1](http://arxiv.org/abs/2604.17435v1)|null|
-|**2026-04-18**|**No One Fits All: From Fixed Prompting to Learned Routing in Multilingual LLMs**|cs.CL|[2604.16937v2](http://arxiv.org/abs/2604.16937v2)|null|
-|**2026-04-18**|**Self-Reinforcing Controllable Synthesis of Rare Relational Data via Bayesian Calibration**|cs.LG, cs.AI|[2604.16817v2](http://arxiv.org/abs/2604.16817v2)|**[code](https://github.com/cszhangLMU/RDDG)**|
-|**2026-04-18**|**SAVE: A Generalizable Framework for Multi-Condition Single-Cell Generation with Gene Block Attention**|cs.AI|[2604.16776v1](http://arxiv.org/abs/2604.16776v1)|**[code](https://github.com/fdu-wangfeilab/sc-save)**|
 
-README omitted **137** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **144** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

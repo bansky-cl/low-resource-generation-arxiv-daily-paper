@@ -7397,6 +7397,147 @@
       "abs_url": "http://arxiv.org/abs/2606.12936v1",
       "pdf_url": "https://arxiv.org/pdf/2606.12936v1",
       "code_url": null
+    },
+    "2606.15412": {
+      "id": "2606.15412",
+      "version": "2606.15412v1",
+      "title": "Few-Shot Biomedical Relation Extraction with Large Language Models: A Viable Alternative to Supervised Learning?",
+      "authors": [
+        "Jakob Mraz",
+        "Tomaž Curk",
+        "Blaž Zupan"
+      ],
+      "published": "2026-06-13",
+      "updated": "2026-06-13",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Biomedical relation extraction (BioRE) is a key step in transforming biomedical literature into structured knowledge. However, most existing approaches rely on supervised models trained on costly annotated datasets, limiting their scalability and adaptability across relation types and domains. We investigate few-shot BioRE using prompt-based learning with large language models (LLMs) and compare two task formulations: pairwise classification, which predicts relations for individual entity pairs, and joint generation, which extracts multiple relations in a single model call. Experiments on the BioREDirect dataset reveal a clear precision-recall trade-off. Pairwise classification achieves higher recall, whereas joint generation is more precise and computationally efficient. The best-performing model achieves a micro-F1 score of 0.44, substantially outperforming previous few-shot results (0.34) while remaining below the supervised baseline (0.56). Much of this gap is attributable to a single ambiguously defined relation type. When evaluated using macro-F1, which better captures performance across relation types in an imbalanced setting, prompt-based approaches outperform the supervised baseline (0.45 vs. 0.38), particularly on rare relation types. These findings highlight the potential of LLMs for BioRE in low-resource settings and underscore the importance of well-defined relation schemas.",
+      "abs_url": "http://arxiv.org/abs/2606.15412v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.15412v1",
+      "code_url": null
+    },
+    "2606.15642": {
+      "id": "2606.15642",
+      "version": "2606.15642v1",
+      "title": "CIWI-CKT: Chaos-Informed Wave Interference Feature Fusion and Cross-City Knowledge Transfer for Traffic Flow Forecasting",
+      "authors": [
+        "Abdul Joseph Fofanah",
+        "Lian Wen",
+        "David Chen",
+        "Shaoyang Zhang"
+      ],
+      "published": "2026-06-14",
+      "updated": "2026-06-14",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Accurate traffic flow prediction remains challenging in cross-city, data-scarce scenarios where limited historical data hinders model generalisation. The chaotic nature of traffic dynamics, complex spatio-temporal dependencies, and heterogeneous urban networks complicate few-shot learning across cities. Existing deep learning approaches either treat traffic as purely deterministic or lack mechanisms to model wave-like interference patterns essential for cross-regime traffic dynamics. To address these limitations, this paper proposes CIWI-CKT, a novel Chaos-Informed Wave Interference Feature Fusion framework with Cross-City Knowledge Transfer. Our framework introduces three core innovations: chaos-informed wave generation that extracts measurable chaos invariants and models traffic as adaptive wave components; meta-interference processing that captures wave interactions between support and query regimes while producing a predictability score for confidence estimation; and chaos-aware meta-learning that enables efficient cross-city knowledge transfer while preserving chaotic characteristics. We establish theoretical guarantees including chaos-to-wave stability, wave-induced dimension reduction, and meta-learning generalisation bounds. Extensive experiments on four real-world traffic datasets demonstrate that CIWI-CKT significantly outperforms state-of-the-art spatio-temporal graph learning, transfer learning, prompt-based, and few-shot methods, improving prediction accuracy while substantially reducing required training data.",
+      "abs_url": "http://arxiv.org/abs/2606.15642v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.15642v1",
+      "code_url": null
+    },
+    "2606.15637": {
+      "id": "2606.15637",
+      "version": "2606.15637v1",
+      "title": "HAPI-EP: Towards Hybrid, Adaptive, and Predictive Digital Twins of Cardiac Electrophysiology",
+      "authors": [
+        "Sumeet Vadhavkar",
+        "Xiajun Jiang",
+        "Yubo Ye",
+        "Maryam Toloubidokhti",
+        "Linwei Wang"
+      ],
+      "published": "2026-06-14",
+      "updated": "2026-06-14",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "A digital twin (DT) of a patient-specific heart offers significant potential in personalized medicine. However, its rapid and dynamic adaptation to an individual's live data and its predictive capability after adaptation remains central challenges. We examine this challenge from its two building blocks: DT formulation where mechanistic and data-driven models show competing merits and limitations, and DT optimization strategies that are largely driven by a reconstruction objective leading to un-identifiable models. We address both bottlenecks via HAPI -- an AI framework for building hybrid, adaptive, and predictive DTs with three key enablers. First, HAPI constructs a physics-integrated gray-box model in which an interpretable mechanistic backbone is augmented by a neural component that models its residual to the observed data. Second, rather than attempting to pre-encode all possible variations in a static hybrid model, HAPI enables rapid on-the-fly adaptation of the hybrid model to few-shot live data, achieved by feedforward meta-learners realizing amortized inference of both mechanistic and neural parameters of the hybrid model trained with predictive objectives. Finally, we show that this adaptivity corresponds to the construction of a conditional generative model (i.e., the hybrid DT) that endows it with theoretical identifiability and thus strong performance in predictive scenarios. We demonstrate the proof-of-concept of HAPI in cardiac electrophysiology using a hybrid monodomain model with mechanistic reaction kinetics and neural graph diffusion. Across synthetic and real-data studies, we show that HAPI's mechanistic-neural hybridization and predictive adaptation are critical for obtaining identifiable DTs with strong predictive and out-of-distribution capabilities.",
+      "abs_url": "http://arxiv.org/abs/2606.15637v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.15637v1",
+      "code_url": null
+    },
+    "2606.15452": {
+      "id": "2606.15452",
+      "version": "2606.15452v1",
+      "title": "PHINN: Persistent Homology Inspired Neural Network for Rare-Event Time Series Generation",
+      "authors": [
+        "Emre Yusuf",
+        "Ren Takahashi",
+        "Jayabrata Bhaduri"
+      ],
+      "published": "2026-06-13",
+      "updated": "2026-06-13",
+      "categories": [
+        "cs.LG",
+        "math.AT",
+        "q-fin.RM",
+        "stat.ML"
+      ],
+      "abstract": "Rare events in time series are critical to model but hard to learn due to data scarcity. Current generative models struggle with extreme values. We observe that rare events leave distinct topological fingerprints - transitions in Betti numbers from point-cloud embeddings - that are more stable and discriminative than statistical moments. We introduce PHINN, a flow-matching framework using dynamic Betti curves as conditioning signals and a persistence landscape loss for homology consistency. It scales to multivariate data, includes a natural-language interface to set Betti targets, supports cross-domain meta-learning and few-shot generation, and provides certified adversarial robustness. On financial, epidemiological, and multi-modal benchmarks, PHINN outperforms statistical and diffusion baselines in topological fidelity (beta-RMSE down 41-63%, transition accuracy up 84%) and matches jump-diffusion models in tail coverage while exceeding them in shape fidelity. All results have 95% confidence intervals.",
+      "abs_url": "http://arxiv.org/abs/2606.15452v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.15452v1",
+      "code_url": null
+    },
+    "2606.15172": {
+      "id": "2606.15172",
+      "version": "2606.15172v1",
+      "title": "Towards a Unified Generative Model for Scarce Time Series with Domain Experts",
+      "authors": [
+        "Zihao Yao",
+        "Qi Zheng",
+        "Jiankai Zuo",
+        "Yaying Zhang"
+      ],
+      "published": "2026-06-13",
+      "updated": "2026-06-13",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Synthesizing realistic time series with generative models has wide-ranging applications in real-world scenarios. Despite recent progress, most existing methods are trained under the assumption of abundant training data, which substantially limits their effectiveness in data-scarce settings. In this paper, we propose TimeMoDE, a novel framework that integrates Diffusion Transformers with Mixture-of-Experts to exploit both domain adaptability and diffusion-stage awareness for time series generation under data scarcity. It is pre-trained on a large-scale collection of multi-domain datasets to extract domain-agnostic temporal representations and domain-specific information benefiting generalization during fine-tuning. We propose Domain Prompts to condition expert assignment for indistinguishable noised tokens, mitigating the limitations of capturing inter-dataset relationships. Moreover, we incorporate diffusion timestep signals to equip the experts with awareness of time series degradation variations, facilitating adaptive calibrate to stage-dependent denoising requirements. Extensive experiments demonstrate that TimeMoDE outperforms existing methods under diverse low-data settings. It establishes an innovative paradigm for advanced time series few-shot generation.",
+      "abs_url": "http://arxiv.org/abs/2606.15172v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.15172v1",
+      "code_url": null
+    },
+    "2606.14817": {
+      "id": "2606.14817",
+      "version": "2606.14817v1",
+      "title": "Combining Retrieval-Augmented Text Generation with LLMs for Reading Content Recommendations",
+      "authors": [
+        "Sooyeon Kim",
+        "Piotr S. Maciąg"
+      ],
+      "published": "2026-06-12",
+      "updated": "2026-06-12",
+      "categories": [
+        "cs.IR",
+        "cs.AI"
+      ],
+      "abstract": "This work presents the design, implementation, and evaluation of a system for generating personalized reading content using Large Language Models (LLMs) combined with Retrieval-Augmented Generation (RAG). The proposed architecture consists of four modules: Input, RAG, Generation, and Judging and enables users to specify both a question and a target reading content complexity. RAG is employed to retrieve relevant information from the Internet, enriching and grounding the content produced by three modern LLMs: Meta LLaMA 4 Scout, LLaMA 3.1 8B Instant, and Google Gemma2 9B. Reading materials are generated using three prompting strategies (Chain-of-Thought, zero-shot, and few-shot), and the LLM-as-a-Judge module automatically evaluates answer quality and alignment with the desired readability level. Experimental results show that RAG consistently improves system performance across all models and prompting techniques, increasing relevance and particularly groundedness by up to 26-35 percentage points. Overall, the findings demonstrate that the RAG-augmented architecture effectively produces reading content tailored to user queries and desired textual complexity.",
+      "abs_url": "http://arxiv.org/abs/2606.14817v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14817v1",
+      "code_url": null
+    },
+    "2606.16331": {
+      "id": "2606.16331",
+      "version": "2606.16331v1",
+      "title": "Diffusion Offline Reinforcement Learning for Fair and Energy-Efficient UAV-Assisted Wireless Networks",
+      "authors": [
+        "Eslam Eldeeb",
+        "Hirley Alves"
+      ],
+      "published": "2026-06-15",
+      "updated": "2026-06-15",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "The integration of generative artificial intelligence with wireless communication and signal processing systems has opened new avenues for intelligent, data-driven decision-making in future 6G networks. This work proposes a diffusion soft actor-critic (Diffusion-SAC) approach that leverages offline reinforcement learning (RL) enhanced by denoising diffusion probabilistic models (DDPMs) to optimize trajectory and scheduling control in unmanned aerial vehicle (UAV) networks. While offline RL methods, such as conservative Q-learning (CQL), can learn from static datasets, they often struggle to generalize in low-data or dynamic conditions. To address this, we combine the robustness of CQL with the generative power of diffusion models, enabling expressive and signal-aware policy learning that generalizes beyond behavior policies. Applied to a UAV-assisted wireless network, the proposed framework minimizes transmission energy and improves fairness among devices. Simulations show that Diffusion-SAC outperforms standard offline RL baselines, achieving more stable convergence and higher rewards even with limited datasets. The method enhances data efficiency, reduces energy consumption, and increases throughput by more than 35 % compared to existing algorithms, demonstrating its potential for robust policy learning in next-generation wireless control systems.",
+      "abs_url": "http://arxiv.org/abs/2606.16331v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16331v1",
+      "code_url": null
     }
   }
 }
