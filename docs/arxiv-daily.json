@@ -7579,6 +7579,49 @@
       "abs_url": "http://arxiv.org/abs/2606.17074v1",
       "pdf_url": "https://arxiv.org/pdf/2606.17074v1",
       "code_url": null
+    },
+    "2606.18989": {
+      "id": "2606.18989",
+      "version": "2606.18989v1",
+      "title": "G-IdiomAlign: A Gloss-Pivoted Benchmark for Cross-Lingual Idiom Alignment",
+      "authors": [
+        "Fengying Ye",
+        "Yanming Sun",
+        "Runzhe Zhan",
+        "Zheqi Zhang",
+        "Lidia S. Chao",
+        "Derek F. Wong"
+      ],
+      "published": "2026-06-17",
+      "updated": "2026-06-17",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Idioms are difficult to transfer across languages due to their non-compositionality and weak surface-form grounding, making literal mappings unreliable. We present G-IdiomAlign, a gloss-pivoted benchmark where each idiom is anchored by an English gloss from Wiktionary. We further construct a high-confidence reference alignment set for reproducible evaluation. G-IdiomAlign supports two protocols: (1) a controlled Multiple-Choice Idiom Equivalence with typed distractors for error attribution; and (2) a Gloss-Contrastive Generation contrasting No-gloss and With-gloss inputs to isolate the effect of an explicit semantic pivot. Across diverse LLMs, a bias to literal translation is a dominant failure mode, especially when the target is a low-resource language. Glosses consistently improve Gloss-Contrastive Generation under an embedding-based semantic proxy, but performance remains modest, indicating substantial headroom in the open output space. Subsequent analysis on Qwen3-8B further suggests that cross-condition differences are concentrated more in attention heads than in layers, while better With-gloss generations coincide with stronger gloss anchoring.",
+      "abs_url": "http://arxiv.org/abs/2606.18989v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18989v1",
+      "code_url": null
+    },
+    "2606.18389": {
+      "id": "2606.18389",
+      "version": "2606.18389v1",
+      "title": "Want Better Synthetic Data? Steer It: Activation Steering for Low-Resource Language Generation",
+      "authors": [
+        "Jan Cegin",
+        "Daniil Gurgurov",
+        "Yusser Al Ghussin",
+        "Simon Ostermann"
+      ],
+      "published": "2026-06-16",
+      "updated": "2026-06-16",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large language models (LLMs) have become an effective tool for synthetic data generation, including for low-resource languages, where generated data can improve downstream task performance. Current best-performing approaches typically rely on few-shot prompting with target-language examples, which increases inference costs and may reduce diversity through lexical anchoring. In this work, we investigate activation steering as an alternative for low-resource synthetic data generation. We study two steering strategies: Language Steering, which targets the linguistic identity of a language, and Quality Steering, which captures well-formedness by contrasting human-written and backtranslated text representations. We evaluate these methods across four open-source LLMs, multiple layers, and 11 typologically diverse languages by generating sentiment and topic classification data and finetuning smaller classifiers. Steering is applied in both zero-shot and few-shot prompting settings and compared against non-steered counterparts. Our results show that steering on early layers consistently improves the diversity of generated data while often yielding stronger downstream model performance, particularly for low-resource languages.",
+      "abs_url": "http://arxiv.org/abs/2606.18389v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.18389v1",
+      "code_url": null
     }
   }
 }

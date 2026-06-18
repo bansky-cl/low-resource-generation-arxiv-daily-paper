@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **346**
-- Recent 30 days: **113**
+- Total papers in JSON: **348**
+- Recent 30 days: **115**
 - Older than 30 days: **233**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-17**|**G-IdiomAlign: A Gloss-Pivoted Benchmark for Cross-Lingual Idiom Alignment**|cs.CL, cs.AI|[2606.18989v1](http://arxiv.org/abs/2606.18989v1)|null|
+|**2026-06-16**|**Want Better Synthetic Data? Steer It: Activation Steering for Low-Resource Language Generation**|cs.CL|[2606.18389v1](http://arxiv.org/abs/2606.18389v1)|null|
 |**2026-06-16**|**When English Isn't the Best Teacher: Source Language Effects in Cross-Lingual In-Context Learning**|cs.CL, cs.AI|[2606.18033v1](http://arxiv.org/abs/2606.18033v1)|null|
 |**2026-06-15**|**Diffusion Offline Reinforcement Learning for Fair and Energy-Efficient UAV-Assisted Wireless Networks**|cs.LG|[2606.16331v1](http://arxiv.org/abs/2606.16331v1)|null|
 |**2026-06-14**|**CIWI-CKT: Chaos-Informed Wave Interference Feature Fusion and Cross-City Knowledge Transfer for Traffic Flow Forecasting**|cs.LG, cs.AI|[2606.15642v1](http://arxiv.org/abs/2606.15642v1)|null|
@@ -225,10 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-04-22**|**Synthetic Flight Data Generation Using Generative Models**|cs.LG|[2604.20293v1](http://arxiv.org/abs/2604.20293v1)|null|
 |**2026-04-21**|**Bangla Key2Text: Text Generation from Keywords for a Low Resource Language**|cs.CL|[2604.19508v1](http://arxiv.org/abs/2604.19508v1)|null|
 |**2026-04-21**|**LePREC: Reasoning as Classification over Structured Factors for Assessing Relevance of Legal Issues**|cs.CL, cs.AI|[2604.19464v1](http://arxiv.org/abs/2604.19464v1)|null|
-|**2026-04-21**|**Industrial Surface Defect Detection via Diffusion Generation and Asymmetric Student-Teacher Network**|cs.AI|[2604.19240v1](http://arxiv.org/abs/2604.19240v1)|null|
-|**2026-04-21**|**OLLM: Options-based Large Language Models**|cs.AI|[2604.19087v1](http://arxiv.org/abs/2604.19087v1)|null|
 
-README omitted **146** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **148** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
