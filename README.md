@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **348**
-- Recent 30 days: **114**
+- Total papers in JSON: **349**
+- Recent 30 days: **115**
 - Older than 30 days: **234**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,7 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-17**|**DF-ExpEnse: Diffusion Filtered Exploration for Sample Efficient Finetuning**|cs.RO, cs.LG|[2606.19656v1](http://arxiv.org/abs/2606.19656v1)|**[code](https://df-expense.github.io)**|
 |**2026-06-17**|**G-IdiomAlign: A Gloss-Pivoted Benchmark for Cross-Lingual Idiom Alignment**|cs.CL, cs.AI|[2606.18989v1](http://arxiv.org/abs/2606.18989v1)|null|
 |**2026-06-16**|**Want Better Synthetic Data? Steer It: Activation Steering for Low-Resource Language Generation**|cs.CL|[2606.18389v1](http://arxiv.org/abs/2606.18389v1)|null|
 |**2026-06-16**|**When English Isn't the Best Teacher: Source Language Effects in Cross-Lingual In-Context Learning**|cs.CL, cs.AI|[2606.18033v1](http://arxiv.org/abs/2606.18033v1)|null|
@@ -48,7 +49,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-07**|**PIPE-Cypher: Automatic Enterprise Benchmark Generation for Text-to-Cypher Systems**|cs.LG, cs.AI, cs.DB, cs.SE|[2606.08481v1](http://arxiv.org/abs/2606.08481v1)|null|
 |**2026-06-06**|**ZAS-SQL: Distilling Rules from Failures for Zero-Shot Text-to-SQL**|cs.CL|[2606.08245v1](http://arxiv.org/abs/2606.08245v1)|null|
 |**2026-06-06**|**De novo molecular generation with optical property preconditioning at the token level**|cs.LG|[2606.08221v1](http://arxiv.org/abs/2606.08221v1)|null|
-|**2026-06-05**|**The ACUTE Protocol: Operationalizing Language Model Activations for Better Calibration, Utility, and Trust**|cs.CL, cs.AI, cs.LG|[2606.07822v1](http://arxiv.org/abs/2606.07822v1)|null|
+|**2026-06-05**|**The ACUTE Protocol: Operationalizing Language Model Activations for Better Calibration, Utility, and Trust**|cs.CL, cs.AI, cs.LG|[2606.07822v2](http://arxiv.org/abs/2606.07822v2)|null|
 |**2026-06-05**|**Automatic Extraction of Structured Information from Brain MRI Reports Using an Open-Weight Large Language Model**|cs.AI|[2606.07721v1](http://arxiv.org/abs/2606.07721v1)|null|
 |**2026-06-05**|**CoMetaPNS: Continually Meta-learning Personalized Neural Surrogates for Cardiac Electrophysiology Simulations**|cs.LG|[2606.07488v1](http://arxiv.org/abs/2606.07488v1)|null|
 |**2026-06-05**|**Making the Most of Limited Data: Score-Aware Training for Text-to-Music Generation**|cs.LG|[2606.07387v1](http://arxiv.org/abs/2606.07387v1)|null|
@@ -65,7 +66,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-03**|**Deliberate Evolution: Agentic Reasoning for Sample-Efficient Symbolic Regression with LLMs**|cs.CL, cs.LG|[2606.04360v1](http://arxiv.org/abs/2606.04360v1)|null|
 |**2026-06-02**|**scTranslation: A Comprehensive Benchmark for Single-Cell Multi-Omics Modality Translation**|cs.AI|[2606.03906v1](http://arxiv.org/abs/2606.03906v1)|**[code](https://github.com/Bunnybeibei/scTranslation)**|
 |**2026-06-02**|**Reasoning over Grammar: Can Synthetic Linguistic Reasoning Traces Enhance Low-Resource Machine Translation?**|cs.CL|[2606.03782v1](http://arxiv.org/abs/2606.03782v1)|null|
-|**2026-06-02**|**Automating Information Extraction and Retrieval for Industrial Spare Parts Pooling**|cs.IR|[2606.03367v1](http://arxiv.org/abs/2606.03367v1)|**[code](https://github.com/roccofelici/vspool)**|
+|**2026-06-02**|**Automating Information Extraction and Retrieval for Industrial Spare Parts Pooling**|cs.IR|[2606.03367v2](http://arxiv.org/abs/2606.03367v2)|null|
 |**2026-06-02**|**From Script to Semantics: Prompting Strategies for African NLI**|cs.CL, cs.LG|[2606.03304v1](http://arxiv.org/abs/2606.03304v1)|null|
 |**2026-06-02**|**Beyond "To whom it may concern": Tailoring Machine Translation to Audience and Intent**|cs.CL|[2606.03259v1](http://arxiv.org/abs/2606.03259v1)|null|
 |**2026-06-02**|**EURO-5K: When Does Domain Pretraining Matter? Benchmarking Transformers for EU Reporting Obligation Extraction**|cs.CL|[2606.02971v1](http://arxiv.org/abs/2606.02971v1)|null|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-04-22**|**Cold-Start Forecasting of New Product Life-Cycles via Conditional Diffusion Models**|cs.LG, stat.ML|[2604.20370v1](http://arxiv.org/abs/2604.20370v1)|null|
 |**2026-04-22**|**Synthetic Flight Data Generation Using Generative Models**|cs.LG|[2604.20293v1](http://arxiv.org/abs/2604.20293v1)|null|
 |**2026-04-21**|**Bangla Key2Text: Text Generation from Keywords for a Low Resource Language**|cs.CL|[2604.19508v1](http://arxiv.org/abs/2604.19508v1)|null|
-|**2026-04-21**|**LePREC: Reasoning as Classification over Structured Factors for Assessing Relevance of Legal Issues**|cs.CL, cs.AI|[2604.19464v1](http://arxiv.org/abs/2604.19464v1)|null|
 
-README omitted **148** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **149** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

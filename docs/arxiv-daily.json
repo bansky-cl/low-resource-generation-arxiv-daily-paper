@@ -3703,7 +3703,7 @@
     },
     "2606.07822": {
       "id": "2606.07822",
-      "version": "2606.07822v1",
+      "version": "2606.07822v2",
       "title": "The ACUTE Protocol: Operationalizing Language Model Activations for Better Calibration, Utility, and Trust",
       "authors": [
         "Nishant Subramani",
@@ -3715,15 +3715,15 @@
         "Hamid Palangi"
       ],
       "published": "2026-06-05",
-      "updated": "2026-06-05",
+      "updated": "2026-06-17",
       "categories": [
         "cs.CL",
         "cs.AI",
         "cs.LG"
       ],
       "abstract": "As language models improve and become increasingly deployed to solve a variety of tasks, trustworthiness becomes essential. Calibration is a good proxy for trust: well-calibrated confidence estimates help inform the risk versus reward tradeoff when trusting a specific model output. Unfortunately, even as models improve, they remain poorly calibrated, often biasing towards overconfidence. Additionally, calibration can be gamed: a policy that always predicts the base rate is perfectly calibrated, but completely uninformative. To resolve this, we develop a new metric, expected utility renormalized by the oracle (EURO), that balances calibration and informativeness. We also propose a general-purpose activation-based confidence, utility, and trust estimation protocol (ACUTE) to appropriately adjudicate uncertainty. The ACUTE protocol provides flexible, sample-efficient, and compute-efficient confidence estimators for 3 tasks including multiple choice question answering, tool-calling, and scientific document summarization across 6 models from 4 model families. ACUTE outperforms strong baselines on EURO, while maintaining low calibration error. Taken together, our work shows that equipping LLMs with the ACUTE protocol can improve calibration, utility, and trustworthiness in numerous settings.",
-      "abs_url": "http://arxiv.org/abs/2606.07822v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.07822v1",
+      "abs_url": "http://arxiv.org/abs/2606.07822v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.07822v2",
       "code_url": null
     },
     "2606.04360": {
@@ -6221,7 +6221,7 @@
     },
     "2606.03367": {
       "id": "2606.03367",
-      "version": "2606.03367v1",
+      "version": "2606.03367v2",
       "title": "Automating Information Extraction and Retrieval for Industrial Spare Parts Pooling",
       "authors": [
         "Dyuman Bulloni",
@@ -6230,14 +6230,14 @@
         "Anna Valente"
       ],
       "published": "2026-06-02",
-      "updated": "2026-06-02",
+      "updated": "2026-06-18",
       "categories": [
         "cs.IR"
       ],
-      "abstract": "Maintenance organizations in manufacturing try to avoid downtime and unnecessary purchasing by reusing existing assets, but the main obstacle is not a lack of parts but a lack of actionable visibility across sites and partners. Inventories are distributed, described with inconsistent naming conventions, and contain duplicates and partially specified references, so the right part often exists somewhere but remains effectively undiscoverable. The paper proposes PhRAG, a hybrid Retrieval-Augmented Generation for Pooling this fragmented landscape into a Virtual Stock Pool (VSPool) that can be structured and searched as a single resource. Unstructured, heterogeneous spare part descriptions are structured via Named Entity Recognition (NER) into a shared virtual pool dataset and indexed to support robust retrieval even when users express needs in natural language rather than exact technical specifications. The proposed modular pipeline leverages the multitasking nature of generative language models to cover two dimensions that make industrial parts pooling challenging: (i) unstructured technical specifications from diverse data sources (e.g. new partners, catalogs, marketplace listings) are handled through an offline extraction and (ii) request variability at runtime (references, partial references, specifications, price/condition constraints) is handled through a hybrid RAG-based search engine capable of retrieving relevant components and justifying results. The framework demonstrates the potential of generative approaches compared with traditional NER approaches in the presence of data scarcity for technical specifications extraction and overcomes the opacity of standard information retrieval systems by generating justifications for retrieved components. The project's open-source code can be found at https://github.com/roccofelici/vspool.",
-      "abs_url": "http://arxiv.org/abs/2606.03367v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.03367v1",
-      "code_url": "https://github.com/roccofelici/vspool"
+      "abstract": "Maintenance organizations in manufacturing try to avoid downtime and unnecessary purchasing by reusing existing assets, but the main obstacle is not a lack of parts but a lack of actionable visibility across sites and partners. Inventories are distributed, described with inconsistent naming conventions, and contain duplicates and partially specified references, so the right part often exists somewhere but remains effectively undiscoverable. The paper proposes PhRAG, a hybrid Retrieval-Augmented Generation for pooling this fragmented landscape into a Virtual Stock Pool (VSPool) that can be structured and searched as a single resource. Heterogeneous spare part descriptions are structured via Named Entity Recognition (NER) into a shared virtual pool dataset and indexed to support robust retrieval even when users express needs in natural language rather than exact technical specifications. The proposed modular pipeline leverages the multitasking nature of generative language models to cover two dimensions that make industrial parts pooling challenging: ($\\boldsymbol{i}$) unstructured technical specifications from diverse data sources (e.g. new partners, catalogs, marketplace listings) are handled through an offline extraction and ($\\boldsymbol{ii}$) request variability at runtime (references, partial references, specifications, price/condition constraints) is handled through a hybrid RAG-based search engine capable of retrieving relevant components and justifying results. The framework demonstrates the potential of generative approaches compared with traditional NER approaches in the presence of data scarcity for technical specifications extraction and overcomes the opacity of standard information retrieval systems by generating justifications for retrieved components.",
+      "abs_url": "http://arxiv.org/abs/2606.03367v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.03367v2",
+      "code_url": null
     },
     "2605.27113": {
       "id": "2605.27113",
@@ -7622,6 +7622,26 @@
       "abs_url": "http://arxiv.org/abs/2606.18389v1",
       "pdf_url": "https://arxiv.org/pdf/2606.18389v1",
       "code_url": null
+    },
+    "2606.19656": {
+      "id": "2606.19656",
+      "version": "2606.19656v1",
+      "title": "DF-ExpEnse: Diffusion Filtered Exploration for Sample Efficient Finetuning",
+      "authors": [
+        "Calvin Luo",
+        "Chen Sun",
+        "Shuran Song"
+      ],
+      "published": "2026-06-17",
+      "updated": "2026-06-17",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "abstract": "A natural recipe for intelligent robotic decision-making is initializing from pretrained generative control policies, which have summarized offline experience, and adapting them to self-collected online experience. We present DF-ExpEnse, an exploration technique that improves the quality of online experience collection, thus increasing finetuning sample-efficiency. DF-ExpEnse leverages the multimodal modeling capabilities of the generative control policy to create an expressive and tractably evaluatable candidate set. It then utilizes an ensemble of critics to identify the action that best balances quality with high exploration interest. In fleet settings, DF-ExpEnse further enables cross-agent communication to facilitate collaborative exploration as a group. DF-ExpEnse can be seamlessly integrated with existing strategies that finetune pretrained generative control policies via reinforcement learning. We experimentally validate consistent sample-efficiency benefits through DF-ExpEnse across a variety of manipulation and locomotion tasks, compared to default finetuning and alternative action selection schemes. Project can be found at https://df-expense.github.io.",
+      "abs_url": "http://arxiv.org/abs/2606.19656v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.19656v1",
+      "code_url": "https://df-expense.github.io"
     }
   }
 }
