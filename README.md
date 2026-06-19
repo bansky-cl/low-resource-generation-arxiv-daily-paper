@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.19
+## Updated on 2026.06.20
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **349**
-- Recent 30 days: **115**
-- Older than 30 days: **234**
+- Recent 30 days: **111**
+- Older than 30 days: **238**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -133,15 +133,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-21**|**Evaluation of Chunking Strategies for Effective Text Embedding in Low-Resource Language on Agricultural Documents**|cs.CL|[2605.22203v1](http://arxiv.org/abs/2605.22203v1)|null|
 |**2026-05-21**|**A Comparative Study of Language Models for Khmer Retrieval-Augmented Question Answering**|cs.CL|[2605.22099v1](http://arxiv.org/abs/2605.22099v1)|null|
 |**2026-05-21**|**Engineering Hybrid Physics-Informed Neural Networks for Next-Generation Electricity Systems: A State-of-the-Art Review**|eess.SY, cs.AI, cs.LG, cs.NE|[2605.21903v1](http://arxiv.org/abs/2605.21903v1)|null|
-|**2026-05-20**|**Velocityformer: Broken-Symmetry-Matched Equivariant Graph Transformers for Cosmological Velocity Reconstruction**|astro-ph.CO, cs.LG|[2605.21483v1](http://arxiv.org/abs/2605.21483v1)|null|
-|**2026-05-20**|**Learning First Integrals via Backward-Generated Data and Guided Reinforcement Learning**|cs.LG|[2605.21160v1](http://arxiv.org/abs/2605.21160v1)|null|
-|**2026-05-20**|**DISC: Decoupling Instruction from State-Conditioned Control via Policy Generation**|cs.RO, cs.AI, cs.LG|[2605.20856v1](http://arxiv.org/abs/2605.20856v1)|**[code](https://github.com/ReNginx/DISC)**|
-|**2026-05-20**|**Divide-Prompt-Refine: a Training-Free, Structure-Aware Framework for Biomedical Abstract Generation**|cs.CL|[2605.20628v2](http://arxiv.org/abs/2605.20628v2)|**[code](https://github.com/ScienceNLP-Lab/MultiTagger-v2/tree/main/DPR-BAG)**|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-05-20**|**Velocityformer: Broken-Symmetry-Matched Equivariant Graph Transformers for Cosmological Velocity Reconstruction**|astro-ph.CO, cs.LG|[2605.21483v1](http://arxiv.org/abs/2605.21483v1)|null|
+|**2026-05-20**|**Learning First Integrals via Backward-Generated Data and Guided Reinforcement Learning**|cs.LG|[2605.21160v1](http://arxiv.org/abs/2605.21160v1)|null|
+|**2026-05-20**|**DISC: Decoupling Instruction from State-Conditioned Control via Policy Generation**|cs.RO, cs.AI, cs.LG|[2605.20856v1](http://arxiv.org/abs/2605.20856v1)|**[code](https://github.com/ReNginx/DISC)**|
+|**2026-05-20**|**Divide-Prompt-Refine: a Training-Free, Structure-Aware Framework for Biomedical Abstract Generation**|cs.CL|[2605.20628v2](http://arxiv.org/abs/2605.20628v2)|**[code](https://github.com/ScienceNLP-Lab/MultiTagger-v2/tree/main/DPR-BAG)**|
 |**2026-05-19**|**Can Large Language Models Reliably Correct Errors in Low-Resource ASR? A Contamination-Aware Case Study on West Frisian**|cs.CL|[2605.19711v1](http://arxiv.org/abs/2605.19711v1)|null|
 |**2026-05-18**|**The Annotation Scarcity Paradox in Low-Resource NLP Evaluation: A Decade of Acceleration and Emerging Constraints**|cs.CL|[2605.19066v1](http://arxiv.org/abs/2605.19066v1)|null|
 |**2026-05-18**|**Ancient Greek to Modern Greek Machine Translation: A Novel Benchmark and Fine-Tuning Experiments on LLMs and NMT Models**|cs.CL|[2605.18504v1](http://arxiv.org/abs/2605.18504v1)|null|
