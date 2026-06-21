@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.21
+## Updated on 2026.06.22
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **349**
-- Recent 30 days: **103**
-- Older than 30 days: **246**
+- Recent 30 days: **99**
+- Older than 30 days: **250**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -121,15 +121,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-25**|**SomaliBench Eval: Measuring English-to-Somali Refusal Gaps in Open-Weight Language Models**|cs.CL, cs.AI, cs.CY|[2605.25420v1](http://arxiv.org/abs/2605.25420v1)|null|
 |**2026-05-24**|**From Automation to Collaboration: Human-in-the-Loop Methods for Safe and Trustworthy NLP**|cs.CL|[2605.25226v1](http://arxiv.org/abs/2605.25226v1)|null|
 |**2026-05-24**|**Multi-Objective Learning for Diffusion Models: A Statistical Theory under Semi-Supervised Learning**|cs.LG, cs.AI, stat.ML|[2605.25210v1](http://arxiv.org/abs/2605.25210v1)|null|
-|**2026-05-22**|**PrismFlow: Residual Dynamics for Flow Matching in Time-Series Generation**|cs.LG, cs.AI|[2605.28867v1](http://arxiv.org/abs/2605.28867v1)|null|
-|**2026-05-22**|**When Does Synthetic Patent Data Help? Volume-Fidelity Trade-offs in Low-Resource Multi-Label Classification**|cs.AI, cs.IR|[2605.24296v2](http://arxiv.org/abs/2605.24296v2)|null|
-|**2026-05-22**|**Convex Low-resource Accent-Robust Language Detection in Speech Recognition**|cs.LG|[2605.23235v1](http://arxiv.org/abs/2605.23235v1)|**[code](https://pypi.org/project/jaxcld/)**|
-|**2026-05-22**|**Self-Improving In-Context Learning**|cs.CL, cs.LG|[2605.23180v1](http://arxiv.org/abs/2605.23180v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-05-22**|**PrismFlow: Residual Dynamics for Flow Matching in Time-Series Generation**|cs.LG, cs.AI|[2605.28867v1](http://arxiv.org/abs/2605.28867v1)|null|
+|**2026-05-22**|**When Does Synthetic Patent Data Help? Volume-Fidelity Trade-offs in Low-Resource Multi-Label Classification**|cs.AI, cs.IR|[2605.24296v2](http://arxiv.org/abs/2605.24296v2)|null|
+|**2026-05-22**|**Convex Low-resource Accent-Robust Language Detection in Speech Recognition**|cs.LG|[2605.23235v1](http://arxiv.org/abs/2605.23235v1)|**[code](https://pypi.org/project/jaxcld/)**|
+|**2026-05-22**|**Self-Improving In-Context Learning**|cs.CL, cs.LG|[2605.23180v1](http://arxiv.org/abs/2605.23180v1)|null|
 |**2026-05-21**|**LLM-AutoSciLab: Closed-Loop Scientific Discovery via Active Experimentation with LLMs**|cs.LG, cs.AI|[2605.24043v1](http://arxiv.org/abs/2605.24043v1)|**[code](https://github.com/scientific-discovery/LLM-AutoSciLab)**|
 |**2026-05-21**|**DreamerNLplus: Interpretable Modeling of Mental Health Dynamics from Social Media Timelines using Hybrid Rule-Based and RAG Methods**|cs.CL, cs.AI|[2605.23052v1](http://arxiv.org/abs/2605.23052v1)|**[code](https://github.com/4dpicture/CLPsych2026)**|
 |**2026-05-21**|**Test-Time Training Undermines Safety Guardrails**|cs.LG, cs.AI|[2605.22984v1](http://arxiv.org/abs/2605.22984v1)|null|
