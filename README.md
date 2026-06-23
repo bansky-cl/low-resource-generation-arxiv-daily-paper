@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.23
+## Updated on 2026.06.24
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **359**
-- Recent 30 days: **109**
-- Older than 30 days: **250**
+- Recent 30 days: **107**
+- Older than 30 days: **252**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -129,13 +129,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-25**|**Creative Quality Alignment: Expert Tacit Knowledge Transfer via Chain-of-Thought Fine-Tuning**|cs.CL, cs.AI, cs.LG|[2605.25977v1](http://arxiv.org/abs/2605.25977v1)|null|
 |**2026-05-25**|**A Controlled Synthetic Benchmark for Educational Aspect-Based Sentiment Analysis**|cs.CL, cs.AI|[2605.25502v1](http://arxiv.org/abs/2605.25502v1)|null|
 |**2026-05-25**|**SomaliBench Eval: Measuring English-to-Somali Refusal Gaps in Open-Weight Language Models**|cs.CL, cs.AI, cs.CY|[2605.25420v1](http://arxiv.org/abs/2605.25420v1)|null|
-|**2026-05-24**|**From Automation to Collaboration: Human-in-the-Loop Methods for Safe and Trustworthy NLP**|cs.CL|[2605.25226v1](http://arxiv.org/abs/2605.25226v1)|null|
-|**2026-05-24**|**Multi-Objective Learning for Diffusion Models: A Statistical Theory under Semi-Supervised Learning**|cs.LG, cs.AI, stat.ML|[2605.25210v1](http://arxiv.org/abs/2605.25210v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-05-24**|**From Automation to Collaboration: Human-in-the-Loop Methods for Safe and Trustworthy NLP**|cs.CL|[2605.25226v1](http://arxiv.org/abs/2605.25226v1)|null|
+|**2026-05-24**|**Multi-Objective Learning for Diffusion Models: A Statistical Theory under Semi-Supervised Learning**|cs.LG, cs.AI, stat.ML|[2605.25210v1](http://arxiv.org/abs/2605.25210v1)|null|
 |**2026-05-22**|**PrismFlow: Residual Dynamics for Flow Matching in Time-Series Generation**|cs.LG, cs.AI|[2605.28867v1](http://arxiv.org/abs/2605.28867v1)|null|
 |**2026-05-22**|**When Does Synthetic Patent Data Help? Volume-Fidelity Trade-offs in Low-Resource Multi-Label Classification**|cs.AI, cs.IR|[2605.24296v2](http://arxiv.org/abs/2605.24296v2)|null|
 |**2026-05-22**|**Convex Low-resource Accent-Robust Language Detection in Speech Recognition**|cs.LG|[2605.23235v1](http://arxiv.org/abs/2605.23235v1)|**[code](https://pypi.org/project/jaxcld/)**|
