@@ -7642,6 +7642,223 @@
       "abs_url": "http://arxiv.org/abs/2606.19656v1",
       "pdf_url": "https://arxiv.org/pdf/2606.19656v1",
       "code_url": "https://df-expense.github.io"
+    },
+    "2606.22494": {
+      "id": "2606.22494",
+      "version": "2606.22494v1",
+      "title": "Deep Learning-Based Sign Language Recognition from Videos and Cross-Lingual Translation to Indian Vernaculars",
+      "authors": [
+        "Chandranath Adak",
+        "Ramesh Nandipalli"
+      ],
+      "published": "2026-06-21",
+      "updated": "2026-06-21",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Sign language is a primary mode of communication for the global deaf and hard-of-hearing community, yet automated tools that recognize sign gestures from video and translate them into natural language text remain limited, particularly for low-resource Indian languages. We present a two-stage deep learning pipeline that (i) classifies short sign language video clips into English word labels using a fine-tuned VideoMAE video transformer, and (ii) translates the predicted English label into Hindi, Telugu, and Bengali using Meta AI's No Language Left Behind (NLLB-200) multilingual translation model. The classification model is fine-tuned on a 13-class subset of the AI4Bharat Indian Sign Language video corpus from IIT Madras, processing 16-frame clips sampled uniformly from each video at 224 x 224 resolution. Under a small-scale academic setting (13 classes, 197 clips, 80-20 split), the fine-tuned model reaches 99% training accuracy and 78% validation accuracy after 15 epochs. We provide a per-class breakdown via a confusion matrix and classification report, identify the dominant failure modes (confusable adjective pairs such as ugly, deaf, blind, hat, and dress), and describe a Streamlit-based inference demo that takes a user-uploaded video and returns the predicted English label alongside its Hindi, Telugu, and Bengali translations. We discuss the scope, limitations (small label set, isolated-word rather than continuous signing, single-signer style sensitivity, ambiguity of single-word machine translation), and directions for future work, including expanding to sentence-level generation and a larger vocabulary. Code is released to support reproducibility.",
+      "abs_url": "http://arxiv.org/abs/2606.22494v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.22494v1",
+      "code_url": null
+    },
+    "2606.22269": {
+      "id": "2606.22269",
+      "version": "2606.22269v1",
+      "title": "Evaluating Large Language Models for Hausa and Fongbe Machine Translation: Benchmarks, Failures, and Metric Reliability",
+      "authors": [
+        "Mahounan Pericles Adjovi",
+        "Roald Eiselen",
+        "Prasenjit Mitra"
+      ],
+      "published": "2026-06-20",
+      "updated": "2026-06-20",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "We investigate the translation quality of current large language models (LLMs) for English-to-Hausa and English-to-Fongbe - two typologically distinct West African languages from the Afroasiatic and Niger-Congo families respectively - and evaluate whether standard automatic metrics reliably reflect human judgment for these low-resource languages. We evaluate four models (GPT-4o Mini, Claude Sonnet 4, Gemini 2.5 Flash, and Qwen2.5-7B) at progressive scales (500 to 10,000 sentences) using automatic metrics (BLEU, chrF++, TER, COMET, BERTScore) validated against native-speaker judgment. Our results reveal three key findings. First, translation quality varies substantially by language: Hausa achieves acceptable quality (human scores 4.0-4.5/5) while Fongbe achieves poor quality (1.0-2.2/5), with a consistent 3x BLEU gap across all systems. Second, model rankings differ by language - Gemini leads for Fongbe while GPT-4o leads for Hausa by human evaluation - indicating that performance on one low-resource African language does not predict performance on another. Third, metric-human correlation varies dramatically: perfect rank correlation for Fongbe (rho=1.0) but weak correlation for Hausa (rho=0.5), where human evaluators preferred GPT-4o despite all automatic metrics ranking Claude first. We further show that neural metrics like BERTScore exhibit embedding collapse (within-language similarity >0.99) for both languages, limiting their ability to differentiate translation quality. Based on these findings, we recommend multi-metric evaluation for low-resource African languages, with particular caution when interpreting neural metrics. We establish that minimum sample sizes of n=2,500 sentences are required for stable system rankings, as smaller samples produced artifact findings that reversed at scale.",
+      "abs_url": "http://arxiv.org/abs/2606.22269v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.22269v1",
+      "code_url": null
+    },
+    "2606.22180": {
+      "id": "2606.22180",
+      "version": "2606.22180v1",
+      "title": "FeLoG: Scalable and Efficient Distributed Graph Embedding with Feedback Loop Mechanism",
+      "authors": [
+        "Peng Fang",
+        "Arijit Khan",
+        "Ziqiang Wu",
+        "Zhenli Li",
+        "Yibo Zhou",
+        "Fang Wang",
+        "Dan Feng"
+      ],
+      "published": "2026-06-20",
+      "updated": "2026-06-20",
+      "categories": [
+        "cs.DC",
+        "cs.LG"
+      ],
+      "abstract": "Graph embedding maps graph nodes into low-dimensional vectors to support applications such as recommendation, fraud detection, and graph-based retrieval-augmented generation (GraphRAG). As graphs scale to billions of edges, scalable and efficient graph embedding has become increasingly important. Existing frameworks commonly adopt a sampling-training paradigm, in which mini-batches are constructed by sampling nodes and their neighbors. However, sampling is typically decoupled from evolving embedding quality, causing redundant exploration of well-trained regions while under-sampling undertrained nodes. At the system level, such decoupling further leads to excessive communication, serialized execution, and low resource utilization in distributed environments. We present FeLoG, a feedback loop-driven system for scalable distributed graph embedding. (1) FeLoG introduces feedback-coupled sampling and training, dynamically prioritizing undertrained nodes according to real-time embedding-quality feedback, thereby reducing redundant computation and accelerating convergence. (2) It employs activity-aware communication that compresses frequently occurring node sequences to reduce intra-machine PCIe traffic and selectively synchronizes frequently updated embeddings to reduce inter-machine communication. (3) It adopts a round-interleaved pipeline that overlaps next-round sampling with current-round training to improve CPU-GPU utilization. Experiments against six state-of-the-art baselines on large-scale graphs show that FeLoG achieves an average speedup of 27.9x, reduces communication cost by more than 53.1%, and sustains over 80% CPU-GPU utilization.",
+      "abs_url": "http://arxiv.org/abs/2606.22180v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.22180v1",
+      "code_url": null
+    },
+    "2606.22084": {
+      "id": "2606.22084",
+      "version": "2606.22084v1",
+      "title": "Patched Flow Matching: Generative Wall-Pressure Reconstruction Beyond Training-Domain Scales from Sparse Sensors",
+      "authors": [
+        "Meet Hemant Parikh",
+        "Yi Liu",
+        "Jian-Xun Wang"
+      ],
+      "published": "2026-06-20",
+      "updated": "2026-06-20",
+      "categories": [
+        "physics.flu-dyn",
+        "cs.LG"
+      ],
+      "abstract": "Characterizing the complete wall-pressure spectrum in turbulent wall-bounded flows requires simultaneous access to the viscous-scale high-wavenumber content and the outer-layer low-wavenumber content -- a requirement that neither short-domain direct numerical simulation (DNS) nor sparse experimental measurements alone can satisfy. We propose Patched Flow Matching (Patched FM), a generative framework that fuses these two complementary sources by learning a patch-local prior over inner-scaled wall-pressure statistics from short-domain DNS and assimilating sparse sensor measurements at inference time through training-free posterior sampling. The patch-additive decomposition of the flow matching vector field decouples the generative prior from the global domain size, enabling reconstruction on domains arbitrarily larger than the training configuration. By expressing the patch prior in inner-scaled coordinates, where high-wavenumber wall-pressure statistics are approximately Reynolds-number invariant, the framework extends to higher Reynolds numbers through hierarchical transfer learning with as few as $500$ short-domain snapshots ($2.5\\%$ of the base training data) at a fraction of the scratch-training cost. Applied to compressible channel-flow DNS at $Re_τ= 180$, $500$, and $1000$, Patched FM reconstructs full-resolution wall-pressure fields on a domain four times larger than the training configuration ($L_x^L = 16πδ$ versus $L_x^S = 4πδ$) from sensor coverage as low as $0.25\\%$, recovering the low-wavenumber spectral content inaccessible to short-domain DNS with high fidelity in both streamwise and spanwise directions. Zero-shot generalization to unseen Reynolds numbers and ablation studies further confirm the role of inner scaling as a physical prerequisite for data-efficient Reynolds-number transfer.",
+      "abs_url": "http://arxiv.org/abs/2606.22084v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.22084v1",
+      "code_url": null
+    },
+    "2606.21672": {
+      "id": "2606.21672",
+      "version": "2606.21672v1",
+      "title": "Imitation from Heterogeneous Demonstrations using Grounded Latent-Action World Models",
+      "authors": [
+        "Tianyou Wang",
+        "Anson Lei",
+        "Joe Watson",
+        "Ingmar Posner"
+      ],
+      "published": "2026-06-19",
+      "updated": "2026-06-19",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Imitation learning has emerged as a powerful paradigm for learning visuomotor policies, but its generalisation and stability are limited by the scale and quality of demonstration data needed. A promising direction is to leverage more abundant but heterogeneous data sources, which differ in action space and often lack action labels altogether. Existing co-training approaches that combine heterogeneous data sources rely on heuristic and hand-engineered alignment techniques. In contrast, we argue that action representations should be grounded in prediction: actions that produce the same effect on the environment should share the same representation, regardless of their sources. To this end, we instantiate this principle by using a grounded latent-action world model (GLAM), a pair of generative models with a shared latent action space across data sources that is grounded by predicting future observations consistently across sources. This latent action space is used to train downstream behavioural cloning (BC) policies which map observations to latent actions and decode them back to robot actions, providing a paradigm for learning from heterogeneous data. Empirically, we demonstrate that GLAM successfully learns an aligned latent action space that facilitates action transfer across data sources with and without action labels. Across five manipulation tasks in simulation and in the real world, GLAM-aligned policies significantly outperform BC baselines and prior latent-action methods, achieving an average of +48% improvement in task success rate with the same data-scarce setting. Videos and code are available at https://viccccciv.github.io/glam/.",
+      "abs_url": "http://arxiv.org/abs/2606.21672v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.21672v1",
+      "code_url": "https://viccccciv.github.io/glam/"
+    },
+    "2606.22917": {
+      "id": "2606.22917",
+      "version": "2606.22917v1",
+      "title": "GRAIN: Group Aggregation via Min-Norm Objective",
+      "authors": [
+        "Nghia Bui",
+        "Jiarui Yao",
+        "Lijing Wang"
+      ],
+      "published": "2026-06-22",
+      "updated": "2026-06-22",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "Learning instability is a long-standing problem across machine learning, but it is especially acute in the overparameterized regime that defines modern deep learning: large models fine-tuned or trained on limited data traverse flat loss landscapes with many nearly-equivalent minima, and stochastic factors (initialization, data order, dropout, hardware non-determinism) can route optimization to very different solutions. The rise of large pretrained models (LPMs) makes the problem more urgent: training cost is high, downstream data is often small, and repeated runs for variance reduction are prohibitive. We introduce \\textbf{GRAIN} (\\textbf{G}roup \\textbf{A}ggregation via m\\textbf{IN}-norm objective), a lightweight training algorithm that replaces the mean aggregation used in mini-batch optimization (both across mini-batches and within a mini-batch) with a min-norm convex combination of group-wise gradients. \\mName guarantees a non-negative inner product between the aggregated update and every group gradient, resolving intra- and inner-batch gradient conflict, and retains an $\\mathcal{O}(1/T)$ convergence rate comparable to SGD. Under mild smoothness and absolute-continuity assumptions, the min-norm solution differs almost surely from the arithmetic mean, which yields a uniform-stability bound for \\mName strictly tighter than the standard bound for SGD. Empirically across generation, classification, and regression at LPM scale, \\mName delivers consistent improvements in mean performance and reductions in run-to-run variance over a broad suite of tasks, with no extra training-time or storage cost beyond a single backward pass.",
+      "abs_url": "http://arxiv.org/abs/2606.22917v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.22917v1",
+      "code_url": null
+    },
+    "2606.20696": {
+      "id": "2606.20696",
+      "version": "2606.20696v1",
+      "title": "MindAlign: Decoding Inner Speech from fMRI Signals via Multimodal Embedding Alignment under Limited Data",
+      "authors": [
+        "Muxuan Liu",
+        "Ichiro Kobayashi",
+        "Satoshi Nishida"
+      ],
+      "published": "2026-06-15",
+      "updated": "2026-06-15",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "eess.AS"
+      ],
+      "abstract": "Decoding inner speech from non-invasive brain signals remains a fundamental challenge due to the absence of overt linguistic output, limited training data, and large inter-subject variability. Existing brain-to-text approaches often rely on task-specific decoder fine-tuning, which restricts scalability and complicates adaptation to new participants. We propose MindAlign, a decoupled two-stage brain-to-language framework that enables open-ended text generation from fMRI signals without modifying the underlying language model. The first stage learns a subject-specific neural-semantic alignment that maps fMRI activity into a shared multimodal semantic space, extracting a latent semantic sketch of the internally generated sentence. The second stage integrates this sketch with visual context to prompt a frozen multimodal language model for free-form generation. Experiments on fMRI data collected during silent image description demonstrate that the proposed approach consistently outperforms fMRI-only and random baselines. We further show that the learned semantic-to-language projection can generalize across subjects, enabling effective decoding when paired with subject-specific neural alignment. These results indicate that neural signals modulate semantic content beyond image-driven priors, supporting a scalable and modular direction for brain-to-text decoding.",
+      "abs_url": "http://arxiv.org/abs/2606.20696v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.20696v1",
+      "code_url": null
+    },
+    "2606.21340": {
+      "id": "2606.21340",
+      "version": "2606.21340v1",
+      "title": "Synthetic Audio Generation Framework for Air Traffic Control Speech Recognition",
+      "authors": [
+        "Raphaël Bagat",
+        "Zhe Zhang",
+        "Junichi Yamagishi",
+        "Irina Illina",
+        "Emmanuel Vincent"
+      ],
+      "published": "2026-06-19",
+      "updated": "2026-06-19",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Automatic Speech Recognition (ASR) systems, despite achieving remarkable accuracy in general-purpose domains with native speech (L1), struggle in domains like Air Traffic Control (ATC) due to strong channel noise, a presence of non-native (L2) English accents, and data scarcity. We propose a synthetic data generation pipeline with acoustical properties simulations specifically designed to address this lack of real data to improve recognition accuracy in the ATC domain. Our approach leverages a combination of neural generation techniques, including Text-to-Speech, Voice Conversion, L2-to-L1 accent conversion, and a novel controllable L1-to-L2 accent conversion framework built to simulate accented speech. Our experiments with the Whisper model on the ATCO2 corpus demonstrate that fine-tuning with either synthetic data alone, or a mix of real and synthetic data, significantly improves the word error rate over out-of-the-box and real data only baselines respectively.",
+      "abs_url": "http://arxiv.org/abs/2606.21340v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.21340v1",
+      "code_url": null
+    },
+    "2606.21337": {
+      "id": "2606.21337",
+      "version": "2606.21337v1",
+      "title": "DataClaw0: Agentic Tailoring Multimodal Data from Raw Streams",
+      "authors": [
+        "Cong Wan",
+        "Zeyu Guo",
+        "Zijian Cai",
+        "Jiangyang Li",
+        "SongLin Dong",
+        "Lin Peng",
+        "Xiangyang Luo",
+        "Zhiheng Ma",
+        "Yihong Gong"
+      ],
+      "published": "2026-06-19",
+      "updated": "2026-06-19",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Massive unstructured multimodal streams suffer from high \"data entropy,\" impeding both efficient human knowledge acquisition and high-quality AI post-training. Existing passive annotation paradigms, heavily reliant on heuristic rules or general VLMs, are costly, monotonous, and fail to unlock the deep procedural logic embedded in raw data. We elevate data processing to a learnable capability, proposing a paradigm shift towards Agentic Data Tailoring, which actively refining and structuring data to align with diverse user and downstream intents. To overcome the data scarcity bottleneck in training such high-order capabilities, we design a two-stage pipeline grounding generative semantic synthesis in deterministic Factual Anchors, yielding a large-scale dataset spanning five core physical and digital domains. Building upon this, $\\text{DataClaw}_0$-9B model synergizes Supervised Fine-Tuning (SFT) with Group Relative Policy Optimization (GRPO), achieving robust alignment with complex refinement and tailoring intents. To systematically quantify this capability, we construct $\\text{DataClaw}_0$-val, the first benchmark dedicated to data refinement. Crucially, we adopt downstream post-training as the ultimate validation touchstone. Evaluations on video generation, real-world VQA, and GUI navigation confirm that $\\text{DataClaw}_0$ delivers high-information-density tailored data, facilitating efficient model adaptation to new tasks under limited training data regimes. Project page: https://czjdsg.github.io/MakeAnyData",
+      "abs_url": "http://arxiv.org/abs/2606.21337v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.21337v1",
+      "code_url": "https://czjdsg.github.io/MakeAnyData"
+    },
+    "2606.21165": {
+      "id": "2606.21165",
+      "version": "2606.21165v1",
+      "title": "OmniV2X: A Generative Foundation Planner for Efficient End-to-End Cooperative Driving",
+      "authors": [
+        "Juntong Peng",
+        "Juanwu Lu",
+        "Yupeng Zhou",
+        "Can Cui",
+        "Yaobin Chen",
+        "Ziran Wang"
+      ],
+      "published": "2026-06-19",
+      "updated": "2026-06-19",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "abstract": "We present OmniV2X, a generative foundation model for vehicle-to-everything (V2X) cooperative driving. The model directly interprets independent context sequences comprising multi-modal and multi-agent observations. The new design mitigates the computational cost of dense 3D perception, the vulnerability to data scarcity in cooperative scenarios, and the poor compliance with standardized messaging in existing methods that fuse multi-modal inputs into a shared representation. For training, we present an end-to-end supervised pipeline using a downstream trajectory generation loss, in which a high-capacity generative sequence planner implicitly learns to steer the model and leverage multi-modal inputs via cross-attention injection. As a foundation model, we demonstrate that OmniV2X pre-trained on large-scale single-agent planning datasets can efficiently adapt to cooperative environments by integrating the conditioning context with lightweight, standard-compliant V2X tokens. Evaluated on the DAIR-V2X-Seq dataset, OmniV2X outperforms existing end-to-end cooperative driving baselines, achieving state-of-the-art performance with less than 10% of the fine-tune V2X dataset and less than 1% of the communication bandwidth. We conduct comprehensive evaluations to demonstrate its computational efficiency and robustness under real-world constraints.",
+      "abs_url": "http://arxiv.org/abs/2606.21165v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.21165v1",
+      "code_url": null
     }
   }
 }

@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **349**
-- Recent 30 days: **99**
+- Total papers in JSON: **359**
+- Recent 30 days: **109**
 - Older than 30 days: **250**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,10 +22,20 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-22**|**GRAIN: Group Aggregation via Min-Norm Objective**|cs.LG, stat.ML|[2606.22917v1](http://arxiv.org/abs/2606.22917v1)|null|
+|**2026-06-21**|**Deep Learning-Based Sign Language Recognition from Videos and Cross-Lingual Translation to Indian Vernaculars**|cs.AI, cs.LG|[2606.22494v1](http://arxiv.org/abs/2606.22494v1)|null|
+|**2026-06-20**|**Evaluating Large Language Models for Hausa and Fongbe Machine Translation: Benchmarks, Failures, and Metric Reliability**|cs.CL, cs.AI, cs.LG|[2606.22269v1](http://arxiv.org/abs/2606.22269v1)|null|
+|**2026-06-20**|**FeLoG: Scalable and Efficient Distributed Graph Embedding with Feedback Loop Mechanism**|cs.DC, cs.LG|[2606.22180v1](http://arxiv.org/abs/2606.22180v1)|null|
+|**2026-06-20**|**Patched Flow Matching: Generative Wall-Pressure Reconstruction Beyond Training-Domain Scales from Sparse Sensors**|physics.flu-dyn, cs.LG|[2606.22084v1](http://arxiv.org/abs/2606.22084v1)|null|
+|**2026-06-19**|**Imitation from Heterogeneous Demonstrations using Grounded Latent-Action World Models**|cs.RO, cs.AI, cs.LG|[2606.21672v1](http://arxiv.org/abs/2606.21672v1)|**[code](https://viccccciv.github.io/glam/)**|
+|**2026-06-19**|**Synthetic Audio Generation Framework for Air Traffic Control Speech Recognition**|cs.CL|[2606.21340v1](http://arxiv.org/abs/2606.21340v1)|null|
+|**2026-06-19**|**DataClaw0: Agentic Tailoring Multimodal Data from Raw Streams**|cs.LG, cs.AI|[2606.21337v1](http://arxiv.org/abs/2606.21337v1)|**[code](https://czjdsg.github.io/MakeAnyData)**|
+|**2026-06-19**|**OmniV2X: A Generative Foundation Planner for Efficient End-to-End Cooperative Driving**|cs.RO, cs.AI|[2606.21165v1](http://arxiv.org/abs/2606.21165v1)|null|
 |**2026-06-17**|**DF-ExpEnse: Diffusion Filtered Exploration for Sample Efficient Finetuning**|cs.RO, cs.LG|[2606.19656v1](http://arxiv.org/abs/2606.19656v1)|**[code](https://df-expense.github.io)**|
 |**2026-06-17**|**G-IdiomAlign: A Gloss-Pivoted Benchmark for Cross-Lingual Idiom Alignment**|cs.CL, cs.AI|[2606.18989v1](http://arxiv.org/abs/2606.18989v1)|null|
 |**2026-06-16**|**Want Better Synthetic Data? Steer It: Activation Steering for Low-Resource Language Generation**|cs.CL|[2606.18389v1](http://arxiv.org/abs/2606.18389v1)|null|
 |**2026-06-16**|**When English Isn't the Best Teacher: Source Language Effects in Cross-Lingual In-Context Learning**|cs.CL, cs.AI|[2606.18033v1](http://arxiv.org/abs/2606.18033v1)|null|
+|**2026-06-15**|**MindAlign: Decoding Inner Speech from fMRI Signals via Multimodal Embedding Alignment under Limited Data**|cs.CL, cs.AI, eess.AS|[2606.20696v1](http://arxiv.org/abs/2606.20696v1)|null|
 |**2026-06-15**|**Diffusion Offline Reinforcement Learning for Fair and Energy-Efficient UAV-Assisted Wireless Networks**|cs.LG|[2606.16331v1](http://arxiv.org/abs/2606.16331v1)|null|
 |**2026-06-14**|**CIWI-CKT: Chaos-Informed Wave Interference Feature Fusion and Cross-City Knowledge Transfer for Traffic Flow Forecasting**|cs.LG, cs.AI|[2606.15642v1](http://arxiv.org/abs/2606.15642v1)|null|
 |**2026-06-14**|**HAPI-EP: Towards Hybrid, Adaptive, and Predictive Digital Twins of Cardiac Electrophysiology**|cs.LG|[2606.15637v1](http://arxiv.org/abs/2606.15637v1)|null|
@@ -217,18 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-04-27**|**TTCD:Transformer Integrated Temporal Causal Discovery from Non-Stationary Time Series Data**|cs.LG, cs.AI, stat.ME|[2605.08111v1](http://arxiv.org/abs/2605.08111v1)|null|
 |**2026-04-27**|**SAGE: Sparse Adaptive Guidance for Dependency-Aware Tabular Data Generation**|cs.LG|[2604.24368v1](http://arxiv.org/abs/2604.24368v1)|null|
 |**2026-04-24**|**Deep Learning for Model Calibration in Simulation of Itaconic Acid Production**|cs.LG|[2604.22496v1](http://arxiv.org/abs/2604.22496v1)|null|
-|**2026-04-23**|**Job Skill Extraction via LLM-Centric Multi-Module Framework**|cs.CL|[2604.21525v1](http://arxiv.org/abs/2604.21525v1)|null|
-|**2026-04-23**|**CARE: Counselor-Aligned Response Engine for Online Mental-Health Support**|cs.CL|[2604.21352v2](http://arxiv.org/abs/2604.21352v2)|null|
-|**2026-04-22**|**Generative Discovery of Magnetic Insulators under Competing Physical Constraints**|cond-mat.mtrl-sci, cs.AI|[2604.21073v1](http://arxiv.org/abs/2604.21073v1)|null|
-|**2026-04-22**|**Expanding the extreme-k dielectric materials space through physics-validated generative reasoning**|cond-mat.mtrl-sci, cond-mat.mes-hall, cs.AI|[2604.21068v1](http://arxiv.org/abs/2604.21068v1)|null|
-|**2026-04-22**|**Synthetic Data in Education: Empirical Insights from Traditional Resampling and Deep Generative Models**|cs.LG, cs.AI|[2604.21031v1](http://arxiv.org/abs/2604.21031v1)|null|
-|**2026-04-22**|**GRPO-VPS: Enhancing Group Relative Policy Optimization with Verifiable Process Supervision for Effective Reasoning**|cs.LG, cs.AI|[2604.20659v1](http://arxiv.org/abs/2604.20659v1)|null|
-|**2026-04-22**|**Distributional Value Estimation Without Target Networks for Robust Quality-Diversity**|cs.LG, cs.NE, cs.RO|[2604.20381v1](http://arxiv.org/abs/2604.20381v1)|null|
-|**2026-04-22**|**Cold-Start Forecasting of New Product Life-Cycles via Conditional Diffusion Models**|cs.LG, stat.ML|[2604.20370v1](http://arxiv.org/abs/2604.20370v1)|null|
-|**2026-04-22**|**Synthetic Flight Data Generation Using Generative Models**|cs.LG|[2604.20293v1](http://arxiv.org/abs/2604.20293v1)|null|
-|**2026-04-21**|**Bangla Key2Text: Text Generation from Keywords for a Low Resource Language**|cs.CL|[2604.19508v1](http://arxiv.org/abs/2604.19508v1)|null|
 
-README omitted **149** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **159** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
