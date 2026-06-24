@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.24
+## Updated on 2026.06.25
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **361**
-- Recent 30 days: **109**
-- Older than 30 days: **252**
+- Recent 30 days: **103**
+- Older than 30 days: **258**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -125,17 +125,17 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-26**|**Helicase: Uncertainty-Guided Supply Chain Knowledge Graph Construction with Autonomous Multi-Agent LLMs**|cs.AI|[2605.26835v1](http://arxiv.org/abs/2605.26835v1)|null|
 |**2026-05-26**|**Generating Logically Consistent Synthetic Supply Chain Data with LLM-Driven Knowledge Graph Reasoning**|cs.CL|[2605.26823v1](http://arxiv.org/abs/2605.26823v1)|null|
 |**2026-05-26**|**Self-Improvement Imitation with Biologically Guided Search for Protein Design Under Oracle Budgets**|cs.LG, cs.AI, q-bio.QM|[2605.26690v1](http://arxiv.org/abs/2605.26690v1)|**[code](https://github.com/grimmlab/SILO.git)**|
+
+## Older Than 30 Days
+
+|Date|Title|Categories|PDF|Code|
+|---|---|---|---|---|
 |**2026-05-25**|**CroCo: Cross-Lingual Contrastive Preference Tuning on Self-Generations**|cs.CL, cs.AI|[2605.26293v1](http://arxiv.org/abs/2605.26293v1)|null|
 |**2026-05-25**|**Beyond Summaries: Structure-Aware Labeling of Code Changes with Large Language Models**|cs.SE, cs.AI|[2605.26100v1](http://arxiv.org/abs/2605.26100v1)|null|
 |**2026-05-25**|**Forgotten Words: Benchmarking NeoBERT for Dementia Detection in Low-Resource Conversational Filipino and English Speech**|cs.CL|[2605.26007v1](http://arxiv.org/abs/2605.26007v1)|null|
 |**2026-05-25**|**Creative Quality Alignment: Expert Tacit Knowledge Transfer via Chain-of-Thought Fine-Tuning**|cs.CL, cs.AI, cs.LG|[2605.25977v1](http://arxiv.org/abs/2605.25977v1)|null|
 |**2026-05-25**|**A Controlled Synthetic Benchmark for Educational Aspect-Based Sentiment Analysis**|cs.CL, cs.AI|[2605.25502v1](http://arxiv.org/abs/2605.25502v1)|null|
 |**2026-05-25**|**SomaliBench Eval: Measuring English-to-Somali Refusal Gaps in Open-Weight Language Models**|cs.CL, cs.AI, cs.CY|[2605.25420v1](http://arxiv.org/abs/2605.25420v1)|null|
-
-## Older Than 30 Days
-
-|Date|Title|Categories|PDF|Code|
-|---|---|---|---|---|
 |**2026-05-24**|**From Automation to Collaboration: Human-in-the-Loop Methods for Safe and Trustworthy NLP**|cs.CL|[2605.25226v1](http://arxiv.org/abs/2605.25226v1)|null|
 |**2026-05-24**|**Multi-Objective Learning for Diffusion Models: A Statistical Theory under Semi-Supervised Learning**|cs.LG, cs.AI, stat.ML|[2605.25210v1](http://arxiv.org/abs/2605.25210v1)|null|
 |**2026-05-22**|**PrismFlow: Residual Dynamics for Flow Matching in Time-Series Generation**|cs.LG, cs.AI|[2605.28867v1](http://arxiv.org/abs/2605.28867v1)|null|
