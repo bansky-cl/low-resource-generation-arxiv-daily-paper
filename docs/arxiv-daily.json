@@ -7648,8 +7648,8 @@
       "version": "2606.22494v1",
       "title": "Deep Learning-Based Sign Language Recognition from Videos and Cross-Lingual Translation to Indian Vernaculars",
       "authors": [
-        "Chandranath Adak",
-        "Ramesh Nandipalli"
+        "Ramesh Nandipalli",
+        "Chandranath Adak"
       ],
       "published": "2026-06-21",
       "updated": "2026-06-21",
@@ -7858,6 +7858,46 @@
       "abstract": "We present OmniV2X, a generative foundation model for vehicle-to-everything (V2X) cooperative driving. The model directly interprets independent context sequences comprising multi-modal and multi-agent observations. The new design mitigates the computational cost of dense 3D perception, the vulnerability to data scarcity in cooperative scenarios, and the poor compliance with standardized messaging in existing methods that fuse multi-modal inputs into a shared representation. For training, we present an end-to-end supervised pipeline using a downstream trajectory generation loss, in which a high-capacity generative sequence planner implicitly learns to steer the model and leverage multi-modal inputs via cross-attention injection. As a foundation model, we demonstrate that OmniV2X pre-trained on large-scale single-agent planning datasets can efficiently adapt to cooperative environments by integrating the conditioning context with lightweight, standard-compliant V2X tokens. Evaluated on the DAIR-V2X-Seq dataset, OmniV2X outperforms existing end-to-end cooperative driving baselines, achieving state-of-the-art performance with less than 10% of the fine-tune V2X dataset and less than 1% of the communication bandwidth. We conduct comprehensive evaluations to demonstrate its computational efficiency and robustness under real-world constraints.",
       "abs_url": "http://arxiv.org/abs/2606.21165v1",
       "pdf_url": "https://arxiv.org/pdf/2606.21165v1",
+      "code_url": null
+    },
+    "2606.24841": {
+      "id": "2606.24841",
+      "version": "2606.24841v1",
+      "title": "Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models",
+      "authors": [
+        "Ahmad Pouramini",
+        "Hesham Faili"
+      ],
+      "published": "2026-06-23",
+      "updated": "2026-06-23",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Prompt-based learning has emerged as a dominant paradigm in natural language processing. This study explores the impact of diverse pre-training objectives on the performance of encoder-decoder pre-trained language models across generation and question answering tasks, with a focus on commonsense knowledge retrieval and completion. We highlight the benefits of incorporating multiple objectives during both pre-training and fine-tuning stages. We introduce the Match Task to Objective (MTO) framework and methods for determining the appropriate objective for a given task. This framework offers automated methods to prepare task-related data for adaptation through unsupervised training, based on the identified objective. In the fine-tuning stage, we design novel templates that align with the objectives of the pre-training and adaptation stages. When aligned with task requirements, these strategies can achieve a performance gain of over 120\\% compared to conventional methods in few-shot settings. They significantly outperform related works in few-shot settings and exceed the baseline even in full-dataset scenarios. Furthermore, we extend this approach to include prompt-tuning methodologies, providing guidance for more effective soft prompt engineering and optimization. Our strategies significantly enhance prompt-tuning performance as well. These insights hold substantial value, precisely guiding the selection and optimization of models customized for specific tasks. Code is available at https://github.com/puraminy/MTO/",
+      "abs_url": "http://arxiv.org/abs/2606.24841v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24841v1",
+      "code_url": "https://github.com/puraminy/MTO/"
+    },
+    "2606.24265": {
+      "id": "2606.24265",
+      "version": "2606.24265v1",
+      "title": "Neural Network-Based Parametric Model Reduction for Predicting Turbulent Flow for Different Vehicle Geometries",
+      "authors": [
+        "Kazuto Ando",
+        "Rahul Bale",
+        "Akiyoshi Kuroda",
+        "Makoto Tsubokura"
+      ],
+      "published": "2026-06-23",
+      "updated": "2026-06-23",
+      "categories": [
+        "cs.CE",
+        "cs.AI"
+      ],
+      "abstract": "Numerical simulations in industrial applications often require performing numerous high-precision computations parameterized by specific experimental conditions. For instance, in vehicle body design, aerodynamic simulations are essential for evaluating the aerodynamic characteristics of various proposed body geometries. However, computational resource constraints often become a bottleneck. Therefore, achieving the desired accuracy while minimizing computational cost is crucial. To address this challenge, model reduction methods have been developed to decrease the degrees of freedom by constraining the possible states of a physical system to a lower-dimensional subspace. In particular, reduction techniques that project the system onto a nonlinear subspace using neural networks have been actively studied. Our previous research developed a reduced-order model that integrates neural-network-based model reduction with a time-evolution method, implemented as a distributed parallel training framework to process high-resolution flow field data efficiently. In this study, we extend this reduction approach by incorporating a variational autoencoder to assess its robustness in high-Reynolds-number flows around multiple vehicle bodies with varying geometries. Specifically, we evaluate the reconstruction accuracy of vortex generation across different spatial and temporal scales using a compact latent representation, with a particular focus on the flow behavior near the rear end of the vehicle body.",
+      "abs_url": "http://arxiv.org/abs/2606.24265v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24265v1",
       "code_url": null
     }
   }

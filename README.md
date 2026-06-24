@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **359**
-- Recent 30 days: **107**
+- Total papers in JSON: **361**
+- Recent 30 days: **109**
 - Older than 30 days: **252**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-23**|**Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models**|cs.AI, cs.CL|[2606.24841v1](http://arxiv.org/abs/2606.24841v1)|**[code](https://github.com/puraminy/MTO/)**|
+|**2026-06-23**|**Neural Network-Based Parametric Model Reduction for Predicting Turbulent Flow for Different Vehicle Geometries**|cs.CE, cs.AI|[2606.24265v1](http://arxiv.org/abs/2606.24265v1)|null|
 |**2026-06-22**|**GRAIN: Group Aggregation via Min-Norm Objective**|cs.LG, stat.ML|[2606.22917v1](http://arxiv.org/abs/2606.22917v1)|null|
 |**2026-06-21**|**Deep Learning-Based Sign Language Recognition from Videos and Cross-Lingual Translation to Indian Vernaculars**|cs.AI, cs.LG|[2606.22494v1](http://arxiv.org/abs/2606.22494v1)|null|
 |**2026-06-20**|**Evaluating Large Language Models for Hausa and Fongbe Machine Translation: Benchmarks, Failures, and Metric Reliability**|cs.CL, cs.AI, cs.LG|[2606.22269v1](http://arxiv.org/abs/2606.22269v1)|null|
@@ -225,10 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-04-28**|**CGU-ILALab at FoodBench-QA 2026: Comparing Traditional and LLM-based Approaches for Recipe Nutrient Estimation**|cs.CL, cs.AI|[2604.25774v1](http://arxiv.org/abs/2604.25774v1)|null|
 |**2026-04-28**|**CORAL: Adaptive Retrieval Loop for Culturally-Aligned Multilingual RAG**|cs.CL, cs.AI|[2604.25676v1](http://arxiv.org/abs/2604.25676v1)|null|
 |**2026-04-27**|**TTCD:Transformer Integrated Temporal Causal Discovery from Non-Stationary Time Series Data**|cs.LG, cs.AI, stat.ME|[2605.08111v1](http://arxiv.org/abs/2605.08111v1)|null|
-|**2026-04-27**|**SAGE: Sparse Adaptive Guidance for Dependency-Aware Tabular Data Generation**|cs.LG|[2604.24368v1](http://arxiv.org/abs/2604.24368v1)|null|
-|**2026-04-24**|**Deep Learning for Model Calibration in Simulation of Itaconic Acid Production**|cs.LG|[2604.22496v1](http://arxiv.org/abs/2604.22496v1)|null|
 
-README omitted **159** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **161** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
