@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.25
+## Updated on 2026.06.26
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **365**
-- Recent 30 days: **107**
-- Older than 30 days: **258**
+- Recent 30 days: **97**
+- Older than 30 days: **268**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -119,6 +119,11 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-27**|**Explaining is Harder Than Predicting Alone: Evaluating Concept-based Explanations of MLLMs as ICL Visual Classifiers**|cs.AI, cs.CL, cs.LG, cs.LO, cs.MA|[2605.28215v1](http://arxiv.org/abs/2605.28215v1)|null|
 |**2026-05-27**|**Hierarchical Synthetic Tabular Data Generation: A Hybrid Top-Down and Bottom-Up Framework**|cs.LG|[2605.28198v1](http://arxiv.org/abs/2605.28198v1)|null|
 |**2026-05-27**|**The Fragility of Chain-of-Thought Monitoring Across Typologically Diverse Languages**|cs.CL, cs.AI|[2605.27901v1](http://arxiv.org/abs/2605.27901v1)|**[code](https://multilingual-cot-monitoring.github.io/)**|
+
+## Older Than 30 Days
+
+|Date|Title|Categories|PDF|Code|
+|---|---|---|---|---|
 |**2026-05-26**|**TriHead-GAN: A Generative Adversarial Network with Triple-Head Discriminator for Carbon Emission Time Series Generation**|cs.LG|[2606.07569v1](http://arxiv.org/abs/2606.07569v1)|null|
 |**2026-05-26**|**Reading or Guessing? Visual Grounding Failures of Vision-Language Models for OCR in Ancient Greek Editions**|cs.CL, cs.AI, cs.CV, cs.DL|[2605.27750v1](http://arxiv.org/abs/2605.27750v1)|null|
 |**2026-05-26**|**Learning to Translate from Soft to Hard LLM Prompts**|cs.CL, cs.LG|[2605.27642v1](http://arxiv.org/abs/2605.27642v1)|null|
@@ -129,11 +134,6 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-26**|**Helicase: Uncertainty-Guided Supply Chain Knowledge Graph Construction with Autonomous Multi-Agent LLMs**|cs.AI|[2605.26835v1](http://arxiv.org/abs/2605.26835v1)|null|
 |**2026-05-26**|**Generating Logically Consistent Synthetic Supply Chain Data with LLM-Driven Knowledge Graph Reasoning**|cs.CL|[2605.26823v1](http://arxiv.org/abs/2605.26823v1)|null|
 |**2026-05-26**|**Self-Improvement Imitation with Biologically Guided Search for Protein Design Under Oracle Budgets**|cs.LG, cs.AI, q-bio.QM|[2605.26690v1](http://arxiv.org/abs/2605.26690v1)|**[code](https://github.com/grimmlab/SILO.git)**|
-
-## Older Than 30 Days
-
-|Date|Title|Categories|PDF|Code|
-|---|---|---|---|---|
 |**2026-05-25**|**CroCo: Cross-Lingual Contrastive Preference Tuning on Self-Generations**|cs.CL, cs.AI|[2605.26293v1](http://arxiv.org/abs/2605.26293v1)|null|
 |**2026-05-25**|**Beyond Summaries: Structure-Aware Labeling of Code Changes with Large Language Models**|cs.SE, cs.AI|[2605.26100v1](http://arxiv.org/abs/2605.26100v1)|null|
 |**2026-05-25**|**Forgotten Words: Benchmarking NeoBERT for Dementia Detection in Low-Resource Conversational Filipino and English Speech**|cs.CL|[2605.26007v1](http://arxiv.org/abs/2605.26007v1)|null|
