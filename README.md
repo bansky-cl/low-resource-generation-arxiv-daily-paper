@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **361**
-- Recent 30 days: **103**
+- Total papers in JSON: **365**
+- Recent 30 days: **107**
 - Older than 30 days: **258**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-24**|**Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect**|cs.CL|[2606.26003v1](http://arxiv.org/abs/2606.26003v1)|null|
+|**2026-06-24**|**Riazi-8B: An Urdu Large Language Model for Mathematical Reasoning**|cs.CL|[2606.25568v1](http://arxiv.org/abs/2606.25568v1)|null|
+|**2026-06-24**|**Neural Machine Translation for Low-Resource Tangkhul--English**|cs.CL, cs.AI|[2606.25365v1](http://arxiv.org/abs/2606.25365v1)|null|
 |**2026-06-23**|**Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models**|cs.AI, cs.CL|[2606.24841v1](http://arxiv.org/abs/2606.24841v1)|**[code](https://github.com/puraminy/MTO/)**|
 |**2026-06-23**|**Neural Network-Based Parametric Model Reduction for Predicting Turbulent Flow for Different Vehicle Geometries**|cs.CE, cs.AI|[2606.24265v1](http://arxiv.org/abs/2606.24265v1)|null|
 |**2026-06-22**|**GRAIN: Group Aggregation via Min-Norm Objective**|cs.LG, stat.ML|[2606.22917v1](http://arxiv.org/abs/2606.22917v1)|null|
@@ -29,6 +32,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-20**|**Evaluating Large Language Models for Hausa and Fongbe Machine Translation: Benchmarks, Failures, and Metric Reliability**|cs.CL, cs.AI, cs.LG|[2606.22269v1](http://arxiv.org/abs/2606.22269v1)|null|
 |**2026-06-20**|**FeLoG: Scalable and Efficient Distributed Graph Embedding with Feedback Loop Mechanism**|cs.DC, cs.LG|[2606.22180v1](http://arxiv.org/abs/2606.22180v1)|null|
 |**2026-06-20**|**Patched Flow Matching: Generative Wall-Pressure Reconstruction Beyond Training-Domain Scales from Sparse Sensors**|physics.flu-dyn, cs.LG|[2606.22084v1](http://arxiv.org/abs/2606.22084v1)|null|
+|**2026-06-19**|**Error-Aware TF-IDF Retrieval-Augmented Generation for ASR Error Correction**|cs.CL, cs.AI, cs.IR|[2606.24915v1](http://arxiv.org/abs/2606.24915v1)|null|
 |**2026-06-19**|**Imitation from Heterogeneous Demonstrations using Grounded Latent-Action World Models**|cs.RO, cs.AI, cs.LG|[2606.21672v1](http://arxiv.org/abs/2606.21672v1)|**[code](https://viccccciv.github.io/glam/)**|
 |**2026-06-19**|**Synthetic Audio Generation Framework for Air Traffic Control Speech Recognition**|cs.CL|[2606.21340v1](http://arxiv.org/abs/2606.21340v1)|null|
 |**2026-06-19**|**DataClaw0: Agentic Tailoring Multimodal Data from Raw Streams**|cs.LG, cs.AI|[2606.21337v1](http://arxiv.org/abs/2606.21337v1)|**[code](https://czjdsg.github.io/MakeAnyData)**|
@@ -223,12 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-04-29**|**Zero-Shot to Full-Resource: Cross-lingual Transfer Strategies for Aspect-Based Sentiment Analysis**|cs.CL|[2604.26619v1](http://arxiv.org/abs/2604.26619v1)|null|
 |**2026-04-28**|**EvoSelect: Data-Efficient LLM Evolution for Targeted Task Adaptation**|cs.CL|[2604.26170v1](http://arxiv.org/abs/2604.26170v1)|null|
 |**2026-04-28**|**ImproBR: Bug Report Improver Using LLMs**|cs.SE, cs.AI|[2604.26142v1](http://arxiv.org/abs/2604.26142v1)|null|
-|**2026-04-28**|**BioGraphletQA: Knowledge-Anchored Generation of Complex QA Datasets**|cs.CL|[2604.26048v1](http://arxiv.org/abs/2604.26048v1)|**[code](https://github.com/ieeta-pt/BioGraphletQA)**|
-|**2026-04-28**|**CGU-ILALab at FoodBench-QA 2026: Comparing Traditional and LLM-based Approaches for Recipe Nutrient Estimation**|cs.CL, cs.AI|[2604.25774v1](http://arxiv.org/abs/2604.25774v1)|null|
-|**2026-04-28**|**CORAL: Adaptive Retrieval Loop for Culturally-Aligned Multilingual RAG**|cs.CL, cs.AI|[2604.25676v1](http://arxiv.org/abs/2604.25676v1)|null|
-|**2026-04-27**|**TTCD:Transformer Integrated Temporal Causal Discovery from Non-Stationary Time Series Data**|cs.LG, cs.AI, stat.ME|[2605.08111v1](http://arxiv.org/abs/2605.08111v1)|null|
 
-README omitted **161** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **165** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

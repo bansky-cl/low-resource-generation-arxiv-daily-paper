@@ -7899,6 +7899,84 @@
       "abs_url": "http://arxiv.org/abs/2606.24265v1",
       "pdf_url": "https://arxiv.org/pdf/2606.24265v1",
       "code_url": null
+    },
+    "2606.26003": {
+      "id": "2606.26003",
+      "version": "2606.26003v1",
+      "title": "Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect",
+      "authors": [
+        "Dihia Lanasri",
+        "Fairouz Taki",
+        "Asma Kemmoum"
+      ],
+      "published": "2026-06-24",
+      "updated": "2026-06-24",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Automatic speech and language technologies are still heavily biased toward high-resource languages, limiting their applicability to dialectal and low-resource settings such as Algerian Dialect. This language presents additional challenges including lack of standardized orthography, frequent codeswitching with French, and scarcity of annotated speech resources. This paper addresses the problem of building a complete speech-to-speech conversational system for Algerian Dialect. We propose a modular pipeline integrating automatic speech recognition, natural language understanding, retrieval-augmented generation, and text-to-speech synthesis within a unified architecture. This work is the continuation of our previous work on Algerian dialectal conversational systems Bechiri and Lanasri [2026], extending it from text-based dialogue modeling to full speech-based interaction. We constructed dedicated datasets for ASR, NLU, and TTS in the telecom domain and fine-tune pretrained models for each component. The ASR system is built on Whisper-based adaptation, while the NLU module combines transformer-based embeddings with a task-oriented dialogue framework. A neural TTS system is trained on a newly collected dialectal corpus to enable spoken response generation. Experimental results show strong performance across all components, including low word error rate for ASR, high intent classification and entity recognition scores for NLU, and stable speech synthesis quality. The proposed system provides a reproducible baseline for end-to-end conversational modeling in Algerian Dialect.",
+      "abs_url": "http://arxiv.org/abs/2606.26003v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26003v1",
+      "code_url": null
+    },
+    "2606.25568": {
+      "id": "2606.25568",
+      "version": "2606.25568v1",
+      "title": "Riazi-8B: An Urdu Large Language Model for Mathematical Reasoning",
+      "authors": [
+        "Azher Ali",
+        "Ibtsam Haider",
+        "Raja Khurram Shahzad",
+        "Seemab Latif",
+        "Mehwish Fatima"
+      ],
+      "published": "2026-06-24",
+      "updated": "2026-06-24",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Recent LLMs demonstrate strong mathematical reasoning capabilities, but existing gains rely heavily on English-centric training resources and benchmarks. As a result, reasoning performance degrades substantially in low-resource languages such as Urdu, where reasoning-oriented datasets and adapted models remain scarce. Urdu lacks both reasoning-oriented resources and models adapted for multi-step mathematical problem solving, limiting the applicability of recent progress to Urdu-speaking users. We address this gap through Riazi-8B, an Urdu mathematical reasoning model developed through a two-step adaptation process comprising continued pre-training on Urdu Wikipedia and supervised fine-tuning on Urdu Chain-of-Thought data derived from GSM8K. We evaluate Riazi-8B on MGSM-Urdu against existing Urdu instruction-tuned models. Our results show consistent improvements in answer correctness, reasoning quality, response completeness, and Urdu generation. Our findings demonstrate that combining Urdu language adaptation with reasoning-focused fine-tuning is an effective strategy for extending mathematical reasoning capabilities to low-resource languages.",
+      "abs_url": "http://arxiv.org/abs/2606.25568v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25568v1",
+      "code_url": null
+    },
+    "2606.25365": {
+      "id": "2606.25365",
+      "version": "2606.25365v1",
+      "title": "Neural Machine Translation for Low-Resource Tangkhul--English",
+      "authors": [
+        "Chormi Zimik Vashai",
+        "Agniva Maiti"
+      ],
+      "published": "2026-06-24",
+      "updated": "2026-06-24",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "We present a study on low-resource machine translation for the Tangkhul-English (nmf-en) language pair. Tangkhul is a severely under-resourced Tibeto-Burman language spoken primarily in Manipur, India, with virtually no prior natural language processing infrastructure. We describe two systems: (1) a primary system based on ByT5-large fine-tuned on 38,336 Tangkhul-English parallel sentence pairs, and (2) a contrastive system based on mT5-small fine-tuned on the same corpus. Our primary ByT5-large system achieves a corpus BLEU score of 39.97, chrF++ of 58.07, BERTScore F1 of 0.8104, and COMET (wmt22-comet-da) of 0.7302 on a held-out test set of 3,856 sentences. We further discuss the orthographic challenges specific to Tangkhul's Latin-script diacritics, the domain bias of our training corpus (which comprises biblical text, stories, and conversational data), and avenues for future improvement through data diversification and domain adaptation.",
+      "abs_url": "http://arxiv.org/abs/2606.25365v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.25365v1",
+      "code_url": null
+    },
+    "2606.24915": {
+      "id": "2606.24915",
+      "version": "2606.24915v1",
+      "title": "Error-Aware TF-IDF Retrieval-Augmented Generation for ASR Error Correction",
+      "authors": [
+        "Mohammad Aref Jafari-Raddani"
+      ],
+      "published": "2026-06-19",
+      "updated": "2026-06-19",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "End-to-end automatic speech recognition systems frequently hallucinate rare entities and domain-specific terms, especially in low-resource languages. While retrieval-augmented generation frameworks can mitigate these errors using large language models, current architectures face significant challenges. They either rely on standard sparse retrieval that ignores phonetic misrecognitions or utilize heavyweight cross-modal embeddings that introduce high latency. This letter proposes a highly efficient, purely lexical error-aware framework designed to explicitly resolve phonetic and loop hallucinations. Our approach integrates a symmetric text normalization module with a novel error-aware term frequency-inverse document frequency algorithm. By constructing a sparse diagonal penalty matrix based on historical errors, the retriever mathematically prioritizes corrective documents containing specific high-risk misrecognitions. Evaluated on the Persian subset of the FLEURS dataset, our method increased the error-aware hit rate from 53.7% to 90.9%. In end-to-end evaluations, the integrated framework reduced the final word error rate from 23.06% to 18.83%, achieving significant accuracy gains with near-zero inference latency.",
+      "abs_url": "http://arxiv.org/abs/2606.24915v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.24915v1",
+      "code_url": null
     }
   }
 }
