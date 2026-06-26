@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **365**
-- Recent 30 days: **97**
+- Total papers in JSON: **369**
+- Recent 30 days: **101**
 - Older than 30 days: **268**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,10 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-25**|**Multilingual Reasoning Cascades Need More Context**|cs.CL|[2606.27306v1](http://arxiv.org/abs/2606.27306v1)|null|
+|**2026-06-25**|**Kalman Prototypical Networks for Few-shot Fault Detection in Combined Cycle Gas Turbines**|cs.AI|[2606.26710v1](http://arxiv.org/abs/2606.26710v1)|null|
+|**2026-06-25**|**Comparing BERT Sentence-Pair Classification and Few-Shot LLM Prompting for Detecting Threat and Solution Framing in German Climate News**|cs.CL|[2606.26489v1](http://arxiv.org/abs/2606.26489v1)|null|
+|**2026-06-25**|**Soft Token Alignment for Cross-Lingual Reasoning**|cs.CL|[2606.26466v1](http://arxiv.org/abs/2606.26466v1)|null|
 |**2026-06-24**|**Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect**|cs.CL|[2606.26003v1](http://arxiv.org/abs/2606.26003v1)|null|
 |**2026-06-24**|**Riazi-8B: An Urdu Large Language Model for Mathematical Reasoning**|cs.CL|[2606.25568v1](http://arxiv.org/abs/2606.25568v1)|null|
 |**2026-06-24**|**Neural Machine Translation for Low-Resource Tangkhul--English**|cs.CL, cs.AI|[2606.25365v1](http://arxiv.org/abs/2606.25365v1)|null|
@@ -223,12 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-04-30**|**WaferSAGE: Large Language Model-Powered Wafer Defect Analysis via Synthetic Data Generation and Rubric-Guided Reinforcement Learning**|cs.AI|[2604.27629v4](http://arxiv.org/abs/2604.27629v4)|null|
 |**2026-04-29**|**Preserving Temporal Dynamics in Time Series Generation**|cs.LG, cs.AI|[2604.27182v1](http://arxiv.org/abs/2604.27182v1)|null|
 |**2026-04-29**|**HealthNLP_Retrievers at ArchEHR-QA 2026: Cascaded LLM Pipeline for Grounded Clinical Question Answering**|cs.CL, cs.LG|[2604.26880v1](http://arxiv.org/abs/2604.26880v1)|null|
-|**2026-04-29**|**Exploring the Potential of Probabilistic Transformer for Time Series Modeling: A Report on the ST-PT Framework**|cs.LG, cs.AI|[2604.26762v1](http://arxiv.org/abs/2604.26762v1)|null|
-|**2026-04-29**|**Zero-Shot to Full-Resource: Cross-lingual Transfer Strategies for Aspect-Based Sentiment Analysis**|cs.CL|[2604.26619v1](http://arxiv.org/abs/2604.26619v1)|null|
-|**2026-04-28**|**EvoSelect: Data-Efficient LLM Evolution for Targeted Task Adaptation**|cs.CL|[2604.26170v1](http://arxiv.org/abs/2604.26170v1)|null|
-|**2026-04-28**|**ImproBR: Bug Report Improver Using LLMs**|cs.SE, cs.AI|[2604.26142v1](http://arxiv.org/abs/2604.26142v1)|null|
 
-README omitted **165** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **169** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

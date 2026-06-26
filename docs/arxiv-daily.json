@@ -7977,6 +7977,87 @@
       "abs_url": "http://arxiv.org/abs/2606.24915v1",
       "pdf_url": "https://arxiv.org/pdf/2606.24915v1",
       "code_url": null
+    },
+    "2606.27306": {
+      "id": "2606.27306",
+      "version": "2606.27306v1",
+      "title": "Multilingual Reasoning Cascades Need More Context",
+      "authors": [
+        "Arnav Mazumder",
+        "Dengjia Zhang",
+        "Shuyue Stella Li",
+        "Yulia Tsvetkov",
+        "Niyati Bafna"
+      ],
+      "published": "2026-06-25",
+      "updated": "2026-06-25",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Translation cascades for reasoning translate the query from another language to English, reason in English, and translate the answer back to the original language. This is a competitive approach to multilingual reasoning, but structurally lossy, since each stage discards information later stages may need, including cues for cultural grounding, register, and disambiguation. We examine the benefits of a simple and training-free intervention: a context-aware translation cascade, which additionally provides the original question, the English translated question, and the reasoning trace to the context of the final translation module. We evaluate gains across nine multilingual benchmarks including various task types, three backbone models, and 285 high-, mid-, and low-resource languages, and demonstrate strong gains for open-ended generation across models and resource regimes. We show that the original language question carries most of the beneficial context. Our study emphasizes the need to better design information flow in machine translation cascades for mitigating error propagation, and provides a simple and actionable default strategy: preserve the original user question until the end of the pipeline.",
+      "abs_url": "http://arxiv.org/abs/2606.27306v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27306v1",
+      "code_url": null
+    },
+    "2606.26466": {
+      "id": "2606.26466",
+      "version": "2606.26466v1",
+      "title": "Soft Token Alignment for Cross-Lingual Reasoning",
+      "authors": [
+        "Jiayi He",
+        "Jungsoo Park",
+        "Wei Xu",
+        "Alan Ritter"
+      ],
+      "published": "2026-06-25",
+      "updated": "2026-06-25",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Multilingual large language models often produce inconsistent reasoning and answers for semantically equivalent prompts in different languages. Prior work suggests that intermediate representations can be relatively language-agnostic, but generation becomes increasingly language-specific as models commit to discrete output tokens. This is problematic because language-specific lexical choices can cause semantically equivalent reasoning paths to diverge across languages. These divergences motivate searching for a cross-lingual alignment signal that is less tied to any single vocabulary item or script. We propose SOLAR, an auxiliary objective for supervised fine-tuning that aligns soft-token representations across languages, using English as a pivot. Soft tokens are probability-weighted mixtures over the vocabulary embeddings, yielding continuous representations that can aggregate information from semantically related tokens across languages. We then align each non-English soft-token summary to its English counterpart in the shared embedding space. Across four multilingual reasoning benchmarks, SOLAR improves accuracy by up to +17.7 points over the base model and +3.8 over standard supervised fine-tuning, with the largest gains on low-resource languages. SOLAR also strengthens final-layer cross-lingual similarity and substantially reduces language-cluster separability, suggesting that aligning soft-token representations helps preserve shared semantic structure during multilingual reasoning.",
+      "abs_url": "http://arxiv.org/abs/2606.26466v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26466v1",
+      "code_url": null
+    },
+    "2606.26710": {
+      "id": "2606.26710",
+      "version": "2606.26710v1",
+      "title": "Kalman Prototypical Networks for Few-shot Fault Detection in Combined Cycle Gas Turbines",
+      "authors": [
+        "Mohammed Ayalew Belay",
+        "Lucas Ferreira Bernardino",
+        "Adil Rasheed",
+        "Rubén M. Montañés",
+        "Pierluigi Salvo Rossi"
+      ],
+      "published": "2026-06-25",
+      "updated": "2026-06-25",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Combined-cycle gas turbines (CCGTs) play a key role in modern power generation, offering both high efficiency and reduced environmental impact. However, their complex thermo-fluid and mechanical interactions complicate fault detection, particularly when labeled fault data are scarce. In this paper, we introduce the Kalman Prototypical Network (KPN), a metric-based few-shot learning (FSL) framework specifically tailored for CCGT fault diagnosis. We model the evolution of class prototypes as latent stochastic states in a dynamic system to reduce episodic variance and improve robustness in embedding representation. Synthetic data sets generated with a high-fidelity Modelica-based dynamic simulation of an offshore CCGT system were used, simulating both normal operation and progressive leak faults under transient conditions. Application of the proposed framework on simulated leak fault detection tasks demonstrate that KPN outperforms conventional FSL methods such as Matching Networks, Relation Networks, and MAML in both accuracy and stability under varying support and query configurations. The proposed framework significantly improves training convergence and generalization by stabilizing class representations, making it well-suited for real-world CCGT fault detection where labeled data is limited.",
+      "abs_url": "http://arxiv.org/abs/2606.26710v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26710v1",
+      "code_url": null
+    },
+    "2606.26489": {
+      "id": "2606.26489",
+      "version": "2606.26489v1",
+      "title": "Comparing BERT Sentence-Pair Classification and Few-Shot LLM Prompting for Detecting Threat and Solution Framing in German Climate News",
+      "authors": [
+        "Raven Adam",
+        "David Maier",
+        "Marie Kogler"
+      ],
+      "published": "2026-06-25",
+      "updated": "2026-06-25",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "News media play a central role in shaping public perceptions of climate change, and whether coverage emphasizes threats or solutions has measurable effects on audience engagement and policy support. Automated detection of these framing patterns at the sentence level would allow researchers to analyze large corpora that are infeasible to code manually. We present a systematic comparison of two approaches for classifying sentences from German-language climate news articles as threat-oriented, solution-oriented, both, or neither. The first approach uses few-shot prompting with an open-weights large language model (Llama 4 Maverick), employing chain-of-thought reasoning and structured output with confidence scoring. The second approach fine-tunes a German BERT model (deepset/gbert-large) for sentence-pair classification, where the preceding sentence provides contextual information for the target sentence. Both approaches implement two independent binary classifiers, one for threat framing and one for solution framing. We evaluate both methods on a corpus of 440 Austrian newspaper articles that were manually coded following a detailed coding scheme developed with domain experts. The fine-tuned BERT classifiers achieve an F1 score of 0.83 for both the threat and solution tasks, while the LLM-based classifiers reach an F1 of 0.78. An ablation study confirms that providing the preceding sentence as context improves BERT classification performance substantially compared to single-sentence input. These results contribute to the growing body of work comparing fine-tuned encoder models with prompted generative models for text classification in computational social science.",
+      "abs_url": "http://arxiv.org/abs/2606.26489v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.26489v1",
+      "code_url": null
     }
   }
 }
