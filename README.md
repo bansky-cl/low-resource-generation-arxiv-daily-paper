@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.26
+## Updated on 2026.06.27
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **369**
-- Recent 30 days: **101**
-- Older than 30 days: **268**
+- Recent 30 days: **93**
+- Older than 30 days: **276**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -115,6 +115,11 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-28**|**AfriScience-MT: Towards Decolonizing Science in Africa through Text Translation**|cs.CL|[2605.29741v1](http://arxiv.org/abs/2605.29741v1)|null|
 |**2026-05-28**|**Think Fast, Talk Smart: Partitioning Deterministic and Neural Computation for Structured Health Text Generation**|cs.AI|[2605.29652v1](http://arxiv.org/abs/2605.29652v1)|null|
 |**2026-05-28**|**Source-Grounded Semantic Reinforcement Learning for Low-Resource Target-Language Generation**|cs.CL, cs.AI|[2605.29502v1](http://arxiv.org/abs/2605.29502v1)|null|
+
+## Older Than 30 Days
+
+|Date|Title|Categories|PDF|Code|
+|---|---|---|---|---|
 |**2026-05-27**|**Enhancing BiGRU with a KAN Block for Legal Document Classification and Summarization**|cs.CL, cs.AI, cs.LG|[2606.00116v1](http://arxiv.org/abs/2606.00116v1)|null|
 |**2026-05-27**|**Towards Reliable Multilingual LLMs-as-a-Judge: An Empirical Study**|cs.CL, cs.AI|[2605.28710v1](http://arxiv.org/abs/2605.28710v1)|null|
 |**2026-05-27**|**Activation Steering for Synthetic Data Generation: The Role of Diversity in Downstream Safety Detection**|cs.LG, cs.CL|[2605.28664v1](http://arxiv.org/abs/2605.28664v1)|null|
@@ -123,11 +128,6 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-27**|**Explaining is Harder Than Predicting Alone: Evaluating Concept-based Explanations of MLLMs as ICL Visual Classifiers**|cs.AI, cs.CL, cs.LG, cs.LO, cs.MA|[2605.28215v1](http://arxiv.org/abs/2605.28215v1)|null|
 |**2026-05-27**|**Hierarchical Synthetic Tabular Data Generation: A Hybrid Top-Down and Bottom-Up Framework**|cs.LG|[2605.28198v1](http://arxiv.org/abs/2605.28198v1)|null|
 |**2026-05-27**|**The Fragility of Chain-of-Thought Monitoring Across Typologically Diverse Languages**|cs.CL, cs.AI|[2605.27901v1](http://arxiv.org/abs/2605.27901v1)|**[code](https://multilingual-cot-monitoring.github.io/)**|
-
-## Older Than 30 Days
-
-|Date|Title|Categories|PDF|Code|
-|---|---|---|---|---|
 |**2026-05-26**|**TriHead-GAN: A Generative Adversarial Network with Triple-Head Discriminator for Carbon Emission Time Series Generation**|cs.LG|[2606.07569v1](http://arxiv.org/abs/2606.07569v1)|null|
 |**2026-05-26**|**Reading or Guessing? Visual Grounding Failures of Vision-Language Models for OCR in Ancient Greek Editions**|cs.CL, cs.AI, cs.CV, cs.DL|[2605.27750v1](http://arxiv.org/abs/2605.27750v1)|null|
 |**2026-05-26**|**Learning to Translate from Soft to Hard LLM Prompts**|cs.CL, cs.LG|[2605.27642v1](http://arxiv.org/abs/2605.27642v1)|null|
