@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.27
+## Updated on 2026.06.28
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **369**
-- Recent 30 days: **93**
-- Older than 30 days: **276**
+- Recent 30 days: **87**
+- Older than 30 days: **282**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -109,17 +109,17 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-29**|**Developing a Culturally Grounded, AI-Augmented UX Research Point of View (POV): An Exemplar Case Study from Telemedicine Dementia Care**|cs.HC, cs.AI|[2605.31147v1](http://arxiv.org/abs/2605.31147v1)|null|
 |**2026-05-29**|**GraphARC: A Comprehensive Benchmark for Graph-Based Abstract Reasoning**|cs.AI|[2605.31031v1](http://arxiv.org/abs/2605.31031v1)|null|
 |**2026-05-29**|**Generating Reports or Repeating Templates? Measuring and Mitigating Template Collapse in 3D CT Report Generation**|cs.CV, cs.AI, cs.CL|[2605.30984v1](http://arxiv.org/abs/2605.30984v1)|null|
+
+## Older Than 30 Days
+
+|Date|Title|Categories|PDF|Code|
+|---|---|---|---|---|
 |**2026-05-28**|**Destruction is a General Strategy to Learn Generation; Diffusion's Strength is to Take it Seriously; Exploration is the Future**|cs.LG, cs.IT|[2605.30553v1](http://arxiv.org/abs/2605.30553v1)|null|
 |**2026-05-28**|**Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance**|cs.RO, cs.LG|[2605.30056v1](http://arxiv.org/abs/2605.30056v1)|**[code](https://dingsht.tech/cgpo-webpage)**|
 |**2026-05-28**|**MEMENTO: Leveraging Web as a Learning Signal for Low-Data Domains**|cs.AI|[2605.29795v1](http://arxiv.org/abs/2605.29795v1)|null|
 |**2026-05-28**|**AfriScience-MT: Towards Decolonizing Science in Africa through Text Translation**|cs.CL|[2605.29741v1](http://arxiv.org/abs/2605.29741v1)|null|
 |**2026-05-28**|**Think Fast, Talk Smart: Partitioning Deterministic and Neural Computation for Structured Health Text Generation**|cs.AI|[2605.29652v1](http://arxiv.org/abs/2605.29652v1)|null|
 |**2026-05-28**|**Source-Grounded Semantic Reinforcement Learning for Low-Resource Target-Language Generation**|cs.CL, cs.AI|[2605.29502v1](http://arxiv.org/abs/2605.29502v1)|null|
-
-## Older Than 30 Days
-
-|Date|Title|Categories|PDF|Code|
-|---|---|---|---|---|
 |**2026-05-27**|**Enhancing BiGRU with a KAN Block for Legal Document Classification and Summarization**|cs.CL, cs.AI, cs.LG|[2606.00116v1](http://arxiv.org/abs/2606.00116v1)|null|
 |**2026-05-27**|**Towards Reliable Multilingual LLMs-as-a-Judge: An Empirical Study**|cs.CL, cs.AI|[2605.28710v1](http://arxiv.org/abs/2605.28710v1)|null|
 |**2026-05-27**|**Activation Steering for Synthetic Data Generation: The Role of Diversity in Downstream Safety Detection**|cs.LG, cs.CL|[2605.28664v1](http://arxiv.org/abs/2605.28664v1)|null|
