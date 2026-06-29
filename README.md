@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.29
+## Updated on 2026.06.30
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **372**
-- Recent 30 days: **81**
-- Older than 30 days: **291**
+- Recent 30 days: **80**
+- Older than 30 days: **292**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -102,12 +102,12 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-31**|**Fine-Tuning Diffusion Models for Molecular Generation via Reinforcement Learning and Fast Sampling**|cs.LG, cs.AI|[2606.01220v1](http://arxiv.org/abs/2606.01220v1)|null|
 |**2026-05-31**|**ExpWeaver: LLM Agents Learn from Experience via Latent RAG**|cs.CL|[2606.01041v1](http://arxiv.org/abs/2606.01041v1)|**[code](https://github.com/ulab-uiuc/ExpWeaver)**|
 |**2026-05-31**|**PolySpeech-100: A Large-Scale Benchmark for Speech Understanding Across 100+ Languages and Dialects**|cs.CL, cs.AI, eess.AS|[2606.01016v1](http://arxiv.org/abs/2606.01016v1)|**[code](https://github.com/YoungSeng/PolySpeech-100)**|
-|**2026-05-30**|**Manifold Diffusion for Structure Generation of Transition Metal Complexes**|cond-mat.mtrl-sci, cs.LG, physics.chem-ph|[2606.00666v1](http://arxiv.org/abs/2606.00666v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-05-30**|**Manifold Diffusion for Structure Generation of Transition Metal Complexes**|cond-mat.mtrl-sci, cs.LG, physics.chem-ph|[2606.00666v1](http://arxiv.org/abs/2606.00666v1)|null|
 |**2026-05-29**|**Few-Shot Resampling for Scalable Statistically-Sound Data Mining**|cs.LG, cs.DB, stat.ME|[2606.11235v1](http://arxiv.org/abs/2606.11235v1)|null|
 |**2026-05-29**|**Sample-Efficient Post-Training for LEGO Spatial-Physics Reasoning**|cs.LG, cs.AI|[2606.07602v1](http://arxiv.org/abs/2606.07602v1)|null|
 |**2026-05-29**|**HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads**|cs.RO, cs.LG|[2606.00252v1](http://arxiv.org/abs/2606.00252v1)|null|
