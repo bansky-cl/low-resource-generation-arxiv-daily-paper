@@ -7,21 +7,24 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.28
+## Updated on 2026.06.29
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **369**
-- Recent 30 days: **87**
-- Older than 30 days: **282**
+- Total papers in JSON: **372**
+- Recent 30 days: **81**
+- Older than 30 days: **291**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-26**|**Beyond Sparse Supervision: Diffusion-Guided Learning for Few-Shot Graph Fraud Detection**|cs.LG, cs.AI|[2606.28134v1](http://arxiv.org/abs/2606.28134v1)|null|
+|**2026-06-26**|**SHARD: cell-keyed residual splitting for alignment-resistant private dense retrieval**|cs.CR, cs.AI, cs.IR|[2606.27976v1](http://arxiv.org/abs/2606.27976v1)|null|
+|**2026-06-25**|**Causal Connections: Leveraging Multilingual Fine-Tuning for Financial QA@FinCausal 2026**|cs.CL|[2606.27446v1](http://arxiv.org/abs/2606.27446v1)|null|
 |**2026-06-25**|**Multilingual Reasoning Cascades Need More Context**|cs.CL|[2606.27306v1](http://arxiv.org/abs/2606.27306v1)|null|
 |**2026-06-25**|**Kalman Prototypical Networks for Few-shot Fault Detection in Combined Cycle Gas Turbines**|cs.AI|[2606.26710v1](http://arxiv.org/abs/2606.26710v1)|null|
 |**2026-06-25**|**Comparing BERT Sentence-Pair Classification and Few-Shot LLM Prompting for Detecting Threat and Solution Framing in German Climate News**|cs.CL|[2606.26489v1](http://arxiv.org/abs/2606.26489v1)|null|
@@ -100,6 +103,11 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-31**|**ExpWeaver: LLM Agents Learn from Experience via Latent RAG**|cs.CL|[2606.01041v1](http://arxiv.org/abs/2606.01041v1)|**[code](https://github.com/ulab-uiuc/ExpWeaver)**|
 |**2026-05-31**|**PolySpeech-100: A Large-Scale Benchmark for Speech Understanding Across 100+ Languages and Dialects**|cs.CL, cs.AI, eess.AS|[2606.01016v1](http://arxiv.org/abs/2606.01016v1)|**[code](https://github.com/YoungSeng/PolySpeech-100)**|
 |**2026-05-30**|**Manifold Diffusion for Structure Generation of Transition Metal Complexes**|cond-mat.mtrl-sci, cs.LG, physics.chem-ph|[2606.00666v1](http://arxiv.org/abs/2606.00666v1)|null|
+
+## Older Than 30 Days
+
+|Date|Title|Categories|PDF|Code|
+|---|---|---|---|---|
 |**2026-05-29**|**Few-Shot Resampling for Scalable Statistically-Sound Data Mining**|cs.LG, cs.DB, stat.ME|[2606.11235v1](http://arxiv.org/abs/2606.11235v1)|null|
 |**2026-05-29**|**Sample-Efficient Post-Training for LEGO Spatial-Physics Reasoning**|cs.LG, cs.AI|[2606.07602v1](http://arxiv.org/abs/2606.07602v1)|null|
 |**2026-05-29**|**HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads**|cs.RO, cs.LG|[2606.00252v1](http://arxiv.org/abs/2606.00252v1)|null|
@@ -109,11 +117,6 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-29**|**Developing a Culturally Grounded, AI-Augmented UX Research Point of View (POV): An Exemplar Case Study from Telemedicine Dementia Care**|cs.HC, cs.AI|[2605.31147v1](http://arxiv.org/abs/2605.31147v1)|null|
 |**2026-05-29**|**GraphARC: A Comprehensive Benchmark for Graph-Based Abstract Reasoning**|cs.AI|[2605.31031v1](http://arxiv.org/abs/2605.31031v1)|null|
 |**2026-05-29**|**Generating Reports or Repeating Templates? Measuring and Mitigating Template Collapse in 3D CT Report Generation**|cs.CV, cs.AI, cs.CL|[2605.30984v1](http://arxiv.org/abs/2605.30984v1)|null|
-
-## Older Than 30 Days
-
-|Date|Title|Categories|PDF|Code|
-|---|---|---|---|---|
 |**2026-05-28**|**Destruction is a General Strategy to Learn Generation; Diffusion's Strength is to Take it Seriously; Exploration is the Future**|cs.LG, cs.IT|[2605.30553v1](http://arxiv.org/abs/2605.30553v1)|null|
 |**2026-05-28**|**Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance**|cs.RO, cs.LG|[2605.30056v1](http://arxiv.org/abs/2605.30056v1)|**[code](https://dingsht.tech/cgpo-webpage)**|
 |**2026-05-28**|**MEMENTO: Leveraging Web as a Learning Signal for Low-Data Domains**|cs.AI|[2605.29795v1](http://arxiv.org/abs/2605.29795v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-01**|**RadLite: Multi-Task LoRA Fine-Tuning of Small Language Models for CPU-Deployable Radiology AI**|cs.CL, cs.AI, cs.LG|[2605.00421v2](http://arxiv.org/abs/2605.00421v2)|**[code](https://github.com/RadioX-Labs/RadLite)**|
 |**2026-04-30**|**ViLegalNLI: Natural Language Inference for Vietnamese Legal Texts**|cs.CL, cs.AI, cs.LG|[2605.00116v1](http://arxiv.org/abs/2605.00116v1)|null|
 |**2026-04-30**|**Reasoning over Object Descriptions Improves Coreference Resolution in Task-Based Dialogue Systems**|cs.CL|[2604.27850v1](http://arxiv.org/abs/2604.27850v1)|null|
-|**2026-04-30**|**WaferSAGE: Large Language Model-Powered Wafer Defect Analysis via Synthetic Data Generation and Rubric-Guided Reinforcement Learning**|cs.AI|[2604.27629v4](http://arxiv.org/abs/2604.27629v4)|null|
-|**2026-04-29**|**Preserving Temporal Dynamics in Time Series Generation**|cs.LG, cs.AI|[2604.27182v1](http://arxiv.org/abs/2604.27182v1)|null|
-|**2026-04-29**|**HealthNLP_Retrievers at ArchEHR-QA 2026: Cascaded LLM Pipeline for Grounded Clinical Question Answering**|cs.CL, cs.LG|[2604.26880v1](http://arxiv.org/abs/2604.26880v1)|null|
 
-README omitted **169** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **172** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

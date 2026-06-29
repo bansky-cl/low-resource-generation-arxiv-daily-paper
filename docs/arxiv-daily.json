@@ -8058,6 +8058,67 @@
       "abs_url": "http://arxiv.org/abs/2606.26489v1",
       "pdf_url": "https://arxiv.org/pdf/2606.26489v1",
       "code_url": null
+    },
+    "2606.28134": {
+      "id": "2606.28134",
+      "version": "2606.28134v1",
+      "title": "Beyond Sparse Supervision: Diffusion-Guided Learning for Few-Shot Graph Fraud Detection",
+      "authors": [
+        "Liming Liu",
+        "Chao Hu",
+        "Mingfei Lu",
+        "Yiwei Ge",
+        "Xingle Li",
+        "Heyuan Shi"
+      ],
+      "published": "2026-06-26",
+      "updated": "2026-06-26",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Graph-based fraud detection is essential for safeguarding large-scale transaction systems, where undetected anomalies may lead to substantial financial losses and security risks. Real-world fraud graphs pose two coupled challenges: sparse and imbalanced supervision, where verified fraudulent labels are scarce and heavily skewed toward benign accounts, and representation dilution, where spatial message passing may oversmooth camouflaged anomalies while spectral filters may suppress fraud-relevant mid- and high-frequency irregularities. To address these challenges, we propose ADC-GNN, short for Attention-guided Diffusion-Contrastive Graph Neural Network, a unified framework that combines diffusion-guided feature augmentation, contrastive representation learning, and multi-hop spectral attention for few-shot graph fraud detection. The diffusion component is formulated as a feature-space denoising augmentation mechanism rather than a full topology-generative graph diffusion model: it constructs noise-perturbed node-feature views under a cosine schedule and uses contrastive learning to stabilize node representations across perturbations. The spectral attention module further adaptively emphasizes fraud-relevant hop-level and relation-level cues. We evaluate ADC-GNN primarily on three public benchmarks and additionally report a proprietary real-world telecom transaction dataset with approximately 60,000 records as a private case study. Under the 1% training setting, ADC-GNN achieves consistent improvements over original graph fraud baselines and four protocol-consistent recent graph anomaly/fraud baselines on the public benchmarks. Additional analyses on split stability, training ratios, oversampling alternatives, module-level ablations, diffusion schedules, and runtime and memory-consumption comparisons further characterize the effective operating regime of ADC-GNN.",
+      "abs_url": "http://arxiv.org/abs/2606.28134v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28134v1",
+      "code_url": null
+    },
+    "2606.27976": {
+      "id": "2606.27976",
+      "version": "2606.27976v1",
+      "title": "SHARD: cell-keyed residual splitting for alignment-resistant private dense retrieval",
+      "authors": [
+        "Sergey Kurilenko"
+      ],
+      "published": "2026-06-26",
+      "updated": "2026-06-26",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "Dense embeddings underpin semantic search and RAG, yet a leaked vector store hands much of the underlying text back to whoever holds it. The attacks that make this possible (few-shot alignment, zero-shot inversion, unsupervised cross-space translation) share one weakness: the protected store is a single global geometry that can be aligned to a known one. A secret global rotation, the usual lightweight defence, is no exception: orthogonal Procrustes recovers it once the attacker has about the subspace dimension in known pairs. We introduce Shard, a retrieval-preserving embedding transform that removes this weak axis. The centred embedding is split into a short public prefix (for stage-1 retrieval) and a private residual sharded into C cells under separate secret keys; the residual is reranked under CKKS, where the keys cancel and leave the inner product exact. A single parameter C runs the design from the global-linear baseline it replaces (C=1) to per-document micro-keys (C=N). Because the rerank is full-dimensional, Shard returns the raw-space nDCG@10 that half-SVD truncation gives up; and because the residual is keyed cell-locally, mapping it back to a common frame under a diffuse known-plaintext leak costs roughly C times more anchors (median 200 to 102,400 at C=256), for a few encrypted queries. The short public prefix leaks far less neighbour structure, and a micro-key limit drives the residual graph to zero with an unlinkable, renewable template. The barrier holds against learned, non-linear and unsupervised aligners, and where a matched-utility noise defence de-anonymises almost every probe, Shard de-anonymises none. We are plain about the limits: within a cell the keys cancel, a targeted attacker needs only about d_priv anchors, and an overlapping reference corpus still leaks through the prefix. Shard is an attack-aware geometric defence, not a cryptographic guarantee.",
+      "abs_url": "http://arxiv.org/abs/2606.27976v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27976v1",
+      "code_url": null
+    },
+    "2606.27446": {
+      "id": "2606.27446",
+      "version": "2606.27446v1",
+      "title": "Causal Connections: Leveraging Multilingual Fine-Tuning for Financial QA@FinCausal 2026",
+      "authors": [
+        "Akash Kumar Gautam",
+        "Serhii Hamotskyi",
+        "Christian Hänig"
+      ],
+      "published": "2026-06-25",
+      "updated": "2026-06-25",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper describes team HSA_CORAL's submission to the FinCausal 2026 shared task on extracting cause-effect relations from financial narratives via extractive question answering in English and Spanish. We compare three modeling families: (i) encoder-only token tagging with multilingual BERT, (ii) encoder-decoder generation with multilingual BART, and (iii) decoder-only LLMs (Llama 3.1 and GPT variants) using prompt refinement, few-shot demonstrations, and supervised fine-tuning. Across settings, prompting and few-shot examples yield competitive performance, while supervised fine-tuning provides the largest gains. Our best system, GPT-4.1 Mini fine-tuned on combined English and Spanish training data, achieves a tied highest score on the English subtask (score 4.8140) and ranks third on Spanish (score 4.7753) under the shared task's LLM-as-a-judge metric. Overall, the results highlight the value of task-specific adaptation and multilingual fine-tuning for cross-lingual transfer in financial causality QA.",
+      "abs_url": "http://arxiv.org/abs/2606.27446v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27446v1",
+      "code_url": null
     }
   }
 }
