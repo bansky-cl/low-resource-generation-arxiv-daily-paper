@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.06.30
+## Updated on 2026.07.01
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **375**
-- Recent 30 days: **83**
-- Older than 30 days: **292**
+- Recent 30 days: **78**
+- Older than 30 days: **297**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -100,16 +100,16 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-01**|**K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Korean Contexts**|cs.CL|[2606.02404v1](http://arxiv.org/abs/2606.02404v1)|null|
 |**2026-06-01**|**Coherent Off-Policy Improvement of Large Behavior Models with Learned Rewards**|cs.LG|[2606.02194v1](http://arxiv.org/abs/2606.02194v1)|null|
 |**2026-06-01**|**When Meaning Travels: A Granular Lens on Hybrid-MoE's Role in Idiomatic Understanding for Language Models**|cs.CL|[2606.01671v1](http://arxiv.org/abs/2606.01671v1)|null|
-|**2026-05-31**|**Time Series as Language: A Universal Tokenizer for General-Purpose Time Series Foundation Models**|cs.LG, cs.AI|[2606.09861v1](http://arxiv.org/abs/2606.09861v1)|null|
-|**2026-05-31**|**TukaBench: A Culturally Grounded Jailbreak Benchmark for African Languages**|cs.CL, cs.AI|[2606.01322v1](http://arxiv.org/abs/2606.01322v1)|null|
-|**2026-05-31**|**Fine-Tuning Diffusion Models for Molecular Generation via Reinforcement Learning and Fast Sampling**|cs.LG, cs.AI|[2606.01220v1](http://arxiv.org/abs/2606.01220v1)|null|
-|**2026-05-31**|**ExpWeaver: LLM Agents Learn from Experience via Latent RAG**|cs.CL|[2606.01041v1](http://arxiv.org/abs/2606.01041v1)|**[code](https://github.com/ulab-uiuc/ExpWeaver)**|
-|**2026-05-31**|**PolySpeech-100: A Large-Scale Benchmark for Speech Understanding Across 100+ Languages and Dialects**|cs.CL, cs.AI, eess.AS|[2606.01016v1](http://arxiv.org/abs/2606.01016v1)|**[code](https://github.com/YoungSeng/PolySpeech-100)**|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-05-31**|**Time Series as Language: A Universal Tokenizer for General-Purpose Time Series Foundation Models**|cs.LG, cs.AI|[2606.09861v1](http://arxiv.org/abs/2606.09861v1)|null|
+|**2026-05-31**|**TukaBench: A Culturally Grounded Jailbreak Benchmark for African Languages**|cs.CL, cs.AI|[2606.01322v1](http://arxiv.org/abs/2606.01322v1)|null|
+|**2026-05-31**|**Fine-Tuning Diffusion Models for Molecular Generation via Reinforcement Learning and Fast Sampling**|cs.LG, cs.AI|[2606.01220v1](http://arxiv.org/abs/2606.01220v1)|null|
+|**2026-05-31**|**ExpWeaver: LLM Agents Learn from Experience via Latent RAG**|cs.CL|[2606.01041v1](http://arxiv.org/abs/2606.01041v1)|**[code](https://github.com/ulab-uiuc/ExpWeaver)**|
+|**2026-05-31**|**PolySpeech-100: A Large-Scale Benchmark for Speech Understanding Across 100+ Languages and Dialects**|cs.CL, cs.AI, eess.AS|[2606.01016v1](http://arxiv.org/abs/2606.01016v1)|**[code](https://github.com/YoungSeng/PolySpeech-100)**|
 |**2026-05-30**|**Manifold Diffusion for Structure Generation of Transition Metal Complexes**|cond-mat.mtrl-sci, cs.LG, physics.chem-ph|[2606.00666v1](http://arxiv.org/abs/2606.00666v1)|null|
 |**2026-05-29**|**Few-Shot Resampling for Scalable Statistically-Sound Data Mining**|cs.LG, cs.DB, stat.ME|[2606.11235v1](http://arxiv.org/abs/2606.11235v1)|null|
 |**2026-05-29**|**Sample-Efficient Post-Training for LEGO Spatial-Physics Reasoning**|cs.LG, cs.AI|[2606.07602v1](http://arxiv.org/abs/2606.07602v1)|null|
