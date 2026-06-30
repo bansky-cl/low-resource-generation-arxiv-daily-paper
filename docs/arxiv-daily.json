@@ -7902,21 +7902,23 @@
     },
     "2606.26003": {
       "id": "2606.26003",
-      "version": "2606.26003v1",
+      "version": "2606.26003v2",
       "title": "Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect",
       "authors": [
         "Dihia Lanasri",
+        "Rebeh Imane Ammar Aouchiche",
+        "Abdelkarim Remmide",
         "Fairouz Taki",
         "Asma Kemmoum"
       ],
       "published": "2026-06-24",
-      "updated": "2026-06-24",
+      "updated": "2026-06-28",
       "categories": [
         "cs.CL"
       ],
       "abstract": "Automatic speech and language technologies are still heavily biased toward high-resource languages, limiting their applicability to dialectal and low-resource settings such as Algerian Dialect. This language presents additional challenges including lack of standardized orthography, frequent codeswitching with French, and scarcity of annotated speech resources. This paper addresses the problem of building a complete speech-to-speech conversational system for Algerian Dialect. We propose a modular pipeline integrating automatic speech recognition, natural language understanding, retrieval-augmented generation, and text-to-speech synthesis within a unified architecture. This work is the continuation of our previous work on Algerian dialectal conversational systems Bechiri and Lanasri [2026], extending it from text-based dialogue modeling to full speech-based interaction. We constructed dedicated datasets for ASR, NLU, and TTS in the telecom domain and fine-tune pretrained models for each component. The ASR system is built on Whisper-based adaptation, while the NLU module combines transformer-based embeddings with a task-oriented dialogue framework. A neural TTS system is trained on a newly collected dialectal corpus to enable spoken response generation. Experimental results show strong performance across all components, including low word error rate for ASR, high intent classification and entity recognition scores for NLU, and stable speech synthesis quality. The proposed system provides a reproducible baseline for end-to-end conversational modeling in Algerian Dialect.",
-      "abs_url": "http://arxiv.org/abs/2606.26003v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26003v1",
+      "abs_url": "http://arxiv.org/abs/2606.26003v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.26003v2",
       "code_url": null
     },
     "2606.25568": {
@@ -8118,6 +8120,69 @@
       "abstract": "This paper describes team HSA_CORAL's submission to the FinCausal 2026 shared task on extracting cause-effect relations from financial narratives via extractive question answering in English and Spanish. We compare three modeling families: (i) encoder-only token tagging with multilingual BERT, (ii) encoder-decoder generation with multilingual BART, and (iii) decoder-only LLMs (Llama 3.1 and GPT variants) using prompt refinement, few-shot demonstrations, and supervised fine-tuning. Across settings, prompting and few-shot examples yield competitive performance, while supervised fine-tuning provides the largest gains. Our best system, GPT-4.1 Mini fine-tuned on combined English and Spanish training data, achieves a tied highest score on the English subtask (score 4.8140) and ranks third on Spanish (score 4.7753) under the shared task's LLM-as-a-judge metric. Overall, the results highlight the value of task-specific adaptation and multilingual fine-tuning for cross-lingual transfer in financial causality QA.",
       "abs_url": "http://arxiv.org/abs/2606.27446v1",
       "pdf_url": "https://arxiv.org/pdf/2606.27446v1",
+      "code_url": null
+    },
+    "2606.29706": {
+      "id": "2606.29706",
+      "version": "2606.29706v1",
+      "title": "ARMOR: Adaptive Retriever Optimization for Low-Resource Telecom Question Answering",
+      "authors": [
+        "Heshan Fernando",
+        "Quan Xiao",
+        "Yan Xin",
+        "Tianyi Chen"
+      ],
+      "published": "2026-06-29",
+      "updated": "2026-06-29",
+      "categories": [
+        "cs.IR",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Telecom question answering (QA) is a challenging setting for retrieval-augmented generation (RAG): evidence is fragmented across standards, papers, encyclopedic resources, and web documents, and answers often hinge on technical tables, equations, and specialized protocol language. In low-resource subdomains, generator fine-tuning can over-specialize and degrade general capability, making query-side retriever adaptation an attractive alternative. To this end, we ask whether a fixed-generator, query-adapted RAG system can outperform generator-side adaptation, and which retriever objectives best support that setting. We motivate retrieval, rather than generator fine-tuning, as the adaptation target through a capacity comparison: under bounded-parameter and soft-retrieval assumptions, query-encoder tuning can have a smaller estimation term than supervised fine-tuning when its effective dimension is smaller. We identify two particularly relevant objectives -- the latent-document RAG likelihood, which optimizes generation utility, and the InfoNCE contrastive objective, which improves semantic retrieval geometry -- and leverage them jointly through a retriever optimization method targeting downstream QA performance in the telecom domain. Specifically, we introduce ARMOR, Adaptive Regularized Mixture Optimization for Retrievers, which learns separate temperatures for the RAG retrieval distribution and InfoNCE softmax and regularizes the adapted query encoder toward the frozen base query encoder. Across telecom-specific retrieval and generative QA benchmarks, we show that ARMOR improves evidence retrieval and answer generation in several in-domain settings. Code is available at https://github.com/heshandevaka/ARMOR.git.",
+      "abs_url": "http://arxiv.org/abs/2606.29706v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.29706v1",
+      "code_url": "https://github.com/heshandevaka/ARMOR.git"
+    },
+    "2606.29243": {
+      "id": "2606.29243",
+      "version": "2606.29243v1",
+      "title": "KrishokChat: A Citation-Grounded Dataset and Benchmark for Bengali Agricultural Advisory",
+      "authors": [
+        "Khan Raiyan Ibne Reza",
+        "Omar Ibne Shahid"
+      ],
+      "published": "2026-06-28",
+      "updated": "2026-06-28",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "We present KrishokChat, the first citation-grounded Bengali agricultural instruction-tuning dataset for crop advisory in low-resource settings. We establish a foundation of 290 hierarchical Knowledge Nodes, extracting disease symptoms, management practices, chemical dosages, and verbatim citations from 129 domain-filtered agricultural manuals. Every training instance inherits a verified citation header, guaranteeing 100% citation provenance. Using a Partitioned Seed Generation Matrix, these nodes are expanded into 139,200 supervised fine-tuning pairs, and augmented with 5,300 chemical safety and 1,000 adversarial safety instances, yielding 145,500 QA pairs across 18 crop categories. To evaluate real-world performance, we introduce the Farmer Benchmark, comprising 1,001 authentic farmer queries curated from field surveys and digital portals. Empirical evaluation on Gemma-4-E2B reveals that while fine-tuning on KrishokChat vastly improves structured formatting, standalone models still struggle with exact chemical dosage generalization. This highlights the dataset's true value as a verified knowledge base for retrieval-augmented generation (RAG) rather than mere parametric memorization. All data, code, and benchmarks are released under CC-BY-4.0.",
+      "abs_url": "http://arxiv.org/abs/2606.29243v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.29243v1",
+      "code_url": null
+    },
+    "2606.30441": {
+      "id": "2606.30441",
+      "version": "2606.30441v1",
+      "title": "Translating Natural Language to Strategic Temporal Specifications via LLMs",
+      "authors": [
+        "Marco Aruta",
+        "Francesco Improta",
+        "Vadim Malvone",
+        "Aniello Murano",
+        "Vladana Perlic"
+      ],
+      "published": "2026-06-29",
+      "updated": "2026-06-29",
+      "categories": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "abstract": "A rigorous formalization of system requirements is a fundamental prerequisite for the verification of Multi-Agent Systems (MAS). However, writing correct formal specifications is well known as an error-prone, time-consuming, and expertise-intensive task. This difficulty is further accentuated in MAS, where requirements must capture strategic abilities and temporal objectives. At present, there is no established methodology for deriving MAS specifications from natural language. We present a framework for translating Natural Language descriptions of strategic requirements into well-formed ATL/ATL* formulas using Large Language Models (LLMs). Since no available dataset supports supervised learning for the NL-to-ATL/ATL* translation task, we create and curate a novel expert-validated dataset, employed for training and evaluating fine-tuned models. On a held-out test set, evaluated under the LLM judge that best agrees with expert annotations, in-domain fine-tuning of small open-weight models (3 - 7B parameters) matches strong few-shot proprietary API baselines. Our best fine-tuned system reaches 0.84 semantic accuracy, statistically on par with 0.86 for the strongest few-shot proprietary baseline, while keeping requirements on-premises. We further find that judge reliability is inverse to generator strength. The open-weight Llama-3.3-70B tracks human verdicts most closely, whereas the strongest proprietary models are the least reliable judges, over-rejecting faithful paraphrases of the reference. To assess the practical applicability of the generated specifications, we embed our tool to an existing strategic logics model checker, enabling non-expert users to specify strategic properties in natural language.",
+      "abs_url": "http://arxiv.org/abs/2606.30441v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30441v1",
       "code_url": null
     }
   }

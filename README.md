@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **372**
-- Recent 30 days: **80**
+- Total papers in JSON: **375**
+- Recent 30 days: **83**
 - Older than 30 days: **292**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-29**|**Translating Natural Language to Strategic Temporal Specifications via LLMs**|cs.MA, cs.AI|[2606.30441v1](http://arxiv.org/abs/2606.30441v1)|null|
+|**2026-06-29**|**ARMOR: Adaptive Retriever Optimization for Low-Resource Telecom Question Answering**|cs.IR, cs.AI, cs.CL, cs.LG|[2606.29706v1](http://arxiv.org/abs/2606.29706v1)|**[code](https://github.com/heshandevaka/ARMOR.git)**|
+|**2026-06-28**|**KrishokChat: A Citation-Grounded Dataset and Benchmark for Bengali Agricultural Advisory**|cs.LG|[2606.29243v1](http://arxiv.org/abs/2606.29243v1)|null|
 |**2026-06-26**|**Beyond Sparse Supervision: Diffusion-Guided Learning for Few-Shot Graph Fraud Detection**|cs.LG, cs.AI|[2606.28134v1](http://arxiv.org/abs/2606.28134v1)|null|
 |**2026-06-26**|**SHARD: cell-keyed residual splitting for alignment-resistant private dense retrieval**|cs.CR, cs.AI, cs.IR|[2606.27976v1](http://arxiv.org/abs/2606.27976v1)|null|
 |**2026-06-25**|**Causal Connections: Leveraging Multilingual Fine-Tuning for Financial QA@FinCausal 2026**|cs.CL|[2606.27446v1](http://arxiv.org/abs/2606.27446v1)|null|
@@ -29,7 +32,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-25**|**Kalman Prototypical Networks for Few-shot Fault Detection in Combined Cycle Gas Turbines**|cs.AI|[2606.26710v1](http://arxiv.org/abs/2606.26710v1)|null|
 |**2026-06-25**|**Comparing BERT Sentence-Pair Classification and Few-Shot LLM Prompting for Detecting Threat and Solution Framing in German Climate News**|cs.CL|[2606.26489v1](http://arxiv.org/abs/2606.26489v1)|null|
 |**2026-06-25**|**Soft Token Alignment for Cross-Lingual Reasoning**|cs.CL|[2606.26466v1](http://arxiv.org/abs/2606.26466v1)|null|
-|**2026-06-24**|**Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect**|cs.CL|[2606.26003v1](http://arxiv.org/abs/2606.26003v1)|null|
+|**2026-06-24**|**Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect**|cs.CL|[2606.26003v2](http://arxiv.org/abs/2606.26003v2)|null|
 |**2026-06-24**|**Riazi-8B: An Urdu Large Language Model for Mathematical Reasoning**|cs.CL|[2606.25568v1](http://arxiv.org/abs/2606.25568v1)|null|
 |**2026-06-24**|**Neural Machine Translation for Low-Resource Tangkhul--English**|cs.CL, cs.AI|[2606.25365v1](http://arxiv.org/abs/2606.25365v1)|null|
 |**2026-06-23**|**Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models**|cs.AI, cs.CL|[2606.24841v1](http://arxiv.org/abs/2606.24841v1)|**[code](https://github.com/puraminy/MTO/)**|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-03**|**Extrapolation in Statistical Learning with Extreme Value Theory**|stat.ML, cs.LG, math.ST, stat.ME|[2605.01909v1](http://arxiv.org/abs/2605.01909v1)|null|
 |**2026-05-02**|**DataArc-SynData-Toolkit: A Unified Closed-Loop Framework for Multi-Path, Multimodal, and Multilingual Data Synthesis**|cs.LG|[2605.08138v1](http://arxiv.org/abs/2605.08138v1)|null|
 |**2026-05-01**|**Towards Customized Multimodal Role-Play**|cs.LG|[2605.08129v1](http://arxiv.org/abs/2605.08129v1)|null|
-|**2026-05-01**|**RadLite: Multi-Task LoRA Fine-Tuning of Small Language Models for CPU-Deployable Radiology AI**|cs.CL, cs.AI, cs.LG|[2605.00421v2](http://arxiv.org/abs/2605.00421v2)|**[code](https://github.com/RadioX-Labs/RadLite)**|
-|**2026-04-30**|**ViLegalNLI: Natural Language Inference for Vietnamese Legal Texts**|cs.CL, cs.AI, cs.LG|[2605.00116v1](http://arxiv.org/abs/2605.00116v1)|null|
-|**2026-04-30**|**Reasoning over Object Descriptions Improves Coreference Resolution in Task-Based Dialogue Systems**|cs.CL|[2604.27850v1](http://arxiv.org/abs/2604.27850v1)|null|
 
-README omitted **172** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **175** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
