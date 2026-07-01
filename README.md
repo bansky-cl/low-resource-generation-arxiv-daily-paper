@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **375**
-- Recent 30 days: **78**
+- Total papers in JSON: **381**
+- Recent 30 days: **84**
 - Older than 30 days: **297**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,12 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-30**|**Cross-lingual Relation Extraction with Large Language Models: Zero-Shot, Few-Shot, and Fine-Tuned Evaluation on Romanian**|cs.CL, cs.AI|[2606.31718v1](http://arxiv.org/abs/2606.31718v1)|null|
+|**2026-06-30**|**Modality-Driven Search with Holistic Trace Judging for ARC-AGI-2**|cs.AI, cs.CL, cs.LG|[2606.31543v1](http://arxiv.org/abs/2606.31543v1)|null|
+|**2026-06-30**|**Agentic-Ideation: Sample Efficient Agentic Trajectories Synthesis for Scientific Ideation Agents**|cs.AI|[2606.31229v1](http://arxiv.org/abs/2606.31229v1)|null|
+|**2026-06-30**|**Cross-Domain Feature Expansion for Tabular Medical Data via Knowledge Graphs Injection**|cs.AI, cs.ET|[2606.31171v1](http://arxiv.org/abs/2606.31171v1)|null|
+|**2026-06-30**|**Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?**|cs.LG, q-bio.QM, stat.ML|[2606.31126v1](http://arxiv.org/abs/2606.31126v1)|null|
+|**2026-06-29**|**Bridging Scientific Heritage: An Arabic--Russian Parallel Corpus and LLM Benchmark for Sustainable Knowledge Transfer**|cs.CL|[2606.30943v1](http://arxiv.org/abs/2606.30943v1)|null|
 |**2026-06-29**|**Translating Natural Language to Strategic Temporal Specifications via LLMs**|cs.MA, cs.AI|[2606.30441v1](http://arxiv.org/abs/2606.30441v1)|null|
 |**2026-06-29**|**ARMOR: Adaptive Retriever Optimization for Low-Resource Telecom Question Answering**|cs.IR, cs.AI, cs.CL, cs.LG|[2606.29706v1](http://arxiv.org/abs/2606.29706v1)|**[code](https://github.com/heshandevaka/ARMOR.git)**|
 |**2026-06-28**|**KrishokChat: A Citation-Grounded Dataset and Benchmark for Bengali Agricultural Advisory**|cs.LG|[2606.29243v1](http://arxiv.org/abs/2606.29243v1)|null|
@@ -221,14 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-05**|**Benchmarking Parameter-Efficient Fine-Tuning of Large Language Models for Low-Resource Tajik Text Generation with the Tajik Web Corpus**|cs.CL|[2605.03742v1](http://arxiv.org/abs/2605.03742v1)|null|
 |**2026-05-05**|**BIT.UA-AAUBS at ArchEHR-QA 2026: Evaluating Open-Source and Proprietary LLMs via Prompting in Low-Resource QA**|cs.CL|[2605.03618v1](http://arxiv.org/abs/2605.03618v1)|**[code](https://github.com/bioinformatics-ua/ArchEHR-QA-2026)**|
 |**2026-05-05**|**AfriVox-v2: A Domain-Verticalized Benchmark for In-the-Wild African Speech Recognition**|cs.CL, cs.SD|[2605.03590v1](http://arxiv.org/abs/2605.03590v1)|null|
-|**2026-05-04**|**Taming the Curses of Multiagency in Robust Markov Games with Large State Space through Linear Function Approximation**|cs.LG|[2605.03125v2](http://arxiv.org/abs/2605.03125v2)|null|
-|**2026-05-04**|**OGPO: Sample Efficient Full-Finetuning of Generative Control Policies**|cs.LG, cs.RO|[2605.03065v1](http://arxiv.org/abs/2605.03065v1)|null|
-|**2026-05-04**|**Fight Poison with Poison: Enhancing Robustness in Few-shot Machine-Generated Text Detection with Adversarial Training**|cs.CR, cs.CL|[2605.02374v1](http://arxiv.org/abs/2605.02374v1)|null|
-|**2026-05-03**|**Extrapolation in Statistical Learning with Extreme Value Theory**|stat.ML, cs.LG, math.ST, stat.ME|[2605.01909v1](http://arxiv.org/abs/2605.01909v1)|null|
-|**2026-05-02**|**DataArc-SynData-Toolkit: A Unified Closed-Loop Framework for Multi-Path, Multimodal, and Multilingual Data Synthesis**|cs.LG|[2605.08138v1](http://arxiv.org/abs/2605.08138v1)|null|
-|**2026-05-01**|**Towards Customized Multimodal Role-Play**|cs.LG|[2605.08129v1](http://arxiv.org/abs/2605.08129v1)|null|
 
-README omitted **175** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **181** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

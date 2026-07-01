@@ -8184,6 +8184,134 @@
       "abs_url": "http://arxiv.org/abs/2606.30441v1",
       "pdf_url": "https://arxiv.org/pdf/2606.30441v1",
       "code_url": null
+    },
+    "2606.31718": {
+      "id": "2606.31718",
+      "version": "2606.31718v1",
+      "title": "Cross-lingual Relation Extraction with Large Language Models: Zero-Shot, Few-Shot, and Fine-Tuned Evaluation on Romanian",
+      "authors": [
+        "Dragos-Mitrut Vasile",
+        "Elena-Simona Apostol",
+        "Stefan-Adrian Toma",
+        "Adrian Paschke",
+        "Ciprian-Octavian Truica"
+      ],
+      "published": "2026-06-30",
+      "updated": "2026-06-30",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Relation extraction (RE) for low-resource languages is typically constrained by the lack of annotated corpora. We investigate the feasibility of cross-lingual RE for Romanian by combining automatic dataset translation with large language model (LLM) inference. We translate the SemEval-2010 Task 8 benchmark from English to Romanian using an LLM-based translation pipeline and evaluate Gemma 4 31B under zero-shot, few-shot, and QLoRA fine-tuned configurations, against four encoder baselines spanning 125M to 560M parameters: XLM- RoBERTa (base and large), Romanian BERT, and RoBERT- large. We assess two task formulations: relation classification with marked entities and end-to-end extraction. Our results show that Romanian incurs a 3 to 5 percentage point (pp) drop relative to English in prompt-only settings, that few-shot prompting provides marginal gains over zero-shot, and that QLoRA fine-tuning improves macro F1-Score by more than 22 percentage points in both languages while reducing the cross-lingual gap from 3.3 to 1.4pp. The encoder baselines come within 1-4pp of QLoRA Gemma on Romanian despite being 50-250 times smaller, with monolingual Romanian BERT at 125M parameters matching multilingual XLM-R at 278M. The case for using a 31B model for single-task RE on Romanian is therefore weak in deployment scenarios where compute matters. We release the translated dataset, evaluation code, and trained models.",
+      "abs_url": "http://arxiv.org/abs/2606.31718v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31718v1",
+      "code_url": null
+    },
+    "2606.31543": {
+      "id": "2606.31543",
+      "version": "2606.31543v1",
+      "title": "Modality-Driven Search with Holistic Trace Judging for ARC-AGI-2",
+      "authors": [
+        "Johan Land"
+      ],
+      "published": "2026-06-30",
+      "updated": "2026-06-30",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Large language models can produce fluent, internally coherent reasoning traces for abstract reasoning tasks while still being confidently wrong - making selection among candidates, not just generation, the central challenge. I present a solver for ARC-AGI-2, a few-shot visual reasoning benchmark, built around two principles: (i) treating reasoning modalities as search operators, generating diverse candidates independently across text, image, and code channels, and (ii) context-preserving holistic judging, in which a judge model jointly compares all candidate reasoning traces within a single long-context prompt. Unlike self-consistency or majority voting, this approach reliably recovers correct minority hypotheses on tasks where the modal answer is wrong. On the ARC Prize semi-private evaluation set, the solver achieves 72.9 percent at USD 38.99 per task - the highest score on the verified leaderboard at the time of writing, exceeding the best standalone frontier models, GPT-5.2 Pro at 54.2 percent and Gemini 3 Pro at 54.0 percent, by +18.7 percentage points. On the public evaluation set, it achieves 76.1 percent at USD 19.69 per task. I release the full source code and document extensive negative results, including the finding that prescriptive prompting templates and iterative refinement systematically reduce hypothesis diversity and degrade performance.",
+      "abs_url": "http://arxiv.org/abs/2606.31543v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31543v1",
+      "code_url": null
+    },
+    "2606.31126": {
+      "id": "2606.31126",
+      "version": "2606.31126v1",
+      "title": "Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?",
+      "authors": [
+        "Davy Guan",
+        "Lu Zhang",
+        "Asiri Wijesinghe",
+        "Allen Zhu",
+        "He Zhao",
+        "Helen Power",
+        "F. Hafna Ahmed",
+        "Andrew Warden",
+        "Cheng Soon Ong",
+        "Daniel M. Steinberg"
+      ],
+      "published": "2026-06-30",
+      "updated": "2026-06-30",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM",
+        "stat.ML"
+      ],
+      "abstract": "Predicting biomolecular properties from limited labeled data is a central bottleneck in protein engineering and small-molecule design. As strong pretrained encoders now supply rich fixed-length representations, the difficulty has shifted from representation learning to building a data-efficient predictor for the few-shot regime. Tabular foundation models such as TabPFN3 and TabICL are unlikely candidates for this role: they are in-context learners pretrained on synthetic tables drawn from random causal graphs, a generative prior with no obvious correspondence to the processes that produce protein sequences or molecular graphs. That this tabular, causal inductive bias should transfer to biomolecular data at all is unintuitive, yet we find it does. Treating each method as a predictor-representation pair, we evaluate across two domains. Over a fixed ESMC representation, tabular in-context learning is consistently competitive for protein fitness regression on ProteinGym and a diverse esterase dataset. For small-molecule classification with ECFP/RDKit descriptors, no single pairing dominates across TDC ADMET, MoleculeNet, FS-Mol, and DrugOOD; representation choice becomes a primary determinant, as expected when the predictor's own prior is indifferent to molecular structure. We conclude that tabular foundation models are strong performers on biomolecular prediction tasks, but that their performance depends strongly on the sequence or molecular representation used.",
+      "abs_url": "http://arxiv.org/abs/2606.31126v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31126v1",
+      "code_url": null
+    },
+    "2606.30943": {
+      "id": "2606.30943",
+      "version": "2606.30943v1",
+      "title": "Bridging Scientific Heritage: An Arabic--Russian Parallel Corpus and LLM Benchmark for Sustainable Knowledge Transfer",
+      "authors": [
+        "M. K. Arabov"
+      ],
+      "published": "2026-06-29",
+      "updated": "2026-06-29",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Russian and Arabic are among the major languages of scientific communication. Language barriers impede the exchange of research results between these communities, which affects international collaboration and the progress of sustainability-related research. We present a benchmark for Arabic--Russian scientific translation. The benchmark includes a hybrid parallel corpus of about 27,000 sentence pairs, compiled from scientific abstracts and general-domain texts (religion, news, conversations). We fine-tune three multilingual language models -- mT5-base (580M parameters), NLLB-200-distilled-1.3B (1.3B), and Qwen2.5-7B-Instruct (7B) -- using LoRA with ranks 8, 16, 32, and 64. The Qwen2.5-7B model with QLoRA (rank 8) yields BLEU 23.15, chrF 43.89, BERTScore 0.906, and COMET 0.758. These are +4.36 BLEU and +0.051 COMET above the zero-shot baseline. Few-shot prompting with three examples does not improve performance, indicating that domain-specific fine-tuning is required. We release the models, the corpus, and the evaluation code. By lowering the language barrier for scientific texts, the work enables knowledge exchange between Arabic-speaking and Russian-speaking researchers. It contributes to sustainable partnerships (UN SDG 17) and innovation infrastructure (SDG 9), aligning with the conference's focus on technology-driven sustainable development.",
+      "abs_url": "http://arxiv.org/abs/2606.30943v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30943v1",
+      "code_url": null
+    },
+    "2606.31229": {
+      "id": "2606.31229",
+      "version": "2606.31229v1",
+      "title": "Agentic-Ideation: Sample Efficient Agentic Trajectories Synthesis for Scientific Ideation Agents",
+      "authors": [
+        "Keyu Zhao",
+        "Lingyan Kong",
+        "Fengli Xu",
+        "Yong Li"
+      ],
+      "published": "2026-06-30",
+      "updated": "2026-06-30",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Ideation plays a pivotal role in scientific discovery. Recent LLM, especially AI Scientist systems, show promising potential for automated ideation. However, existing approaches predominantly rely on pre-defined agentic workflows. This constraint severely limits the flexibility required to navigate the vast search space of scientific literature and the complex action space of research reasoning. Recently, training Agentic LLMs has emerged as a promising direction, offering flexible reasoning frameworks and the capability for autonomous tool utilization. However, there remains a non-trivial challenge: applying previous agentic data synthesis methods to scientific ideation suffers from prohibitively high data synthesis cost. To bridge this gap, we propose Agentic-Ideation, a novel framework comprising an automated trajectory synthesis pipeline and a specialized agentic LLM trained for scientific ideation. Specifically, we first define a comprehensive tool space incorporating three external tools and three cognitive tools. Then we introduce an Oracle-Guided Data Synthesis strategy. By leveraging a reference idea as oracle guidance, this approach steers the multi-agent system to efficiently reconstruct the logical reasoning and tool invocation paths, transforming aimless trial-and-error into directed trajectory generation. Finally, we train the agent on these synthesized trajectories, employing a masking strategy on tool execution results. This ensures the model focuses on decision-making logic without interference from external feedback. Experimental results demonstrate that our method outperforms the SOTA workflow-based baseline by \\textbf{11.91\\%} in overall quality. Furthermore, our approach improves the sample efficiency of high-quality data synthesis by \\textbf{over 10$\\times$}.",
+      "abs_url": "http://arxiv.org/abs/2606.31229v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31229v1",
+      "code_url": null
+    },
+    "2606.31171": {
+      "id": "2606.31171",
+      "version": "2606.31171v1",
+      "title": "Cross-Domain Feature Expansion for Tabular Medical Data via Knowledge Graphs Injection",
+      "authors": [
+        "Mengying Zhou",
+        "Yongjie Yin",
+        "Haoyan Xin",
+        "Guoping Liu",
+        "Yang Chen"
+      ],
+      "published": "2026-06-30",
+      "updated": "2026-06-30",
+      "categories": [
+        "cs.AI",
+        "cs.ET"
+      ],
+      "abstract": "Acquiring comprehensive cross-domain biomedical profiles is often costly and time-consuming, resulting in severe data scarcity in medical research. To address this challenge, we propose MedKGTab, a knowledge-injected framework specifically engineered for cross-domain feature expansion in tabular medical data. MedKGTab seeks to infer uncollected biomedical features from available ones by exploiting their inherent statistical dependencies and established medical correlations. By employing a row-column dual-attention mechanism, MedKGTab operates directly on raw structured tabular data, inherently capturing exact numerical distributions without the structural loss caused by tokenization. Crucially, MedKGTab integrates data-driven statistical priors with the SPOKE biomedical knowledge graph, achieving an optimal synergy between the data and knowledge channels. Within this synergy, the representations derived from the data channel are modulated by the injected biomedical knowledge, ensuring the final generated data are grounded in empirical medical research. Experimental results demonstrate that MedKGTab achieves high data fidelity and realistic data representation in cross-domain feature expansion. It outperforms both SOTA medical large models (e.g., Baichuan M3-plus) and specialized tabular models designed for medical data generation. Furthermore, MedKGTab consistently delivers superior performance across various data generation scenarios, whether inferring missing features within the same dataset or generalizing across different medical cohorts.",
+      "abs_url": "http://arxiv.org/abs/2606.31171v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.31171v1",
+      "code_url": null
     }
   }
 }
