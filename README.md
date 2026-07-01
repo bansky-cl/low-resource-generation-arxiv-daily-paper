@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.01
+## Updated on 2026.07.02
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **381**
-- Recent 30 days: **84**
-- Older than 30 days: **297**
+- Recent 30 days: **80**
+- Older than 30 days: **301**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -102,15 +102,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-02**|**From Script to Semantics: Prompting Strategies for African NLI**|cs.CL, cs.LG|[2606.03304v1](http://arxiv.org/abs/2606.03304v1)|null|
 |**2026-06-02**|**Beyond "To whom it may concern": Tailoring Machine Translation to Audience and Intent**|cs.CL|[2606.03259v1](http://arxiv.org/abs/2606.03259v1)|null|
 |**2026-06-02**|**EURO-5K: When Does Domain Pretraining Matter? Benchmarking Transformers for EU Reporting Obligation Extraction**|cs.CL|[2606.02971v1](http://arxiv.org/abs/2606.02971v1)|null|
-|**2026-06-01**|**Learning When to Translate for Multilingual Reasoning**|cs.CL, cs.AI|[2606.02465v1](http://arxiv.org/abs/2606.02465v1)|**[code](https://github.com/deokhk/LUAR)**|
-|**2026-06-01**|**K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Korean Contexts**|cs.CL|[2606.02404v1](http://arxiv.org/abs/2606.02404v1)|null|
-|**2026-06-01**|**Coherent Off-Policy Improvement of Large Behavior Models with Learned Rewards**|cs.LG|[2606.02194v1](http://arxiv.org/abs/2606.02194v1)|null|
-|**2026-06-01**|**When Meaning Travels: A Granular Lens on Hybrid-MoE's Role in Idiomatic Understanding for Language Models**|cs.CL|[2606.01671v1](http://arxiv.org/abs/2606.01671v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-01**|**Learning When to Translate for Multilingual Reasoning**|cs.CL, cs.AI|[2606.02465v1](http://arxiv.org/abs/2606.02465v1)|**[code](https://github.com/deokhk/LUAR)**|
+|**2026-06-01**|**K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Korean Contexts**|cs.CL|[2606.02404v1](http://arxiv.org/abs/2606.02404v1)|null|
+|**2026-06-01**|**Coherent Off-Policy Improvement of Large Behavior Models with Learned Rewards**|cs.LG|[2606.02194v1](http://arxiv.org/abs/2606.02194v1)|null|
+|**2026-06-01**|**When Meaning Travels: A Granular Lens on Hybrid-MoE's Role in Idiomatic Understanding for Language Models**|cs.CL|[2606.01671v1](http://arxiv.org/abs/2606.01671v1)|null|
 |**2026-05-31**|**Time Series as Language: A Universal Tokenizer for General-Purpose Time Series Foundation Models**|cs.LG, cs.AI|[2606.09861v1](http://arxiv.org/abs/2606.09861v1)|null|
 |**2026-05-31**|**TukaBench: A Culturally Grounded Jailbreak Benchmark for African Languages**|cs.CL, cs.AI|[2606.01322v1](http://arxiv.org/abs/2606.01322v1)|null|
 |**2026-05-31**|**Fine-Tuning Diffusion Models for Molecular Generation via Reinforcement Learning and Fast Sampling**|cs.LG, cs.AI|[2606.01220v1](http://arxiv.org/abs/2606.01220v1)|null|
