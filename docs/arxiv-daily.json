@@ -8165,24 +8165,24 @@
     },
     "2606.30441": {
       "id": "2606.30441",
-      "version": "2606.30441v1",
+      "version": "2606.30441v2",
       "title": "Translating Natural Language to Strategic Temporal Specifications via LLMs",
       "authors": [
         "Marco Aruta",
         "Francesco Improta",
         "Vadim Malvone",
         "Aniello Murano",
-        "Vladana Perlic"
+        "Vladana Perlić"
       ],
       "published": "2026-06-29",
-      "updated": "2026-06-29",
+      "updated": "2026-07-02",
       "categories": [
         "cs.MA",
         "cs.AI"
       ],
       "abstract": "A rigorous formalization of system requirements is a fundamental prerequisite for the verification of Multi-Agent Systems (MAS). However, writing correct formal specifications is well known as an error-prone, time-consuming, and expertise-intensive task. This difficulty is further accentuated in MAS, where requirements must capture strategic abilities and temporal objectives. At present, there is no established methodology for deriving MAS specifications from natural language. We present a framework for translating Natural Language descriptions of strategic requirements into well-formed ATL/ATL* formulas using Large Language Models (LLMs). Since no available dataset supports supervised learning for the NL-to-ATL/ATL* translation task, we create and curate a novel expert-validated dataset, employed for training and evaluating fine-tuned models. On a held-out test set, evaluated under the LLM judge that best agrees with expert annotations, in-domain fine-tuning of small open-weight models (3 - 7B parameters) matches strong few-shot proprietary API baselines. Our best fine-tuned system reaches 0.84 semantic accuracy, statistically on par with 0.86 for the strongest few-shot proprietary baseline, while keeping requirements on-premises. We further find that judge reliability is inverse to generator strength. The open-weight Llama-3.3-70B tracks human verdicts most closely, whereas the strongest proprietary models are the least reliable judges, over-rejecting faithful paraphrases of the reference. To assess the practical applicability of the generated specifications, we embed our tool to an existing strategic logics model checker, enabling non-expert users to specify strategic properties in natural language.",
-      "abs_url": "http://arxiv.org/abs/2606.30441v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30441v1",
+      "abs_url": "http://arxiv.org/abs/2606.30441v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.30441v2",
       "code_url": null
     },
     "2606.31718": {
@@ -8356,6 +8356,29 @@
       "abstract": "While generative models have enabled training-free reward alignment, current methods typically excel in local exploration within narrow regions of the underlying distribution. These approaches struggle when preferences are unknown a priori and only revealed through sequential feedback-a scenario demanding broad exploration to uncover high-utility regions. To address this, we propose Sequentially-Controlled Interactive Multi-Particle Flow-Maps (IMPFM), a framework for sample-efficient online feedback-driven search. IMPFM progressively transports a group of interactive particles toward the target distribution, maintaining the broad coverage essential for heterogeneous preference alignment. IMPFM introduces a principled and efficient posterior sample sharing mechanism across particles powered by flow maps. By correcting individual particle drift with the collective posterior samples of the entire ensemble at each resampling step, the framework maximizes sample utility to enable global exploration while actively mitigating reward over-optimization, typical of standard control frameworks. Paired with a principled exploration-exploitation reweighting mechanism involving multi-particle interaction, this sequentially corrected multi-particle dynamics explicitly preserves structural diversity and overcomes the weight degeneracy inherent to standard SMC samplers. Crucially, we prove that the resulting sampling framework yields a multi-particle interaction-aware Feynman-Kac corrector that progressively steers the multi-particle system toward a KL-tilted target distribution, facilitating global exploration and preventing mode collapse. Extensive empirical evaluations and rigorous ablations across diverse search and alignment tasks confirm the efficacy of IMPFM over existing baselines.",
       "abs_url": "http://arxiv.org/abs/2607.01144v1",
       "pdf_url": "https://arxiv.org/pdf/2607.01144v1",
+      "code_url": null
+    },
+    "2607.02235": {
+      "id": "2607.02235",
+      "version": "2607.02235v1",
+      "title": "Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages",
+      "authors": [
+        "A. Seza Doğruöz",
+        "Xixian Liao",
+        "Verena Blaschke",
+        "Jakob Prange",
+        "Senyu Li",
+        "David Ifeoluwa Adelani"
+      ],
+      "published": "2026-07-02",
+      "updated": "2026-07-02",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "LLM-as-a-Judge has become the dominant evaluation paradigm for many natural language generation tasks, due to shortcomings of conventional metrics and high correlations with human judgment, albeit mostly in English. There are now attempts to extend LLM-as-a-Judge to multilingual settings including low-resource languages. However, LLMs have limited proficiency in low-resource languages, and there is often no adequate human validation in these settings. To highlight the scope of the problem and current practices, we explore the use of LLM-as-a-Judge evaluators in ACL Anthology papers focusing on multilingual settings and low-resource languages across a diverse set of tasks. Out of 650 papers mentioning LLM-as-a-judge, only 33 of them focus on low-resource or multilingual settings. Our in-depth analysis of these papers indicates inconsistent evaluation outcomes, a tendency to overtrust LLM judgments in multilingual settings, and the widespread reliance on a single judge model per study. To help the NLP community further, we conclude with recommendations about how to use LLM-as-a-Judge in multilingual and low-resource settings.",
+      "abs_url": "http://arxiv.org/abs/2607.02235v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02235v1",
       "code_url": null
     }
   }
