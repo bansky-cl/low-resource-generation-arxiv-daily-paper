@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.04
+## Updated on 2026.07.05
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **384**
-- Recent 30 days: **72**
-- Older than 30 days: **312**
+- Recent 30 days: **67**
+- Older than 30 days: **317**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -89,16 +89,16 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-05**|**CoMetaPNS: Continually Meta-learning Personalized Neural Surrogates for Cardiac Electrophysiology Simulations**|cs.LG|[2606.07488v1](http://arxiv.org/abs/2606.07488v1)|null|
 |**2026-06-05**|**Making the Most of Limited Data: Score-Aware Training for Text-to-Music Generation**|cs.LG|[2606.07387v1](http://arxiv.org/abs/2606.07387v1)|null|
 |**2026-06-05**|**UrduMMLU: A Massive Multitask Benchmark for Urdu Language Understanding**|cs.CL, cs.AI|[2606.07167v1](http://arxiv.org/abs/2606.07167v1)|null|
-|**2026-06-04**|**Synthics: Synthetic Physics-like Datasets for Machine Learning**|cs.LG|[2606.06724v1](http://arxiv.org/abs/2606.06724v1)|null|
-|**2026-06-04**|**Reinforcement Learning Elicits Contextual Learning of Unseen Language Translation**|cs.CL|[2606.06428v1](http://arxiv.org/abs/2606.06428v1)|null|
-|**2026-06-04**|**A Komi-Yazva--Russian Parallel Corpus and Evaluation Protocol for Zero- and Few-Shot LLM Translation**|cs.CL|[2606.06420v1](http://arxiv.org/abs/2606.06420v1)|null|
-|**2026-06-04**|**English-to-Prakrit Machine Translation via Multilingual Transfer Learning**|cs.CL|[2606.06038v1](http://arxiv.org/abs/2606.06038v1)|**[code](https://github.com/D3v1s0m/indictrans2-prakrit-mt)**|
-|**2026-06-04**|**Can LLMs Write Correct TLA+ Specifications? Evaluating Natural-Language-to-TLA+ Generation**|cs.AI, cs.LG, cs.LO, cs.SE|[2606.05792v1](http://arxiv.org/abs/2606.05792v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-04**|**Synthics: Synthetic Physics-like Datasets for Machine Learning**|cs.LG|[2606.06724v1](http://arxiv.org/abs/2606.06724v1)|null|
+|**2026-06-04**|**Reinforcement Learning Elicits Contextual Learning of Unseen Language Translation**|cs.CL|[2606.06428v1](http://arxiv.org/abs/2606.06428v1)|null|
+|**2026-06-04**|**A Komi-Yazva--Russian Parallel Corpus and Evaluation Protocol for Zero- and Few-Shot LLM Translation**|cs.CL|[2606.06420v1](http://arxiv.org/abs/2606.06420v1)|null|
+|**2026-06-04**|**English-to-Prakrit Machine Translation via Multilingual Transfer Learning**|cs.CL|[2606.06038v1](http://arxiv.org/abs/2606.06038v1)|**[code](https://github.com/D3v1s0m/indictrans2-prakrit-mt)**|
+|**2026-06-04**|**Can LLMs Write Correct TLA+ Specifications? Evaluating Natural-Language-to-TLA+ Generation**|cs.AI, cs.LG, cs.LO, cs.SE|[2606.05792v1](http://arxiv.org/abs/2606.05792v1)|null|
 |**2026-06-03**|**Multilingual Coreference Resolution via Cycle-Consistent Machine Translation**|cs.CL, cs.AI, cs.LG|[2606.05444v1](http://arxiv.org/abs/2606.05444v1)|null|
 |**2026-06-03**|**REGEN: Reference-Guided Synthetic Multivariate Time Series Generation for Forecasting**|cs.LG|[2606.05264v1](http://arxiv.org/abs/2606.05264v1)|null|
 |**2026-06-03**|**Caliper: Probing Lexical Anchors versus Causal Structure in LLMs**|cs.CL, cs.IR|[2606.04915v1](http://arxiv.org/abs/2606.04915v1)|null|
