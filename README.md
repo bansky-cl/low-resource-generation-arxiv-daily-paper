@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.05
+## Updated on 2026.07.06
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **384**
-- Recent 30 days: **67**
-- Older than 30 days: **317**
+- Recent 30 days: **62**
+- Older than 30 days: **322**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -84,16 +84,16 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-07**|**PIPE-Cypher: Automatic Enterprise Benchmark Generation for Text-to-Cypher Systems**|cs.LG, cs.AI, cs.DB, cs.SE|[2606.08481v1](http://arxiv.org/abs/2606.08481v1)|null|
 |**2026-06-06**|**ZAS-SQL: Distilling Rules from Failures for Zero-Shot Text-to-SQL**|cs.CL|[2606.08245v1](http://arxiv.org/abs/2606.08245v1)|null|
 |**2026-06-06**|**De novo molecular generation with optical property preconditioning at the token level**|cs.LG|[2606.08221v1](http://arxiv.org/abs/2606.08221v1)|null|
-|**2026-06-05**|**The ACUTE Protocol: Operationalizing Language Model Activations for Better Calibration, Utility, and Trust**|cs.CL, cs.AI, cs.LG|[2606.07822v2](http://arxiv.org/abs/2606.07822v2)|null|
-|**2026-06-05**|**Automatic Extraction of Structured Information from Brain MRI Reports Using an Open-Weight Large Language Model**|cs.AI|[2606.07721v1](http://arxiv.org/abs/2606.07721v1)|null|
-|**2026-06-05**|**CoMetaPNS: Continually Meta-learning Personalized Neural Surrogates for Cardiac Electrophysiology Simulations**|cs.LG|[2606.07488v1](http://arxiv.org/abs/2606.07488v1)|null|
-|**2026-06-05**|**Making the Most of Limited Data: Score-Aware Training for Text-to-Music Generation**|cs.LG|[2606.07387v1](http://arxiv.org/abs/2606.07387v1)|null|
-|**2026-06-05**|**UrduMMLU: A Massive Multitask Benchmark for Urdu Language Understanding**|cs.CL, cs.AI|[2606.07167v1](http://arxiv.org/abs/2606.07167v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-05**|**The ACUTE Protocol: Operationalizing Language Model Activations for Better Calibration, Utility, and Trust**|cs.CL, cs.AI, cs.LG|[2606.07822v2](http://arxiv.org/abs/2606.07822v2)|null|
+|**2026-06-05**|**Automatic Extraction of Structured Information from Brain MRI Reports Using an Open-Weight Large Language Model**|cs.AI|[2606.07721v1](http://arxiv.org/abs/2606.07721v1)|null|
+|**2026-06-05**|**CoMetaPNS: Continually Meta-learning Personalized Neural Surrogates for Cardiac Electrophysiology Simulations**|cs.LG|[2606.07488v1](http://arxiv.org/abs/2606.07488v1)|null|
+|**2026-06-05**|**Making the Most of Limited Data: Score-Aware Training for Text-to-Music Generation**|cs.LG|[2606.07387v1](http://arxiv.org/abs/2606.07387v1)|null|
+|**2026-06-05**|**UrduMMLU: A Massive Multitask Benchmark for Urdu Language Understanding**|cs.CL, cs.AI|[2606.07167v1](http://arxiv.org/abs/2606.07167v1)|null|
 |**2026-06-04**|**Synthics: Synthetic Physics-like Datasets for Machine Learning**|cs.LG|[2606.06724v1](http://arxiv.org/abs/2606.06724v1)|null|
 |**2026-06-04**|**Reinforcement Learning Elicits Contextual Learning of Unseen Language Translation**|cs.CL|[2606.06428v1](http://arxiv.org/abs/2606.06428v1)|null|
 |**2026-06-04**|**A Komi-Yazva--Russian Parallel Corpus and Evaluation Protocol for Zero- and Few-Shot LLM Translation**|cs.CL|[2606.06420v1](http://arxiv.org/abs/2606.06420v1)|null|
