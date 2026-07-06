@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.06
+## Updated on 2026.07.07
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **384**
-- Recent 30 days: **62**
-- Older than 30 days: **322**
+- Recent 30 days: **60**
+- Older than 30 days: **324**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -82,13 +82,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-08**|**NüshuVoice: Reviving the Voice of Endangered Nüshu with Pitch-Aware Text-to-Speech**|cs.CL|[2606.09295v1](http://arxiv.org/abs/2606.09295v1)|**[code](https://anonymous.4open.science/r/Nvshu-TTS-2EB6)**|
 |**2026-06-08**|**LATTEArena: An Evaluation Framework for LLM-powered Tabular Feature Engineering (Extended Version)**|cs.AI|[2606.09004v1](http://arxiv.org/abs/2606.09004v1)|null|
 |**2026-06-07**|**PIPE-Cypher: Automatic Enterprise Benchmark Generation for Text-to-Cypher Systems**|cs.LG, cs.AI, cs.DB, cs.SE|[2606.08481v1](http://arxiv.org/abs/2606.08481v1)|null|
-|**2026-06-06**|**ZAS-SQL: Distilling Rules from Failures for Zero-Shot Text-to-SQL**|cs.CL|[2606.08245v1](http://arxiv.org/abs/2606.08245v1)|null|
-|**2026-06-06**|**De novo molecular generation with optical property preconditioning at the token level**|cs.LG|[2606.08221v1](http://arxiv.org/abs/2606.08221v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-06**|**ZAS-SQL: Distilling Rules from Failures for Zero-Shot Text-to-SQL**|cs.CL|[2606.08245v1](http://arxiv.org/abs/2606.08245v1)|null|
+|**2026-06-06**|**De novo molecular generation with optical property preconditioning at the token level**|cs.LG|[2606.08221v1](http://arxiv.org/abs/2606.08221v1)|null|
 |**2026-06-05**|**The ACUTE Protocol: Operationalizing Language Model Activations for Better Calibration, Utility, and Trust**|cs.CL, cs.AI, cs.LG|[2606.07822v2](http://arxiv.org/abs/2606.07822v2)|null|
 |**2026-06-05**|**Automatic Extraction of Structured Information from Brain MRI Reports Using an Open-Weight Large Language Model**|cs.AI|[2606.07721v1](http://arxiv.org/abs/2606.07721v1)|null|
 |**2026-06-05**|**CoMetaPNS: Continually Meta-learning Personalized Neural Surrogates for Cardiac Electrophysiology Simulations**|cs.LG|[2606.07488v1](http://arxiv.org/abs/2606.07488v1)|null|
