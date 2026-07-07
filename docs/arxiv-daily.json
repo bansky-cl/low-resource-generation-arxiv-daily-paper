@@ -8380,6 +8380,168 @@
       "abs_url": "http://arxiv.org/abs/2607.02235v1",
       "pdf_url": "https://arxiv.org/pdf/2607.02235v1",
       "code_url": null
+    },
+    "2607.03836": {
+      "id": "2607.03836",
+      "version": "2607.03836v1",
+      "title": "When Simpler Is Better: Evaluating Translation Pipelines for Medieval Latin Manuscripts",
+      "authors": [
+        "Nguyen Kim Hai Bui",
+        "Md. Easin Arafat",
+        "Tamás Gábor Orosz",
+        "Mufti Mahmud"
+      ],
+      "published": "2026-07-04",
+      "updated": "2026-07-04",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Despite remarkable progress in machine translation, Vision Language Models (VLMs) struggle on historical manuscripts, a domain that stresses core Natural Language Processing (NLP) capabilities: low-resource transliteration, archaic vocabulary, and noisy input signals. We present a systematic framework for evaluating the full image-to-translation pipeline on medieval Latin manuscripts, a setting in which scribal shorthand, ligatures, and parchment degradation expose failure modes that are invisible in clean-text benchmarks. Benchmarking on the CATMuS Latin dataset reveals a specialization gap: domain-specific Optical Character Recognition (OCR) models reduce character error rate by up to 4.3$\\times$ compared to general-purpose VLMs, despite operating at orders of magnitude fewer parameters. We introduce the Interpres-Parallel-Corpus (IPC), a novel dataset comprising 1,383 aligned manuscript image lines, transcriptions, and expert translations, the first of its kind for medieval Latin. Our experiments uncover a complexity paradox: the simplest pipeline, a specialized OCR model feeding directly into a VLM, outperforms all multi-component variants. Adding retrieval-augmented generation (RAG) or post-OCR correction introduces prompt saturation and error propagation that degrade aggregate translation quality. These findings offer both a new benchmark and practical guidance for deploying translation systems in low-resource historical settings.",
+      "abs_url": "http://arxiv.org/abs/2607.03836v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.03836v1",
+      "code_url": null
+    },
+    "2607.03154": {
+      "id": "2607.03154",
+      "version": "2607.03154v1",
+      "title": "Conditional Diffusion Guided Knowledge Transfer for Multi-Domain Knowledge Graph Completion",
+      "authors": [
+        "Jiawei Sheng",
+        "Taoyu Su",
+        "Xixun Lin",
+        "Xiaodong Li",
+        "Tingwen Liu"
+      ],
+      "published": "2026-07-03",
+      "updated": "2026-07-03",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Multi-domain knowledge graph completion (MKGC) aims to improve missing triple prediction in a target KG by transferring knowledge from other support KGs. Existing methods typically enforce consistency constraints on equivalent entities across KGs to transfer knowledge, which risks suppressing domain-specific contextual information of entities. This design can also compromise entity representation information from all KG domains, impeding performance improvements, especially in low-resource data scenarios. To address this, we pioneer a generation-based paradigm for MKGC and propose DMKGC, a conditional diffusion-guided knowledge transfer framework. Our key insight is to treat each KG as a partial view of the entity entire information, and generate informative domain-general entity embeddings through diffusion models conditioned on support KGs. Particularly, we first initialize domain-agnostic entity embeddings as prior entity embeddings, and then encode them within individual KGs. Afterward, we fuse equivalent entities from support KGs as the conditional diffusion generation guidance. We leverage the prior entity embeddings as the proxy generation objective, which ensures this conditional generation to be unbiased towards any conditioned KGs. Simultaneously, we also train the generated embeddings to be predictive across KGs, thus preserving domain-specific information. Extensive experiments on 14 KGs in 3 benchmarks demonstrate a 4.3\\% average MRR improvement in tail entity prediction over state-of-the-art methods, with sustained gains in low-resource data settings.",
+      "abs_url": "http://arxiv.org/abs/2607.03154v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.03154v1",
+      "code_url": null
+    },
+    "2607.04579": {
+      "id": "2607.04579",
+      "version": "2607.04579v1",
+      "title": "LLM-Driven CI-CD Workflow Intelligence for Cyber Systems Engineering",
+      "authors": [
+        "Bonan Shen",
+        "Jiazhou Gao",
+        "Tao Ning",
+        "Wei-Jung Huang",
+        "Xin Liu"
+      ],
+      "published": "2026-07-06",
+      "updated": "2026-07-06",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "abstract": "CI/CD workflows have become executable operational policy: they decide what gets built, tested, released, and deployed, and they mediate how maintainers interact with delivery infrastructure. That makes them an important measurement point for cyber-systems engineering. Recent large language model (LLM) work shows that workflow stages can be recognized directly from configuration files, but stage labels alone do not tell us whether a workflow is brittle, unusual for its ecosystem, or worth revising first. We present an LLM-based CI/CD analysis pipeline that combines repository enrichment, anti-pattern detection, stage mining, and recommendation generation over a large GitHub corpus. Starting from 59,550 repositories with at least 1,000 stars, we identify 34,225 projects with CI/CD and collect 127,559 configuration files. Across 75,201 analyzed workflows, the anti-pattern detector reports 434,769 findings, dominated by reliability and maintainability issues. Across 59,906 configurations, stage usage differs significantly by language ($χ^2 = 4168.88$, $p < 0.001$, Cramer's $V = 0.063$), and domain analysis shows distinct operational profiles, including higher release and cache usage in mobile projects. For repository-level recommendation generation, few-shot prompting performs best overall, averaging 8.25 recommendations per repository with 96.1% YAML-valid snippets. Taken together, the results argue for CI/CD observability that combines diagnosis, context, and human review rather than treating workflow mining as a stage-classification problem alone.",
+      "abs_url": "http://arxiv.org/abs/2607.04579v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.04579v1",
+      "code_url": null
+    },
+    "2607.03801": {
+      "id": "2607.03801",
+      "version": "2607.03801v1",
+      "title": "Punching Above Their Weight: Classification-Head Fine-Tuning of Tiny Language Models (TLMs) for Verifiable Multiple-Choice Tasks",
+      "authors": [
+        "Bhavesh Sood",
+        "Jaromir Savelka"
+      ],
+      "published": "2026-07-04",
+      "updated": "2026-07-04",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "We define Tiny Language Models (TLMs) as models below roughly 3B parameters that fit on mainstream consumer devices. We study how to adapt them for and use them on verifiable multiple-choice tasks. We compare three LoRA-based fine-tuning paradigms (label generation, gold only, and our discriminative classification head) on a unified setup across several Qwen3 models from 0.6B to 8B and five benchmarks: HellaSwag, WinoGrande, PIQA, SciQ and ARC-C. Classification-head fine-tuning reliably outperforms label generation (+2-3%) at the 0.6B and 1.7B scales. Further, TLMs fine-tuned using the discriminative method are competitive to zero-/few-shot GPT-3 (175B), PaLM (540B) and GPT-4. The performance we report for Qwen3-0.6B and Qwen3-1.7B are SOTA on HellaSwag, WinoGrande, and PIQA.",
+      "abs_url": "http://arxiv.org/abs/2607.03801v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.03801v1",
+      "code_url": null
+    },
+    "2607.02850": {
+      "id": "2607.02850",
+      "version": "2607.02850v1",
+      "title": "Labeled-Data-Free Meta-Learning: Efficient Task Generation Using Pre-trained Models and Unlabeled Data",
+      "authors": [
+        "Lei Sun",
+        "Yusuke Tanaka",
+        "Tomoharu Iwata"
+      ],
+      "published": "2026-07-03",
+      "updated": "2026-07-03",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Meta-learning without labeled data is crucial for real-world applications, where obtaining labeled datasets can be expensive or restricted due to privacy concerns. Data-Free Meta-Learning (DFML) addresses this challenge by leveraging pre-trained models without access to training data. However, existing DFML methods rely on model inversion to generate training data, a process that is generally difficult and computationally expensive due to the need to generate high-dimensional data matching the original distribution. To address this limitation, we propose a novel meta-learning setting that avoids model inversion by jointly leveraging pre-trained models and unlabeled data. Our method generates meta-training tasks by assigning soft labels from pre-trained models to unlabeled data. Since the quality of these tasks can vary, we introduce a task-weighting mechanism based on task confidence and class distribution balance to ensure effective meta-learning. Extensive experiments demonstrate that our approach substantially reduces computational cost and improves generalization, achieving up to 104-fold speedup and 8.4 percent to 36.4 percent improvements in few-shot classification accuracy compared to state-of-the-art DFML methods.",
+      "abs_url": "http://arxiv.org/abs/2607.02850v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02850v1",
+      "code_url": null
+    },
+    "2607.04123": {
+      "id": "2607.04123",
+      "version": "2607.04123v1",
+      "title": "CertMix: Certified, Data-Efficient Metamaterial Design by Affine Mixing of Aligned Neural-Implicit Weight Spaces",
+      "authors": [
+        "Yifan Wang"
+      ],
+      "published": "2026-07-05",
+      "updated": "2026-07-05",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Inverse design of mechanical metamaterials seeks a periodic unit cell whose homogenized elastic properties meet a prescribed target, but current learning-based methods are data-hungry, mostly interpolative, and provide no guarantee that the generated design satisfies the specification. We introduce CertMix, a data-efficient framework that represents each exemplar unit cell as a small periodic neural implicit field, specifically a SIREN signed-distance decoder overfit from a shared anchor, so that exemplar weight vectors become aligned and directly comparable. The key observation is that, in this aligned weight space, the homogenized elasticity tensor is approximately linear in the mixing coefficients. Targeted design therefore reduces to a small constrained affine-mixing problem solved with a differentiable periodic homogenizer in the loop. Negative coefficients enable extrapolation beyond the exemplar range, a linearity-mismatch trust region keeps blends valid, and split-conformal calibration converts the mismatch signal into a distribution-free certificate on achieved-property error. From as few as 50 exemplars, CertMix attains a scaled property error of $10^{-4}$, roughly two to three orders of magnitude below conditional generative baselines trained on 1000 cells. It remains accurate far outside the exemplar range, is $57\\times$ faster than per-target topology optimization while avoiding checkerboards and enclosed voids, and extends to spatially graded fields, 3D triply periodic surfaces, and a certified running-shoe midsole application.",
+      "abs_url": "http://arxiv.org/abs/2607.04123v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.04123v1",
+      "code_url": null
+    },
+    "2607.02757": {
+      "id": "2607.02757",
+      "version": "2607.02757v1",
+      "title": "Reinforcement Learning for Data-Efficient Code-Switched ASR",
+      "authors": [
+        "Ziwei Ye",
+        "Peter Vickers"
+      ],
+      "published": "2026-07-02",
+      "updated": "2026-07-02",
+      "categories": [
+        "cs.CL",
+        "cs.SD"
+      ],
+      "abstract": "Audio-language models can be prompted for code-switched speech, but their decoding is not optimized for code-switching and often fails at language boundaries. We propose a practical reinforcement learning with verifiable rewards recipe for data-efficient adaptation of audio-language models to code-switched ASR using group relative policy optimization, combining an error rate reward with a script fidelity reward that penalizes wrong writing systems and a two-pass draft-and-refinement procedure. Using Qwen2-Audio as a reproducible testbed across 10 language pairs, training on only TTS code-switched speech, we show that RLVR with 10% of the data matches LoRA supervised fine-tuning trained on the full dataset, with the largest gains on typologically distant pairs. The error rate reward eliminates translation errors while the script fidelity reward separately reduces script contamination without degradation. These gains transfer zero-shot to a human-recorded code-switching corpus.",
+      "abs_url": "http://arxiv.org/abs/2607.02757v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02757v1",
+      "code_url": null
+    },
+    "2607.04631": {
+      "id": "2607.04631",
+      "version": "2607.04631v1",
+      "title": "Formal Disco: Scalable Open-Ended Generation of Formally Verified Programs",
+      "authors": [
+        "Gabriel Poesia",
+        "Simon Henniger",
+        "Tzu-Han Hsu",
+        "Yilun Du",
+        "Nada Amin"
+      ],
+      "published": "2026-07-06",
+      "updated": "2026-07-06",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "The cost of producing code is rapidly diminishing with increasingly capable AI agents, while quality assurance of generated programs has not kept pace. Formal verification provides the strongest possible guarantees, but the ability of AI models to work with verification-aware languages is hindered by the scarcity of human-written examples of programs in those languages. To tackle this prevalent data scarcity issue, we propose Formal Disco: a distributed system for coordination of LLM-based workers that can be easily applied to open-ended synthetic data generation at scale. We use Formal Disco to share tasks and programs between three classes of workers: \"initiators\", which read random READMEs from open-source repositories and documentation snippets to sketch a related verified program, \"fixers\" which take compiler and verifier feedback and attempt to resolve issues, and \"extenders\" that take working programs and propose patches to expand them. Formal Disco records all agent-generated traces and uses them both for initial distillation from a stronger model as well as self-improvement. We also propose a principle of maximum entropy for synthetic program generation, and use entropy maximization via iterative supervised fine-tuning to learn to generate increasingly diverse programs over time. We release large datasets of synthetic verified programs in three languages - Dafny, Verus, and Frama-C -, and fine-tune open models for verification-relevant tasks, often matching or exceeding the performance of Claude Opus 4.5. Overall, our work offers a path to create synthetic data at scale for formal reasoning domains and overcome the long-standing data barrier.",
+      "abs_url": "http://arxiv.org/abs/2607.04631v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.04631v1",
+      "code_url": null
     }
   }
 }
