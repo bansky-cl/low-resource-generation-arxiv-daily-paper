@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **392**
-- Recent 30 days: **67**
+- Total papers in JSON: **397**
+- Recent 30 days: **72**
 - Older than 30 days: **325**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,10 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-07**|**Estimating Uncertainty from Reasoning: A Large-Scale Study of Multi- and Crosslingual MCQA Performance in LLMs**|cs.CL, cs.AI|[2607.06327v1](http://arxiv.org/abs/2607.06327v1)|null|
+|**2026-07-07**|**Property-Driven Synthetic Data Engineering for Data-Scarce Software Systems: Reflections from the Breast Cancer Domain**|cs.SE, cs.AI|[2607.06133v1](http://arxiv.org/abs/2607.06133v1)|null|
+|**2026-07-07**|**PluraMath: Extending Mathematical Reasoning Evaluation Beyond High-Resource Languages**|cs.CL, cs.AI|[2607.05992v1](http://arxiv.org/abs/2607.05992v1)|null|
+|**2026-07-07**|**CoPiT: Cognitive Pivot Translation for Digraphic Low-Resource Mongolian in the Traditional Script**|cs.CL|[2607.05849v1](http://arxiv.org/abs/2607.05849v1)|**[code](https://anonymous.4open.science/r/anonymous_project-76C7)**|
 |**2026-07-06**|**Formal Disco: Scalable Open-Ended Generation of Formally Verified Programs**|cs.AI|[2607.04631v1](http://arxiv.org/abs/2607.04631v1)|null|
 |**2026-07-06**|**LLM-Driven CI-CD Workflow Intelligence for Cyber Systems Engineering**|cs.SE, cs.AI|[2607.04579v1](http://arxiv.org/abs/2607.04579v1)|null|
 |**2026-07-05**|**CertMix: Certified, Data-Efficient Metamaterial Design by Affine Mixing of Aligned Neural-Implicit Weight Spaces**|cs.LG|[2607.04123v1](http://arxiv.org/abs/2607.04123v1)|null|
@@ -52,6 +56,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-24**|**Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect**|cs.CL|[2606.26003v2](http://arxiv.org/abs/2606.26003v2)|null|
 |**2026-06-24**|**Riazi-8B: An Urdu Large Language Model for Mathematical Reasoning**|cs.CL|[2606.25568v1](http://arxiv.org/abs/2606.25568v1)|null|
 |**2026-06-24**|**Neural Machine Translation for Low-Resource Tangkhul--English**|cs.CL, cs.AI|[2606.25365v1](http://arxiv.org/abs/2606.25365v1)|null|
+|**2026-06-23**|**Text Distance from Nested and Hierarchical Repetitions: A Compression-Based Perspective**|cs.CL, cs.IT|[2607.05416v1](http://arxiv.org/abs/2607.05416v1)|null|
 |**2026-06-23**|**Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models**|cs.AI, cs.CL|[2606.24841v1](http://arxiv.org/abs/2606.24841v1)|**[code](https://github.com/puraminy/MTO/)**|
 |**2026-06-23**|**Neural Network-Based Parametric Model Reduction for Predicting Turbulent Flow for Different Vehicle Geometries**|cs.CE, cs.AI|[2606.24265v1](http://arxiv.org/abs/2606.24265v1)|null|
 |**2026-06-22**|**GRAIN: Group Aggregation via Min-Norm Objective**|cs.LG, stat.ML|[2606.22917v1](http://arxiv.org/abs/2606.22917v1)|null|
@@ -222,13 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-08**|**Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria**|cs.AI|[2605.08354v1](http://arxiv.org/abs/2605.08354v1)|null|
 |**2026-05-08**|**Why do Large Language Models Fail in Low-resource Translation? Unraveling the Token Dynamics of Large Language Models for Machine Translation**|cs.CL|[2605.07533v1](http://arxiv.org/abs/2605.07533v1)|null|
 |**2026-05-08**|**Accelerated and data-efficient flow prediction in stirred tanks via physics-informed learning**|cs.CE, cs.AI|[2605.07444v1](http://arxiv.org/abs/2605.07444v1)|null|
-|**2026-05-08**|**bispectrum: Selective $G$-Bispectra Made Practical**|cs.LG|[2605.07270v1](http://arxiv.org/abs/2605.07270v1)|null|
-|**2026-05-07**|**Don't Retrain, Align: Adapting Autoregressive LMs to Diffusion LMs via Representation Alignment**|cs.LG, cs.AI|[2605.06885v1](http://arxiv.org/abs/2605.06885v1)|**[code](https://github.com/pengzhangzhi/Open-dLLM)**|
-|**2026-05-07**|**MIND: Monge Inception Distance for Generative Models Evaluation**|cs.LG|[2605.06797v1](http://arxiv.org/abs/2605.06797v1)|null|
-|**2026-05-07**|**Automated Clinical Report Generation for Remote Cognitive Remediation: Comparing Knowledge-Engineered Templates and LLMs in Low-Resource Settings**|cs.CL|[2605.06594v1](http://arxiv.org/abs/2605.06594v1)|null|
-|**2026-05-07**|**Linear Semantic Segmentation for Low-Resource Spoken Dialects**|cs.CL, cs.AI|[2605.06276v1](http://arxiv.org/abs/2605.06276v1)|null|
 
-README omitted **192** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **197** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

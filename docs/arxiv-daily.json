@@ -8542,6 +8542,130 @@
       "abs_url": "http://arxiv.org/abs/2607.04631v1",
       "pdf_url": "https://arxiv.org/pdf/2607.04631v1",
       "code_url": null
+    },
+    "2607.06327": {
+      "id": "2607.06327",
+      "version": "2607.06327v1",
+      "title": "Estimating Uncertainty from Reasoning: A Large-Scale Study of Multi- and Crosslingual MCQA Performance in LLMs",
+      "authors": [
+        "Andrea Alfarano",
+        "Andrea Bacciu",
+        "Saab Mansour",
+        "Amin Mantrach",
+        "Marcello Federico"
+      ],
+      "published": "2026-07-07",
+      "updated": "2026-07-07",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Uncertainty estimation (UE) enables LLM-powered systems to recognize when to abstain, yet existing research has predominantly focused on English. We present the first large-scale evaluation of UE methods across 22 languages, spanning high-, mid-, and low-resource settings. Using two human-curated Q\\&A datasets, we compare open and closed box UE methods (nine in total) across different model sizes and architectures while eliciting long-form reasoning, avoiding LLM-as-a-judge and embedding-based scoring, which can introduce evaluation noise. We report three main actionable findings. First, we find that prompting models to reason in English while keeping questions in low-resource languages substantially improves UE performance, suggesting that comprehension of low-resource languages is largely intact, and that the reliability bottleneck lies in generation rather than understanding. Second, prompting models to reason in English closes the UE performance gap between low and high-resource languages, demonstrating that generation language matters more than the question language. Third, the choice of UE method should depend on model scale: at smaller scales, open-box probability-based methods outperform alternatives; at larger scales, closed-box self-verbalized uncertainty becomes superior. Finally, we provide an analysis of threshold selection for selective prediction, offering guidance on calibrating abstention in multilingual settings.",
+      "abs_url": "http://arxiv.org/abs/2607.06327v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.06327v1",
+      "code_url": null
+    },
+    "2607.05992": {
+      "id": "2607.05992",
+      "version": "2607.05992v1",
+      "title": "PluraMath: Extending Mathematical Reasoning Evaluation Beyond High-Resource Languages",
+      "authors": [
+        "Daryna Dementieva",
+        "Nikolay Babakov",
+        "Kathy Hämmerl",
+        "Ilseyar Alimova",
+        "Jindřich Libovický",
+        "Shu Okabe",
+        "Miras Baisbay",
+        "Lukas Edman",
+        "Abrorkhon Inomkhujaev",
+        "Antonia Karamolegkou",
+        "Mateusz Lango",
+        "Volkan Özer",
+        "Nikola Selic",
+        "Subhankar Swain",
+        "Tsedeniya Kinfe Temesgen",
+        "Galit Bary Weisberg",
+        "Alexander Fraser"
+      ],
+      "published": "2026-07-07",
+      "updated": "2026-07-07",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Mathematical reasoning has become a central task for evaluating and tuning reasoning Large Language Models (LLMs), yet existing benchmarks remain heavily biased toward high-resource languages, with English and Chinese dominating both pre-training corpora and evaluation suites. The recently released PolyMath (Wang et al., 2025) dataset represents a significant step forward, yet its coverage is still limited to 18 only high-resource languages. To address this gap, we introduce PluraMath, an extension of PolyMath to 18 additional {underrepresented languages spanning 6 language families -- ranging from mid-resource to extreme low-resource settings. We constructed the dataset through a human-curated pipeline, where native speakers thoroughly validated pre-computed translations. Using PluraMath, we then benchmark 27 reasoning LLMs across four model scales -- small, mid-size, large, and closed-source ensembles -- probing the multilingual mathematical reasoning capabilities of state-of-the-art models under diverse linguistic conditions. Our fine-grained analysis confirms a persistent gap in mathematical reasoning performance between high-resource and underrepresented languages, with stronger results largely associated with better instruction-following ability. We fully open-source our dataset, data acquisition pipeline, and evaluation framework, with the goal of lowering the barrier to multilingual benchmark development for underrepresented communities.",
+      "abs_url": "http://arxiv.org/abs/2607.05992v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.05992v1",
+      "code_url": null
+    },
+    "2607.05849": {
+      "id": "2607.05849",
+      "version": "2607.05849v1",
+      "title": "CoPiT: Cognitive Pivot Translation for Digraphic Low-Resource Mongolian in the Traditional Script",
+      "authors": [
+        "Burte Bayarsaikhan",
+        "Serynn Kim",
+        "Buru Chang"
+      ],
+      "published": "2026-07-07",
+      "updated": "2026-07-07",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Low-resource languages remain challenging for machine translation, and Mongolian is a representative case. As a digraphic language, Mongolian is written in both Cyrillic and Traditional scripts, which exhibit a severe imbalance in data availability. While the Cyrillic script is relatively well-resourced, the Traditional script remains extremely data-scarce and orthographically ambiguous, leading to substantial performance degradation in direct translation. We propose CoPiT, a cognitively motivated pivot-based translation pipeline that exploits this internal resource hierarchy by routing translation through the Cyrillic script. The pipeline explicitly resolves script-induced ambiguity in the Traditional script before translation, enabling more stable and accurate meaning transfer. Across multiple backbone models and target languages, CoPiT consistently outperforms direct translation, achieving substantial absolute BLEU improvements together with consistent 1.5-1.6x COMET gains. These gains allow strong open-source models to match or outperform GPT-4.1 under comparable evaluation settings. Beyond inference-time improvements, CoPiT enables the construction of synthetic parallel data directly from Traditional-script text, mitigating data scarcity in realistic low-resource scenarios. We release a new multi-script parallel dataset covering Mongolian in both scripts alongside English, Korean, and Russian. All datasets and code are publicly available at https://anonymous.4open.science/r/anonymous_project-76C7.",
+      "abs_url": "http://arxiv.org/abs/2607.05849v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.05849v1",
+      "code_url": "https://anonymous.4open.science/r/anonymous_project-76C7"
+    },
+    "2607.05416": {
+      "id": "2607.05416",
+      "version": "2607.05416v1",
+      "title": "Text Distance from Nested and Hierarchical Repetitions: A Compression-Based Perspective",
+      "authors": [
+        "Xiaojun Hu",
+        "Jing Wang",
+        "Jingwen Zhang",
+        "Fengyao Zhai",
+        "Xiao Xie",
+        "Hao Liao",
+        "Zengru Di",
+        "Yu Liu"
+      ],
+      "published": "2026-06-23",
+      "updated": "2026-06-23",
+      "categories": [
+        "cs.CL",
+        "cs.IT"
+      ],
+      "abstract": "We present a new method for structural sequence analysis grounded in Algorithmic Information Theory (AIT). At its core is the Ladderpath approach, which extracts nested and hierarchical relationships among repeated substructures in linguistic sequences -- an instantiation of AIT's principle of describing data through minimal generative programs. These structures are then used to define three distance measures: a normalized compression distance (NCD), and two alternative distances derived directly from the Ladderpath representation. Integrated with a $k$-nearest neighbor classifier, these distances achieve strong and consistent performance across in-distribution, out-of-distribution (OOD), and few-shot text classification tasks. In particular, all three methods outperform both gzip-based NCD and BERT under OOD and low-resource settings. These results demonstrate that the structured representations captured by Ladderpath preserve intrinsic properties of sequences and provide a lightweight, interpretable, and training-free alternative for text modeling. This work highlights the potential of AIT-based approaches for structural and domain-agnostic sequence understanding.",
+      "abs_url": "http://arxiv.org/abs/2607.05416v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.05416v1",
+      "code_url": null
+    },
+    "2607.06133": {
+      "id": "2607.06133",
+      "version": "2607.06133v1",
+      "title": "Property-Driven Synthetic Data Engineering for Data-Scarce Software Systems: Reflections from the Breast Cancer Domain",
+      "authors": [
+        "Aurora Francesca Zanenga",
+        "Andrea Bombarda",
+        "Marsha Chechik",
+        "Saverio D'Amico",
+        "Rita De Sanctis",
+        "Alberto Zambelli",
+        "Claudio Menghi"
+      ],
+      "published": "2026-07-07",
+      "updated": "2026-07-07",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "abstract": "Modern software systems increasingly depend on data for analysis, prediction, testing, and decision-making. Yet many important domains, including medicine, safety-critical systems, and regulated industries, lack abundant, shareable, or representative data. Synthetic data generation is often proposed as a remedy, but our experience engineering software for intraoperative radiotherapy (IORT) in breast cancer treatment suggests that synthetic data shifts rather than solves the central engineering problem. The key challenge becomes deciding which properties synthetic data must preserve, how these properties should be elicited from stakeholders, how they can be validated under privacy constraints, and how they evolve. We call this problem property-driven synthetic data engineering. Drawing on a collaboration with oncologists and preliminary experiments with a sensitive IORT dataset, we identify challenges in requirements, validation, privacy, and pipeline evolution. We argue that automated software engineering research should develop methods and tools for eliciting, formalizing, checking, and evolving validity properties for synthetic data in data-scarce software systems.",
+      "abs_url": "http://arxiv.org/abs/2607.06133v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.06133v1",
+      "code_url": null
     }
   }
 }
