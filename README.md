@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.08
+## Updated on 2026.07.09
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **397**
-- Recent 30 days: **72**
-- Older than 30 days: **325**
+- Recent 30 days: **65**
+- Older than 30 days: **332**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -87,6 +87,11 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-10**|**Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay**|cs.CL|[2606.11786v1](http://arxiv.org/abs/2606.11786v1)|null|
 |**2026-06-09**|**Schützen: Evaluating LLM Safety in Bulgarian and German Contexts**|cs.CL|[2606.11316v1](http://arxiv.org/abs/2606.11316v1)|**[code](https://github.com/xnlp-lab/Schutzen)**|
 |**2026-06-09**|**Small Data, Big Noise: Adversarial Training for Robust Parameter-Efficient Fine-Tuning**|cs.CL|[2606.10610v1](http://arxiv.org/abs/2606.10610v1)|null|
+
+## Older Than 30 Days
+
+|Date|Title|Categories|PDF|Code|
+|---|---|---|---|---|
 |**2026-06-08**|**Data Synthesis and Parameter-Efficient Fine-Tuning for Low-Resource NMT: A Case Study on Q'eqchi' Mayan**|cs.CL, cs.AI, cs.LG|[2606.09767v1](http://arxiv.org/abs/2606.09767v1)|null|
 |**2026-06-08**|**Transition-Based Digital Twin Modelling for Alzheimer's Disease under Sparse Longitudinal Data**|cs.LG, cs.AI|[2606.09671v1](http://arxiv.org/abs/2606.09671v1)|null|
 |**2026-06-08**|**Automated IEP Generation from Traditional Chinese Parent-Teacher Interviews via Corpus-Grounded Feature Diffusion**|cs.CL|[2606.09603v1](http://arxiv.org/abs/2606.09603v1)|null|
@@ -94,11 +99,6 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-08**|**Targeting World Models to Compromise Robot Learning Pipelines**|cs.RO, cs.AI, cs.CR|[2606.09499v1](http://arxiv.org/abs/2606.09499v1)|null|
 |**2026-06-08**|**NüshuVoice: Reviving the Voice of Endangered Nüshu with Pitch-Aware Text-to-Speech**|cs.CL|[2606.09295v1](http://arxiv.org/abs/2606.09295v1)|**[code](https://anonymous.4open.science/r/Nvshu-TTS-2EB6)**|
 |**2026-06-08**|**LATTEArena: An Evaluation Framework for LLM-powered Tabular Feature Engineering (Extended Version)**|cs.AI|[2606.09004v1](http://arxiv.org/abs/2606.09004v1)|null|
-
-## Older Than 30 Days
-
-|Date|Title|Categories|PDF|Code|
-|---|---|---|---|---|
 |**2026-06-07**|**PIPE-Cypher: Automatic Enterprise Benchmark Generation for Text-to-Cypher Systems**|cs.LG, cs.AI, cs.DB, cs.SE|[2606.08481v1](http://arxiv.org/abs/2606.08481v1)|null|
 |**2026-06-06**|**ZAS-SQL: Distilling Rules from Failures for Zero-Shot Text-to-SQL**|cs.CL|[2606.08245v1](http://arxiv.org/abs/2606.08245v1)|null|
 |**2026-06-06**|**De novo molecular generation with optical property preconditioning at the token level**|cs.LG|[2606.08221v1](http://arxiv.org/abs/2606.08221v1)|null|
