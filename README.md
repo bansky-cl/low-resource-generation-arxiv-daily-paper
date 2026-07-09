@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **397**
-- Recent 30 days: **65**
+- Total papers in JSON: **398**
+- Recent 30 days: **66**
 - Older than 30 days: **332**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,7 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-08**|**Future Confidence Distillation in Large Language Models**|cs.CL, cs.AI|[2607.07626v1](http://arxiv.org/abs/2607.07626v1)|null|
 |**2026-07-07**|**Estimating Uncertainty from Reasoning: A Large-Scale Study of Multi- and Crosslingual MCQA Performance in LLMs**|cs.CL, cs.AI|[2607.06327v1](http://arxiv.org/abs/2607.06327v1)|null|
 |**2026-07-07**|**Property-Driven Synthetic Data Engineering for Data-Scarce Software Systems: Reflections from the Breast Cancer Domain**|cs.SE, cs.AI|[2607.06133v1](http://arxiv.org/abs/2607.06133v1)|null|
 |**2026-07-07**|**PluraMath: Extending Mathematical Reasoning Evaluation Beyond High-Resource Languages**|cs.CL, cs.AI|[2607.05992v1](http://arxiv.org/abs/2607.05992v1)|null|
@@ -41,7 +42,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-30**|**Modality-Driven Search with Holistic Trace Judging for ARC-AGI-2**|cs.AI, cs.CL, cs.LG|[2606.31543v1](http://arxiv.org/abs/2606.31543v1)|null|
 |**2026-06-30**|**Agentic-Ideation: Sample Efficient Agentic Trajectories Synthesis for Scientific Ideation Agents**|cs.AI|[2606.31229v1](http://arxiv.org/abs/2606.31229v1)|null|
 |**2026-06-30**|**Cross-Domain Feature Expansion for Tabular Medical Data via Knowledge Graphs Injection**|cs.AI, cs.ET|[2606.31171v1](http://arxiv.org/abs/2606.31171v1)|null|
-|**2026-06-30**|**Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?**|cs.LG, q-bio.QM, stat.ML|[2606.31126v1](http://arxiv.org/abs/2606.31126v1)|null|
+|**2026-06-30**|**Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?**|cs.LG, q-bio.QM, stat.ML|[2606.31126v2](http://arxiv.org/abs/2606.31126v2)|null|
 |**2026-06-29**|**Bridging Scientific Heritage: An Arabic--Russian Parallel Corpus and LLM Benchmark for Sustainable Knowledge Transfer**|cs.CL|[2606.30943v1](http://arxiv.org/abs/2606.30943v1)|null|
 |**2026-06-29**|**Translating Natural Language to Strategic Temporal Specifications via LLMs**|cs.MA, cs.AI|[2606.30441v2](http://arxiv.org/abs/2606.30441v2)|null|
 |**2026-06-29**|**ARMOR: Adaptive Retriever Optimization for Low-Resource Telecom Question Answering**|cs.IR, cs.AI, cs.CL, cs.LG|[2606.29706v1](http://arxiv.org/abs/2606.29706v1)|**[code](https://github.com/heshandevaka/ARMOR.git)**|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-08**|**A meshfree exterior calculus for generalizable and data-efficient learning of physics from point clouds**|cs.LG, cs.AI, physics.comp-ph|[2605.08436v1](http://arxiv.org/abs/2605.08436v1)|null|
 |**2026-05-08**|**Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria**|cs.AI|[2605.08354v1](http://arxiv.org/abs/2605.08354v1)|null|
 |**2026-05-08**|**Why do Large Language Models Fail in Low-resource Translation? Unraveling the Token Dynamics of Large Language Models for Machine Translation**|cs.CL|[2605.07533v1](http://arxiv.org/abs/2605.07533v1)|null|
-|**2026-05-08**|**Accelerated and data-efficient flow prediction in stirred tanks via physics-informed learning**|cs.CE, cs.AI|[2605.07444v1](http://arxiv.org/abs/2605.07444v1)|null|
 
-README omitted **197** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **198** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

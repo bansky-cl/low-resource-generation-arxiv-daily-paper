@@ -8228,7 +8228,7 @@
     },
     "2606.31126": {
       "id": "2606.31126",
-      "version": "2606.31126v1",
+      "version": "2606.31126v2",
       "title": "Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?",
       "authors": [
         "Davy Guan",
@@ -8243,15 +8243,15 @@
         "Daniel M. Steinberg"
       ],
       "published": "2026-06-30",
-      "updated": "2026-06-30",
+      "updated": "2026-07-08",
       "categories": [
         "cs.LG",
         "q-bio.QM",
         "stat.ML"
       ],
-      "abstract": "Predicting biomolecular properties from limited labeled data is a central bottleneck in protein engineering and small-molecule design. As strong pretrained encoders now supply rich fixed-length representations, the difficulty has shifted from representation learning to building a data-efficient predictor for the few-shot regime. Tabular foundation models such as TabPFN3 and TabICL are unlikely candidates for this role: they are in-context learners pretrained on synthetic tables drawn from random causal graphs, a generative prior with no obvious correspondence to the processes that produce protein sequences or molecular graphs. That this tabular, causal inductive bias should transfer to biomolecular data at all is unintuitive, yet we find it does. Treating each method as a predictor-representation pair, we evaluate across two domains. Over a fixed ESMC representation, tabular in-context learning is consistently competitive for protein fitness regression on ProteinGym and a diverse esterase dataset. For small-molecule classification with ECFP/RDKit descriptors, no single pairing dominates across TDC ADMET, MoleculeNet, FS-Mol, and DrugOOD; representation choice becomes a primary determinant, as expected when the predictor's own prior is indifferent to molecular structure. We conclude that tabular foundation models are strong performers on biomolecular prediction tasks, but that their performance depends strongly on the sequence or molecular representation used.",
-      "abs_url": "http://arxiv.org/abs/2606.31126v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.31126v1",
+      "abstract": "Predicting biomolecular properties from limited labeled data is a central bottleneck in protein engineering and small-molecule design. As strong pretrained encoders now supply rich fixed-length representations, the difficulty has shifted from representation learning to building a data-efficient predictor for the few-shot regime. Tabular foundation models such as TabPFN and TabICL are unlikely candidates for this role: they are in-context learners pretrained on synthetic tables drawn from random causal graphs, a generative prior with no obvious correspondence to the processes that produce protein sequences or molecular graphs. That this tabular, causal inductive bias should transfer to biomolecular data at all is counter-intuitive, yet we find it does. Treating each method as a predictor-representation pair, we evaluate across two domains. We find that on protein fitness regression tasks these in-context learning models coupled with ESM Cambrian representations achieve or exceed state-of-the-art results on ProteinGym, and outperform task-specific supervised regressors on a diverse esterase catalytic activity dataset. For small-molecule classification with ECFP/RDKit descriptors, no single predictor-representation pairing dominates across TDC ADMET, MoleculeNet, FS-Mol, and DrugOOD, but they are competitive with the existing task-specific state-of-the-art. Crucially, on both protein and small-molecule few-shot tasks, these predictor-representation pairs offer strong performance. We conclude that tabular foundation models can be strong biomolecular predictors, but only when coupled with expressive representations.",
+      "abs_url": "http://arxiv.org/abs/2606.31126v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.31126v2",
       "code_url": null
     },
     "2606.30943": {
@@ -8665,6 +8665,24 @@
       "abstract": "Modern software systems increasingly depend on data for analysis, prediction, testing, and decision-making. Yet many important domains, including medicine, safety-critical systems, and regulated industries, lack abundant, shareable, or representative data. Synthetic data generation is often proposed as a remedy, but our experience engineering software for intraoperative radiotherapy (IORT) in breast cancer treatment suggests that synthetic data shifts rather than solves the central engineering problem. The key challenge becomes deciding which properties synthetic data must preserve, how these properties should be elicited from stakeholders, how they can be validated under privacy constraints, and how they evolve. We call this problem property-driven synthetic data engineering. Drawing on a collaboration with oncologists and preliminary experiments with a sensitive IORT dataset, we identify challenges in requirements, validation, privacy, and pipeline evolution. We argue that automated software engineering research should develop methods and tools for eliciting, formalizing, checking, and evolving validity properties for synthetic data in data-scarce software systems.",
       "abs_url": "http://arxiv.org/abs/2607.06133v1",
       "pdf_url": "https://arxiv.org/pdf/2607.06133v1",
+      "code_url": null
+    },
+    "2607.07626": {
+      "id": "2607.07626",
+      "version": "2607.07626v1",
+      "title": "Future Confidence Distillation in Large Language Models",
+      "authors": [
+        "Sahil Kale"
+      ],
+      "published": "2026-07-08",
+      "updated": "2026-07-08",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Reliable confidence estimation is essential for deploying large language models (LLMs) in confidence-aware systems, where downstream decisions such as retrieval, tool use, and adaptive computation depend on accurately estimating answer reliability. Existing approaches, however, largely treat confidence as a property of completed responses, overlooking how confidence-related information evolves throughout the answering process. In this work, we investigate confidence from a temporal perspective by comparing pre-solution Feeling-of-Knowing (FOK) and post-solution Judgement-of-Learning (JOL) confidence estimates across frontier and open-source LLMs. We show that post-solution confidence is consistently better calibrated and more discriminative than pre-solution confidence, while linear probes trained on hidden representations recover substantially richer confidence-related information than models explicitly verbalise. Building on this observation, we introduce future confidence distillation, which trains predictors operating on pre-solution hidden representations using teacher confidence estimates produced by post-solution correctness probes. Despite requiring only pre-solution representations for inference, distilled predictors recover much of the calibration improvement achieved by post-solution confidence, remain highly sample efficient, and transfer across datasets within the same domain. Together, our findings demonstrate that confidence-related information evolves throughout the answering process and can be anticipated before answer generation is complete, enabling significantly more reliable yet low-cost confidence estimation.",
+      "abs_url": "http://arxiv.org/abs/2607.07626v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.07626v1",
       "code_url": null
     }
   }
