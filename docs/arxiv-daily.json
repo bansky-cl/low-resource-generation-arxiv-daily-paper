@@ -8684,6 +8684,67 @@
       "abs_url": "http://arxiv.org/abs/2607.07626v1",
       "pdf_url": "https://arxiv.org/pdf/2607.07626v1",
       "code_url": null
+    },
+    "2607.07748": {
+      "id": "2607.07748",
+      "version": "2607.07748v1",
+      "title": "Selective Left-Shift: Turning Test-Time Compute and Difficulty-based Curation into Training Data for Low-Resource Code Generation",
+      "authors": [
+        "Didula Samaraweera",
+        "Anjana Supun",
+        "Srinath Perera"
+      ],
+      "published": "2026-07-08",
+      "updated": "2026-07-08",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Large Language Models achieve strong code generation for high resource languages like Python and Java but suffer sharp performance drops on Low-Resource Programming Languages~(LRPLs) such as Julia. Improving Small Language Models~(SLMs) for these languages faces a trilemma: Supervised Fine-Tuning~(SFT) is bottlenecked by data scarcity, inference-time scaling is too expensive for deployment, and Reinforcement Learning from scratch yields near zero advantages. We propose a three-phase pipeline that resolves this trilemma by decoupling syntax acquisition from algorithmic reasoning. First, we \\emph{left-shift} inference-time compute to an offline data synthesis engine that uses iterative compiler and test feedback to generate verified training examples. Second, we fine-tune an SLM on this synthetic, verified data to embed strong syntactic priors. Third, we apply Reinforcement Learning with Verifiable Reward~(RLVR) grounded by language-agnostic Input/Output tests, where the SFT prior constrains exploration away from syntax errors. Applied to Qwen3-8B, our pipeline improves pass@1 by up to +7.6 points on MultiPL-E and +14.2 points on the Agnostics LiveCodeBench for Julia compared to SOTA results. Furthermore, the pipeline only used $\\frac{1}{3}$ data and $\\frac{1}{6}$ cost over the previous state-of-the-art. We further demonstrate that the pipeline generalizes to Ballerina achieving 49.7\\% MultiPL-E Pass@1, a language with near-zero pretraining representation. Ablations confirm that both the SFT phase and execution-grounded rewards are necessary for stable training.",
+      "abs_url": "http://arxiv.org/abs/2607.07748v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.07748v1",
+      "code_url": null
+    },
+    "2607.08080": {
+      "id": "2607.08080",
+      "version": "2607.08080v1",
+      "title": "MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction",
+      "authors": [
+        "Ao Hong",
+        "Lehang Wang",
+        "Zhirun Yue",
+        "Mingxin Wang",
+        "Zihan Wang",
+        "Houde Liu"
+      ],
+      "published": "2026-07-09",
+      "updated": "2026-07-09",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Aspect Sentiment Triplet Extraction (ASTE) requires jointly identifying (aspect, opinion, sentiment) triples from a given review sentence. While large language models (LLMs) achieve strong zero-shot performance on many NLP benchmarks, their effectiveness on ASTE remains limited, as single-pass generation forces the model to determine span boundaries, opinion grouping, and sentiment polarity in a single decoding step. Common remedies, such as few-shot in-context learning and chain-of-thought prompting, offer only marginal improvements and rely heavily on either in-domain demonstrations sampled from labeled training data or carefully engineered reasoning prompts, neither of which is broadly available in zero-shot deployment. Inspired by the classical agent paradigm, we propose MASTE, a multi-agent pipeline for zero-shot Aspect Sentiment Triplet Extraction. MASTE decomposes ASTE into four sequential stages, where specialized agents handle different compositional subtasks with explicit conditioning on prior outputs. This design enables entirely training-free zero-shot ASTE and generalizes across different backbones and datasets. Extensive experiments on four ASTE benchmarks show that MASTE substantially outperforms zero-shot and chain-of-thought LLM baselines under the same backbone, narrowing the gap to fully supervised methods without using any labeled triplets. Code is available at https://github.com/Hankerlove/MASTE.",
+      "abs_url": "http://arxiv.org/abs/2607.08080v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08080v1",
+      "code_url": "https://github.com/Hankerlove/MASTE"
+    },
+    "2607.07859": {
+      "id": "2607.07859",
+      "version": "2607.07859v1",
+      "title": "Feedback Manipulation Regularization: Enabling Offline Agent Alignment for Imitation Learning",
+      "authors": [
+        "Benjamin Poole",
+        "Minwoo Lee"
+      ],
+      "published": "2026-07-08",
+      "updated": "2026-07-08",
+      "categories": [
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "abstract": "Reinforcement learning (RL) research has increasingly shifted focus towards alignment, ensuring agents learn behaviors adhering to human values. While human demonstrations and feedback have proven crucial for alignment, existing approaches predominantly combine these signals using multi-stage pipelines designed for the contextual bandit framing of language generation. Yet little work explores how these complementary inputs can serve as a richer, interconnected signal for single-stage offline training in fully sequential decision-making environments. We propose Feedback Manipulation Regularization (FMR), an algorithm-agnostic method that harnesses evaluative feedback as a corrective signal to improve the alignment of imitation learning policies. We adapt Safety Gymnasium environments to be a principled testbed for alignment evaluation, demonstrating improved aptitude and up to a 98\\% reduction in misalignment across a range of imitation learning algorithms. FMR remains robust in limited data regimes, even when learning from scarce aligned and uninformative noisy demonstrations.",
+      "abs_url": "http://arxiv.org/abs/2607.07859v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.07859v1",
+      "code_url": null
     }
   }
 }

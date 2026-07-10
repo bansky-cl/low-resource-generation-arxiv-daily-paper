@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **398**
-- Recent 30 days: **64**
+- Total papers in JSON: **401**
+- Recent 30 days: **67**
 - Older than 30 days: **334**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-09**|**MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction**|cs.CL|[2607.08080v1](http://arxiv.org/abs/2607.08080v1)|**[code](https://github.com/Hankerlove/MASTE)**|
+|**2026-07-08**|**Feedback Manipulation Regularization: Enabling Offline Agent Alignment for Imitation Learning**|cs.AI, cs.HC, cs.LG|[2607.07859v1](http://arxiv.org/abs/2607.07859v1)|null|
+|**2026-07-08**|**Selective Left-Shift: Turning Test-Time Compute and Difficulty-based Curation into Training Data for Low-Resource Code Generation**|cs.LG|[2607.07748v1](http://arxiv.org/abs/2607.07748v1)|null|
 |**2026-07-08**|**Future Confidence Distillation in Large Language Models**|cs.CL, cs.AI|[2607.07626v1](http://arxiv.org/abs/2607.07626v1)|null|
 |**2026-07-07**|**Estimating Uncertainty from Reasoning: A Large-Scale Study of Multi- and Crosslingual MCQA Performance in LLMs**|cs.CL, cs.AI|[2607.06327v1](http://arxiv.org/abs/2607.06327v1)|null|
 |**2026-07-07**|**Property-Driven Synthetic Data Engineering for Data-Scarce Software Systems: Reflections from the Breast Cancer Domain**|cs.SE, cs.AI|[2607.06133v1](http://arxiv.org/abs/2607.06133v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-10**|**Crosslingual On-Policy Self-Distillation for Multilingual Reasoning**|cs.CL|[2605.09548v1](http://arxiv.org/abs/2605.09548v1)|**[code](https://github.com/cisnlp/COPSD)**|
 |**2026-05-09**|**Lost in Translation? Exploring the Shift in Grammatical Gender from Latin to Occitan**|cs.CL, cs.AI|[2605.09156v2](http://arxiv.org/abs/2605.09156v2)|**[code](https://github.com/ahan-2000/Lost-in-Translation-)**|
 |**2026-05-09**|**LLiMba: Sardinian on a Single GPU -- Adapting a 3B Language Model to a Vanishing Romance Language**|cs.CL, cs.LG|[2605.09015v1](http://arxiv.org/abs/2605.09015v1)|null|
-|**2026-05-08**|**A meshfree exterior calculus for generalizable and data-efficient learning of physics from point clouds**|cs.LG, cs.AI, physics.comp-ph|[2605.08436v1](http://arxiv.org/abs/2605.08436v1)|null|
-|**2026-05-08**|**Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria**|cs.AI|[2605.08354v1](http://arxiv.org/abs/2605.08354v1)|null|
-|**2026-05-08**|**Why do Large Language Models Fail in Low-resource Translation? Unraveling the Token Dynamics of Large Language Models for Machine Translation**|cs.CL|[2605.07533v1](http://arxiv.org/abs/2605.07533v1)|null|
 
-README omitted **198** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **201** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
