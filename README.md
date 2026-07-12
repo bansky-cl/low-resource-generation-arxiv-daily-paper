@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.11
+## Updated on 2026.07.12
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **401**
-- Recent 30 days: **65**
-- Older than 30 days: **336**
+- Recent 30 days: **63**
+- Older than 30 days: **338**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -85,13 +85,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-13**|**Few-Shot Biomedical Relation Extraction with Large Language Models: A Viable Alternative to Supervised Learning?**|cs.CL, cs.AI|[2606.15412v1](http://arxiv.org/abs/2606.15412v1)|null|
 |**2026-06-13**|**Towards a Unified Generative Model for Scarce Time Series with Domain Experts**|cs.LG|[2606.15172v1](http://arxiv.org/abs/2606.15172v1)|null|
 |**2026-06-12**|**Combining Retrieval-Augmented Text Generation with LLMs for Reading Content Recommendations**|cs.IR, cs.AI|[2606.14817v1](http://arxiv.org/abs/2606.14817v1)|null|
-|**2026-06-11**|**SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation**|cs.CL, cs.AI, cs.LG|[2606.13647v1](http://arxiv.org/abs/2606.13647v1)|null|
-|**2026-06-11**|**An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics**|cs.RO, cs.AI|[2606.12936v1](http://arxiv.org/abs/2606.12936v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-11**|**SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation**|cs.CL, cs.AI, cs.LG|[2606.13647v1](http://arxiv.org/abs/2606.13647v1)|null|
+|**2026-06-11**|**An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics**|cs.RO, cs.AI|[2606.12936v1](http://arxiv.org/abs/2606.12936v1)|null|
 |**2026-06-10**|**Surveying GenAI-based Automation in Printed Circuit Board Design and Test**|cs.AR, cs.AI|[2606.17074v1](http://arxiv.org/abs/2606.17074v1)|null|
 |**2026-06-10**|**Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay**|cs.CL|[2606.11786v1](http://arxiv.org/abs/2606.11786v1)|null|
 |**2026-06-09**|**Schützen: Evaluating LLM Safety in Bulgarian and German Contexts**|cs.CL|[2606.11316v1](http://arxiv.org/abs/2606.11316v1)|**[code](https://github.com/xnlp-lab/Schutzen)**|
