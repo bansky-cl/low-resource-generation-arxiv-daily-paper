@@ -8545,24 +8545,24 @@
     },
     "2607.06327": {
       "id": "2607.06327",
-      "version": "2607.06327v1",
+      "version": "2607.06327v2",
       "title": "Estimating Uncertainty from Reasoning: A Large-Scale Study of Multi- and Crosslingual MCQA Performance in LLMs",
       "authors": [
-        "Andrea Alfarano",
         "Andrea Bacciu",
+        "Andrea Alfarano",
         "Saab Mansour",
         "Amin Mantrach",
         "Marcello Federico"
       ],
       "published": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-10",
       "categories": [
         "cs.CL",
         "cs.AI"
       ],
       "abstract": "Uncertainty estimation (UE) enables LLM-powered systems to recognize when to abstain, yet existing research has predominantly focused on English. We present the first large-scale evaluation of UE methods across 22 languages, spanning high-, mid-, and low-resource settings. Using two human-curated Q\\&A datasets, we compare open and closed box UE methods (nine in total) across different model sizes and architectures while eliciting long-form reasoning, avoiding LLM-as-a-judge and embedding-based scoring, which can introduce evaluation noise. We report three main actionable findings. First, we find that prompting models to reason in English while keeping questions in low-resource languages substantially improves UE performance, suggesting that comprehension of low-resource languages is largely intact, and that the reliability bottleneck lies in generation rather than understanding. Second, prompting models to reason in English closes the UE performance gap between low and high-resource languages, demonstrating that generation language matters more than the question language. Third, the choice of UE method should depend on model scale: at smaller scales, open-box probability-based methods outperform alternatives; at larger scales, closed-box self-verbalized uncertainty becomes superior. Finally, we provide an analysis of threshold selection for selective prediction, offering guidance on calibrating abstention in multilingual settings.",
-      "abs_url": "http://arxiv.org/abs/2607.06327v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06327v1",
+      "abs_url": "http://arxiv.org/abs/2607.06327v2",
+      "pdf_url": "https://arxiv.org/pdf/2607.06327v2",
       "code_url": null
     },
     "2607.05992": {
@@ -8744,6 +8744,27 @@
       "abstract": "Reinforcement learning (RL) research has increasingly shifted focus towards alignment, ensuring agents learn behaviors adhering to human values. While human demonstrations and feedback have proven crucial for alignment, existing approaches predominantly combine these signals using multi-stage pipelines designed for the contextual bandit framing of language generation. Yet little work explores how these complementary inputs can serve as a richer, interconnected signal for single-stage offline training in fully sequential decision-making environments. We propose Feedback Manipulation Regularization (FMR), an algorithm-agnostic method that harnesses evaluative feedback as a corrective signal to improve the alignment of imitation learning policies. We adapt Safety Gymnasium environments to be a principled testbed for alignment evaluation, demonstrating improved aptitude and up to a 98\\% reduction in misalignment across a range of imitation learning algorithms. FMR remains robust in limited data regimes, even when learning from scarce aligned and uninformative noisy demonstrations.",
       "abs_url": "http://arxiv.org/abs/2607.07859v1",
       "pdf_url": "https://arxiv.org/pdf/2607.07859v1",
+      "code_url": null
+    },
+    "2607.09113": {
+      "id": "2607.09113",
+      "version": "2607.09113v1",
+      "title": "Quantum-Enhanced Synthetic Data Generation Using Quantum Circuit Born Machines for Imbalanced Tabular Learning",
+      "authors": [
+        "Tanapol Nuatho",
+        "Narisorn Sangnakara",
+        "Prapong Prechaprapranwong",
+        "Rajchawit Sarochawikasit"
+      ],
+      "published": "2026-07-10",
+      "updated": "2026-07-10",
+      "categories": [
+        "quant-ph",
+        "cs.LG"
+      ],
+      "abstract": "Data scarcity and class imbalance are persistent challenges in machine learning that degrade model generalization and introduce predictive bias. We present a hybrid quantum-classical framework for synthetic data generation using a Quantum Circuit Born Machine (QCBM) to address these limitations. The proposed approach exploits quantum mechanical properties -- superposition and entanglement -- within a parameterized variational quantum circuit to model complex probability distributions that are difficult for classical generative methods to capture. Experiments are conducted on two tabular benchmark datasets: the Iris dataset and the Telco Customer Churn dataset. Preprocessing includes normalization and PCA-based dimensionality reduction to enable efficient basis encoding for quantum circuits. The QCBM is trained by minimizing Kullback-Leibler (KL) divergence between real and generated data distributions using a gradient-based parameter-shift optimization rule. Augmenting training data with QCBM-generated synthetic samples at 40-50% of the minority class improves F1-score by approximately 5-15% and minority-class recall by 10-25%. Cross-domain evaluations (Train on Synthetic, Test on Real; and Train on Real, Test on Synthetic) reveal a performance gap of only 3-10%, indicating strong distributional fidelity. Comparative analysis against classical oversampling methods -- SMOTE, Borderline-SMOTE, KMeansSMOTE, and SVM-SMOTE -- shows that QCBM achieves competitive classification performance and produces lower Maximum Mean Discrepancy (MMD) on the Telco dataset, suggesting superior structural similarity in certain imbalanced settings. These findings establish QCBM as a viable complementary tool for data augmentation, particularly for low-dimensional structured tabular data with class imbalance.",
+      "abs_url": "http://arxiv.org/abs/2607.09113v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09113v1",
       "code_url": null
     }
   }
