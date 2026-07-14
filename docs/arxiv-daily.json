@@ -7372,13 +7372,15 @@
     },
     "2606.12936": {
       "id": "2606.12936",
-      "version": "2606.12936v1",
-      "title": "An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
+      "version": "2606.12936v2",
+      "title": "Pipette: An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
       "authors": [
         "Zhe Liu",
         "Huanbo Jin",
         "Zhaohui Du",
         "Zhe Wang",
+        "Dongzhan Zhou",
+        "Minting Pan",
         "He Xu",
         "Peijia Li",
         "Jiaming Gu",
@@ -7388,14 +7390,14 @@
         "Ting Xiao"
       ],
       "published": "2026-06-11",
-      "updated": "2026-06-11",
+      "updated": "2026-07-13",
       "categories": [
         "cs.RO",
         "cs.AI"
       ],
-      "abstract": "Wet-lab robots can improve the reproducibility, throughput, and safety of biomedical experiments, but scaling their learning requires customizable simulators for safe and reproducible task generation, open editable laboratory assets, and efficient pipelines that turn limited demonstrations into usable training data. We present Pipette, an embodied simulation platform, benchmark, and data-efficient augmentation framework for wet-lab robot learning. Pipette releases over 43 open-source and re-editable wet-lab assets, together with an extensible asset-building pipeline. A key component of Pipette is its simulation-based data augmentation pipeline, replaying human demonstrations in simulation, applies lighting, camera, speed, and action perturbations, and filters generated episodes with automatic task success checks, rapidly expanding usable training data from limited manual demonstrations. We further introduce an 11-task wet-lab embodied benchmark covering sample handling, culture-ware manipulation, device operation, and precision placement. With only 30 demonstrations per task, ACT achieves 65.5% average success rate, while simulation augmentation improves SmolVLA from 44.1% to 74.7% and π0 from 40.4% to 46.5%, validating the effectiveness of Pipette for data-efficient VLA training and evaluation. Pipette also supports natural-language-driven scene construction and task registration, lowering the barrier for non-expert users to define new wet-lab robotic tasks.",
-      "abs_url": "http://arxiv.org/abs/2606.12936v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12936v1",
+      "abstract": "Wet-lab robots can improve the reproducibility, throughput, and safety of biomedical experiments, but scaling their learning requires customizable simulators for safe and reproducible task generation, open editable laboratory assets, and efficient pipelines that turn limited demonstrations into usable training data. We present Pipette, an embodied simulation platform, benchmark, and data-efficient augmentation framework for wet-lab robot learning. Pipette provides over 100 open-source and re-editable wet-lab assets through an extensible asset-building pipeline with built-in Tencent Hunyuan support for text- and image-conditioned 3D asset generation, and supports three robotic-arm embodiments through a unified simulation interface for task construction, data collection, augmentation, and evaluation. A key component of Pipette is its simulation-based data augmentation pipeline, which replays human demonstrations in simulation, applies lighting, camera, speed, and action perturbations, and filters generated episodes with automatic task success checks, rapidly expanding usable training data from limited manual demonstrations. We further introduce a 12-task wet-lab embodied benchmark covering sample handling, culture-ware manipulation, device operation, and precision placement. With only 30 demonstrations per task, ACT achieves 60.3% average success rate, while simulation augmentation improves SmolVLA from 40.4% to 71.8% and π0 from 37.3% to 44.1%, validating the effectiveness of Pipette for data-efficient VLA training and evaluation. Pipette also supports natural-language-driven scene construction and task registration, lowering the barrier for non-expert users to define new wet-lab robotic tasks",
+      "abs_url": "http://arxiv.org/abs/2606.12936v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.12936v2",
       "code_url": null
     },
     "2606.15412": {
@@ -8765,6 +8767,92 @@
       "abstract": "Data scarcity and class imbalance are persistent challenges in machine learning that degrade model generalization and introduce predictive bias. We present a hybrid quantum-classical framework for synthetic data generation using a Quantum Circuit Born Machine (QCBM) to address these limitations. The proposed approach exploits quantum mechanical properties -- superposition and entanglement -- within a parameterized variational quantum circuit to model complex probability distributions that are difficult for classical generative methods to capture. Experiments are conducted on two tabular benchmark datasets: the Iris dataset and the Telco Customer Churn dataset. Preprocessing includes normalization and PCA-based dimensionality reduction to enable efficient basis encoding for quantum circuits. The QCBM is trained by minimizing Kullback-Leibler (KL) divergence between real and generated data distributions using a gradient-based parameter-shift optimization rule. Augmenting training data with QCBM-generated synthetic samples at 40-50% of the minority class improves F1-score by approximately 5-15% and minority-class recall by 10-25%. Cross-domain evaluations (Train on Synthetic, Test on Real; and Train on Real, Test on Synthetic) reveal a performance gap of only 3-10%, indicating strong distributional fidelity. Comparative analysis against classical oversampling methods -- SMOTE, Borderline-SMOTE, KMeansSMOTE, and SVM-SMOTE -- shows that QCBM achieves competitive classification performance and produces lower Maximum Mean Discrepancy (MMD) on the Telco dataset, suggesting superior structural similarity in certain imbalanced settings. These findings establish QCBM as a viable complementary tool for data augmentation, particularly for low-dimensional structured tabular data with class imbalance.",
       "abs_url": "http://arxiv.org/abs/2607.09113v1",
       "pdf_url": "https://arxiv.org/pdf/2607.09113v1",
+      "code_url": null
+    },
+    "2607.11434": {
+      "id": "2607.11434",
+      "version": "2607.11434v1",
+      "title": "Direct Image-to-Modern Vietnamese Translation of Han-Nom Manuscripts via Multimodal RLHF Preference Alignment",
+      "authors": [
+        "Thi Kim Trang Vo",
+        "Nghia Hieu Nguyen",
+        "Ha Minh Tan"
+      ],
+      "published": "2026-07-13",
+      "updated": "2026-07-13",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "Translating Han-Nom manuscripts into modern Vietnamese is challenging because historical pages are often degraded, the script contains rare logographic characters, and parallel supervision is limited. We propose a multimodal RLHF preference-alignment framework that conditions Vietnamese generation on manuscript images and aligned Han-Nom source text. The model combines four streams: CLIP ViT-L/14@336 for visual features, bert-base-chinese for Han-Nom representations, vinai/phobert-base for Vietnamese representations, and T5-small encoder states. Modality-specific projections and a fusion block compress the resulting 2,048-dimensional concatenation into a shared 512-dimensional representation. Starting from the same supervised fine-tuned policy, we compare PPO, DPO, and KTO under matched work-level macro-averaged evaluation. DPO achieves the best BLEU-4, ROUGE-L, BERTScore, semantic similarity, CER, WER, and token accuracy, whereas PPO obtains the highest precision, recall, and F1. KTO remains competitive through its desirable-undesirable utility objective. All preference-aligned policies improve the BLEU-4 and semantic-similarity scores available for the SFT baseline. These results indicate that multimodal preference optimization complements supervised learning by improving lexical and semantic quality in low-resource historical translation.",
+      "abs_url": "http://arxiv.org/abs/2607.11434v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.11434v1",
+      "code_url": null
+    },
+    "2607.10112": {
+      "id": "2607.10112",
+      "version": "2607.10112v1",
+      "title": "Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety",
+      "authors": [
+        "Chigozirim Ifebi",
+        "Brent Kong",
+        "Ayushi Mehrotra"
+      ],
+      "published": "2026-07-11",
+      "updated": "2026-07-11",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Safety alignment in large language models remains brittle across languages: prompts reliably refused in English can elicit harmful compliance in non-English and low-resource settings. We introduce \\textsc{Minionese}, a multilingual jailbreak benchmark spanning 18 languages, 4 resource tiers, and 4 perturbation types (standard translation, code-switching, transliteration, and translationese), paired with a geometric mechanistic analysis of refusal failure across language tiers. We show that each attack type produces a distinct vulnerability profile: transliteration vulnerability is mediated by script identity, code-switching maintains effectiveness through the lowest-resource tier, and a sharp safety regime transition between Tiers 2 and 3 is consistent across all models. Mechanistically, low-resource jailbreaks succeed by routing harmful content through a geometrically misaligned subspace that projects insufficiently onto the refusal directions, leaving the refusal mechanism intact but untriggered. These findings show that English-only safety evaluations are insufficient; they require accounting for script family, perturbation type, and per-language alignment coverage. The benchmark and analysis code is at https://github.com/Brentkong/Minionese-Comprehensive-Benchmark-and-Mechanistic-Study-of-Multilingual-LLM-Safety.git.",
+      "abs_url": "http://arxiv.org/abs/2607.10112v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.10112v1",
+      "code_url": "https://github.com/Brentkong/Minionese-Comprehensive-Benchmark-and-Mechanistic-Study-of-Multilingual-LLM-Safety.git"
+    },
+    "2607.09885": {
+      "id": "2607.09885",
+      "version": "2607.09885v1",
+      "title": "Index SLM Technical Report",
+      "authors": [
+        "Lusheng Zhang",
+        "Shien He",
+        "Tianxing Yan",
+        "Mengran Yu",
+        "Ziang Cui",
+        "Kai Zhao",
+        "Xiaojing Liu",
+        "Tianjiao Li"
+      ],
+      "published": "2026-07-10",
+      "updated": "2026-07-10",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "We present Index-1.9B, a series of open small language models developed at Bilibili. The series comprises four models: Index-1.9B-Base, a foundation model with 1.9 billion non-embedding parameters pre-trained on 2.8 trillion predominantly Chinese and English tokens; Index-1.9B-Pure, a control variant trained with an identical recipe but with all instruction-like data strictly filtered from the corpus; Index-1.9B-Chat, aligned from the base model with supervised fine-tuning and direct preference optimization; and Index-1.9B-Character, which augments the chat model with retrieval-augmented generation for few-shot role-playing customization. Pre-training employs a Warmup-Stable-Decay learning-rate schedule in which the concentration of curated data is raised substantially during the decay phase, together with a Norm-Head output layer that stabilizes training under large learning rates. On a suite of standard benchmarks covering examination, reasoning, mathematics, and code, Index-1.9B-Base attains an average score of 64.92, competitive with or exceeding open models of several times its size. We further report controlled studies on model depth, learning-rate magnitude and scheduling, the interaction between learning-rate decay and data quality, and the effect of including instruction data during pre-training, and we document an unexplained surge in benchmark performance midway through the constant-learning-rate phase. All models, together with evaluation code, are released at https://github.com/bilibili/Index-1.9B.",
+      "abs_url": "http://arxiv.org/abs/2607.09885v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09885v1",
+      "code_url": "https://github.com/bilibili/Index-1.9B"
+    },
+    "2607.10810": {
+      "id": "2607.10810",
+      "version": "2607.10810v1",
+      "title": "Diachronic Sample Integration: Robust Tail-Risk Estimation with Generative Models",
+      "authors": [
+        "Shuning Zhao",
+        "Patrick Wong",
+        "Leran Zhang",
+        "Xiaolin Hu"
+      ],
+      "published": "2026-07-12",
+      "updated": "2026-07-12",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "q-fin.RM"
+      ],
+      "abstract": "Deep generative models are increasingly used as simulators for downstream decision-making under data scarcity, but in risk-sensitive applications their usefulness depends on rare adverse scenarios rather than typical samples. Standard generative objectives prioritize bulk distributional fidelity, leaving low-probability tails vulnerable to localized optimization noise and making tail-dependent functionals unstable under finite simulation budgets. We introduce Diachronic Sample Integration (DSI), a test-time inference framework that ensembles generated samples across checkpoints from a stochastic training trajectory. DSI targets a checkpoint-mixture distribution that averages checkpoint-specific tail fluctuations rather than relying on a single brittle endpoint. We formalize this mechanism through a finite-budget bias-variance theory. Empirically, across multivariate synthetic processes and high-frequency trading data, DSI substantially reduces tail-estimation error compared to single-checkpoint baselines under fixed simulation budgets, outperforming standard diffusion and state-of-the-art tail-aware baselines without modifying the generative objective.",
+      "abs_url": "http://arxiv.org/abs/2607.10810v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.10810v1",
       "code_url": null
     }
   }

@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **402**
-- Recent 30 days: **60**
+- Total papers in JSON: **406**
+- Recent 30 days: **64**
 - Older than 30 days: **342**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,10 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-13**|**Direct Image-to-Modern Vietnamese Translation of Han-Nom Manuscripts via Multimodal RLHF Preference Alignment**|cs.CL, cs.CV|[2607.11434v1](http://arxiv.org/abs/2607.11434v1)|null|
+|**2026-07-12**|**Diachronic Sample Integration: Robust Tail-Risk Estimation with Generative Models**|cs.LG, cs.AI, q-fin.RM|[2607.10810v1](http://arxiv.org/abs/2607.10810v1)|null|
+|**2026-07-11**|**Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety**|cs.CR, cs.AI|[2607.10112v1](http://arxiv.org/abs/2607.10112v1)|**[code](https://github.com/Brentkong/Minionese-Comprehensive-Benchmark-and-Mechanistic-Study-of-Multilingual-LLM-Safety.git)**|
+|**2026-07-10**|**Index SLM Technical Report**|cs.CL|[2607.09885v1](http://arxiv.org/abs/2607.09885v1)|**[code](https://github.com/bilibili/Index-1.9B)**|
 |**2026-07-10**|**Quantum-Enhanced Synthetic Data Generation Using Quantum Circuit Born Machines for Imbalanced Tabular Learning**|quant-ph, cs.LG|[2607.09113v1](http://arxiv.org/abs/2607.09113v1)|null|
 |**2026-07-09**|**MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction**|cs.CL|[2607.08080v1](http://arxiv.org/abs/2607.08080v1)|**[code](https://github.com/Hankerlove/MASTE)**|
 |**2026-07-08**|**Feedback Manipulation Regularization: Enabling Offline Agent Alignment for Imitation Learning**|cs.AI, cs.HC, cs.LG|[2607.07859v1](http://arxiv.org/abs/2607.07859v1)|null|
@@ -92,7 +96,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-13**|**Towards a Unified Generative Model for Scarce Time Series with Domain Experts**|cs.LG|[2606.15172v1](http://arxiv.org/abs/2606.15172v1)|null|
 |**2026-06-12**|**Combining Retrieval-Augmented Text Generation with LLMs for Reading Content Recommendations**|cs.IR, cs.AI|[2606.14817v1](http://arxiv.org/abs/2606.14817v1)|null|
 |**2026-06-11**|**SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation**|cs.CL, cs.AI, cs.LG|[2606.13647v1](http://arxiv.org/abs/2606.13647v1)|null|
-|**2026-06-11**|**An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics**|cs.RO, cs.AI|[2606.12936v1](http://arxiv.org/abs/2606.12936v1)|null|
+|**2026-06-11**|**Pipette: An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics**|cs.RO, cs.AI|[2606.12936v2](http://arxiv.org/abs/2606.12936v2)|null|
 |**2026-06-10**|**Surveying GenAI-based Automation in Printed Circuit Board Design and Test**|cs.AR, cs.AI|[2606.17074v1](http://arxiv.org/abs/2606.17074v1)|null|
 |**2026-06-10**|**Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay**|cs.CL|[2606.11786v1](http://arxiv.org/abs/2606.11786v1)|null|
 |**2026-06-09**|**Schützen: Evaluating LLM Safety in Bulgarian and German Contexts**|cs.CL|[2606.11316v1](http://arxiv.org/abs/2606.11316v1)|**[code](https://github.com/xnlp-lab/Schutzen)**|
@@ -223,12 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-12**|**Towards Visually-Guided Movie Subtitle Translation for Indic Languages**|cs.CL|[2605.11993v1](http://arxiv.org/abs/2605.11993v1)|null|
 |**2026-05-11**|**Neural at ArchEHR-QA 2026: One Method Fits All: Unified Prompt Optimization for Clinical QA over EHRs**|cs.CL, cs.IR|[2605.10877v1](http://arxiv.org/abs/2605.10877v1)|null|
 |**2026-05-11**|**An Annotation Scheme and Classifier for Personal Facts in Dialogue**|cs.CL|[2605.10339v1](http://arxiv.org/abs/2605.10339v1)|null|
-|**2026-05-11**|**Active Tabular Augmentation via Policy-Guided Diffusion Inpainting**|cs.LG, cs.AI|[2605.10315v1](http://arxiv.org/abs/2605.10315v1)|null|
-|**2026-05-11**|**Medical Incident Causal Factors and Preventive Measures Generation Using Tag-based Example Selection in Few-shot Learning**|cs.CL, cs.AI|[2605.10025v1](http://arxiv.org/abs/2605.10025v1)|null|
-|**2026-05-10**|**Crosslingual On-Policy Self-Distillation for Multilingual Reasoning**|cs.CL|[2605.09548v1](http://arxiv.org/abs/2605.09548v1)|**[code](https://github.com/cisnlp/COPSD)**|
-|**2026-05-09**|**Lost in Translation? Exploring the Shift in Grammatical Gender from Latin to Occitan**|cs.CL, cs.AI|[2605.09156v2](http://arxiv.org/abs/2605.09156v2)|**[code](https://github.com/ahan-2000/Lost-in-Translation-)**|
 
-README omitted **202** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **206** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
