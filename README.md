@@ -7,21 +7,25 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.14
+## Updated on 2026.07.15
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **406**
-- Recent 30 days: **64**
-- Older than 30 days: **342**
+- Total papers in JSON: **410**
+- Recent 30 days: **66**
+- Older than 30 days: **344**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-14**|**The Geometry of Memorization: Finite-Time Spectral Sensitivity as a Diagnostic for Flow Matching Models**|cs.LG|[2607.12616v1](http://arxiv.org/abs/2607.12616v1)|null|
+|**2026-07-14**|**Translation as a Computationally Efficient Bridge: Feasibility of English BERT for Low-Resource Languages**|cs.CL|[2607.12612v1](http://arxiv.org/abs/2607.12612v1)|null|
+|**2026-07-14**|**Sample Efficient Generative Optimization for Molecular Design**|cs.LG|[2607.12488v1](http://arxiv.org/abs/2607.12488v1)|null|
+|**2026-07-14**|**SinAE: A Single-Architecture Flow-Matching Autoencoder for Cross-Domain Atomic Systems**|cs.LG|[2607.12380v1](http://arxiv.org/abs/2607.12380v1)|**[code](https://github.com/BlueWhaleLab/SinAE)**|
 |**2026-07-13**|**Direct Image-to-Modern Vietnamese Translation of Han-Nom Manuscripts via Multimodal RLHF Preference Alignment**|cs.CL, cs.CV|[2607.11434v1](http://arxiv.org/abs/2607.11434v1)|null|
 |**2026-07-12**|**Diachronic Sample Integration: Robust Tail-Risk Estimation with Generative Models**|cs.LG, cs.AI, q-fin.RM|[2607.10810v1](http://arxiv.org/abs/2607.10810v1)|null|
 |**2026-07-11**|**Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety**|cs.CR, cs.AI|[2607.10112v1](http://arxiv.org/abs/2607.10112v1)|**[code](https://github.com/Brentkong/Minionese-Comprehensive-Benchmark-and-Mechanistic-Study-of-Multilingual-LLM-Safety.git)**|
@@ -84,13 +88,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-16**|**When English Isn't the Best Teacher: Source Language Effects in Cross-Lingual In-Context Learning**|cs.CL, cs.AI|[2606.18033v1](http://arxiv.org/abs/2606.18033v1)|null|
 |**2026-06-15**|**MindAlign: Decoding Inner Speech from fMRI Signals via Multimodal Embedding Alignment under Limited Data**|cs.CL, cs.AI, eess.AS|[2606.20696v1](http://arxiv.org/abs/2606.20696v1)|null|
 |**2026-06-15**|**Diffusion Offline Reinforcement Learning for Fair and Energy-Efficient UAV-Assisted Wireless Networks**|cs.LG|[2606.16331v1](http://arxiv.org/abs/2606.16331v1)|null|
-|**2026-06-14**|**CIWI-CKT: Chaos-Informed Wave Interference Feature Fusion and Cross-City Knowledge Transfer for Traffic Flow Forecasting**|cs.LG, cs.AI|[2606.15642v1](http://arxiv.org/abs/2606.15642v1)|null|
-|**2026-06-14**|**HAPI-EP: Towards Hybrid, Adaptive, and Predictive Digital Twins of Cardiac Electrophysiology**|cs.LG|[2606.15637v1](http://arxiv.org/abs/2606.15637v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-14**|**CIWI-CKT: Chaos-Informed Wave Interference Feature Fusion and Cross-City Knowledge Transfer for Traffic Flow Forecasting**|cs.LG, cs.AI|[2606.15642v1](http://arxiv.org/abs/2606.15642v1)|null|
+|**2026-06-14**|**HAPI-EP: Towards Hybrid, Adaptive, and Predictive Digital Twins of Cardiac Electrophysiology**|cs.LG|[2606.15637v1](http://arxiv.org/abs/2606.15637v1)|null|
 |**2026-06-13**|**PHINN: Persistent Homology Inspired Neural Network for Rare-Event Time Series Generation**|cs.LG, math.AT, q-fin.RM, stat.ML|[2606.15452v1](http://arxiv.org/abs/2606.15452v1)|null|
 |**2026-06-13**|**Few-Shot Biomedical Relation Extraction with Large Language Models: A Viable Alternative to Supervised Learning?**|cs.CL, cs.AI|[2606.15412v1](http://arxiv.org/abs/2606.15412v1)|null|
 |**2026-06-13**|**Towards a Unified Generative Model for Scarce Time Series with Domain Experts**|cs.LG|[2606.15172v1](http://arxiv.org/abs/2606.15172v1)|null|
@@ -163,7 +167,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-27**|**PrionNER: A Named Entity Recognition Dataset for Prion Disease Biomedical Literature**|cs.CL|[2605.28375v1](http://arxiv.org/abs/2605.28375v1)|**[code](https://github.com/daotuanan/PrionNER/)**|
 |**2026-05-27**|**PubMedCausal: A Span-Level Annotated Corpus for Causal Relation Extraction in Biomedical Text**|cs.CL|[2605.28363v1](http://arxiv.org/abs/2605.28363v1)|**[code](https://github.com/josiahpaul07/PubMedCausal_Exp)**|
 |**2026-05-27**|**Explaining is Harder Than Predicting Alone: Evaluating Concept-based Explanations of MLLMs as ICL Visual Classifiers**|cs.AI, cs.CL, cs.LG, cs.LO, cs.MA|[2605.28215v1](http://arxiv.org/abs/2605.28215v1)|null|
-|**2026-05-27**|**Hierarchical Synthetic Tabular Data Generation: A Hybrid Top-Down and Bottom-Up Framework**|cs.LG|[2605.28198v1](http://arxiv.org/abs/2605.28198v1)|null|
+|**2026-05-27**|**Hierarchical Synthetic Tabular Data Generation: A Hybrid Top-Down and Bottom-Up Framework**|cs.LG|[2605.28198v2](http://arxiv.org/abs/2605.28198v2)|null|
 |**2026-05-27**|**The Fragility of Chain-of-Thought Monitoring Across Typologically Diverse Languages**|cs.CL, cs.AI|[2605.27901v1](http://arxiv.org/abs/2605.27901v1)|**[code](https://multilingual-cot-monitoring.github.io/)**|
 |**2026-05-26**|**TriHead-GAN: A Generative Adversarial Network with Triple-Head Discriminator for Carbon Emission Time Series Generation**|cs.LG|[2606.07569v1](http://arxiv.org/abs/2606.07569v1)|null|
 |**2026-05-26**|**Reading or Guessing? Visual Grounding Failures of Vision-Language Models for OCR in Ancient Greek Editions**|cs.CL, cs.AI, cs.CV, cs.DL|[2605.27750v1](http://arxiv.org/abs/2605.27750v1)|null|
@@ -223,12 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-12**|**DocAtlas: Multilingual Document Understanding Across 80+ Languages**|cs.CL, cs.CV, cs.LG|[2605.12623v2](http://arxiv.org/abs/2605.12623v2)|**[code](https://github.com/ahmedheakl/DocAtlas)**|
 |**2026-05-12**|**Predicting Decisions of AI Agents from Limited Interaction through Text-Tabular Modeling**|cs.LG, cs.AI, cs.CL, cs.MA|[2605.12411v1](http://arxiv.org/abs/2605.12411v1)|null|
 |**2026-05-12**|**Executable Agentic Memory for GUI Agent**|cs.AI|[2605.12294v1](http://arxiv.org/abs/2605.12294v1)|null|
-|**2026-05-12**|**Sign Language Recognition and Translation for Low-Resource Languages: Challenges and Pathways Forward**|cs.CL|[2605.12096v1](http://arxiv.org/abs/2605.12096v1)|null|
-|**2026-05-12**|**Towards Visually-Guided Movie Subtitle Translation for Indic Languages**|cs.CL|[2605.11993v1](http://arxiv.org/abs/2605.11993v1)|null|
-|**2026-05-11**|**Neural at ArchEHR-QA 2026: One Method Fits All: Unified Prompt Optimization for Clinical QA over EHRs**|cs.CL, cs.IR|[2605.10877v1](http://arxiv.org/abs/2605.10877v1)|null|
-|**2026-05-11**|**An Annotation Scheme and Classifier for Personal Facts in Dialogue**|cs.CL|[2605.10339v1](http://arxiv.org/abs/2605.10339v1)|null|
 
-README omitted **206** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **210** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

@@ -5170,7 +5170,7 @@
     },
     "2605.28198": {
       "id": "2605.28198",
-      "version": "2605.28198v1",
+      "version": "2605.28198v2",
       "title": "Hierarchical Synthetic Tabular Data Generation: A Hybrid Top-Down and Bottom-Up Framework",
       "authors": [
         "Junfeng Nie",
@@ -5178,13 +5178,13 @@
         "Xiaohui Chen"
       ],
       "published": "2026-05-27",
-      "updated": "2026-05-27",
+      "updated": "2026-07-13",
       "categories": [
         "cs.LG"
       ],
       "abstract": "Existing approaches for synthetic tabular data generation are based on either purely generative models or LLMs, both of which struggle with data heterogeneity, logical consistency, rare-event coverage, and robustness in low-data regimes. In this paper, we propose a hierarchical hybrid top-down and bottom-up (H-TDBU) framework that decouples semantic structures from stochastic texture. In the top-down path, structure-driven logical constraints and cross-modal alignment rules are constructed, while in the bottom-up path, lightweight tabular generators are used to learn local statistical patterns from real data. The two paths are consolidated in a unified synthesis engine with an iterative feedback loop. We evaluate the framework on weak multimodal financial benchmarks combining tabular and sentiment-text data. Experimental results show that our H-TDBU approach improves train-synthetic-test-real performance over neural baseline methods while preserving semantic consistency. Our results suggest that hierarchical rule-guided synthesis provides an effective mechanism for combining controllability, semantic coherence, and statistical fidelity in synthetic data generation.",
-      "abs_url": "http://arxiv.org/abs/2605.28198v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.28198v1",
+      "abs_url": "http://arxiv.org/abs/2605.28198v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.28198v2",
       "code_url": null
     },
     "2605.26835": {
@@ -8854,6 +8854,82 @@
       "abs_url": "http://arxiv.org/abs/2607.10810v1",
       "pdf_url": "https://arxiv.org/pdf/2607.10810v1",
       "code_url": null
+    },
+    "2607.12612": {
+      "id": "2607.12612",
+      "version": "2607.12612v1",
+      "title": "Translation as a Computationally Efficient Bridge: Feasibility of English BERT for Low-Resource Languages",
+      "authors": [
+        "Hielke Muizelaar",
+        "Giulia Rivetti",
+        "Marco Spruit",
+        "Marcel Haas"
+      ],
+      "published": "2026-07-14",
+      "updated": "2026-07-14",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "BERT models have revolutionised Natural Language Processing (NLP) through their ability to process unstructured text across diverse domains. However, developing high-quality BERT models for non-English languages remains challenging due to limited annotated data and high computational demands. Translating non-English data into English and fine-tuning existing English BERT models offers a resource-efficient alternative, yet few studies have structurally compared translation-based fine-tuning with native-language BERT performance across tasks and languages. This study provides such a comparison, evaluating the feasibility of translation-based fine-tuning across six NLP tasks: Sentiment Analysis, Hate Speech Detection, Question Answering, Named Entity Recognition, Part-of-Speech Tagging, and Natural Language Inference, using datasets translated from Bulgarian, Chinese, Dutch, Italian, and Russian. Across all settings, the translation-based approach was comparable or superior in 53.3 percent of cases. Gains were most frequent in Question Answering, Part-of-Speech Tagging, and Natural Language Inference, while performance declines were common in Named Entity Recognition and Hate Speech Detection. The results show that translation-based fine-tuning is most effective for tasks relying on syntactic or structural patterns and for languages typologically close to English, such as Dutch, but less effective for token-level or culturally nuanced tasks, particularly in Chinese. Overall, this study demonstrates that translation-based fine-tuning offers a scalable, resource-efficient, and empirically validated path for extending NLP to low-resource languages while advancing linguistic inclusivity and sustainability in artificial intelligence.",
+      "abs_url": "http://arxiv.org/abs/2607.12612v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12612v1",
+      "code_url": null
+    },
+    "2607.12488": {
+      "id": "2607.12488",
+      "version": "2607.12488v1",
+      "title": "Sample Efficient Generative Optimization for Molecular Design",
+      "authors": [
+        "Sarina Kopf",
+        "Cristina Nevado",
+        "Philippe Schwaller"
+      ],
+      "published": "2026-07-14",
+      "updated": "2026-07-14",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Molecular optimization in drug discovery, materials design, and catalysis requires searching vast chemical spaces under tight evaluation budgets, since high-fidelity oracles and experimental measurements are costly. The practical impact of an optimization method therefore hinges on its sample efficiency: how few evaluations it needs to find strong candidates. We introduce Sample Efficient Generative Optimization (SEGO), a framework for Bayesian optimization on adaptively generated molecules. In SEGO, a probabilistic surrogate model forms a hypothesis about where hits lie in chemical space, a generative model is steered to propose candidates in that region, the most promising candidate is selected via an acquisition function, and the resulting oracle call is used both to sharpen the surrogate and to anchor the generator in real reward. SEGO attains state-of-the-art performance on the practical molecular optimization (PMO) benchmark using only one tenth of the oracle calls consumed by other methods, and on a multiparameter docking task it reaches ten hits in roughly half the oracle calls of existing approaches. These gains move molecular optimization closer to campaigns driven by direct experimental feedback.",
+      "abs_url": "http://arxiv.org/abs/2607.12488v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12488v1",
+      "code_url": null
+    },
+    "2607.12616": {
+      "id": "2607.12616",
+      "version": "2607.12616v1",
+      "title": "The Geometry of Memorization: Finite-Time Spectral Sensitivity as a Diagnostic for Flow Matching Models",
+      "authors": [
+        "Shuchan Wang"
+      ],
+      "published": "2026-07-14",
+      "updated": "2026-07-14",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Continuous-time generative frameworks construct probability paths between base and target domains by optimizing time-dependent velocity fields. While theoretical targets favor straight trajectories, empirical networks develop complex path deformations. This paper presents the Finite-Time Spectral Sensitivity (FTSS) g(t), a gradient-free, forward-pass metric that exposes flow geometry by tracking the root-mean-square singular value of the state-transition matrix. Serving as a continuous proxy for stable rank, g(t) reveals a distinct geometric pathology under data scarcity: while generalizing models maintain stable effective dimensions, overfitting causes a spectral collapse. We leverage this structural phenomenon to develop an internal geometric audit based on g(t). Our framework detects generative memorization using purely internal trajectory dynamics, removing the need for external membership queries or baseline data comparison.",
+      "abs_url": "http://arxiv.org/abs/2607.12616v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12616v1",
+      "code_url": null
+    },
+    "2607.12380": {
+      "id": "2607.12380",
+      "version": "2607.12380v1",
+      "title": "SinAE: A Single-Architecture Flow-Matching Autoencoder for Cross-Domain Atomic Systems",
+      "authors": [
+        "Yuxuan Ren",
+        "Fan Yang",
+        "Jianhua Yao",
+        "Yatao Bian"
+      ],
+      "published": "2026-07-14",
+      "updated": "2026-07-14",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Small molecules, crystals, and proteins all reduce to atoms in 3D space, yet their generative pipelines remain fragmented across domains, each with its Small molecules, crystals, and proteins all reduce to atoms in 3D space, yet their generative pipelines remain fragmented across domains, each with its own graph, equivariant, or frame-based architecture. Cross-domain training would mitigate per-domain data scarcity, but direct generation in 3D coordinate space cannot easily handle the heterogeneous structural priors of all three domains, and no prior latent autoencoder is simultaneously lossless and architecturally general across all three. We introduce SinAE, a single-architecture flow-matching autoencoder for molecules, crystals, and proteins, with vanilla Transformer encoder and decoder and no equivariant, graph, or domain-specific operators. Rather than requiring the encoder to capture fine-grained geometry, SinAE shifts the reconstruction burden into an iterative flow-matching decoder, achieving near-lossless reconstruction across domains and reducing reconstruction errors by orders of magnitude relative to prior latent baselines. The same per-token latent supports a standard Diffusion Transformer prior that reaches strong performance on molecular, crystal, and protein generation benchmarks. Joint molecule--crystal training strictly improves both domains, providing direct evidence of cross-domain transfer through a shared atomic latent. Code is available at https://github.com/BlueWhaleLab/SinAE .",
+      "abs_url": "http://arxiv.org/abs/2607.12380v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12380v1",
+      "code_url": "https://github.com/BlueWhaleLab/SinAE"
     }
   }
 }
