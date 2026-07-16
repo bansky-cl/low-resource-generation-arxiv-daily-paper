@@ -8930,6 +8930,23 @@
       "abs_url": "http://arxiv.org/abs/2607.12380v1",
       "pdf_url": "https://arxiv.org/pdf/2607.12380v1",
       "code_url": "https://github.com/BlueWhaleLab/SinAE"
+    },
+    "2607.13372": {
+      "id": "2607.13372",
+      "version": "2607.13372v1",
+      "title": "A POS Tier Is the Key to Automated Annotation for Low-Resource Language Documentation: Neural Interlinear Glossing for Irabu, a Southern Ryukyuan Language",
+      "authors": [
+        "Michinori Shimoji"
+      ],
+      "published": "2026-07-15",
+      "updated": "2026-07-15",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Discourse data are the primary empirical basis of grammar writing in field linguistics, but producing interlinearized text is notoriously expensive - on the order of one hour of work per minute of recording. For endangered languages, where the time remaining to verify analyses with native speakers is itself limited, automating parts of the interlinearization workflow has direct documentary value. We implement a full neural annotation pipeline (morpheme segmentation, POS tagging, glossing) for Irabu Ryukyuan using deliberately small, transparent BiLSTM-CRF models, and evaluate it under a realistic hard constraint: approximately one hour of fully annotated discourse as the entire supervised resource. Two factors of the annotation itself are manipulated: its richness (with or without a POS tier) and its quantity (training budgets from 6 to 47 minutes). Gold POS improves grammatical glossing by +4.4 (SD 0.7) points (significant in all 5 seeds), and the gain grows as data shrink (+11.6 points at a quarter of the data); a POS tier more than halves the amount of glossed data needed to reach a given accuracy. In a fully automatic pipeline this gain is not yet realized: the tagger still errs on 12% of morphemes, and an incorrect POS misleads the glossing model more than no POS at all. The value is latent rather than lost: degrading gold POS with controlled noise shows the gain returning as tagger accuracy rises, with break-even near our tagger's current 88% and +1.6 to +3.2 points recovered at 92-96%. We conclude with a concrete recommendation for documentation practice: annotate quadrilinearly - text, POS, gloss, translation.",
+      "abs_url": "http://arxiv.org/abs/2607.13372v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.13372v1",
+      "code_url": null
     }
   }
 }
