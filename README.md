@@ -7,21 +7,22 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.16
+## Updated on 2026.07.17
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **411**
-- Recent 30 days: **65**
-- Older than 30 days: **346**
+- Total papers in JSON: **412**
+- Recent 30 days: **64**
+- Older than 30 days: **348**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-16**|**One-Shot Generative Design for Disordered Metamaterials via Self-Organizing Neural Cellular Automata**|cs.CE, cs.LG|[2607.14475v1](http://arxiv.org/abs/2607.14475v1)|null|
 |**2026-07-15**|**A POS Tier Is the Key to Automated Annotation for Low-Resource Language Documentation: Neural Interlinear Glossing for Irabu, a Southern Ryukyuan Language**|cs.CL|[2607.13372v1](http://arxiv.org/abs/2607.13372v1)|null|
 |**2026-07-14**|**The Geometry of Memorization: Finite-Time Spectral Sensitivity as a Diagnostic for Flow Matching Models**|cs.LG|[2607.12616v1](http://arxiv.org/abs/2607.12616v1)|null|
 |**2026-07-14**|**Translation as a Computationally Efficient Bridge: Feasibility of English BERT for Low-Resource Languages**|cs.CL|[2607.12612v1](http://arxiv.org/abs/2607.12612v1)|null|
@@ -85,13 +86,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-19**|**OmniV2X: A Generative Foundation Planner for Efficient End-to-End Cooperative Driving**|cs.RO, cs.AI|[2606.21165v1](http://arxiv.org/abs/2606.21165v1)|null|
 |**2026-06-17**|**DF-ExpEnse: Diffusion Filtered Exploration for Sample Efficient Finetuning**|cs.RO, cs.LG|[2606.19656v1](http://arxiv.org/abs/2606.19656v1)|**[code](https://df-expense.github.io)**|
 |**2026-06-17**|**G-IdiomAlign: A Gloss-Pivoted Benchmark for Cross-Lingual Idiom Alignment**|cs.CL, cs.AI|[2606.18989v1](http://arxiv.org/abs/2606.18989v1)|null|
-|**2026-06-16**|**Want Better Synthetic Data? Steer It: Activation Steering for Low-Resource Language Generation**|cs.CL|[2606.18389v1](http://arxiv.org/abs/2606.18389v1)|null|
-|**2026-06-16**|**When English Isn't the Best Teacher: Source Language Effects in Cross-Lingual In-Context Learning**|cs.CL, cs.AI|[2606.18033v1](http://arxiv.org/abs/2606.18033v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-16**|**Want Better Synthetic Data? Steer It: Activation Steering for Low-Resource Language Generation**|cs.CL|[2606.18389v1](http://arxiv.org/abs/2606.18389v1)|null|
+|**2026-06-16**|**When English Isn't the Best Teacher: Source Language Effects in Cross-Lingual In-Context Learning**|cs.CL, cs.AI|[2606.18033v1](http://arxiv.org/abs/2606.18033v1)|null|
 |**2026-06-15**|**MindAlign: Decoding Inner Speech from fMRI Signals via Multimodal Embedding Alignment under Limited Data**|cs.CL, cs.AI, eess.AS|[2606.20696v1](http://arxiv.org/abs/2606.20696v1)|null|
 |**2026-06-15**|**Diffusion Offline Reinforcement Learning for Fair and Energy-Efficient UAV-Assisted Wireless Networks**|cs.LG|[2606.16331v1](http://arxiv.org/abs/2606.16331v1)|null|
 |**2026-06-14**|**CIWI-CKT: Chaos-Informed Wave Interference Feature Fusion and Cross-City Knowledge Transfer for Traffic Flow Forecasting**|cs.LG, cs.AI|[2606.15642v1](http://arxiv.org/abs/2606.15642v1)|null|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-13**|**Scaling few-shot spoken word classification with generative meta-continual learning**|cs.CL, cs.AI|[2605.13075v3](http://arxiv.org/abs/2605.13075v3)|null|
 |**2026-05-13**|**Context Training with Active Information Seeking**|cs.CL, cs.AI|[2605.13050v2](http://arxiv.org/abs/2605.13050v2)|null|
 |**2026-05-12**|**DocAtlas: Multilingual Document Understanding Across 80+ Languages**|cs.CL, cs.CV, cs.LG|[2605.12623v2](http://arxiv.org/abs/2605.12623v2)|**[code](https://github.com/ahmedheakl/DocAtlas)**|
-|**2026-05-12**|**Predicting Decisions of AI Agents from Limited Interaction through Text-Tabular Modeling**|cs.LG, cs.AI, cs.CL, cs.MA|[2605.12411v1](http://arxiv.org/abs/2605.12411v1)|null|
 
-README omitted **211** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **212** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
