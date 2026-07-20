@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.19
+## Updated on 2026.07.20
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **412**
-- Recent 30 days: **62**
-- Older than 30 days: **350**
+- Recent 30 days: **57**
+- Older than 30 days: **355**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -79,16 +79,16 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-20**|**Evaluating Large Language Models for Hausa and Fongbe Machine Translation: Benchmarks, Failures, and Metric Reliability**|cs.CL, cs.AI, cs.LG|[2606.22269v1](http://arxiv.org/abs/2606.22269v1)|null|
 |**2026-06-20**|**FeLoG: Scalable and Efficient Distributed Graph Embedding with Feedback Loop Mechanism**|cs.DC, cs.LG|[2606.22180v2](http://arxiv.org/abs/2606.22180v2)|null|
 |**2026-06-20**|**Patched Flow Matching: Generative Wall-Pressure Reconstruction Beyond Training-Domain Scales from Sparse Sensors**|physics.flu-dyn, cs.LG|[2606.22084v1](http://arxiv.org/abs/2606.22084v1)|null|
-|**2026-06-19**|**Error-Aware TF-IDF Retrieval-Augmented Generation for ASR Error Correction**|cs.CL, cs.AI, cs.IR|[2606.24915v1](http://arxiv.org/abs/2606.24915v1)|null|
-|**2026-06-19**|**Imitation from Heterogeneous Demonstrations using Grounded Latent-Action World Models**|cs.RO, cs.AI, cs.LG|[2606.21672v1](http://arxiv.org/abs/2606.21672v1)|**[code](https://viccccciv.github.io/glam/)**|
-|**2026-06-19**|**Synthetic Audio Generation Framework for Air Traffic Control Speech Recognition**|cs.CL|[2606.21340v1](http://arxiv.org/abs/2606.21340v1)|null|
-|**2026-06-19**|**DataClaw0: Agentic Tailoring Multimodal Data from Raw Streams**|cs.LG, cs.AI|[2606.21337v1](http://arxiv.org/abs/2606.21337v1)|**[code](https://czjdsg.github.io/MakeAnyData)**|
-|**2026-06-19**|**OmniV2X: A Generative Foundation Planner for Efficient End-to-End Cooperative Driving**|cs.RO, cs.AI|[2606.21165v1](http://arxiv.org/abs/2606.21165v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-19**|**Error-Aware TF-IDF Retrieval-Augmented Generation for ASR Error Correction**|cs.CL, cs.AI, cs.IR|[2606.24915v1](http://arxiv.org/abs/2606.24915v1)|null|
+|**2026-06-19**|**Imitation from Heterogeneous Demonstrations using Grounded Latent-Action World Models**|cs.RO, cs.AI, cs.LG|[2606.21672v1](http://arxiv.org/abs/2606.21672v1)|**[code](https://viccccciv.github.io/glam/)**|
+|**2026-06-19**|**Synthetic Audio Generation Framework for Air Traffic Control Speech Recognition**|cs.CL|[2606.21340v1](http://arxiv.org/abs/2606.21340v1)|null|
+|**2026-06-19**|**DataClaw0: Agentic Tailoring Multimodal Data from Raw Streams**|cs.LG, cs.AI|[2606.21337v1](http://arxiv.org/abs/2606.21337v1)|**[code](https://czjdsg.github.io/MakeAnyData)**|
+|**2026-06-19**|**OmniV2X: A Generative Foundation Planner for Efficient End-to-End Cooperative Driving**|cs.RO, cs.AI|[2606.21165v1](http://arxiv.org/abs/2606.21165v1)|null|
 |**2026-06-17**|**DF-ExpEnse: Diffusion Filtered Exploration for Sample Efficient Finetuning**|cs.RO, cs.LG|[2606.19656v1](http://arxiv.org/abs/2606.19656v1)|**[code](https://df-expense.github.io)**|
 |**2026-06-17**|**G-IdiomAlign: A Gloss-Pivoted Benchmark for Cross-Lingual Idiom Alignment**|cs.CL, cs.AI|[2606.18989v1](http://arxiv.org/abs/2606.18989v1)|null|
 |**2026-06-16**|**Want Better Synthetic Data? Steer It: Activation Steering for Low-Resource Language Generation**|cs.CL|[2606.18389v1](http://arxiv.org/abs/2606.18389v1)|null|
