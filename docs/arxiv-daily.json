@@ -8966,6 +8966,139 @@
       "abs_url": "http://arxiv.org/abs/2607.14475v1",
       "pdf_url": "https://arxiv.org/pdf/2607.14475v1",
       "code_url": null
+    },
+    "2607.17164": {
+      "id": "2607.17164",
+      "version": "2607.17164v1",
+      "title": "Robust Assamese Speech Recognition through Controlled Fine-Tuning of Whisper Models",
+      "authors": [
+        "Ganapati Das",
+        "Dwipen Laskar",
+        "Hasin Afzal Ahmed",
+        "Sanjib Kr Kalita",
+        "Kshirod Sarmah",
+        "Hem Chandra Das",
+        "Manjula Kalita"
+      ],
+      "published": "2026-07-19",
+      "updated": "2026-07-19",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Developing Automatic Speech Recognition (ASR) for morphologically rich, low-resource languages such as Assamese is challenging due to insufficient annotated speech data. The pretrained Whisper model performs poorly on Assamese speech recognition tasks. This paper presents a controlled, fine-tuned Whisper-based Assamese ASR system trained on the Mozilla Common Voice 24.0-Assamese corpus. A hardware-aware optimized training pipeline is implemented for resource-constrained environments, employing mixed-precision training and gradient accumulation on Tesla 4 Graphics Processing Units (T4 GPUs). The proposed fine-tuned model significantly outperformed the Zero-shot baseline, yielding Word Error Rate (WER), Character Error Rate (CER), Match Error Rate (MER), and Word Infomation Loss (WIL) of 43.17\\%, 13.18\\%, 43\\%, and 64.81\\%, respectively, achieving significant relative improvements of 78.26\\%, 93.10\\%, 57.0\\%, and 35.19\\% over the baseline. Semantic evaluation of the fine-tuned model also demonstrates notable improvement over a zero baseline, attaining Bilingual Evaluation Understudy (BLEU) and Metric for Evaluation of Translation with Explicit ORdering (METEOR) scores of 30.81 and 0.5262, respectively. Additionally, the predicted hallucination rate and Real-Time Factor (RTF) are substantially improved by 96.70\\% and 32.38\\%, compared to the zero-shot baseline.",
+      "abs_url": "http://arxiv.org/abs/2607.17164v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.17164v1",
+      "code_url": null
+    },
+    "2607.17508": {
+      "id": "2607.17508",
+      "version": "2607.17508v1",
+      "title": "Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare",
+      "authors": [
+        "Sazan Mahbub",
+        "Caleb Ellington",
+        "Zhiyuan Li",
+        "Yixin Yang",
+        "Souvik Kundu",
+        "Ben Lengerich",
+        "Eric P. Xing"
+      ],
+      "published": "2026-07-20",
+      "updated": "2026-07-20",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "We introduce Retrieval-Augmented Interpretable Learning (RAIL), a probabilistic meta-learning framework for zero-shot generation of task-specific interpretable models that synthesizes coefficient-space structure from natural-language task descriptions and a memory of previously learned task-specific predictors. RAIL retrieves related source tasks, transfers structure through coefficient space, and generates a new predictor in the original diagnostic-feature space, enabling zero-shot and few-shot clinical procedure prediction with feature-level explanations. Its probabilistic formulation provides uncertainty over retrieval, model coefficients, and predictions, supporting reliability-aware deployment: uncertain predictions or unstable explanations can be flagged for additional clinical review rather than treated as automatic decisions. This makes RAIL particularly suited for healthcare settings, where prediction tasks are highly long-tailed, new clinical targets arise frequently, and models must remain inspectable, uncertainty-aware, and compatible with human oversight. Across long-tailed clinical procedure prediction tasks, RAIL maintains reliable performance across data-availability regimes: it achieves 73.4% accuracy in the held-out zero-shot settings, where no supervised task-specific model can be trained, and remains near 73.2% accuracy in the extreme few-shot regime with only 2-4 examples, where supervised task-specific models perform close to chance. RAIL further benefits from clinically informed task representations and yields retrieval, uncertainty, and coefficient-level diagnostics that make model behavior more transparent. These results suggest a path toward scalable clinical prediction systems that can adapt to new tasks while preserving interpretability and reliability.",
+      "abs_url": "http://arxiv.org/abs/2607.17508v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.17508v1",
+      "code_url": null
+    },
+    "2607.17173": {
+      "id": "2607.17173",
+      "version": "2607.17173v1",
+      "title": "KyrgyzLLM-Bench: Benchmarking Kyrgyz Language Understanding",
+      "authors": [
+        "Timur Turatali",
+        "Aida Turdubaeva",
+        "Rustem Izmailov",
+        "Anton M. Alekseev",
+        "Sergey I. Nikolenko"
+      ],
+      "published": "2026-07-19",
+      "updated": "2026-07-19",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Evaluating large language models (LLMs) across languages remains challenging, as most multilingual benchmarks rely on translated English datasets, often obscuring linguistic and cultural specificity in the target language. This issue is particularly pronounced for less-resourced languages such as Kyrgyz, where reliable natively authored evaluation data are scarce. Building on previously introduced Kyrgyz-language evaluation datasets, this work reports the first systematic and large-scale evaluation of LLMs in Kyrgyz using the KyrgyzLLM-Bench benchmark suite. KyrgyzLLM-Bench comprises two natively authored datasets$-$KyrgyzMMLU and KyrgyzRC$-$together with carefully translated and manually post-edited versions of WinoGrande, HellaSwag, BoolQ, and TruthfulQA. We evaluate 26 open- and closed-source LLMs under zero-shot and few-shot settings, analyzing model performance, cross-lingual transfer, and the impact of translation artifacts on evaluation reliability. Across families and tasks, model rankings transfer broadly from English to Kyrgyz on WinoGrande and BoolQ, and to a lesser extent on MMLU, while HellaSwag exhibits a substantial English-Kyrgyz performance gap consistent with translation-induced plausibility shifts. Few-shot prompting improves several open-source models on reading comprehension but behaves inconsistently for proprietary models on translated tasks. We publicly release all datasets, evaluation code, and per-model results, and integrate the Kyrgyz tasks into a widely used multilingual evaluation framework to support future research on Kyrgyz NLP.",
+      "abs_url": "http://arxiv.org/abs/2607.17173v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.17173v1",
+      "code_url": null
+    },
+    "2607.16603": {
+      "id": "2607.16603",
+      "version": "2607.16603v1",
+      "title": "NOWJ@COLIEE 2026: Adaptive Pipelines for Legal Retrieval and Reasoning",
+      "authors": [
+        "Thuong-Hieu Ngo",
+        "Hoang-Trung Nguyen",
+        "Huu-Dong Nguyen",
+        "Xuan-Bach Le",
+        "Le-Dung Nguyen",
+        "Quang-Thanh Tran",
+        "Ha-Thanh Nguyen",
+        "Thi-Hai-Yen Vuong"
+      ],
+      "published": "2026-07-18",
+      "updated": "2026-07-18",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper presents the methodologies and results of the NOWJ team's participation across all five tasks of the COLIEE 2026 competition. For Task 1 (Legal Case Retrieval), we propose a four-stage pipeline comprising candidate filtering, dense retrieval with complementary embedding models, cross-encoder reranking via fine-tuned generative rerankers and MLP-based pairwise classification, and adaptive per-query cutoff prediction. For Task 2 (Legal Case Entailment), we combine BM25 filtering, T5-based reranking, and LLM-based entailment verification with consensus ensemble. For Task 3 (Statute Law Retrieval and Entailment), we adopt a retrieval-augmented generation framework with dense retrieval, attention-based reranking, and few-shot-prompted LLM reasoning. For Task 4 (Legal Textual Entailment), we introduce a dynamic routing pipeline that classifies query difficulty and dispatches cases to either a balanced few-shot solver or a structured zero-shot chain-of-thought solver. For the Pilot Task (Legal Judgment Prediction), we combine hierarchical transformers with CRF layers, argument relation mining, and probabilistic argumentation graph reasoning.",
+      "abs_url": "http://arxiv.org/abs/2607.16603v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.16603v1",
+      "code_url": null
+    },
+    "2607.17879": {
+      "id": "2607.17879",
+      "version": "2607.17879v1",
+      "title": "Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory",
+      "authors": [
+        "Ganesh Senrayan",
+        "Moyuru Yamada",
+        "Ishan Jindal",
+        "Kiran Purohit"
+      ],
+      "published": "2026-07-20",
+      "updated": "2026-07-20",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "LLM-based autonomous agents require external memory to overcome their statelessness and limited context window for long-term interaction and dynamic knowledge reasoning. However, existing memory retrieval methods often lack adaptability and sample efficiency, and struggle to retrieve the right mixture of memories from heterogeneous stores. We propose Exploratory-Assimilating Reflection (EAR), a framework for high initial retrieval performance and sample-efficient adaptation. EAR combines two mechanisms: Exploratory Reflection, which performs iterative search to bootstrap retrieval and collect useful experiences for each query, and Assimilating Reflection, which replays these experiences from an Experience Buffer to refine a global reranker more efficiently than methods relying only on immediate rewards. Experiments show that EAR improves retrieval by up to 17.9% over the baseline retriever on two long-term dialogue benchmarks. We also show that EAR is highly sample-efficient and robust to noisy feedback.",
+      "abs_url": "http://arxiv.org/abs/2607.17879v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.17879v1",
+      "code_url": null
+    },
+    "2607.16431": {
+      "id": "2607.16431",
+      "version": "2607.16431v1",
+      "title": "RIMS: Preference Optimization via Smoothed Multi-pair Aggregation for Small-Scale LLM Retrieval-Augmented Generation",
+      "authors": [
+        "Pei Tian",
+        "Zihan Dong",
+        "Tianci Liu",
+        "Linjun Zhang",
+        "Haoyu Wang"
+      ],
+      "published": "2026-07-17",
+      "updated": "2026-07-17",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Small-scale language models (SLMs) are attractive for retrieval-augmented generation (RAG) in resource-constrained settings, but their limited capacity makes them highly sensitive to noisy or spurious retrieved evidence. Existing preference-based methods such as RoseRAG select only the hardest single preference pair via hard argmin/argmax, discarding the remaining signal; others treat multiple pairs as independent binary comparisons, resulting in low data utilization. We propose RIMS, a three-stage preference optimization framework comprising (1) synthetic chain-of-thought preference data generation via rejection sampling using the target SLM itself without relying on proprietary models, (2) a differentiable soft aggregation mechanism that replaces hard selection with a smooth operator, preserving gradient signal from all preference pairs while retaining the discriminative structure of margin-aware selection, and (3) preference optimization with the smoothed objective applied to multiple alignment algorithms. We theoretically show that the smoothed approximation admits a controllable error bound and that smooth aggregation yields provably tighter gradient alignment to the oracle objective than hard selection. Experiments on four multi-hop question answering benchmarks show that our approach outperforms state-of-the-art baselines across multiple SLM backbones, achieving consistent gains in Exact Match and F1 under noisy retrieval conditions. Our implementation is available at https://github.com/tptrix29/RIMS.",
+      "abs_url": "http://arxiv.org/abs/2607.16431v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.16431v1",
+      "code_url": "https://github.com/tptrix29/RIMS"
     }
   }
 }

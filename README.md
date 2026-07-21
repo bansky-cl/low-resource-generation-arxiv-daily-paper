@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **412**
-- Recent 30 days: **54**
+- Total papers in JSON: **418**
+- Recent 30 days: **60**
 - Older than 30 days: **358**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,12 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-20**|**Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory**|cs.AI|[2607.17879v1](http://arxiv.org/abs/2607.17879v1)|null|
+|**2026-07-20**|**Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare**|cs.LG, cs.AI|[2607.17508v1](http://arxiv.org/abs/2607.17508v1)|null|
+|**2026-07-19**|**KyrgyzLLM-Bench: Benchmarking Kyrgyz Language Understanding**|cs.CL|[2607.17173v1](http://arxiv.org/abs/2607.17173v1)|null|
+|**2026-07-19**|**Robust Assamese Speech Recognition through Controlled Fine-Tuning of Whisper Models**|cs.LG|[2607.17164v1](http://arxiv.org/abs/2607.17164v1)|null|
+|**2026-07-18**|**NOWJ@COLIEE 2026: Adaptive Pipelines for Legal Retrieval and Reasoning**|cs.CL|[2607.16603v1](http://arxiv.org/abs/2607.16603v1)|null|
+|**2026-07-17**|**RIMS: Preference Optimization via Smoothed Multi-pair Aggregation for Small-Scale LLM Retrieval-Augmented Generation**|cs.CL|[2607.16431v1](http://arxiv.org/abs/2607.16431v1)|**[code](https://github.com/tptrix29/RIMS)**|
 |**2026-07-16**|**One-Shot Generative Design for Disordered Metamaterials via Self-Organizing Neural Cellular Automata**|cs.CE, cs.LG|[2607.14475v1](http://arxiv.org/abs/2607.14475v1)|null|
 |**2026-07-15**|**A POS Tier Is the Key to Automated Annotation for Low-Resource Language Documentation: Neural Interlinear Glossing for Irabu, a Southern Ryukyuan Language**|cs.CL|[2607.13372v1](http://arxiv.org/abs/2607.13372v1)|null|
 |**2026-07-14**|**The Geometry of Memorization: Finite-Time Spectral Sensitivity as a Diagnostic for Flow Matching Models**|cs.LG|[2607.12616v1](http://arxiv.org/abs/2607.12616v1)|null|
@@ -221,14 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-13**|**SLAP: Stratified Loss-based Pruning for On-Policy Data-Efficient Instruction Tuning**|cs.CL|[2605.23969v1](http://arxiv.org/abs/2605.23969v1)|null|
 |**2026-05-13**|**WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data**|cs.CL, cs.AI|[2605.13846v1](http://arxiv.org/abs/2605.13846v1)|null|
 |**2026-05-13**|**Conformal Anomaly Detection in Python: Moving Beyond Heuristic Thresholds with 'nonconform'**|stat.ML, cs.LG, stat.CO|[2605.13642v1](http://arxiv.org/abs/2605.13642v1)|null|
-|**2026-05-13**|**KIT-TIP-NLP at MultiPride: Continual Learning with Multilingual Foundation Model**|cs.CL, cs.AI, cs.LG|[2605.13415v2](http://arxiv.org/abs/2605.13415v2)|**[code](https://github.com/rbg-research/MultiPRIDE-Evalita-2026)**|
-|**2026-05-13**|**ECG-NAT: A Self-supervised Neighborhood Attention Transformer for Multi-lead Electrocardiogram Classification**|cs.LG, cs.AI|[2605.13194v1](http://arxiv.org/abs/2605.13194v1)|**[code](https://github.com/Mahsagazeran/ECG-NAT)**|
-|**2026-05-13**|**Does language matter for spoken word classification? A multilingual generative meta-learning approach**|cs.CL, cs.AI|[2605.13084v2](http://arxiv.org/abs/2605.13084v2)|null|
-|**2026-05-13**|**Scaling few-shot spoken word classification with generative meta-continual learning**|cs.CL, cs.AI|[2605.13075v3](http://arxiv.org/abs/2605.13075v3)|null|
-|**2026-05-13**|**Context Training with Active Information Seeking**|cs.CL, cs.AI|[2605.13050v2](http://arxiv.org/abs/2605.13050v2)|null|
-|**2026-05-12**|**DocAtlas: Multilingual Document Understanding Across 80+ Languages**|cs.CL, cs.CV, cs.LG|[2605.12623v2](http://arxiv.org/abs/2605.12623v2)|**[code](https://github.com/ahmedheakl/DocAtlas)**|
 
-README omitted **212** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **218** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
