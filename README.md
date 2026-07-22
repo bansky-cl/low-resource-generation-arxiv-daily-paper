@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **418**
-- Recent 30 days: **59**
+- Total papers in JSON: **423**
+- Recent 30 days: **64**
 - Older than 30 days: **359**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,11 +22,16 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-21**|**Translation as Augmentation: Effect of Translated Data on Assessment of Difficulty**|cs.CL, cs.LG|[2607.19101v1](http://arxiv.org/abs/2607.19101v1)|null|
+|**2026-07-21**|**Variational meta-learning inference for low dimensional neural system identification**|cs.LG, cs.AI, eess.SY|[2607.18965v1](http://arxiv.org/abs/2607.18965v1)|null|
+|**2026-07-21**|**LatentMT: Machine Translation with Latent Reasoning**|cs.CL, cs.AI, cs.LG|[2607.18618v1](http://arxiv.org/abs/2607.18618v1)|null|
+|**2026-07-20**|**Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments**|cs.PL, cs.AI, cs.LG|[2607.18357v1](http://arxiv.org/abs/2607.18357v1)|null|
 |**2026-07-20**|**Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory**|cs.AI|[2607.17879v1](http://arxiv.org/abs/2607.17879v1)|null|
 |**2026-07-20**|**Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare**|cs.LG, cs.AI|[2607.17508v1](http://arxiv.org/abs/2607.17508v1)|null|
 |**2026-07-19**|**KyrgyzLLM-Bench: Benchmarking Kyrgyz Language Understanding**|cs.CL|[2607.17173v1](http://arxiv.org/abs/2607.17173v1)|null|
 |**2026-07-19**|**Robust Assamese Speech Recognition through Controlled Fine-Tuning of Whisper Models**|cs.LG|[2607.17164v1](http://arxiv.org/abs/2607.17164v1)|null|
 |**2026-07-18**|**NOWJ@COLIEE 2026: Adaptive Pipelines for Legal Retrieval and Reasoning**|cs.CL|[2607.16603v1](http://arxiv.org/abs/2607.16603v1)|null|
+|**2026-07-17**|**A Better Start for Language Models: Domain-Conditional Position Offsets**|cs.LG|[2607.18302v1](http://arxiv.org/abs/2607.18302v1)|null|
 |**2026-07-17**|**RIMS: Preference Optimization via Smoothed Multi-pair Aggregation for Small-Scale LLM Retrieval-Augmented Generation**|cs.CL|[2607.16431v1](http://arxiv.org/abs/2607.16431v1)|**[code](https://github.com/tptrix29/RIMS)**|
 |**2026-07-16**|**One-Shot Generative Design for Disordered Metamaterials via Self-Organizing Neural Cellular Automata**|cs.CE, cs.LG|[2607.14475v1](http://arxiv.org/abs/2607.14475v1)|null|
 |**2026-07-15**|**A POS Tier Is the Key to Automated Annotation for Low-Resource Language Documentation: Neural Interlinear Glossing for Irabu, a Southern Ryukyuan Language**|cs.CL|[2607.13372v1](http://arxiv.org/abs/2607.13372v1)|null|
@@ -222,13 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-15**|**GenAI-FDIA: Physics-Informed Generative Models for False Data Injection Attacks**|cs.CR, cs.AI, cs.LG|[2605.18873v1](http://arxiv.org/abs/2605.18873v1)|null|
 |**2026-05-15**|**From Flat Language Labels to Typological Priors: Structured Language Conditioning for Multilingual Speech-to-Speech Translation**|cs.CL, cs.AI|[2605.16026v1](http://arxiv.org/abs/2605.16026v1)|null|
 |**2026-05-15**|**ALSO: Adversarial Online Strategy Optimization for Social Agents**|cs.AI, cs.CY|[2605.15768v2](http://arxiv.org/abs/2605.15768v2)|null|
-|**2026-05-14**|**Mitigating Data Scarcity in Psychological Defense Classification with Context-Aware Synthetic Augmentation**|cs.CL|[2605.14380v1](http://arxiv.org/abs/2605.14380v1)|**[code](https://github.com/htdgv/CASA-PDC)**|
-|**2026-05-14**|**Reinforcement Learning with Semantic Rewards Enables Low-Resource Language Expansion without Alignment Tax**|cs.CL, cs.LG|[2605.14366v1](http://arxiv.org/abs/2605.14366v1)|null|
-|**2026-05-13**|**SLAP: Stratified Loss-based Pruning for On-Policy Data-Efficient Instruction Tuning**|cs.CL|[2605.23969v1](http://arxiv.org/abs/2605.23969v1)|null|
-|**2026-05-13**|**WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data**|cs.CL, cs.AI|[2605.13846v1](http://arxiv.org/abs/2605.13846v1)|null|
-|**2026-05-13**|**Conformal Anomaly Detection in Python: Moving Beyond Heuristic Thresholds with 'nonconform'**|stat.ML, cs.LG, stat.CO|[2605.13642v1](http://arxiv.org/abs/2605.13642v1)|null|
 
-README omitted **218** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **223** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

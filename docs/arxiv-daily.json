@@ -9099,6 +9099,116 @@
       "abs_url": "http://arxiv.org/abs/2607.16431v1",
       "pdf_url": "https://arxiv.org/pdf/2607.16431v1",
       "code_url": "https://github.com/tptrix29/RIMS"
+    },
+    "2607.19101": {
+      "id": "2607.19101",
+      "version": "2607.19101v1",
+      "title": "Translation as Augmentation: Effect of Translated Data on Assessment of Difficulty",
+      "authors": [
+        "Yiheng Wu",
+        "Jue Hou",
+        "Roman Yangarber"
+      ],
+      "published": "2026-07-21",
+      "updated": "2026-07-21",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Reliable Text Difficulty Assessment is a prerequisite for valid text simplification workflows and personalized learning applications. However, the development of robust assessment models is severely hindered by a critical bottleneck: the scarcity of expert-annotated corpora containing fine-grained difficulty levels (e.g., CEFR), particularly for lower-resource languages. This paper addresses this data scarcity problem in the context of a low-resource European language. We propose a cross-lingual data augmentation strategy that leverages machine translation to transfer labeled resources from high-resource languages to the target low-resource language. We train BERT-based regression models to predict difficulty scores and investigate whether synthetic, translated data can effectively supplement native training sets. Our experiments demonstrate that augmenting scarce native data with machine-translated corpora significantly improves the accuracy of difficulty estimation, offering a viable solution for languages lacking extensive expert annotations.",
+      "abs_url": "http://arxiv.org/abs/2607.19101v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19101v1",
+      "code_url": null
+    },
+    "2607.18618": {
+      "id": "2607.18618",
+      "version": "2607.18618v1",
+      "title": "LatentMT: Machine Translation with Latent Reasoning",
+      "authors": [
+        "Wei-Rui Chen",
+        "Samar M. Magdy",
+        "Chiyu Zhang",
+        "Wenhui Zhu",
+        "Zhipeng Wang",
+        "Muhammad Abdul-Mageed"
+      ],
+      "published": "2026-07-21",
+      "updated": "2026-07-21",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Latent-reasoning looped language models (LoopLMs) offer a different scaling path for machine translation (MT): instead of increasing parameter count or emitting explicit chain-of-thought tokens, they spend additional recurrent computation inside hidden states. We introduce LatentMT, the first systematic study of latent-reasoning LoopLMs for machine translation. LatentMT adapts a small 2.6B-parameter backbone model with lightweight training. Across 32 translation directions spanning high-, mid-, and low-resource languages, LatentMT achieves performance comparable to models three to five times larger. It is competitive in a high-resource language and achieves state-of-the-art performance on both mid-resource and low-resource languages. Studying the behavior of scaling the number of recurrent reasoning steps, we find that recurrent computation consistently improves translation quality in early steps, then saturates quickly afterwards. Our mechanistic analysis shows that hidden-representation differences shrink along the recurrent reasoning-step axis, supporting the observed saturation in performance. Finally, our efficiency analysis shows that LatentMT requires lower training and inference compute than much larger non-latent-reasoning models with similar performance, making latent recurrent computation a promising path toward compact, efficient, and strong machine translation.",
+      "abs_url": "http://arxiv.org/abs/2607.18618v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18618v1",
+      "code_url": null
+    },
+    "2607.18357": {
+      "id": "2607.18357",
+      "version": "2607.18357v1",
+      "title": "Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments",
+      "authors": [
+        "Shuoming Zhang",
+        "Ruiyuan Xu",
+        "Haofeng Li",
+        "Qiuchu Yu",
+        "Yangyu Zhang",
+        "Chunwei Xia",
+        "Xiaobing Feng",
+        "Chenxi Wang",
+        "Huimin Cui",
+        "Jiacheng Zhao"
+      ],
+      "published": "2026-07-20",
+      "updated": "2026-07-20",
+      "categories": [
+        "cs.PL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Large language models now write a growing share of the world's code, increasingly inside agents and serving systems that compile, execute, or dispatch generated code without line-by-line review. This works well for mainstream languages but remains brittle for low-resource programming surfaces such as domain-specific languages, custom library APIs, and command-line tools. Even under grammar-constrained decoding, a model can still produce references invalid in the current environment: a buffer never declared, a column absent from the schema, a function the library does not provide, or an unsupported CLI option. This paper introduces decode-time grammars: grammar fragments instantiated during generation from a runtime environment Gamma. A region-specific policy selects a fragment for each hole, and a tightening operator replaces open reference positions with Gamma-typed slots whose candidates are exactly the names, fields, APIs, or options available at that point. Newly generated declarations enter Gamma before later regions are decoded, so the constraining grammar can depend on the prefix already generated. This ensures not only grammatical correctness but also semantic correctness, by preventing references to undefined symbols. We formalize grammar fragments as environment-indexed grammars ordered by refinement, prove No-Ghost soundness for Gamma-slotted fragments, show that refinement preserves this support-set guarantee, and characterize the boundary of mask-enforceable properties. We implement the approach in gproj with offline grammar induction and online policy resolution. Across TileLang, SQL, and P4, with models from 0.6B to 236B parameters, gproj eliminates ghost references by construction at moderate overhead over standard constrained decoding.",
+      "abs_url": "http://arxiv.org/abs/2607.18357v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18357v1",
+      "code_url": null
+    },
+    "2607.18302": {
+      "id": "2607.18302",
+      "version": "2607.18302v1",
+      "title": "A Better Start for Language Models: Domain-Conditional Position Offsets",
+      "authors": [
+        "Ye Qiao"
+      ],
+      "published": "2026-07-17",
+      "updated": "2026-07-17",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Autoregressive language models are least accurate at the beginning of a sequence, where little context forces reliance on a generic pretraining prior. We show that this cold-start penalty is domain dependent and reduce it with a domain-conditional position offset: a single learned vector added to the embedding activation at the first sequence positions while all model weights remain frozen. The offset trains in minutes on roughly one hundred documents, switches between domains without added sequence state, and has no measurable latency overhead. Across eight Mamba, GPT-NeoX, and Llama models spanning 410M to 8B parameters, it reduces held-out in-domain perplexity by up to 27%; the effect persists at 70B, and one position captures most of the benefit. A matched, converged direct logit-bias correction reaches at most only 7.9% and leaves later-token loss unchanged, showing that the offset propagates through model state rather than merely recalibrating the output prior. A tuned LoRA reaches lower perplexity but uses two to three orders of magnitude more parameters and an active low-rank weight path, while soft prompts add sequence positions. With wrong-domain controls, offsets improve retrieval reranking and domain classification when decisions depend on early in-domain tokens, For the few-shot reasoning whose signal occurs later, the results maintains unchanged. Position-aware prefill application also help generation tasks, whereas naive application at every cached decoding step causes repetition. The offset is therefore not the strongest adapter, but a lightweight, hot switchable tool for short in-domain scoring and calibration.",
+      "abs_url": "http://arxiv.org/abs/2607.18302v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18302v1",
+      "code_url": null
+    },
+    "2607.18965": {
+      "id": "2607.18965",
+      "version": "2607.18965v1",
+      "title": "Variational meta-learning inference for low dimensional neural system identification",
+      "authors": [
+        "Matteo Rufolo",
+        "Dario Piga",
+        "Marco Forgione"
+      ],
+      "published": "2026-07-21",
+      "updated": "2026-07-21",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "abstract": "Deep learning has proven highly effective for nonlinear system identification, but heavily parameterized neural networks are prone to overfitting in low-data regimes and lack reliable uncertainty quantification. The recently developed manifold meta-learning framework addresses the data efficiency problem by restricting the model parameters to a meta-learned low-dimensional manifold. However, that method is purely deterministic. We propose a fully probabilistic extension of the manifold meta-learning framework, based on amortized Variational Inference, where a generative prior over the low-dimensional parameter manifold is learned. During task-specific adaptation, we combine Maximum A Posteriori estimation with the Laplace approximation to yield a mathematically grounded posterior approximation. Evaluated on a static regression task and the Bouc--Wen dynamical system benchmark, the proposed approach achieves predictive accuracy comparable to its deterministic counterpart while successfully providing calibrated uncertainty bounds in severely low-data regimes.",
+      "abs_url": "http://arxiv.org/abs/2607.18965v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.18965v1",
+      "code_url": null
     }
   }
 }
