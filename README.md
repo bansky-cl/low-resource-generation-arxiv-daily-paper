@@ -7,21 +7,24 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.22
+## Updated on 2026.07.23
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **423**
-- Recent 30 days: **64**
-- Older than 30 days: **359**
+- Total papers in JSON: **426**
+- Recent 30 days: **66**
+- Older than 30 days: **360**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-22**|**The Maskability Index: Predicting Task-Objective Alignment in Pretrained Language Models**|cs.CL, cs.AI|[2607.20265v1](http://arxiv.org/abs/2607.20265v1)|null|
+|**2026-07-22**|**When Does Knowledge Distillation Hurt? Reliability-Aware Distillation for Low-Resource Language Summarization**|cs.CL, cs.AI|[2607.19956v1](http://arxiv.org/abs/2607.19956v1)|null|
+|**2026-07-21**|**SynPre-FL: Synthetic data-driven pretraining integrated Federated Learning training framework**|cs.LG, cs.AI, cs.DC|[2607.19524v1](http://arxiv.org/abs/2607.19524v1)|null|
 |**2026-07-21**|**Translation as Augmentation: Effect of Translated Data on Assessment of Difficulty**|cs.CL, cs.LG|[2607.19101v1](http://arxiv.org/abs/2607.19101v1)|null|
 |**2026-07-21**|**Variational meta-learning inference for low dimensional neural system identification**|cs.LG, cs.AI, eess.SY|[2607.18965v1](http://arxiv.org/abs/2607.18965v1)|null|
 |**2026-07-21**|**LatentMT: Machine Translation with Latent Reasoning**|cs.CL, cs.AI, cs.LG|[2607.18618v1](http://arxiv.org/abs/2607.18618v1)|null|
@@ -85,12 +88,12 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-23**|**Text Distance from Nested and Hierarchical Repetitions: A Compression-Based Perspective**|cs.CL, cs.IT|[2607.05416v1](http://arxiv.org/abs/2607.05416v1)|null|
 |**2026-06-23**|**Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models**|cs.AI, cs.CL|[2606.24841v1](http://arxiv.org/abs/2606.24841v1)|**[code](https://github.com/puraminy/MTO/)**|
 |**2026-06-23**|**Neural Network-Based Parametric Model Reduction for Predicting Turbulent Flow for Different Vehicle Geometries**|cs.CE, cs.AI|[2606.24265v1](http://arxiv.org/abs/2606.24265v1)|null|
-|**2026-06-22**|**GRAIN: Group Aggregation via Min-Norm Objective**|cs.LG, stat.ML|[2606.22917v1](http://arxiv.org/abs/2606.22917v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-22**|**GRAIN: Group Aggregation via Min-Norm Objective**|cs.LG, stat.ML|[2606.22917v1](http://arxiv.org/abs/2606.22917v1)|null|
 |**2026-06-21**|**Deep Learning-Based Sign Language Recognition from Videos and Cross-Lingual Translation to Indian Vernaculars**|cs.AI, cs.LG|[2606.22494v1](http://arxiv.org/abs/2606.22494v1)|null|
 |**2026-06-20**|**Evaluating Large Language Models for Hausa and Fongbe Machine Translation: Benchmarks, Failures, and Metric Reliability**|cs.CL, cs.AI, cs.LG|[2606.22269v1](http://arxiv.org/abs/2606.22269v1)|null|
 |**2026-06-20**|**FeLoG: Scalable and Efficient Distributed Graph Embedding with Feedback Loop Mechanism**|cs.DC, cs.LG|[2606.22180v2](http://arxiv.org/abs/2606.22180v2)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-16**|**Why Do Safety Guardrails Degrade Across Languages?**|cs.CL, cs.AI, cs.LG|[2605.17173v1](http://arxiv.org/abs/2605.17173v1)|null|
 |**2026-05-16**|**D$^2$Evo: Dual Difficulty-Aware Self-Evolution for Data-Efficient Reinforcement Learning**|cs.LG, cs.AI, cs.CL|[2605.17037v1](http://arxiv.org/abs/2605.17037v1)|null|
 |**2026-05-16**|**Retrieval-Based Multi-Label Legal Annotation: Extensible, Data-Efficient and Hallucination-Free**|cs.CL|[2605.16767v1](http://arxiv.org/abs/2605.16767v1)|null|
-|**2026-05-15**|**GenAI-FDIA: Physics-Informed Generative Models for False Data Injection Attacks**|cs.CR, cs.AI, cs.LG|[2605.18873v1](http://arxiv.org/abs/2605.18873v1)|null|
-|**2026-05-15**|**From Flat Language Labels to Typological Priors: Structured Language Conditioning for Multilingual Speech-to-Speech Translation**|cs.CL, cs.AI|[2605.16026v1](http://arxiv.org/abs/2605.16026v1)|null|
-|**2026-05-15**|**ALSO: Adversarial Online Strategy Optimization for Social Agents**|cs.AI, cs.CY|[2605.15768v2](http://arxiv.org/abs/2605.15768v2)|null|
 
-README omitted **223** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **226** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

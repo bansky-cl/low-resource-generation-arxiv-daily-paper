@@ -9209,6 +9209,78 @@
       "abs_url": "http://arxiv.org/abs/2607.18965v1",
       "pdf_url": "https://arxiv.org/pdf/2607.18965v1",
       "code_url": null
+    },
+    "2607.20265": {
+      "id": "2607.20265",
+      "version": "2607.20265v1",
+      "title": "The Maskability Index: Predicting Task-Objective Alignment in Pretrained Language Models",
+      "authors": [
+        "Ahmad Pouramini",
+        "Mahsa Afsharzadeh"
+      ],
+      "published": "2026-07-22",
+      "updated": "2026-07-22",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Large-scale pretrained language models such as T5 and BERT have demonstrated strong capabilities for generating structured knowledge. However, their performance depends on how closely the prompting strategy matches the objectives used during pretraining. We introduce the Maskability Index (MI), a quantitative metric that estimates whether a knowledge relation is better suited to masked-style prompting or prefix-style prompting in few-shot generation. MI is computed from differences in DepthRank scores between masked and unmasked templates, providing a principled measure of objective-template alignment. We evaluate MI on a diverse set of relations from the ATOMIC2020 knowledge base completion benchmark and show that it is positively correlated with downstream generation performance. These results indicate that MI can help select appropriate prompting templates and adaptation strategies for extracting relational knowledge from pretrained language models, especially in low-resource settings.",
+      "abs_url": "http://arxiv.org/abs/2607.20265v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20265v1",
+      "code_url": null
+    },
+    "2607.19956": {
+      "id": "2607.19956",
+      "version": "2607.19956v1",
+      "title": "When Does Knowledge Distillation Hurt? Reliability-Aware Distillation for Low-Resource Language Summarization",
+      "authors": [
+        "Dipto Sumit",
+        "Ankan Kumar Roy Srizon",
+        "Sadia Khair Rodela",
+        "Atia Haque Asha",
+        "Mourchona Afrin",
+        "Niloy Farhan",
+        "Farig Sadeque"
+      ],
+      "published": "2026-07-22",
+      "updated": "2026-07-22",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Knowledge distillation (KD) is a standard approach for compressing sequence-to-sequence models, but its per-sample effects are rarely examined. On the BanSum Bangla summarization benchmark, we find that standard KD improves ROUGE-L by only +0.0003 over a cross-entropy baseline, and that approximately 51.3% of training samples are estimated to actively harm student validation loss under standard KD. We propose two complementary reliability-aware distillation methods. CHAD (Counterfactual Harm-Aware Distillation) measures per-sample KD usefulness via gradient alignment with the validation loss direction and trains a lightweight gate that generalizes this counterfactual judgment to the full training set. EWAD+CPDP combines token-level entropy-weighted adaptive distillation with a capacity-proportional geometric constraint from a second, vocabulary-incompatible teacher. On BanSum, both methods substantially outperform standard KD: CHAD by +0.0173 ROUGE-L and EWAD+CPDP by +0.0219 ROUGE-L, where standard KD itself improves ROUGE-L by only +0.0003; despite using only 60M parameters, both outperform a fine-tuned Qwen 2.5-3B model (50x larger). We further evaluate the stronger method, EWAD+CPDP, across 15 typologically diverse XL-Sum languages organised into three sets, beating the CE-only baseline on 10/15 languages; gains are most reliable where the two teachers contribute complementary signal, and weakest where they have saturated or jointly weak target-language coverage. We release code and trained models to support reproducibility and further research on selective distillation.",
+      "abs_url": "http://arxiv.org/abs/2607.19956v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19956v1",
+      "code_url": null
+    },
+    "2607.19524": {
+      "id": "2607.19524",
+      "version": "2607.19524v1",
+      "title": "SynPre-FL: Synthetic data-driven pretraining integrated Federated Learning training framework",
+      "authors": [
+        "Akarsh K Nair",
+        "Muhammad Arifur Rahman",
+        "Nicholas Shopland",
+        "Andy Burton",
+        "Jun He",
+        "Yuan Shen",
+        "David Baldwin",
+        "Emma O'Dowd",
+        "Amna Burzic",
+        "Mufti Mahmud",
+        "David J. Brown"
+      ],
+      "published": "2026-07-21",
+      "updated": "2026-07-21",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.DC"
+      ],
+      "abstract": "Federated learning (FL) offers a promising approach to privacy-preserving clinical risk prediction, but its deployment remains limited by restricted data sharing, client heterogeneity, class imbalance, and the lack of realistic tabular electronic health record (EHR) benchmarks. Synthetic data generation may alleviate data scarcity, yet its integration with federated optimisation has received limited systematic study. We propose SynPre-FL, a unified framework combining high-fidelity synthetic EHR generation with synthetic-pretrained FL for robust prediction under non-IID conditions. A latent autoencoder-diffusion model generates privacy-preserving synthetic cohorts, which are used to warm-start federated training. This pretraining is followed by heterogeneity-aware optimisation using class-balanced local objectives, proximal regularisation, and adaptive server aggregation. Post-hoc calibration and federated-safe explainability support reliable and interpretable risk estimates. Experiments show that the synthetic generator preserves univariate, bivariate, and multivariate structure while protecting against membership-inference and reconstruction attacks. The generated data achieve strong downstream utility under TSTR, TRTS, and model-based evaluations. Across federated settings with 5, 10, and 15 heterogeneous clients, SynPre-FL consistently improves robustness and scalability over baseline methods, especially under severe non-IID fragmentation. Calibration improves probability reliability, while SHAP analysis produces stable and clinically coherent feature attributions across federation sizes. SynPre-FL therefore provides a practical and reproducible framework for combining synthetic data with FL to enable privacy-aware, interpretable, and robust clinical prediction from distributed tabular EHR data.",
+      "abs_url": "http://arxiv.org/abs/2607.19524v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19524v1",
+      "code_url": null
     }
   }
 }
