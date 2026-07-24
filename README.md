@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **426**
-- Recent 30 days: **63**
+- Total papers in JSON: **427**
+- Recent 30 days: **64**
 - Older than 30 days: **363**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,7 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-23**|**Expert Behavior Prior Reinforcement Learning**|cs.AI|[2607.21302v1](http://arxiv.org/abs/2607.21302v1)|null|
 |**2026-07-22**|**The Maskability Index: Predicting Task-Objective Alignment in Pretrained Language Models**|cs.CL, cs.AI|[2607.20265v1](http://arxiv.org/abs/2607.20265v1)|null|
 |**2026-07-22**|**When Does Knowledge Distillation Hurt? Reliability-Aware Distillation for Low-Resource Language Summarization**|cs.CL, cs.AI|[2607.19956v1](http://arxiv.org/abs/2607.19956v1)|null|
 |**2026-07-21**|**SynPre-FL: Synthetic data-driven pretraining integrated Federated Learning training framework**|cs.LG, cs.AI, cs.DC|[2607.19524v1](http://arxiv.org/abs/2607.19524v1)|null|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-16**|**ZeroUnlearn: Few-Shot Knowledge Unlearning in Large Language Models**|cs.LG, cs.AI, cs.CL|[2605.18879v3](http://arxiv.org/abs/2605.18879v3)|**[code](https://github.com/XMUDeepLIT/ZeroUnlearn)**|
 |**2026-05-16**|**Why Do Safety Guardrails Degrade Across Languages?**|cs.CL, cs.AI, cs.LG|[2605.17173v1](http://arxiv.org/abs/2605.17173v1)|null|
 |**2026-05-16**|**D$^2$Evo: Dual Difficulty-Aware Self-Evolution for Data-Efficient Reinforcement Learning**|cs.LG, cs.AI, cs.CL|[2605.17037v1](http://arxiv.org/abs/2605.17037v1)|null|
-|**2026-05-16**|**Retrieval-Based Multi-Label Legal Annotation: Extensible, Data-Efficient and Hallucination-Free**|cs.CL|[2605.16767v1](http://arxiv.org/abs/2605.16767v1)|null|
 
-README omitted **226** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **227** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

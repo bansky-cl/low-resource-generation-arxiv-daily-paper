@@ -9281,6 +9281,26 @@
       "abs_url": "http://arxiv.org/abs/2607.19524v1",
       "pdf_url": "https://arxiv.org/pdf/2607.19524v1",
       "code_url": null
+    },
+    "2607.21302": {
+      "id": "2607.21302",
+      "version": "2607.21302v1",
+      "title": "Expert Behavior Prior Reinforcement Learning",
+      "authors": [
+        "Gong Gao",
+        "Weidong Zhao",
+        "Xianhui Liu",
+        "Ning Jia"
+      ],
+      "published": "2026-07-23",
+      "updated": "2026-07-23",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Behavior prior reinforcement learning (BPRL) has emerged as a promising paradigm to improve sample efficiency in online reinforcement learning (RL) by leveraging policy priors derived from offline demonstrations. However, most existing BPRL methods rely on static offline datasets, which often suffer from low data diversity and suboptimal trajectory quality. This reliance restricts the effectiveness of policy priors, hindering both policy exploitation and stability during online training. Consequently, agents are prone to inefficient exploration and unstable learning dynamics. To address these limitations, we deviate from existing offline pre-training methods and propose an Expert Behavior Prior (EBP) algorithm. Specifically, we introduce a Q-guided conditional variational autoencoder (Q-CVAE) that learns to generate expert policy priors directly from the online replay buffer. This enables the generation of high-value actions for guiding policy updates without relying on pre-collected expert trajectories. To further enhance policy exploitation, we propose an expert policy guidance (EPG) mechanism that selects expert actions from a generative support set, and we integrate a policy gradient correction (PGC) module to harmonize Q-guidance with expert supervision, promoting stable and consistent policy improvement. Extensive experiments conducted on robotic control (Gym, PyBullet) and industrial control (DMControl) benchmarks demonstrate that EBP significantly outperforms state-of-the-art online RL algorithms, achieving higher sample efficiency and more stable convergence.",
+      "abs_url": "http://arxiv.org/abs/2607.21302v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.21302v1",
+      "code_url": null
     }
   }
 }
