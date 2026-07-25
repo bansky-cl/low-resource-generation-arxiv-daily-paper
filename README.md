@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.24
+## Updated on 2026.07.25
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **427**
-- Recent 30 days: **64**
-- Older than 30 days: **363**
+- Recent 30 days: **61**
+- Older than 30 days: **366**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -83,14 +83,14 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-25**|**Kalman Prototypical Networks for Few-shot Fault Detection in Combined Cycle Gas Turbines**|cs.AI|[2606.26710v1](http://arxiv.org/abs/2606.26710v1)|null|
 |**2026-06-25**|**Comparing BERT Sentence-Pair Classification and Few-Shot LLM Prompting for Detecting Threat and Solution Framing in German Climate News**|cs.CL|[2606.26489v1](http://arxiv.org/abs/2606.26489v1)|null|
 |**2026-06-25**|**Soft Token Alignment for Cross-Lingual Reasoning**|cs.CL|[2606.26466v1](http://arxiv.org/abs/2606.26466v1)|null|
-|**2026-06-24**|**Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect**|cs.CL|[2606.26003v2](http://arxiv.org/abs/2606.26003v2)|null|
-|**2026-06-24**|**Riazi-8B: An Urdu Large Language Model for Mathematical Reasoning**|cs.CL|[2606.25568v1](http://arxiv.org/abs/2606.25568v1)|null|
-|**2026-06-24**|**Neural Machine Translation for Low-Resource Tangkhul--English**|cs.CL, cs.AI|[2606.25365v1](http://arxiv.org/abs/2606.25365v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-24**|**Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect**|cs.CL|[2606.26003v2](http://arxiv.org/abs/2606.26003v2)|null|
+|**2026-06-24**|**Riazi-8B: An Urdu Large Language Model for Mathematical Reasoning**|cs.CL|[2606.25568v1](http://arxiv.org/abs/2606.25568v1)|null|
+|**2026-06-24**|**Neural Machine Translation for Low-Resource Tangkhul--English**|cs.CL, cs.AI|[2606.25365v1](http://arxiv.org/abs/2606.25365v1)|null|
 |**2026-06-23**|**Text Distance from Nested and Hierarchical Repetitions: A Compression-Based Perspective**|cs.CL, cs.IT|[2607.05416v1](http://arxiv.org/abs/2607.05416v1)|null|
 |**2026-06-23**|**Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models**|cs.AI, cs.CL|[2606.24841v1](http://arxiv.org/abs/2606.24841v1)|**[code](https://github.com/puraminy/MTO/)**|
 |**2026-06-23**|**Neural Network-Based Parametric Model Reduction for Predicting Turbulent Flow for Different Vehicle Geometries**|cs.CE, cs.AI|[2606.24265v1](http://arxiv.org/abs/2606.24265v1)|null|
