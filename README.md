@@ -7,7 +7,7 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.27
+## Updated on 2026.07.28
 
 ![Monthly Trend](imgs/trend.png)
 
