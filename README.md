@@ -7,21 +7,27 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.26
+## Updated on 2026.07.27
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **427**
-- Recent 30 days: **56**
-- Older than 30 days: **371**
+- Total papers in JSON: **433**
+- Recent 30 days: **60**
+- Older than 30 days: **373**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-24**|**Complexity Bounds and Approaches to Learning Projected Gradient Descent Solver Iterates**|cs.LG|[2607.22467v1](http://arxiv.org/abs/2607.22467v1)|null|
+|**2026-07-24**|**A Factorial Study of Synthetic Data Generation for Low-Resource Machine Translation using Grammar Books**|cs.CL|[2607.22376v1](http://arxiv.org/abs/2607.22376v1)|null|
+|**2026-07-24**|**Towards Trustworthy and Cost-Efficient Data Integration: From Naïve RAG to Agentic RAG**|cs.DB, cs.AI|[2607.22319v1](http://arxiv.org/abs/2607.22319v1)|null|
+|**2026-07-24**|**Biomedical Machine Translation for Low-Resource Arabic-Script Languages via Cross-Lingual Transfer and LoRA Adapter Merging**|cs.CL|[2607.22300v1](http://arxiv.org/abs/2607.22300v1)|null|
+|**2026-07-24**|**One Hand Watches The Other: Dynamic Multi-Agent Cooperation for Sample-Efficient Bimanual Manipulation in Dynamic Environments**|cs.RO, cs.AI, cs.LG|[2607.22119v1](http://arxiv.org/abs/2607.22119v1)|null|
+|**2026-07-24**|**MEUSLI: a Multilingual Projector for LLM-based ASR and Beyond**|cs.CL, cs.AI, eess.AS|[2607.22100v1](http://arxiv.org/abs/2607.22100v1)|null|
 |**2026-07-23**|**Expert Behavior Prior Reinforcement Learning**|cs.AI|[2607.21302v1](http://arxiv.org/abs/2607.21302v1)|null|
 |**2026-07-22**|**The Maskability Index: Predicting Task-Objective Alignment in Pretrained Language Models**|cs.CL, cs.AI|[2607.20265v1](http://arxiv.org/abs/2607.20265v1)|null|
 |**2026-07-22**|**When Does Knowledge Distillation Hurt? Reliability-Aware Distillation for Low-Resource Language Summarization**|cs.CL, cs.AI|[2607.19956v1](http://arxiv.org/abs/2607.19956v1)|null|
@@ -76,13 +82,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-29**|**Translating Natural Language to Strategic Temporal Specifications via LLMs**|cs.MA, cs.AI|[2606.30441v2](http://arxiv.org/abs/2606.30441v2)|null|
 |**2026-06-29**|**ARMOR: Adaptive Retriever Optimization for Low-Resource Telecom Question Answering**|cs.IR, cs.AI, cs.CL, cs.LG|[2606.29706v1](http://arxiv.org/abs/2606.29706v1)|**[code](https://github.com/heshandevaka/ARMOR.git)**|
 |**2026-06-28**|**KrishokChat: A Citation-Grounded Dataset and Benchmark for Bengali Agricultural Advisory**|cs.LG|[2606.29243v1](http://arxiv.org/abs/2606.29243v1)|null|
-|**2026-06-26**|**Beyond Sparse Supervision: Diffusion-Guided Learning for Few-Shot Graph Fraud Detection**|cs.LG, cs.AI|[2606.28134v1](http://arxiv.org/abs/2606.28134v1)|null|
-|**2026-06-26**|**SHARD: cell-keyed residual splitting for alignment-resistant private dense retrieval**|cs.CR, cs.AI, cs.IR|[2606.27976v1](http://arxiv.org/abs/2606.27976v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-26**|**Beyond Sparse Supervision: Diffusion-Guided Learning for Few-Shot Graph Fraud Detection**|cs.LG, cs.AI|[2606.28134v1](http://arxiv.org/abs/2606.28134v1)|null|
+|**2026-06-26**|**SHARD: cell-keyed residual splitting for alignment-resistant private dense retrieval**|cs.CR, cs.AI, cs.IR|[2606.27976v1](http://arxiv.org/abs/2606.27976v1)|null|
 |**2026-06-25**|**Causal Connections: Leveraging Multilingual Fine-Tuning for Financial QA@FinCausal 2026**|cs.CL|[2606.27446v1](http://arxiv.org/abs/2606.27446v1)|null|
 |**2026-06-25**|**Multilingual Reasoning Cascades Need More Context**|cs.CL|[2606.27306v1](http://arxiv.org/abs/2606.27306v1)|null|
 |**2026-06-25**|**Kalman Prototypical Networks for Few-shot Fault Detection in Combined Cycle Gas Turbines**|cs.AI|[2606.26710v1](http://arxiv.org/abs/2606.26710v1)|null|
@@ -221,14 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-20**|**DISC: Decoupling Instruction from State-Conditioned Control via Policy Generation**|cs.RO, cs.AI, cs.LG|[2605.20856v1](http://arxiv.org/abs/2605.20856v1)|**[code](https://github.com/ReNginx/DISC)**|
 |**2026-05-20**|**Divide-Prompt-Refine: a Training-Free, Structure-Aware Framework for Biomedical Abstract Generation**|cs.CL|[2605.20628v2](http://arxiv.org/abs/2605.20628v2)|**[code](https://github.com/ScienceNLP-Lab/MultiTagger-v2/tree/main/DPR-BAG)**|
 |**2026-05-19**|**Can Large Language Models Reliably Correct Errors in Low-Resource ASR? A Contamination-Aware Case Study on West Frisian**|cs.CL|[2605.19711v1](http://arxiv.org/abs/2605.19711v1)|null|
-|**2026-05-18**|**The Annotation Scarcity Paradox in Low-Resource NLP Evaluation: A Decade of Acceleration and Emerging Constraints**|cs.CL|[2605.19066v1](http://arxiv.org/abs/2605.19066v1)|null|
-|**2026-05-18**|**Ancient Greek to Modern Greek Machine Translation: A Novel Benchmark and Fine-Tuning Experiments on LLMs and NMT Models**|cs.CL|[2605.18504v1](http://arxiv.org/abs/2605.18504v1)|null|
-|**2026-05-18**|**Multilingual jailbreaking of LLMs using low-resource languages**|cs.CL, cs.AI|[2605.18239v1](http://arxiv.org/abs/2605.18239v1)|null|
-|**2026-05-16**|**ZeroUnlearn: Few-Shot Knowledge Unlearning in Large Language Models**|cs.LG, cs.AI, cs.CL|[2605.18879v3](http://arxiv.org/abs/2605.18879v3)|**[code](https://github.com/XMUDeepLIT/ZeroUnlearn)**|
-|**2026-05-16**|**Why Do Safety Guardrails Degrade Across Languages?**|cs.CL, cs.AI, cs.LG|[2605.17173v1](http://arxiv.org/abs/2605.17173v1)|null|
-|**2026-05-16**|**D$^2$Evo: Dual Difficulty-Aware Self-Evolution for Data-Efficient Reinforcement Learning**|cs.LG, cs.AI, cs.CL|[2605.17037v1](http://arxiv.org/abs/2605.17037v1)|null|
 
-README omitted **227** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **233** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
