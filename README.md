@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.07.28
+## Updated on 2026.07.29
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **436**
-- Recent 30 days: **63**
-- Older than 30 days: **373**
+- Recent 30 days: **62**
+- Older than 30 days: **374**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -84,12 +84,12 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-29**|**Bridging Scientific Heritage: An Arabic--Russian Parallel Corpus and LLM Benchmark for Sustainable Knowledge Transfer**|cs.CL|[2606.30943v1](http://arxiv.org/abs/2606.30943v1)|null|
 |**2026-06-29**|**Translating Natural Language to Strategic Temporal Specifications via LLMs**|cs.MA, cs.AI|[2606.30441v2](http://arxiv.org/abs/2606.30441v2)|null|
 |**2026-06-29**|**ARMOR: Adaptive Retriever Optimization for Low-Resource Telecom Question Answering**|cs.IR, cs.AI, cs.CL, cs.LG|[2606.29706v1](http://arxiv.org/abs/2606.29706v1)|**[code](https://github.com/heshandevaka/ARMOR.git)**|
-|**2026-06-28**|**KrishokChat: A Citation-Grounded Dataset and Benchmark for Bengali Agricultural Advisory**|cs.LG|[2606.29243v1](http://arxiv.org/abs/2606.29243v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-06-28**|**KrishokChat: A Citation-Grounded Dataset and Benchmark for Bengali Agricultural Advisory**|cs.LG|[2606.29243v1](http://arxiv.org/abs/2606.29243v1)|null|
 |**2026-06-26**|**Beyond Sparse Supervision: Diffusion-Guided Learning for Few-Shot Graph Fraud Detection**|cs.LG, cs.AI|[2606.28134v1](http://arxiv.org/abs/2606.28134v1)|null|
 |**2026-06-26**|**SHARD: cell-keyed residual splitting for alignment-resistant private dense retrieval**|cs.CR, cs.AI, cs.IR|[2606.27976v1](http://arxiv.org/abs/2606.27976v1)|null|
 |**2026-06-25**|**Causal Connections: Leveraging Multilingual Fine-Tuning for Financial QA@FinCausal 2026**|cs.CL|[2606.27446v1](http://arxiv.org/abs/2606.27446v1)|null|
