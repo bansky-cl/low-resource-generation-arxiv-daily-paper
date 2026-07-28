@@ -7946,21 +7946,21 @@
     },
     "2606.25365": {
       "id": "2606.25365",
-      "version": "2606.25365v1",
+      "version": "2606.25365v2",
       "title": "Neural Machine Translation for Low-Resource Tangkhul--English",
       "authors": [
         "Chormi Zimik Vashai",
         "Agniva Maiti"
       ],
       "published": "2026-06-24",
-      "updated": "2026-06-24",
+      "updated": "2026-07-25",
       "categories": [
         "cs.CL",
         "cs.AI"
       ],
       "abstract": "We present a study on low-resource machine translation for the Tangkhul-English (nmf-en) language pair. Tangkhul is a severely under-resourced Tibeto-Burman language spoken primarily in Manipur, India, with virtually no prior natural language processing infrastructure. We describe two systems: (1) a primary system based on ByT5-large fine-tuned on 38,336 Tangkhul-English parallel sentence pairs, and (2) a contrastive system based on mT5-small fine-tuned on the same corpus. Our primary ByT5-large system achieves a corpus BLEU score of 39.97, chrF++ of 58.07, BERTScore F1 of 0.8104, and COMET (wmt22-comet-da) of 0.7302 on a held-out test set of 3,856 sentences. We further discuss the orthographic challenges specific to Tangkhul's Latin-script diacritics, the domain bias of our training corpus (which comprises biblical text, stories, and conversational data), and avenues for future improvement through data diversification and domain adaptation.",
-      "abs_url": "http://arxiv.org/abs/2606.25365v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.25365v1",
+      "abs_url": "http://arxiv.org/abs/2606.25365v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.25365v2",
       "code_url": null
     },
     "2606.24915": {
@@ -9284,7 +9284,7 @@
     },
     "2607.21302": {
       "id": "2607.21302",
-      "version": "2607.21302v1",
+      "version": "2607.21302v2",
       "title": "Expert Behavior Prior Reinforcement Learning",
       "authors": [
         "Gong Gao",
@@ -9293,13 +9293,13 @@
         "Ning Jia"
       ],
       "published": "2026-07-23",
-      "updated": "2026-07-23",
+      "updated": "2026-07-27",
       "categories": [
         "cs.AI"
       ],
       "abstract": "Behavior prior reinforcement learning (BPRL) has emerged as a promising paradigm to improve sample efficiency in online reinforcement learning (RL) by leveraging policy priors derived from offline demonstrations. However, most existing BPRL methods rely on static offline datasets, which often suffer from low data diversity and suboptimal trajectory quality. This reliance restricts the effectiveness of policy priors, hindering both policy exploitation and stability during online training. Consequently, agents are prone to inefficient exploration and unstable learning dynamics. To address these limitations, we deviate from existing offline pre-training methods and propose an Expert Behavior Prior (EBP) algorithm. Specifically, we introduce a Q-guided conditional variational autoencoder (Q-CVAE) that learns to generate expert policy priors directly from the online replay buffer. This enables the generation of high-value actions for guiding policy updates without relying on pre-collected expert trajectories. To further enhance policy exploitation, we propose an expert policy guidance (EPG) mechanism that selects expert actions from a generative support set, and we integrate a policy gradient correction (PGC) module to harmonize Q-guidance with expert supervision, promoting stable and consistent policy improvement. Extensive experiments conducted on robotic control (Gym, PyBullet) and industrial control (DMControl) benchmarks demonstrate that EBP significantly outperforms state-of-the-art online RL algorithms, achieving higher sample efficiency and more stable convergence.",
-      "abs_url": "http://arxiv.org/abs/2607.21302v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.21302v1",
+      "abs_url": "http://arxiv.org/abs/2607.21302v2",
+      "pdf_url": "https://arxiv.org/pdf/2607.21302v2",
       "code_url": null
     },
     "2607.22376": {
@@ -9420,6 +9420,65 @@
       "abstract": "Multi-stream robot manipulation policies achieve unparalleled sample efficiency and generalization by modeling actions relative to environmental reference frames. However, existing approaches typically assume these frames to be strictly exogenous. This causal assumption collapses in dynamic settings, such as when a single robot arm manipulates a moving object or when two arms coordinate, where each arm effectively becomes part of the dynamic environment of the other. We propose DynaMAC, a lightweight, policy-agnostic framework that resolves this causal limitation while preserving the sample efficiency, computational speed, and flexibility of multi-stream policies, DynaMAC treats the opposite arm as a dynamic task parameter, thereby providing a unified formulation for dynamic manipulation and bimanual coordination without requiring an explicit leader-follower relationship. To rigorously evaluate these capabilities, we introduce DynaBench, a novel benchmark for robot manipulation in dynamic environments. Across both dynamic environments and bimanual manipulation tasks, DynaMAC outperforms leading probabilistic and generative baselines by over 35 percentage points while requiring 20 times fewer samples. Crucially, DynaMAC generalizes zero-shot from static demonstrations to dynamic environments, substantially simplifying data collection and establishing an elegant bridge toward human-robot collaboration.",
       "abs_url": "http://arxiv.org/abs/2607.22119v1",
       "pdf_url": "https://arxiv.org/pdf/2607.22119v1",
+      "code_url": null
+    },
+    "2607.24515": {
+      "id": "2607.24515",
+      "version": "2607.24515v1",
+      "title": "Systematic Analysis of Large Language Models and Transformer-Based Machine Translation for English-Tamil and Tamil-English Across Diverse Datasets",
+      "authors": [
+        "Sriharshaa S",
+        "Sangeetha Sivanesan"
+      ],
+      "published": "2026-07-27",
+      "updated": "2026-07-27",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "The challenge of Machine Translation for low resource languages such as Tamil is primarily caused by the restricted amount of parallel data for these languages, as well as their substantial amount of domain variation and morphological complexity. This research presents the comprehensive evaluation of the performance of several multilingual translation models on English-Tamil and Tamil-English translations across multiple datasets: NTREX, EnTamV2, WikiMatrix and PMIndia. This study evaluates supervised NMT systems, NLLB and mBART, using both the BLEU and chrF metric, and examines how these systems perform on data of different quality levels and domains. This performs an attention-based analysis to increase model interpretability by visualising the alignments of tokens in an English source text and their Tamil translations and vice-versa to provide insight into how they make translations. This study also demonstrates that using in-context prompting can provide an excellent way to perform a few-shot translation of English to Tamil and Tamil-English using a Tamil capable TamilLaMA model, and compare this to supervised approaches qualitatively. These findings show that the quality of the datasets and their alignment with the domain will greatly affect the performance of the model, that attention-based mechanisms can aid in explain ability, and that few-shot large language models can still produce structurally coherent translations of Tamil.",
+      "abs_url": "http://arxiv.org/abs/2607.24515v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.24515v1",
+      "code_url": null
+    },
+    "2607.23538": {
+      "id": "2607.23538",
+      "version": "2607.23538v1",
+      "title": "Guiding Language Models to Be More Empathetic: Culturally Sensitive Mental Health Advice Generation Through Human-LLM Collaboration",
+      "authors": [
+        "Fatema Tuj Johora Faria",
+        "Mukaffi Bin Moin",
+        "Md. Mahfuzur Rahman",
+        "Khan Md Hasib",
+        "Jubayer Al Mahmud",
+        "M. F. Mridha"
+      ],
+      "published": "2026-07-26",
+      "updated": "2026-07-26",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Despite recent advances in large language models (LLMs), their ability to generate empathetic mental health counseling responses in low-resource languages remains largely unexplored. To address this gap, we curate 625 authentic mental health cases from three complementary sources: (1) publicly available Facebook posts discussing mental health concerns, (2) transcripts from the Bangladeshi television program \"Ami Akhon Ki Korbo\", and (3) anonymized student questionnaire responses covering diverse emotional and psychological challenges. Based on these cases, we build an evaluation corpus comprising advice written by licensed clinical psychologists and responses generated by three modern proprietary LLMs: GPT-4o Mini, Claude 4.5 Haiku, and Gemini 2.5 Pro. We further propose the Role-Playing Reflective Chain-of-Thought Advisory Framework (RP-RCAF), a task-specific prompting strategy that combines expert-authored few-shot examples with structured self-reflection to produce supportive, culturally aware, and ethically aligned counseling through a compassionate advisor persona. We also introduce the Grok 4-Based Response Evaluation and Scoring Framework (G-REFS), which integrates automated assessment with expert psychologist validation across emotional sensitivity, cultural appropriateness, linguistic clarity, and ethical soundness. Experimental results show that RP-RCAF consistently outperforms conventional prompting across all evaluated models and produces responses that more closely align with professional psychological counseling.",
+      "abs_url": "http://arxiv.org/abs/2607.23538v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.23538v1",
+      "code_url": null
+    },
+    "2607.23408": {
+      "id": "2607.23408",
+      "version": "2607.23408v1",
+      "title": "NeurGO: Learning to Generate Elite Candidates for Meta-Black-Box Expensive Optimization",
+      "authors": [
+        "Jintao He",
+        "Huixiang Zhen",
+        "Wenyin Gong"
+      ],
+      "published": "2026-07-26",
+      "updated": "2026-07-26",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Expensive black-box optimization is ubiquitous in science and engineering, where function evaluations are costly and the evaluation budget is limited. Traditional evolutionary algorithms and Meta-BlackBox Optimization (MetaBBO) approaches typically consume most evaluations on candidate selection, often wasting precious budget on inferior solutions. Although surrogate-assisted evolution and Bayesian optimization aim to reduce evaluations through surrogate models, constructing an accurate global model from limited data remains challenging, and model bias can easily trap the search in local optima. To overcome these limitations, we propose NeurGO, a generative MetaBBO framework that directly synthesizes elite candidates from historical population states. Specifically, we employ an attention-based encoder to capture the population-level search trend and condition a decoder on this representation to generate high-quality candidates, avoiding the expensive evaluation of large offspring pools. We then design a quality-diversity loss to maintain solution quality and population diversity throughout the search. Through extensive benchmarking on CEC 2008 and the COCO BBOB test suites, our method achieves better optimization performance under the same evaluation budget and exhibits faster convergence.",
+      "abs_url": "http://arxiv.org/abs/2607.23408v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.23408v1",
       "code_url": null
     }
   }
