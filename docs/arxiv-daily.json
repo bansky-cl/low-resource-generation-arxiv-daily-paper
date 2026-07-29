@@ -9424,20 +9424,21 @@
     },
     "2607.24515": {
       "id": "2607.24515",
-      "version": "2607.24515v1",
+      "version": "2607.24515v2",
       "title": "Systematic Analysis of Large Language Models and Transformer-Based Machine Translation for English-Tamil and Tamil-English Across Diverse Datasets",
       "authors": [
         "Sriharshaa S",
-        "Sangeetha Sivanesan"
+        "Sangeetha Sivanesan",
+        "Jaya Nirmala S"
       ],
       "published": "2026-07-27",
-      "updated": "2026-07-27",
+      "updated": "2026-07-28",
       "categories": [
         "cs.CL"
       ],
       "abstract": "The challenge of Machine Translation for low resource languages such as Tamil is primarily caused by the restricted amount of parallel data for these languages, as well as their substantial amount of domain variation and morphological complexity. This research presents the comprehensive evaluation of the performance of several multilingual translation models on English-Tamil and Tamil-English translations across multiple datasets: NTREX, EnTamV2, WikiMatrix and PMIndia. This study evaluates supervised NMT systems, NLLB and mBART, using both the BLEU and chrF metric, and examines how these systems perform on data of different quality levels and domains. This performs an attention-based analysis to increase model interpretability by visualising the alignments of tokens in an English source text and their Tamil translations and vice-versa to provide insight into how they make translations. This study also demonstrates that using in-context prompting can provide an excellent way to perform a few-shot translation of English to Tamil and Tamil-English using a Tamil capable TamilLaMA model, and compare this to supervised approaches qualitatively. These findings show that the quality of the datasets and their alignment with the domain will greatly affect the performance of the model, that attention-based mechanisms can aid in explain ability, and that few-shot large language models can still produce structurally coherent translations of Tamil.",
-      "abs_url": "http://arxiv.org/abs/2607.24515v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.24515v1",
+      "abs_url": "http://arxiv.org/abs/2607.24515v2",
+      "pdf_url": "https://arxiv.org/pdf/2607.24515v2",
       "code_url": null
     },
     "2607.23538": {
@@ -9479,6 +9480,23 @@
       "abstract": "Expensive black-box optimization is ubiquitous in science and engineering, where function evaluations are costly and the evaluation budget is limited. Traditional evolutionary algorithms and Meta-BlackBox Optimization (MetaBBO) approaches typically consume most evaluations on candidate selection, often wasting precious budget on inferior solutions. Although surrogate-assisted evolution and Bayesian optimization aim to reduce evaluations through surrogate models, constructing an accurate global model from limited data remains challenging, and model bias can easily trap the search in local optima. To overcome these limitations, we propose NeurGO, a generative MetaBBO framework that directly synthesizes elite candidates from historical population states. Specifically, we employ an attention-based encoder to capture the population-level search trend and condition a decoder on this representation to generate high-quality candidates, avoiding the expensive evaluation of large offspring pools. We then design a quality-diversity loss to maintain solution quality and population diversity throughout the search. Through extensive benchmarking on CEC 2008 and the COCO BBOB test suites, our method achieves better optimization performance under the same evaluation budget and exhibits faster convergence.",
       "abs_url": "http://arxiv.org/abs/2607.23408v1",
       "pdf_url": "https://arxiv.org/pdf/2607.23408v1",
+      "code_url": null
+    },
+    "2607.25415": {
+      "id": "2607.25415",
+      "version": "2607.25415v1",
+      "title": "A Control System, a Dataset, and a Recipe for Making Frozen LLM Agents Learn a Domain",
+      "authors": [
+        "Debjyoti Paul"
+      ],
+      "published": "2026-07-28",
+      "updated": "2026-07-28",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Production LLM agents are increasingly assembled from a frozen model wrapped in a harness: a prompt template, a tool set, a memory/retrieval layer, a planning strategy, and a verification policy. Two 2026 systems, Meta-Harness (Lee et al., 2026) and HyperAgents (Meta AI, 2026), show that this harness can itself be optimized or even self-rewritten by an agentic proposer -- at the cost of either an expensive code-search loop or unconstrained self-modifying code, neither of which is auditable or usable with a fully black-box model API. We take a narrower, more constrained position: treat the harness as a small, fixed, human-legible action space and learn a policy over it online with classic sample-efficient reinforcement learning (an $ε$-greedy contextual bandit and REINFORCE), scored against a multi-objective reward (task success, verifier score, policy compliance, cost, latency, and an unsupported-claim penalty). We instantiate this control system with DSPy (Khattab et al., 2024) as both the context assembler and the source of the strongest non-adaptive baseline (a DSPy BootstrapFewShot static prompt), and evaluate it across three verifiable task domains -- tool-use workflows, code generation (HumanEval), and multi-hop retrieval QA (HotpotQA) -- and two model providers (a local Ollama model and AWS Bedrock). We release the harness-control-system code, the cross-domain verifiable task suite, the full trajectory/reward-decomposition logs from training, and a provider-agnostic deployment recipe for applying this to a new organization's domain and verification setup.",
+      "abs_url": "http://arxiv.org/abs/2607.25415v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25415v1",
       "code_url": null
     }
   }
