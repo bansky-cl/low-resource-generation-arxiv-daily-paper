@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **437**
-- Recent 30 days: **60**
+- Total papers in JSON: **440**
+- Recent 30 days: **63**
 - Older than 30 days: **377**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-29**|**Equilibrium Training of Energy-Based Models with Parallel Trajectory Tempering**|cs.LG|[2607.27077v1](http://arxiv.org/abs/2607.27077v1)|null|
+|**2026-07-29**|**From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence**|cs.AI, cs.RO|[2607.26903v1](http://arxiv.org/abs/2607.26903v1)|null|
+|**2026-07-28**|**Evaluating Prompt Scope and Demonstration Similarity in Local LLM Machine Translation**|cs.CL|[2607.26286v1](http://arxiv.org/abs/2607.26286v1)|null|
 |**2026-07-28**|**A Control System, a Dataset, and a Recipe for Making Frozen LLM Agents Learn a Domain**|cs.AI|[2607.25415v1](http://arxiv.org/abs/2607.25415v1)|null|
 |**2026-07-27**|**Systematic Analysis of Large Language Models and Transformer-Based Machine Translation for English-Tamil and Tamil-English Across Diverse Datasets**|cs.CL|[2607.24515v2](http://arxiv.org/abs/2607.24515v2)|null|
 |**2026-07-26**|**Guiding Language Models to Be More Empathetic: Culturally Sensitive Mental Health Advice Generation Through Human-LLM Collaboration**|cs.CL|[2607.23538v1](http://arxiv.org/abs/2607.23538v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-21**|**Towards a General Intelligence and Interface for Wearable Health Data**|cs.AI|[2605.22759v2](http://arxiv.org/abs/2605.22759v2)|null|
 |**2026-05-21**|**Polite on the Surface, Wrong in Practice: A Curated Dataset for Fixing Honorific Failures in Multilingual Bangla Generation**|cs.CL|[2605.22487v1](http://arxiv.org/abs/2605.22487v1)|**[code](https://github.com/ashuvo25/Bangla_Application_LLM/tree/main)**|
 |**2026-05-21**|**Evaluation of Chunking Strategies for Effective Text Embedding in Low-Resource Language on Agricultural Documents**|cs.CL|[2605.22203v1](http://arxiv.org/abs/2605.22203v1)|null|
-|**2026-05-21**|**A Comparative Study of Language Models for Khmer Retrieval-Augmented Question Answering**|cs.CL|[2605.22099v1](http://arxiv.org/abs/2605.22099v1)|null|
-|**2026-05-21**|**Engineering Hybrid Physics-Informed Neural Networks for Next-Generation Electricity Systems: A State-of-the-Art Review**|eess.SY, cs.AI, cs.LG, cs.NE|[2605.21903v1](http://arxiv.org/abs/2605.21903v1)|null|
-|**2026-05-20**|**Velocityformer: Broken-Symmetry-Matched Equivariant Graph Transformers for Cosmological Velocity Reconstruction**|astro-ph.CO, cs.LG|[2605.21483v1](http://arxiv.org/abs/2605.21483v1)|null|
 
-README omitted **237** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **240** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

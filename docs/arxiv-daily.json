@@ -9498,6 +9498,61 @@
       "abs_url": "http://arxiv.org/abs/2607.25415v1",
       "pdf_url": "https://arxiv.org/pdf/2607.25415v1",
       "code_url": null
+    },
+    "2607.26903": {
+      "id": "2607.26903",
+      "version": "2607.26903v1",
+      "title": "From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence",
+      "authors": [
+        "Jia Luo"
+      ],
+      "published": "2026-07-29",
+      "updated": "2026-07-29",
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "The key bottleneck in embodied AI is not model architecture but data. Although billions of human manipulation videos exist online, robots cannot directly learn from them due to the embodiment gap between human morphology and robot hardware. We introduce Pegasus, a low-resource framework that bridges this gap by translating human demonstrations into robot-learnable data through structured knowledge transfer. Instead of relying on raw video prompts, Pegasus constructs a graph-based intermediate representation: a Task Graph extracted from human videos is transformed through Affordance and Constraint Graphs into a Robot Planning Graph for robot-conditioned video generation. A hierarchical affordance latent space models the relationship between object states, affordances, and tasks, enabling generalization beyond object identities. A closed-loop physics verifier further filters invalid generations using kinematic feasibility, collision constraints, and joint limits. We evaluate Pegasus across a range of egocentric manipulation benchmarks, including GTEA Gaze+ and EPIC-KITCHENS-100, and diverse robot embodiments, assessing Task Correctness, Executability, State Consistency, and Learnability. Results demonstrate reliable cross-embodiment translation and show that robot data generation can be reframed from a hardware collection problem into a scalable, low-resource knowledge transfer problem.",
+      "abs_url": "http://arxiv.org/abs/2607.26903v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26903v1",
+      "code_url": null
+    },
+    "2607.26286": {
+      "id": "2607.26286",
+      "version": "2607.26286v1",
+      "title": "Evaluating Prompt Scope and Demonstration Similarity in Local LLM Machine Translation",
+      "authors": [
+        "Mihael Arcan"
+      ],
+      "published": "2026-07-28",
+      "updated": "2026-07-28",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large language models (LLMs) are increasingly used as general-purpose translation systems, but their behavior is usually evaluated under a single prompt shape: translate one source sentence into one target language. In practice, users may ask for one target language, for several related languages at once, or for translations conditioned on examples. This paper studies prompt scope and demonstration selection as experimental variables for local LLM machine translation. We evaluate English-to-Romance and English-to-Germanic translation on the full FLORES devtest split for nine official European Union languages. We compare three local instruction-tuned LLMs, llama3.2:3b, mistral:latest, and qwen2.5:14b, against dedicated MT baselines from OPUS-MT and NLLB-200. We test zero-shot prompting and k=5 few-shot prompting with random, lexical-similarity, and embedding-similarity demonstration selection. We also compare single-target prompts with JSON-formatted family-scope prompts that request all languages in a family at once. Results show that dedicated MT systems remain strongest overall, especially for Germanic languages. Few-shot prompting helps mistral:latest and qwen2.5:14b, but hurts llama3.2:3b; embedding retrieval is best on average for the stronger LLMs, but its advantage over random and lexical examples is modest. Family-scope prompting is feasible for stronger local LLMs but exposes structured-output failures in smaller models. These findings motivate evaluating LLM translation not only by language pair and metric, but also by prompt scope, retrieval strategy, and multi-target compliance.",
+      "abs_url": "http://arxiv.org/abs/2607.26286v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26286v1",
+      "code_url": null
+    },
+    "2607.27077": {
+      "id": "2607.27077",
+      "version": "2607.27077v1",
+      "title": "Equilibrium Training of Energy-Based Models with Parallel Trajectory Tempering",
+      "authors": [
+        "Nicolas Béreux",
+        "Aurélien Decelle",
+        "Cyril Furtlehner",
+        "Beatriz Seoane"
+      ],
+      "published": "2026-07-29",
+      "updated": "2026-07-29",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Energy-Based Models (EBMs) provide an interpretable framework for generative modeling of scientific data, but poor Markov Chain Monte Carlo mixing often limits their reliability. We introduce a training algorithm based on Parallel Trajectory Tempering (PTT), which exploits the continuity of the optimization path to maintain equilibrium sampling throughout learning. This enables stable and fast training on highly multimodal and data-scarce scientific datasets. Combined with reservoir sampling and adaptive optimization, PTT has a computational cost comparable to Persistent Contrastive Divergence, making it a practical replacement for standard training methods. It also provides direct estimates of thermalization times, equilibrium samples from trained models, and accurate log-likelihoods at essentially no additional cost. Experiments on Restricted Boltzmann Machines show that PTT consistently outperforms existing EBM training approaches. On discrete tabular data, it also surpasses state-of-the-art deep generative models, yielding higher-quality samples and greater robustness to overfitting and limited data. Our results make equilibrium maximum-likelihood training of EBMs practical and computationally efficient.",
+      "abs_url": "http://arxiv.org/abs/2607.27077v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27077v1",
+      "code_url": null
     }
   }
 }
