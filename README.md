@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **440**
-- Recent 30 days: **57**
+- Total papers in JSON: **441**
+- Recent 30 days: **58**
 - Older than 30 days: **383**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,7 +22,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
-|**2026-07-29**|**Equilibrium Training of Energy-Based Models with Parallel Trajectory Tempering**|cs.LG|[2607.27077v1](http://arxiv.org/abs/2607.27077v1)|null|
+|**2026-07-30**|**Using Large Language Models for Idea Generation in Innovation**|cs.AI, cs.CL, econ.GN|[2607.27553v1](http://arxiv.org/abs/2607.27553v1)|null|
+|**2026-07-29**|**Equilibrium Training of Energy-Based Models with Parallel Trajectory Tempering**|cs.LG, cond-mat.dis-nn, cond-mat.stat-mech|[2607.27077v1](http://arxiv.org/abs/2607.27077v1)|null|
 |**2026-07-29**|**From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence**|cs.AI, cs.RO|[2607.26903v1](http://arxiv.org/abs/2607.26903v1)|null|
 |**2026-07-28**|**Evaluating Prompt Scope and Demonstration Similarity in Local LLM Machine Translation**|cs.CL|[2607.26286v1](http://arxiv.org/abs/2607.26286v1)|null|
 |**2026-07-28**|**A Control System, a Dataset, and a Recipe for Making Frozen LLM Agents Learn a Domain**|cs.AI|[2607.25415v1](http://arxiv.org/abs/2607.25415v1)|null|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-21**|**Test-Time Training Undermines Safety Guardrails**|cs.LG, cs.AI|[2605.22984v1](http://arxiv.org/abs/2605.22984v1)|null|
 |**2026-05-21**|**Towards a General Intelligence and Interface for Wearable Health Data**|cs.AI|[2605.22759v2](http://arxiv.org/abs/2605.22759v2)|null|
 |**2026-05-21**|**Polite on the Surface, Wrong in Practice: A Curated Dataset for Fixing Honorific Failures in Multilingual Bangla Generation**|cs.CL|[2605.22487v1](http://arxiv.org/abs/2605.22487v1)|**[code](https://github.com/ashuvo25/Bangla_Application_LLM/tree/main)**|
-|**2026-05-21**|**Evaluation of Chunking Strategies for Effective Text Embedding in Low-Resource Language on Agricultural Documents**|cs.CL|[2605.22203v1](http://arxiv.org/abs/2605.22203v1)|null|
 
-README omitted **240** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **241** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
