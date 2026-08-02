@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.01
+## Updated on 2026.08.02
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **441**
-- Recent 30 days: **57**
-- Older than 30 days: **384**
+- Recent 30 days: **55**
+- Older than 30 days: **386**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -77,13 +77,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-04**|**Punching Above Their Weight: Classification-Head Fine-Tuning of Tiny Language Models (TLMs) for Verifiable Multiple-Choice Tasks**|cs.LG, cs.AI, cs.CL|[2607.03801v1](http://arxiv.org/abs/2607.03801v1)|null|
 |**2026-07-03**|**Conditional Diffusion Guided Knowledge Transfer for Multi-Domain Knowledge Graph Completion**|cs.CL, cs.AI|[2607.03154v1](http://arxiv.org/abs/2607.03154v1)|null|
 |**2026-07-03**|**Labeled-Data-Free Meta-Learning: Efficient Task Generation Using Pre-trained Models and Unlabeled Data**|cs.LG|[2607.02850v1](http://arxiv.org/abs/2607.02850v1)|null|
-|**2026-07-02**|**Reinforcement Learning for Data-Efficient Code-Switched ASR**|cs.CL, cs.SD|[2607.02757v1](http://arxiv.org/abs/2607.02757v1)|null|
-|**2026-07-02**|**Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages**|cs.CL, cs.AI|[2607.02235v1](http://arxiv.org/abs/2607.02235v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-02**|**Reinforcement Learning for Data-Efficient Code-Switched ASR**|cs.CL, cs.SD|[2607.02757v1](http://arxiv.org/abs/2607.02757v1)|null|
+|**2026-07-02**|**Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages**|cs.CL, cs.AI|[2607.02235v1](http://arxiv.org/abs/2607.02235v1)|null|
 |**2026-07-01**|**Sequentially-Controlled Interactive Multi-Particle Flow-Maps for Online Feedback-Driven Search**|cs.LG, cs.AI, cs.CE|[2607.01144v1](http://arxiv.org/abs/2607.01144v1)|null|
 |**2026-06-30**|**ALEE: Any-Language Evaluation of Embeddings via English-Centric Minimal Pairs**|cs.CL|[2607.00171v1](http://arxiv.org/abs/2607.00171v1)|**[code](https://github.com/Andrian0s/any-lang-embed-eval)**|
 |**2026-06-30**|**Cross-lingual Relation Extraction with Large Language Models: Zero-Shot, Few-Shot, and Fine-Tuned Evaluation on Romanian**|cs.CL, cs.AI|[2606.31718v1](http://arxiv.org/abs/2606.31718v1)|null|
