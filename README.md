@@ -7,21 +7,22 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.02
+## Updated on 2026.08.03
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **441**
-- Recent 30 days: **55**
-- Older than 30 days: **386**
+- Total papers in JSON: **442**
+- Recent 30 days: **54**
+- Older than 30 days: **388**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-31**|**Cross-Lingual Transfer for Machine Translation in Turkic Languages**|cs.CL, cs.AI|[2607.29355v1](http://arxiv.org/abs/2607.29355v1)|null|
 |**2026-07-30**|**Using Large Language Models for Idea Generation in Innovation**|cs.AI, cs.CL, econ.GN|[2607.27553v1](http://arxiv.org/abs/2607.27553v1)|null|
 |**2026-07-29**|**Equilibrium Training of Energy-Based Models with Parallel Trajectory Tempering**|cs.LG, cond-mat.dis-nn, cond-mat.stat-mech|[2607.27077v1](http://arxiv.org/abs/2607.27077v1)|null|
 |**2026-07-29**|**From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence**|cs.AI, cs.RO|[2607.26903v1](http://arxiv.org/abs/2607.26903v1)|null|
@@ -75,13 +76,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-05**|**CertMix: Certified, Data-Efficient Metamaterial Design by Affine Mixing of Aligned Neural-Implicit Weight Spaces**|cs.LG|[2607.04123v1](http://arxiv.org/abs/2607.04123v1)|null|
 |**2026-07-04**|**When Simpler Is Better: Evaluating Translation Pipelines for Medieval Latin Manuscripts**|cs.CV, cs.AI, cs.CL|[2607.03836v1](http://arxiv.org/abs/2607.03836v1)|null|
 |**2026-07-04**|**Punching Above Their Weight: Classification-Head Fine-Tuning of Tiny Language Models (TLMs) for Verifiable Multiple-Choice Tasks**|cs.LG, cs.AI, cs.CL|[2607.03801v1](http://arxiv.org/abs/2607.03801v1)|null|
-|**2026-07-03**|**Conditional Diffusion Guided Knowledge Transfer for Multi-Domain Knowledge Graph Completion**|cs.CL, cs.AI|[2607.03154v1](http://arxiv.org/abs/2607.03154v1)|null|
-|**2026-07-03**|**Labeled-Data-Free Meta-Learning: Efficient Task Generation Using Pre-trained Models and Unlabeled Data**|cs.LG|[2607.02850v1](http://arxiv.org/abs/2607.02850v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-03**|**Conditional Diffusion Guided Knowledge Transfer for Multi-Domain Knowledge Graph Completion**|cs.CL, cs.AI|[2607.03154v1](http://arxiv.org/abs/2607.03154v1)|null|
+|**2026-07-03**|**Labeled-Data-Free Meta-Learning: Efficient Task Generation Using Pre-trained Models and Unlabeled Data**|cs.LG|[2607.02850v1](http://arxiv.org/abs/2607.02850v1)|null|
 |**2026-07-02**|**Reinforcement Learning for Data-Efficient Code-Switched ASR**|cs.CL, cs.SD|[2607.02757v1](http://arxiv.org/abs/2607.02757v1)|null|
 |**2026-07-02**|**Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages**|cs.CL, cs.AI|[2607.02235v1](http://arxiv.org/abs/2607.02235v1)|null|
 |**2026-07-01**|**Sequentially-Controlled Interactive Multi-Particle Flow-Maps for Online Feedback-Driven Search**|cs.LG, cs.AI, cs.CE|[2607.01144v1](http://arxiv.org/abs/2607.01144v1)|null|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-21**|**DreamerNLplus: Interpretable Modeling of Mental Health Dynamics from Social Media Timelines using Hybrid Rule-Based and RAG Methods**|cs.CL, cs.AI|[2605.23052v1](http://arxiv.org/abs/2605.23052v1)|**[code](https://github.com/4dpicture/CLPsych2026)**|
 |**2026-05-21**|**Test-Time Training Undermines Safety Guardrails**|cs.LG, cs.AI|[2605.22984v1](http://arxiv.org/abs/2605.22984v1)|null|
 |**2026-05-21**|**Towards a General Intelligence and Interface for Wearable Health Data**|cs.AI|[2605.22759v2](http://arxiv.org/abs/2605.22759v2)|null|
-|**2026-05-21**|**Polite on the Surface, Wrong in Practice: A Curated Dataset for Fixing Honorific Failures in Multilingual Bangla Generation**|cs.CL|[2605.22487v1](http://arxiv.org/abs/2605.22487v1)|**[code](https://github.com/ashuvo25/Bangla_Application_LLM/tree/main)**|
 
-README omitted **241** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **242** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
