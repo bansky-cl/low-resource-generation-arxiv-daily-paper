@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **442**
-- Recent 30 days: **52**
+- Total papers in JSON: **447**
+- Recent 30 days: **57**
 - Older than 30 days: **390**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,11 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-03**|**LAB-Tab: LLM-Augmented Bayesian Network Adaptation for Few-Shot Tabular Generation**|cs.LG, cs.AI|[2608.01879v1](http://arxiv.org/abs/2608.01879v1)|null|
+|**2026-08-02**|**ArabicDialectSafety: A Dialect-Aware Benchmark for Arabic Content Safety Classification**|cs.CL|[2608.01291v1](http://arxiv.org/abs/2608.01291v1)|null|
+|**2026-08-02**|**Opt.Gear Technical Report**|cs.CL|[2608.01034v1](http://arxiv.org/abs/2608.01034v1)|null|
+|**2026-08-01**|**Native Multilingual Chain-of-Thought Reasoning in Low-Resource Southeast Asian Languages**|cs.CL, cs.AI, cs.LG|[2608.00533v1](http://arxiv.org/abs/2608.00533v1)|null|
+|**2026-07-31**|**Bridging the English-Arabic Medical Knowledge Gap: Targeted Low-Rank Adaptation via Causal Layer Selection**|cs.CL|[2608.00207v1](http://arxiv.org/abs/2608.00207v1)|null|
 |**2026-07-31**|**Cross-Lingual Transfer for Machine Translation in Turkic Languages**|cs.CL, cs.AI|[2607.29355v1](http://arxiv.org/abs/2607.29355v1)|null|
 |**2026-07-30**|**Using Large Language Models for Idea Generation in Innovation**|cs.AI, cs.CL, econ.GN|[2607.27553v1](http://arxiv.org/abs/2607.27553v1)|null|
 |**2026-07-29**|**Equilibrium Training of Energy-Based Models with Parallel Trajectory Tempering**|cs.LG, cond-mat.dis-nn, cond-mat.stat-mech|[2607.27077v1](http://arxiv.org/abs/2607.27077v1)|null|
@@ -46,7 +51,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-21**|**LatentMT: Machine Translation with Latent Reasoning**|cs.CL, cs.AI, cs.LG|[2607.18618v1](http://arxiv.org/abs/2607.18618v1)|null|
 |**2026-07-20**|**Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments**|cs.PL, cs.AI, cs.LG|[2607.18357v1](http://arxiv.org/abs/2607.18357v1)|null|
 |**2026-07-20**|**Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory**|cs.AI|[2607.17879v1](http://arxiv.org/abs/2607.17879v1)|null|
-|**2026-07-20**|**Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare**|cs.LG, cs.AI|[2607.17508v1](http://arxiv.org/abs/2607.17508v1)|null|
+|**2026-07-20**|**Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare**|cs.LG, cs.AI|[2607.17508v2](http://arxiv.org/abs/2607.17508v2)|null|
 |**2026-07-19**|**KyrgyzLLM-Bench: Benchmarking Kyrgyz Language Understanding**|cs.CL|[2607.17173v1](http://arxiv.org/abs/2607.17173v1)|null|
 |**2026-07-19**|**Robust Assamese Speech Recognition through Controlled Fine-Tuning of Whisper Models**|cs.LG|[2607.17164v1](http://arxiv.org/abs/2607.17164v1)|null|
 |**2026-07-18**|**NOWJ@COLIEE 2026: Adaptive Pipelines for Legal Retrieval and Reasoning**|cs.CL|[2607.16603v1](http://arxiv.org/abs/2607.16603v1)|null|
@@ -222,13 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-22**|**PrismFlow: Residual Dynamics for Flow Matching in Time-Series Generation**|cs.LG, cs.AI|[2605.28867v1](http://arxiv.org/abs/2605.28867v1)|null|
 |**2026-05-22**|**When Does Synthetic Patent Data Help? Volume-Fidelity Trade-offs in Low-Resource Multi-Label Classification**|cs.AI, cs.IR|[2605.24296v2](http://arxiv.org/abs/2605.24296v2)|null|
 |**2026-05-22**|**Convex Low-resource Accent-Robust Language Detection in Speech Recognition**|cs.LG|[2605.23235v1](http://arxiv.org/abs/2605.23235v1)|**[code](https://pypi.org/project/jaxcld/)**|
-|**2026-05-22**|**Self-Improving In-Context Learning**|cs.CL, cs.LG|[2605.23180v1](http://arxiv.org/abs/2605.23180v1)|null|
-|**2026-05-21**|**LLM-AutoSciLab: Closed-Loop Scientific Discovery via Active Experimentation with LLMs**|cs.LG, cs.AI|[2605.24043v1](http://arxiv.org/abs/2605.24043v1)|**[code](https://github.com/scientific-discovery/LLM-AutoSciLab)**|
-|**2026-05-21**|**DreamerNLplus: Interpretable Modeling of Mental Health Dynamics from Social Media Timelines using Hybrid Rule-Based and RAG Methods**|cs.CL, cs.AI|[2605.23052v1](http://arxiv.org/abs/2605.23052v1)|**[code](https://github.com/4dpicture/CLPsych2026)**|
-|**2026-05-21**|**Test-Time Training Undermines Safety Guardrails**|cs.LG, cs.AI|[2605.22984v1](http://arxiv.org/abs/2605.22984v1)|null|
-|**2026-05-21**|**Towards a General Intelligence and Interface for Wearable Health Data**|cs.AI|[2605.22759v2](http://arxiv.org/abs/2605.22759v2)|null|
 
-README omitted **242** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **247** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

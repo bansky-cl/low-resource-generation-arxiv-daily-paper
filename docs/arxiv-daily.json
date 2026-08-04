@@ -8992,7 +8992,7 @@
     },
     "2607.17508": {
       "id": "2607.17508",
-      "version": "2607.17508v1",
+      "version": "2607.17508v2",
       "title": "Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare",
       "authors": [
         "Sazan Mahbub",
@@ -9004,14 +9004,14 @@
         "Eric P. Xing"
       ],
       "published": "2026-07-20",
-      "updated": "2026-07-20",
+      "updated": "2026-07-31",
       "categories": [
         "cs.LG",
         "cs.AI"
       ],
       "abstract": "We introduce Retrieval-Augmented Interpretable Learning (RAIL), a probabilistic meta-learning framework for zero-shot generation of task-specific interpretable models that synthesizes coefficient-space structure from natural-language task descriptions and a memory of previously learned task-specific predictors. RAIL retrieves related source tasks, transfers structure through coefficient space, and generates a new predictor in the original diagnostic-feature space, enabling zero-shot and few-shot clinical procedure prediction with feature-level explanations. Its probabilistic formulation provides uncertainty over retrieval, model coefficients, and predictions, supporting reliability-aware deployment: uncertain predictions or unstable explanations can be flagged for additional clinical review rather than treated as automatic decisions. This makes RAIL particularly suited for healthcare settings, where prediction tasks are highly long-tailed, new clinical targets arise frequently, and models must remain inspectable, uncertainty-aware, and compatible with human oversight. Across long-tailed clinical procedure prediction tasks, RAIL maintains reliable performance across data-availability regimes: it achieves 73.4% accuracy in the held-out zero-shot settings, where no supervised task-specific model can be trained, and remains near 73.2% accuracy in the extreme few-shot regime with only 2-4 examples, where supervised task-specific models perform close to chance. RAIL further benefits from clinically informed task representations and yields retrieval, uncertainty, and coefficient-level diagnostics that make model behavior more transparent. These results suggest a path toward scalable clinical prediction systems that can adapt to new tasks while preserving interpretability and reliability.",
-      "abs_url": "http://arxiv.org/abs/2607.17508v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.17508v1",
+      "abs_url": "http://arxiv.org/abs/2607.17508v2",
+      "pdf_url": "https://arxiv.org/pdf/2607.17508v2",
       "code_url": null
     },
     "2607.17173": {
@@ -9597,6 +9597,113 @@
       "abstract": "Cross-lingual transfer is central to low-resource machine translation, but its behavior within closely related language families remains insufficiently characterized. We study transfer among five Turkic languages; Turkish, Azerbaijani, Uzbek, Kazakh, and Kyrgyz; using pairwise transfer matrices. In this setting, each model is fine-tuned with one transfer source and evaluated on a different transfer target while the translation target remains the same. Across mT5 experiments, we find that transfer is strongest between closely related Turkic pairs, especially Turkish-Azerbaijani and Kazakh-Kyrgyz. We also show that transfer direction matters, and that the same transfer source-transfer target pair can behave differently when the translation target changes. Latinization improves BLEU and chrF in several script-mismatched settings, but its effect is not uniform across metrics. Additional analyses show that transfer sources are mostly stable across different datasets and model settings.",
       "abs_url": "http://arxiv.org/abs/2607.29355v1",
       "pdf_url": "https://arxiv.org/pdf/2607.29355v1",
+      "code_url": null
+    },
+    "2608.01291": {
+      "id": "2608.01291",
+      "version": "2608.01291v1",
+      "title": "ArabicDialectSafety: A Dialect-Aware Benchmark for Arabic Content Safety Classification",
+      "authors": [
+        "Wajdi Zaghouani",
+        "Md. Rafiul Biswas",
+        "Kholoud Khalil Aldous",
+        "Mabrouka Bessghaier"
+      ],
+      "published": "2026-08-02",
+      "updated": "2026-08-02",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "We present ArabicDialectSafety, a human-curated Arabic safety dataset of 25,071 prompts covering six Arabic varieties: Modern Standard Arabic, Syrian, Egyptian, Algerian, Palestinian, and Moroccan. The dataset is annotated with dialect labels and seven fine-grained harm categories. We introduce a dual-task evaluation framework for binary safe/unsafe detection and granular harm classification across dialects. Benchmarking seven supervised and generative models, we find that fine-tuned MARBERTv2 achieves the strongest performance, with Macro-F1 scores of 0.95 for binary classification and 0.90 for granular classification, substantially outperforming prompted frontier LLMs, including Arabic-specialized models. Our analyses show that dialect conditioning is most effective when integrated at the representation level, while significant performance gaps remain for low-resource Maghrebi dialects. We further evaluate seven frontier LLMs as response generators on harmful dialectal Arabic prompts and observe unsafe generation rates below 5 percent across models. We release the dataset and code upon acceptance to support future research on dialect-aware Arabic safety evaluation. Warning: This paper contains examples of harmful and potentially offensive content included solely for research purposes.",
+      "abs_url": "http://arxiv.org/abs/2608.01291v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.01291v1",
+      "code_url": null
+    },
+    "2608.00533": {
+      "id": "2608.00533",
+      "version": "2608.00533v1",
+      "title": "Native Multilingual Chain-of-Thought Reasoning in Low-Resource Southeast Asian Languages",
+      "authors": [
+        "Sean Gip Lim",
+        "William Chandra Tjhi",
+        "Hai Leong Chieu"
+      ],
+      "published": "2026-08-01",
+      "updated": "2026-08-01",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Large Language Models have achieved substantial progress in reasoning capabilities. Yet in low-resource native settings, many suffer from cross-lingual collapse, reverting to English during intermediate steps that require complex logical reasoning. This presents a cold-start bottleneck for policy optimization, whereas standard fine-tuning risks catastrophic forgetting due to cross-lingual representation drift. To address these challenges, we introduce the Onramp-Sequence Cross-Distillation (OSCD), a post-training algorithm that projects high-resource reasoning trajectories into low-resource vocabulary subspaces during generative training rollouts via an integrated translator agentic loop, ensuring the stable and efficient translation of dynamically generated reference samples for fine-tuning. This is coupled with joint-embedding semantic alignment of both reference and target-language reasoning traces, thereby bridging the pairwise cross-lingual representational gaps. Comprehensive evaluations using the AIME25 and HMMT25 benchmarks demonstrate that OSCD yields up to 3.2 times overall improvements in native Southeast Asian languages for mathematical reasoning, of which the joint-embedding semantic alignment component contributes up to 6.4% improvements in linguistic debiasing over translation-only baselines.",
+      "abs_url": "http://arxiv.org/abs/2608.00533v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.00533v1",
+      "code_url": null
+    },
+    "2608.01879": {
+      "id": "2608.01879",
+      "version": "2608.01879v1",
+      "title": "LAB-Tab: LLM-Augmented Bayesian Network Adaptation for Few-Shot Tabular Generation",
+      "authors": [
+        "Zijian Shen",
+        "Taijie Chen",
+        "Bin Zhou",
+        "Ziyang Jiang",
+        "Jintao Ke"
+      ],
+      "published": "2026-08-03",
+      "updated": "2026-08-03",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Tabular data generation supports analysis and decision-making when target-domain data are scarce, yet collecting complete target samples is often costly. A practical but underexplored setting provides only a few target records together with richer source data from a related domain. Existing few-shot tabular generators often either fit sparse target statistics directly, which can overfit incidental patterns, or reuse source-domain generators, which may preserve dependencies that no longer hold in the target domain. To address this problem, we propose LAB-Tab, an LLM-augmented Bayesian network (BN) adaptation framework for source-aware few-shot tabular generation. LAB-Tab first fits a BN from source data and then uses an LLM to propose plausible target-domain BN edges that are absent from the source BN graph. This step converts semantic and weak statistical evidence into explicit structural hypotheses, thereby expanding the editable edge space beyond the source-fitted graph. Because the proposed edges may be noisy and interact with existing dependencies, a PPO policy calibrates edges in the augmented BN through edge-level actions, including keep, weaken, strengthen, flip, and deactivate. The PPO policy is trained with a reward that combines distributional alignment, downstream utility, and preservation of target-relevant dependencies. The adapted BN is then sampled to synthesize target-domain tables. Across six source--target distribution-shift scenarios built from three US Census (ACS) prediction tasks, LAB-Tab achieves the best performance at the 10% target-data budget, leads four of the six individual scenarios, and reduces the macro Overall score by 33.8% relative to the strongest baseline. It also obtains the best macro JSD, WAPE, and UtilityGap while maintaining competitive feature--label preservation.",
+      "abs_url": "http://arxiv.org/abs/2608.01879v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.01879v1",
+      "code_url": null
+    },
+    "2608.00207": {
+      "id": "2608.00207",
+      "version": "2608.00207v1",
+      "title": "Bridging the English-Arabic Medical Knowledge Gap: Targeted Low-Rank Adaptation via Causal Layer Selection",
+      "authors": [
+        "Chaimae Abouzahir",
+        "Musa Khan",
+        "Hala Ali-Hassan",
+        "Congbo Ma",
+        "Khaled Saleh",
+        "Yousra Sadqi",
+        "Jihad Mallat",
+        "Walid Al-Eisawi",
+        "Nizar Habash",
+        "Farah E. Shamout"
+      ],
+      "published": "2026-07-31",
+      "updated": "2026-07-31",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large Language Models (LLMs) perform strongly in English medical tasks but degrade substantially in Arabic, a gap widely attributed to limited training data. We systematically investigate this assumption via tuned lens probing and causal activation patching, and find that Arabic medical knowledge is present in intermediate model representations but fails to surface at the output. This mechanistic insight motivates a targeted adaptation strategy: rather than fine-tuning the full network, we propose Targeted Low-Rank Adaptation (TLoRA), restricted to the layer window where cross-lingual representations diverge, upstream of the output layers where the failure manifests. We evaluate TLoRA on multiple-choice medical QA, where our approach outperforms full-network LoRA, zero-shot, and few-shot baselines. We further evaluate it on short-answer generation and multi-turn clinical dialogue, where it performs competitively without the need for task-specific finetuning. We additionally introduce AraClinicDialog, a clinician-constructed Arabic medical dialogue benchmark in MSA with validated variants across four Arabic dialects. Together, these contributions demonstrate that mechanistic diagnosis can serve as a practical guide for targeted adaptation in underrepresented-language medical LLMs.",
+      "abs_url": "http://arxiv.org/abs/2608.00207v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.00207v1",
+      "code_url": null
+    },
+    "2608.01034": {
+      "id": "2608.01034",
+      "version": "2608.01034v1",
+      "title": "Opt.Gear Technical Report",
+      "authors": [
+        "Juneyoung Park",
+        "Youngwook Kwon"
+      ],
+      "published": "2026-08-02",
+      "updated": "2026-08-02",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "We introduce Opt.Gear, a foundation model designed for efficient on-device deployment, real-tim inference, and strong task capability. It includes a dense model (1M, 270M, and 1B) with a context length of 64K. We designed a new hybrid architecture that combines a convolutional key-value gated mixer with local-global attention to reduce the KV-cache memory that tends to increase exponentially with long context. This architecture delivers up to X4.9 faster prefill and decoding speeds on the NPUs compared to models of a similar scale models. From a 2T tokens candidate corpus, Opt.Gear is trained on a curated 0.5T tokens subset without knowledge distillation. This is the most data-efficient of the existing foundation models. All models are released with open weights and deployment binaries for ONNX, Qualcomm NPU, and Apple ANE making Opt.Gear a practical base for edge applications that need fast, memory-efficient inference and strong task capabilities. Furthermore, to expand the ecosystem of on-device generative language models, we are introducing the Opt.Gear-1M that can be deployed on Micro-Controller Units (MCUs), a Tiny Language Model (TLM). Opt.Gear-1M is the first generative language model to achieve 20 TPS with W4A32 quantization on the ARM Cortex-M7 CPU of the STM32H747I-DISCO.",
+      "abs_url": "http://arxiv.org/abs/2608.01034v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.01034v1",
       "code_url": null
     }
   }
