@@ -9690,20 +9690,163 @@
     },
     "2608.01034": {
       "id": "2608.01034",
-      "version": "2608.01034v1",
+      "version": "2608.01034v2",
       "title": "Opt.Gear Technical Report",
       "authors": [
         "Juneyoung Park",
         "Youngwook Kwon"
       ],
       "published": "2026-08-02",
-      "updated": "2026-08-02",
+      "updated": "2026-08-04",
       "categories": [
         "cs.CL"
       ],
-      "abstract": "We introduce Opt.Gear, a foundation model designed for efficient on-device deployment, real-tim inference, and strong task capability. It includes a dense model (1M, 270M, and 1B) with a context length of 64K. We designed a new hybrid architecture that combines a convolutional key-value gated mixer with local-global attention to reduce the KV-cache memory that tends to increase exponentially with long context. This architecture delivers up to X4.9 faster prefill and decoding speeds on the NPUs compared to models of a similar scale models. From a 2T tokens candidate corpus, Opt.Gear is trained on a curated 0.5T tokens subset without knowledge distillation. This is the most data-efficient of the existing foundation models. All models are released with open weights and deployment binaries for ONNX, Qualcomm NPU, and Apple ANE making Opt.Gear a practical base for edge applications that need fast, memory-efficient inference and strong task capabilities. Furthermore, to expand the ecosystem of on-device generative language models, we are introducing the Opt.Gear-1M that can be deployed on Micro-Controller Units (MCUs), a Tiny Language Model (TLM). Opt.Gear-1M is the first generative language model to achieve 20 TPS with W4A32 quantization on the ARM Cortex-M7 CPU of the STM32H747I-DISCO.",
-      "abs_url": "http://arxiv.org/abs/2608.01034v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.01034v1",
+      "abstract": "We introduce OptGear, a foundation model designed for efficient on-device deployment, real-tim inference, and strong task capability. It includes a dense model (1M, 270M, and 1B) with a context length of 64K. We designed a new hybrid architecture that combines a convolutional key-value gated mixer with local-global attention to reduce the KV-cache memory that tends to increase exponentially with long context. This architecture delivers up to X4.9 faster prefill and decoding speeds on the NPUs compared to models of a similar scale models. From a 2T tokens candidate corpus, OptGear is trained on a curated 0.5T tokens subset without knowledge distillation. This is the most data-efficient of the existing foundation models. All models are released with open weights and deployment binaries for ONNX, Qualcomm NPU, and Apple ANE making OptGear a practical base for edge applications that need fast, memory-efficient inference and strong task capabilities. Furthermore, to expand the ecosystem of on-device generative language models, we are introducing the OptGear-1M that can be deployed on Micro-Controller Units (MCUs), a Tiny Language Model (TLM). OptGear-1M is the first generative language model to achieve 20 TPS with W4A32 quantization on the ARM Cortex-M7 CPU of the STM32H747I-DISCO.",
+      "abs_url": "http://arxiv.org/abs/2608.01034v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.01034v2",
+      "code_url": null
+    },
+    "2608.03803": {
+      "id": "2608.03803",
+      "version": "2608.03803v1",
+      "title": "M-GATE: Multilingual Grammar, Accuracy in Translation, and Efficiency Benchmark for Large Language Models",
+      "authors": [
+        "Tomáš Burkert",
+        "Angelika Peljak-Łapińska",
+        "David Zelený"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Multilingual language models are deployed across a hundred or more languages, yet most benchmarks test whether a model can perform a task _in_ a language rather than whether it commands the language itself, conflating fluency with proficiency. We introduce M-GATE (Multilingual Grammar, Accuracy in Translation, and Efficiency), a benchmark of linguistic proficiency spanning 30 typologically diverse languages from high- to low-resource. M-GATE comprises three tasks: grammatical error detection on linguist-crafted, adversarially selected sentences that turn on hard, language-specific phenomena; round-trip translation of shared English sources across 29 target languages, scored by a three-provider LLM judge panel validated against professional annotators; and a supplementary tokenizer-efficiency measure. We evaluate over 50 models in more than 80 configurations. Fluency and proficiency come apart sharply: models that translate competently sit near chance on the adversarial grammar items, the best reaching a Matthews correlation coefficient (MCC) of only 0.36, and their errors lean systematically toward under-flagging, accepting ungrammatical text rather than raising false alarms. Translation quality closely tracks a language's share of pretraining data (r = 0.86 against log Common Crawl share), producing a steep low-resource penalty that is nonetheless narrowing with successive model releases. Enabling reasoning reliably improves translation, while its effect on error detection is smaller and for some models negative, so the best configuration is task-dependent. To resist contamination, test items are kept private behind a continuously updated public leaderboard, with illustrative examples released (https://m-gate.ai).",
+      "abs_url": "http://arxiv.org/abs/2608.03803v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03803v1",
+      "code_url": "https://m-gate.ai"
+    },
+    "2608.03505": {
+      "id": "2608.03505",
+      "version": "2608.03505v1",
+      "title": "ConlangBench: Exploring Language Knowledge and Learning in LLMs through Diverse Constructed Languages",
+      "authors": [
+        "Jinhong Jeong",
+        "Seungyeop Yi",
+        "Sangah Lee",
+        "Youngjae Yu"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Constructed languages (conlangs) are intentionally created human languages with a rich tradition of linguistic creativity. Despite their potential for studying language learning in large language models (LLMs), existing conlangs remain largely underexplored in LLM research. We present ConlangBench, the first large-scale benchmark for evaluating and training LLMs on 21 existing conlangs. We collect over 21M conlang-English parallel sentence pairs (including 430K pairs across the 20 non-Esperanto conlangs) and 321K vocabulary entries. In bidirectional translation experiments, we find that models perform better on a posteriori conlangs, whose vocabularies are derived from natural languages, reflecting the design characteristics of conlangs. Training on ConlangBench also shows that models can learn all eight conlangs for which sufficient parallel corpora are available, while their learning curves vary depending on how the conlangs were created. Our findings suggest that conlangs provide a unique testbed for investigating how LLMs acquire low-resource languages.",
+      "abs_url": "http://arxiv.org/abs/2608.03505v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03505v1",
+      "code_url": null
+    },
+    "2608.03674": {
+      "id": "2608.03674",
+      "version": "2608.03674v1",
+      "title": "DiagLoop: A Counterfactual Data Flywheel with Stage-Localized Reinforcement for Diagnostic LLMs",
+      "authors": [
+        "Jian Zhang",
+        "Bingyi Wang",
+        "Yizhi Liu"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Causal diagnostic models must explain how conclusions follow from evidence because diagnoses guide repairs and treatments. Yet serious cases are scarce, records rarely contain reasoning paths, and data transfer poorly across configurations, complicating local deployment. We present DiagLoop, a counterfactual data flywheel that converts codified physical relations or clinical guidelines, authored once per mechanism family, into training supervision beyond recorded cases. A training-only teacher proposes counterfactual worlds by varying causes, contexts, and observations, while an independent hybrid checker admits only valid worlds. The student reasons through symptom abstraction, causal-chain construction, and root-cause attribution. Stage-specific criteria identify its earliest failure. For nonterminal failures, a bounded repair probes downstream competence, and the resulting weakness profile guides subsequent data generation. Stage-localized reinforcement learning updates only the model-generated continuation, while replay and preservation reduce forgetting. The same criteria govern admission, attribution, reward, and regeneration through checks separate from the proposer. Using only synthesized scenarios and no case-level expert reasoning annotations, the resulting 8B model improves strict path correctness over the strongest conventional baseline. Gains are 11.6 points across eight industrial systems and 5.5 points across ten disease categories. Gains over a deranged-routing control are 3.9 and 2.3 points, respectively. The model also exceeds the evaluated proprietary references in both domains, even when they receive few-shot examples or the specification in context.",
+      "abs_url": "http://arxiv.org/abs/2608.03674v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03674v1",
+      "code_url": null
+    },
+    "2608.03095": {
+      "id": "2608.03095",
+      "version": "2608.03095v1",
+      "title": "VIVID: A Culturally Grounded Benchmark Exposing the Figurative Language Gap in Vietnamese NLP",
+      "authors": [
+        "Tu Tran Do",
+        "Nhat Ngoc Nguyen",
+        "Khanh-Tung Tran",
+        "Hoang D. Nguyen",
+        "Tu Minh Phuong",
+        "Long Hoang Dang"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "We present VIVID (Vietnamese Idioms for Validation and Interpretation Depth), the first systematic benchmark for evaluating culturally grounded figurative language understanding in Vietnamese. VIVID comprises 1,636 idioms and proverbs annotated with five complexity traits (literal expressions, pragmatic nuances, Sino-Vietnamese terms, uncommon vocabulary, folk knowledge) and seven semantic themes. We establish an evaluation framework combining generative and discriminative tasks, proposing an LLM-as-a-Judge approach with aspect-based prompting validated against human judgment (Cohen's kappa = 0.792). Evaluating eight state-of-the-art models reveals critical gaps: Vietnamese-specialized models drastically underperform multilingual systems (VinaLLaMA-7B: 0.13 vs. GPT-4o: 2.46), and even top models achieve less than 50% of maximum scores. Notably, few-shot prompting does not universally improve performance, with GPT-4o exhibiting degradation due to stylistic overfitting. Our analysis exposes systematic failures including literal over-interpretation, lexical gaps, and pragmatic flattening, demonstrating that current models lack cultural competence for nuanced figurative interpretation. VIVID provides an essential tool for advancing figurative language understanding in culturally rich contexts.",
+      "abs_url": "http://arxiv.org/abs/2608.03095v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03095v1",
+      "code_url": null
+    },
+    "2608.02919": {
+      "id": "2608.02919",
+      "version": "2608.02919v1",
+      "title": "FLARE: Few-shot Learning-based Adaptive Reflective Engine",
+      "authors": [
+        "Dhanasekar Sundararaman",
+        "Bharat Gandhi",
+        "Aashna Garg",
+        "Minjie Li"
+      ],
+      "published": "2026-08-03",
+      "updated": "2026-08-03",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large language models (LLMs) are increasingly deployed in complex, compound AI systems where performance hinges on the quality of prompts. Recent state-of-the-art optimizers like GEPA (Genetic-Pareto) have argued that reflective instruction evolution can outperform traditional reinforcement learning and few-shot optimization. In this work, we challenge this shift by introducing FLARE (Few-shot Learning-based Adaptive Reflective Engine), a framework that leverages advanced reflective mechanisms and a small set of few-shot reference examples to optimize instructions. We evaluate our method across a diverse suite of benchmarks -- spanning retrieval-augmented reasoning (HotPotQA, MedQA, 2WikiMultiHopQA), tool calling, and multi-label emotion classification (GoEmotions) -- using the GPT-5 series of models. Our results demonstrate that FLARE consistently outperforms GEPA, winning on every task-model pair: it achieves gains of up to +14.2 points on HotPotQA (52.2 vs. GEPA's 42.2 with GPT-5-Chat), reaches 87.0% on tool calling (vs. 81.0% for GEPA), and lifts GoEmotions micro-F1 to 52.7% (+15.3) with GPT-5.1 on the full 5408-example test split, more than doubling GEPA's +5.7 gain. Beyond raw accuracy, FLARE is also strikingly data-efficient: on GoEmotions it reaches its peak performance using as few as 100 validation examples, while remaining markedly more stable across random seeds than GEPA. Our findings suggest that while reflective instructions are powerful, the strategic optimization of few-shot learning remains a critical frontier for maximizing the potential of next-generation LLMs.",
+      "abs_url": "http://arxiv.org/abs/2608.02919v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02919v1",
+      "code_url": null
+    },
+    "2608.03990": {
+      "id": "2608.03990",
+      "version": "2608.03990v1",
+      "title": "Assessment of Conditional Diffusion Model for Synthetic Histopathology Image Generation",
+      "authors": [
+        "Seyed Kahaki",
+        "Shijie Li",
+        "Weijie Chen",
+        "Nicholas Petrick"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Synthetic histopathology image generation has emerged as an approach that may address data scarcity in computational pathology, yet current evaluation methodologies may not fully assess synthetic data quality for medical applications. This work investigates and addresses limitations in existing evaluation metrics, investigating an approach for assessing synthetic histopathology image quality through domain-specific metrics and downstream task validation. We show that conventional synthetic data evaluation metrics such as Frechet Inception Distance (FID) and Inception Score (IS) may have limitations when applied to histopathology images due to their reliance on ImageNet-pretrained feature extractors. To address these limitations, we propose for consideration modified FID and IS approaches utilizing foundation models pretrained on digital pathology datasets, supplemented by precision-recall based metrics as part of an additional quality assessment. Using conditional denoising diffusion models trained on four benchmark datasets, with a two-step training approach, we generated synthetic datasets with systematically varied quality characteristics. We also measured the correlation between the synthetic data quality metrics with downstream nuclei segmentation performance using common metrics including the aggregated Jaccard index (AJI+) and the Dice coefficient. The study results suggest that pathology-specific metrics may provide improved discriminative power. Specifically, the modified Inception Score indicates higher correlation with downstream task performance (r=0.6096 with AJI+, p=0.0122), compared to the original IS (r=0.0708, p=0.7944). Our observations indicate that increasing the variety of generated training data has a higher positive correlation with segmentation model performance than improving the visual fidelity of individual generated images.",
+      "abs_url": "http://arxiv.org/abs/2608.03990v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03990v1",
+      "code_url": null
+    },
+    "2608.03577": {
+      "id": "2608.03577",
+      "version": "2608.03577v1",
+      "title": "Looking under the Wrong Lamppost: On the Limitations of Automated Translation Quality Estimation",
+      "authors": [
+        "Serge Gladkoff",
+        "Angelika Vaasa",
+        "Sue Ellen Wright",
+        "Ingemar Strandvik",
+        "Lifeng Han"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Automation of Translation Quality Estimation (QE) has emerged as a widely discussed approach to managing translation quality at scale, and a growing number of tools and technologies have been released in pursuit of this goal. However, the proliferation of new QE systems has not always been accompanied by robust, transparent, and reproducible research and testing. This gap deserves critical scrutiny. This paper examines some fundamental limitations of the QE technology from both theoretical and empirical perspectives, arguing that current QE systems are structurally ill-equipped to serve as reliable standalone tools in real-world translation workflows. The reviewed evidence suggests that QE suffers from a range of interrelated and largely unresolved limitations. Most fundamentally, the evaluation of the quality of translation at the level of isolated segments is problematic because it tends to miss out on cohesion, coherence, and stylistic and rhetorical text features. In addition, empirical research documents several other limitations and flaws, including failure to generalize, systematic biases, overfitting and distribution collapse, performance gaps, error annotation challenges, and data scarcity. These are structural limitations arising from the complexity of human language and translation as a cognitive and communicative act - limitations that more data and better architectures have so far not overcome. Consequently, segment-level QE scores should not be used as a standalone basis for routing, release, or review bypass in production; we argue future work should focus on automating human evaluation grounded in MQM.",
+      "abs_url": "http://arxiv.org/abs/2608.03577v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03577v1",
       "code_url": null
     }
   }
