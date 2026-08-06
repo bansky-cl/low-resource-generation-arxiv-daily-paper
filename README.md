@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **454**
-- Recent 30 days: **61**
+- Total papers in JSON: **458**
+- Recent 30 days: **65**
 - Older than 30 days: **393**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,11 +22,15 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-05**|**Traceable LLM-Generated Hazard Scenarios for Operational Safety Analysis of Aviation Systems Using ASRS Reports**|cs.AI|[2608.04697v1](http://arxiv.org/abs/2608.04697v1)|null|
+|**2026-08-05**|**Breaking the Curse ofMultilinguality inMany-to-Many Speech-to-Text Translation via a Resource-AwareMixture of Speech Encoders**|cs.CL, cs.AI|[2608.04586v1](http://arxiv.org/abs/2608.04586v1)|null|
+|**2026-08-04**|**The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning**|cs.AI, cs.LG|[2608.04285v1](http://arxiv.org/abs/2608.04285v1)|null|
+|**2026-08-04**|**Large Language Models for Low-Resource Languages: A Conceptual Framework for an Electronic Explanatory Dictionary of the Tajik Language**|cs.CL|[2608.04186v1](http://arxiv.org/abs/2608.04186v1)|null|
 |**2026-08-04**|**Assessment of Conditional Diffusion Model for Synthetic Histopathology Image Generation**|cs.LG|[2608.03990v1](http://arxiv.org/abs/2608.03990v1)|null|
 |**2026-08-04**|**M-GATE: Multilingual Grammar, Accuracy in Translation, and Efficiency Benchmark for Large Language Models**|cs.CL, cs.LG|[2608.03803v1](http://arxiv.org/abs/2608.03803v1)|**[code](https://m-gate.ai)**|
 |**2026-08-04**|**DiagLoop: A Counterfactual Data Flywheel with Stage-Localized Reinforcement for Diagnostic LLMs**|cs.LG|[2608.03674v1](http://arxiv.org/abs/2608.03674v1)|null|
 |**2026-08-04**|**Looking under the Wrong Lamppost: On the Limitations of Automated Translation Quality Estimation**|cs.CL|[2608.03577v1](http://arxiv.org/abs/2608.03577v1)|null|
-|**2026-08-04**|**ConlangBench: Exploring Language Knowledge and Learning in LLMs through Diverse Constructed Languages**|cs.CL|[2608.03505v1](http://arxiv.org/abs/2608.03505v1)|null|
+|**2026-08-04**|**ConlangBench: Exploring Language Knowledge and Learning in LLMs through Diverse Constructed Languages**|cs.CL|[2608.03505v2](http://arxiv.org/abs/2608.03505v2)|null|
 |**2026-08-04**|**VIVID: A Culturally Grounded Benchmark Exposing the Figurative Language Gap in Vietnamese NLP**|cs.CL, cs.LG|[2608.03095v1](http://arxiv.org/abs/2608.03095v1)|null|
 |**2026-08-03**|**FLARE: Few-shot Learning-based Adaptive Reflective Engine**|cs.CL|[2608.02919v1](http://arxiv.org/abs/2608.02919v1)|null|
 |**2026-08-03**|**LAB-Tab: LLM-Augmented Bayesian Network Adaptation for Few-Shot Tabular Generation**|cs.LG, cs.AI|[2608.01879v1](http://arxiv.org/abs/2608.01879v1)|null|
@@ -223,12 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-26**|**Helicase: Uncertainty-Guided Supply Chain Knowledge Graph Construction with Autonomous Multi-Agent LLMs**|cs.AI|[2605.26835v1](http://arxiv.org/abs/2605.26835v1)|null|
 |**2026-05-26**|**Generating Logically Consistent Synthetic Supply Chain Data with LLM-Driven Knowledge Graph Reasoning**|cs.CL|[2605.26823v1](http://arxiv.org/abs/2605.26823v1)|null|
 |**2026-05-26**|**Self-Improvement Imitation with Biologically Guided Search for Protein Design Under Oracle Budgets**|cs.LG, cs.AI, q-bio.QM|[2605.26690v1](http://arxiv.org/abs/2605.26690v1)|**[code](https://github.com/grimmlab/SILO.git)**|
-|**2026-05-25**|**CroCo: Cross-Lingual Contrastive Preference Tuning on Self-Generations**|cs.CL, cs.AI|[2605.26293v1](http://arxiv.org/abs/2605.26293v1)|null|
-|**2026-05-25**|**Beyond Summaries: Structure-Aware Labeling of Code Changes with Large Language Models**|cs.SE, cs.AI|[2605.26100v1](http://arxiv.org/abs/2605.26100v1)|null|
-|**2026-05-25**|**Forgotten Words: Benchmarking NeoBERT for Dementia Detection in Low-Resource Conversational Filipino and English Speech**|cs.CL|[2605.26007v1](http://arxiv.org/abs/2605.26007v1)|null|
-|**2026-05-25**|**Creative Quality Alignment: Expert Tacit Knowledge Transfer via Chain-of-Thought Fine-Tuning**|cs.CL, cs.AI, cs.LG|[2605.25977v1](http://arxiv.org/abs/2605.25977v1)|null|
 
-README omitted **254** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **258** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

@@ -9728,7 +9728,7 @@
     },
     "2608.03505": {
       "id": "2608.03505",
-      "version": "2608.03505v1",
+      "version": "2608.03505v2",
       "title": "ConlangBench: Exploring Language Knowledge and Learning in LLMs through Diverse Constructed Languages",
       "authors": [
         "Jinhong Jeong",
@@ -9737,13 +9737,13 @@
         "Youngjae Yu"
       ],
       "published": "2026-08-04",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "categories": [
         "cs.CL"
       ],
       "abstract": "Constructed languages (conlangs) are intentionally created human languages with a rich tradition of linguistic creativity. Despite their potential for studying language learning in large language models (LLMs), existing conlangs remain largely underexplored in LLM research. We present ConlangBench, the first large-scale benchmark for evaluating and training LLMs on 21 existing conlangs. We collect over 21M conlang-English parallel sentence pairs (including 430K pairs across the 20 non-Esperanto conlangs) and 321K vocabulary entries. In bidirectional translation experiments, we find that models perform better on a posteriori conlangs, whose vocabularies are derived from natural languages, reflecting the design characteristics of conlangs. Training on ConlangBench also shows that models can learn all eight conlangs for which sufficient parallel corpora are available, while their learning curves vary depending on how the conlangs were created. Our findings suggest that conlangs provide a unique testbed for investigating how LLMs acquire low-resource languages.",
-      "abs_url": "http://arxiv.org/abs/2608.03505v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03505v1",
+      "abs_url": "http://arxiv.org/abs/2608.03505v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.03505v2",
       "code_url": null
     },
     "2608.03674": {
@@ -9847,6 +9847,101 @@
       "abstract": "Automation of Translation Quality Estimation (QE) has emerged as a widely discussed approach to managing translation quality at scale, and a growing number of tools and technologies have been released in pursuit of this goal. However, the proliferation of new QE systems has not always been accompanied by robust, transparent, and reproducible research and testing. This gap deserves critical scrutiny. This paper examines some fundamental limitations of the QE technology from both theoretical and empirical perspectives, arguing that current QE systems are structurally ill-equipped to serve as reliable standalone tools in real-world translation workflows. The reviewed evidence suggests that QE suffers from a range of interrelated and largely unresolved limitations. Most fundamentally, the evaluation of the quality of translation at the level of isolated segments is problematic because it tends to miss out on cohesion, coherence, and stylistic and rhetorical text features. In addition, empirical research documents several other limitations and flaws, including failure to generalize, systematic biases, overfitting and distribution collapse, performance gaps, error annotation challenges, and data scarcity. These are structural limitations arising from the complexity of human language and translation as a cognitive and communicative act - limitations that more data and better architectures have so far not overcome. Consequently, segment-level QE scores should not be used as a standalone basis for routing, release, or review bypass in production; we argue future work should focus on automating human evaluation grounded in MQM.",
       "abs_url": "http://arxiv.org/abs/2608.03577v1",
       "pdf_url": "https://arxiv.org/pdf/2608.03577v1",
+      "code_url": null
+    },
+    "2608.04586": {
+      "id": "2608.04586",
+      "version": "2608.04586v1",
+      "title": "Breaking the Curse ofMultilinguality inMany-to-Many Speech-to-Text Translation via a Resource-AwareMixture of Speech Encoders",
+      "authors": [
+        "Yexing Du",
+        "Kaiyuan Liu",
+        "Youcheng Pan",
+        "Bo Yang",
+        "Chengpeng Fu",
+        "Yu Wang",
+        "Ming Liu"
+      ],
+      "published": "2026-08-05",
+      "updated": "2026-08-05",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Multimodal large language models (MLLMs) have achieved significant success in speech-to-text translation (S2TT). However, when processing multilingual speech inputs, a single speech encoder shared across all languages suffers from the curse of multilinguality: languages at different resource levels compete for limited representation capacity, leading to strong high-resource performance but substantial degradation on low-resource speech. To address this problem and improve multilingual consistency, we propose MSRT, a novel framework built around a resource-aware Mixture of Speech Encoders (MoSE). MoSE uses an explicit language router to assign each utterance to an appropriate expert encoder. A frozen expert preserves high-resource language capabilities, while a trainable expert adapts to and specializes in medium- and low-resource languages. We further introduce a five-stage curriculum learning strategy that substantially reduces data dependence, requiring only 10 hours of paired S2TT data per language for effective alignment. We conduct extensive experiments on 45 languages, systematically evaluating all $45 \\times 44$ translation directions. Our 4B-parameter model achieves state-of-the-art performance, outperforming substantially larger baselines. Empirical analyses show that MoSE improves high-, medium-, and low-resource languages simultaneously, with the largest gains on low-resource speech, thereby breaking the curse of multilinguality without compromising high-resource performance. To support future multilingual S2TT research, we release our code and models.",
+      "abs_url": "http://arxiv.org/abs/2608.04586v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04586v1",
+      "code_url": null
+    },
+    "2608.04186": {
+      "id": "2608.04186",
+      "version": "2608.04186v1",
+      "title": "Large Language Models for Low-Resource Languages: A Conceptual Framework for an Electronic Explanatory Dictionary of the Tajik Language",
+      "authors": [
+        "Mullosharaf K. Arabov"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper presents a conceptual framework for developing an electronic explanatory dictionary of the Tajik language using large language models (LLMs). The relevance of the work stems from the absence of a comprehensive digital lexicographic resource for Tajik that is comparable in functionality to dictionaries for high-resource languages, and from the limited adaptation of modern natural language processing technologies to low-resource language systems. Based on a systematic survey of existing linguistic, statistical, and corpus resources, we propose a dictionary architecture that integrates modules for morphological analysis, lemmatization, semantic clustering, and dictionary entry generation using LLMs. The choice of subword tokenization is justified by the agglutinative nature of Tajik morphology and its high morphological variability, along with a parameter-efficient fine-tuning (PEFT) strategy suitable for limited annotated data. The novelty of the work lies in proposing the first holistic conceptual architecture of an explanatory dictionary for Tajik that unifies classical lexicographic methods, language statistics, and generative capabilities of LLMs into a single system. The practical significance of the study is the formation of a methodological foundation for developing a full-featured electronic dictionary that can serve both as a lexicographic tool and as a core resource for machine translation, automatic summarization, sentiment analysis, and other applied NLP tasks. The paper is intended for specialists in computational linguistics, lexicography, and developers of natural language processing systems working with low-resource languages.",
+      "abs_url": "http://arxiv.org/abs/2608.04186v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04186v1",
+      "code_url": null
+    },
+    "2608.04697": {
+      "id": "2608.04697",
+      "version": "2608.04697v1",
+      "title": "Traceable LLM-Generated Hazard Scenarios for Operational Safety Analysis of Aviation Systems Using ASRS Reports",
+      "authors": [
+        "Cristian Mascia",
+        "Roberto Pietrantuono",
+        "Daniel Rodriguez",
+        "Stefano Russo"
+      ],
+      "published": "2026-08-05",
+      "updated": "2026-08-05",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Operational hazard analysis of aviation system operations must consider interactions among weather, ATC actions, airspace constraints, aircraft operations, and human factors - distinct from the functional hazard assessment applied at the aircraft-system level. We present an AI-assisted approach that generates candidate hazard scenarios from NASA's Aviation Safety Reporting System (ASRS). Given a target adverse outcome, it produces a structured hypothesis as categorical factors and a narrative scenario describing an operational event sequence consistent with the structure. Each scenario includes by a plausibility score from historical co-occurrence evidence and traceability to the most similar held-out ASRS reports. We then propose a hybrid variant, conditioning narrative generation on a structured hypothesis produced via evolutionary abduction, improving correctness and reducing variability. We evaluate multiple large language models, zero-shot versus few-shot prompting, and optional fine-tuning, measuring how prompting and model choice affect the validity and realism of the generated structures and narratives.",
+      "abs_url": "http://arxiv.org/abs/2608.04697v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04697v1",
+      "code_url": null
+    },
+    "2608.04285": {
+      "id": "2608.04285",
+      "version": "2608.04285v1",
+      "title": "The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning",
+      "authors": [
+        "Agnese Chiatti",
+        "Michael Cochez",
+        "Cristina Cornelio",
+        "Sebastijan Dumancic",
+        "Artur d'Avila Garcez",
+        "Luis C. Lamb",
+        "Lia Morra",
+        "Mathias Niepert",
+        "Robert Peharz",
+        "Alberto Speranzon",
+        "Maarten Stol",
+        "Annette Ten Teije",
+        "Thiviyan Thanapalasingam",
+        "Frank Van Harmelen",
+        "Emile Van Krieken",
+        "Antonio Vergari",
+        "Benjie Wang"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Neurosymbolic AI systems that integrate machine learning and symbolic reasoning are rapidly gaining attention. They complement the data-intensive statistical approaches of neural networks and language models with symbolic reasoning algorithms to function in high-stakes domains or in low-data regimes that characterize many real-world applications. We argue that the neurosymbolic combination of machine learning and formal reasoning is not a niche approach within AI, but rather includes many already successful techniques that are of crucial importance to the development of reliable, efficient and, ultimately, trustworthy systems. This perspective prompts a re-examination of the design of current AI systems. We show that many leading AI systems, including some that are not traditionally considered as neurosymbolic, can be analysed from the perspective of four principles of neurosymbolic AI design: Reasoning, Assurances, Interfacing and Learning (RAIL). Applying the RAIL framework offers a unified view of seemingly disparate AI systems, ranging from physics-aware machine learning to neuro-guided search (such as Google DeepMind's Alpha-* suite), causal learning and tool-augmented Large Language Models. Importantly, the RAIL principles will enable engineers to make better-informed and more principled decisions about the design and deployment of production-level AI systems. In this article, we introduce the RAIL principles, examine how they can be applied across major areas of AI, and illustrate how they may guide practitioners to integrate neurosymbolic methods into next-generation AI technologies.",
+      "abs_url": "http://arxiv.org/abs/2608.04285v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04285v1",
       "code_url": null
     }
   }
