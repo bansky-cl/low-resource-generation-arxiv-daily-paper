@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.06
+## Updated on 2026.08.07
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **458**
-- Recent 30 days: **65**
-- Older than 30 days: **393**
+- Recent 30 days: **61**
+- Older than 30 days: **397**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -83,15 +83,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-08**|**Feedback Manipulation Regularization: Enabling Offline Agent Alignment for Imitation Learning**|cs.AI, cs.HC, cs.LG|[2607.07859v1](http://arxiv.org/abs/2607.07859v1)|null|
 |**2026-07-08**|**Selective Left-Shift: Turning Test-Time Compute and Difficulty-based Curation into Training Data for Low-Resource Code Generation**|cs.LG|[2607.07748v1](http://arxiv.org/abs/2607.07748v1)|null|
 |**2026-07-08**|**Future Confidence Distillation in Large Language Models**|cs.CL, cs.AI|[2607.07626v1](http://arxiv.org/abs/2607.07626v1)|null|
-|**2026-07-07**|**Estimating Uncertainty from Reasoning: A Large-Scale Study of Multi- and Crosslingual MCQA Performance in LLMs**|cs.CL, cs.AI|[2607.06327v2](http://arxiv.org/abs/2607.06327v2)|null|
-|**2026-07-07**|**Property-Driven Synthetic Data Engineering for Data-Scarce Software Systems: Reflections from the Breast Cancer Domain**|cs.SE, cs.AI|[2607.06133v1](http://arxiv.org/abs/2607.06133v1)|null|
-|**2026-07-07**|**PluraMath: Extending Mathematical Reasoning Evaluation Beyond High-Resource Languages**|cs.CL, cs.AI|[2607.05992v1](http://arxiv.org/abs/2607.05992v1)|null|
-|**2026-07-07**|**CoPiT: Cognitive Pivot Translation for Digraphic Low-Resource Mongolian in the Traditional Script**|cs.CL|[2607.05849v1](http://arxiv.org/abs/2607.05849v1)|**[code](https://anonymous.4open.science/r/anonymous_project-76C7)**|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-07**|**Estimating Uncertainty from Reasoning: A Large-Scale Study of Multi- and Crosslingual MCQA Performance in LLMs**|cs.CL, cs.AI|[2607.06327v2](http://arxiv.org/abs/2607.06327v2)|null|
+|**2026-07-07**|**Property-Driven Synthetic Data Engineering for Data-Scarce Software Systems: Reflections from the Breast Cancer Domain**|cs.SE, cs.AI|[2607.06133v1](http://arxiv.org/abs/2607.06133v1)|null|
+|**2026-07-07**|**PluraMath: Extending Mathematical Reasoning Evaluation Beyond High-Resource Languages**|cs.CL, cs.AI|[2607.05992v1](http://arxiv.org/abs/2607.05992v1)|null|
+|**2026-07-07**|**CoPiT: Cognitive Pivot Translation for Digraphic Low-Resource Mongolian in the Traditional Script**|cs.CL|[2607.05849v1](http://arxiv.org/abs/2607.05849v1)|**[code](https://anonymous.4open.science/r/anonymous_project-76C7)**|
 |**2026-07-06**|**Formal Disco: Scalable Open-Ended Generation of Formally Verified Programs**|cs.AI|[2607.04631v1](http://arxiv.org/abs/2607.04631v1)|null|
 |**2026-07-06**|**LLM-Driven CI-CD Workflow Intelligence for Cyber Systems Engineering**|cs.SE, cs.AI|[2607.04579v1](http://arxiv.org/abs/2607.04579v1)|null|
 |**2026-07-05**|**CertMix: Certified, Data-Efficient Metamaterial Design by Affine Mixing of Aligned Neural-Implicit Weight Spaces**|cs.LG|[2607.04123v1](http://arxiv.org/abs/2607.04123v1)|null|
