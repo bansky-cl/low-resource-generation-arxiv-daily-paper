@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **458**
-- Recent 30 days: **61**
+- Total papers in JSON: **461**
+- Recent 30 days: **64**
 - Older than 30 days: **397**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,10 +22,13 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-06**|**SAGA: Score-Weighted Adaptive Generation Alignment for Low-Resource Nordic Language Models**|cs.LG|[2608.06179v1](http://arxiv.org/abs/2608.06179v1)|null|
+|**2026-08-06**|**Clinical Communication Processing with Models Trained on LLM-Generated Synthetic Data: A Structured Survey and Novel Application Case Studies**|cs.CL|[2608.05993v1](http://arxiv.org/abs/2608.05993v1)|null|
+|**2026-08-06**|**MameLoshnLM: Yiddish Language Model and Evaluation Benchmark**|cs.CL, cs.AI|[2608.05850v1](http://arxiv.org/abs/2608.05850v1)|null|
 |**2026-08-05**|**Traceable LLM-Generated Hazard Scenarios for Operational Safety Analysis of Aviation Systems Using ASRS Reports**|cs.AI|[2608.04697v1](http://arxiv.org/abs/2608.04697v1)|null|
-|**2026-08-05**|**Breaking the Curse ofMultilinguality inMany-to-Many Speech-to-Text Translation via a Resource-AwareMixture of Speech Encoders**|cs.CL, cs.AI|[2608.04586v1](http://arxiv.org/abs/2608.04586v1)|null|
+|**2026-08-05**|**Breaking the Curse of Multilinguality in Many-to-Many Speech-to-Text Translation via a Resource-Aware Mixture of Speech Encoders**|cs.CL, cs.AI|[2608.04586v2](http://arxiv.org/abs/2608.04586v2)|null|
 |**2026-08-04**|**The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning**|cs.AI, cs.LG|[2608.04285v1](http://arxiv.org/abs/2608.04285v1)|null|
-|**2026-08-04**|**Large Language Models for Low-Resource Languages: A Conceptual Framework for an Electronic Explanatory Dictionary of the Tajik Language**|cs.CL|[2608.04186v1](http://arxiv.org/abs/2608.04186v1)|null|
+|**2026-08-04**|**Large Language Models for Low-Resource Languages: A Conceptual Framework for an Electronic Explanatory Dictionary of the Tajik Language**|cs.CL|[2608.04186v2](http://arxiv.org/abs/2608.04186v2)|null|
 |**2026-08-04**|**Assessment of Conditional Diffusion Model for Synthetic Histopathology Image Generation**|cs.LG|[2608.03990v1](http://arxiv.org/abs/2608.03990v1)|null|
 |**2026-08-04**|**M-GATE: Multilingual Grammar, Accuracy in Translation, and Efficiency Benchmark for Large Language Models**|cs.CL, cs.LG|[2608.03803v1](http://arxiv.org/abs/2608.03803v1)|**[code](https://m-gate.ai)**|
 |**2026-08-04**|**DiagLoop: A Counterfactual Data Flywheel with Stage-Localized Reinforcement for Diagnostic LLMs**|cs.LG|[2608.03674v1](http://arxiv.org/abs/2608.03674v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-26**|**BhashaSetu: A Data-Centric Approach to Low-Resource Machine Translation**|cs.CL, cs.LG|[2605.27050v1](http://arxiv.org/abs/2605.27050v1)|null|
 |**2026-05-26**|**AlbanianLLMSafety: A Safety Evaluation Dataset for Large Language Models in Albanian**|cs.CL|[2605.26954v1](http://arxiv.org/abs/2605.26954v1)|null|
 |**2026-05-26**|**Uncertainty-Aware Budget Allocation for Adaptive Test-Time Reasoning**|cs.CL|[2605.26849v1](http://arxiv.org/abs/2605.26849v1)|**[code](https://github.com/manhitv/UAB)**|
-|**2026-05-26**|**Helicase: Uncertainty-Guided Supply Chain Knowledge Graph Construction with Autonomous Multi-Agent LLMs**|cs.AI|[2605.26835v1](http://arxiv.org/abs/2605.26835v1)|null|
-|**2026-05-26**|**Generating Logically Consistent Synthetic Supply Chain Data with LLM-Driven Knowledge Graph Reasoning**|cs.CL|[2605.26823v1](http://arxiv.org/abs/2605.26823v1)|null|
-|**2026-05-26**|**Self-Improvement Imitation with Biologically Guided Search for Protein Design Under Oracle Budgets**|cs.LG, cs.AI, q-bio.QM|[2605.26690v1](http://arxiv.org/abs/2605.26690v1)|**[code](https://github.com/grimmlab/SILO.git)**|
 
-README omitted **258** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **261** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

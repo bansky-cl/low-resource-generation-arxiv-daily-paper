@@ -9851,8 +9851,8 @@
     },
     "2608.04586": {
       "id": "2608.04586",
-      "version": "2608.04586v1",
-      "title": "Breaking the Curse ofMultilinguality inMany-to-Many Speech-to-Text Translation via a Resource-AwareMixture of Speech Encoders",
+      "version": "2608.04586v2",
+      "title": "Breaking the Curse of Multilinguality in Many-to-Many Speech-to-Text Translation via a Resource-Aware Mixture of Speech Encoders",
       "authors": [
         "Yexing Du",
         "Kaiyuan Liu",
@@ -9863,31 +9863,33 @@
         "Ming Liu"
       ],
       "published": "2026-08-05",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "categories": [
         "cs.CL",
         "cs.AI"
       ],
       "abstract": "Multimodal large language models (MLLMs) have achieved significant success in speech-to-text translation (S2TT). However, when processing multilingual speech inputs, a single speech encoder shared across all languages suffers from the curse of multilinguality: languages at different resource levels compete for limited representation capacity, leading to strong high-resource performance but substantial degradation on low-resource speech. To address this problem and improve multilingual consistency, we propose MSRT, a novel framework built around a resource-aware Mixture of Speech Encoders (MoSE). MoSE uses an explicit language router to assign each utterance to an appropriate expert encoder. A frozen expert preserves high-resource language capabilities, while a trainable expert adapts to and specializes in medium- and low-resource languages. We further introduce a five-stage curriculum learning strategy that substantially reduces data dependence, requiring only 10 hours of paired S2TT data per language for effective alignment. We conduct extensive experiments on 45 languages, systematically evaluating all $45 \\times 44$ translation directions. Our 4B-parameter model achieves state-of-the-art performance, outperforming substantially larger baselines. Empirical analyses show that MoSE improves high-, medium-, and low-resource languages simultaneously, with the largest gains on low-resource speech, thereby breaking the curse of multilinguality without compromising high-resource performance. To support future multilingual S2TT research, we release our code and models.",
-      "abs_url": "http://arxiv.org/abs/2608.04586v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.04586v1",
+      "abs_url": "http://arxiv.org/abs/2608.04586v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.04586v2",
       "code_url": null
     },
     "2608.04186": {
       "id": "2608.04186",
-      "version": "2608.04186v1",
+      "version": "2608.04186v2",
       "title": "Large Language Models for Low-Resource Languages: A Conceptual Framework for an Electronic Explanatory Dictionary of the Tajik Language",
       "authors": [
-        "Mullosharaf K. Arabov"
+        "Mullosharaf K. Arabov",
+        "S. S. Pirov",
+        "B. Sultonov"
       ],
       "published": "2026-08-04",
-      "updated": "2026-08-04",
+      "updated": "2026-08-06",
       "categories": [
         "cs.CL"
       ],
       "abstract": "This paper presents a conceptual framework for developing an electronic explanatory dictionary of the Tajik language using large language models (LLMs). The relevance of the work stems from the absence of a comprehensive digital lexicographic resource for Tajik that is comparable in functionality to dictionaries for high-resource languages, and from the limited adaptation of modern natural language processing technologies to low-resource language systems. Based on a systematic survey of existing linguistic, statistical, and corpus resources, we propose a dictionary architecture that integrates modules for morphological analysis, lemmatization, semantic clustering, and dictionary entry generation using LLMs. The choice of subword tokenization is justified by the agglutinative nature of Tajik morphology and its high morphological variability, along with a parameter-efficient fine-tuning (PEFT) strategy suitable for limited annotated data. The novelty of the work lies in proposing the first holistic conceptual architecture of an explanatory dictionary for Tajik that unifies classical lexicographic methods, language statistics, and generative capabilities of LLMs into a single system. The practical significance of the study is the formation of a methodological foundation for developing a full-featured electronic dictionary that can serve both as a lexicographic tool and as a core resource for machine translation, automatic summarization, sentiment analysis, and other applied NLP tasks. The paper is intended for specialists in computational linguistics, lexicography, and developers of natural language processing systems working with low-resource languages.",
-      "abs_url": "http://arxiv.org/abs/2608.04186v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.04186v1",
+      "abs_url": "http://arxiv.org/abs/2608.04186v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.04186v2",
       "code_url": null
     },
     "2608.04697": {
@@ -9942,6 +9944,67 @@
       "abstract": "Neurosymbolic AI systems that integrate machine learning and symbolic reasoning are rapidly gaining attention. They complement the data-intensive statistical approaches of neural networks and language models with symbolic reasoning algorithms to function in high-stakes domains or in low-data regimes that characterize many real-world applications. We argue that the neurosymbolic combination of machine learning and formal reasoning is not a niche approach within AI, but rather includes many already successful techniques that are of crucial importance to the development of reliable, efficient and, ultimately, trustworthy systems. This perspective prompts a re-examination of the design of current AI systems. We show that many leading AI systems, including some that are not traditionally considered as neurosymbolic, can be analysed from the perspective of four principles of neurosymbolic AI design: Reasoning, Assurances, Interfacing and Learning (RAIL). Applying the RAIL framework offers a unified view of seemingly disparate AI systems, ranging from physics-aware machine learning to neuro-guided search (such as Google DeepMind's Alpha-* suite), causal learning and tool-augmented Large Language Models. Importantly, the RAIL principles will enable engineers to make better-informed and more principled decisions about the design and deployment of production-level AI systems. In this article, we introduce the RAIL principles, examine how they can be applied across major areas of AI, and illustrate how they may guide practitioners to integrate neurosymbolic methods into next-generation AI technologies.",
       "abs_url": "http://arxiv.org/abs/2608.04285v1",
       "pdf_url": "https://arxiv.org/pdf/2608.04285v1",
+      "code_url": null
+    },
+    "2608.06179": {
+      "id": "2608.06179",
+      "version": "2608.06179v1",
+      "title": "SAGA: Score-Weighted Adaptive Generation Alignment for Low-Resource Nordic Language Models",
+      "authors": [
+        "Hoda Fakharzadehjahromy",
+        "Emil Wiman",
+        "Andreas Bueff",
+        "Hafsteinn Einarsson",
+        "Fredrik Heintz"
+      ],
+      "published": "2026-08-06",
+      "updated": "2026-08-06",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Preference optimisation has proven effective for improving large language models but typically relies on costly human preference annotations. Extending these methods to morphologically rich, low-resource languages remains challenging because such annotations are scarce. We present SAGA (Score-weighted Adaptive Generation Alignment), a parser-guided preference optimisation framework that replaces human labels with dependency-parser supervision. SAGA converts parser judgements into preference pairs for delta-DPO, combines parser quality with lexical diversity in a composite reward, filters low-information pairs using a reward-gap criterion, and monitors reward hacking to maintain reliable supervision. Across Danish, Icelandic, and Norwegian Bokmål using GPT-SW3-1.3B, SAGA consistently improves grammatical quality without requiring human preference labels. Danish parse success increases from 69.0% to 93.8%, Icelandic achieves a +4.5 percentage-point improvement on an independent Stanza evaluation (three-run mean +3.3 percentage points) while native speakers prefer SAGA outputs in 80% of pairwise comparisons, and Norwegian Bokmål improves by +28 percentage points. These results demonstrate that parser-derived supervision is a practical alternative to human preference annotation for grammatical alignment in low-resource languages where high-quality dependency parsers are available.",
+      "abs_url": "http://arxiv.org/abs/2608.06179v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06179v1",
+      "code_url": null
+    },
+    "2608.05993": {
+      "id": "2608.05993",
+      "version": "2608.05993v1",
+      "title": "Clinical Communication Processing with Models Trained on LLM-Generated Synthetic Data: A Structured Survey and Novel Application Case Studies",
+      "authors": [
+        "Alexander Apartsin",
+        "Yehudit Aperstein"
+      ],
+      "published": "2026-08-06",
+      "updated": "2026-08-06",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Much clinical value is conveyed not through structured records but through communication: exchanges in which patients describe symptoms, clinicians reason and give instructions, ambulances hand over to emergency departments, and nurses pass on a shift. Such language differs from tabular data because meaning depends on speaker role, intent, causality, uncertainty, omission, and channel noise. Healthcare natural language processing must therefore interpret information as conveyed rather than coded. This requires well-annotated corpora, which are scarce because authentic exchanges are private, fragmented, and costly to annotate. Large language models offer a way forward by transforming clinical sources, such as records, diagnostic labels, symptom lists, or care plans, into written and transcribed communication for downstream models. We present a structured narrative survey organized by source representation, communication form and participants, generation method, and downstream task, complemented by thirteen novel case studies. These build clinical NLP systems for communication channels and languages without labeled real-world data, including EMS pre-arrival reports, field-radio casualty documentation, nurse handoffs, patient-portal triage, and low-resource discharge communication. They show that synthetic communication can bootstrap such systems. Findings include the competitiveness of fine-tuned encoder models over evaluated zero-shot baselines and the value of deliberately degraded communication for robustness. The main limitation is that most studies evaluate on held-out synthetic communication, while train-on-synthetic, test-on-authentic evidence remains limited. We conclude that syn-thetic clinical communication is becoming a practical research resource; establishing it as reusable clinical infrastructure will require authentic-data transfer, safety and external validation.",
+      "abs_url": "http://arxiv.org/abs/2608.05993v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05993v1",
+      "code_url": null
+    },
+    "2608.05850": {
+      "id": "2608.05850",
+      "version": "2608.05850v1",
+      "title": "MameLoshnLM: Yiddish Language Model and Evaluation Benchmark",
+      "authors": [
+        "Uri Katz",
+        "Omer Goldman",
+        "Tomasz Limisiewicz",
+        "Reut Tsarfaty",
+        "Noah A. Smith"
+      ],
+      "published": "2026-08-06",
+      "updated": "2026-08-06",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "We present MameLoshnLM, the first open-source 8B-parameter language model built specifically for Yiddish. Despite Yiddish's rich textual tradition, its limited digital presence and the scarcity of reliable evaluation resources have constrained progress in Yiddish language modeling. Existing multilingual corpora and benchmarks are often poor proxies for the language, containing substantial amounts of noisy, machine-translated, and misclassified text. We address these gaps by introducing Oytser, a high-quality Yiddish pretraining corpus that combines contemporary web-native sources with literary materials, and Kashes, a multi-task benchmark spanning translation, linguistic analysis, information extraction, and language understanding. Using these resources, we continue pretraining Llama 3.1 8B to obtain MameLoshnLM. Across the tasks in the benchmark, MameLoshnLM outperforms open baselines of similar scale. Our analyses show that these gains are not only quantitative: relative to general-purpose multilingual models, MameLoshnLM better captures language-defining lexical and morphological patterns, pointing to a broader failure mode of noisy web-scale multilingual data for low-resource languages. Our results provide both a foundation for Yiddish NLP and a practical template for language model development in historically rich but digitally underrepresented languages.",
+      "abs_url": "http://arxiv.org/abs/2608.05850v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05850v1",
       "code_url": null
     }
   }
