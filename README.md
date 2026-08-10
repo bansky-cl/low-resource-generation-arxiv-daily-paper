@@ -7,21 +7,25 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.09
+## Updated on 2026.08.10
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **461**
-- Recent 30 days: **60**
-- Older than 30 days: **401**
+- Total papers in JSON: **465**
+- Recent 30 days: **62**
+- Older than 30 days: **403**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-07**|**Skaling: Chinchilla's Exponents Meet Kaplan's Coupling**|cs.CL|[2608.07222v1](http://arxiv.org/abs/2608.07222v1)|null|
+|**2026-08-07**|**Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models**|cs.RO, cs.AI|[2608.06994v1](http://arxiv.org/abs/2608.06994v1)|null|
+|**2026-08-07**|**Evolving Parallel Algorithm Portfolios via Potential-Aware Instance Generation with LLMs**|cs.AI|[2608.06808v1](http://arxiv.org/abs/2608.06808v1)|null|
+|**2026-08-07**|**Multi-Perspective Triad Interaction Graph Neural Network for Cognitive Distortion Detection**|cs.CL|[2608.06785v1](http://arxiv.org/abs/2608.06785v1)|null|
 |**2026-08-06**|**SAGA: Score-Weighted Adaptive Generation Alignment for Low-Resource Nordic Language Models**|cs.LG|[2608.06179v1](http://arxiv.org/abs/2608.06179v1)|null|
 |**2026-08-06**|**Clinical Communication Processing with Models Trained on LLM-Generated Synthetic Data: A Structured Survey and Novel Application Case Studies**|cs.CL|[2608.05993v1](http://arxiv.org/abs/2608.05993v1)|null|
 |**2026-08-06**|**MameLoshnLM: Yiddish Language Model and Evaluation Benchmark**|cs.CL, cs.AI|[2608.05850v1](http://arxiv.org/abs/2608.05850v1)|null|
@@ -80,13 +84,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-13**|**Direct Image-to-Modern Vietnamese Translation of Han-Nom Manuscripts via Multimodal RLHF Preference Alignment**|cs.CL, cs.CV|[2607.11434v1](http://arxiv.org/abs/2607.11434v1)|null|
 |**2026-07-12**|**Diachronic Sample Integration: Robust Tail-Risk Estimation with Generative Models**|cs.LG, cs.AI, q-fin.RM|[2607.10810v1](http://arxiv.org/abs/2607.10810v1)|null|
 |**2026-07-11**|**Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety**|cs.CR, cs.AI|[2607.10112v1](http://arxiv.org/abs/2607.10112v1)|**[code](https://github.com/Brentkong/Minionese-Comprehensive-Benchmark-and-Mechanistic-Study-of-Multilingual-LLM-Safety.git)**|
-|**2026-07-10**|**Index SLM Technical Report**|cs.CL|[2607.09885v1](http://arxiv.org/abs/2607.09885v1)|**[code](https://github.com/bilibili/Index-1.9B)**|
-|**2026-07-10**|**Quantum-Enhanced Synthetic Data Generation Using Quantum Circuit Born Machines for Imbalanced Tabular Learning**|quant-ph, cs.LG|[2607.09113v1](http://arxiv.org/abs/2607.09113v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-10**|**Index SLM Technical Report**|cs.CL|[2607.09885v1](http://arxiv.org/abs/2607.09885v1)|**[code](https://github.com/bilibili/Index-1.9B)**|
+|**2026-07-10**|**Quantum-Enhanced Synthetic Data Generation Using Quantum Circuit Born Machines for Imbalanced Tabular Learning**|quant-ph, cs.LG|[2607.09113v1](http://arxiv.org/abs/2607.09113v1)|null|
 |**2026-07-09**|**MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction**|cs.CL|[2607.08080v1](http://arxiv.org/abs/2607.08080v1)|**[code](https://github.com/Hankerlove/MASTE)**|
 |**2026-07-08**|**Feedback Manipulation Regularization: Enabling Offline Agent Alignment for Imitation Learning**|cs.AI, cs.HC, cs.LG|[2607.07859v1](http://arxiv.org/abs/2607.07859v1)|null|
 |**2026-07-08**|**Selective Left-Shift: Turning Test-Time Compute and Difficulty-based Curation into Training Data for Low-Resource Code Generation**|cs.LG|[2607.07748v1](http://arxiv.org/abs/2607.07748v1)|null|
@@ -223,12 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-26**|**TriHead-GAN: A Generative Adversarial Network with Triple-Head Discriminator for Carbon Emission Time Series Generation**|cs.LG|[2606.07569v1](http://arxiv.org/abs/2606.07569v1)|null|
 |**2026-05-26**|**Reading or Guessing? Visual Grounding Failures of Vision-Language Models for OCR in Ancient Greek Editions**|cs.CL, cs.AI, cs.CV, cs.DL|[2605.27750v1](http://arxiv.org/abs/2605.27750v1)|null|
 |**2026-05-26**|**Learning to Translate from Soft to Hard LLM Prompts**|cs.CL, cs.LG|[2605.27642v1](http://arxiv.org/abs/2605.27642v1)|null|
-|**2026-05-26**|**High-Quality Synthetic Financial Time-Series using a GAN-Diffusion Framework**|cs.LG, cs.AI|[2605.27113v1](http://arxiv.org/abs/2605.27113v1)|null|
-|**2026-05-26**|**BhashaSetu: A Data-Centric Approach to Low-Resource Machine Translation**|cs.CL, cs.LG|[2605.27050v1](http://arxiv.org/abs/2605.27050v1)|null|
-|**2026-05-26**|**AlbanianLLMSafety: A Safety Evaluation Dataset for Large Language Models in Albanian**|cs.CL|[2605.26954v1](http://arxiv.org/abs/2605.26954v1)|null|
-|**2026-05-26**|**Uncertainty-Aware Budget Allocation for Adaptive Test-Time Reasoning**|cs.CL|[2605.26849v1](http://arxiv.org/abs/2605.26849v1)|**[code](https://github.com/manhitv/UAB)**|
 
-README omitted **261** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **265** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

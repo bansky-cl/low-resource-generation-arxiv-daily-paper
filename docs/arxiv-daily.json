@@ -10006,6 +10006,90 @@
       "abs_url": "http://arxiv.org/abs/2608.05850v1",
       "pdf_url": "https://arxiv.org/pdf/2608.05850v1",
       "code_url": null
+    },
+    "2608.06994": {
+      "id": "2608.06994",
+      "version": "2608.06994v1",
+      "title": "Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models",
+      "authors": [
+        "Xiangkai Ma",
+        "Yue Ma",
+        "Junjie Wang",
+        "Sheng Xu",
+        "Mingyang Li",
+        "Han Zhang",
+        "Yuzheng Zhuang",
+        "Wenzhong Li",
+        "Zhihao Yuan"
+      ],
+      "published": "2026-08-07",
+      "updated": "2026-08-07",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "abstract": "World Action Models (WAMs) aim to construct a unified architecture capable of understanding world state evolution and guiding to generative motion planning. However, existing visual branches focus on predicting static visual observation, rather than reflecting potential transition information that captures the evolution of world states under motion interactions. This leads to representational entanglement between high-level physical condition evolution and low-level action trajectory generation within the Action Model, creating a structural bottleneck while weakening the predictive capability of world evolution modeling for action generation. We propose PILOT (Physical Inference for Latent Optimized Trajectories), whose core Representational Deduction (RD) bridges this gap by integrating motion thought-of-chain (CoT) guidance as a native model capability. Specifically, RD aims to encourage the action branch to explicitly model potential state transition tokens, which are retained as CoT in the reasoning space to guide fine-grained motion trajectory. Experiments demonstrate that RD not only significantly improves the success rate and generalization ability of WAMs in complex robotic manipulation tasks but also enhances the model's physical interpretability by decoupling high-level motion semantics from low-level trajectory details. Furthermore, the abundant state transition supervision signals introduced by RD effectively alleviate the sparse supervision in action generation, enabling it to serve as an efficient few-shot real-robot fine-tuning strategy and demonstrating superior scalability for migration to mainstream WAM architectures.",
+      "abs_url": "http://arxiv.org/abs/2608.06994v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06994v1",
+      "code_url": null
+    },
+    "2608.06808": {
+      "id": "2608.06808",
+      "version": "2608.06808v1",
+      "title": "Evolving Parallel Algorithm Portfolios via Potential-Aware Instance Generation with LLMs",
+      "authors": [
+        "Shaofeng Zhang",
+        "Shengcai Liu",
+        "Zhiyuan Wang",
+        "Ke Tang"
+      ],
+      "published": "2026-08-07",
+      "updated": "2026-08-07",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "The Automatic Construction of Portfolios via Large Language Models (LLM-ACP) suffers from poor generalization in practical few-shot scenarios when solving complex combinatorial optimization problems. Instance and algorithm co-evolution frameworks address this by expanding the training dataset with generated hard instances on which the current algorithm portfolio underperforms, thereby enhancing generalization. However, this paradigm faces two critical limitations: evaluating instance hardness relies on high-quality reference solutions, and single-mode generation patterns limit instance diversity. To overcome these limitations, we introduce the Potential-aware Instance and Algorithm Co-evolution (PIAC) framework. Our core contribution is twofold. First, we propose potential gain, a novel metric that eliminates the need for reference solutions. This metric estimates generalization gain by perturbing the generated algorithms and assessing their improvement potential on generated problem instances. Second, PIAC leverages LLMs to synthesize diverse instance mutators, exploring a broader region of the problem-instance space and thereby enhancing the portfolio's generalization capabilities. Given that perturbation spaces vary across different algorithms, we instantiate our framework on Greedy Constructive, Ant Colony Optimization, and Guided Local Search algorithmic backbones. Comprehensive evaluations on the Traveling Salesman Problem (TSP) and Capacitated Vehicle Routing Problem (CVRP) across six distinct data distributions demonstrate that PIAC consistently outperforms state-of-the-art LLM-ACP baselines, notably achieving a 19.76% relative improvement for TSP Greedy Constructive portfolios.",
+      "abs_url": "http://arxiv.org/abs/2608.06808v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06808v1",
+      "code_url": null
+    },
+    "2608.06785": {
+      "id": "2608.06785",
+      "version": "2608.06785v1",
+      "title": "Multi-Perspective Triad Interaction Graph Neural Network for Cognitive Distortion Detection",
+      "authors": [
+        "Jun Seo Kim",
+        "Hye Hyeon Kim"
+      ],
+      "published": "2026-08-07",
+      "updated": "2026-08-07",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Cognitive distortion detection is a key task in computational mental health, yet existing approaches often overlook the psychological structure of distorted thoughts. We propose MTI-GNN (Multi-Perspective Triad Interaction Graph Neural Network), which models Beck's cognitive triad---negative views of the self, world, and future---as complementary perspectives for classification. An LLM decomposes each utterance into the three perspectives, from which perspective-specific similarity graphs are constructed and encoded by a Multi-Perspective GNN. A Triad Interaction module models cross-perspective dependencies through sequential source-conditioned updates and feature-wise gating, while Prototype-Guided Perspective Fusion performs label-conditioned aggregation. Label-expanded supervision incorporates all available distortion annotations during training. We evaluate MTI-GNN on 9,764 samples from four Korean, English, and Chinese datasets spanning ten distortion categories. MTI-GNN significantly outperforms all supervised variants and exceeds eight prompted generative models under zero-shot and few-shot settings. Leave-one-perspective-out ablations show that all three perspectives contribute significantly, while human expert evaluation provides preliminary evidence of their alignment with the intended cognitive dimensions.",
+      "abs_url": "http://arxiv.org/abs/2608.06785v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06785v1",
+      "code_url": null
+    },
+    "2608.07222": {
+      "id": "2608.07222",
+      "version": "2608.07222v1",
+      "title": "Skaling: Chinchilla's Exponents Meet Kaplan's Coupling",
+      "authors": [
+        "Mathurin Videau",
+        "Badr Youbi-Idrissi",
+        "David Lopez-Paz",
+        "Kartik Ahuja"
+      ],
+      "published": "2026-08-07",
+      "updated": "2026-08-07",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Neural scaling laws are foundational for language model development, yet standard formulations systematically under- and overestimate loss at data-scarce and overtraining extremes. This failure originates in the underlying assumption that model size and training data impact the loss independently. To address this, we introduce the Skaling law, a generalized functional form that couples model capacity and data through a single interaction exponent. This simple extension reduces the Mean Absolute Percentage Error (MAPE) by 1.5-3x across both interpolation and extrapolation regimes. When paired with a sparse grid strategy restricted to low-compute regimes, the Skaling law achieves accurate full-grid extrapolation using approximately 10x less compute than uniform sweeps. By enabling reliable performance prediction from small-scale experiments, the Skaling law provides a more robust and resource-efficient framework for allocating compute budgets in next-generation model training.",
+      "abs_url": "http://arxiv.org/abs/2608.07222v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.07222v1",
+      "code_url": null
     }
   }
 }
