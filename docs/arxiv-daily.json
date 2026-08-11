@@ -4307,7 +4307,7 @@
     },
     "2603.22213": {
       "id": "2603.22213",
-      "version": "2603.22213v1",
+      "version": "2603.22213v2",
       "title": "SPA: A Simple but Tough-to-Beat Baseline for Knowledge Injection",
       "authors": [
         "Kexian Tang",
@@ -4316,15 +4316,15 @@
         "Kaifeng Lyu"
       ],
       "published": "2026-03-23",
-      "updated": "2026-03-23",
+      "updated": "2026-08-09",
       "categories": [
         "cs.LG",
         "cs.AI",
         "cs.CL"
       ],
       "abstract": "While large language models (LLMs) are pretrained on massive amounts of data, their knowledge coverage remains incomplete in specialized, data-scarce domains, motivating extensive efforts to study synthetic data generation for knowledge injection. We propose SPA (Scaling Prompt-engineered Augmentation), a simple but tough-to-beat baseline that uses a small set of carefully designed prompts to generate large-scale synthetic data for knowledge injection. Through systematic comparisons, we find that SPA outperforms several strong baselines. Furthermore, we identify two key limitations of prior approaches: (1) while RL-based methods may improve the token efficiency of LLM-based data augmentation at small scale, they suffer from diversity collapse as data scales, leading to diminishing returns; and (2) while multi-stage prompting may outperform simple augmentation methods, their advantages can disappear after careful prompt tuning. Our results suggest that, for knowledge injection, careful prompt design combined with straightforward large-scale augmentation can be surprisingly effective, and we hope SPA can serve as a strong baseline for future studies in this area. Our code is available at https://github.com/Tangkexian/SPA.",
-      "abs_url": "http://arxiv.org/abs/2603.22213v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22213v1",
+      "abs_url": "http://arxiv.org/abs/2603.22213v2",
+      "pdf_url": "https://arxiv.org/pdf/2603.22213v2",
       "code_url": "https://github.com/Tangkexian/SPA"
     },
     "2603.19636": {
@@ -7841,7 +7841,7 @@
     },
     "2606.21165": {
       "id": "2606.21165",
-      "version": "2606.21165v1",
+      "version": "2606.21165v2",
       "title": "OmniV2X: A Generative Foundation Planner for Efficient End-to-End Cooperative Driving",
       "authors": [
         "Juntong Peng",
@@ -7852,14 +7852,14 @@
         "Ziran Wang"
       ],
       "published": "2026-06-19",
-      "updated": "2026-06-19",
+      "updated": "2026-08-07",
       "categories": [
         "cs.RO",
         "cs.AI"
       ],
       "abstract": "We present OmniV2X, a generative foundation model for vehicle-to-everything (V2X) cooperative driving. The model directly interprets independent context sequences comprising multi-modal and multi-agent observations. The new design mitigates the computational cost of dense 3D perception, the vulnerability to data scarcity in cooperative scenarios, and the poor compliance with standardized messaging in existing methods that fuse multi-modal inputs into a shared representation. For training, we present an end-to-end supervised pipeline using a downstream trajectory generation loss, in which a high-capacity generative sequence planner implicitly learns to steer the model and leverage multi-modal inputs via cross-attention injection. As a foundation model, we demonstrate that OmniV2X pre-trained on large-scale single-agent planning datasets can efficiently adapt to cooperative environments by integrating the conditioning context with lightweight, standard-compliant V2X tokens. Evaluated on the DAIR-V2X-Seq dataset, OmniV2X outperforms existing end-to-end cooperative driving baselines, achieving state-of-the-art performance with less than 10% of the fine-tune V2X dataset and less than 1% of the communication bandwidth. We conduct comprehensive evaluations to demonstrate its computational efficiency and robustness under real-world constraints.",
-      "abs_url": "http://arxiv.org/abs/2606.21165v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.21165v1",
+      "abs_url": "http://arxiv.org/abs/2606.21165v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.21165v2",
       "code_url": null
     },
     "2606.24841": {
@@ -10089,6 +10089,93 @@
       "abstract": "Neural scaling laws are foundational for language model development, yet standard formulations systematically under- and overestimate loss at data-scarce and overtraining extremes. This failure originates in the underlying assumption that model size and training data impact the loss independently. To address this, we introduce the Skaling law, a generalized functional form that couples model capacity and data through a single interaction exponent. This simple extension reduces the Mean Absolute Percentage Error (MAPE) by 1.5-3x across both interpolation and extrapolation regimes. When paired with a sparse grid strategy restricted to low-compute regimes, the Skaling law achieves accurate full-grid extrapolation using approximately 10x less compute than uniform sweeps. By enabling reliable performance prediction from small-scale experiments, the Skaling law provides a more robust and resource-efficient framework for allocating compute budgets in next-generation model training.",
       "abs_url": "http://arxiv.org/abs/2608.07222v1",
       "pdf_url": "https://arxiv.org/pdf/2608.07222v1",
+      "code_url": null
+    },
+    "2608.08067": {
+      "id": "2608.08067",
+      "version": "2608.08067v1",
+      "title": "DialectS2S: End-to-End Speech Dialogue Modeling for Low-Resource Chinese Dialects",
+      "authors": [
+        "Yi Shu",
+        "Tianyu Peng",
+        "Yingzhuo Deng",
+        "Wen Yang",
+        "Jun Lin",
+        "Changming Xie",
+        "Xinyu Yu",
+        "Jiajun Zhang"
+      ],
+      "published": "2026-08-08",
+      "updated": "2026-08-08",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Current end-to-end speech dialogue models are primarily optimized for mainstream languages and remain limited in low-resource dialect scenarios due to the scarcity of dialect speech data. Moreover, during dialect adaptation, the semantic representation space of speech dialogue models continuously evolves, while conventional speech supervision remains unchanged, leading to semantic inconsistency between hidden representations and speech targets and degrading speech stability and naturalness. To address these issues, we propose DialectS2S, an end-to-end speech dialogue model for Chinese dialects. We first develop a scalable dialect speech dialogue synthesis pipeline for efficient data construction. We further introduce a two-stage post-training strategy with self-aligned speech supervision, which aligns the semantic content of speech supervision with the evolved semantic representations of the model to improve dialect speech generation quality. Experimental results show that DialectS2S consistently outperforms existing baselines across multiple Chinese dialects in speech dialogue, achieving substantial improvements in dialect consistency, response quality, and speech intelligibility. Our work provides an efficient and scalable solution for end-to-end speech dialogue modeling in low-resource dialect scenarios. To facilitate future research and practical applications, we fully open-source the DialectS2S framework, including model checkpoints, training datasets, and fine-tuning code.",
+      "abs_url": "http://arxiv.org/abs/2608.08067v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.08067v1",
+      "code_url": null
+    },
+    "2608.07629": {
+      "id": "2608.07629",
+      "version": "2608.07629v1",
+      "title": "Embedding Initialization for Unseen Low-resource Languages in Multilingual NMT: A Case Study on Limbum-English Translation",
+      "authors": [
+        "Samiratu Ntohsi",
+        "Neza David Tuyishimire",
+        "Anesu Kafesu",
+        "Marvin Ogore",
+        "Samuel Oluwajunwonlo Babalola",
+        "Oche Ankeli"
+      ],
+      "published": "2026-08-07",
+      "updated": "2026-08-07",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Multilingual neural machine translation models such as NLLB-200 cover 200 languages but leave thousands unsupported, including most Grassfields Bantu languages of Cameroon. When fine-tuning these models for an unseen language, practitioners must choose a proxy language token, yet no principled method exists for this selection. We implemented an embedding initialization strategy where a language token is the average of embeddings from multiple typologically related languages already in the mod el. We evaluate this approach on Limbum-to-English translation using a parallel corpus of 8,837 sentence pairs from New Testament text and a bilingual dictionary. We compare models: NLLB-200 zero-shot (chrF2++ = 12.5), a Transformer trained from scratch (chrF2++ = 14.5), NLLB-200 fine-tuned with a Swahili proxy token (chrF2++ = 47.3), and NLLB-200 with our averaged embedding initialization (chrF2++ = 46.7). We find that the multi-language initialization achieves performance comparable to the best single-language proxy. Both NLLB-200 variants improve over the from-scratch baseline by over 32 chrF2++ points. These results show that multilingual transfer is the dominant factor in extremely low-resource Bantu translation while eliminating the need for heuristic proxy selection. However, all systems fail to preserve tonal diacritics, highlighting an open challenge. We make our dataset and code available to support further research.",
+      "abs_url": "http://arxiv.org/abs/2608.07629v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.07629v1",
+      "code_url": null
+    },
+    "2608.08935": {
+      "id": "2608.08935",
+      "version": "2608.08935v1",
+      "title": "Integrated Multimodal AI System for Retrieval-Augmented Reasoning, Object Sensing, and Damage Analysis",
+      "authors": [
+        "Kalelo Dukuray",
+        "Israel Pina",
+        "Evan Perez",
+        "Erika Ardiles-Cruz",
+        "Jie Wei"
+      ],
+      "published": "2026-08-09",
+      "updated": "2026-08-09",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This work presents a unified multimodal AI system for damage assessment that integrates retrieval-augmented generation (RAG) models, thermal spectrum perception, vision foundation model pipelines, and exploratory wireless signal sensing. A RAG component is developed to ground a locally hosted language model in project-specific documentation, including specialized damage level classification criteria to mitigate hallucinations during inference. Controlled comparisons against static few-shot prompting demonstrate that dynamic retrieval improves grounding and factual consistency. We further compare vector-based RAG with a knowledge graph variant constructed via entity-relation extraction, and show that graph-based retrieval produces stronger responses for damage assessment queries requiring cross-document reasoning, motivating hybrid dense, sparse, and graph-aware retrieval. To address limitations of EO imagery under adverse lighting and weather conditions, infrared (IR)/thermal sensing is employed for object detection and segmentation. Our detectors generate candidate detections, yielding improved segmentation of a broad array of objects. Paired IR versus visible spectrum tracking experiments reveal failure modes, motivating multimodal fusion for robust object detection and damage analysis. Vision foundation and vision-language models are leveraged to generate synthetic damage imagery and classify damage severity with high accuracy, supporting training and validation of downstream damage assessment models. Finally, exploratory Wireless-based sensing demonstrates potential to detect presence, motion, and post-event environmental changes where EO and IR sensing are ineffective.",
+      "abs_url": "http://arxiv.org/abs/2608.08935v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.08935v1",
+      "code_url": null
+    },
+    "2608.08545": {
+      "id": "2608.08545",
+      "version": "2608.08545v1",
+      "title": "Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies",
+      "authors": [
+        "Prishita Ray"
+      ],
+      "published": "2026-08-09",
+      "updated": "2026-08-09",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "abstract": "Robust navigation policies for autonomous agents must generalize across continuously varying environmental conditions such as turn rates, obstacles, friction, pits, and slopes. Curriculum generation provides a principled mechanism for improving generalization by progressively adapting training environments, but designing such curricula in a sample-efficient and automated manner remains challenging. This paper proposes a reparameterized curriculum generation framework for structured continuous environment parameters using unidirectional gradient-based optimization. To improve robustness in multimodal observation spaces consisting of image-based and scalar inputs, a distribution-shift regularization objective is incorporated to encourage the learning of finer-grained latent representations. The proposed method is evaluated across two continuous-control OpenAI Gym environments: a 2D obstacle-based Car Racing variant and Bipedal Walker variant, where coupled environment parameters jointly influence policy performance. Across five random seeds, our method consistently outperforms vanilla policy training, random parameter sampling, manual curricula, frontier-based methods, Self-Paced Reinforcement Learning (SPRL), Absolute Learning Progress with Gaussian Mixture Models (ALP-GMM), and reverse curriculum learning baselines. Ablation studies further demonstrate the effectiveness of the reparameterized curriculum mechanism across both environments, while highlighting environment-dependent benefits of the auxiliary regularization objective.",
+      "abs_url": "http://arxiv.org/abs/2608.08545v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.08545v1",
       "code_url": null
     }
   }
