@@ -7,21 +7,24 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.11
+## Updated on 2026.08.12
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **469**
-- Recent 30 days: **65**
-- Older than 30 days: **404**
+- Total papers in JSON: **472**
+- Recent 30 days: **67**
+- Older than 30 days: **405**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-11**|**The Illusion of Cross-Lingual Safety in Low-Resource Languages**|cs.CL|[2608.11146v1](http://arxiv.org/abs/2608.11146v1)|null|
+|**2026-08-11**|**Physics-informed Diffusion Generative Model for Time-Series Data Synthesis in Dynamic Systems**|cs.LG|[2608.10941v1](http://arxiv.org/abs/2608.10941v1)|null|
+|**2026-08-11**|**A Cost-Efficient Routing Pipeline for Multilingual Short-Text Classification Using Small Language Models**|cs.CL, cs.AI|[2608.10939v1](http://arxiv.org/abs/2608.10939v1)|null|
 |**2026-08-09**|**Integrated Multimodal AI System for Retrieval-Augmented Reasoning, Object Sensing, and Damage Analysis**|cs.AI|[2608.08935v1](http://arxiv.org/abs/2608.08935v1)|null|
 |**2026-08-09**|**Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies**|cs.RO, cs.LG|[2608.08545v1](http://arxiv.org/abs/2608.08545v1)|null|
 |**2026-08-08**|**DialectS2S: End-to-End Speech Dialogue Modeling for Low-Resource Chinese Dialects**|cs.CL, cs.AI|[2608.08067v1](http://arxiv.org/abs/2608.08067v1)|null|
@@ -86,12 +89,12 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-14**|**Sample Efficient Generative Optimization for Molecular Design**|cs.LG|[2607.12488v1](http://arxiv.org/abs/2607.12488v1)|null|
 |**2026-07-14**|**SinAE: A Single-Architecture Flow-Matching Autoencoder for Cross-Domain Atomic Systems**|cs.LG|[2607.12380v1](http://arxiv.org/abs/2607.12380v1)|**[code](https://github.com/BlueWhaleLab/SinAE)**|
 |**2026-07-13**|**Direct Image-to-Modern Vietnamese Translation of Han-Nom Manuscripts via Multimodal RLHF Preference Alignment**|cs.CL, cs.CV|[2607.11434v1](http://arxiv.org/abs/2607.11434v1)|null|
-|**2026-07-12**|**Diachronic Sample Integration: Robust Tail-Risk Estimation with Generative Models**|cs.LG, cs.AI, q-fin.RM|[2607.10810v1](http://arxiv.org/abs/2607.10810v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-12**|**Diachronic Sample Integration: Robust Tail-Risk Estimation with Generative Models**|cs.LG, cs.AI, q-fin.RM|[2607.10810v1](http://arxiv.org/abs/2607.10810v1)|null|
 |**2026-07-11**|**Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety**|cs.CR, cs.AI|[2607.10112v1](http://arxiv.org/abs/2607.10112v1)|**[code](https://github.com/Brentkong/Minionese-Comprehensive-Benchmark-and-Mechanistic-Study-of-Multilingual-LLM-Safety.git)**|
 |**2026-07-10**|**Index SLM Technical Report**|cs.CL|[2607.09885v1](http://arxiv.org/abs/2607.09885v1)|**[code](https://github.com/bilibili/Index-1.9B)**|
 |**2026-07-10**|**Quantum-Enhanced Synthetic Data Generation Using Quantum Circuit Born Machines for Imbalanced Tabular Learning**|quant-ph, cs.LG|[2607.09113v1](http://arxiv.org/abs/2607.09113v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-27**|**Towards Reliable Multilingual LLMs-as-a-Judge: An Empirical Study**|cs.CL, cs.AI|[2605.28710v1](http://arxiv.org/abs/2605.28710v1)|null|
 |**2026-05-27**|**Activation Steering for Synthetic Data Generation: The Role of Diversity in Downstream Safety Detection**|cs.LG, cs.CL|[2605.28664v1](http://arxiv.org/abs/2605.28664v1)|null|
 |**2026-05-27**|**PrionNER: A Named Entity Recognition Dataset for Prion Disease Biomedical Literature**|cs.CL|[2605.28375v1](http://arxiv.org/abs/2605.28375v1)|**[code](https://github.com/daotuanan/PrionNER/)**|
-|**2026-05-27**|**PubMedCausal: A Span-Level Annotated Corpus for Causal Relation Extraction in Biomedical Text**|cs.CL|[2605.28363v1](http://arxiv.org/abs/2605.28363v1)|**[code](https://github.com/josiahpaul07/PubMedCausal_Exp)**|
-|**2026-05-27**|**Explaining is Harder Than Predicting Alone: Evaluating Concept-based Explanations of MLLMs as ICL Visual Classifiers**|cs.AI, cs.CL, cs.LG, cs.LO, cs.MA|[2605.28215v1](http://arxiv.org/abs/2605.28215v1)|null|
-|**2026-05-27**|**Hierarchical Synthetic Tabular Data Generation: A Hybrid Top-Down and Bottom-Up Framework**|cs.LG|[2605.28198v2](http://arxiv.org/abs/2605.28198v2)|null|
 
-README omitted **269** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **272** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

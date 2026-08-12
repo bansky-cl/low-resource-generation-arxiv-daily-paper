@@ -4260,7 +4260,7 @@
     },
     "2604.09874": {
       "id": "2604.09874",
-      "version": "2604.09874v1",
+      "version": "2604.09874v2",
       "title": "Simulating Organized Group Behavior: New Framework, Benchmark, and Analysis",
       "authors": [
         "Xinkai Zou",
@@ -4273,14 +4273,14 @@
         "Letian Peng"
       ],
       "published": "2026-04-10",
-      "updated": "2026-04-10",
+      "updated": "2026-08-10",
       "categories": [
         "cs.CL",
         "cs.SI"
       ],
-      "abstract": "Simulating how organized groups (e.g., corporations) make decisions (e.g., responding to a competitor's move) is essential for understanding real-world dynamics and could benefit relevant applications (e.g., market prediction). In this paper, we formalize this problem as a concrete research platform for group behavior understanding, providing: (1) a task definition with benchmark and evaluation criteria, (2) a structured analytical framework with a corresponding algorithm, and (3) detailed temporal and cross-group analysis. Specifically, we propose Organized Group Behavior Simulation, a task that models organized groups as collective entities from a practical perspective: given a group facing a particular situation (e.g., AI Boom), predict the decision it would take. To support this task, we present GROVE (GRoup Organizational BehaVior Evaluation), a benchmark covering 44 entities with 8,052 real-world context-decision pairs collected from Wikipedia and TechCrunch across 9 domains, with an end-to-end evaluation protocol assessing consistency, initiative, scope, magnitude, and horizon. Beyond straightforward prompting pipelines, we propose a structured analytical framework that converts collective decision-making events into an interpretable, adaptive, and traceable behavioral model, achieving stronger performance than summarization- and retrieval-based baselines. It further introduces an adapter mechanism for time-aware evolution and group-aware transfer, and traceable evidence nodes grounding each decision rule in originating historical events. Our analysis reveals temporal behavioral drift within individual groups, which the time-aware adapter effectively captures for stronger prediction, and structured cross-group similarity that enables knowledge transfer for data-scarce organizations.",
-      "abs_url": "http://arxiv.org/abs/2604.09874v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.09874v1",
+      "abstract": "Simulating how organized groups (e.g., corporations) make decisions (e.g., responding to a competitor's move) is essential for understanding real-world dynamics and could benefit relevant applications (e.g., market prediction). In this paper, we formalize this problem as a concrete research platform for group behavior understanding, providing: (1) a task formalization with benchmark and evaluation criteria, (2) a structured and adaptive analytical framework, and (3) detailed temporal and cross-group analysis. Specifically, we propose Organized Group Behavior Simulation, a task that models organized groups as collective entities from a practical perspective: given a group facing a particular situation (e.g., AI Boom), predict the decision it would take. To support this task, we present GROVE (GRoup Organizational BehaVior Evaluation), a benchmark covering 44 organized groups with 8,052 real-world context-decision pairs collected from Wikipedia and TechCrunch across 9 domains, with an end-to-end evaluation protocol assessing consistency, initiative, scope, magnitude, and horizon. Beyond straightforward prompting pipelines, we propose a structured analytical framework that converts collective decision-making events into an interpretable, adaptive, and traceable behavioral model, achieving stronger performance than summarization- and retrieval-based baselines. It further introduces an adapter mechanism for time-aware evolution and group-aware transfer, and traceable evidence nodes grounding each decision rule in originating historical events. Our analysis reveals temporal behavioral drift within individual groups, which the time-aware adapter effectively captures for stronger prediction, and structured cross-group similarity that enables knowledge transfer for data-scarce organizations.",
+      "abs_url": "http://arxiv.org/abs/2604.09874v2",
+      "pdf_url": "https://arxiv.org/pdf/2604.09874v2",
       "code_url": null
     },
     "2604.05529": {
@@ -10176,6 +10176,79 @@
       "abstract": "Robust navigation policies for autonomous agents must generalize across continuously varying environmental conditions such as turn rates, obstacles, friction, pits, and slopes. Curriculum generation provides a principled mechanism for improving generalization by progressively adapting training environments, but designing such curricula in a sample-efficient and automated manner remains challenging. This paper proposes a reparameterized curriculum generation framework for structured continuous environment parameters using unidirectional gradient-based optimization. To improve robustness in multimodal observation spaces consisting of image-based and scalar inputs, a distribution-shift regularization objective is incorporated to encourage the learning of finer-grained latent representations. The proposed method is evaluated across two continuous-control OpenAI Gym environments: a 2D obstacle-based Car Racing variant and Bipedal Walker variant, where coupled environment parameters jointly influence policy performance. Across five random seeds, our method consistently outperforms vanilla policy training, random parameter sampling, manual curricula, frontier-based methods, Self-Paced Reinforcement Learning (SPRL), Absolute Learning Progress with Gaussian Mixture Models (ALP-GMM), and reverse curriculum learning baselines. Ablation studies further demonstrate the effectiveness of the reparameterized curriculum mechanism across both environments, while highlighting environment-dependent benefits of the auxiliary regularization objective.",
       "abs_url": "http://arxiv.org/abs/2608.08545v1",
       "pdf_url": "https://arxiv.org/pdf/2608.08545v1",
+      "code_url": null
+    },
+    "2608.11146": {
+      "id": "2608.11146",
+      "version": "2608.11146v1",
+      "title": "The Illusion of Cross-Lingual Safety in Low-Resource Languages",
+      "authors": [
+        "Abigail Oppong",
+        "P Sam Sahil",
+        "Tadesse Destaw Belay",
+        "Maryam Ibrahim Mukhtar",
+        "Esmael Ahmed Abdu",
+        "Tassallah Abdullahi",
+        "Jessica Oparebea",
+        "Saminu Mohammad Aliyu",
+        "Idris Abdulmumin",
+        "Abubakar Juma Chilala",
+        "Nicholaus Dismas Ladislaus",
+        "Alfred Malengo Kondoro",
+        "Lemofouet Valdini Douglace",
+        "Shamsuddeen Hassan Muhammad",
+        "Seid Muhie Yimam"
+      ],
+      "published": "2026-08-11",
+      "updated": "2026-08-11",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Safety alignment in large language models (LLMs) is largely developed in English, assuming these safeguards generalize across multilingual settings. However, this assumption remains underexplored and exposes a vulnerability in low-resource languages. We investigate cross-lingual safety transfer in four African languages, Twi, Hausa, Amharic, and Swahili, using LoDNA, a new safety dataset that pairs literal translations with culturally localized prompts. To move beyond generation-based evaluation, we propose a latent geometric framework that probes hidden-state refusal representations in LLMs. Our experimental results show that cross-lingual safety transfer is severely limited; harmful prompts retain less than 10% of the English refusal signal across most language-model pairs. Literal and localized prompts are semantically aligned (cosine 0.95-0.996) but drift across layers, suggesting models encode the concepts without routing them to safety mechanisms. These findings demonstrate that current multilingual safety alignment is superficial, providing strong evidence against the assumption of a universal, language-agnostic harm manifold within the specific low-resource languages studied. Warning: This paper contains example data that may be offensive or harmful.",
+      "abs_url": "http://arxiv.org/abs/2608.11146v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11146v1",
+      "code_url": null
+    },
+    "2608.10939": {
+      "id": "2608.10939",
+      "version": "2608.10939v1",
+      "title": "A Cost-Efficient Routing Pipeline for Multilingual Short-Text Classification Using Small Language Models",
+      "authors": [
+        "Wajdi Ben Saad",
+        "Safa Madiouni"
+      ],
+      "published": "2026-08-11",
+      "updated": "2026-08-11",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Multilingual short-text classification supports operational systems such as content moderation, customer support routing, and intent recognition, yet aggregate evaluation often hides large differences between high-resource and low-resource languages. Uniform inference policies are simple to deploy, but they assume that all languages are equally well served. In this work, we evaluate a fixed-list routing strategy that keeps stronger languages on a direct multilingual path and selectively sends weaker languages through translation into English before zero-shot classification. The pipeline is fully self-hosted, uses pretrained compact sentence encoders, and requires no task-specific fine-tuning. We test the approach on two benchmarks chosen to differ in scale and label granularity: a 15-language subset of SIB-200 for seven-way topic classification and a 15-locale subset of MASSIVE for intent classification over an official 60-intent inventory. On SIB-200, the best overall configuration is R1, which translates only the low-resource tier: high-tier and mid-tier Macro-F1 remain unchanged, while low-tier Macro-F1 rises from 0.4632 to 0.6828. On the MASSIVE subset, the same low-tier intervention raises low-tier Macro-F1 from 0.2143 to 0.4417, but the best overall result is obtained by full translation, R3, at Macro-F1 0.4647. Across these two benchmarks, selective translation is a reliable intervention for weaker languages, whereas the optimal routing boundary depends on the task. We therefore report routing through tier-level quality gains and tier-level latency rather than a single global efficiency score.",
+      "abs_url": "http://arxiv.org/abs/2608.10939v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.10939v1",
+      "code_url": null
+    },
+    "2608.10941": {
+      "id": "2608.10941",
+      "version": "2608.10941v1",
+      "title": "Physics-informed Diffusion Generative Model for Time-Series Data Synthesis in Dynamic Systems",
+      "authors": [
+        "Haiteng Wang",
+        "Yunfei Zhu",
+        "Tao Wang",
+        "Yikang Li",
+        "Jiabao Dong",
+        "Xiaoge Zhang",
+        "Lei Ren"
+      ],
+      "published": "2026-08-11",
+      "updated": "2026-08-11",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Industrial time-series signals, such as turbine temperature and rotational speed in aero-engines, are essential for monitoring the health and operational status of complex dynamical systems. However, collecting such data is often limited by harsh environments (e.g., high temperature and high pressure) and the high cost of experimental testing. To address this challenge, we introduce PhysDGM, a stepwise physics-embedded diffusion generative model for synthesizing time-series data that are consistent with the underlying physical laws of dynamical systems. PhysDGM embeds physical laws directly into each reverse diffusion step of the generative process, ensuring trajectory-level physical consistency, rather than enforcing constraints only at the final output. A large-scale AI-synthetic dataset (4.4 million samples, 20x scale-up) constructed by PhysDGM demonstrates strong fidelity across 34 datasets spanning turbofan engines, aero-engines, batteries, and chemical processes. After incorporating the synthetic data, the downstream task performance substantially surpassed that using real data alone by 48% for remaining useful life prediction, 15% for health indicator estimation, 22% for state-of-health assessment, and 20% for fault diagnosis. Moreover, it requires 10-20x less training data than existing approaches, substantially reducing the high cost of data collection in dynamical systems. We further demonstrate PhysDGM's potential in identifying early-stage faults in aero-engines by incorporating AI-synthesized data. In summary, PhysDGM provides a solid foundation for generating physically consistent industrial time-series, paving the way for expanding physics-guided AI into diverse data-scarce environments, including both industrial machinery and complex chemical reaction dynamics.",
+      "abs_url": "http://arxiv.org/abs/2608.10941v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.10941v1",
       "code_url": null
     }
   }
