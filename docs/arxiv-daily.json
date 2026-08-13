@@ -10250,6 +10250,67 @@
       "abs_url": "http://arxiv.org/abs/2608.10941v1",
       "pdf_url": "https://arxiv.org/pdf/2608.10941v1",
       "code_url": null
+    },
+    "2608.12018": {
+      "id": "2608.12018",
+      "version": "2608.12018v1",
+      "title": "Poly-Dialectal Neural Machine Translation System for Bangla Regional Dialects",
+      "authors": [
+        "Rakib Ullah",
+        "Ruhul Islam Rahul",
+        "Tanbir Ahmed"
+      ],
+      "published": "2026-08-12",
+      "updated": "2026-08-12",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Regional dialectal variation poses a fundamental challenge to natural language processing (NLP) in Bangla, where over 240 million speakers communicate across diverse regional variants that diverge significantly from Standard Colloquial Bangla (SCB) in phonology, morphology, and lexicon. Contemporary neural machine trans- lation (NMT) architectures and large language models (LLMs) predominantly as- sume a homogeneous language distribution, resulting in severe performance degra- dation when translating low-resource regional dialects. In this work, we present a unified Poly-Dialectal Neural Machine Translation System capable of multi-directional translation across 12 Bangla regional dialects without routing through an inter- mediary standard pivot. We compile the largest multi-dialect parallel corpus for Bangla to date, comprising 51,531 non-null parallel sentence pairs across 12 di- alects, incorporating 2,500 expert-verified, bidirectional parallel sentence pairs for five previously unaddressed dialects. Evaluating sequence-to-sequence architec- tures under Weight-Decomposed Low-Rank Adaptation (DoRA), our fine-tuned BanglaT5 model achieves state-of-the-art translation performance (29.26 BLEU, 57.26 chrF++), outperforming NLLB-200 (615M) and mBART-50 (611M) while preserving morphological coherence. Furthermore, we conduct a systematic cross- dialectal transfer analysis and dataset scaling study, establishing empirical thresh- olds for low-resource dialect adaptation. Finally, we deploy the optimized INT8- quantized model as an open-access web application to promote digital inclusion for marginalized dialect communities. The complete dataset is publicly available at Mendeley Data (https://data.mendeley.com/datasets/v9cf66fk2t/2).",
+      "abs_url": "http://arxiv.org/abs/2608.12018v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.12018v1",
+      "code_url": "https://data.mendeley.com/datasets/v9cf66fk2t/2"
+    },
+    "2608.11843": {
+      "id": "2608.11843",
+      "version": "2608.11843v1",
+      "title": "When the Knowledge Base Becomes the Gold Standard: Measuring Resource-Shared Evaluation Loops in Entity-Level Machine Translation",
+      "authors": [
+        "Jinhyung Bae",
+        "Dain Kil",
+        "Seongmin Oh",
+        "Seungmin Lee"
+      ],
+      "published": "2026-08-12",
+      "updated": "2026-08-12",
+      "categories": [
+        "cs.CL",
+        "cs.DL"
+      ],
+      "abstract": "The Seungjeongwon Ilgi, a UNESCO Memory of the World record, is only 37.4% translated, and the most conspicuous failure mode in automatic translation is the person name -- a misread name corrupts the historical fact rather than merely the surface. Low-resource historical domains have no expert gold standard for entity translation, so practitioners substitute a knowledge base (KB) for the gold. That KB is the same resource injected into the system: scoring becomes self-referential and the metric measures instruction compliance rather than translation quality. We measure this loop. Using expert person-name annotations from the National Institute of Korean History as a gold independent of the injection pipeline, we hold the entity set fixed and vary only the provenance of the correct reading. Of 527 expert-annotated mentions, only 31.1% lie outside the injection pipeline, and the residual loop is not uniform -- in the overlapping segment the injected reading agrees with the human translation 97.8% of the time against 70.1% in the independent one, so the segment that looks healthiest is the one the loop is holding up. Across four models, a difference-in-differences analysis shows the gain from KB injection is confined to the segment whose gold shares the injected resource; in the independent segment it is at or below zero. Post-injection preservation clusters in a narrow 0.910-0.996 band even though baseline capability differs fivefold, so the reported gain is the complement of prior performance and weaker models appear to improve more dramatically. On an independent sample built by removing the construction filter, the measure replicates within model (overlapping intervals) while discriminating between models (non-overlapping intervals) -- it reflects a property of the model, not of the sample.",
+      "abs_url": "http://arxiv.org/abs/2608.11843v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11843v1",
+      "code_url": null
+    },
+    "2608.12062": {
+      "id": "2608.12062",
+      "version": "2608.12062v1",
+      "title": "Preference Tree Optimization: Enhancing Goal-Oriented Dialogue with Look-Ahead Simulations",
+      "authors": [
+        "Lior Baruch",
+        "Moshe Butman",
+        "Kfir Bar",
+        "Doron Friedman"
+      ],
+      "published": "2026-08-12",
+      "updated": "2026-08-12",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Developing dialogue systems capable of engaging in multi-turn, goal-oriented conversations remains a significant challenge, especially in specialized domains with limited data. This research proposes a novel framework called Preference Tree Optimization (PTO), designed to iteratively improve agent models in such dialogue systems, by generating preference data using a method called Preference Tree with Look-Ahead. Focusing on Motivational Interviewing (MI) -- a counseling technique aimed at facilitating behavioral change -- we leverage virtual patients and an oracle evaluator to simulate conversations and generate rich preference datasets. By combining this method with Direct Preference Optimization (DPO), we aim to enhance the agent's decision-making capabilities over iterative training cycles. The proposed framework addresses data scarcity and advances the development of more nuanced and effective dialogue systems in goal-oriented domains. Experimental evaluations demonstrate that the PTO framework enhances dialogue agents' performance in goal-oriented conversations within the domain of Motivational Interviewing (MI). Models trained with PTO consistently outperformed the baseline in key metrics such as session satisfaction and working alliance. Additionally, incorporating look-ahead simulations led to improved long-term planning and more effective conversational strategies, with deeper look-ahead configurations yielding the most stable and high-scoring results.",
+      "abs_url": "http://arxiv.org/abs/2608.12062v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.12062v1",
+      "code_url": null
     }
   }
 }
