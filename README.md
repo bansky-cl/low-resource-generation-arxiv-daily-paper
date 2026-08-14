@@ -7,21 +7,23 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.13
+## Updated on 2026.08.14
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **475**
-- Recent 30 days: **69**
-- Older than 30 days: **406**
+- Total papers in JSON: **478**
+- Recent 30 days: **68**
+- Older than 30 days: **410**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-13**|**HybridRAG-BN: A Retrieval-Augmented Framework with Fine-Tuned Verification for Bangla KBQA**|cs.CL, cs.IR|[2608.13004v1](http://arxiv.org/abs/2608.13004v1)|null|
+|**2026-08-13**|**Query Translation vs. Cross-Lingual Embeddings for Sinhala-Tamil E-Government Information Retrieval**|cs.IR|[2608.12820v1](http://arxiv.org/abs/2608.12820v1)|null|
 |**2026-08-12**|**Preference Tree Optimization: Enhancing Goal-Oriented Dialogue with Look-Ahead Simulations**|cs.CL, cs.AI|[2608.12062v1](http://arxiv.org/abs/2608.12062v1)|null|
 |**2026-08-12**|**Poly-Dialectal Neural Machine Translation System for Bangla Regional Dialects**|cs.CL|[2608.12018v1](http://arxiv.org/abs/2608.12018v1)|**[code](https://data.mendeley.com/datasets/v9cf66fk2t/2)**|
 |**2026-08-12**|**When the Knowledge Base Becomes the Gold Standard: Measuring Resource-Shared Evaluation Loops in Entity-Level Machine Translation**|cs.CL, cs.DL|[2608.11843v1](http://arxiv.org/abs/2608.11843v1)|null|
@@ -30,6 +32,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-11**|**A Cost-Efficient Routing Pipeline for Multilingual Short-Text Classification Using Small Language Models**|cs.CL, cs.AI|[2608.10939v1](http://arxiv.org/abs/2608.10939v1)|null|
 |**2026-08-09**|**Integrated Multimodal AI System for Retrieval-Augmented Reasoning, Object Sensing, and Damage Analysis**|cs.AI|[2608.08935v1](http://arxiv.org/abs/2608.08935v1)|null|
 |**2026-08-09**|**Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies**|cs.RO, cs.LG|[2608.08545v1](http://arxiv.org/abs/2608.08545v1)|null|
+|**2026-08-08**|**A Hierarchical Energy-Based Model for Multimodal Cognition**|q-bio.NC, cs.AI|[2608.12398v1](http://arxiv.org/abs/2608.12398v1)|null|
 |**2026-08-08**|**DialectS2S: End-to-End Speech Dialogue Modeling for Low-Resource Chinese Dialects**|cs.CL, cs.AI|[2608.08067v1](http://arxiv.org/abs/2608.08067v1)|null|
 |**2026-08-07**|**Embedding Initialization for Unseen Low-resource Languages in Multilingual NMT: A Case Study on Limbum-English Translation**|cs.CL, cs.LG|[2608.07629v1](http://arxiv.org/abs/2608.07629v1)|null|
 |**2026-08-07**|**Skaling: Chinchilla's Exponents Meet Kaplan's Coupling**|cs.CL|[2608.07222v1](http://arxiv.org/abs/2608.07222v1)|null|
@@ -87,15 +90,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-17**|**RIMS: Preference Optimization via Smoothed Multi-pair Aggregation for Small-Scale LLM Retrieval-Augmented Generation**|cs.CL|[2607.16431v1](http://arxiv.org/abs/2607.16431v1)|**[code](https://github.com/tptrix29/RIMS)**|
 |**2026-07-16**|**One-Shot Generative Design for Disordered Metamaterials via Self-Organizing Neural Cellular Automata**|cs.CE, cs.LG|[2607.14475v1](http://arxiv.org/abs/2607.14475v1)|null|
 |**2026-07-15**|**A POS Tier Is the Key to Automated Annotation for Low-Resource Language Documentation: Neural Interlinear Glossing for Irabu, a Southern Ryukyuan Language**|cs.CL|[2607.13372v1](http://arxiv.org/abs/2607.13372v1)|null|
-|**2026-07-14**|**The Geometry of Memorization: Finite-Time Spectral Sensitivity as a Diagnostic for Flow Matching Models**|cs.LG|[2607.12616v1](http://arxiv.org/abs/2607.12616v1)|null|
-|**2026-07-14**|**Translation as a Computationally Efficient Bridge: Feasibility of English BERT for Low-Resource Languages**|cs.CL|[2607.12612v1](http://arxiv.org/abs/2607.12612v1)|null|
-|**2026-07-14**|**Sample Efficient Generative Optimization for Molecular Design**|cs.LG|[2607.12488v1](http://arxiv.org/abs/2607.12488v1)|null|
-|**2026-07-14**|**SinAE: A Single-Architecture Flow-Matching Autoencoder for Cross-Domain Atomic Systems**|cs.LG|[2607.12380v1](http://arxiv.org/abs/2607.12380v1)|**[code](https://github.com/BlueWhaleLab/SinAE)**|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-14**|**The Geometry of Memorization: Finite-Time Spectral Sensitivity as a Diagnostic for Flow Matching Models**|cs.LG|[2607.12616v1](http://arxiv.org/abs/2607.12616v1)|null|
+|**2026-07-14**|**Translation as a Computationally Efficient Bridge: Feasibility of English BERT for Low-Resource Languages**|cs.CL|[2607.12612v1](http://arxiv.org/abs/2607.12612v1)|null|
+|**2026-07-14**|**Sample Efficient Generative Optimization for Molecular Design**|cs.LG|[2607.12488v1](http://arxiv.org/abs/2607.12488v1)|null|
+|**2026-07-14**|**SinAE: A Single-Architecture Flow-Matching Autoencoder for Cross-Domain Atomic Systems**|cs.LG|[2607.12380v1](http://arxiv.org/abs/2607.12380v1)|**[code](https://github.com/BlueWhaleLab/SinAE)**|
 |**2026-07-13**|**Direct Image-to-Modern Vietnamese Translation of Han-Nom Manuscripts via Multimodal RLHF Preference Alignment**|cs.CL, cs.CV|[2607.11434v1](http://arxiv.org/abs/2607.11434v1)|null|
 |**2026-07-12**|**Diachronic Sample Integration: Robust Tail-Risk Estimation with Generative Models**|cs.LG, cs.AI, q-fin.RM|[2607.10810v1](http://arxiv.org/abs/2607.10810v1)|null|
 |**2026-07-11**|**Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety**|cs.CR, cs.AI|[2607.10112v1](http://arxiv.org/abs/2607.10112v1)|**[code](https://github.com/Brentkong/Minionese-Comprehensive-Benchmark-and-Mechanistic-Study-of-Multilingual-LLM-Safety.git)**|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-28**|**Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance**|cs.RO, cs.LG|[2605.30056v1](http://arxiv.org/abs/2605.30056v1)|**[code](https://dingsht.tech/cgpo-webpage)**|
 |**2026-05-28**|**MEMENTO: Leveraging Web as a Learning Signal for Low-Data Domains**|cs.AI|[2605.29795v1](http://arxiv.org/abs/2605.29795v1)|null|
 |**2026-05-28**|**AfriScience-MT: Towards Decolonizing Science in Africa through Text Translation**|cs.CL|[2605.29741v1](http://arxiv.org/abs/2605.29741v1)|null|
-|**2026-05-28**|**Think Fast, Talk Smart: Partitioning Deterministic and Neural Computation for Structured Health Text Generation**|cs.AI|[2605.29652v1](http://arxiv.org/abs/2605.29652v1)|null|
-|**2026-05-28**|**Source-Grounded Semantic Reinforcement Learning for Low-Resource Target-Language Generation**|cs.CL, cs.AI|[2605.29502v1](http://arxiv.org/abs/2605.29502v1)|null|
-|**2026-05-27**|**Enhancing BiGRU with a KAN Block for Legal Document Classification and Summarization**|cs.CL, cs.AI, cs.LG|[2606.00116v1](http://arxiv.org/abs/2606.00116v1)|null|
 
-README omitted **275** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **278** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

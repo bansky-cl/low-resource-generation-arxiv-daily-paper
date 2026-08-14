@@ -1268,19 +1268,19 @@
     },
     "2605.03799": {
       "id": "2605.03799",
-      "version": "2605.03799v2",
+      "version": "2605.03799v3",
       "title": "Natural Language Processing: A Comprehensive Practical Guide from Tokenisation to RLHF",
       "authors": [
         "Mullosharaf K. Arabov"
       ],
       "published": "2026-05-05",
-      "updated": "2026-05-09",
+      "updated": "2026-08-13",
       "categories": [
         "cs.CL"
       ],
-      "abstract": "This preprint presents a systematic, research-oriented practicum that guides the reader through the entire modern NLP pipeline: from tokenisation and vectorisation to fine-tuning of large language models, retrieval-augmented generation, and reinforcement learning from human feedback. A distinctive feature of the work is its consistent attention to low-resource and morphologically rich languages -- original contributions on Tajik and Tatar, including subword tokenisers, word embeddings, lexical databases, and transliteration benchmarks, are woven throughout the twelve sessions, demonstrating how modern NLP can be adapted to data-scarce environments without sacrificing rigour. Each session combines concise theory with detailed implementation plans, formalised evaluation metrics, and transparent assessment criteria. The work is not a conventional textbook: it is designed as a reproducible research artefact where every session requires publishing code, models, and reports in public repositories. All experiments are conducted on a single evolving corpus, and the work advocates open-weight models over commercial APIs, with special attention to the Hugging Face ecosystem. Designed for senior undergraduates, graduate students, and practising developers seeking to implement, compare, and deploy methods from classical ML to state-of-the-art LLM-based systems.",
-      "abs_url": "http://arxiv.org/abs/2605.03799v2",
-      "pdf_url": "https://arxiv.org/pdf/2605.03799v2",
+      "abstract": "This preprint presents a systematic, research-oriented practicum that guides the reader through the entire modern NLP pipeline --- from tokenisation and vectorisation to fine tuning of large language models, retrieval augmented generation, reinforcement learning from human feedback, prompt engineering, model compression, and multimodal systems. Seventeen hands-on sessions combine concise theory with detailed implementation plans, formalised evaluation metrics, and transparent assessment criteria. The work is not a conventional textbook: it is designed as a reproducible research artefact where every session requires publishing code, models, and reports in public repositories. All experiments are conducted on a single evolving corpus, and the work advocates open weight models over commercial APIs, with special attention to the Hugging Face ecosystem. The material is enriched by original research on low resource languages, incorporating linguistic resources for Tajik and Tatar --- subword tokenisers, embeddings, lexical databases, and transliteration benchmarks --- demonstrating how modern NLP can be adapted to data scarce environments. The practicum also covers advanced topics including AI agents, multi-agent systems, LLMOps, and efficient inference, preparing students for both research and industrial deployment. Designed for senior undergraduates, graduate students, and practising developers seeking to implement, compare, and deploy methods from classical ML to state of the art multimodal and agent-based systems.",
+      "abs_url": "http://arxiv.org/abs/2605.03799v3",
+      "pdf_url": "https://arxiv.org/pdf/2605.03799v3",
       "code_url": null
     },
     "2605.03742": {
@@ -10310,6 +10310,62 @@
       "abstract": "Developing dialogue systems capable of engaging in multi-turn, goal-oriented conversations remains a significant challenge, especially in specialized domains with limited data. This research proposes a novel framework called Preference Tree Optimization (PTO), designed to iteratively improve agent models in such dialogue systems, by generating preference data using a method called Preference Tree with Look-Ahead. Focusing on Motivational Interviewing (MI) -- a counseling technique aimed at facilitating behavioral change -- we leverage virtual patients and an oracle evaluator to simulate conversations and generate rich preference datasets. By combining this method with Direct Preference Optimization (DPO), we aim to enhance the agent's decision-making capabilities over iterative training cycles. The proposed framework addresses data scarcity and advances the development of more nuanced and effective dialogue systems in goal-oriented domains. Experimental evaluations demonstrate that the PTO framework enhances dialogue agents' performance in goal-oriented conversations within the domain of Motivational Interviewing (MI). Models trained with PTO consistently outperformed the baseline in key metrics such as session satisfaction and working alliance. Additionally, incorporating look-ahead simulations led to improved long-term planning and more effective conversational strategies, with deeper look-ahead configurations yielding the most stable and high-scoring results.",
       "abs_url": "http://arxiv.org/abs/2608.12062v1",
       "pdf_url": "https://arxiv.org/pdf/2608.12062v1",
+      "code_url": null
+    },
+    "2608.13004": {
+      "id": "2608.13004",
+      "version": "2608.13004v1",
+      "title": "HybridRAG-BN: A Retrieval-Augmented Framework with Fine-Tuned Verification for Bangla KBQA",
+      "authors": [
+        "Rathijit Aich",
+        "Nirjhar Das",
+        "Mahfuzulhoq Chowdhury"
+      ],
+      "published": "2026-08-13",
+      "updated": "2026-08-13",
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "abstract": "Knowledge-base question answering (KBQA) systems rely on effective retrieval and reasoning mechanisms to generate accurate answers from external knowledge sources. However, developing reliable KBQA systems for low-resource languages such as Bangla remains challenging due to limited retrieval-focused research, scarce language resources, and difficulties in grounding generated responses in external knowledge. In this work, we propose HybridRAG-BN, a retrieval-augmented framework for Bangla KBQA that integrates hybrid retrieval using BM25 and BGE-M3, answer generation using the GGUF version of Gemma-4-31B-Instruct, and a LoRA-fine-tuned Gemma-4-31B-Instruct model for answer verification and refinement. To further improve robustness, the framework incorporates a post-processing stage that addresses unresolved cases through fallback answer replacement and DuckDuckGo-assisted retrieval. Experimental results demonstrate the effectiveness of the proposed framework, achieving token-level F1 scores of 0.71654 and 0.72912 on the public and private leaderboards, respectively, securing first place in the competition.",
+      "abs_url": "http://arxiv.org/abs/2608.13004v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.13004v1",
+      "code_url": null
+    },
+    "2608.12820": {
+      "id": "2608.12820",
+      "version": "2608.12820v1",
+      "title": "Query Translation vs. Cross-Lingual Embeddings for Sinhala-Tamil E-Government Information Retrieval",
+      "authors": [
+        "Dharshi Balasubramaniyam",
+        "Tiroshan Madushanka"
+      ],
+      "published": "2026-08-13",
+      "updated": "2026-08-13",
+      "categories": [
+        "cs.IR"
+      ],
+      "abstract": "This paper presents a comparative evaluation of cross-lingual information retrieval (CLIR) methods for retrieving English government information using Sinhala and Tamil queries. Two CLIR paradigms are investigated: Query Translation (QT), employing Google Translate, NLLB, and mBART50, and Cross-Lingual Embeddings (CLE), using LaBSE, multilingual E5, and BGE-M3, with monolingual English retrieval as the baseline. Experiments are conducted on a human-verified benchmark comprising 500 Sinhala, Tamil, and English question-answer pairs derived from 1,699 segmented contexts from Sri Lanka's Government Information Center (GIC). Retrieval performance is evaluated using Recall@k (k = 1, 3, 5, 10, 15). Monolingual retrieval performs poorly (Recall@15 <10%), whereas all CLIR approaches substantially improve retrieval accuracy. Among them, BGE-M3 achieves the highest Recall@15, reaching 96.2% for Sinhala-English and 95.6% for Tamil-English, outperforming the best QT approach (Google Translate: 92.4% and 93.0%) while avoiding translation overhead. These results demonstrate that multilingual embedding models provide a more effective and scalable solution for cross-lingual retrieval-augmented generation (RAG) in low-resource government domains.",
+      "abs_url": "http://arxiv.org/abs/2608.12820v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.12820v1",
+      "code_url": null
+    },
+    "2608.12398": {
+      "id": "2608.12398",
+      "version": "2608.12398v1",
+      "title": "A Hierarchical Energy-Based Model for Multimodal Cognition",
+      "authors": [
+        "Subir Varma"
+      ],
+      "published": "2026-08-08",
+      "updated": "2026-08-08",
+      "categories": [
+        "q-bio.NC",
+        "cs.AI"
+      ],
+      "abstract": "We propose IM-LEPP (Integrated Multimodal Latent Energy-based Predictive Processing), a hierarchical, energy-based model of multimodal cognition that extends a previously proposed single-modality model (LEPP) to integrate vision and language. Following the view that generative neural networks are effective theories of cognitive dynamics, analogous to how statistical mechanics relates to thermodynamics, IM-LEPP models cognition as latent states flowing through learned energy landscapes rather than as an account of neural circuitry. The architecture is a hub-and-spoke hierarchy, grounded in the controlled semantic cognition framework of Lambon Ralph et al., in which predictive-coding pipelines for visual objects, scenes, and linguistic units converge on a shared amodal hub modeled on the anterior temporal lobe. Each pipeline's own prediction is conditioned by, rather than overwritten by, the current hub state, preserving pipeline-specific identity while letting every prediction reflect the full multimodal context. We show this architecture gives a mechanistic account of attentional phenomena such as inattentional blindness and Necker-cube bistability, and that its structure recovers or motivates independently established findings in psycholinguistics, including surprisal theory, the N400/P600 ERP components, and garden-path reanalysis, alongside a falsifiable contrast with transformer language models on trajectory-sensitivity in next-word prediction. We also discuss data-efficient language acquisition relative to LLMs, outline a semantic/episodic memory subsystem, situate the model against predictive coding, the free-energy principle, JEPA, and Hierarchical Temporal Memory, and propose concrete experimental predictions to test its central claims Key Words: predictive processing; predictive coding; energy-based models; diffusion models; effective theory; computational neuroscience.",
+      "abs_url": "http://arxiv.org/abs/2608.12398v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.12398v1",
       "code_url": null
     }
   }
