@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.15
+## Updated on 2026.08.16
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **478**
-- Recent 30 days: **67**
-- Older than 30 days: **411**
+- Recent 30 days: **66**
+- Older than 30 days: **412**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -88,12 +88,12 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-18**|**NOWJ@COLIEE 2026: Adaptive Pipelines for Legal Retrieval and Reasoning**|cs.CL|[2607.16603v1](http://arxiv.org/abs/2607.16603v1)|null|
 |**2026-07-17**|**A Better Start for Language Models: Domain-Conditional Position Offsets**|cs.LG|[2607.18302v1](http://arxiv.org/abs/2607.18302v1)|null|
 |**2026-07-17**|**RIMS: Preference Optimization via Smoothed Multi-pair Aggregation for Small-Scale LLM Retrieval-Augmented Generation**|cs.CL|[2607.16431v1](http://arxiv.org/abs/2607.16431v1)|**[code](https://github.com/tptrix29/RIMS)**|
-|**2026-07-16**|**One-Shot Generative Design for Disordered Metamaterials via Self-Organizing Neural Cellular Automata**|cs.CE, cs.LG|[2607.14475v1](http://arxiv.org/abs/2607.14475v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-16**|**One-Shot Generative Design for Disordered Metamaterials via Self-Organizing Neural Cellular Automata**|cs.CE, cs.LG|[2607.14475v1](http://arxiv.org/abs/2607.14475v1)|null|
 |**2026-07-15**|**A POS Tier Is the Key to Automated Annotation for Low-Resource Language Documentation: Neural Interlinear Glossing for Irabu, a Southern Ryukyuan Language**|cs.CL|[2607.13372v1](http://arxiv.org/abs/2607.13372v1)|null|
 |**2026-07-14**|**The Geometry of Memorization: Finite-Time Spectral Sensitivity as a Diagnostic for Flow Matching Models**|cs.LG|[2607.12616v1](http://arxiv.org/abs/2607.12616v1)|null|
 |**2026-07-14**|**Translation as a Computationally Efficient Bridge: Feasibility of English BERT for Low-Resource Languages**|cs.CL|[2607.12612v1](http://arxiv.org/abs/2607.12612v1)|null|
