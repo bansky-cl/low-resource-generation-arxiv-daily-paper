@@ -10093,7 +10093,7 @@
     },
     "2608.08067": {
       "id": "2608.08067",
-      "version": "2608.08067v1",
+      "version": "2608.08067v2",
       "title": "DialectS2S: End-to-End Speech Dialogue Modeling for Low-Resource Chinese Dialects",
       "authors": [
         "Yi Shu",
@@ -10106,14 +10106,14 @@
         "Jiajun Zhang"
       ],
       "published": "2026-08-08",
-      "updated": "2026-08-08",
+      "updated": "2026-08-14",
       "categories": [
         "cs.CL",
         "cs.AI"
       ],
       "abstract": "Current end-to-end speech dialogue models are primarily optimized for mainstream languages and remain limited in low-resource dialect scenarios due to the scarcity of dialect speech data. Moreover, during dialect adaptation, the semantic representation space of speech dialogue models continuously evolves, while conventional speech supervision remains unchanged, leading to semantic inconsistency between hidden representations and speech targets and degrading speech stability and naturalness. To address these issues, we propose DialectS2S, an end-to-end speech dialogue model for Chinese dialects. We first develop a scalable dialect speech dialogue synthesis pipeline for efficient data construction. We further introduce a two-stage post-training strategy with self-aligned speech supervision, which aligns the semantic content of speech supervision with the evolved semantic representations of the model to improve dialect speech generation quality. Experimental results show that DialectS2S consistently outperforms existing baselines across multiple Chinese dialects in speech dialogue, achieving substantial improvements in dialect consistency, response quality, and speech intelligibility. Our work provides an efficient and scalable solution for end-to-end speech dialogue modeling in low-resource dialect scenarios. To facilitate future research and practical applications, we fully open-source the DialectS2S framework, including model checkpoints, training datasets, and fine-tuning code.",
-      "abs_url": "http://arxiv.org/abs/2608.08067v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.08067v1",
+      "abs_url": "http://arxiv.org/abs/2608.08067v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.08067v2",
       "code_url": null
     },
     "2608.07629": {
@@ -10367,6 +10367,74 @@
       "abs_url": "http://arxiv.org/abs/2608.12398v1",
       "pdf_url": "https://arxiv.org/pdf/2608.12398v1",
       "code_url": null
+    },
+    "2608.13722": {
+      "id": "2608.13722",
+      "version": "2608.13722v1",
+      "title": "BM25-Augmented Many-Shot Translation for Low-Resource North-Eastern Indian Languages",
+      "authors": [
+        "Aashish Dhawan",
+        "Christopher Driggers-Ellis",
+        "Dzmitry Kasinets",
+        "Christan Grant",
+        "Daisy Zhe Wang"
+      ],
+      "published": "2026-08-13",
+      "updated": "2026-08-13",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper describes the University of Florida Gators submission to the WMT26 Low-Resource Indic Language Translation shared task. We adapt the retrieval-augmented many-shot translation pipeline from our AmericasNLP 2026 system to translate between English and eleven North-Eastern Indian languages in both directions. At inference time, BM25 retrieves the most similar parallel examples from a language-specific training bank, and Gemini 2.5 Flash translates the input conditioned on these examples. No model fine-tuning is involved. Training banks combine official WMT26 data with publicly available corpora such as Samanantar and prior WMT shared task releases. A grid search over retrieval count r and development exemplar count d across all 22 language-direction pairs selects the best configuration for each submission.",
+      "abs_url": "http://arxiv.org/abs/2608.13722v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.13722v1",
+      "code_url": null
+    },
+    "2608.13708": {
+      "id": "2608.13708",
+      "version": "2608.13708v1",
+      "title": "TeachMateGPT: A Multi-Agent Knowledge-Grounded Framework for Pedagogical Assessment Generation from Science Curriculum Materials",
+      "authors": [
+        "Fatema Tuj Johora Faria",
+        "Mukaffi Bin Moin",
+        "M. F. Mridha",
+        "Jubayer Al Mahmud"
+      ],
+      "published": "2026-08-13",
+      "updated": "2026-08-13",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Automatically generating textbook-grounded assessment items can reduce science teachers' workload, but existing retrieval-augmented generation (RAG) systems rely on flat retrieval, support only single-question generation, lack safeguards against weak evidence, and are ill-suited to low-resource, board-exam-structured curricula. We address these limitations with TeachMateGPT, a multi-agent system contributing four advances to curriculum-grounded science-assessment authoring. (i) COPE, a hierarchical knowledge base replacing token-window chunking with a multi-resolution index that segments documents along syllabus structure and links them at three granularities via a traversable graph-based lineage, matching evidence to each topic's instructional level. (ii) A staged, fail-closed agent pipeline replacing one-shot retrieve-then-generate: routing gates search, retrieval fuses dense and lexical evidence under a coverage gate that withholds generation on insufficient evidence, and specialist agents draft objective and constructed-response items. (iii) SAVER, a source-attributed verification protocol scoring faithfulness, relevance, and hallucination risk against retrieved evidence, applying stricter grounding checks across each creative question's four sub-parts, paired with teacher-in-the-loop evaluation rather than automatic filtering. (iv) NCTB-SciGen8, a curriculum-grounded dataset of 198 items (143 multiple-choice, 55 creative questions) spanning all 14 chapters of the NCTB Class 8 science textbook, produced by the pipeline and rated by three practicing teachers. TeachMateGPT raises faithfulness (0.68 $\\rightarrow$ 0.96) and answer relevancy (0.60 $\\rightarrow$ 0.89) over a vanilla RAG baseline.",
+      "abs_url": "http://arxiv.org/abs/2608.13708v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.13708v1",
+      "code_url": null
+    },
+    "2608.14312": {
+      "id": "2608.14312",
+      "version": "2608.14312v1",
+      "title": "Envs-FORGE: Frontier-Optimized Reward-Grounded Environment Synthesis for Agent RL",
+      "authors": [
+        "Xiaojun Wu",
+        "Cehao Yang",
+        "Honghao Liu",
+        "Xueyuan Lin",
+        "Zhichao Shi",
+        "Hao Zhou",
+        "Xuhui Jiang",
+        "Chengjin Xu",
+        "Jia Li",
+        "Jian Guo"
+      ],
+      "published": "2026-08-14",
+      "updated": "2026-08-14",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Reinforcement learning (RL) for terminal agents needs executable training environments with reliable rewards and useful difficulty. Fixed recipes such as few-shot, Self-Instruct, and Evol-Instruct apply the same prompting policy to every seed, even when the current policy would benefit from a harder, easier, or simply different task. We present Envs-FORGE, a prompting policy that converts verifier rewards into per-seed environment-synthesis actions. Envs-FORGE estimates seed pass rates, scores six projection--direction actions around a target learning frontier, and solves a per-seed mixed-integer linear program (MILP) to choose the action that conditions generation. The selected action drives synchronized rewriting of the instruction, fixtures, oracle solution, tests, and Docker environment; only gold-verified bundles enter RL training. The indexed MILP form also supports optional soft skill coverage for portfolio planning. On Qwen 3.5 35B, Envs-FORGE improves Pass@1 over Base by 9.2 percentage points on tb-core (40.0% to 49.2%) and 6.4 points on tb-2.0 (23.0% to 29.4%), exceeding the strongest fixed-recipe baseline by 2.4 and 2.1 points. It reaches 77.1% on SWE-bench Verified versus 73.4% for Base, and improves tb-core by 6.8--9.2 points across the evaluated 4B--35B models. All synthesis methods export 100 verified environments and use 2.27M--2.88M synthesis tokens, placing the comparison at the same downstream training-set size and the same operational scale. The source code is available at https://github.com/DataArcTech/DataArc-SynData-Toolkit/.",
+      "abs_url": "http://arxiv.org/abs/2608.14312v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14312v1",
+      "code_url": "https://github.com/DataArcTech/DataArc-SynData-Toolkit/"
     }
   }
 }
