@@ -10435,6 +10435,94 @@
       "abs_url": "http://arxiv.org/abs/2608.14312v1",
       "pdf_url": "https://arxiv.org/pdf/2608.14312v1",
       "code_url": "https://github.com/DataArcTech/DataArc-SynData-Toolkit/"
+    },
+    "2608.15547": {
+      "id": "2608.15547",
+      "version": "2608.15547v1",
+      "title": "BengaliMCQ: Automatic Generation and Answer Prediction of Academic Multiple-Choice Questions in a Low-Resource Language",
+      "authors": [
+        "Abu Tarabin Surzo",
+        "A. K. M. Nihalul Kabir",
+        "Sm Azmain Faysal",
+        "Ariana Haque Ami",
+        "Lawrence Amlan Gomes",
+        "Farig Sadeque"
+      ],
+      "published": "2026-08-16",
+      "updated": "2026-08-16",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Traditional retrieval-augmented generation (RAG) frameworks process documents without attending to their hierarchical structure, leading to poor performance, especially in low-resource languages such as Bengali. To address this, we propose a structure-aware RAG framework that models Bengali textbooks as hierarchical graphs and uses a contrastively trained graph neural network to retrieve a small set of relevant passages. These passages provide focused context for a large language model, enabling topic-specific multiple-choice question (MCQ) generation and in-domain answer prediction. Experimental results demonstrate that our framework outperforms strong dense retrieval baselines across retrieval metrics, produces more relevant MCQs, and achieves superior answer prediction accuracy.",
+      "abs_url": "http://arxiv.org/abs/2608.15547v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.15547v1",
+      "code_url": null
+    },
+    "2608.15389": {
+      "id": "2608.15389",
+      "version": "2608.15389v1",
+      "title": "Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL",
+      "authors": [
+        "Changruo Zhao",
+        "Zujun Peng",
+        "Yu Tian",
+        "Yuting Liu",
+        "Yiyun Su",
+        "Huiying Zhu",
+        "Luyan Zhang",
+        "Heming Zeng"
+      ],
+      "published": "2026-08-15",
+      "updated": "2026-08-15",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "LLM-based Text-to-SQL progress is reported across heterogeneous benchmarks, backbones, and inference protocols, making cross-system comparison fragile. We reframe the field as a leaderboard aggregation: we collect the metrics authors themselves report and organize them along an inference-autonomy axis spanning constrained, in-context, iterative, agentic, and reasoning-internalized generation, with traceable provenance for every cell. To anchor the aggregation empirically, we run a focused case study on Spider, comparing 8B open-source backbones with and without chain-of-thought (CoT) supervision against few-shot DeepSeek~V3 and GLM-4 baselines. Four patterns emerge: Spider gains transfer unevenly to BIRD and Spider~2.0; autonomy buys robustness at non-trivial cost; reasoning internalization sits between answer-only decoding and externally orchestrated agents; and CoT gains concentrate on Hard and Extra-Hard queries. We release a Python harness mirroring the autonomy axis so that future methods can be added directly to the leaderboard.",
+      "abs_url": "http://arxiv.org/abs/2608.15389v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.15389v1",
+      "code_url": null
+    },
+    "2608.15224": {
+      "id": "2608.15224",
+      "version": "2608.15224v1",
+      "title": "Structuring Semantic Embeddings for Principle Evaluation: A Prototype-Guided Contrastive Learning Approach",
+      "authors": [
+        "Che Shen",
+        "Junwei Su",
+        "Lingpeng Kong",
+        "Chuan Wu"
+      ],
+      "published": "2026-08-15",
+      "updated": "2026-08-15",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Reliable post-hoc evaluation asks whether already generated text satisfies a target criterion after generation. In this paper we study a focused frozen-embedding setting using principle-evaluation proxy tasks: toxicity detection, fine-grained emotion categorization, and ordinal review rating. General-purpose text embeddings are widely deployed for such tasks, but broad semantic similarity can place semantically similar yet task-distinct examples in overlapping regions of the representation space. We introduce Prototype-Guided Contrastive Learning (PGCL), a prototype-guided geometric regularization module built on top of frozen text embeddings. The module combines a semantic stream, a prototype-anchor attention stream, supervised contrastive learning, offset-based prototype-margin regularization, and stream regularization to produce a compact task-adapted representation without updating the base encoder. Controlled experiments show that PGCL improves over raw frozen embeddings on all three datasets and gives the clearest direct-baseline margin on AmazonReviews, while remaining competitive with strong direct frozen metric-learning baselines on GoEmotions and ToxicComment. We also add supervised residual-adapter, encoder-LoRA, full fine-tuning, objective ablation, sensitivity, and fully logged few-shot LLM protocol diagnostics to define the boundary of the claim. The theoretical analysis is revised as a sufficient-condition account for prototype-margin behavior under explicit assumptions in the prototype-mapping space, rather than as an unconditional training or final-embedding separation guarantee.",
+      "abs_url": "http://arxiv.org/abs/2608.15224v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.15224v1",
+      "code_url": null
+    },
+    "2608.15910": {
+      "id": "2608.15910",
+      "version": "2608.15910v1",
+      "title": "Iterative Self-Learning for Expressive Text-to-Speech Synthesis",
+      "authors": [
+        "Nicholas Sanders",
+        "Gustav Eje Henter",
+        "Simon King",
+        "Korin Richmond"
+      ],
+      "published": "2026-08-16",
+      "updated": "2026-08-16",
+      "categories": [
+        "eess.AS",
+        "cs.CL",
+        "cs.SD"
+      ],
+      "abstract": "Expressive text-to-speech (TTS) systems that use explicit conditioning labels provide direct and interpretable control over expressive attributes, in contrast to reference-based or prompting-based approaches, but require labeled data. Obtaining these labels at scale is costly and time-consuming, yet no prior semi-supervised framework addresses this specific bottleneck. Existing semi-supervised TTS methods instead target scarcity of paired speech-text data or transcriptions. To address the scarcity of expressive labels, we propose an Iterative Self-Learning (ISL) framework for expressive TTS, built on Invert-Classify, a classifier-free method that recovers discrete expressive labels by inverting a frozen generative model. The framework iteratively pseudo-labels unlabeled speech using the current model, retrains on the combined labeled and pseudo-labeled data, and repeats, progressively refining label quality and synthesis. We validate on two expressive tasks, word-level prominence and utterance-level emotion, across multiple low-resource data splits. We find that iterative refinement can improve pseudo-label accuracy over single-pass baselines. Furthermore, we observe that these improvements in pseudo-labeling of expressivity translate to gains in expressive label adherence and synthesis quality, confirmed by objective metrics and human listening tests. In the most data-scarce conditions, ISL-trained models outperform single-pass pseudo-labeling and further approach fully supervised performance, demonstrating that gradient-based ISL is an effective solution to expressive label scarcity in low-resource TTS.",
+      "abs_url": "http://arxiv.org/abs/2608.15910v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.15910v1",
+      "code_url": null
     }
   }
 }

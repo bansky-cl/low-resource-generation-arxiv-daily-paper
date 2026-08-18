@@ -7,21 +7,25 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.17
+## Updated on 2026.08.18
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **481**
-- Recent 30 days: **67**
-- Older than 30 days: **414**
+- Total papers in JSON: **485**
+- Recent 30 days: **70**
+- Older than 30 days: **415**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-16**|**Iterative Self-Learning for Expressive Text-to-Speech Synthesis**|eess.AS, cs.CL, cs.SD|[2608.15910v1](http://arxiv.org/abs/2608.15910v1)|null|
+|**2026-08-16**|**BengaliMCQ: Automatic Generation and Answer Prediction of Academic Multiple-Choice Questions in a Low-Resource Language**|cs.CL|[2608.15547v1](http://arxiv.org/abs/2608.15547v1)|null|
+|**2026-08-15**|**Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL**|cs.AI|[2608.15389v1](http://arxiv.org/abs/2608.15389v1)|null|
+|**2026-08-15**|**Structuring Semantic Embeddings for Principle Evaluation: A Prototype-Guided Contrastive Learning Approach**|cs.LG|[2608.15224v1](http://arxiv.org/abs/2608.15224v1)|null|
 |**2026-08-14**|**Envs-FORGE: Frontier-Optimized Reward-Grounded Environment Synthesis for Agent RL**|cs.CL|[2608.14312v1](http://arxiv.org/abs/2608.14312v1)|**[code](https://github.com/DataArcTech/DataArc-SynData-Toolkit/)**|
 |**2026-08-13**|**BM25-Augmented Many-Shot Translation for Low-Resource North-Eastern Indian Languages**|cs.CL|[2608.13722v1](http://arxiv.org/abs/2608.13722v1)|null|
 |**2026-08-13**|**TeachMateGPT: A Multi-Agent Knowledge-Grounded Framework for Pedagogical Assessment Generation from Science Curriculum Materials**|cs.CL, cs.AI|[2608.13708v1](http://arxiv.org/abs/2608.13708v1)|null|
@@ -88,12 +92,12 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-20**|**Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare**|cs.LG, cs.AI|[2607.17508v2](http://arxiv.org/abs/2607.17508v2)|null|
 |**2026-07-19**|**KyrgyzLLM-Bench: Benchmarking Kyrgyz Language Understanding**|cs.CL|[2607.17173v1](http://arxiv.org/abs/2607.17173v1)|null|
 |**2026-07-19**|**Robust Assamese Speech Recognition through Controlled Fine-Tuning of Whisper Models**|cs.LG|[2607.17164v1](http://arxiv.org/abs/2607.17164v1)|null|
-|**2026-07-18**|**NOWJ@COLIEE 2026: Adaptive Pipelines for Legal Retrieval and Reasoning**|cs.CL|[2607.16603v1](http://arxiv.org/abs/2607.16603v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-18**|**NOWJ@COLIEE 2026: Adaptive Pipelines for Legal Retrieval and Reasoning**|cs.CL|[2607.16603v1](http://arxiv.org/abs/2607.16603v1)|null|
 |**2026-07-17**|**A Better Start for Language Models: Domain-Conditional Position Offsets**|cs.LG|[2607.18302v1](http://arxiv.org/abs/2607.18302v1)|null|
 |**2026-07-17**|**RIMS: Preference Optimization via Smoothed Multi-pair Aggregation for Small-Scale LLM Retrieval-Augmented Generation**|cs.CL|[2607.16431v1](http://arxiv.org/abs/2607.16431v1)|**[code](https://github.com/tptrix29/RIMS)**|
 |**2026-07-16**|**One-Shot Generative Design for Disordered Metamaterials via Self-Organizing Neural Cellular Automata**|cs.CE, cs.LG|[2607.14475v1](http://arxiv.org/abs/2607.14475v1)|null|
@@ -223,12 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-29**|**Beyond Augmentation: Score-Guided Pathological Prior for EEG-based Depression Detection**|cs.LG, cs.AI|[2606.00180v1](http://arxiv.org/abs/2606.00180v1)|null|
 |**2026-05-29**|**BenHalluEval: A Multi-Task Hallucination Evaluation Framework for Large Language Models on Bengali**|cs.CL, cs.AI|[2605.31483v2](http://arxiv.org/abs/2605.31483v2)|**[code](https://anonymous.4open.science/r/BanglaHalluEval-EB77)**|
 |**2026-05-29**|**"Înţelegi Româneşte?'' A Recipe for Romanian Vision-Language Models**|cs.CL|[2605.31401v2](http://arxiv.org/abs/2605.31401v2)|null|
-|**2026-05-29**|**Developing a Culturally Grounded, AI-Augmented UX Research Point of View (POV): An Exemplar Case Study from Telemedicine Dementia Care**|cs.HC, cs.AI|[2605.31147v1](http://arxiv.org/abs/2605.31147v1)|null|
-|**2026-05-29**|**GraphARC: A Comprehensive Benchmark for Graph-Based Abstract Reasoning**|cs.AI|[2605.31031v1](http://arxiv.org/abs/2605.31031v1)|null|
-|**2026-05-29**|**Generating Reports or Repeating Templates? Measuring and Mitigating Template Collapse in 3D CT Report Generation**|cs.CV, cs.AI, cs.CL|[2605.30984v1](http://arxiv.org/abs/2605.30984v1)|null|
-|**2026-05-28**|**Destruction is a General Strategy to Learn Generation; Diffusion's Strength is to Take it Seriously; Exploration is the Future**|cs.LG, cs.IT|[2605.30553v1](http://arxiv.org/abs/2605.30553v1)|null|
 
-README omitted **281** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **285** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
