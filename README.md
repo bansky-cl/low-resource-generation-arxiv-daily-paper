@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **485**
-- Recent 30 days: **70**
+- Total papers in JSON: **487**
+- Recent 30 days: **72**
 - Older than 30 days: **415**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,7 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-17**|**Beyond Asking: A Pipeline for Personalized Game Generation that Reads Players from Behavior**|cs.AI, cs.HC|[2608.16196v1](http://arxiv.org/abs/2608.16196v1)|null|
 |**2026-08-16**|**Iterative Self-Learning for Expressive Text-to-Speech Synthesis**|eess.AS, cs.CL, cs.SD|[2608.15910v1](http://arxiv.org/abs/2608.15910v1)|null|
+|**2026-08-16**|**When Less Is Enough: Context Selection and Prompting Strategies for Bengali News Headline Generation**|cs.CL|[2608.15879v1](http://arxiv.org/abs/2608.15879v1)|null|
 |**2026-08-16**|**BengaliMCQ: Automatic Generation and Answer Prediction of Academic Multiple-Choice Questions in a Low-Resource Language**|cs.CL|[2608.15547v1](http://arxiv.org/abs/2608.15547v1)|null|
 |**2026-08-15**|**Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL**|cs.AI|[2608.15389v1](http://arxiv.org/abs/2608.15389v1)|null|
 |**2026-08-15**|**Structuring Semantic Embeddings for Principle Evaluation: A Prototype-Guided Contrastive Learning Approach**|cs.LG|[2608.15224v1](http://arxiv.org/abs/2608.15224v1)|null|
@@ -225,10 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-29**|**Sample-Efficient Post-Training for LEGO Spatial-Physics Reasoning**|cs.LG, cs.AI|[2606.07602v1](http://arxiv.org/abs/2606.07602v1)|null|
 |**2026-05-29**|**HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads**|cs.RO, cs.LG|[2606.00252v1](http://arxiv.org/abs/2606.00252v1)|null|
 |**2026-05-29**|**Beyond Augmentation: Score-Guided Pathological Prior for EEG-based Depression Detection**|cs.LG, cs.AI|[2606.00180v1](http://arxiv.org/abs/2606.00180v1)|null|
-|**2026-05-29**|**BenHalluEval: A Multi-Task Hallucination Evaluation Framework for Large Language Models on Bengali**|cs.CL, cs.AI|[2605.31483v2](http://arxiv.org/abs/2605.31483v2)|**[code](https://anonymous.4open.science/r/BanglaHalluEval-EB77)**|
-|**2026-05-29**|**"Înţelegi Româneşte?'' A Recipe for Romanian Vision-Language Models**|cs.CL|[2605.31401v2](http://arxiv.org/abs/2605.31401v2)|null|
 
-README omitted **285** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **287** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

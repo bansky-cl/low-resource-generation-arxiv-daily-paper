@@ -10523,6 +10523,45 @@
       "abs_url": "http://arxiv.org/abs/2608.15910v1",
       "pdf_url": "https://arxiv.org/pdf/2608.15910v1",
       "code_url": null
+    },
+    "2608.15879": {
+      "id": "2608.15879",
+      "version": "2608.15879v1",
+      "title": "When Less Is Enough: Context Selection and Prompting Strategies for Bengali News Headline Generation",
+      "authors": [
+        "Muhammad Ashad Kabir",
+        "Kawsar Ahmed",
+        "Md. Osama"
+      ],
+      "published": "2026-08-16",
+      "updated": "2026-08-16",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large language models (LLMs) have shown strong performance in text generation tasks, yet their effectiveness on headline generation remains sensitive to how input context is selected and presented. In this work, we investigate Bengali news headline generation as a document-level generation task that requires effective selection and presentation of salient contextual information from long-form articles. Using Gemini-2.0-Flash, Llama-3.3-70B, and GPT-4o, we systematically study the effects of context selection, prompting strategies, and in-context learning (i.e., few-shot) on the quality of headline generation. Our experiments show that providing the full article does not necessarily improve performance; instead, using selected lead paragraphs of the article can maintain, and in some cases improve, headline generation quality. We further compare Bengali Native Prompting (BNaP) and Cross-Lingual Prompting (XLP), and examine how each interacts with context-enriched prompt templates incorporating auxiliary contextual cues. Results demonstrate that prompting strategies substantially influence generation quality: XLP often yields stronger performance, particularly when combined with contextual enrichment, but its benefits are model-dependent. Additionally, few-shot prompting substantially improves Gemini, with most of the gain obtained from a single demonstration, whereas Llama shows limited benefit from additional examples. Overall, our findings highlight that effective Bengali news headline generation depends more on context relevance and prompt design than on increasing input length, offering practical insights for multilingual and low-resource LLM applications.",
+      "abs_url": "http://arxiv.org/abs/2608.15879v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.15879v1",
+      "code_url": null
+    },
+    "2608.16196": {
+      "id": "2608.16196",
+      "version": "2608.16196v1",
+      "title": "Beyond Asking: A Pipeline for Personalized Game Generation that Reads Players from Behavior",
+      "authors": [
+        "Yifan Lu",
+        "Xiaopeng Yuan",
+        "Haohan Wang"
+      ],
+      "published": "2026-08-17",
+      "updated": "2026-08-17",
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "abstract": "Personalized game generation requires inferring a player's abilities and behavioral style from how they play. Large language models have made this inference more attainable than ever: an LLM can read a raw gameplay transcript and produce a fluent, plausible profile of the player. Plausible, however, is not verified, and verification is precisely what the field lacks: latent traits are unobservable; questionnaires provide noisy proxies and become circular when self-reports are used to validate behavior-based inference; and behavior itself is ambiguous without context -- a player who never collects an item may not want it, or may never have had the chance. We address both problems. First, we construct a synthetic player population whose traits are ground truth by construction: each trait is an explicit bot parameter, accepted only after controlled manipulation produces consistent, trait-specific behavioral change. Unlike prior parameter-recovery work that inverts a known decision model, our benchmark evaluates policy-agnostic inference from behavioral transcripts alone. Second, we introduce an opportunity-aware decision-moment representation that disentangles preference from the chance to express it; ablating it selectively degrades opportunity-dependent traits. On this benchmark, few-shot LLM inference outperforms embedding- and rule-based baselines on most traits, though feature-based supervised regressors remain stronger overall. Finally, we close the loop: inferred profiles drive difficulty adaptation, evaluated against ground-truth references and mismatched-profile controls, and an exploratory human study examines whether these findings transfer to real players.",
+      "abs_url": "http://arxiv.org/abs/2608.16196v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.16196v1",
+      "code_url": null
     }
   }
 }
