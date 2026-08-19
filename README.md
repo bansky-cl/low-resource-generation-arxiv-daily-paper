@@ -7,21 +7,24 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.18
+## Updated on 2026.08.19
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **487**
-- Recent 30 days: **72**
-- Older than 30 days: **415**
+- Total papers in JSON: **490**
+- Recent 30 days: **73**
+- Older than 30 days: **417**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-18**|**Analysis of Types of Inquiries in Student-AI Interaction: A case study of two CS2 tasks**|cs.HC, cs.AI|[2608.17919v1](http://arxiv.org/abs/2608.17919v1)|null|
+|**2026-08-18**|**GADR: Gathering Architecture Decision Records from Meeting Transcriptions**|cs.SE, cs.AI|[2608.17694v1](http://arxiv.org/abs/2608.17694v1)|null|
+|**2026-08-18**|**Cognitive Graph Intelligence for Adaptive and Robust DDoS Attack Detection in Next Generation Networks**|cs.AI|[2608.17352v1](http://arxiv.org/abs/2608.17352v1)|null|
 |**2026-08-17**|**Beyond Asking: A Pipeline for Personalized Game Generation that Reads Players from Behavior**|cs.AI, cs.HC|[2608.16196v1](http://arxiv.org/abs/2608.16196v1)|null|
 |**2026-08-16**|**Iterative Self-Learning for Expressive Text-to-Speech Synthesis**|eess.AS, cs.CL, cs.SD|[2608.15910v1](http://arxiv.org/abs/2608.15910v1)|null|
 |**2026-08-16**|**When Less Is Enough: Context Selection and Prompting Strategies for Bengali News Headline Generation**|cs.CL|[2608.15879v1](http://arxiv.org/abs/2608.15879v1)|null|
@@ -92,13 +95,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-20**|**Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments**|cs.PL, cs.AI, cs.LG|[2607.18357v1](http://arxiv.org/abs/2607.18357v1)|null|
 |**2026-07-20**|**Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory**|cs.AI|[2607.17879v1](http://arxiv.org/abs/2607.17879v1)|null|
 |**2026-07-20**|**Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare**|cs.LG, cs.AI|[2607.17508v2](http://arxiv.org/abs/2607.17508v2)|null|
-|**2026-07-19**|**KyrgyzLLM-Bench: Benchmarking Kyrgyz Language Understanding**|cs.CL|[2607.17173v1](http://arxiv.org/abs/2607.17173v1)|null|
-|**2026-07-19**|**Robust Assamese Speech Recognition through Controlled Fine-Tuning of Whisper Models**|cs.LG|[2607.17164v1](http://arxiv.org/abs/2607.17164v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-19**|**KyrgyzLLM-Bench: Benchmarking Kyrgyz Language Understanding**|cs.CL|[2607.17173v1](http://arxiv.org/abs/2607.17173v1)|null|
+|**2026-07-19**|**Robust Assamese Speech Recognition through Controlled Fine-Tuning of Whisper Models**|cs.LG|[2607.17164v1](http://arxiv.org/abs/2607.17164v1)|null|
 |**2026-07-18**|**NOWJ@COLIEE 2026: Adaptive Pipelines for Legal Retrieval and Reasoning**|cs.CL|[2607.16603v1](http://arxiv.org/abs/2607.16603v1)|null|
 |**2026-07-17**|**A Better Start for Language Models: Domain-Conditional Position Offsets**|cs.LG|[2607.18302v1](http://arxiv.org/abs/2607.18302v1)|null|
 |**2026-07-17**|**RIMS: Preference Optimization via Smoothed Multi-pair Aggregation for Small-Scale LLM Retrieval-Augmented Generation**|cs.CL|[2607.16431v1](http://arxiv.org/abs/2607.16431v1)|**[code](https://github.com/tptrix29/RIMS)**|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-31**|**PolySpeech-100: A Large-Scale Benchmark for Speech Understanding Across 100+ Languages and Dialects**|cs.CL, cs.AI, eess.AS|[2606.01016v1](http://arxiv.org/abs/2606.01016v1)|**[code](https://github.com/YoungSeng/PolySpeech-100)**|
 |**2026-05-30**|**Manifold Diffusion for Structure Generation of Transition Metal Complexes**|cond-mat.mtrl-sci, cs.LG, physics.chem-ph|[2606.00666v1](http://arxiv.org/abs/2606.00666v1)|null|
 |**2026-05-29**|**Few-Shot Resampling for Scalable Statistically-Sound Data Mining**|cs.LG, cs.DB, stat.ME|[2606.11235v1](http://arxiv.org/abs/2606.11235v1)|null|
-|**2026-05-29**|**Sample-Efficient Post-Training for LEGO Spatial-Physics Reasoning**|cs.LG, cs.AI|[2606.07602v1](http://arxiv.org/abs/2606.07602v1)|null|
-|**2026-05-29**|**HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads**|cs.RO, cs.LG|[2606.00252v1](http://arxiv.org/abs/2606.00252v1)|null|
-|**2026-05-29**|**Beyond Augmentation: Score-Guided Pathological Prior for EEG-based Depression Detection**|cs.LG, cs.AI|[2606.00180v1](http://arxiv.org/abs/2606.00180v1)|null|
 
-README omitted **287** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **290** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
