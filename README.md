@@ -7,21 +7,22 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.19
+## Updated on 2026.08.20
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **490**
-- Recent 30 days: **73**
-- Older than 30 days: **417**
+- Total papers in JSON: **491**
+- Recent 30 days: **71**
+- Older than 30 days: **420**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-19**|**FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis**|cs.AI, cs.PL|[2608.18580v1](http://arxiv.org/abs/2608.18580v1)|null|
 |**2026-08-18**|**Analysis of Types of Inquiries in Student-AI Interaction: A case study of two CS2 tasks**|cs.HC, cs.AI|[2608.17919v1](http://arxiv.org/abs/2608.17919v1)|null|
 |**2026-08-18**|**GADR: Gathering Architecture Decision Records from Meeting Transcriptions**|cs.SE, cs.AI|[2608.17694v1](http://arxiv.org/abs/2608.17694v1)|null|
 |**2026-08-18**|**Cognitive Graph Intelligence for Adaptive and Robust DDoS Attack Detection in Next Generation Networks**|cs.AI|[2608.17352v1](http://arxiv.org/abs/2608.17352v1)|null|
@@ -92,14 +93,14 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-21**|**Translation as Augmentation: Effect of Translated Data on Assessment of Difficulty**|cs.CL, cs.LG|[2607.19101v1](http://arxiv.org/abs/2607.19101v1)|null|
 |**2026-07-21**|**Variational meta-learning inference for low dimensional neural system identification**|cs.LG, cs.AI, eess.SY|[2607.18965v1](http://arxiv.org/abs/2607.18965v1)|null|
 |**2026-07-21**|**LatentMT: Machine Translation with Latent Reasoning**|cs.CL, cs.AI, cs.LG|[2607.18618v1](http://arxiv.org/abs/2607.18618v1)|null|
-|**2026-07-20**|**Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments**|cs.PL, cs.AI, cs.LG|[2607.18357v1](http://arxiv.org/abs/2607.18357v1)|null|
-|**2026-07-20**|**Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory**|cs.AI|[2607.17879v1](http://arxiv.org/abs/2607.17879v1)|null|
-|**2026-07-20**|**Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare**|cs.LG, cs.AI|[2607.17508v2](http://arxiv.org/abs/2607.17508v2)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-20**|**Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments**|cs.PL, cs.AI, cs.LG|[2607.18357v1](http://arxiv.org/abs/2607.18357v1)|null|
+|**2026-07-20**|**Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory**|cs.AI|[2607.17879v1](http://arxiv.org/abs/2607.17879v1)|null|
+|**2026-07-20**|**Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare**|cs.LG, cs.AI|[2607.17508v2](http://arxiv.org/abs/2607.17508v2)|null|
 |**2026-07-19**|**KyrgyzLLM-Bench: Benchmarking Kyrgyz Language Understanding**|cs.CL|[2607.17173v1](http://arxiv.org/abs/2607.17173v1)|null|
 |**2026-07-19**|**Robust Assamese Speech Recognition through Controlled Fine-Tuning of Whisper Models**|cs.LG|[2607.17164v1](http://arxiv.org/abs/2607.17164v1)|null|
 |**2026-07-18**|**NOWJ@COLIEE 2026: Adaptive Pipelines for Legal Retrieval and Reasoning**|cs.CL|[2607.16603v1](http://arxiv.org/abs/2607.16603v1)|null|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-05-31**|**ExpWeaver: LLM Agents Learn from Experience via Latent RAG**|cs.CL|[2606.01041v1](http://arxiv.org/abs/2606.01041v1)|**[code](https://github.com/ulab-uiuc/ExpWeaver)**|
 |**2026-05-31**|**PolySpeech-100: A Large-Scale Benchmark for Speech Understanding Across 100+ Languages and Dialects**|cs.CL, cs.AI, eess.AS|[2606.01016v1](http://arxiv.org/abs/2606.01016v1)|**[code](https://github.com/YoungSeng/PolySpeech-100)**|
 |**2026-05-30**|**Manifold Diffusion for Structure Generation of Transition Metal Complexes**|cond-mat.mtrl-sci, cs.LG, physics.chem-ph|[2606.00666v1](http://arxiv.org/abs/2606.00666v1)|null|
-|**2026-05-29**|**Few-Shot Resampling for Scalable Statistically-Sound Data Mining**|cs.LG, cs.DB, stat.ME|[2606.11235v1](http://arxiv.org/abs/2606.11235v1)|null|
 
-README omitted **290** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **291** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
