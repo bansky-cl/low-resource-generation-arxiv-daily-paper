@@ -7,14 +7,14 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.24
+## Updated on 2026.08.25
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **494**
-- Recent 30 days: **61**
+- Total papers in JSON: **501**
+- Recent 30 days: **68**
 - Older than 30 days: **433**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,13 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-24**|**StrategyBench: Evaluating Explicit Strategy Induction in Large Language Models**|cs.AI|[2608.23475v1](http://arxiv.org/abs/2608.23475v1)|**[code](https://anonymous.4open.science/r/StrategyBench-D53C)**|
+|**2026-08-24**|**MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learning of Lightweight Time Series Forecasters**|cs.LG, cs.AI|[2608.23473v1](http://arxiv.org/abs/2608.23473v1)|null|
+|**2026-08-24**|**The Geometry of Low-Resource Language Representations**|cs.CL|[2608.23358v1](http://arxiv.org/abs/2608.23358v1)|null|
+|**2026-08-24**|**From Multimodal Observation to Interpretable Suggestions: Counterfactual Time-Expanded Relational Modeling of Surgical Teams**|cs.LG|[2608.23254v1](http://arxiv.org/abs/2608.23254v1)|null|
+|**2026-08-24**|**Statistical Machine Translation Systems of English-Pnar Language Pair : Some Insights of the Emperical Study**|cs.CL, cs.AI|[2608.23120v1](http://arxiv.org/abs/2608.23120v1)|null|
+|**2026-08-24**|**DIAG: Diagnostic Iterative Alignment and Generation for Data-Efficient Mathematical Preference Distillation**|cs.CL|[2608.22806v1](http://arxiv.org/abs/2608.22806v1)|null|
+|**2026-08-22**|**LLMs are Few-Shot Decision-Makers: Generalized Context-Aware Microgrid Frequency Control through Prompt Decision Transformer**|eess.SY, cs.AI|[2608.21858v1](http://arxiv.org/abs/2608.21858v1)|null|
 |**2026-08-20**|**HealMed: Multilingual Evaluation of Large Language Models in Medicine**|cs.CL|[2608.19981v1](http://arxiv.org/abs/2608.19981v1)|null|
 |**2026-08-20**|**ADAPT: Physics-Aware Diffusion-based World Models for Adaptive Predictive Transferable HVAC Control**|cs.AI|[2608.19804v1](http://arxiv.org/abs/2608.19804v1)|null|
 |**2026-08-19**|**TranslatePsy-AfriSLM: High-Quality Data Scaling For Low-Resource Machine Translation**|cs.CL|[2608.18655v1](http://arxiv.org/abs/2608.18655v1)|null|
@@ -33,8 +40,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-16**|**Iterative Self-Learning for Expressive Text-to-Speech Synthesis**|eess.AS, cs.CL, cs.SD|[2608.15910v1](http://arxiv.org/abs/2608.15910v1)|null|
 |**2026-08-16**|**When Less Is Enough: Context Selection and Prompting Strategies for Bengali News Headline Generation**|cs.CL|[2608.15879v1](http://arxiv.org/abs/2608.15879v1)|null|
 |**2026-08-16**|**BengaliMCQ: Automatic Generation and Answer Prediction of Academic Multiple-Choice Questions in a Low-Resource Language**|cs.CL|[2608.15547v1](http://arxiv.org/abs/2608.15547v1)|null|
-|**2026-08-15**|**Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL**|cs.AI|[2608.15389v1](http://arxiv.org/abs/2608.15389v1)|null|
-|**2026-08-15**|**Structuring Semantic Embeddings for Principle Evaluation: A Prototype-Guided Contrastive Learning Approach**|cs.LG|[2608.15224v1](http://arxiv.org/abs/2608.15224v1)|null|
+|**2026-08-15**|**Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL**|cs.AI|[2608.15389v2](http://arxiv.org/abs/2608.15389v2)|null|
+|**2026-08-15**|**Structuring Semantic Embeddings for Principle Evaluation: A Prototype-Guided Contrastive Learning Approach**|cs.LG|[2608.15224v2](http://arxiv.org/abs/2608.15224v2)|null|
 |**2026-08-14**|**Envs-FORGE: Frontier-Optimized Reward-Grounded Environment Synthesis for Agent RL**|cs.CL|[2608.14312v1](http://arxiv.org/abs/2608.14312v1)|**[code](https://github.com/DataArcTech/DataArc-SynData-Toolkit/)**|
 |**2026-08-13**|**BM25-Augmented Many-Shot Translation for Low-Resource North-Eastern Indian Languages**|cs.CL|[2608.13722v1](http://arxiv.org/abs/2608.13722v1)|null|
 |**2026-08-13**|**TeachMateGPT: A Multi-Agent Knowledge-Grounded Framework for Pedagogical Assessment Generation from Science Curriculum Materials**|cs.CL, cs.AI|[2608.13708v1](http://arxiv.org/abs/2608.13708v1)|null|
@@ -220,15 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-02**|**From Script to Semantics: Prompting Strategies for African NLI**|cs.CL, cs.LG|[2606.03304v1](http://arxiv.org/abs/2606.03304v1)|null|
 |**2026-06-02**|**Beyond "To whom it may concern": Tailoring Machine Translation to Audience and Intent**|cs.CL|[2606.03259v1](http://arxiv.org/abs/2606.03259v1)|null|
 |**2026-06-02**|**EURO-5K: When Does Domain Pretraining Matter? Benchmarking Transformers for EU Reporting Obligation Extraction**|cs.CL|[2606.02971v1](http://arxiv.org/abs/2606.02971v1)|null|
-|**2026-06-01**|**Learning When to Translate for Multilingual Reasoning**|cs.CL, cs.AI|[2606.02465v1](http://arxiv.org/abs/2606.02465v1)|**[code](https://github.com/deokhk/LUAR)**|
-|**2026-06-01**|**K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Korean Contexts**|cs.CL|[2606.02404v1](http://arxiv.org/abs/2606.02404v1)|null|
-|**2026-06-01**|**Coherent Off-Policy Improvement of Large Behavior Models with Learned Rewards**|cs.LG|[2606.02194v1](http://arxiv.org/abs/2606.02194v1)|null|
-|**2026-06-01**|**When Meaning Travels: A Granular Lens on Hybrid-MoE's Role in Idiomatic Understanding for Language Models**|cs.CL|[2606.01671v1](http://arxiv.org/abs/2606.01671v1)|null|
-|**2026-05-31**|**Time Series as Language: A Universal Tokenizer for General-Purpose Time Series Foundation Models**|cs.LG, cs.AI|[2606.09861v1](http://arxiv.org/abs/2606.09861v1)|null|
-|**2026-05-31**|**TukaBench: A Culturally Grounded Jailbreak Benchmark for African Languages**|cs.CL, cs.AI|[2606.01322v1](http://arxiv.org/abs/2606.01322v1)|null|
-|**2026-05-31**|**Fine-Tuning Diffusion Models for Molecular Generation via Reinforcement Learning and Fast Sampling**|cs.LG, cs.AI|[2606.01220v1](http://arxiv.org/abs/2606.01220v1)|null|
 
-README omitted **294** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **301** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

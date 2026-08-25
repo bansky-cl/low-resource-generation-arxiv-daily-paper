@@ -10460,31 +10460,31 @@
     },
     "2608.15389": {
       "id": "2608.15389",
-      "version": "2608.15389v1",
+      "version": "2608.15389v2",
       "title": "Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL",
       "authors": [
-        "Changruo Zhao",
+        "Yiyun Su",
         "Zujun Peng",
         "Yu Tian",
         "Yuting Liu",
-        "Yiyun Su",
+        "Changruo Zhao",
         "Huiying Zhu",
         "Luyan Zhang",
         "Heming Zeng"
       ],
       "published": "2026-08-15",
-      "updated": "2026-08-15",
+      "updated": "2026-08-24",
       "categories": [
         "cs.AI"
       ],
       "abstract": "LLM-based Text-to-SQL progress is reported across heterogeneous benchmarks, backbones, and inference protocols, making cross-system comparison fragile. We reframe the field as a leaderboard aggregation: we collect the metrics authors themselves report and organize them along an inference-autonomy axis spanning constrained, in-context, iterative, agentic, and reasoning-internalized generation, with traceable provenance for every cell. To anchor the aggregation empirically, we run a focused case study on Spider, comparing 8B open-source backbones with and without chain-of-thought (CoT) supervision against few-shot DeepSeek~V3 and GLM-4 baselines. Four patterns emerge: Spider gains transfer unevenly to BIRD and Spider~2.0; autonomy buys robustness at non-trivial cost; reasoning internalization sits between answer-only decoding and externally orchestrated agents; and CoT gains concentrate on Hard and Extra-Hard queries. We release a Python harness mirroring the autonomy axis so that future methods can be added directly to the leaderboard.",
-      "abs_url": "http://arxiv.org/abs/2608.15389v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.15389v1",
+      "abs_url": "http://arxiv.org/abs/2608.15389v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.15389v2",
       "code_url": null
     },
     "2608.15224": {
       "id": "2608.15224",
-      "version": "2608.15224v1",
+      "version": "2608.15224v2",
       "title": "Structuring Semantic Embeddings for Principle Evaluation: A Prototype-Guided Contrastive Learning Approach",
       "authors": [
         "Che Shen",
@@ -10493,13 +10493,13 @@
         "Chuan Wu"
       ],
       "published": "2026-08-15",
-      "updated": "2026-08-15",
+      "updated": "2026-08-22",
       "categories": [
         "cs.LG"
       ],
       "abstract": "Reliable post-hoc evaluation asks whether already generated text satisfies a target criterion after generation. In this paper we study a focused frozen-embedding setting using principle-evaluation proxy tasks: toxicity detection, fine-grained emotion categorization, and ordinal review rating. General-purpose text embeddings are widely deployed for such tasks, but broad semantic similarity can place semantically similar yet task-distinct examples in overlapping regions of the representation space. We introduce Prototype-Guided Contrastive Learning (PGCL), a prototype-guided geometric regularization module built on top of frozen text embeddings. The module combines a semantic stream, a prototype-anchor attention stream, supervised contrastive learning, offset-based prototype-margin regularization, and stream regularization to produce a compact task-adapted representation without updating the base encoder. Controlled experiments show that PGCL improves over raw frozen embeddings on all three datasets and gives the clearest direct-baseline margin on AmazonReviews, while remaining competitive with strong direct frozen metric-learning baselines on GoEmotions and ToxicComment. We also add supervised residual-adapter, encoder-LoRA, full fine-tuning, objective ablation, sensitivity, and fully logged few-shot LLM protocol diagnostics to define the boundary of the claim. The theoretical analysis is revised as a sufficient-condition account for prototype-margin behavior under explicit assumptions in the prototype-mapping space, rather than as an unconditional training or final-embedding separation guarantee.",
-      "abs_url": "http://arxiv.org/abs/2608.15224v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.15224v1",
+      "abs_url": "http://arxiv.org/abs/2608.15224v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.15224v2",
       "code_url": null
     },
     "2608.15910": {
@@ -10751,6 +10751,156 @@
       "abstract": "Buildings account for roughly one-third of global energy consumption and CO$_2$ emissions. Optimizing indoor climate systems plays a critical role for urban climate mitigation aligned with UN Sustainable Development Goals 11 and 13. However, indoor delayed thermodynamic responses and partial observability severely hinder existing methods, which are primarily limited by implicit thermal inertia, occupancy dynamic prediction, and cumulative prediction errors, especially for out-of-distribution environments. In practice, these challenges are further exacerbated by the high cost and privacy burden of dense indoor sensing, forcing operators to collect only limited data in a single operating regime while expecting controllers to generalize reliably across unseen seasons and climate regions. To address this problem, we propose ADAPT, a physics-aware conditional diffusion indoor environmental world model for HVAC control. The model predicts a short-horizon held-action thermal baseline to capture the latent thermal inertia of the buildings. The diffusion backbone utilizes the robustness of generative models, while a learnable multi-zone heat-balance regularizer constrains generated trajectories to satisfy transferable building thermodynamics without requiring known building geometry or manually calibrated thermal parameters. A credit assignment is then design for the downstream reinforcement learning. Extensive experiments on SemibuildingSim and Sinergym demonstrate that ADAPT reduces HVAC energy consumption by 7.3\\% and occupant discomfort by 30.2\\% compared with state-of-the-art baselines under IID control. Under OOD control scenarios spanning unseen seasons and climate regions, ADAPT maintains robust performance with only marginal degradation relative to its IID performance, substantially outperforming existing methods in transfer robustness.",
       "abs_url": "http://arxiv.org/abs/2608.19804v1",
       "pdf_url": "https://arxiv.org/pdf/2608.19804v1",
+      "code_url": null
+    },
+    "2608.23358": {
+      "id": "2608.23358",
+      "version": "2608.23358v1",
+      "title": "The Geometry of Low-Resource Language Representations",
+      "authors": [
+        "Francois Meyer",
+        "Jan Buys"
+      ],
+      "published": "2026-08-24",
+      "updated": "2026-08-24",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "The performance gap between low- and high-resource languages in LLMs is widely known, but it remains unclear which internal model factors drive these disparities. In this paper, we characterise this gap through the lens of representational geometry. Comparing the geometric properties of hidden representations across 30 languages reveals that LLM geometry is systematically related to language data availability. The most consistent effect is in final layers, where low-resource languages exhibit representational degeneration. To counter this, we investigate the effectiveness of regularisation terms to penalise degeneration during continued pretraining (CPT). Experiments monolingually adapting 9 base LLMs to 10 African languages show that geometric regularisation successfully reduces representational degeneration during CPT. For larger models, cosine similarity-based regularisation marginally improves performance over vanilla CPT, with more consistent gains on the most challenging tasks. We establish that the representational geometry of low- and high-resource languages in LLMs is measurably distinct, and that targeted geometric intervention is a viable strategy for improving CPT for low-resource languages.",
+      "abs_url": "http://arxiv.org/abs/2608.23358v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23358v1",
+      "code_url": null
+    },
+    "2608.23120": {
+      "id": "2608.23120",
+      "version": "2608.23120v1",
+      "title": "Statistical Machine Translation Systems of English-Pnar Language Pair : Some Insights of the Emperical Study",
+      "authors": [
+        "Edawanbiang Dhar Surmila Thokchom",
+        "Thoudam Doren Singh"
+      ],
+      "published": "2026-08-24",
+      "updated": "2026-08-24",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Pnar, an Austroasiatic language spoken by approximately 0.4 million people in the Jaintia Hills of Meghalaya, lacks the digital corpora and natural language processing (NLP) resources. This paper presents the first machine translation study for the English and Pnar language pair. Using articles collected from the Wyrta newspaper, we built a parallel corpus comprising of 10,234 sentences and trained phrase-based statistical machine translation (SMT) systems the models using 9,563 parallel corpora under three configurations for each direction using Moses, GIZA++ , KenLM, varying lexicalized reordering and minimum error rate training (MERT) tuning. The models are evaluated on a held out test set of 371 sentences, the best performing system achieves a BLEU score of 14.97 (chrF2: 33.42, TER: 77.60) for Pnar to English and 11.16 (chrF2: 31.38, TER: 93.51) for English to Pnar, establishing the first quantitative benchmark for this language pair. Lexicalized reordering improves translation quality by 3.73 BLEU points for Pnar to English, reflecting the structural shift from the source language's SOV word order to the target language's SVO order, whereas MERT tuning degrades BLEU performance under low resource conditions. Finally, we analyze the remaining translation errors, including morphological out of vocabulary (OOV) words, long-distance reordering and Khasi code mixing and discuss future directions toward neural and multilingual machine translation for Pnar.",
+      "abs_url": "http://arxiv.org/abs/2608.23120v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23120v1",
+      "code_url": null
+    },
+    "2608.23475": {
+      "id": "2608.23475",
+      "version": "2608.23475v1",
+      "title": "StrategyBench: Evaluating Explicit Strategy Induction in Large Language Models",
+      "authors": [
+        "Jinghan Tan",
+        "Yuanzheng Wang",
+        "Lu Chen",
+        "Zijun Chen",
+        "Yuqian Wang",
+        "Maosong Sun"
+      ],
+      "published": "2026-08-24",
+      "updated": "2026-08-24",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "As large language models are increasingly used in data-scarce and evolving task scenarios, few-shot in-context learning (ICL) has become a key paradigm for task adaptation. However, direct ICL often uses a small set of examples without explicitly abstracting task rules, making it sensitive to example construction. In contrast, human learners often reduce such sensitivity by first summarizing task rules from examples and then applying them to new instances. To evaluate this ability, we propose StrategyBench, which selects strategy-inducible tasks from BIG-Bench, constructs reference strategies, and defines evaluation metrics along two dimensions: strategy quality and downstream utility. We further analyze strategy induction from three perspectives: task variation, model configuration, and adaptation setting, covering category-wise differences, generator-executor choices, demonstration design, and SFT-based adaptation. Experiments show that explicit strategy utility differs substantially across task categories and depends on both strategy generation and execution conditions. The benchmark is released at: https://anonymous.4open.science/r/StrategyBench-D53C.",
+      "abs_url": "http://arxiv.org/abs/2608.23475v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23475v1",
+      "code_url": "https://anonymous.4open.science/r/StrategyBench-D53C"
+    },
+    "2608.23473": {
+      "id": "2608.23473",
+      "version": "2608.23473v1",
+      "title": "MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learning of Lightweight Time Series Forecasters",
+      "authors": [
+        "ChengAo Shen",
+        "Wenchao Yu",
+        "Fangyu Wu",
+        "Dongjin Song",
+        "Hanghang Tong",
+        "Dongsheng Luo",
+        "Wei Cheng",
+        "Haifeng Chen",
+        "Jingchao Ni"
+      ],
+      "published": "2026-08-24",
+      "updated": "2026-08-24",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Time series forecasting (TSF) is evolving toward multimodal and agentic settings, yet using foundation models remains uneconomical in resource-constrained scenarios, where compact, specialized forecasters are more desirable. However, lightweight forecasters typically require substantial training data, limiting their use in domains with scarce, slowly accumulated, or privacy-sensitive time series. To address this dilemma, we investigate the challenging problem of few-shot learning for lightweight forecasters. We propose MetaCaster, a meta-harness-optimized multi-agent framework that uses agentic data generation to automatically train specialized lightweight forecasters from only a few examples and textual contexts. Our work highlights a new TSF paradigm in which agents act not as forecasters but as intermediary engineers that prepare efficient, task-specific forecasters for deployment. Experiments on 18 datasets, 23 state-of-the-art lightweight forecasters, and 14 baselines demonstrate that MetaCaster achieves both data efficiency and computational efficiency while maintaining high-quality TSF performance.",
+      "abs_url": "http://arxiv.org/abs/2608.23473v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23473v1",
+      "code_url": null
+    },
+    "2608.21858": {
+      "id": "2608.21858",
+      "version": "2608.21858v1",
+      "title": "LLMs are Few-Shot Decision-Makers: Generalized Context-Aware Microgrid Frequency Control through Prompt Decision Transformer",
+      "authors": [
+        "Xu Yang",
+        "Chenhui Lin",
+        "Haotian Liu",
+        "Kaihang Deng",
+        "Yunhe Li",
+        "Wenchuan Wu"
+      ],
+      "published": "2026-08-22",
+      "updated": "2026-08-22",
+      "categories": [
+        "eess.SY",
+        "cs.AI"
+      ],
+      "abstract": "The rapid evolution of energy structures has positioned microgrids as pivotal components of next-generation power systems, offering enhanced resilience and renewable energy integration. However, the inherent low inertia, complex dynamics, and poor model conditions of microgrids necessitate advanced data-driven frequency control strategies. Although reinforcement learning (RL) has demonstrated certain potential and advantages, existing RL methods often struggle with generalization across diverse microgrid configurations and lack adaptability to unseen environments, particularly when explicit system parameters are unavailable. To address these challenges, in this paper, we introduce a novel prompt decision transformer (Prompt-DT) architecture for microgrid frequency control. Unlike traditional approaches that rely on hard-to-obtain environmental characteristic parameters, the proposed method leverages few-shot expert historical trajectories as prompts to guide autonomous perception and adaptive decision-making. In addition, we propose a context-aware training and execution mechanism utilizing self-supervised contrastive learning to enhance environment recognition and prompt utilization efficiency. In addition, a physics-informed prompt design technique that filters prompts based on cumulative reward and frequency volatility is proposed, ensuring high-quality physical guidance during online execution. Finally, to ensure generalization in unseen environments with limited data, we develop a lightweight finetuning approach that achieves performance comparable to full-parameter finetuning with minimal adjustments.",
+      "abs_url": "http://arxiv.org/abs/2608.21858v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21858v1",
+      "code_url": null
+    },
+    "2608.22806": {
+      "id": "2608.22806",
+      "version": "2608.22806v1",
+      "title": "DIAG: Diagnostic Iterative Alignment and Generation for Data-Efficient Mathematical Preference Distillation",
+      "authors": [
+        "Guhan Chen",
+        "Songtao Tian",
+        "Bohan Li",
+        "Hejin Wang",
+        "YeXin Xie",
+        "Zixiong Yu"
+      ],
+      "published": "2026-08-24",
+      "updated": "2026-08-24",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Iterative preference optimization is essential for aligning Large Language Models on mathematical reasoning tasks, yet its efficiency is often throttled by signal scarcity: as the model improves, static problem sets become increasingly mismatched to the model's evolving competence, producing rollouts that are either too easy or too hard and therefore non-informative, which leads to a scarcity of valid preference pairs. We propose DIAG, a Diagnostic Iterative Alignment and Generation framework that adaptively reshapes the practice distribution to increase informative supervision and focus training near the student's current competence boundary. DIAG consists of two phases: (1) diagnosing valid preference-pair yield to calibrate the exploration-exploitation trade-off and allocate topic quotas via an Empirical Bayes shrinkage estimator, thereby prioritizing high-yield concepts; and (2) generating targeted practice, where a teacher synthesizes variants from the student's failure traces. We further provide a theoretical view interpreting DIAG as a teacher-mediated approximation to KL-regularized reweighting of the practice distribution toward the student's competence boundary, where valid preference-pair yield is maximized. Experiments show that DIAG boosts yield across iterations and delivers stronger reasoning performance under an iso-effective training budget, demonstrating that it can distill more informative preference supervision for mathematical reasoning.",
+      "abs_url": "http://arxiv.org/abs/2608.22806v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.22806v1",
+      "code_url": null
+    },
+    "2608.23254": {
+      "id": "2608.23254",
+      "version": "2608.23254v1",
+      "title": "From Multimodal Observation to Interpretable Suggestions: Counterfactual Time-Expanded Relational Modeling of Surgical Teams",
+      "authors": [
+        "Vincenzo Marco De Luca",
+        "Antonio Longa",
+        "Giovanna Varni",
+        "Andrea Passerini"
+      ],
+      "published": "2026-08-24",
+      "updated": "2026-08-24",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "In surgery, patient safety is threatened not only by technical issues but also by poor teamwork. However, existing surgical AI-based solutions focus mainly on visual workflow and technical execution, neglecting the modeling of team interactions and missing opportunities to actively support clinicians in improving their teamwork skills. To address this gap, we propose a tempo-relational framework for modeling surgical team dynamics from multimodal observations. By leveraging Time-Expanded graphs, the approach captures both relational structure and temporal evolution, achieving strong expressivity while remaining robust in the low-data regime typical of surgical settings. Beyond prediction, such modeling enables the generation of efficient, interpretable, and actionable suggestions for clinicians. More specifically, we generate suggestions via a counterfactual procedure that identifies minimal yet structured changes in individual behaviors and interaction patterns associated with improvements in team performance. Experiments with simulated surgical procedures show that our approach improves predictive performance in diverse behavioral and interaction goals while offering meaningful insights into team dynamics. This work advances surgical AI beyond outcome-driven prediction towards a socially grounded, team-centric, and actionable paradigm to better understand and support the development of team skills in surgical settings.",
+      "abs_url": "http://arxiv.org/abs/2608.23254v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23254v1",
       "code_url": null
     }
   }
