@@ -7,21 +7,23 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.25
+## Updated on 2026.08.26
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **501**
+- Total papers in JSON: **503**
 - Recent 30 days: **68**
-- Older than 30 days: **433**
+- Older than 30 days: **435**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-25**|**Do Recipes Have Personas? Characterizing and Generating Creator Style in Attributed Procedural Graphs**|cs.AI|[2608.24369v1](http://arxiv.org/abs/2608.24369v1)|null|
+|**2026-08-25**|**PhysicsBench: A Unified Leaderboard for Generative and Predictive Models in Engineering Design and Simulation**|cs.LG, cs.CE|[2608.24056v1](http://arxiv.org/abs/2608.24056v1)|null|
 |**2026-08-24**|**StrategyBench: Evaluating Explicit Strategy Induction in Large Language Models**|cs.AI|[2608.23475v1](http://arxiv.org/abs/2608.23475v1)|**[code](https://anonymous.4open.science/r/StrategyBench-D53C)**|
 |**2026-08-24**|**MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learning of Lightweight Time Series Forecasters**|cs.LG, cs.AI|[2608.23473v1](http://arxiv.org/abs/2608.23473v1)|null|
 |**2026-08-24**|**The Geometry of Low-Resource Language Representations**|cs.CL|[2608.23358v1](http://arxiv.org/abs/2608.23358v1)|null|
@@ -88,13 +90,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-28**|**Evaluating Prompt Scope and Demonstration Similarity in Local LLM Machine Translation**|cs.CL|[2607.26286v1](http://arxiv.org/abs/2607.26286v1)|null|
 |**2026-07-28**|**A Control System, a Dataset, and a Recipe for Making Frozen LLM Agents Learn a Domain**|cs.AI|[2607.25415v1](http://arxiv.org/abs/2607.25415v1)|null|
 |**2026-07-27**|**Systematic Analysis of Large Language Models and Transformer-Based Machine Translation for English-Tamil and Tamil-English Across Diverse Datasets**|cs.CL|[2607.24515v2](http://arxiv.org/abs/2607.24515v2)|null|
-|**2026-07-26**|**Guiding Language Models to Be More Empathetic: Culturally Sensitive Mental Health Advice Generation Through Human-LLM Collaboration**|cs.CL|[2607.23538v1](http://arxiv.org/abs/2607.23538v1)|null|
-|**2026-07-26**|**NeurGO: Learning to Generate Elite Candidates for Meta-Black-Box Expensive Optimization**|cs.AI|[2607.23408v1](http://arxiv.org/abs/2607.23408v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-26**|**Guiding Language Models to Be More Empathetic: Culturally Sensitive Mental Health Advice Generation Through Human-LLM Collaboration**|cs.CL|[2607.23538v1](http://arxiv.org/abs/2607.23538v1)|null|
+|**2026-07-26**|**NeurGO: Learning to Generate Elite Candidates for Meta-Black-Box Expensive Optimization**|cs.AI|[2607.23408v1](http://arxiv.org/abs/2607.23408v1)|null|
 |**2026-07-24**|**Complexity Bounds and Approaches to Learning Projected Gradient Descent Solver Iterates**|cs.LG|[2607.22467v1](http://arxiv.org/abs/2607.22467v1)|null|
 |**2026-07-24**|**A Factorial Study of Synthetic Data Generation for Low-Resource Machine Translation using Grammar Books**|cs.CL|[2607.22376v1](http://arxiv.org/abs/2607.22376v1)|null|
 |**2026-07-24**|**Towards Trustworthy and Cost-Efficient Data Integration: From Naïve RAG to Agentic RAG**|cs.DB, cs.AI|[2607.22319v1](http://arxiv.org/abs/2607.22319v1)|null|
@@ -225,10 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-02**|**Reasoning over Grammar: Can Synthetic Linguistic Reasoning Traces Enhance Low-Resource Machine Translation?**|cs.CL|[2606.03782v1](http://arxiv.org/abs/2606.03782v1)|null|
 |**2026-06-02**|**Automating Information Extraction and Retrieval for Industrial Spare Parts Pooling**|cs.IR|[2606.03367v2](http://arxiv.org/abs/2606.03367v2)|null|
 |**2026-06-02**|**From Script to Semantics: Prompting Strategies for African NLI**|cs.CL, cs.LG|[2606.03304v1](http://arxiv.org/abs/2606.03304v1)|null|
-|**2026-06-02**|**Beyond "To whom it may concern": Tailoring Machine Translation to Audience and Intent**|cs.CL|[2606.03259v1](http://arxiv.org/abs/2606.03259v1)|null|
-|**2026-06-02**|**EURO-5K: When Does Domain Pretraining Matter? Benchmarking Transformers for EU Reporting Obligation Extraction**|cs.CL|[2606.02971v1](http://arxiv.org/abs/2606.02971v1)|null|
 
-README omitted **301** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **303** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

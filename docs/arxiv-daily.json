@@ -10902,6 +10902,43 @@
       "abs_url": "http://arxiv.org/abs/2608.23254v1",
       "pdf_url": "https://arxiv.org/pdf/2608.23254v1",
       "code_url": null
+    },
+    "2608.24369": {
+      "id": "2608.24369",
+      "version": "2608.24369v1",
+      "title": "Do Recipes Have Personas? Characterizing and Generating Creator Style in Attributed Procedural Graphs",
+      "authors": [
+        "Lei Jiang"
+      ],
+      "published": "2026-08-25",
+      "updated": "2026-08-25",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "While large language models (LLMs) possess vast zero-shot procedural knowledge, their tendency to produce homogenized logic often obscures the unique, idiosyncratic execution processes of individual human creators. In this paper, we investigate the computational discovery of procedural personas from unstructured data. To achieve this, we introduce ViralRecipesTrans, a new dataset of procedurally aligned execution flow graphs extracted from popular culinary video transcripts and explicitly mapped to specific creators. We formulate procedural stylometry as a graph learning and process discovery task, revealing a fundamental duality: while traditional lexical classifiers overfit via semantic leakage, discrete topological metrics successfully capture the rigid physical constraints of a creator's workflow. Building upon this characterization, we extend our framework into a novel generative task--predicting a creator's exact structural execution graph for unseen dishes. We expose a fundamental dichotomy in style generation between global macro-planning and local structural execution. Our results demonstrate that few-shot LLMs dominate semantic assignment but suffer from persistent macro-planning deficits, whereas our structured two-stage model achieves superior topological control via rigid Markovian priors. Together, an ensemble approach to procedural generation combines the strengths from both sides, dynamically synthesizing global semantic reasoning with localized topological footprints to automate the discovery and generation of personalized workflows.",
+      "abs_url": "http://arxiv.org/abs/2608.24369v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.24369v1",
+      "code_url": null
+    },
+    "2608.24056": {
+      "id": "2608.24056",
+      "version": "2608.24056v1",
+      "title": "PhysicsBench: A Unified Leaderboard for Generative and Predictive Models in Engineering Design and Simulation",
+      "authors": [
+        "Sang Won Lee",
+        "Hyogu Jeong",
+        "Namwoo Kang"
+      ],
+      "published": "2026-08-25",
+      "updated": "2026-08-25",
+      "categories": [
+        "cs.LG",
+        "cs.CE"
+      ],
+      "abstract": "Generative and predictive artificial intelligence models are increasingly used to generate geometry and to predict physical fields and scalar quantities in engineering design and simulation. Yet these models are typically evaluated in isolation, on academic datasets at unconstrained scales, with inconsistent metrics and procedures. We present PhysicsBench, a unified benchmark and leaderboard that evaluates generative and predictive models under one standardized procedure. PhysicsBench spans seven generation and prediction tasks across 1D, 2D, and 3D domains and ranks 66 models on nine datasets, comprising industrial-scale CAD/CFD/FEA simulations and public references, expanded into 28 configurations. One procedure and ranking apply to both families, each ranked within its own tasks. Evaluation spans realistic, limited data scales from S to XL rather than the unlimited training sets common in academic benchmarks. A common metric suite captures geometric fidelity with distributional distances, physical-field and scalar accuracy, and engineering-specific field- and shape-validity. BenchRank debiases correlated metrics and ranks by PageRank over a head-to-head dominance graph, so every reported quality metric is also ranked, with computational cost in a separate efficiency view. Across tasks, an architecture's large-scale academic standing weakly predicts its small-data ranking. The top model changes with data scale in six of the seven tasks, and no model leads more than one task. PhysicsBench turns \"state-of-the-art\" from a self-reported claim into an openly published foundation for model selection.",
+      "abs_url": "http://arxiv.org/abs/2608.24056v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.24056v1",
+      "code_url": null
     }
   }
 }
