@@ -10654,7 +10654,7 @@
     },
     "2608.18655": {
       "id": "2608.18655",
-      "version": "2608.18655v1",
+      "version": "2608.18655v2",
       "title": "TranslatePsy-AfriSLM: High-Quality Data Scaling For Low-Resource Machine Translation",
       "authors": [
         "Milan Gritta",
@@ -10663,13 +10663,13 @@
         "Amril Nazir"
       ],
       "published": "2026-08-19",
-      "updated": "2026-08-19",
+      "updated": "2026-08-26",
       "categories": [
         "cs.CL"
       ],
-      "abstract": "The rapid progress in Artificial Intelligence has largely bypassed African languages, creating a digital divide that limits AI adoption on the continent. Recent open-source LLMs systematically underperform on African machine translation, while the lack of large-scale, high-quality, open-source parallel data has constrained the development of competitive small language models (SLMs). We introduce *TranslatePsy-AfriSLM*, a collection of open-source MT resources for 19 Sub-Saharan African languages, including curated parallel data, African-specialized synthetic data, and a family of fine-tuned SLMs. Our empirical study shows that unified quality-estimation filtering removes up to 96% of training tokens without degrading quality, and that filtered synthetic data dominates the quality-efficiency Pareto frontier. Fine-tuned on the resulting data mixture, TranslatePsy-AfriSLM outperforms substantially larger systems, including TranslateGemma-27B and Qwen3.5-122B-A10B, with as few as 0.8B parameters.",
-      "abs_url": "http://arxiv.org/abs/2608.18655v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.18655v1",
+      "abstract": "The rapid progress in Artificial Intelligence has largely bypassed African languages, creating a digital divide that limits AI adoption on the continent. Recent open-source LLMs systematically underperform on African language machine translation, while the lack of large-scale, high-quality, open-source parallel data has constrained the development of competitive small language models (SLMs). We introduce TranslatePsy-AfriSLM, a collection of open-source machine translation resources for 19 Sub-Saharan African languages, including curated parallel data, African-specialized synthetic data, and a family of fine-tuned SLMs. Our empirical study shows that unified quality-estimation filtering removes up to 96% of training tokens without degrading quality, and that filtered synthetic data dominates the quality-efficiency Pareto frontier. Fine-tuned on the resulting data mixture, TranslatePsy-AfriSLMs outperform substantially larger systems, including TranslateGemma-27B and Qwen3.5-122B-A10B, with as few as 0.8B parameters.",
+      "abs_url": "http://arxiv.org/abs/2608.18655v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.18655v2",
       "code_url": null
     },
     "2608.19981": {
@@ -10938,6 +10938,47 @@
       "abstract": "Generative and predictive artificial intelligence models are increasingly used to generate geometry and to predict physical fields and scalar quantities in engineering design and simulation. Yet these models are typically evaluated in isolation, on academic datasets at unconstrained scales, with inconsistent metrics and procedures. We present PhysicsBench, a unified benchmark and leaderboard that evaluates generative and predictive models under one standardized procedure. PhysicsBench spans seven generation and prediction tasks across 1D, 2D, and 3D domains and ranks 66 models on nine datasets, comprising industrial-scale CAD/CFD/FEA simulations and public references, expanded into 28 configurations. One procedure and ranking apply to both families, each ranked within its own tasks. Evaluation spans realistic, limited data scales from S to XL rather than the unlimited training sets common in academic benchmarks. A common metric suite captures geometric fidelity with distributional distances, physical-field and scalar accuracy, and engineering-specific field- and shape-validity. BenchRank debiases correlated metrics and ranks by PageRank over a head-to-head dominance graph, so every reported quality metric is also ranked, with computational cost in a separate efficiency view. Across tasks, an architecture's large-scale academic standing weakly predicts its small-data ranking. The top model changes with data scale in six of the seven tasks, and no model leads more than one task. PhysicsBench turns \"state-of-the-art\" from a self-reported claim into an openly published foundation for model selection.",
       "abs_url": "http://arxiv.org/abs/2608.24056v1",
       "pdf_url": "https://arxiv.org/pdf/2608.24056v1",
+      "code_url": null
+    },
+    "2608.25038": {
+      "id": "2608.25038",
+      "version": "2608.25038v1",
+      "title": "Padamitra: Grounded Glossary Generation for Classical Sanskrit",
+      "authors": [
+        "Manoj Balaji Jagadeeshan",
+        "Sai Pragnaan Marala",
+        "Pawan Goyal"
+      ],
+      "published": "2026-08-25",
+      "updated": "2026-08-25",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "We introduce grounded glossary generation, a structured task requiring models to recover semantically meaningful Sanskrit phrases and produce translation-grounded meanings from a sloka-translation pair, formalizing the traditional patha commentary practice as an evaluable NLP objective. We construct a benchmark of 31,316 sloka-translation-glossary triples from the Valmiki Ramayana and Srimad Bhagavatam, paired with two metrics: Jaccard for phrase recovery and Meaning Faithfulness for semantic consistency. Across zero-shot, few-shot, and instruction fine-tuned variants of Gemma-3n-E4B, Gemma-3-12B, Phi-4, and Qwen3.5-9B, instruction fine-tuning substantially outperforms prompting, while explicit segmentation yields gains. Error analysis identifies over-segmentation of sandhi and samasa compounds as the dominant failure mode, pointing to morphological modeling as the key bottleneck for faithful Sanskrit lexical decomposition.",
+      "abs_url": "http://arxiv.org/abs/2608.25038v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25038v1",
+      "code_url": null
+    },
+    "2608.25275": {
+      "id": "2608.25275",
+      "version": "2608.25275v1",
+      "title": "PhaseShift: Topology-Aware Data Harmonization and Model Consolidation Across Signalized Intersections",
+      "authors": [
+        "Yash Ranjan",
+        "Artur Kumik",
+        "Rahul Sengupta",
+        "Anand Rangarajan",
+        "Sanjay Ranka"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-08-26",
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "Learned traffic-behavior models are commonly trained separately for each intersection, creating model portfolios that cannot share evidence across sites. We present PhaseShift, a topology-aware framework that harmonizes heterogeneous roadside trajectories into a shared actor-centric representation and trains one reusable backbone. Ego-relative coordinates, trajectory-induced movement paths, normalized signal context, and variable-cardinality interaction tokens remove site conventions while preserving behaviorally relevant topology. The backbone supports pooled operation, zero-shot at a held-out intersection, and low-data adaptation. We evaluate five intersections in two Florida regions on balanced field data, 100k training windows and equal-sized test sets per site under a replay-conditioned, best-of-sampled-trajectory protocol. At 10s, one pooled model lowers both minADE and minFDE relative to trained local models at all five sites, with median reductions of 36.8% and 22.0%. Leave-one-intersection-out deployment, including one cross-region fold, beats local training on both 10-s metrics at four of five sites, although short-horizon performance is less uniform. Fine-tuning with 1,000 target update windows improves on zero-shot at three sites and is the strongest regime at one. At site 7, every cross-site mixture sharply lowers long-horizon error under a fixed 100k-window budget; test-likelihood gains argue against a best-of-sample dispersion-only explanation. Local models fall behind calibrated IDM at the two highest-flow sites after long autoregressive rollouts; pretrained-backbone regimes do not. Within this five-site evaluation, PhaseShift demonstrates consolidation across heterogeneous physical control settings while identifying sites that still require adaptation. The protocol measures conditional single-vehicle generation under replayed context, not closed-loop traffic simulation.",
+      "abs_url": "http://arxiv.org/abs/2608.25275v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.25275v1",
       "code_url": null
     }
   }
