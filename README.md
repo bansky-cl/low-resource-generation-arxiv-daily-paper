@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.28
+## Updated on 2026.08.29
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **507**
-- Recent 30 days: **69**
-- Older than 30 days: **438**
+- Recent 30 days: **67**
+- Older than 30 days: **440**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -89,13 +89,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-31**|**Bridging the English-Arabic Medical Knowledge Gap: Targeted Low-Rank Adaptation via Causal Layer Selection**|cs.CL|[2608.00207v1](http://arxiv.org/abs/2608.00207v1)|null|
 |**2026-07-31**|**Cross-Lingual Transfer for Machine Translation in Turkic Languages**|cs.CL, cs.AI|[2607.29355v1](http://arxiv.org/abs/2607.29355v1)|null|
 |**2026-07-30**|**Using Large Language Models for Idea Generation in Innovation**|cs.AI, cs.CL, econ.GN|[2607.27553v1](http://arxiv.org/abs/2607.27553v1)|null|
-|**2026-07-29**|**Equilibrium Training of Energy-Based Models with Parallel Trajectory Tempering**|cs.LG, cond-mat.dis-nn, cond-mat.stat-mech|[2607.27077v1](http://arxiv.org/abs/2607.27077v1)|null|
-|**2026-07-29**|**From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence**|cs.AI, cs.RO|[2607.26903v1](http://arxiv.org/abs/2607.26903v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-29**|**Equilibrium Training of Energy-Based Models with Parallel Trajectory Tempering**|cs.LG, cond-mat.dis-nn, cond-mat.stat-mech|[2607.27077v1](http://arxiv.org/abs/2607.27077v1)|null|
+|**2026-07-29**|**From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence**|cs.AI, cs.RO|[2607.26903v1](http://arxiv.org/abs/2607.26903v1)|null|
 |**2026-07-28**|**Evaluating Prompt Scope and Demonstration Similarity in Local LLM Machine Translation**|cs.CL|[2607.26286v1](http://arxiv.org/abs/2607.26286v1)|null|
 |**2026-07-28**|**A Control System, a Dataset, and a Recipe for Making Frozen LLM Agents Learn a Domain**|cs.AI|[2607.25415v1](http://arxiv.org/abs/2607.25415v1)|null|
 |**2026-07-27**|**Systematic Analysis of Large Language Models and Transformer-Based Machine Translation for English-Tamil and Tamil-English Across Diverse Datasets**|cs.CL|[2607.24515v2](http://arxiv.org/abs/2607.24515v2)|null|
