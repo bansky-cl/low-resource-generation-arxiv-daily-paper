@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **505**
-- Recent 30 days: **67**
+- Total papers in JSON: **507**
+- Recent 30 days: **69**
 - Older than 30 days: **438**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-27**|**pro-team at LLMs4OL 2026 Tasks Flagship and Reuse: Retrieval-Augmented Generation and Vocabulary-Constrained Filtering for Ontology Learning**|cs.AI|[2608.27101v1](http://arxiv.org/abs/2608.27101v1)|null|
+|**2026-08-26**|**Cross-lingual Representation Learning via Centroid Intervention Fusion**|cs.CL|[2608.26357v1](http://arxiv.org/abs/2608.26357v1)|**[code](https://github.com/VRCMF/CIF.git)**|
 |**2026-08-26**|**PhaseShift: Topology-Aware Data Harmonization and Model Consolidation Across Signalized Intersections**|cs.AI, cs.RO|[2608.25275v1](http://arxiv.org/abs/2608.25275v1)|null|
 |**2026-08-25**|**Padamitra: Grounded Glossary Generation for Classical Sanskrit**|cs.CL|[2608.25038v1](http://arxiv.org/abs/2608.25038v1)|null|
 |**2026-08-25**|**Do Recipes Have Personas? Characterizing and Generating Creator Style in Attributed Procedural Graphs**|cs.AI|[2608.24369v1](http://arxiv.org/abs/2608.24369v1)|null|
@@ -66,7 +68,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-07**|**Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models**|cs.RO, cs.AI|[2608.06994v1](http://arxiv.org/abs/2608.06994v1)|null|
 |**2026-08-07**|**Evolving Parallel Algorithm Portfolios via Potential-Aware Instance Generation with LLMs**|cs.AI|[2608.06808v1](http://arxiv.org/abs/2608.06808v1)|null|
 |**2026-08-07**|**Multi-Perspective Triad Interaction Graph Neural Network for Cognitive Distortion Detection**|cs.CL|[2608.06785v1](http://arxiv.org/abs/2608.06785v1)|null|
-|**2026-08-06**|**SAGA: Score-Weighted Adaptive Generation Alignment for Low-Resource Nordic Language Models**|cs.LG|[2608.06179v1](http://arxiv.org/abs/2608.06179v1)|null|
+|**2026-08-06**|**SAGA: Score-Weighted Adaptive Generation Alignment for Low-Resource Nordic Language Models**|cs.LG|[2608.06179v2](http://arxiv.org/abs/2608.06179v2)|null|
 |**2026-08-06**|**Clinical Communication Processing with Models Trained on LLM-Generated Synthetic Data: A Structured Survey and Novel Application Case Studies**|cs.CL|[2608.05993v1](http://arxiv.org/abs/2608.05993v1)|null|
 |**2026-08-06**|**MameLoshnLM: Yiddish Language Model and Evaluation Benchmark**|cs.CL, cs.AI|[2608.05850v1](http://arxiv.org/abs/2608.05850v1)|null|
 |**2026-08-05**|**Traceable LLM-Generated Hazard Scenarios for Operational Safety Analysis of Aviation Systems Using ASRS Reports**|cs.AI|[2608.04697v1](http://arxiv.org/abs/2608.04697v1)|null|
@@ -225,10 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-03**|**Caliper: Probing Lexical Anchors versus Causal Structure in LLMs**|cs.CL, cs.IR|[2606.04915v1](http://arxiv.org/abs/2606.04915v1)|null|
 |**2026-06-03**|**SANE Schema-aware Natural-language Evaluation of Biological Data**|cs.CL|[2606.04500v1](http://arxiv.org/abs/2606.04500v1)|null|
 |**2026-06-03**|**Deliberate Evolution: Agentic Reasoning for Sample-Efficient Symbolic Regression with LLMs**|cs.CL, cs.LG|[2606.04360v1](http://arxiv.org/abs/2606.04360v1)|null|
-|**2026-06-02**|**scTranslation: A Comprehensive Benchmark for Single-Cell Multi-Omics Modality Translation**|cs.AI|[2606.03906v1](http://arxiv.org/abs/2606.03906v1)|**[code](https://github.com/Bunnybeibei/scTranslation)**|
-|**2026-06-02**|**Reasoning over Grammar: Can Synthetic Linguistic Reasoning Traces Enhance Low-Resource Machine Translation?**|cs.CL|[2606.03782v1](http://arxiv.org/abs/2606.03782v1)|null|
 
-README omitted **305** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **307** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

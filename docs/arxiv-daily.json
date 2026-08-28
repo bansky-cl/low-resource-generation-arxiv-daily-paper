@@ -9948,7 +9948,7 @@
     },
     "2608.06179": {
       "id": "2608.06179",
-      "version": "2608.06179v1",
+      "version": "2608.06179v2",
       "title": "SAGA: Score-Weighted Adaptive Generation Alignment for Low-Resource Nordic Language Models",
       "authors": [
         "Hoda Fakharzadehjahromy",
@@ -9958,13 +9958,13 @@
         "Fredrik Heintz"
       ],
       "published": "2026-08-06",
-      "updated": "2026-08-06",
+      "updated": "2026-08-27",
       "categories": [
         "cs.LG"
       ],
       "abstract": "Preference optimisation has proven effective for improving large language models but typically relies on costly human preference annotations. Extending these methods to morphologically rich, low-resource languages remains challenging because such annotations are scarce. We present SAGA (Score-weighted Adaptive Generation Alignment), a parser-guided preference optimisation framework that replaces human labels with dependency-parser supervision. SAGA converts parser judgements into preference pairs for delta-DPO, combines parser quality with lexical diversity in a composite reward, filters low-information pairs using a reward-gap criterion, and monitors reward hacking to maintain reliable supervision. Across Danish, Icelandic, and Norwegian Bokmål using GPT-SW3-1.3B, SAGA consistently improves grammatical quality without requiring human preference labels. Danish parse success increases from 69.0% to 93.8%, Icelandic achieves a +4.5 percentage-point improvement on an independent Stanza evaluation (three-run mean +3.3 percentage points) while native speakers prefer SAGA outputs in 80% of pairwise comparisons, and Norwegian Bokmål improves by +28 percentage points. These results demonstrate that parser-derived supervision is a practical alternative to human preference annotation for grammatical alignment in low-resource languages where high-quality dependency parsers are available.",
-      "abs_url": "http://arxiv.org/abs/2608.06179v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06179v1",
+      "abs_url": "http://arxiv.org/abs/2608.06179v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.06179v2",
       "code_url": null
     },
     "2608.05993": {
@@ -10979,6 +10979,45 @@
       "abstract": "Learned traffic-behavior models are commonly trained separately for each intersection, creating model portfolios that cannot share evidence across sites. We present PhaseShift, a topology-aware framework that harmonizes heterogeneous roadside trajectories into a shared actor-centric representation and trains one reusable backbone. Ego-relative coordinates, trajectory-induced movement paths, normalized signal context, and variable-cardinality interaction tokens remove site conventions while preserving behaviorally relevant topology. The backbone supports pooled operation, zero-shot at a held-out intersection, and low-data adaptation. We evaluate five intersections in two Florida regions on balanced field data, 100k training windows and equal-sized test sets per site under a replay-conditioned, best-of-sampled-trajectory protocol. At 10s, one pooled model lowers both minADE and minFDE relative to trained local models at all five sites, with median reductions of 36.8% and 22.0%. Leave-one-intersection-out deployment, including one cross-region fold, beats local training on both 10-s metrics at four of five sites, although short-horizon performance is less uniform. Fine-tuning with 1,000 target update windows improves on zero-shot at three sites and is the strongest regime at one. At site 7, every cross-site mixture sharply lowers long-horizon error under a fixed 100k-window budget; test-likelihood gains argue against a best-of-sample dispersion-only explanation. Local models fall behind calibrated IDM at the two highest-flow sites after long autoregressive rollouts; pretrained-backbone regimes do not. Within this five-site evaluation, PhaseShift demonstrates consolidation across heterogeneous physical control settings while identifying sites that still require adaptation. The protocol measures conditional single-vehicle generation under replayed context, not closed-loop traffic simulation.",
       "abs_url": "http://arxiv.org/abs/2608.25275v1",
       "pdf_url": "https://arxiv.org/pdf/2608.25275v1",
+      "code_url": null
+    },
+    "2608.26357": {
+      "id": "2608.26357",
+      "version": "2608.26357v1",
+      "title": "Cross-lingual Representation Learning via Centroid Intervention Fusion",
+      "authors": [
+        "Wei Sun",
+        "Marie-Francine Moens"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-08-26",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large language models (LLMs) exhibit uneven multilingual performance, especially when dealing with low-resource languages. Inference-time intervention offers a lightweight way to improve cross-lingual transfer by modifying the hidden states produced by the LLMs during the forward pass, without updating model parameters. However, existing cross-lingual intervention methods typically learn separate projections from source to target languages, which limits scalability and prevents knowledge sharing across languages. We propose Centroid Intervention Fusion (CIF), a projection fusion framework that consolidates multiple multilingual intervention projections into a single language-shared operator. Across multilingual commonsense reasoning, natural language inference, factual editing, and machine translation benchmarks, CIF outperforms the strongest prior pairwise intervention baseline by up to +3.378 pp on average across four model backbones, while supporting performance gains for low resource languages. The code is available at https://github.com/VRCMF/CIF.git.",
+      "abs_url": "http://arxiv.org/abs/2608.26357v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.26357v1",
+      "code_url": "https://github.com/VRCMF/CIF.git"
+    },
+    "2608.27101": {
+      "id": "2608.27101",
+      "version": "2608.27101v1",
+      "title": "pro-team at LLMs4OL 2026 Tasks Flagship and Reuse: Retrieval-Augmented Generation and Vocabulary-Constrained Filtering for Ontology Learning",
+      "authors": [
+        "Shivam Mishra",
+        "Dhannu Ram Meena",
+        "Muneendra Ojha",
+        "Krishna Pratap Singh",
+        "Kuldeep Singh"
+      ],
+      "published": "2026-08-27",
+      "updated": "2026-08-27",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Ontology learning from text remains challenging despite significant progress in Large Language Models (LLMs), which can hallucinate domain terms, produce inconsistent formats, and favor hierarchical over associative relations. In the LLMs4OL 2026 Challenge, we address both the End-to-End Flagship Task (Task A) and Ontology Extension Reuse Task (Task B) using an offline retrieval-augmented few-shot prompting pipeline. Our system employs Qwen2.5-14B-Instruct with all-MiniLM-L6-v2 for demonstration retrieval, selecting the top-5 examples for Task A and top-2 for Task B. A left-truncated context-windowing strategy preserves task instructions within long prompts. For Task B, generated triples undergo deterministic vocabulary-constrained filtering, retaining triples when at least one endpoint belongs to the sample's closed term/type vocabulary and removing duplicates of the initial ontology. The approach achieves Semantic Graph Similarity of 0.8692, Term-Typing F1 of 0.9200, and Taxonomy Discovery F1 of 0.8540 on Task B, while Task A achieves 0.7416 Semantic Graph Similarity. However, no non-taxonomic relations are extracted, highlighting limitations of closed, taxonomy-oriented relation vocabularies.",
+      "abs_url": "http://arxiv.org/abs/2608.27101v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.27101v1",
       "code_url": null
     }
   }
