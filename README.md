@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.08.30
+## Updated on 2026.08.31
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **507**
-- Recent 30 days: **66**
-- Older than 30 days: **441**
+- Recent 30 days: **64**
+- Older than 30 days: **443**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -86,13 +86,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-02**|**ArabicDialectSafety: A Dialect-Aware Benchmark for Arabic Content Safety Classification**|cs.CL|[2608.01291v1](http://arxiv.org/abs/2608.01291v1)|null|
 |**2026-08-02**|**Opt.Gear Technical Report**|cs.CL|[2608.01034v2](http://arxiv.org/abs/2608.01034v2)|null|
 |**2026-08-01**|**Native Multilingual Chain-of-Thought Reasoning in Low-Resource Southeast Asian Languages**|cs.CL, cs.AI, cs.LG|[2608.00533v1](http://arxiv.org/abs/2608.00533v1)|null|
-|**2026-07-31**|**Bridging the English-Arabic Medical Knowledge Gap: Targeted Low-Rank Adaptation via Causal Layer Selection**|cs.CL|[2608.00207v1](http://arxiv.org/abs/2608.00207v1)|null|
-|**2026-07-31**|**Cross-Lingual Transfer for Machine Translation in Turkic Languages**|cs.CL, cs.AI|[2607.29355v1](http://arxiv.org/abs/2607.29355v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-07-31**|**Bridging the English-Arabic Medical Knowledge Gap: Targeted Low-Rank Adaptation via Causal Layer Selection**|cs.CL|[2608.00207v1](http://arxiv.org/abs/2608.00207v1)|null|
+|**2026-07-31**|**Cross-Lingual Transfer for Machine Translation in Turkic Languages**|cs.CL, cs.AI|[2607.29355v1](http://arxiv.org/abs/2607.29355v1)|null|
 |**2026-07-30**|**Using Large Language Models for Idea Generation in Innovation**|cs.AI, cs.CL, econ.GN|[2607.27553v1](http://arxiv.org/abs/2607.27553v1)|null|
 |**2026-07-29**|**Equilibrium Training of Energy-Based Models with Parallel Trajectory Tempering**|cs.LG, cond-mat.dis-nn, cond-mat.stat-mech|[2607.27077v1](http://arxiv.org/abs/2607.27077v1)|null|
 |**2026-07-29**|**From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence**|cs.AI, cs.RO|[2607.26903v1](http://arxiv.org/abs/2607.26903v1)|null|
