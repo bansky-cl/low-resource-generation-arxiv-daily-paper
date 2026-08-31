@@ -11019,6 +11019,48 @@
       "abs_url": "http://arxiv.org/abs/2608.27101v1",
       "pdf_url": "https://arxiv.org/pdf/2608.27101v1",
       "code_url": null
+    },
+    "2608.28481": {
+      "id": "2608.28481",
+      "version": "2608.28481v1",
+      "title": "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry",
+      "authors": [
+        "Samuel Xiao",
+        "Judy Song",
+        "Rory Hu",
+        "Ziliang Zong"
+      ],
+      "published": "2026-08-28",
+      "updated": "2026-08-28",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Recent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to translate informal mathematical problems into formal representations remains underexplored. This limitation is particularly important for neuro-symbolic geometry systems such as AlphaGeometry, whose theorem-proving engine requires inputs in a specialized domain-specific language (DSL). Although AlphaGeometry achieves near-IMO gold-medalist performance, manually converting natural-language problems into its formal syntax remains a significant usability bottleneck. To address this challenge, we introduce the Natural Language to AlphaGeometry Benchmark (NL2AGBench), which evaluates LLMs in translating English geometry problems into AlphaGeometry-compatible formal representations. NL2AGBench uses execution-based verification within AlphaGeometry to assess translation quality rather than relying solely on textual similarity. We evaluate ten state-of-the-art open- and closed-source LLMs across multiple parameter scales and analyze executable translation accuracy, syntactic correctness, and error characteristics. Our experiments reveal a substantial performance gap between closed- and open-source models: leading closed-source models achieve executable translation rates above 80%, while even the largest open-source models struggle to consistently preserve geometric constraints and produce valid formalizations. We introduce an error taxonomy distinguishing syntax and logic errors and investigate mitigation strategies, including few-shot prompting, fine-tuning, and human-guided hinting, which yield measurable improvements across multiple model families.",
+      "abs_url": "http://arxiv.org/abs/2608.28481v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28481v1",
+      "code_url": null
+    },
+    "2608.28053": {
+      "id": "2608.28053",
+      "version": "2608.28053v1",
+      "title": "CNeo-Bench: Diagnosing Large Language Models on Chinese Neologisms",
+      "authors": [
+        "Kaiyan Zhao",
+        "Zhongtao Miao",
+        "Zheyong Xie",
+        "Shaosheng Cao",
+        "Yoshimasa Tsuruoka"
+      ],
+      "published": "2026-08-28",
+      "updated": "2026-08-28",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Chinese neologisms exploit diverse and unique linguistic mechanisms, such as phonetic substitution (e.g., 886 for ``bye-bye'') and visual character decomposition that are rare in other languages. We introduce CNeo-Bench, a benchmark of 4,759 such neologisms with reference definitions, organized into five top-level categories and nine subcategories by the linguistic mechanism behind each expression. CNeo-Bench is paired with a two-tier evaluation framework that separates whether a model can describe a neologism from whether it can operate on its underlying mechanism. Evaluating 18 LLMs, we find that Chinese neologisms remain an open challenge; most models fall below 40\\% on definition generation, and on several subcategories a systematic recognition-manipulation gap emerges: models describe neologisms correctly but, in source-form restoration tasks, substitute a semantic equivalent (paraphrase) for the source form rather than producing the source form itself. A few-shot analysis on 1,058 hard items shows that in-context examples can solve many difficult cases, but leave a noticeable portion of errors remaining, indicating challenges beyond prompting alone can address.",
+      "abs_url": "http://arxiv.org/abs/2608.28053v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28053v1",
+      "code_url": null
     }
   }
 }

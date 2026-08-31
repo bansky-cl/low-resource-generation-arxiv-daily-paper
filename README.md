@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **507**
-- Recent 30 days: **64**
+- Total papers in JSON: **509**
+- Recent 30 days: **66**
 - Older than 30 days: **443**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-28**|**NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry**|cs.CL, cs.AI|[2608.28481v1](http://arxiv.org/abs/2608.28481v1)|null|
+|**2026-08-28**|**CNeo-Bench: Diagnosing Large Language Models on Chinese Neologisms**|cs.CL|[2608.28053v1](http://arxiv.org/abs/2608.28053v1)|null|
 |**2026-08-27**|**pro-team at LLMs4OL 2026 Tasks Flagship and Reuse: Retrieval-Augmented Generation and Vocabulary-Constrained Filtering for Ontology Learning**|cs.AI|[2608.27101v1](http://arxiv.org/abs/2608.27101v1)|null|
 |**2026-08-26**|**Cross-lingual Representation Learning via Centroid Intervention Fusion**|cs.CL|[2608.26357v1](http://arxiv.org/abs/2608.26357v1)|**[code](https://github.com/VRCMF/CIF.git)**|
 |**2026-08-26**|**PhaseShift: Topology-Aware Data Harmonization and Model Consolidation Across Signalized Intersections**|cs.AI, cs.RO|[2608.25275v1](http://arxiv.org/abs/2608.25275v1)|null|
@@ -225,10 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-03**|**Multilingual Coreference Resolution via Cycle-Consistent Machine Translation**|cs.CL, cs.AI, cs.LG|[2606.05444v1](http://arxiv.org/abs/2606.05444v1)|null|
 |**2026-06-03**|**REGEN: Reference-Guided Synthetic Multivariate Time Series Generation for Forecasting**|cs.LG|[2606.05264v1](http://arxiv.org/abs/2606.05264v1)|null|
 |**2026-06-03**|**Caliper: Probing Lexical Anchors versus Causal Structure in LLMs**|cs.CL, cs.IR|[2606.04915v1](http://arxiv.org/abs/2606.04915v1)|null|
-|**2026-06-03**|**SANE Schema-aware Natural-language Evaluation of Biological Data**|cs.CL|[2606.04500v1](http://arxiv.org/abs/2606.04500v1)|null|
-|**2026-06-03**|**Deliberate Evolution: Agentic Reasoning for Sample-Efficient Symbolic Regression with LLMs**|cs.CL, cs.LG|[2606.04360v1](http://arxiv.org/abs/2606.04360v1)|null|
 
-README omitted **307** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **309** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
