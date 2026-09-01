@@ -9601,7 +9601,7 @@
     },
     "2608.01291": {
       "id": "2608.01291",
-      "version": "2608.01291v1",
+      "version": "2608.01291v2",
       "title": "ArabicDialectSafety: A Dialect-Aware Benchmark for Arabic Content Safety Classification",
       "authors": [
         "Wajdi Zaghouani",
@@ -9610,13 +9610,13 @@
         "Mabrouka Bessghaier"
       ],
       "published": "2026-08-02",
-      "updated": "2026-08-02",
+      "updated": "2026-08-30",
       "categories": [
         "cs.CL"
       ],
       "abstract": "We present ArabicDialectSafety, a human-curated Arabic safety dataset of 25,071 prompts covering six Arabic varieties: Modern Standard Arabic, Syrian, Egyptian, Algerian, Palestinian, and Moroccan. The dataset is annotated with dialect labels and seven fine-grained harm categories. We introduce a dual-task evaluation framework for binary safe/unsafe detection and granular harm classification across dialects. Benchmarking seven supervised and generative models, we find that fine-tuned MARBERTv2 achieves the strongest performance, with Macro-F1 scores of 0.95 for binary classification and 0.90 for granular classification, substantially outperforming prompted frontier LLMs, including Arabic-specialized models. Our analyses show that dialect conditioning is most effective when integrated at the representation level, while significant performance gaps remain for low-resource Maghrebi dialects. We further evaluate seven frontier LLMs as response generators on harmful dialectal Arabic prompts and observe unsafe generation rates below 5 percent across models. We release the dataset and code upon acceptance to support future research on dialect-aware Arabic safety evaluation. Warning: This paper contains examples of harmful and potentially offensive content included solely for research purposes.",
-      "abs_url": "http://arxiv.org/abs/2608.01291v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.01291v1",
+      "abs_url": "http://arxiv.org/abs/2608.01291v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.01291v2",
       "code_url": null
     },
     "2608.00533": {
@@ -11060,6 +11060,237 @@
       "abstract": "Chinese neologisms exploit diverse and unique linguistic mechanisms, such as phonetic substitution (e.g., 886 for ``bye-bye'') and visual character decomposition that are rare in other languages. We introduce CNeo-Bench, a benchmark of 4,759 such neologisms with reference definitions, organized into five top-level categories and nine subcategories by the linguistic mechanism behind each expression. CNeo-Bench is paired with a two-tier evaluation framework that separates whether a model can describe a neologism from whether it can operate on its underlying mechanism. Evaluating 18 LLMs, we find that Chinese neologisms remain an open challenge; most models fall below 40\\% on definition generation, and on several subcategories a systematic recognition-manipulation gap emerges: models describe neologisms correctly but, in source-form restoration tasks, substitute a semantic equivalent (paraphrase) for the source form rather than producing the source form itself. A few-shot analysis on 1,058 hard items shows that in-context examples can solve many difficult cases, but leave a noticeable portion of errors remaining, indicating challenges beyond prompting alone can address.",
       "abs_url": "http://arxiv.org/abs/2608.28053v1",
       "pdf_url": "https://arxiv.org/pdf/2608.28053v1",
+      "code_url": null
+    },
+    "2608.30462": {
+      "id": "2608.30462",
+      "version": "2608.30462v1",
+      "title": "Enhancing Low-Resource Language Reasoning via High-Resource Language Feature Transfer",
+      "authors": [
+        "Minju Song",
+        "Hyeon Hwang",
+        "Junhyun Lee",
+        "Jaewoo Kang"
+      ],
+      "published": "2026-08-31",
+      "updated": "2026-08-31",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Large language models exhibit substantial performance variation across languages, even when solving semantically equivalent tasks. Existing analyses often treat this phenomenon as an observational disparity caused by differences in pretraining data, tokenization, or benchmark coverage. We study a complementary hypothesis: high-resource languages (HRLs) may more reliably elicit latent computations useful for task-specific (i.e. mathematical) reasoning, while lower-resource languages (LRLs) may under-activate those computations despite expressing the same task. To test this hypothesis, we introduce a mechanistic intervention framework for identifying and transferring task-relevant sparse latent features across languages. Using sparse autoencoders over residual-stream activations, we isolate features enriched in successful HRL task-specific reasoning while filtering out source-language and generic-generation features. We then construct steering directions from these features and inject them during LRL inference. The resulting interventions test whether the selected features are functionally involved in the observed reasoning gap: suppressing them should impair source-language reasoning, while activating them should partially recover target-language reasoning beyond random and non-task controls. Our framework reframes some cross-lingual reasoning gaps as failures of mechanism elicitation rather than capability absence, and offers a causally testable route to feature-mediated transfer without translation, fine-tuning, or changing the user-facing language.",
+      "abs_url": "http://arxiv.org/abs/2608.30462v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.30462v1",
+      "code_url": null
+    },
+    "2608.30065": {
+      "id": "2608.30065",
+      "version": "2608.30065v1",
+      "title": "Pak3H: Evaluating the Cost of Cultural Mismatch in LLM Alignment with a Human-Contextualized Urdu Benchmark",
+      "authors": [
+        "Abdullah Hashmat",
+        "Usman Naseem",
+        "Agha Ali Raza"
+      ],
+      "published": "2026-08-30",
+      "updated": "2026-08-30",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Large language models (LLMs) demonstrate strong Helpfulness, Harmlessness, and Honesty (3H) alignment in English-centric settings, but these gains transfer poorly to low-resource languages due to cultural mismatches. Existing multilingual 3H benchmarks rely predominantly on automated translation or LLM based synthesis, propagating source-language biases while sacrificing local relevance. To address this gap, we introduce Pak3H1, the first human-validated, culturally contextualized Urdu benchmark suite for 3H alignment, comprising PakAlpaca (helpfulness), PakBeaverTails (harmlessness), and PakTruthfulQA (honesty). Our multi-stage pipeline integrates manual cultural adaptation and dictionary-guided post editing to prioritize native speaker judgment, ensuring both semantic fidelity and contextual authenticity. Zero-shot evaluations across multiple open and proprietary LLM architectures reveal systematic cross-lingual alignment gaps: helpfulness win rates decline under localized contexts, harmlessness guardrails break down against regional safety risks, and composite honesty metrics degrade substantially due to localized factual constraints. These findings expose structural limitations in current alignment approaches, underscoring the necessity of human-guided localization for equitable multilingual evaluation.",
+      "abs_url": "http://arxiv.org/abs/2608.30065v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.30065v1",
+      "code_url": null
+    },
+    "2608.29959": {
+      "id": "2608.29959",
+      "version": "2608.29959v1",
+      "title": "Generative vs. Encoder Models for Multilingual NER: A Comprehensive Empirical Study on Naamapadam",
+      "authors": [
+        "Jakkala Mahesh",
+        "Jatavath Shravan Kumar",
+        "Komalla Shivani",
+        "Sujoy Sarkar"
+      ],
+      "published": "2026-08-30",
+      "updated": "2026-08-30",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Language is humanity's most consequential technology, yet for over a billion speakers across India's twenty-two constitutionally recognised languages, its digital layer remains structurally incomplete. Named Entity Recognition (NER), the foundational step in transforming raw text into machine-interpretable knowledge, has been studied exhaustively for English but remains largely unsolved across most Indic languages. This paper presents a rigorous comparative study of generative and encoder-based neural architectures for NER on all eleven languages of the Naamapadam benchmark. We evaluate five classic model families spanning sequence-to-sequence transformers and multilingual encoders; four decoder-only large language models (LLMs) fine-tuned with LoRA and 4-bit NF4 quantisation; and nine generative models in zero-to-5-shot inference. Under strict CoNLL span-level evaluation, encoder-based models (mBERT and XLM-R, both F1=0.675 on Hindi) substantially outperform every generative architecture in ten of eleven languages, with gaps of 7.5-40 percentage points against the strongest competitor (Gemma-2-2B: avg F1=0.427). The best few-shot result reaches only 28% of the encoder baseline. We identify three language clusters--encoder-dominant, partial-coverage, and failure-zone; and provide actionable deployment guidelines grounded in transfer learning and low-resource NLP principles.",
+      "abs_url": "http://arxiv.org/abs/2608.29959v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.29959v1",
+      "code_url": null
+    },
+    "2608.29239": {
+      "id": "2608.29239",
+      "version": "2608.29239v1",
+      "title": "Anchoring Speech with Semantics: A Multimodal Adapter Mechanism for Automatic Speech Recognition in Low-Resource Languages",
+      "authors": [
+        "Kuan-Tang Huang",
+        "Cheng-Yeh Yang",
+        "Chien-Chun Wang",
+        "Hung-Shin Lee",
+        "Hsin-Min Wang",
+        "Berlin Chen"
+      ],
+      "published": "2026-08-29",
+      "updated": "2026-08-29",
+      "categories": [
+        "cs.CL",
+        "cs.SD",
+        "eess.AS"
+      ],
+      "abstract": "Low-resource ASR remains difficult because scarce transcripts provide limited supervised evidence for target-side generation. To address this gap, we propose SAMA-ASR, a lightweight adapter mechanism that augments the decoder with semantic anchors from auxiliary translations and an acoustic anchor from speech; in principle, the mechanism can be applied to similar encoder--decoder multitask speech models. Through cross-modal adaptation, SAMA-ASR conditions decoder states on translation-derived semantic embeddings and a speech embedding, combining utterance-level meaning with speech-grounded evidence before token prediction. At evaluation time, these semantic anchors can be generated automatically by an upstream speech-to-text translator rather than supplied as oracle translations. Experiments on two 30-hour datasets covering the low-resource Sinitic varieties Taiwanese Hokkien and Hakka show that SAMA-ASR improves over acoustic, prior prompt-based, and semantic-only translation-guided baselines and remains effective in practical automatic semantic-anchor settings; translator-capacity analyses show that useful semantic anchors can be produced by a compact ST model.",
+      "abs_url": "http://arxiv.org/abs/2608.29239v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.29239v1",
+      "code_url": null
+    },
+    "2608.29170": {
+      "id": "2608.29170",
+      "version": "2608.29170v1",
+      "title": "Toward a Cross-Lingual Romanization Ecosystem for Sinitic Languages: A Paired Mandarin-Cantonese Case Study",
+      "authors": [
+        "Zijie Zhang",
+        "Tan Lee",
+        "Yong Cao",
+        "Benyou Wang"
+      ],
+      "published": "2026-08-29",
+      "updated": "2026-08-29",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper proposes the Sinitic Romanization Ecosystem, a cross-lingual Sinitic romanization design framework with supporting digital infrastructure and a community-driven open-source workflow. The design framework addresses the lack of systematic cross-lingual romanization alignment among Sinitic languages through four design principles: phonetic correspondence for representing similar sounds with similar romanized symbols, historical-phonological correspondence for aligning cognate romanization strings, one-phoneme-one-symbol, and basic Latin-letter use, with a balancing consideration recognizing trade-offs among these principles. For the main paired case study, we devel-op CantRomZJ1 and MandRomZJ1, Cantonese and Manda-rin romanization schemes following the design framework, respectively. We also develop schemes for several other Sinitic languages, including Meixian Hakka, Shanghai Wu, and Nanjing Jianghuai Mandarin, following the same de-sign framework. To bring the romanization schemes into practical use, we develop open-source infrastructure for structured romanization storage, conversion, parsing, dic-tionary construction, and input-method generation. Finally, we evaluate the design framework through speech-to-romanization experiments based on Meta's Massively Mul-tilingual Speech (MMS) fine-tuning. Compared with the Pinyin+Jyutping baseline, our Man-dRomZJ1+CantRomZJ1 condition reduces Cantonese WER and CER by 7.80% and 10.61%, respectively. These results suggest that cross-lingual romanization alignment can improve transfer in low-resource Sinitic speech technology.",
+      "abs_url": "http://arxiv.org/abs/2608.29170v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.29170v1",
+      "code_url": null
+    },
+    "2608.29345": {
+      "id": "2608.29345",
+      "version": "2608.29345v1",
+      "title": "BIRD-History: A Benchmark for History-Driven Text-to-SQL with Fine-Grained Knowledge Annotations",
+      "authors": [
+        "Yunfan Zhou",
+        "Qiming Shi",
+        "Yizhou Yang",
+        "Di Weng",
+        "Yingcai Wu"
+      ],
+      "published": "2026-08-29",
+      "updated": "2026-08-29",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "While recent Large Language Model (LLM)-based text-to-SQL systems achieve impressive performance on standard benchmarks, they struggle when user queries implicitly rely on domain-specific knowledge, such as business logic, data conventions, and analytical practices, that is neither captured by the schema nor explicitly stated in the natural language question. Historical SQL query logs offer a valuable source of such knowledge, yet existing benchmarks do not adequately support evaluation of history-driven approaches. To address this gap, we introduce BIRD-History, a benchmark consisting of 1,393 tasks across 11 databases, designed to evaluate text-to-SQL systems' ability to ground underspecified natural language questions using historical SQL scripts. Each task is annotated with ground-truth labels specifying which historical queries contain relevant knowledge and which SQL clauses encode it, enabling systematic evaluation of both retrieval effectiveness and knowledge utilization. Alongside the benchmark, we propose a plug-in retriever that extracts five types of external knowledge from historical SQL scripts, then retrieves and reranks relevant fragments for query generation. The retriever integrates seamlessly into existing few-shot text-to-SQL pipelines without requiring prompt modifications. Experiments demonstrate consistent improvements across four text-to-SQL systems, highlighting the value of leveraging historical query logs for handling underspecified queries. Dataset and code are open-sourced on https://github.com/zjuidg/BIRD-History.",
+      "abs_url": "http://arxiv.org/abs/2608.29345v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.29345v1",
+      "code_url": "https://github.com/zjuidg/BIRD-History"
+    },
+    "2608.29884": {
+      "id": "2608.29884",
+      "version": "2608.29884v1",
+      "title": "Improving Argument Saliency Coverage in Small LLMs for Long Legal Opinion Summarization via Sequence-Level Distillation",
+      "authors": [
+        "Mohamed Elaraby",
+        "Ahmed Elhady",
+        "Diane Litman"
+      ],
+      "published": "2026-08-30",
+      "updated": "2026-08-30",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "We show that sequence-level distillation from a capable long-context teacher model is a simple, annotation-free, and data-efficient strategy for improving argument saliency coverage in long legal opinion summarization, where small LLMs often struggle to retain the most salient argumentative content. Across student model sizes, distillation consistently surpasses tuning on expert-written summaries in our legal-opinion setting. We further demonstrate that most gains are achieved with as few as ~10 training summaries, highlighting the strong data efficiency of teacher-generated supervision. Finally, we find that summary distillation is sufficient for improvements: reasoning-chain distillation remains competitive with summary-only distillation, but provides marginal benefit when combined with summary supervision.",
+      "abs_url": "http://arxiv.org/abs/2608.29884v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.29884v1",
+      "code_url": null
+    },
+    "2608.28639": {
+      "id": "2608.28639",
+      "version": "2608.28639v1",
+      "title": "Reward-Oracle MCTS for Formal Theorem Proving: Sample-Efficient Search and the Need for Kernel-Level Proof Auditing",
+      "authors": [
+        "Bodla Krishna Vamshi",
+        "Haizhao Yang"
+      ],
+      "published": "2026-08-11",
+      "updated": "2026-08-11",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.LO"
+      ],
+      "abstract": "Formal theorem proving with large language models remains challenging due to the difficulty of navigating large proof search spaces efficiently. Existing tree search approaches either feed verbose compiler error messages directly into the generation context, increasing context usage during search, or employ non-standard evaluation protocols that prevent direct comparison with established baselines. We propose a three-role Monte Carlo Tree Search (MCTS) framework that treats the Lean 4 compiler purely as a reward oracle using compiler output as a scalar signal for UCB-guided tree updates without feeding error content into the generation context. Our framework decomposes proof search into three roles: a generator for proof attempts, a decomposer for subgoal decomposition, and a critic for subgoal quality evaluation. We evaluate across 4 benchmarks spanning competition mathematics and physics (MiniF2F, PutnamBench, LeanPhysBench, PhysLeandata) with three prover models at standard proof attempt budgets (PAB@16 to PAB@256). Our method achieves 87.1\\% on MiniF2F with Goedel-Prover-V2-8B at PAB@256 and solves 26/659 PutnamBench problems at PAB@32 surpassing base sampling 18/659 at same proof attempt budget. Through an exhaustive axiom-level audit of every compiled proof, we further identify reward hacking in search-based theorem proving: DeepSeek-Prover-V2-7B produces proofs on PutnamBench that pass compilation and the standard sorry-token scan while depending on sorryAx. The audit removes 4 and 8 such proofs from whole-proof sampling at PAB@32 and PAB@128, and 11 and 19 from MCTS. We do not attribute these counts to the search procedure; we report them to establish that kernel-level auditing is necessary for compiler-verified evaluation.",
+      "abs_url": "http://arxiv.org/abs/2608.28639v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.28639v1",
+      "code_url": null
+    },
+    "2608.30323": {
+      "id": "2608.30323",
+      "version": "2608.30323v1",
+      "title": "Generative multi-domain transfer learning for fault detection in data-scarce wind turbines",
+      "authors": [
+        "Stefan Jonas",
+        "Angela Meyer"
+      ],
+      "published": "2026-08-31",
+      "updated": "2026-08-31",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Normal behavior models have shown promise for reliable fault detection in wind turbines. However, these unsupervised anomaly detection models require sufficient fault-free training data to learn the normal operation behavior of turbines. Under data scarcity, for example in newly deployed wind turbines, these models may result in poor fault detection performance. In this work, we propose a multi-domain generative domain mapping approach based on Star Generative Adversarial Networks (StarGAN) to improve fault detection on data-scarce wind turbines. Our model maps SCADA measurements from a data-scarce turbine to resemble those of several data-rich turbines. By preserving the operational state during translation, faults occurring in a data-scarce domain can be mapped and detected by reliable pre-trained normal behavior models of data-rich domains. Highlighting the benefits of an ensemble fusion strategy, we show that under severe data scarcity our method can produce anomaly scores comparable to models trained on large representative datasets. Our approach can consistently outperform models trained on scarce data when less than 2 weeks of training data are available. With just 2 weeks of accumulated training data, we achieve an anomaly score similarity that is, on average, +16% higher than conventional fine-tuning, and +10% higher than single-source domain mapping. As a step towards unsupervised model selection, we propose a proxy metric that detects poor performance at training time, despite an absence of anomalies. Our study presents the potential and challenges of multi-domain mapping for wind turbine fault detection under unrepresentative training data.",
+      "abs_url": "http://arxiv.org/abs/2608.30323v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.30323v1",
+      "code_url": null
+    },
+    "2608.29755": {
+      "id": "2608.29755",
+      "version": "2608.29755v1",
+      "title": "GraM-Diff: A Unified Graph-Mamba Diffusion Framework for EEG-Based Alzheimer's Disease Data Generation and Diagnosis",
+      "authors": [
+        "M. Tanveer",
+        "Ayush Singh Rana",
+        "Sanskriti Jain",
+        "Arnav Kumar",
+        "Aryaman Tiwari",
+        "A. Rahaman",
+        "A. Quadir",
+        "M. Sajid"
+      ],
+      "published": "2026-08-30",
+      "updated": "2026-08-30",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Electroencephalography (EEG) is a promising, non-invasive, and cost-effective modality for Alzheimer's disease (AD) detection, but deep learning methods are limited by small and imbalanced clinical datasets. Generative augmentation offers a solution, yet existing approaches rely on inefficient class-specific models or fail to capture complex spatial and temporal brain dynamics. To address this, we propose GraM-Diff, a unified classifier-guided Graph-Mamba diffusion framework for EEG synthesis. It embeds Graph Convolutional Networks within a diffusion U-Net to model inter-electrode connectivity and Bidirectional Mamba state-space blocks for linear-complexity long-range temporal modeling. Latent-space classifier guidance lets a single model generate both healthy and pathological EEG within a shared representation, avoiding fragmented per-cohort pipelines. Across four EEG-based AD benchmarks, synthetic augmentation improves classification, yields superior Context-FID and correlation scores over strong generative baselines, and enhances robustness in data-scarce settings.",
+      "abs_url": "http://arxiv.org/abs/2608.29755v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.29755v1",
+      "code_url": null
+    },
+    "2608.29324": {
+      "id": "2608.29324",
+      "version": "2608.29324v1",
+      "title": "Padārtha: Ontology-Grounded Fine-Grained NER Benchmark for Classical Sanskrit",
+      "authors": [
+        "Sujoy Sarkar",
+        "Pretam Ray",
+        "Paramhans Shah",
+        "Manoj Balaji Jagadeeshan",
+        "Akash Gairola",
+        "Arjuna S R",
+        "Pawan Goyal"
+      ],
+      "published": "2026-08-29",
+      "updated": "2026-08-29",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Annotation schemas are not neutral. When applied to classical literature, tag sets developed for modern journalistic texts impose source-culture definitions on texts they were never designed to describe. We instead ground a schema in the tradition of the text itself introducing \\textit{Padārtha}, the first ontology-grounded fine-grained Named Entity Recognition (NER) benchmark for Sanskrit, built on the \\textit{Mahābhārata} epic. Our tag set derives from \\textit{Nyāya-Vaiśesika}, a classical Indian ontological system, yielding 18 fine-grained categories organized under 10 ontological nodes and mapped onto five standard coarse tags, ensuring interoperability with existing benchmarks. Expert annotators label over 12.6K entries from a scholarly index of named entities, linked to corresponding mentions in the \\textit{Mahānāma} corpus, producing fine-grained annotations for 108,335 entity mentions across 73,632 verses, along with a 5,000-verse expert-verified test set sampled to stress rare mentions. We present the first systematic benchmarking of generative NER against traditional architectures for Sanskrit, finding that fine-tuned generative models perform comparably to task-specific systems. However, all systems show a sharp decline from coarse to fine granularity and struggle with out-of-entity mentions unseen during training. The limitation is not due to data scarcity alone, as fine-tuned models recall unseen entities far worse than seen ones and tend to default to the majority sense under lexical ambiguity.",
+      "abs_url": "http://arxiv.org/abs/2608.29324v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.29324v1",
       "code_url": null
     }
   }
