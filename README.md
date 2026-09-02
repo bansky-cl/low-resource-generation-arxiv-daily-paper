@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **520**
-- Recent 30 days: **74**
+- Total papers in JSON: **525**
+- Recent 30 days: **79**
 - Older than 30 days: **446**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,11 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-01**|**Automated Event Log Generation from Unstructured Text Using Finetuned LLMs**|cs.AI|[2609.01320v1](http://arxiv.org/abs/2609.01320v1)|null|
+|**2026-09-01**|**Measuring the Behavioral Fidelity of Long-Horizon Human Activity Simulations**|cs.AI|[2609.01257v1](http://arxiv.org/abs/2609.01257v1)|null|
+|**2026-09-01**|**Text-guided flow matching enables sample-efficient crystal structure generation**|cond-mat.mtrl-sci, cs.AI|[2609.01076v1](http://arxiv.org/abs/2609.01076v1)|null|
+|**2026-09-01**|**Inspicio: Open-Vocabulary, LLM-Based Sense Retrieval for Historical Languages**|cs.CL, cs.AI|[2609.00998v1](http://arxiv.org/abs/2609.00998v1)|null|
+|**2026-09-01**|**Automated Tree Knowledge Graph Construction using Ontology Expansion and Retrieval from Vietnamese History Textbooks**|cs.AI|[2609.00763v1](http://arxiv.org/abs/2609.00763v1)|null|
 |**2026-08-31**|**Enhancing Low-Resource Language Reasoning via High-Resource Language Feature Transfer**|cs.CL, cs.AI|[2608.30462v1](http://arxiv.org/abs/2608.30462v1)|null|
 |**2026-08-31**|**Generative multi-domain transfer learning for fault detection in data-scarce wind turbines**|cs.LG|[2608.30323v1](http://arxiv.org/abs/2608.30323v1)|null|
 |**2026-08-30**|**Pak3H: Evaluating the Cost of Cultural Mismatch in LLM Alignment with a Human-Contextualized Urdu Benchmark**|cs.CL, cs.AI|[2608.30065v1](http://arxiv.org/abs/2608.30065v1)|null|
@@ -34,10 +39,10 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-29**|**Toward a Cross-Lingual Romanization Ecosystem for Sinitic Languages: A Paired Mandarin-Cantonese Case Study**|cs.CL|[2608.29170v1](http://arxiv.org/abs/2608.29170v1)|null|
 |**2026-08-28**|**NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry**|cs.CL, cs.AI|[2608.28481v1](http://arxiv.org/abs/2608.28481v1)|null|
 |**2026-08-28**|**CNeo-Bench: Diagnosing Large Language Models on Chinese Neologisms**|cs.CL|[2608.28053v1](http://arxiv.org/abs/2608.28053v1)|null|
-|**2026-08-27**|**pro-team at LLMs4OL 2026 Tasks Flagship and Reuse: Retrieval-Augmented Generation and Vocabulary-Constrained Filtering for Ontology Learning**|cs.AI|[2608.27101v1](http://arxiv.org/abs/2608.27101v1)|null|
+|**2026-08-27**|**pro-team at LLMs4OL 2026 Tasks Flagship and Reuse: Retrieval-Augmented Generation and Vocabulary-Constrained Filtering for Ontology Learning**|cs.AI|[2608.27101v2](http://arxiv.org/abs/2608.27101v2)|null|
 |**2026-08-26**|**Cross-lingual Representation Learning via Centroid Intervention Fusion**|cs.CL|[2608.26357v1](http://arxiv.org/abs/2608.26357v1)|**[code](https://github.com/VRCMF/CIF.git)**|
 |**2026-08-26**|**PhaseShift: Topology-Aware Data Harmonization and Model Consolidation Across Signalized Intersections**|cs.AI, cs.RO|[2608.25275v1](http://arxiv.org/abs/2608.25275v1)|null|
-|**2026-08-25**|**Padamitra: Grounded Glossary Generation for Classical Sanskrit**|cs.CL|[2608.25038v1](http://arxiv.org/abs/2608.25038v1)|null|
+|**2026-08-25**|**Padamitra: Grounded Glossary Generation for Classical Sanskrit**|cs.CL|[2608.25038v2](http://arxiv.org/abs/2608.25038v2)|null|
 |**2026-08-25**|**Do Recipes Have Personas? Characterizing and Generating Creator Style in Attributed Procedural Graphs**|cs.AI|[2608.24369v1](http://arxiv.org/abs/2608.24369v1)|null|
 |**2026-08-25**|**PhysicsBench: A Unified Leaderboard for Generative and Predictive Models in Engineering Design and Simulation**|cs.LG, cs.CE|[2608.24056v1](http://arxiv.org/abs/2608.24056v1)|null|
 |**2026-08-24**|**StrategyBench: Evaluating Explicit Strategy Induction in Large Language Models**|cs.AI|[2608.23475v1](http://arxiv.org/abs/2608.23475v1)|**[code](https://anonymous.4open.science/r/StrategyBench-D53C)**|
@@ -222,13 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-08**|**Targeting World Models to Compromise Robot Learning Pipelines**|cs.RO, cs.AI, cs.CR|[2606.09499v1](http://arxiv.org/abs/2606.09499v1)|null|
 |**2026-06-08**|**NüshuVoice: Reviving the Voice of Endangered Nüshu with Pitch-Aware Text-to-Speech**|cs.CL|[2606.09295v1](http://arxiv.org/abs/2606.09295v1)|**[code](https://anonymous.4open.science/r/Nvshu-TTS-2EB6)**|
 |**2026-06-08**|**LATTEArena: An Evaluation Framework for LLM-powered Tabular Feature Engineering (Extended Version)**|cs.AI|[2606.09004v1](http://arxiv.org/abs/2606.09004v1)|null|
-|**2026-06-07**|**PIPE-Cypher: Automatic Enterprise Benchmark Generation for Text-to-Cypher Systems**|cs.LG, cs.AI, cs.DB, cs.SE|[2606.08481v1](http://arxiv.org/abs/2606.08481v1)|null|
-|**2026-06-06**|**ZAS-SQL: Distilling Rules from Failures for Zero-Shot Text-to-SQL**|cs.CL|[2606.08245v1](http://arxiv.org/abs/2606.08245v1)|null|
-|**2026-06-06**|**De novo molecular generation with optical property preconditioning at the token level**|cs.LG|[2606.08221v1](http://arxiv.org/abs/2606.08221v1)|null|
-|**2026-06-05**|**The ACUTE Protocol: Operationalizing Language Model Activations for Better Calibration, Utility, and Trust**|cs.CL, cs.AI, cs.LG|[2606.07822v2](http://arxiv.org/abs/2606.07822v2)|null|
-|**2026-06-05**|**Automatic Extraction of Structured Information from Brain MRI Reports Using an Open-Weight Large Language Model**|cs.AI|[2606.07721v1](http://arxiv.org/abs/2606.07721v1)|null|
 
-README omitted **320** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **325** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

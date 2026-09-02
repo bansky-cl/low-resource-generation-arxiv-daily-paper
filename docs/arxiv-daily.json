@@ -10942,7 +10942,7 @@
     },
     "2608.25038": {
       "id": "2608.25038",
-      "version": "2608.25038v1",
+      "version": "2608.25038v2",
       "title": "Padamitra: Grounded Glossary Generation for Classical Sanskrit",
       "authors": [
         "Manoj Balaji Jagadeeshan",
@@ -10950,13 +10950,13 @@
         "Pawan Goyal"
       ],
       "published": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-09-01",
       "categories": [
         "cs.CL"
       ],
       "abstract": "We introduce grounded glossary generation, a structured task requiring models to recover semantically meaningful Sanskrit phrases and produce translation-grounded meanings from a sloka-translation pair, formalizing the traditional patha commentary practice as an evaluable NLP objective. We construct a benchmark of 31,316 sloka-translation-glossary triples from the Valmiki Ramayana and Srimad Bhagavatam, paired with two metrics: Jaccard for phrase recovery and Meaning Faithfulness for semantic consistency. Across zero-shot, few-shot, and instruction fine-tuned variants of Gemma-3n-E4B, Gemma-3-12B, Phi-4, and Qwen3.5-9B, instruction fine-tuning substantially outperforms prompting, while explicit segmentation yields gains. Error analysis identifies over-segmentation of sandhi and samasa compounds as the dominant failure mode, pointing to morphological modeling as the key bottleneck for faithful Sanskrit lexical decomposition.",
-      "abs_url": "http://arxiv.org/abs/2608.25038v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.25038v1",
+      "abs_url": "http://arxiv.org/abs/2608.25038v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.25038v2",
       "code_url": null
     },
     "2608.25275": {
@@ -11001,7 +11001,7 @@
     },
     "2608.27101": {
       "id": "2608.27101",
-      "version": "2608.27101v1",
+      "version": "2608.27101v2",
       "title": "pro-team at LLMs4OL 2026 Tasks Flagship and Reuse: Retrieval-Augmented Generation and Vocabulary-Constrained Filtering for Ontology Learning",
       "authors": [
         "Shivam Mishra",
@@ -11011,13 +11011,13 @@
         "Kuldeep Singh"
       ],
       "published": "2026-08-27",
-      "updated": "2026-08-27",
+      "updated": "2026-09-01",
       "categories": [
         "cs.AI"
       ],
       "abstract": "Ontology learning from text remains challenging despite significant progress in Large Language Models (LLMs), which can hallucinate domain terms, produce inconsistent formats, and favor hierarchical over associative relations. In the LLMs4OL 2026 Challenge, we address both the End-to-End Flagship Task (Task A) and Ontology Extension Reuse Task (Task B) using an offline retrieval-augmented few-shot prompting pipeline. Our system employs Qwen2.5-14B-Instruct with all-MiniLM-L6-v2 for demonstration retrieval, selecting the top-5 examples for Task A and top-2 for Task B. A left-truncated context-windowing strategy preserves task instructions within long prompts. For Task B, generated triples undergo deterministic vocabulary-constrained filtering, retaining triples when at least one endpoint belongs to the sample's closed term/type vocabulary and removing duplicates of the initial ontology. The approach achieves Semantic Graph Similarity of 0.8692, Term-Typing F1 of 0.9200, and Taxonomy Discovery F1 of 0.8540 on Task B, while Task A achieves 0.7416 Semantic Graph Similarity. However, no non-taxonomic relations are extracted, highlighting limitations of closed, taxonomy-oriented relation vocabularies.",
-      "abs_url": "http://arxiv.org/abs/2608.27101v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.27101v1",
+      "abs_url": "http://arxiv.org/abs/2608.27101v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.27101v2",
       "code_url": null
     },
     "2608.28481": {
@@ -11291,6 +11291,101 @@
       "abstract": "Annotation schemas are not neutral. When applied to classical literature, tag sets developed for modern journalistic texts impose source-culture definitions on texts they were never designed to describe. We instead ground a schema in the tradition of the text itself introducing \\textit{Padārtha}, the first ontology-grounded fine-grained Named Entity Recognition (NER) benchmark for Sanskrit, built on the \\textit{Mahābhārata} epic. Our tag set derives from \\textit{Nyāya-Vaiśesika}, a classical Indian ontological system, yielding 18 fine-grained categories organized under 10 ontological nodes and mapped onto five standard coarse tags, ensuring interoperability with existing benchmarks. Expert annotators label over 12.6K entries from a scholarly index of named entities, linked to corresponding mentions in the \\textit{Mahānāma} corpus, producing fine-grained annotations for 108,335 entity mentions across 73,632 verses, along with a 5,000-verse expert-verified test set sampled to stress rare mentions. We present the first systematic benchmarking of generative NER against traditional architectures for Sanskrit, finding that fine-tuned generative models perform comparably to task-specific systems. However, all systems show a sharp decline from coarse to fine granularity and struggle with out-of-entity mentions unseen during training. The limitation is not due to data scarcity alone, as fine-tuned models recall unseen entities far worse than seen ones and tend to default to the majority sense under lexical ambiguity.",
       "abs_url": "http://arxiv.org/abs/2608.29324v1",
       "pdf_url": "https://arxiv.org/pdf/2608.29324v1",
+      "code_url": null
+    },
+    "2609.00998": {
+      "id": "2609.00998",
+      "version": "2609.00998v1",
+      "title": "Inspicio: Open-Vocabulary, LLM-Based Sense Retrieval for Historical Languages",
+      "authors": [
+        "Michele Ciletti"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-01",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Word Sense Disambiguation has advanced rapidly for English and a handful of well-resourced modern languages, but it continues to assume the existence of a sense inventory and a word-to-sense mapping in the source language (Navigli, 2026). These assumptions break down for most historical and low-resource languages, whose dedicated WordNets are either incomplete or still under construction. We present Inspicio, an open-vocabulary retrieval pipeline that links tokens in context to synsets of the Open English WordNet (McCrae et al., 2020) without requiring any source-language inventory or mapping. For each occurrence, an instruction-tuned LLM produces two English translations of the surrounding sentence, a small set of candidate dictionary-style definitions, and a few candidate English lemmas. These outputs drive a hybrid retrieval step that combines dense definition-synset similarity, sparse lemma matching, and Maximal Marginal Relevance re-ranking. We evaluate the pipeline across a 6x6 grid of LLMs and sentence-embedding models on a new bilingual set of manually annotated Latin and Ancient Greek perception verbs, on a subset of PREMOVE dataset (Farina, 2025), and on a diachronic sample of Italian. The best configuration reaches 96% Recall@50 on the perception-verb test set, with each component contributing measurable gains, and remains competitive in the out-of-domain and cross-lingual settings.",
+      "abs_url": "http://arxiv.org/abs/2609.00998v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.00998v1",
+      "code_url": null
+    },
+    "2609.00763": {
+      "id": "2609.00763",
+      "version": "2609.00763v1",
+      "title": "Automated Tree Knowledge Graph Construction using Ontology Expansion and Retrieval from Vietnamese History Textbooks",
+      "authors": [
+        "Ket Doan Nguyen",
+        "Minh N. H. Nguyen"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-01",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Hierarchical Knowledge graph (KG)-based retrieval augmented generation (RAG) has emerged as a powerful approach for supporting large language models with structured knowledge. However, there are primary challenges: (i) the lack of methods for automatic KG construction using ontology expansion for low-resource languages such as Vietnamese, (ii) the absence of systematic evaluation for knowledge retrieval strategies leveraging the hierarchical structures. In this paper, we propose an end-to-end pipeline for KG construction and retrieval strategies evaluation. In the KG construction, we employ a three-phase hybrid relation extraction pipeline: intra-batch deduplication via Union-Find, approximate cross-batch search, and LLM extraction with a centroid filter that reduces prompts combined with a five-step dual-LLM validator to prevent bloated ontology. A two-tier architecture consists of unmergeable structural nodes to preserve the document structure and mergeable content nodes. The retrieval evaluation consists of three graph traversal strategies: Top-Down, Horizontal, and Bottom-Up, which are evaluated on a synthetically generated benchmark of 1,210 Vietnamese queries from 109 subgraphs, categorized by five query directions. In this paper, we construct the tree knowledge graph from Vietnamese high school History textbooks (nearly 400 pages) to produce 750 nodes and 4,341 semantic edges with controlled ontology growth from 40 to 41 types. Among experimental graph traversal strategies, the Top-Down strategy with structure surpasses the vector baseline by 4.7 percentage points in NDCG@10. As a result, tree-structural information provides valuable information beyond flat cosine similarity but degrades performance when the query does not require structural context.",
+      "abs_url": "http://arxiv.org/abs/2609.00763v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.00763v1",
+      "code_url": null
+    },
+    "2609.01320": {
+      "id": "2609.01320",
+      "version": "2609.01320v1",
+      "title": "Automated Event Log Generation from Unstructured Text Using Finetuned LLMs",
+      "authors": [
+        "Maximilian Seeth",
+        "Gabriel Marques Tavares",
+        "Daniel Schuster"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-01",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Process mining (PM) provides a powerful framework for discovering and optimizing operational processes from event data. However, the efficacy of PM techniques is strictly predicated on the availability of structured event logs. Thus far, event logs have often been laboriously created by domain and process mining experts. This costly effort causes large portions of organizational knowledge, including incident tickets, manuals, and textual reports, to remain underutilized. We address this bottleneck by investigating the efficacy of Large Language Models (LLMs) as automated data translators. We propose a scalable framework that leverages LLMs as data translators to bridge the gap between unstructured textual resources and structured event data. We finetune LLMs on a newly created text-to-log dataset, demonstrating that the resulting models can extract high-fidelity event logs from unstructured resources. Our results show that this finetuning approach outperforms few-shot or zero-shot prompting by a large amount, highlighting finetuning as a necessary pre-condition for generating reliable event data. We conclude that our method provides a promising pipeline for making previously unused data available to process mining ecosystems, effectively expanding the possibilities of using PM to further investigate organizational workflows.",
+      "abs_url": "http://arxiv.org/abs/2609.01320v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01320v1",
+      "code_url": null
+    },
+    "2609.01257": {
+      "id": "2609.01257",
+      "version": "2609.01257v1",
+      "title": "Measuring the Behavioral Fidelity of Long-Horizon Human Activity Simulations",
+      "authors": [
+        "Yi Fei Cheng",
+        "Fan Yang",
+        "Iremsu Bas",
+        "Koichiro Niinuma",
+        "Narishige Abe",
+        "David Lindlbauer"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-01",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "As LLM-based human simulators are increasingly used for policy, evaluation, and training, they must faithfully reproduce real behavioral patterns. While prior work has examined behavioral fidelity in survey responses and dialogue, longer-horizon real-world activity remains largely unexplored. We introduce a framework for evaluating behavioral fidelity in long-horizon activity simulations across temporal granularities and levels of analysis. As a case study, we collect a 43-hour multi-camera dataset of in-the-wild office activity and compare trace-derived conditioning mechanisms: persona descriptors, few-shot exemplars, and statistical transition and time-of-day priors. We find that behavioral fidelity is not uniform across metrics: statistical priors bring activity and sequence distributions closest to real behavior, yet over-fragment routines and suppress within-person variability. These findings motivate a more holistic evaluation that spans multiple metrics, temporal granularities, and levels of analysis.",
+      "abs_url": "http://arxiv.org/abs/2609.01257v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01257v1",
+      "code_url": null
+    },
+    "2609.01076": {
+      "id": "2609.01076",
+      "version": "2609.01076v1",
+      "title": "Text-guided flow matching enables sample-efficient crystal structure generation",
+      "authors": [
+        "Wentao Li"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-01",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cs.AI"
+      ],
+      "abstract": "Crystal generators can now propose periodic structures, but their control interfaces remain poorly matched to the mixed descriptors used in materials design. Text provides a compact way to combine composition, symmetry, prototype and property cues, yet it has not been clear whether such information can steer flow-based crystal generation. Here we introduce TFMat, a text-conditioned flow-matching framework that uses structured materials language as a semantic prior for a CrystalFlow generator. Across Perov-5, Carbon-24 and MP-20 crystal structure prediction benchmarks, TFMat improves one-candidate match rates over CrystalFlow and reaches a 92.04% MP-20 match rate with 20 candidates; in de novo generation, it improves element-count and density distribution alignment while retaining coarse property consistency in composition-selected outputs. These results position structured text as an inspectable control layer for translating human-readable materials intent into candidate crystals for downstream simulation and validation.",
+      "abs_url": "http://arxiv.org/abs/2609.01076v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.01076v1",
       "code_url": null
     }
   }
