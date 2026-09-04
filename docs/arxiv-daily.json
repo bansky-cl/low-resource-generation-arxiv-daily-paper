@@ -11449,6 +11449,72 @@
       "abs_url": "http://arxiv.org/abs/2609.02209v1",
       "pdf_url": "https://arxiv.org/pdf/2609.02209v1",
       "code_url": null
+    },
+    "2609.04048": {
+      "id": "2609.04048",
+      "version": "2609.04048v1",
+      "title": "Translation as a Decision Space: A Multi-Agent Perspective on Low-Resource Dialect Generation",
+      "authors": [
+        "Hasan Alkhder",
+        "Mohammad Abboush",
+        "Igor Tchappi",
+        "Ahmet Zengin",
+        "Amro Najjar"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Neural machine translation (NMT) systems typically produce a single output per input, obscuring the alternative decision trajectories implicitly available within multilingual decoding. This opacity becomes particularly problematic in low-resource dialect settings, where multiple linguistically valid realizations may differ in lexical authenticity, register, and structural stability. We propose reframing translation as a structured decision space explored by autonomous translation agents. Instead of analyzing a single output, we model distinct translation pathways as agents operating over a shared multilingual backbone. Inter-agent divergence is treated not as error but as an interpretable behavioral signal. We conduct an empirical study on Turkish--Syrian Arabic translation using three agents: (1) zero-shot direct translation, (2) dialect-stabilized translation via lightweight fine-tuning, and (3) pivot translation through English. Evaluation is performed on 5,000 dialogue sentences, while stabilization is trained on 5,000 additional Turkish--Syrian sentence pairs drawn from television dialogue and MADAR-Turk resources. Rather than optimizing for conventional performance metrics, we quantify structured behavioral displacement using dialect marker frequency, lexical proximity to standardized Arabic, and structural variance. Lightweight stabilization nearly doubles dialect marker usage, increasing it from 0.2266 to 0.4988, while significantly reducing structural instability. Pivot mediation introduces normalization pressure and measurable compression effects, whereas zero-shot translation exhibits the highest decision variance. We argue that translation divergence across agents reveals latent decision flexibility within multilingual models and we provide a principled interpretability framework for low-resource dialect generation.",
+      "abs_url": "http://arxiv.org/abs/2609.04048v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04048v1",
+      "code_url": null
+    },
+    "2609.03734": {
+      "id": "2609.03734",
+      "version": "2609.03734v1",
+      "title": "Beyond BLEU: A Case for Redefining Sign Language Translation Benchmarks",
+      "authors": [
+        "Oline Ranum",
+        "Edward Fish",
+        "Simon Hadfield",
+        "Richard Bowden"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "BLEU-4 is the standard metric for evaluating sign language translation (SLT), but spoken-language metrics may not adequately reflect sign language proficiency. The multimodal, low-resource context of SLT allows models to exploit spurious correlations and spoken-language priors, rather than learning stronger sign representations. In this paper, we evaluate the relationship between spatio-temporal understanding and BLEU-4 across six SLT models on Phoenix-2014T and CSL-Daily, showing that gains in BLEU-4 are not on their own evidence of better sign language understanding. This work introduces an alternative inspired by language-learning assessment, using an open-weight-LLM QA protocol that measures salient content preservation. It aligns more closely with human rankings and is six to seven times more paraphrase-invariant than BLEU-4. Applied to SLT, this protocol targets content transfer, is more robust to train-test overlap, and gives a different picture of the field: the five gloss-free systems are largely within noise of one another on Phoenix-2014T, while the gloss-supervised system stands 9.3 points higher, a gap invisible to BLEU-4.",
+      "abs_url": "http://arxiv.org/abs/2609.03734v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.03734v1",
+      "code_url": null
+    },
+    "2609.03502": {
+      "id": "2609.03502",
+      "version": "2609.03502v1",
+      "title": "Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech",
+      "authors": [
+        "Kunat Pipatanakul",
+        "Potsawee Manakul",
+        "Warit Sirichotedumrong",
+        "Sittipong Sripaisarnmongkol",
+        "Pakorn Nathong",
+        "Phatrasek Jirabovonvisut"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inference or a compact fixed-voice system that requires a speaker-specific corpus. We study a third route: using a large voice-cloning model as a programmable data source to turn a short voice reference (e.g., 15 seconds) into a compact fixed-voice student trained entirely on synthetic speech. This setting makes pipeline design consequential: teacher errors become training targets, while filtering failed generations can reduce coverage of difficult texts. Thai further introduces challenges from ambiguous word boundaries, lexical tone, names and loanwords, numeric verbalization, and Thai-English code-switching. We study how text preparation, synthetic generation, quality filtering, rejection sampling, and frontend choices affect the resulting student, and where teacher limitations remain. We evaluate CER, Challenge-Set Keyword Accuracy, Prosody Pause Accuracy, speaker similarity, and speaking rate. The resulting 82M-parameter model, Wayu-Paxa-TTS-Edge, enables on-device Thai TTS without reference audio. It achieves 68.2% Challenge-Set Keyword Accuracy (85.5% of Gemini 3.1) and 91.4% pause precision, outperforming its OmniVoice teacher (89.9%) and reaching 94.8% of Gemini 3.1. It also achieves the lowest pause-placement error and intra-word pause rates among the three systems, and 3.7% and 1.1% CER on Thai and English, respectively. We open-source the model and evaluation framework for Thai TTS development.",
+      "abs_url": "http://arxiv.org/abs/2609.03502v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.03502v1",
+      "code_url": null
     }
   }
 }

@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **528**
-- Recent 30 days: **72**
+- Total papers in JSON: **531**
+- Recent 30 days: **75**
 - Older than 30 days: **456**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-03**|**Translation as a Decision Space: A Multi-Agent Perspective on Low-Resource Dialect Generation**|cs.CL, cs.AI|[2609.04048v1](http://arxiv.org/abs/2609.04048v1)|null|
+|**2026-09-03**|**Beyond BLEU: A Case for Redefining Sign Language Translation Benchmarks**|cs.CL, cs.AI|[2609.03734v1](http://arxiv.org/abs/2609.03734v1)|null|
+|**2026-09-03**|**Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech**|cs.CL, cs.AI|[2609.03502v1](http://arxiv.org/abs/2609.03502v1)|null|
 |**2026-09-02**|**Improving Health Literacy through Lay Summarization of Radiological Reports: An Evaluation of BioNER and Retrieval-Augmented Generation**|cs.CL|[2609.02396v1](http://arxiv.org/abs/2609.02396v1)|null|
 |**2026-09-02**|**PolERo: Studying Political Evasion in Romanian**|cs.CL, cs.AI|[2609.02391v1](http://arxiv.org/abs/2609.02391v1)|null|
 |**2026-09-02**|**Prototype-guided transfer of sparse literature knowledge for electrolyte additive discovery**|physics.chem-ph, cs.LG|[2609.02209v1](http://arxiv.org/abs/2609.02209v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-09**|**Schützen: Evaluating LLM Safety in Bulgarian and German Contexts**|cs.CL|[2606.11316v1](http://arxiv.org/abs/2606.11316v1)|**[code](https://github.com/xnlp-lab/Schutzen)**|
 |**2026-06-09**|**Small Data, Big Noise: Adversarial Training for Robust Parameter-Efficient Fine-Tuning**|cs.CL|[2606.10610v1](http://arxiv.org/abs/2606.10610v1)|null|
 |**2026-06-08**|**Data Synthesis and Parameter-Efficient Fine-Tuning for Low-Resource NMT: A Case Study on Q'eqchi' Mayan**|cs.CL, cs.AI, cs.LG|[2606.09767v1](http://arxiv.org/abs/2606.09767v1)|null|
-|**2026-06-08**|**Transition-Based Digital Twin Modelling for Alzheimer's Disease under Sparse Longitudinal Data**|cs.LG, cs.AI|[2606.09671v1](http://arxiv.org/abs/2606.09671v1)|null|
-|**2026-06-08**|**Automated IEP Generation from Traditional Chinese Parent-Teacher Interviews via Corpus-Grounded Feature Diffusion**|cs.CL|[2606.09603v1](http://arxiv.org/abs/2606.09603v1)|null|
-|**2026-06-08**|**OpenBibleTTS: Large-Scale Speech Resources and TTS Models for Low-Resource Languages**|cs.CL, cs.SD|[2606.09553v1](http://arxiv.org/abs/2606.09553v1)|null|
 
-README omitted **328** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **331** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
