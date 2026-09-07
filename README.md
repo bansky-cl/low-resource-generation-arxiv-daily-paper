@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.09.07
+## Updated on 2026.09.08
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **536**
-- Recent 30 days: **70**
-- Older than 30 days: **466**
+- Recent 30 days: **68**
+- Older than 30 days: **468**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -90,13 +90,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-11**|**A Cost-Efficient Routing Pipeline for Multilingual Short-Text Classification Using Small Language Models**|cs.CL, cs.AI|[2608.10939v1](http://arxiv.org/abs/2608.10939v1)|null|
 |**2026-08-09**|**Integrated Multimodal AI System for Retrieval-Augmented Reasoning, Object Sensing, and Damage Analysis**|cs.AI|[2608.08935v1](http://arxiv.org/abs/2608.08935v1)|null|
 |**2026-08-09**|**Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies**|cs.RO, cs.LG|[2608.08545v1](http://arxiv.org/abs/2608.08545v1)|null|
-|**2026-08-08**|**A Hierarchical Energy-Based Model for Multimodal Cognition**|q-bio.NC, cs.AI|[2608.12398v1](http://arxiv.org/abs/2608.12398v1)|null|
-|**2026-08-08**|**DialectS2S: End-to-End Speech Dialogue Modeling for Low-Resource Chinese Dialects**|cs.CL, cs.AI|[2608.08067v2](http://arxiv.org/abs/2608.08067v2)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-08**|**A Hierarchical Energy-Based Model for Multimodal Cognition**|q-bio.NC, cs.AI|[2608.12398v1](http://arxiv.org/abs/2608.12398v1)|null|
+|**2026-08-08**|**DialectS2S: End-to-End Speech Dialogue Modeling for Low-Resource Chinese Dialects**|cs.CL, cs.AI|[2608.08067v2](http://arxiv.org/abs/2608.08067v2)|null|
 |**2026-08-07**|**Embedding Initialization for Unseen Low-resource Languages in Multilingual NMT: A Case Study on Limbum-English Translation**|cs.CL, cs.LG|[2608.07629v1](http://arxiv.org/abs/2608.07629v1)|null|
 |**2026-08-07**|**Skaling: Chinchilla's Exponents Meet Kaplan's Coupling**|cs.CL|[2608.07222v1](http://arxiv.org/abs/2608.07222v1)|null|
 |**2026-08-07**|**Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models**|cs.RO, cs.AI|[2608.06994v1](http://arxiv.org/abs/2608.06994v1)|null|
