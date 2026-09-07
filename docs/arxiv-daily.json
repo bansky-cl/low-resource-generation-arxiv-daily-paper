@@ -10814,7 +10814,7 @@
     },
     "2608.23473": {
       "id": "2608.23473",
-      "version": "2608.23473v1",
+      "version": "2608.23473v2",
       "title": "MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learning of Lightweight Time Series Forecasters",
       "authors": [
         "ChengAo Shen",
@@ -10828,14 +10828,14 @@
         "Jingchao Ni"
       ],
       "published": "2026-08-24",
-      "updated": "2026-08-24",
+      "updated": "2026-09-03",
       "categories": [
         "cs.LG",
         "cs.AI"
       ],
       "abstract": "Time series forecasting (TSF) is evolving toward multimodal and agentic settings, yet using foundation models remains uneconomical in resource-constrained scenarios, where compact, specialized forecasters are more desirable. However, lightweight forecasters typically require substantial training data, limiting their use in domains with scarce, slowly accumulated, or privacy-sensitive time series. To address this dilemma, we investigate the challenging problem of few-shot learning for lightweight forecasters. We propose MetaCaster, a meta-harness-optimized multi-agent framework that uses agentic data generation to automatically train specialized lightweight forecasters from only a few examples and textual contexts. Our work highlights a new TSF paradigm in which agents act not as forecasters but as intermediary engineers that prepare efficient, task-specific forecasters for deployment. Experiments on 18 datasets, 23 state-of-the-art lightweight forecasters, and 14 baselines demonstrate that MetaCaster achieves both data efficiency and computational efficiency while maintaining high-quality TSF performance.",
-      "abs_url": "http://arxiv.org/abs/2608.23473v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.23473v1",
+      "abs_url": "http://arxiv.org/abs/2608.23473v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.23473v2",
       "code_url": null
     },
     "2608.21858": {
@@ -11514,6 +11514,105 @@
       "abstract": "In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inference or a compact fixed-voice system that requires a speaker-specific corpus. We study a third route: using a large voice-cloning model as a programmable data source to turn a short voice reference (e.g., 15 seconds) into a compact fixed-voice student trained entirely on synthetic speech. This setting makes pipeline design consequential: teacher errors become training targets, while filtering failed generations can reduce coverage of difficult texts. Thai further introduces challenges from ambiguous word boundaries, lexical tone, names and loanwords, numeric verbalization, and Thai-English code-switching. We study how text preparation, synthetic generation, quality filtering, rejection sampling, and frontend choices affect the resulting student, and where teacher limitations remain. We evaluate CER, Challenge-Set Keyword Accuracy, Prosody Pause Accuracy, speaker similarity, and speaking rate. The resulting 82M-parameter model, Wayu-Paxa-TTS-Edge, enables on-device Thai TTS without reference audio. It achieves 68.2% Challenge-Set Keyword Accuracy (85.5% of Gemini 3.1) and 91.4% pause precision, outperforming its OmniVoice teacher (89.9%) and reaching 94.8% of Gemini 3.1. It also achieves the lowest pause-placement error and intra-word pause rates among the three systems, and 3.7% and 1.1% CER on Thai and English, respectively. We open-source the model and evaluation framework for Thai TTS development.",
       "abs_url": "http://arxiv.org/abs/2609.03502v1",
       "pdf_url": "https://arxiv.org/pdf/2609.03502v1",
+      "code_url": null
+    },
+    "2609.04653": {
+      "id": "2609.04653",
+      "version": "2609.04653v1",
+      "title": "Choosing the Right Language Mode at Inference Time for Multilingual Reliability",
+      "authors": [
+        "Ekata Mitra",
+        "Ameeta Agrawal"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Multilingual large language models often struggle to reason in low- to mid-resource languages. Prior work has shown that translation can improve multilingual reasoning by helping models access stronger English-centric representations. This raises a central question: How much translation is needed for multilingual large language models to reason reliably, and when does more translation instead trigger interference and overconfidence? Using LLaMA and Qwen models, we run extensive experiments varying text scope and language mode (target-only, English-only, bilingual) to evaluate both accuracy and reliability. Our results reveal a clear trade-off: English context often improve understanding and recover errors caused by non-English comprehension, yet adding redundant bilingual context intensifies interference. We address this trade-off with Reliability-Aware Adaptive Inference (RAAI), a training-free test-time framework that (i) performs Expected Calibration Error (ECE)-aware routing and prompt fusion, and (ii) uses a mid-layer Risk Index (RI) to gate sequential reasoning, allocating compute only when it is likely to help and suppressing harmful bilingual redundancy. Across two model families, RAAI enhances accuracy by 25-37.7% on low-resource languages and lowers calibration error by approximately 3-6%, with the most pronounced benefits in the lowest-resource language tiers.",
+      "abs_url": "http://arxiv.org/abs/2609.04653v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04653v1",
+      "code_url": null
+    },
+    "2609.05363": {
+      "id": "2609.05363",
+      "version": "2609.05363v1",
+      "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
+      "authors": [
+        "Siliang Liu",
+        "Mohammad Ghasemi",
+        "Sapan Patel",
+        "Amin Banitalebi-Dehkordi"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Trade-up recommendation identifies higher-quality alternatives that preserve a customer's purchase intent while offering upgraded benefits. Large language models (LLMs) can reason about such distinctions, but applying them directly to hundreds of millions of product pairs is operationally impractical. We introduce a two-level framework that distills LLM reasoning into an efficient non-generative student and adapts its decision boundary to product-type-specific trade-up criteria. At Level 1, a retrieval-augmented few-shot LLM teacher generates structured relation labels and natural-language rationales. These rationales supervise a compact embedding-pair classifier through alignment and contrastive objectives; at inference, the student uses only two precomputed 768-dimensional product embeddings, with no LLM calls or text generation. On a fixed human-annotated benchmark of 8,352 pairs, a 15.5M-parameter four-class reasoning-distilled student achieves AUC 0.924 (95% CI [0.918, 0.929]), compared with 0.912 for the four-class label-only student. At Level 2, product-type test-time training (PT-TTT) uses few-shot demonstrations to optimize lightweight category-specific adapters over the frozen student. PT-TTT improves AUC from 0.924 to 0.941 and average precision from 0.920 to 0.940. On a 100K-pair proxy catalog, the distilled student on a single eight-GPU machine is approximately 5,000x faster and 10,000x lower in estimated cost than direct LLM inference.",
+      "abs_url": "http://arxiv.org/abs/2609.05363v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.05363v1",
+      "code_url": null
+    },
+    "2609.04582": {
+      "id": "2609.04582",
+      "version": "2609.04582v1",
+      "title": "When Do Internal Probes Beat Reading the Answer? Miscalibrated Readouts and Behavior-Concealed Knowledge in Language Models",
+      "authors": [
+        "Gnaneswar Villuri",
+        "Hashmath Shaik",
+        "Alex Doboli"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "A 0.6B language model, asked to verify 1,200 logical conclusions (half valid, half corrupted by a single semantic edit), answers YES every time. Judged by behavior it discriminates nothing; linear probes on its hidden states read the correct verdict at 0.96 AUC, transferring to unseen logical structures and separating foils built from exactly the words of the true conclusion (0.90). We ask where the verdict is lost, and find the dominant failure is a single scalar. The verdict survives to the model's own output logits (margin AUC 0.89) along a well-aligned readout direction; a saturated decision threshold, offset by +4.6 sigma, erases it. The diagnosis generalizes: across 90 semantic-label configurations of a five-model, three-family factorial, behavioral accuracy collapses onto a single function of threshold offset (Spearman -0.93) while margin ranking moves far less. Across a 13x scale range, internal knowledge saturates while free-form behavior is non-monotone: an 8B model underperforms its 4B sibling through an answer-channel failure rather than the threshold; forced-choice accuracy is monotone. The diagnosis is actionable: a one-parameter correction, never fit on evaluated structures, repairs behavior from 50% to 81% (0.6B); calibrated margin decoding recovers 94% at 8B; few-shot prompting works the same way, recentering the threshold (+4.6 sigma to 0.0 sigma) while preserving ranking. Comparing probe to margin separates three regimes: concealed, miscalibrated, and undetected. On a maze task built so foils carry no surface cues, the audit correctly reports the third. In the standard generation setting, answer-surface features and heuristic labels reproduce published probing results without any internal access.",
+      "abs_url": "http://arxiv.org/abs/2609.04582v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04582v1",
+      "code_url": null
+    },
+    "2609.04570": {
+      "id": "2609.04570",
+      "version": "2609.04570v1",
+      "title": "Dynamic Adaptation of the LLM Context for Generating Routines with Coupled Semantics",
+      "authors": [
+        "Gnaneswar Villuri",
+        "Hashmath Shaik",
+        "Alex Doboli"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "abstract": "LLM-based code generation fails when correctness depends on execution-dependent coupling: the meaning of one routine is defined by the runtime behavior of another, a relationship that cannot be resolved from textual descriptions alone. This limitation, which we call static binding, is not confined to explicitly coupled problems; it appears to varying degrees whenever correctness depends on joint execution behavior across components, from explicit cross-coupled optimizers to subtler joint constraints in packing, routing, and symbolic search. This paper proposes dynamic context adaptation, a sample-efficient validation-generation loop designed for this setting. A validation agent extracts structured diagnostic information from execution traces, providing gradient-like guidance to a generation agent that proposes multiple candidates per iteration. A knowledge graph derived from the problem description supplies semantic constraints to the generation agent. Simulated annealing selects among candidates to avoid greedy collapse. Our method outperforms zero-shot, Reflexion, and OpenEvolve on seven of eight problems at both 300 and 600 evaluations (p < 0.01), a regime where population-based search has not yet accumulated sufficient diversity to compete. Notably, on the primary motivating problem (cross-coupled optimization), our method also achieves the best score at 1000 evaluations, consistent with the hypothesis that structured execution feedback is most beneficial when correctness depends on runtime coupling. Ablation results confirm that structured execution feedback is the primary driver.",
+      "abs_url": "http://arxiv.org/abs/2609.04570v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04570v1",
+      "code_url": null
+    },
+    "2609.04804": {
+      "id": "2609.04804",
+      "version": "2609.04804v1",
+      "title": "MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis",
+      "authors": [
+        "Yanhao Huang",
+        "Shibo Feng",
+        "Wanjin Feng",
+        "Peilin Zhao",
+        "Chunyan Miao"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Synthetic medical time-series generation can alleviate data scarcity and support the development of reliable clinical prediction models. However, existing methods mainly focus on matching the overall distribution and temporal dynamics of real data, which does not necessarily ensure strong downstream utility on imbalanced medical datasets. Clinically informative patterns often occur at heterogeneous temporal scales, while rare minority-class characteristics can be obscured by dominant population patterns. To address these challenges, we propose MedFlow, a class-aware multi-scale flow matching framework for medical time-series synthesis. MedFlow employs a vector-quantized multi-scale tokenizer to represent medical sequences at complementary temporal resolutions, capturing both coarse clinical trends and fine-grained dynamics. We further introduce Token Marginal Guidance, which incorporates class-conditional token statistics directly into the flow matching process to steer generation toward class-specific regions of the learned tokens. This mechanism strengthens minority-class patterns, while preserving the global and tail distributions of real data. Experiments on four public datasets covering electronic health records, EEG, and ECG signals demonstrate that MedFlow consistently outperforms recent state-of-the-art diffusion-based baselines across downstream prediction tasks. On average, it improves AUPRC by 5.8%, reduces Context-FID by 88.6%, and achieves 3.8$\\times$ higher sampling throughput.",
+      "abs_url": "http://arxiv.org/abs/2609.04804v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.04804v1",
       "code_url": null
     }
   }

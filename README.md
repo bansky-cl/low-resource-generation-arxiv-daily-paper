@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **531**
-- Recent 30 days: **65**
+- Total papers in JSON: **536**
+- Recent 30 days: **70**
 - Older than 30 days: **466**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,11 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-04**|**Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation**|cs.LG|[2609.05363v1](http://arxiv.org/abs/2609.05363v1)|null|
+|**2026-09-04**|**MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis**|cs.AI|[2609.04804v1](http://arxiv.org/abs/2609.04804v1)|null|
+|**2026-09-04**|**Choosing the Right Language Mode at Inference Time for Multilingual Reliability**|cs.CL|[2609.04653v1](http://arxiv.org/abs/2609.04653v1)|null|
+|**2026-09-04**|**When Do Internal Probes Beat Reading the Answer? Miscalibrated Readouts and Behavior-Concealed Knowledge in Language Models**|cs.CL, cs.AI|[2609.04582v1](http://arxiv.org/abs/2609.04582v1)|null|
+|**2026-09-03**|**Dynamic Adaptation of the LLM Context for Generating Routines with Coupled Semantics**|cs.SE, cs.AI|[2609.04570v1](http://arxiv.org/abs/2609.04570v1)|null|
 |**2026-09-03**|**Translation as a Decision Space: A Multi-Agent Perspective on Low-Resource Dialect Generation**|cs.CL, cs.AI|[2609.04048v1](http://arxiv.org/abs/2609.04048v1)|null|
 |**2026-09-03**|**Beyond BLEU: A Case for Redefining Sign Language Translation Benchmarks**|cs.CL, cs.AI|[2609.03734v1](http://arxiv.org/abs/2609.03734v1)|null|
 |**2026-09-03**|**Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech**|cs.CL, cs.AI|[2609.03502v1](http://arxiv.org/abs/2609.03502v1)|null|
@@ -52,7 +57,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-25**|**Do Recipes Have Personas? Characterizing and Generating Creator Style in Attributed Procedural Graphs**|cs.AI|[2608.24369v1](http://arxiv.org/abs/2608.24369v1)|null|
 |**2026-08-25**|**PhysicsBench: A Unified Leaderboard for Generative and Predictive Models in Engineering Design and Simulation**|cs.LG, cs.CE|[2608.24056v1](http://arxiv.org/abs/2608.24056v1)|null|
 |**2026-08-24**|**StrategyBench: Evaluating Explicit Strategy Induction in Large Language Models**|cs.AI|[2608.23475v1](http://arxiv.org/abs/2608.23475v1)|**[code](https://anonymous.4open.science/r/StrategyBench-D53C)**|
-|**2026-08-24**|**MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learning of Lightweight Time Series Forecasters**|cs.LG, cs.AI|[2608.23473v1](http://arxiv.org/abs/2608.23473v1)|null|
+|**2026-08-24**|**MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learning of Lightweight Time Series Forecasters**|cs.LG, cs.AI|[2608.23473v2](http://arxiv.org/abs/2608.23473v2)|null|
 |**2026-08-24**|**The Geometry of Low-Resource Language Representations**|cs.CL|[2608.23358v1](http://arxiv.org/abs/2608.23358v1)|null|
 |**2026-08-24**|**From Multimodal Observation to Interpretable Suggestions: Counterfactual Time-Expanded Relational Modeling of Surgical Teams**|cs.LG|[2608.23254v1](http://arxiv.org/abs/2608.23254v1)|null|
 |**2026-08-24**|**Statistical Machine Translation Systems of English-Pnar Language Pair : Some Insights of the Emperical Study**|cs.CL, cs.AI|[2608.23120v1](http://arxiv.org/abs/2608.23120v1)|null|
@@ -222,13 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-12**|**Combining Retrieval-Augmented Text Generation with LLMs for Reading Content Recommendations**|cs.IR, cs.AI|[2606.14817v1](http://arxiv.org/abs/2606.14817v1)|null|
 |**2026-06-11**|**SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation**|cs.CL, cs.AI, cs.LG|[2606.13647v1](http://arxiv.org/abs/2606.13647v1)|null|
 |**2026-06-11**|**Pipette: An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics**|cs.RO, cs.AI|[2606.12936v2](http://arxiv.org/abs/2606.12936v2)|null|
-|**2026-06-10**|**Surveying GenAI-based Automation in Printed Circuit Board Design and Test**|cs.AR, cs.AI|[2606.17074v1](http://arxiv.org/abs/2606.17074v1)|null|
-|**2026-06-10**|**Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay**|cs.CL|[2606.11786v1](http://arxiv.org/abs/2606.11786v1)|null|
-|**2026-06-09**|**Schützen: Evaluating LLM Safety in Bulgarian and German Contexts**|cs.CL|[2606.11316v1](http://arxiv.org/abs/2606.11316v1)|**[code](https://github.com/xnlp-lab/Schutzen)**|
-|**2026-06-09**|**Small Data, Big Noise: Adversarial Training for Robust Parameter-Efficient Fine-Tuning**|cs.CL|[2606.10610v1](http://arxiv.org/abs/2606.10610v1)|null|
-|**2026-06-08**|**Data Synthesis and Parameter-Efficient Fine-Tuning for Low-Resource NMT: A Case Study on Q'eqchi' Mayan**|cs.CL, cs.AI, cs.LG|[2606.09767v1](http://arxiv.org/abs/2606.09767v1)|null|
 
-README omitted **331** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **336** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
