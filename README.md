@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **536**
-- Recent 30 days: **66**
+- Total papers in JSON: **543**
+- Recent 30 days: **73**
 - Older than 30 days: **470**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,13 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-08**|**RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation**|cs.RO, cs.AI|[2609.08339v1](http://arxiv.org/abs/2609.08339v1)|null|
+|**2026-09-08**|**LEBGen: An LLM-Enhanced Bayesian Network Framework for Few-Shot Travel Survey Data Generation**|cs.AI|[2609.08288v1](http://arxiv.org/abs/2609.08288v1)|null|
+|**2026-09-07**|**BanglaMemeX: Advancing Cultural Metaphoric Image Interpretation in Bangla with a Multimodal Explainable Dataset**|cs.CL, cs.CV|[2609.08029v1](http://arxiv.org/abs/2609.08029v1)|null|
+|**2026-09-07**|**Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy**|cs.RO, cs.AI|[2609.07470v1](http://arxiv.org/abs/2609.07470v1)|null|
+|**2026-09-07**|**AAS-RAIL: Improving Information Extraction for Asset Administration Shells through Retrieval-Augmented In-Context Learning**|cs.AI|[2609.07334v1](http://arxiv.org/abs/2609.07334v1)|null|
+|**2026-09-07**|**AI and TCAD for Inverse Design and Defect Discovery: From Simple Machine Learning to LLM**|cs.LG|[2609.07046v1](http://arxiv.org/abs/2609.07046v1)|null|
+|**2026-09-05**|**SLATE: Are AI-Generated Slides Educationally Effective? A Benchmark for Language Teaching Quality and Learner Knowledge Acquisition**|cs.CL|[2609.06212v1](http://arxiv.org/abs/2609.06212v1)|null|
 |**2026-09-04**|**Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation**|cs.LG|[2609.05363v1](http://arxiv.org/abs/2609.05363v1)|null|
 |**2026-09-04**|**MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis**|cs.AI|[2609.04804v1](http://arxiv.org/abs/2609.04804v1)|null|
 |**2026-09-04**|**Choosing the Right Language Mode at Inference Time for Multilingual Reliability**|cs.CL|[2609.04653v1](http://arxiv.org/abs/2609.04653v1)|null|
@@ -35,7 +42,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-02**|**Prototype-guided transfer of sparse literature knowledge for electrolyte additive discovery**|physics.chem-ph, cs.LG|[2609.02209v1](http://arxiv.org/abs/2609.02209v1)|null|
 |**2026-09-01**|**Automated Event Log Generation from Unstructured Text Using Finetuned LLMs**|cs.AI|[2609.01320v1](http://arxiv.org/abs/2609.01320v1)|null|
 |**2026-09-01**|**Measuring the Behavioral Fidelity of Long-Horizon Human Activity Simulations**|cs.AI|[2609.01257v1](http://arxiv.org/abs/2609.01257v1)|null|
-|**2026-09-01**|**Text-guided flow matching enables sample-efficient crystal structure generation**|cond-mat.mtrl-sci, cs.AI|[2609.01076v1](http://arxiv.org/abs/2609.01076v1)|null|
+|**2026-09-01**|**Text-guided flow matching enables sample-efficient crystal structure generation**|cond-mat.mtrl-sci, cs.AI|[2609.01076v2](http://arxiv.org/abs/2609.01076v2)|null|
 |**2026-09-01**|**Inspicio: Open-Vocabulary, LLM-Based Sense Retrieval for Historical Languages**|cs.CL, cs.AI|[2609.00998v1](http://arxiv.org/abs/2609.00998v1)|null|
 |**2026-09-01**|**Automated Tree Knowledge Graph Construction using Ontology Expansion and Retrieval from Vietnamese History Textbooks**|cs.AI|[2609.00763v1](http://arxiv.org/abs/2609.00763v1)|null|
 |**2026-08-31**|**Enhancing Low-Resource Language Reasoning via High-Resource Language Feature Transfer**|cs.CL, cs.AI|[2608.30462v1](http://arxiv.org/abs/2608.30462v1)|null|
@@ -123,7 +130,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-31**|**Bridging the English-Arabic Medical Knowledge Gap: Targeted Low-Rank Adaptation via Causal Layer Selection**|cs.CL|[2608.00207v1](http://arxiv.org/abs/2608.00207v1)|null|
 |**2026-07-31**|**Cross-Lingual Transfer for Machine Translation in Turkic Languages**|cs.CL, cs.AI|[2607.29355v1](http://arxiv.org/abs/2607.29355v1)|null|
 |**2026-07-30**|**Using Large Language Models for Idea Generation in Innovation**|cs.AI, cs.CL, econ.GN|[2607.27553v1](http://arxiv.org/abs/2607.27553v1)|null|
-|**2026-07-29**|**Equilibrium Training of Energy-Based Models with Parallel Trajectory Tempering**|cs.LG, cond-mat.dis-nn, cond-mat.stat-mech|[2607.27077v1](http://arxiv.org/abs/2607.27077v1)|null|
+|**2026-07-29**|**Equilibrium Training of Energy-Based Models with Parallel Trajectory Tempering**|cs.LG, cond-mat.dis-nn, cond-mat.stat-mech|[2607.27077v2](http://arxiv.org/abs/2607.27077v2)|null|
 |**2026-07-29**|**From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence**|cs.AI, cs.RO|[2607.26903v1](http://arxiv.org/abs/2607.26903v1)|null|
 |**2026-07-28**|**Evaluating Prompt Scope and Demonstration Similarity in Local LLM Machine Translation**|cs.CL|[2607.26286v1](http://arxiv.org/abs/2607.26286v1)|null|
 |**2026-07-28**|**A Control System, a Dataset, and a Recipe for Making Frozen LLM Agents Learn a Domain**|cs.AI|[2607.25415v1](http://arxiv.org/abs/2607.25415v1)|null|
@@ -220,15 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-15**|**MindAlign: Decoding Inner Speech from fMRI Signals via Multimodal Embedding Alignment under Limited Data**|cs.CL, cs.AI, eess.AS|[2606.20696v1](http://arxiv.org/abs/2606.20696v1)|null|
 |**2026-06-15**|**Diffusion Offline Reinforcement Learning for Fair and Energy-Efficient UAV-Assisted Wireless Networks**|cs.LG|[2606.16331v1](http://arxiv.org/abs/2606.16331v1)|null|
 |**2026-06-14**|**CIWI-CKT: Chaos-Informed Wave Interference Feature Fusion and Cross-City Knowledge Transfer for Traffic Flow Forecasting**|cs.LG, cs.AI|[2606.15642v1](http://arxiv.org/abs/2606.15642v1)|null|
-|**2026-06-14**|**HAPI-EP: Towards Hybrid, Adaptive, and Predictive Digital Twins of Cardiac Electrophysiology**|cs.LG|[2606.15637v1](http://arxiv.org/abs/2606.15637v1)|null|
-|**2026-06-13**|**PHINN: Persistent Homology Inspired Neural Network for Rare-Event Time Series Generation**|cs.LG, math.AT, q-fin.RM, stat.ML|[2606.15452v1](http://arxiv.org/abs/2606.15452v1)|null|
-|**2026-06-13**|**Few-Shot Biomedical Relation Extraction with Large Language Models: A Viable Alternative to Supervised Learning?**|cs.CL, cs.AI|[2606.15412v1](http://arxiv.org/abs/2606.15412v1)|null|
-|**2026-06-13**|**Towards a Unified Generative Model for Scarce Time Series with Domain Experts**|cs.LG|[2606.15172v1](http://arxiv.org/abs/2606.15172v1)|null|
-|**2026-06-12**|**Combining Retrieval-Augmented Text Generation with LLMs for Reading Content Recommendations**|cs.IR, cs.AI|[2606.14817v1](http://arxiv.org/abs/2606.14817v1)|null|
-|**2026-06-11**|**SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation**|cs.CL, cs.AI, cs.LG|[2606.13647v1](http://arxiv.org/abs/2606.13647v1)|null|
-|**2026-06-11**|**Pipette: An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics**|cs.RO, cs.AI|[2606.12936v2](http://arxiv.org/abs/2606.12936v2)|null|
 
-README omitted **336** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **343** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

@@ -9536,7 +9536,7 @@
     },
     "2607.27077": {
       "id": "2607.27077",
-      "version": "2607.27077v1",
+      "version": "2607.27077v2",
       "title": "Equilibrium Training of Energy-Based Models with Parallel Trajectory Tempering",
       "authors": [
         "Nicolas Béreux",
@@ -9545,15 +9545,15 @@
         "Beatriz Seoane"
       ],
       "published": "2026-07-29",
-      "updated": "2026-07-29",
+      "updated": "2026-09-07",
       "categories": [
         "cs.LG",
         "cond-mat.dis-nn",
         "cond-mat.stat-mech"
       ],
       "abstract": "Energy-Based Models (EBMs) provide an interpretable framework for generative modeling of scientific data, but poor Markov Chain Monte Carlo mixing often limits their reliability. We introduce a training algorithm based on Parallel Trajectory Tempering (PTT), which exploits the continuity of the optimization path to maintain equilibrium sampling throughout learning. This enables stable and fast training on highly multimodal and data-scarce scientific datasets. Combined with reservoir sampling and adaptive optimization, PTT has a computational cost comparable to Persistent Contrastive Divergence, making it a practical replacement for standard training methods. It also provides direct estimates of thermalization times, equilibrium samples from trained models, and accurate log-likelihoods at essentially no additional cost. Experiments on Restricted Boltzmann Machines show that PTT consistently outperforms existing EBM training approaches. On discrete tabular data, it also surpasses state-of-the-art deep generative models, yielding higher-quality samples and greater robustness to overfitting and limited data. Our results make equilibrium maximum-likelihood training of EBMs practical and computationally efficient.",
-      "abs_url": "http://arxiv.org/abs/2607.27077v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.27077v1",
+      "abs_url": "http://arxiv.org/abs/2607.27077v2",
+      "pdf_url": "https://arxiv.org/pdf/2607.27077v2",
       "code_url": null
     },
     "2607.27553": {
@@ -11372,20 +11372,20 @@
     },
     "2609.01076": {
       "id": "2609.01076",
-      "version": "2609.01076v1",
+      "version": "2609.01076v2",
       "title": "Text-guided flow matching enables sample-efficient crystal structure generation",
       "authors": [
         "Wentao Li"
       ],
       "published": "2026-09-01",
-      "updated": "2026-09-01",
+      "updated": "2026-09-06",
       "categories": [
         "cond-mat.mtrl-sci",
         "cs.AI"
       ],
       "abstract": "Crystal generators can now propose periodic structures, but their control interfaces remain poorly matched to the mixed descriptors used in materials design. Text provides a compact way to combine composition, symmetry, prototype and property cues, yet it has not been clear whether such information can steer flow-based crystal generation. Here we introduce TFMat, a text-conditioned flow-matching framework that uses structured materials language as a semantic prior for a CrystalFlow generator. Across Perov-5, Carbon-24 and MP-20 crystal structure prediction benchmarks, TFMat improves one-candidate match rates over CrystalFlow and reaches a 92.04% MP-20 match rate with 20 candidates; in de novo generation, it improves element-count and density distribution alignment while retaining coarse property consistency in composition-selected outputs. These results position structured text as an inspectable control layer for translating human-readable materials intent into candidate crystals for downstream simulation and validation.",
-      "abs_url": "http://arxiv.org/abs/2609.01076v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01076v1",
+      "abs_url": "http://arxiv.org/abs/2609.01076v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.01076v2",
       "code_url": null
     },
     "2609.02396": {
@@ -11613,6 +11613,149 @@
       "abstract": "Synthetic medical time-series generation can alleviate data scarcity and support the development of reliable clinical prediction models. However, existing methods mainly focus on matching the overall distribution and temporal dynamics of real data, which does not necessarily ensure strong downstream utility on imbalanced medical datasets. Clinically informative patterns often occur at heterogeneous temporal scales, while rare minority-class characteristics can be obscured by dominant population patterns. To address these challenges, we propose MedFlow, a class-aware multi-scale flow matching framework for medical time-series synthesis. MedFlow employs a vector-quantized multi-scale tokenizer to represent medical sequences at complementary temporal resolutions, capturing both coarse clinical trends and fine-grained dynamics. We further introduce Token Marginal Guidance, which incorporates class-conditional token statistics directly into the flow matching process to steer generation toward class-specific regions of the learned tokens. This mechanism strengthens minority-class patterns, while preserving the global and tail distributions of real data. Experiments on four public datasets covering electronic health records, EEG, and ECG signals demonstrate that MedFlow consistently outperforms recent state-of-the-art diffusion-based baselines across downstream prediction tasks. On average, it improves AUPRC by 5.8%, reduces Context-FID by 88.6%, and achieves 3.8$\\times$ higher sampling throughput.",
       "abs_url": "http://arxiv.org/abs/2609.04804v1",
       "pdf_url": "https://arxiv.org/pdf/2609.04804v1",
+      "code_url": null
+    },
+    "2609.08029": {
+      "id": "2609.08029",
+      "version": "2609.08029v1",
+      "title": "BanglaMemeX: Advancing Cultural Metaphoric Image Interpretation in Bangla with a Multimodal Explainable Dataset",
+      "authors": [
+        "Md. Sadman Sakib",
+        "Zisan Mahmud",
+        "Md. Fahim Arefin",
+        "Md Fahim"
+      ],
+      "published": "2026-09-07",
+      "updated": "2026-09-07",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "Vision Language Models have achieved strong performance on multimodal benchmarks, yet their ability to reason about culturally grounded and metaphor-rich content remains insufficiently studied. Internet memes present a challenging setting where meaning emerges from implicit interactions between image, overlaid text, sarcasm, and shared socio-cultural knowledge rather than literal visual recognition. This challenge is amplified in low-resource languages such as Bangla, where code-mixing, stylized scripts, and culturally specific symbolism introduce substantial distribution shift. In this work, we introduce BanglaMemeX, a culturally grounded multimodal benchmark comprising 3,000 Bangla memes annotated with multi-dimensional labels (humor, sarcasm, offensiveness, motivational intent, and overall sentiment) and human-written explanations that explicitly describe textual and visual metaphors. We systematically evaluate modern VLMs on both classification and explanation generation, revealing that current models struggle to interpret implicit cultural cues despite reasonable surface-level accuracy. Our results highlight the need for culturally-aware multimodal systems capable of grounded reasoning under linguistic and cultural distribution shift.",
+      "abs_url": "http://arxiv.org/abs/2609.08029v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.08029v1",
+      "code_url": null
+    },
+    "2609.07470": {
+      "id": "2609.07470",
+      "version": "2609.07470v1",
+      "title": "Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy",
+      "authors": [
+        "Ayoub Kirouane",
+        "Georgios Giaples",
+        "Christos Petrocheilos"
+      ],
+      "published": "2026-09-07",
+      "updated": "2026-09-07",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "abstract": "Robot foundation models are trained and evaluated predominantly in English, and robot demonstration corpora do not exist for most languages. We study the addition of Greek to an open vision-language-action stack using only machine-rephrased instructions and no architecture changes. The main challenge is measurement rather than translation. Several plausible instruments produce false conclusions: a color-histogram metric rewards noise, a single-goal benchmark scores 84.6% under correct Greek and 82.6% under deliberately wrong instructions, training loss fails to predict Greek success, and single-run comparisons are dominated by seed variation. On a discriminative ninety-task suite with three seeds per arm, a multilingual text tower without Greek demonstrations remains at its wrong-instruction floor, while Greek-only training exceeds its control by at most 2.7 points. Bilingual training yields a consistent 6.7-7.1 point margin over its control and reaches about two fifths of English performance. The policy also overfits the translator's phrasing; training on seven phrasings per task approximately halves this penalty. Warm-starting from a language-adapted world model and unfreezing the text tower both degrade performance. The results support two practical requirements for low-resource robot-policy localization: build a guaranteed null before trusting a metric, and replicate low-resource-language results across seeds.",
+      "abs_url": "http://arxiv.org/abs/2609.07470v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.07470v1",
+      "code_url": null
+    },
+    "2609.06212": {
+      "id": "2609.06212",
+      "version": "2609.06212v1",
+      "title": "SLATE: Are AI-Generated Slides Educationally Effective? A Benchmark for Language Teaching Quality and Learner Knowledge Acquisition",
+      "authors": [
+        "Jingzhuo Wu",
+        "Jiajun Zhang",
+        "Liu Yi",
+        "Leqi Zheng",
+        "Yuheng Jing",
+        "Xinyuan Zhou",
+        "Quan yang"
+      ],
+      "published": "2026-09-05",
+      "updated": "2026-09-05",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "LLMs have achieved remarkable capabilities in generating language teaching slides. However, a critical mismatch persists between visual polish and actual instructional effectiveness. To address this gap, we introduce SLATE (Slide-based Learning Assessment for Teaching Effectiveness), the first benchmark that evaluates AI-generated language teaching slides through instructional effectiveness and learner knowledge acquisition. SLATE transforms linguistics olympiad puzzles from low-resource languages with negligible web presence into 90 standardized instructional units comprising 1,133 assessable items, paired with a structured course outline and matched near- and far-transfer test sets. This pretest-posttest design eliminates pretrained knowledge leakage, ensuring gains reflect learning rather than prior recall. Using VLMs as scalable learner proxies and directionally supported by a three-system human pilot, our results show that content validity exhibits a weak association with learning gain, while pedagogical design exhibits a robust positive association. Moreover, most systems show a significant gap between near- and far-transfer accuracy, and even frontier models can produce negative learning gains. SLATE reveals a dissociation between artifact quality and instructional effectiveness, calling for a paradigm shift in how generative teaching systems are built, evaluated, and deployed.",
+      "abs_url": "http://arxiv.org/abs/2609.06212v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.06212v1",
+      "code_url": null
+    },
+    "2609.08288": {
+      "id": "2609.08288",
+      "version": "2609.08288v1",
+      "title": "LEBGen: An LLM-Enhanced Bayesian Network Framework for Few-Shot Travel Survey Data Generation",
+      "authors": [
+        "Zijian Shen",
+        "Bin Zhou",
+        "Jiguang Wang",
+        "Ya Zhao",
+        "Jintao Ke"
+      ],
+      "published": "2026-09-08",
+      "updated": "2026-09-08",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Travel survey data are essential for transportation planning and travel behavior analysis, yet collecting large-scale representative samples is costly and time-consuming. A practical alternative is to generate synthetic survey records from a few-shot sample. However, such samples provide incomplete coverage of heterogeneous traveler groups and insufficient evidence for recovering the complex dependencies between demographic characteristics and travel behavior. Existing approaches have complementary limitations. Probabilistic generative models such as Bayesian networks (BNs) offer explicit distributional control, but structures learned from few-shot samples may omit meaningful dependencies or retain spurious ones. Large language models (LLMs) can help address these difficulties in BN structure learning by providing behavioral knowledge that complements the limited statistical evidence. We therefore propose LEBGen, an LLM-enhanced BN framework that uses this knowledge to refine network structure for few-shot travel survey data generation. Specifically, the LLM first identifies traveler personas from demographic attribute and travel behavior statistics, then recovers dependencies missed by the persona-augmented BN structure and prune spurious ones. The refined BN is parameterized exclusively from the observed data to generate synthetic records. Under a 2% few-shot setting on the 2022 Hong Kong Travel Characteristics Survey, LEBGen reduces the mean marginal Jensen-Shannon divergence from 0.0671 to 0.0091 and the mean absolute Cramer's V error by 14.3% over the best-performing baseline, substantially improving both distributional and dependency fidelity.",
+      "abs_url": "http://arxiv.org/abs/2609.08288v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.08288v1",
+      "code_url": null
+    },
+    "2609.07334": {
+      "id": "2609.07334",
+      "version": "2609.07334v1",
+      "title": "AAS-RAIL: Improving Information Extraction for Asset Administration Shells through Retrieval-Augmented In-Context Learning",
+      "authors": [
+        "Janek Groß",
+        "Jens Heidrich"
+      ],
+      "published": "2026-09-07",
+      "updated": "2026-09-07",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "The Asset Administration Shell (AAS) is a cornerstone of Industry 4.0 and the Digital Product Passport, providing standardized digital representations of industrial assets. While manufacturers already maintain extensive technical product documentation, generating AAS instances from existing product datasheets remains a labor-intensive task because technical information is extracted from heterogeneous document structures and often involves company-specific terminology and conventions. In this work, we present AAS-RAIL, a retrieval-augmented information extraction (IE) approach that automatically generates Asset Administration Shells from PDF product datasheets using large language models (LLMs). Instead of relying on a fixed set of few-shot examples, the proposed retrieval-augmented in-context learning (RAIL) approach retrieves LLM-generated extraction helpers from similar Asset Administration Shells to provide instance-specific in-context learning (ICL). This enables the model to adapt its extraction behavior to company-specific naming conventions and formatting styles without fine-tuning. Our core contribution is the dynamic selection of company-specific AAS examples for each datasheet, replacing static prompting with an extraction pipeline that adapts to instances and combines semantic retrieval and structured information extraction. The proposed approach is evaluated on a collection of industrial product datasheets using a selection of open- and closed-weight LLMs. Experimental results show that RAIL consistently improves extraction quality over conventional few-shot prompting, yielding relative improvements of 30.4-52.4%. These results demonstrate that our approach provides an effective improvement for company-specific AAS generation.",
+      "abs_url": "http://arxiv.org/abs/2609.07334v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.07334v1",
+      "code_url": null
+    },
+    "2609.08339": {
+      "id": "2609.08339",
+      "version": "2609.08339v1",
+      "title": "RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation",
+      "authors": [
+        "Jingxuan Zhu",
+        "Jingyi Li",
+        "LiangLiang Chen",
+        "Zhiyuan Jing",
+        "Jidong Zhang",
+        "Hongming Li"
+      ],
+      "published": "2026-09-08",
+      "updated": "2026-09-08",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "abstract": "Bimanual manipulation policies require large and diverse training datasets, yet collecting demonstrations on physical robots is expensive and difficult to scale. Simulation can generate data efficiently, but existing pipelines typically operate within closed asset libraries and predefined scenes: adding a newly observed object or environment still requires substantial effort to reconstruct geometry, specify physical and semantic properties, annotate interactions, and integrate the result into executable tasks. We present RoboCousin, an extensible simulation-based data-generation platform that turns user-provided observations into reusable assets, scenes, and expert trajectories for bimanual manipulation. Built on RoboTwin~2.0, RoboCousin converts object images into simulation-ready assets with visual and collision geometry, semantic and physical metadata, and automatically generated grasp-contact candidates. It further constructs digital cousins that vary compatible objects, backgrounds, layouts, and language instructions while preserving task-relevant affordances and spatial relations. The same asset system supports tabletop and room-level scene construction, with collision-aware base control for interaction beyond a fixed workspace. We release RoboCousin-OBD, containing more than 3,000 annotated object instances and 50 background environments, and use RoboCousin to generate over one million expert trajectories across 50 tasks. Simulation and real-robot experiments show that the automatically generated interaction annotations are comparable to curated annotations, generated assets provide effective sim-to-real supervision, and tabletop cousins can improve transfer beyond training on a single reconstructed scene. RoboCousin therefore provides a practical path for expanding both the scale and coverage of synthetic bimanual manipulation data.",
+      "abs_url": "http://arxiv.org/abs/2609.08339v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.08339v1",
+      "code_url": null
+    },
+    "2609.07046": {
+      "id": "2609.07046",
+      "version": "2609.07046v1",
+      "title": "AI and TCAD for Inverse Design and Defect Discovery: From Simple Machine Learning to LLM",
+      "authors": [
+        "Hiu Yung Wong"
+      ],
+      "published": "2026-09-07",
+      "updated": "2026-09-07",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "AI has revolutionized various engineering domains, but its impact on semiconductor device design and defect discovery is still limited, due to limited data and the curse of dimensionality. In this paper, we will discuss our work on using the Technology Computer-Aided-Design (TCAD) to generate precise data needed for machine learning (ML) to enable simulation-augmented ML. We demonstrate that with minimal domain expertise, it is possible to create a machine that performs as well as a device engineer on a specific task. We will show that auto-encoder-based machine learning models and noise engineering applied to TCAD data are effective at learning latent physics, and that the models can be seamlessly applied to experimental data. We will demonstrate how to build a device-engineer-level model step by step through various examples, including using only non-destructive electrical data to inverse-engineer the PiN diode layer thickness variations, the Ga2O3 Schottky diode doping and anode workfunction variations, and the transistor contact resistance in an inverter. Examples also include the generation of a FinFET IV/CV prediction model, the mapping between transistor images and IV curves, and the automatic calibration of TCAD parameters for a Ga2O3 Schottky diode, which can only be handled well by experienced TCAD engineers. Finally, to fully realize the potential of AI, large language models (LLMs) and multimodal LLMs (MLLMs) are believed to be necessary. We will discuss the application of LLMs to TCAD command file creation and our vision for MLLMs in automated device design and defect discovery.",
+      "abs_url": "http://arxiv.org/abs/2609.07046v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.07046v1",
       "code_url": null
     }
   }
