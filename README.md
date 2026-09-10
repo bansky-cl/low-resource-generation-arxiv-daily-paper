@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **543**
-- Recent 30 days: **73**
+- Total papers in JSON: **549**
+- Recent 30 days: **79**
 - Older than 30 days: **470**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,12 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-09**|**5-Dialects-BN: Unmasking the Impact of Transliteration on Bangla Dialectal LLMs**|cs.CL|[2609.09964v1](http://arxiv.org/abs/2609.09964v1)|null|
+|**2026-09-09**|**Improving Cross-Lingual Token Representations by Adding a Pinch of SALT**|cs.CL, cs.AI|[2609.09953v1](http://arxiv.org/abs/2609.09953v1)|null|
+|**2026-09-09**|**Leveraging Fine-grained Error Correction in Korean Speech Recognition for Consultation Services**|cs.CL|[2609.09889v1](http://arxiv.org/abs/2609.09889v1)|null|
+|**2026-09-09**|**Exact Degeneracy Under Balanced k-Shot Sampling:Consequences for Small-Sample Discriminant Analysis on LLM Embeddings**|cs.LG|[2609.09860v1](http://arxiv.org/abs/2609.09860v1)|null|
+|**2026-09-09**|**SEA-SpeechBench: A Large-Scale Multitask Benchmark for Speech Understanding Across Southeast Asia**|cs.CL|[2609.09672v1](http://arxiv.org/abs/2609.09672v1)|**[code](https://zwenyu.github.io/SEA-SpeechBench/)**|
+|**2026-09-08**|**Do LLMs Make More Mistakes If They Do Not Believe the Input Data?**|cs.CL|[2609.09363v1](http://arxiv.org/abs/2609.09363v1)|null|
 |**2026-09-08**|**RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation**|cs.RO, cs.AI|[2609.08339v1](http://arxiv.org/abs/2609.08339v1)|null|
 |**2026-09-08**|**LEBGen: An LLM-Enhanced Bayesian Network Framework for Few-Shot Travel Survey Data Generation**|cs.AI|[2609.08288v1](http://arxiv.org/abs/2609.08288v1)|null|
 |**2026-09-07**|**BanglaMemeX: Advancing Cultural Metaphoric Image Interpretation in Bangla with a Multimodal Explainable Dataset**|cs.CL, cs.CV|[2609.08029v1](http://arxiv.org/abs/2609.08029v1)|null|
@@ -221,14 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-19**|**DataClaw0: Agentic Tailoring Multimodal Data from Raw Streams**|cs.LG, cs.AI|[2606.21337v1](http://arxiv.org/abs/2606.21337v1)|**[code](https://czjdsg.github.io/MakeAnyData)**|
 |**2026-06-19**|**OmniV2X: A Generative Foundation Planner for Efficient End-to-End Cooperative Driving**|cs.RO, cs.AI|[2606.21165v2](http://arxiv.org/abs/2606.21165v2)|null|
 |**2026-06-17**|**DF-ExpEnse: Diffusion Filtered Exploration for Sample Efficient Finetuning**|cs.RO, cs.LG|[2606.19656v1](http://arxiv.org/abs/2606.19656v1)|**[code](https://df-expense.github.io)**|
-|**2026-06-17**|**G-IdiomAlign: A Gloss-Pivoted Benchmark for Cross-Lingual Idiom Alignment**|cs.CL, cs.AI|[2606.18989v1](http://arxiv.org/abs/2606.18989v1)|null|
-|**2026-06-16**|**Want Better Synthetic Data? Steer It: Activation Steering for Low-Resource Language Generation**|cs.CL|[2606.18389v1](http://arxiv.org/abs/2606.18389v1)|null|
-|**2026-06-16**|**When English Isn't the Best Teacher: Source Language Effects in Cross-Lingual In-Context Learning**|cs.CL, cs.AI|[2606.18033v1](http://arxiv.org/abs/2606.18033v1)|null|
-|**2026-06-15**|**MindAlign: Decoding Inner Speech from fMRI Signals via Multimodal Embedding Alignment under Limited Data**|cs.CL, cs.AI, eess.AS|[2606.20696v1](http://arxiv.org/abs/2606.20696v1)|null|
-|**2026-06-15**|**Diffusion Offline Reinforcement Learning for Fair and Energy-Efficient UAV-Assisted Wireless Networks**|cs.LG|[2606.16331v1](http://arxiv.org/abs/2606.16331v1)|null|
-|**2026-06-14**|**CIWI-CKT: Chaos-Informed Wave Interference Feature Fusion and Cross-City Knowledge Transfer for Traffic Flow Forecasting**|cs.LG, cs.AI|[2606.15642v1](http://arxiv.org/abs/2606.15642v1)|null|
 
-README omitted **343** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **349** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

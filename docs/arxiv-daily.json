@@ -11757,6 +11757,130 @@
       "abs_url": "http://arxiv.org/abs/2609.07046v1",
       "pdf_url": "https://arxiv.org/pdf/2609.07046v1",
       "code_url": null
+    },
+    "2609.09964": {
+      "id": "2609.09964",
+      "version": "2609.09964v1",
+      "title": "5-Dialects-BN: Unmasking the Impact of Transliteration on Bangla Dialectal LLMs",
+      "authors": [
+        "Md Mahir Jawad",
+        "Galib Mahmud Jim",
+        "Rafid Ahmed",
+        "Mir Sazzat Hossain",
+        "Md Fahim",
+        "Md Farhad Alam Bhuiyan"
+      ],
+      "published": "2026-09-09",
+      "updated": "2026-09-09",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large Language Models (LLMs) have achieved remarkable progress across natural language processing (NLP) tasks, yet their capabilities degrade sharply for low-resource languages and dialectally diverse settings. Bangla, the world's sixth most spoken language, exemplifies this gap: existing resources overwhelmingly target Standard Bangla, leaving its regional dialects without the benchmarks needed to develop or evaluate dialect-aware systems. We address this gap with 5-Dialects-BN, the first multi-annotation Bangla dialect benchmark to align Romanized transliteration with dialectal text, Standard Bangla, English, and subjectivity labels across five regional varieties. The dataset comprises 6,000 manually annotated entries spanning five major dialects: Chittagong, Barisal, Noakhali, Sylhet, and Rangpur (Chittagong 1,900; Noakhali 1,500; Sylhet 1,200; Barisal 700; Rangpur 700), reflecting natural online availability. Each entry is enriched with five aligned annotations: the original dialectal text, a Romanized transliteration, an English translation, a Standard Bangla translation, and a subjectivity label (subjective vs. objective). Annotations were produced and cross-validated by native speakers and undergraduate linguistics students to ensure dialectal authenticity and semantic fidelity. The resulting resource supports a diverse suite of tasks, including dialect identification, dialect-to-standard normalization, machine translation, subjectivity classification, and parameter-efficient fine-tuning (e.g., LoRA) of multilingual LLMs. By providing a standardized, multi-annotation benchmark, 5-Dialects-BN enables principled evaluation of LLMs on dialectally diverse Bangla and lays a foundation for further research in low-resource, dialect-aware NLP.",
+      "abs_url": "http://arxiv.org/abs/2609.09964v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.09964v1",
+      "code_url": null
+    },
+    "2609.09953": {
+      "id": "2609.09953",
+      "version": "2609.09953v1",
+      "title": "Improving Cross-Lingual Token Representations by Adding a Pinch of SALT",
+      "authors": [
+        "Guillem Ramírez"
+      ],
+      "published": "2026-09-09",
+      "updated": "2026-09-09",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Cross-lingual sentence encoders enable scalable transfer across hundreds of languages, powering applications such as translation mining and zero-shot learning in low-resource settings. Although trained for sentence-level alignment, they are increasingly also applied to token-level tasks such as hallucination detection and sequence tagging, exposing a mismatch between training and usage. We propose SALT, a lightweight post-training method that improves token representations by injecting span-level supervision into existing sentence encoders. Across five multilingual token-level benchmarks, SALT achieves the best overall results on four of them, outperforming alternative fine-tuning strategies and competitive encoders. It also improves sentence-level performance on cross-lingual retrieval and classification tasks. These results demonstrate that span-level supervision is an effective signal for improving both token and sentence representations.",
+      "abs_url": "http://arxiv.org/abs/2609.09953v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.09953v1",
+      "code_url": null
+    },
+    "2609.09889": {
+      "id": "2609.09889",
+      "version": "2609.09889v1",
+      "title": "Leveraging Fine-grained Error Correction in Korean Speech Recognition for Consultation Services",
+      "authors": [
+        "Yonghyun Jun",
+        "Jimin Lee",
+        "Hwan Chang",
+        "Dongho Shin",
+        "Seolah Kim",
+        "Hwanhee Lee"
+      ],
+      "published": "2026-09-09",
+      "updated": "2026-09-09",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Automatic Speech Recognition (ASR) technology is fundamental to customer service automation and large-scale transcription. However, even advanced ASR models exhibit inevitable errors in complex real-world environments such as call center conversations. When privacy restrictions preclude audio access, error correction must rely on text-based post-editing. Existing text-only approaches face significant challenges in low-resource languages, mainly due to a critical scarcity of annotated corpora and tailored correction methodologies. For Korean, this resource gap is particularly pronounced, as existing resources are predominantly designed for ASR training rather than text-based error correction. To address this, we introduce DasanCallDial, the first large-scale Korean benchmark dataset specifically curated for dialogue-level ASR error correction. Derived from genuine call center interactions, it comprises 1,974 dialogues with 115,460 utterances. Leveraging this resource, we propose Detector-Gated Contextual Span Correction (DCSC), a text-only post-editing framework for error-sparse Korean speech recognition transcripts. DCSC combines an encoder-based detector that first performs token-level error detection, followed by a language model-based corrector trained to rectify fine-grained span-level errors. Additionally, we employ dialogue-level context augmentation to enable the model to leverage discourse history for disambiguation. By employing multi-level granularity, our method achieves state-of-the-art performance, effectively overcoming the limitations of general LLMs in low-resource settings.",
+      "abs_url": "http://arxiv.org/abs/2609.09889v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.09889v1",
+      "code_url": null
+    },
+    "2609.09672": {
+      "id": "2609.09672",
+      "version": "2609.09672v1",
+      "title": "SEA-SpeechBench: A Large-Scale Multitask Benchmark for Speech Understanding Across Southeast Asia",
+      "authors": [
+        "Jingyi Liao",
+        "Wenyu Zhang",
+        "Zhuohan Liu",
+        "Yingxu He",
+        "Geyu Lin",
+        "Xunlong Zou",
+        "Shuo Sun",
+        "Syed Ali Redha Alsagoff",
+        "Ai Ti Aw"
+      ],
+      "published": "2026-09-09",
+      "updated": "2026-09-09",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "The rapid advancement of audio and multimodal large language models has unlocked transformative speech understanding capabilities, yet evaluation frameworks remain predominantly English-centric, leaving Southeast Asian (SEA) languages critically underrepresented. We introduce SEA-SpeechBench, to the best of our knowledge, the first large-scale multitask benchmark that evaluates speech understanding in 11 SEA languages through 97,194 samples across 99 evaluation sets and 597 hours of curated audio data. Our benchmark comprises 9 diverse tasks across 3 categories: speech processing (automatic speech recognition, speech translation, spoken question answering), paralinguistic analysis (emotion, gender, age, speaker recognition), and temporal understanding, a novel dimension featuring timestamped content queries and temporal localization within extended audio sequences up to 3 minutes. We implement multilingual prompting in both native SEA languages and English to reflect user interactions with audio-language models. Evaluation of leading open-source and proprietary systems reveals marked performance gaps. Across all models, performance remains underwhelming on temporal understanding, emotion recognition, and speech translation. Prompting in low-resource languages such as Burmese and Tamil lags behind English by up to 41 percentage points. Our findings expose critical model limitations and underscore the need for inclusive model development. The SEA-SpeechBench benchmark is available at https://zwenyu.github.io/SEA-SpeechBench/.",
+      "abs_url": "http://arxiv.org/abs/2609.09672v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.09672v1",
+      "code_url": "https://zwenyu.github.io/SEA-SpeechBench/"
+    },
+    "2609.09363": {
+      "id": "2609.09363",
+      "version": "2609.09363v1",
+      "title": "Do LLMs Make More Mistakes If They Do Not Believe the Input Data?",
+      "authors": [
+        "Peter Kochelka",
+        "Aleš Manuel Papáček",
+        "Vojtěch Dvořák",
+        "Ondřej Dušek"
+      ],
+      "published": "2026-09-08",
+      "updated": "2026-09-08",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large language models (LLMs) are prone to hallucinating or misinterpreting facts, which impairs their usability in retrieval-augmented generation or data-to-text systems. We analyse how faithfulness of LLMs to provided context depends on how plausible they perceive the context to be (context-memory conflict). To better identify error patterns, we make use of the increased difficulty of non-English and low-resource language text generation and input data based on local knowledge, only partially captured in models' parametric knowledge. We let the models generate text in English, Czech, Slovak and Upper Sorbian from factual (FA), counterfactual (CFA) and fictional (FI) RDF triples containing local Czech and Slovak data. Contrary to our expectations, we observe only a weak context-memory conflict on the human-annotated sample. For Kimi K3 as an LLM judge, which agrees well with human annotations on the sample, counterfactual inputs receive only slightly lower faithfulness scores than factual ones (-0.05 on a 1-5 scale). We also find that a suboptimal choice of LLM judge would lead to overestimating the strength of the context-memory conflict.",
+      "abs_url": "http://arxiv.org/abs/2609.09363v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.09363v1",
+      "code_url": null
+    },
+    "2609.09860": {
+      "id": "2609.09860",
+      "version": "2609.09860v1",
+      "title": "Exact Degeneracy Under Balanced k-Shot Sampling:Consequences for Small-Sample Discriminant Analysis on LLM Embeddings",
+      "authors": [
+        "Lingxiao Qu"
+      ],
+      "published": "2026-09-09",
+      "updated": "2026-09-09",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Balanced k-shot sampling draws exactly k labeled examples per class. We show that it induces an exact, provable degeneracy in a family of small-sample discriminant estimators. Under balanced sampling, the within-class scatter operator of Kernelized Linear Principal Component Discriminant Analysis (KLPCDA) is not merely rank-deficient but exactly a scaled orthogonal projector. We derive the consequences in closed form: two of KLPCDA's seven variants have every signal eigenvalue exactly equal, so their eigenvector selection criterion is provably indifferent rather than ill-conditioned, and a third has a provably void objective. This follows from the estimators' construction, not any dataset; we confirm it on frozen sentence embeddings and, separately, on residual-stream activations from a decoder-only generative model. An in-formula tie-break repairs the two repairable variants, with recovery gated by class count: the residual subspace constraint costs 5x more on few-class than many-class datasets (p=0.000001). We then evaluate the repaired framework on few-shot text classification on frozen LLM embeddings (n much smaller than d, up to 4096), across four datasets, three embedding sizes, and three trained baselines (SetFit, LoRA, in-context learning). A properly cross-validated logistic-regression probe still beats every KLPCDA variant on three of four datasets, at every embedding size; guidance carried from pixel, vibration-signal, and gene-expression data does not directly generalize to this feature space. Three independent geometric separability metrics fail to explain why one high-dimensional decoder-based embedding model underperforms smaller bidirectional encoders, ruling out anisotropy; the gap is substantially an estimation-efficiency effect, not a permanent ceiling, closing by more than 80% when the support set grows from k<=10 to k=30-50 (p=0.00195, both many-class datasets).",
+      "abs_url": "http://arxiv.org/abs/2609.09860v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.09860v1",
+      "code_url": null
     }
   }
 }
