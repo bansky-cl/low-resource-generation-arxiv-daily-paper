@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.09.10
+## Updated on 2026.09.11
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **549**
-- Recent 30 days: **79**
-- Older than 30 days: **470**
+- Recent 30 days: **75**
+- Older than 30 days: **474**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -97,15 +97,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-12**|**Preference Tree Optimization: Enhancing Goal-Oriented Dialogue with Look-Ahead Simulations**|cs.CL, cs.AI|[2608.12062v2](http://arxiv.org/abs/2608.12062v2)|null|
 |**2026-08-12**|**Poly-Dialectal Neural Machine Translation System for Bangla Regional Dialects**|cs.CL|[2608.12018v1](http://arxiv.org/abs/2608.12018v1)|**[code](https://data.mendeley.com/datasets/v9cf66fk2t/2)**|
 |**2026-08-12**|**When the Knowledge Base Becomes the Gold Standard: Measuring Resource-Shared Evaluation Loops in Entity-Level Machine Translation**|cs.CL, cs.DL|[2608.11843v1](http://arxiv.org/abs/2608.11843v1)|null|
-|**2026-08-11**|**Reward-Oracle MCTS for Formal Theorem Proving: Sample-Efficient Search and the Need for Kernel-Level Proof Auditing**|cs.AI, cs.LG, cs.LO|[2608.28639v1](http://arxiv.org/abs/2608.28639v1)|null|
-|**2026-08-11**|**The Illusion of Cross-Lingual Safety in Low-Resource Languages**|cs.CL|[2608.11146v1](http://arxiv.org/abs/2608.11146v1)|null|
-|**2026-08-11**|**Physics-informed Diffusion Generative Model for Time-Series Data Synthesis in Dynamic Systems**|cs.LG|[2608.10941v1](http://arxiv.org/abs/2608.10941v1)|null|
-|**2026-08-11**|**A Cost-Efficient Routing Pipeline for Multilingual Short-Text Classification Using Small Language Models**|cs.CL, cs.AI|[2608.10939v1](http://arxiv.org/abs/2608.10939v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-11**|**Reward-Oracle MCTS for Formal Theorem Proving: Sample-Efficient Search and the Need for Kernel-Level Proof Auditing**|cs.AI, cs.LG, cs.LO|[2608.28639v1](http://arxiv.org/abs/2608.28639v1)|null|
+|**2026-08-11**|**The Illusion of Cross-Lingual Safety in Low-Resource Languages**|cs.CL|[2608.11146v1](http://arxiv.org/abs/2608.11146v1)|null|
+|**2026-08-11**|**Physics-informed Diffusion Generative Model for Time-Series Data Synthesis in Dynamic Systems**|cs.LG|[2608.10941v1](http://arxiv.org/abs/2608.10941v1)|null|
+|**2026-08-11**|**A Cost-Efficient Routing Pipeline for Multilingual Short-Text Classification Using Small Language Models**|cs.CL, cs.AI|[2608.10939v1](http://arxiv.org/abs/2608.10939v1)|null|
 |**2026-08-09**|**Integrated Multimodal AI System for Retrieval-Augmented Reasoning, Object Sensing, and Damage Analysis**|cs.AI|[2608.08935v1](http://arxiv.org/abs/2608.08935v1)|null|
 |**2026-08-09**|**Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies**|cs.RO, cs.LG|[2608.08545v1](http://arxiv.org/abs/2608.08545v1)|null|
 |**2026-08-08**|**A Hierarchical Energy-Based Model for Multimodal Cognition**|q-bio.NC, cs.AI|[2608.12398v1](http://arxiv.org/abs/2608.12398v1)|null|
