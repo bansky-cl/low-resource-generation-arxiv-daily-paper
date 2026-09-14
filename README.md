@@ -7,21 +7,22 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.09.14
+## Updated on 2026.09.15
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **553**
-- Recent 30 days: **71**
-- Older than 30 days: **482**
+- Total papers in JSON: **554**
+- Recent 30 days: **70**
+- Older than 30 days: **484**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-11**|**Breaking the Token Ceiling: Distilling Smaller, Stronger Byte Models**|cs.CL, cs.AI, cs.LG|[2609.12303v1](http://arxiv.org/abs/2609.12303v1)|null|
 |**2026-09-10**|**Beyond Word Error Rate: A Switch Aware Evaluation of ASR and Audio Language Models on English Yoruba Code-Switched Speech**|cs.CL, cs.AI|[2609.11786v1](http://arxiv.org/abs/2609.11786v1)|null|
 |**2026-09-10**|**Complex-Text Robustness Evaluation and Failure Diagnosis for Low-Resource Multilingual Text-to-Speech**|cs.CL, cs.SD|[2609.11545v1](http://arxiv.org/abs/2609.11545v1)|null|
 |**2026-09-09**|**Multilingual in Name Only? Cultural and Linguistic Weaknesses of LLMs in Urdu**|cs.CL, cs.AI, cs.LG|[2609.10758v1](http://arxiv.org/abs/2609.10758v1)|null|
@@ -91,13 +92,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-16**|**Iterative Self-Learning for Expressive Text-to-Speech Synthesis**|eess.AS, cs.CL, cs.SD|[2608.15910v1](http://arxiv.org/abs/2608.15910v1)|null|
 |**2026-08-16**|**When Less Is Enough: Context Selection and Prompting Strategies for Bengali News Headline Generation**|cs.CL|[2608.15879v1](http://arxiv.org/abs/2608.15879v1)|null|
 |**2026-08-16**|**BengaliMCQ: Automatic Generation and Answer Prediction of Academic Multiple-Choice Questions in a Low-Resource Language**|cs.CL|[2608.15547v1](http://arxiv.org/abs/2608.15547v1)|null|
-|**2026-08-15**|**Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL**|cs.AI|[2608.15389v2](http://arxiv.org/abs/2608.15389v2)|null|
-|**2026-08-15**|**Structuring Semantic Embeddings for Principle Evaluation: A Prototype-Guided Contrastive Learning Approach**|cs.LG|[2608.15224v2](http://arxiv.org/abs/2608.15224v2)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-15**|**Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL**|cs.AI|[2608.15389v2](http://arxiv.org/abs/2608.15389v2)|null|
+|**2026-08-15**|**Structuring Semantic Embeddings for Principle Evaluation: A Prototype-Guided Contrastive Learning Approach**|cs.LG|[2608.15224v2](http://arxiv.org/abs/2608.15224v2)|null|
 |**2026-08-14**|**Envs-FORGE: Frontier-Optimized Reward-Grounded Environment Synthesis for Agent RL**|cs.CL|[2608.14312v1](http://arxiv.org/abs/2608.14312v1)|**[code](https://github.com/DataArcTech/DataArc-SynData-Toolkit/)**|
 |**2026-08-13**|**BM25-Augmented Many-Shot Translation for Low-Resource North-Eastern Indian Languages**|cs.CL|[2608.13722v1](http://arxiv.org/abs/2608.13722v1)|null|
 |**2026-08-13**|**TeachMateGPT: A Multi-Agent Knowledge-Grounded Framework for Pedagogical Assessment Generation from Science Curriculum Materials**|cs.CL, cs.AI|[2608.13708v1](http://arxiv.org/abs/2608.13708v1)|null|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-20**|**FeLoG: Scalable and Efficient Distributed Graph Embedding with Feedback Loop Mechanism**|cs.DC, cs.LG|[2606.22180v2](http://arxiv.org/abs/2606.22180v2)|null|
 |**2026-06-20**|**Patched Flow Matching: Generative Wall-Pressure Reconstruction Beyond Training-Domain Scales from Sparse Sensors**|physics.flu-dyn, cs.LG|[2606.22084v1](http://arxiv.org/abs/2606.22084v1)|null|
 |**2026-06-19**|**Error-Aware TF-IDF Retrieval-Augmented Generation for ASR Error Correction**|cs.CL, cs.AI, cs.IR|[2606.24915v1](http://arxiv.org/abs/2606.24915v1)|null|
-|**2026-06-19**|**Imitation from Heterogeneous Demonstrations using Grounded Latent-Action World Models**|cs.RO, cs.AI, cs.LG|[2606.21672v1](http://arxiv.org/abs/2606.21672v1)|**[code](https://viccccciv.github.io/glam/)**|
 
-README omitted **353** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **354** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
