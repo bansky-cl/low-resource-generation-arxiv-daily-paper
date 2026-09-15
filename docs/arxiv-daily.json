@@ -12002,6 +12002,133 @@
       "abs_url": "http://arxiv.org/abs/2609.12303v1",
       "pdf_url": "https://arxiv.org/pdf/2609.12303v1",
       "code_url": null
+    },
+    "2609.15740": {
+      "id": "2609.15740",
+      "version": "2609.15740v1",
+      "title": "A Language-Guided Multimodal Foundation Model for Zero-Shot and Multi-Task Brain Signal Analysis",
+      "authors": [
+        "Mingzhi Chen",
+        "Yiyu Gui",
+        "Guibo Luo",
+        "Yuchao Yang"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-14",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Brain signal analysis is essential for both neuroscience research and clinical diagnostics, yet current approaches face critical limitations. End-to-end models require task-specific retraining and exhibit limited generalization, while pre-trained models lack semantic depth and still depend on extensive fine-tuning. Meanwhile, general-purpose multimodal foundation models, though powerful in other domains, struggle to interpret brain signals due to representational misalignment and lack of domain knowledge. This study introduces a multimodal foundation model for zero-shot and multi-task brain signal analysis (METIS) through a unified language-signal alignment framework. METIS is pretrained on the largest and most diverse brain-signal corpus to date, comprising over 70,000 h of recordings from more than 11,000 subjects across 20 datasets. In a comprehensive zero-shot evaluation across 12 datasets, METIS outperformed the leading generalist model by over 20.9% in average accuracy. Remarkably, without any fine-tuning, METIS's performance matches or exceeds that of supervised, task-specific models. Furthermore, METIS demonstrates exceptional data efficiency and strong generalization, achieving an average AUROC advantage of over 16.0% in few-shot settings and 15.9% in cross-dataset transfer. This work establishes a new paradigm for general-purpose brain signal analysis, paving the way for next-generation neurotechnology.",
+      "abs_url": "http://arxiv.org/abs/2609.15740v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.15740v1",
+      "code_url": null
+    },
+    "2609.15511": {
+      "id": "2609.15511",
+      "version": "2609.15511v1",
+      "title": "Authorship attribution and aesthetic evaluation of AI poetry: a case study with Haiku",
+      "authors": [
+        "Livia Oddi",
+        "Simone Scardapane",
+        "Toru Sugimoto",
+        "Donatella Genovese"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-14",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates the generation and human evaluation of Japanese haiku by contemporary Large Language Models (LLMs), focusing on authorship perception and aesthetic judgment within a constrained poetic form. Using a few-shot prompting strategy, Japanese haiku were generated across a heterogeneous set of large language models, including open- and closed-source systems, medium-scale and large-scale architectures, models with native or adapted Japanese support, and multilingual proprietary models. These AI-generated haiku were combined with human-written ones and presented in a questionnaire distributed to students at Japanese universities in Tokyo. The survey assessed whether respondents could distinguish between AI-generated and human-written haiku and which cues informed their judgments. Recognition accuracy varied across models. GPT-5, Gemini 2.5, and StableLM-7B performed at approximately chance level (approx 0.50), whereas LLM-JP, Gemma-2B, and LLaMA-2 showed moderate detectability (approx 0.59-0.67). However, recognition was strongly item-dependent. Ratings of fluency, coherence, poeticness, and related aesthetic dimensions predicted perceived humanness but not correct classification, indicating an attribution bias linked to aesthetic evaluation and revealing a dissociation between aesthetic evaluation and true authorship detection. The extended analysis additionally examines generation-constraint adherence, participant-level characteristics, and exploratory LLM-based evaluations of haiku authorship. Overall, the findings suggest that as LLMs improve, surface-level creative plausibility may reduce reliable human discrimination within constrained poetic settings.",
+      "abs_url": "http://arxiv.org/abs/2609.15511v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.15511v1",
+      "code_url": null
+    },
+    "2609.15239": {
+      "id": "2609.15239",
+      "version": "2609.15239v1",
+      "title": "ProtoGuide: Prototype-Driven Guidance for Class-Conditional Graph Generation",
+      "authors": [
+        "Salvatore Romano",
+        "Marco Grassia",
+        "Pietro Liò",
+        "Giuseppe Mangioni"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-14",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "physics.soc-ph"
+      ],
+      "abstract": "Discrete diffusion models are a prominent family for graph generation, but standard class-conditional mechanisms embed the class signal in the denoiser during training, tying the conditioning mechanism to the trained model. Classifier guidance avoids this coupling in continuous domains by steering a frozen model with a classifier's gradient, but discrete graph diffusion samples discrete edge states, so gradients cannot propagate through the sampled graph. We introduce ProtoGuide, a post-hoc, backbone-agnostic framework that recovers an analogous mechanism. At each reverse step the denoiser's per-edge output is relaxed into a differentiable soft adjacency, embedded by a frozen Siamese graph neural network, and scored against a target-class prototype and its nearest competitor; the resulting per-edge gradient, damped by a cosine schedule, is injected back into the denoiser output. All components stay frozen, so guidance is retargeted by supplying a different prototype. On five classes of real-world networks and two architecturally different backbones, EDGE and DiGress, ProtoGuide raises macro classification accuracy from 50.7% to 73.5% and from 73.6% to 83.8%, and outperforms DiGress's built-in conditional training under our configuration. Gains are largest where the unguided models are weakest, and are not uniform across classes. Per-graph coverage remains high in most settings, while distributional effects are class-dependent. A Best-of-N selection baseline matches this accuracy given enough oversampling, but at a substantial cost in graph diversity. An independently initialized classifier, a directionality test, and a few-shot analysis support target-directed steering and robustness to very small support sets.",
+      "abs_url": "http://arxiv.org/abs/2609.15239v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.15239v1",
+      "code_url": null
+    },
+    "2609.14762": {
+      "id": "2609.14762",
+      "version": "2609.14762v1",
+      "title": "TriCalRAG: A Three-Strategy, Retrieval-Augmented Benchmark for On-Premise LLM-Based Root Cause Analysis in AIOps",
+      "authors": [
+        "Rohit Patel",
+        "Susil Kumar Mohanty",
+        "Jeenal Chaudhary"
+      ],
+      "published": "2026-09-13",
+      "updated": "2026-09-13",
+      "categories": [
+        "cs.DC",
+        "cs.AI",
+        "cs.CR",
+        "cs.ET",
+        "cs.LG"
+      ],
+      "abstract": "Cloud-hosted large language models (LLMs) are increasingly used for root cause analysis (RCA) in AIOps pipelines, but they introduce data privacy risk, network latency, and per-query cost that scale poorly with production log volumes. We present TriCalRAG, a benchmark evaluating open-weight LLMs served locally via vLLM on a single high-memory workstation GPU (NVIDIA RTX PRO 6000, 96GB) against a classical LSTM-based log anomaly detector (DeepLog), across four real, publicly available log datasets (BGL, HDFS, Thunderbird, OpenStack). We evaluate two open-weight models (Qwen2.5-14B, Mistral-Small) under three prompting strategies: zero-shot, few-shot, and retrieval-augmented generation (RAG) over a labeled incident history, reporting accuracy, precision/recall, and F1 with bootstrap 95% confidence intervals across 3 random seeds, alongside throughput and VRAM footprint. Our results show that RAG not only improves mean F1 by 0.10-0.27 over zero-shot prompting but, more importantly, substantially stabilizes model calibration: zero-shot prompting drives both models toward near-degenerate behavior (predicting \"anomaly\" on up to 100% of incidents on some datasets), while RAG keeps predicted-positive rates close to the true class balance in the majority of configurations. Mistral-Small achieves higher macro-averaged F1 than Qwen2.5-14B (0.644 vs. 0.560) but exhibits calibration failures in more configurations (7 vs. 5 of 12), while running at roughly half the throughput - indicating the better model choice depends on whether a deployment prioritizes peak accuracy or predictable behavior across prompting conditions. Ablations show batching scales throughput 41 times on a single card and that 4-bit quantization reduces latency 20% with no measurable accuracy loss. We release our benchmark harness, dataset splits, and evaluation code to support reproducible on-premise AIOps research.",
+      "abs_url": "http://arxiv.org/abs/2609.14762v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.14762v1",
+      "code_url": null
+    },
+    "2609.14226": {
+      "id": "2609.14226",
+      "version": "2609.14226v1",
+      "title": "Corpus Characterization and Inverse Constitutional Fine-Tuning for Style-Aware Radiology Reports",
+      "authors": [
+        "Sarah Y. Li",
+        "Elijah Renner",
+        "Rayan Ansari",
+        "Alaa Youssef"
+      ],
+      "published": "2026-09-13",
+      "updated": "2026-09-13",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Automated radiology report generation has advanced rapidly in diagnostic accuracy, yet generated reports frequently diverge from the stylistic conventions of authentic radiologist writing in structure, diction, and uncertainty language, a gap which has direct implications for clinician trust and user experience. To address this, we characterize stylistic variation across 2,000 reports from the CheXpert Plus dataset using Bio-ClinicalBERT embeddings, UMAP dimensionality reduction, and HDBSCAN clustering, identifying five distinct reporting patterns differing in pathology focus, narrative structure, and lexical preference. Drawing on these findings, we adapt the inverse constitutional AI framework to derive a style-focused constitution from radiologist-written report pairs without requiring a formal preference dataset. This constitution, encoding conventions of tone, diction, uncertainty calibration, and report structure, is incorporated into the supervised fine-tuning of a MedGemma-4B base model on 25,245 CheXpert Plus training pairs. Constitutional fine-tuning produces a substantial increases in text alignment (BLEU-4: 0.006 to 0.308; ROUGE-L: 0.171 to 0.484) relative to the untuned baseline. These gains show a qualitative shift in structural and lexical alignment rather than marginal improvement, as the baseline model produces near-zero scores due to format mismatch. Overall, we establish corpus-level style characterization and constitutional modeling as an effective and data-efficient strategy for producing radiology reports that conform to authentic radiologist writing conventions.",
+      "abs_url": "http://arxiv.org/abs/2609.14226v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.14226v1",
+      "code_url": null
+    },
+    "2609.14019": {
+      "id": "2609.14019",
+      "version": "2609.14019v1",
+      "title": "Conditional Quantum Flow Matching for Data-Scarce Physiological Signal Augmentation",
+      "authors": [
+        "Chi-Sheng Chen",
+        "Samuel Yen-Chi Chen"
+      ],
+      "published": "2026-09-12",
+      "updated": "2026-09-12",
+      "categories": [
+        "quant-ph",
+        "cs.LG",
+        "cs.MM"
+      ],
+      "abstract": "Generative augmentation is a standard remedy for label scarcity in physiological signal classification, but existing quantum generative models start from uninformative noise, ignoring class structure that is already available. We propose Conditional Quantum Flow Matching (CQFM): a single 306-parameter circuit, conditioned on both flow time and class label, transports a compact class-conditional prior toward the target distribution. Quantum flow matching as published is unconditional, so this is to our knowledge the first conditional one, and the first EEG augmentation on a parameterized quantum circuit. A nonnegative spectral embedding removes the need for tomography at readout. On BCI Competition IV-2a, starting from a prior rather than noise is worth $+5.1$ accuracy points over QuDDPM (9/9 subjects), though at that operating point a class-conditional Gaussian matches CQFM. Where the prior fails the transport earns its keep: given one transferred from other subjects it regains $+7.2$ TSTR points (9/9).",
+      "abs_url": "http://arxiv.org/abs/2609.14019v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.14019v1",
+      "code_url": null
     }
   }
 }
