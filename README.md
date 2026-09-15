@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.09.15
+## Updated on 2026.09.16
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **560**
-- Recent 30 days: **76**
-- Older than 30 days: **484**
+- Total papers in JSON: **562**
+- Recent 30 days: **75**
+- Older than 30 days: **487**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -28,6 +28,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-13**|**TriCalRAG: A Three-Strategy, Retrieval-Augmented Benchmark for On-Premise LLM-Based Root Cause Analysis in AIOps**|cs.DC, cs.AI, cs.CR, cs.ET, cs.LG|[2609.14762v1](http://arxiv.org/abs/2609.14762v1)|null|
 |**2026-09-13**|**Corpus Characterization and Inverse Constitutional Fine-Tuning for Style-Aware Radiology Reports**|cs.CL|[2609.14226v1](http://arxiv.org/abs/2609.14226v1)|null|
 |**2026-09-12**|**Conditional Quantum Flow Matching for Data-Scarce Physiological Signal Augmentation**|quant-ph, cs.LG, cs.MM|[2609.14019v1](http://arxiv.org/abs/2609.14019v1)|null|
+|**2026-09-12**|**Scaling Hindi Quantum Natural Language Processing through Automatic Pregroup Supertagging**|cs.CL, quant-ph|[2609.13721v1](http://arxiv.org/abs/2609.13721v1)|null|
+|**2026-09-12**|**The University of Melbourne WMT 2026 CreoleMT Submission: A Domain-Balanced Approach to Low-Resource Pacific Creole Machine Translation**|cs.CL|[2609.13615v1](http://arxiv.org/abs/2609.13615v1)|null|
 |**2026-09-11**|**Breaking the Token Ceiling: Distilling Smaller, Stronger Byte Models**|cs.CL, cs.AI, cs.LG|[2609.12303v1](http://arxiv.org/abs/2609.12303v1)|null|
 |**2026-09-10**|**Beyond Word Error Rate: A Switch Aware Evaluation of ASR and Audio Language Models on English Yoruba Code-Switched Speech**|cs.CL, cs.AI|[2609.11786v1](http://arxiv.org/abs/2609.11786v1)|null|
 |**2026-09-10**|**Complex-Text Robustness Evaluation and Failure Diagnosis for Low-Resource Multilingual Text-to-Speech**|cs.CL, cs.SD|[2609.11545v1](http://arxiv.org/abs/2609.11545v1)|null|
@@ -95,14 +97,14 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-18**|**GADR: Gathering Architecture Decision Records from Meeting Transcriptions**|cs.SE, cs.AI|[2608.17694v1](http://arxiv.org/abs/2608.17694v1)|null|
 |**2026-08-18**|**Cognitive Graph Intelligence for Adaptive and Robust DDoS Attack Detection in Next Generation Networks**|cs.AI|[2608.17352v1](http://arxiv.org/abs/2608.17352v1)|null|
 |**2026-08-17**|**Beyond Asking: A Pipeline for Personalized Game Generation that Reads Players from Behavior**|cs.AI, cs.HC|[2608.16196v1](http://arxiv.org/abs/2608.16196v1)|null|
-|**2026-08-16**|**Iterative Self-Learning for Expressive Text-to-Speech Synthesis**|eess.AS, cs.CL, cs.SD|[2608.15910v1](http://arxiv.org/abs/2608.15910v1)|null|
-|**2026-08-16**|**When Less Is Enough: Context Selection and Prompting Strategies for Bengali News Headline Generation**|cs.CL|[2608.15879v1](http://arxiv.org/abs/2608.15879v1)|null|
-|**2026-08-16**|**BengaliMCQ: Automatic Generation and Answer Prediction of Academic Multiple-Choice Questions in a Low-Resource Language**|cs.CL|[2608.15547v1](http://arxiv.org/abs/2608.15547v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-16**|**Iterative Self-Learning for Expressive Text-to-Speech Synthesis**|eess.AS, cs.CL, cs.SD|[2608.15910v1](http://arxiv.org/abs/2608.15910v1)|null|
+|**2026-08-16**|**When Less Is Enough: Context Selection and Prompting Strategies for Bengali News Headline Generation**|cs.CL|[2608.15879v1](http://arxiv.org/abs/2608.15879v1)|null|
+|**2026-08-16**|**BengaliMCQ: Automatic Generation and Answer Prediction of Academic Multiple-Choice Questions in a Low-Resource Language**|cs.CL|[2608.15547v1](http://arxiv.org/abs/2608.15547v1)|null|
 |**2026-08-15**|**Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL**|cs.AI|[2608.15389v2](http://arxiv.org/abs/2608.15389v2)|null|
 |**2026-08-15**|**Structuring Semantic Embeddings for Principle Evaluation: A Prototype-Guided Contrastive Learning Approach**|cs.LG|[2608.15224v2](http://arxiv.org/abs/2608.15224v2)|null|
 |**2026-08-14**|**Envs-FORGE: Frontier-Optimized Reward-Grounded Environment Synthesis for Agent RL**|cs.CL|[2608.14312v1](http://arxiv.org/abs/2608.14312v1)|**[code](https://github.com/DataArcTech/DataArc-SynData-Toolkit/)**|
@@ -225,10 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-24**|**Riazi-8B: An Urdu Large Language Model for Mathematical Reasoning**|cs.CL|[2606.25568v1](http://arxiv.org/abs/2606.25568v1)|null|
 |**2026-06-24**|**Neural Machine Translation for Low-Resource Tangkhul--English**|cs.CL, cs.AI|[2606.25365v2](http://arxiv.org/abs/2606.25365v2)|null|
 |**2026-06-23**|**Text Distance from Nested and Hierarchical Repetitions: A Compression-Based Perspective**|cs.CL, cs.IT|[2607.05416v1](http://arxiv.org/abs/2607.05416v1)|null|
-|**2026-06-23**|**Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models**|cs.AI, cs.CL|[2606.24841v1](http://arxiv.org/abs/2606.24841v1)|**[code](https://github.com/puraminy/MTO/)**|
-|**2026-06-23**|**Neural Network-Based Parametric Model Reduction for Predicting Turbulent Flow for Different Vehicle Geometries**|cs.CE, cs.AI|[2606.24265v1](http://arxiv.org/abs/2606.24265v1)|null|
 
-README omitted **360** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **362** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

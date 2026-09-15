@@ -12129,6 +12129,46 @@
       "abs_url": "http://arxiv.org/abs/2609.14019v1",
       "pdf_url": "https://arxiv.org/pdf/2609.14019v1",
       "code_url": null
+    },
+    "2609.13721": {
+      "id": "2609.13721",
+      "version": "2609.13721v1",
+      "title": "Scaling Hindi Quantum Natural Language Processing through Automatic Pregroup Supertagging",
+      "authors": [
+        "Gautami Sanjay Naik",
+        "Krishna Bhatia",
+        "Mithun Paul Saint-Germain",
+        "H Aswath Babu"
+      ],
+      "published": "2026-09-12",
+      "updated": "2026-09-12",
+      "categories": [
+        "cs.CL",
+        "quant-ph"
+      ],
+      "abstract": "Quantum Natural Language Processing (QNLP) uses pregroup grammars to translate grammatical structure into diagrammatic representations and quantum circuits. Recent Hindi QNLP work has shown that Hindi-specific pregroup grammars can support grammar-sensitive compositional models, but grammatical type assignment is still largely manual, limiting scalability. This paper formulates automatic Hindi pregroup supertagging as a token-level classification task. Using a manually annotated corpus of 380 Hindi sentences, we evaluate lexical, contextual, prompting-based, lexical-repair, and suffix/morphology-aware methods. Results show that simple lexical and contextual models are strong in this low-resource setting: contextual backoff achieves the best completed accuracy of 64.56\\%, while raw Qwen2.5 prompting reaches only 11.65\\%. Lexical repair raises LLM-assisted prediction to 64.08\\%, demonstrating the value of constraining generative outputs with symbolic grammar knowledge. Diagnostic analysis further shows that seen and unambiguous tokens are much easier than unseen tokens, and suffix/morphology features improve karaka-token accuracy but not overall performance. These results show that automatic Hindi pregroup assignment is feasible and can reduce reliance on manual annotation in future multilingual QNLP pipelines.",
+      "abs_url": "http://arxiv.org/abs/2609.13721v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.13721v1",
+      "code_url": null
+    },
+    "2609.13615": {
+      "id": "2609.13615",
+      "version": "2609.13615v1",
+      "title": "The University of Melbourne WMT 2026 CreoleMT Submission: A Domain-Balanced Approach to Low-Resource Pacific Creole Machine Translation",
+      "authors": [
+        "Raphaël Merx",
+        "Nick Thieberger",
+        "Ekaterina Vylomova"
+      ],
+      "published": "2026-09-12",
+      "updated": "2026-09-12",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "For our submission to the WMT26 Creole Language Translation Shared Task, we focus on machine translation (MT) models for Pacific creoles: Tok Pisin, Bislama, and Solomon Pijin, with particular attention to broad domain performance. After pre-training on a large collection of domain-imbalanced data, we continue fine-tuning on a diverse mix of domain-balanced data. We rely on a number of data collection and preparation techniques, including LLM-assisted respelling and alignment, back-translation, and distillation from Gemini for domains originally not present in training data. Evaluated on Bouquet and a novel test set made of spoken language transcripts, our models beat open model baselines by 3+ chrF++ points in all directions with human-original references. Looking ahead, we plan to develop human-translated test sets for Solomon Pijin and Bislama, and to distil our best models into much smaller ones that retain broad domain coverage.",
+      "abs_url": "http://arxiv.org/abs/2609.13615v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.13615v1",
+      "code_url": null
     }
   }
 }
