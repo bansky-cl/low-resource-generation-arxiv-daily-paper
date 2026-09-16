@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **562**
-- Recent 30 days: **75**
+- Total papers in JSON: **564**
+- Recent 30 days: **77**
 - Older than 30 days: **487**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-15**|**Towards Detecting AI-Assisted Responses in Online Surveys**|cs.CL, cs.CY|[2609.17317v1](http://arxiv.org/abs/2609.17317v1)|**[code](https://github.com/mike-qz-wang/ASURRE)**|
+|**2026-09-15**|**MyoFlow: Anchor-Tied Rectified Flow for HD-sEMG Gesture Recognition Across Sessions and Subjects**|cs.LG|[2609.17194v1](http://arxiv.org/abs/2609.17194v1)|null|
 |**2026-09-14**|**A Language-Guided Multimodal Foundation Model for Zero-Shot and Multi-Task Brain Signal Analysis**|cs.LG, cs.AI|[2609.15740v1](http://arxiv.org/abs/2609.15740v1)|null|
 |**2026-09-14**|**Authorship attribution and aesthetic evaluation of AI poetry: a case study with Haiku**|cs.CL, cs.AI|[2609.15511v1](http://arxiv.org/abs/2609.15511v1)|null|
 |**2026-09-14**|**ProtoGuide: Prototype-Driven Guidance for Class-Conditional Graph Generation**|cs.LG, cs.AI, physics.soc-ph|[2609.15239v1](http://arxiv.org/abs/2609.15239v1)|null|
@@ -225,10 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-25**|**Soft Token Alignment for Cross-Lingual Reasoning**|cs.CL|[2606.26466v1](http://arxiv.org/abs/2606.26466v1)|null|
 |**2026-06-24**|**Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect**|cs.CL|[2606.26003v2](http://arxiv.org/abs/2606.26003v2)|null|
 |**2026-06-24**|**Riazi-8B: An Urdu Large Language Model for Mathematical Reasoning**|cs.CL|[2606.25568v1](http://arxiv.org/abs/2606.25568v1)|null|
-|**2026-06-24**|**Neural Machine Translation for Low-Resource Tangkhul--English**|cs.CL, cs.AI|[2606.25365v2](http://arxiv.org/abs/2606.25365v2)|null|
-|**2026-06-23**|**Text Distance from Nested and Hierarchical Repetitions: A Compression-Based Perspective**|cs.CL, cs.IT|[2607.05416v1](http://arxiv.org/abs/2607.05416v1)|null|
 
-README omitted **362** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **364** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

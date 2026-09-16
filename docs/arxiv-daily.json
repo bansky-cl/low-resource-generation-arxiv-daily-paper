@@ -12169,6 +12169,50 @@
       "abs_url": "http://arxiv.org/abs/2609.13615v1",
       "pdf_url": "https://arxiv.org/pdf/2609.13615v1",
       "code_url": null
+    },
+    "2609.17317": {
+      "id": "2609.17317",
+      "version": "2609.17317v1",
+      "title": "Towards Detecting AI-Assisted Responses in Online Surveys",
+      "authors": [
+        "Qizhou Wang",
+        "Bogdan Mamaev",
+        "Christopher Leckie"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-15",
+      "categories": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "The use of LLMs to complete online surveys impacts the validity of survey-based research, but detecting such usage remains underexplored. We introduce an initial benchmark dataset, namely ASURRE, for AI-assisted survey participation to capture usage strategies ranging from full generation and revision to persona-grounded agentic completion. Controlled by these strategies, LLM-assisted survey responses are generated using multiple LLMs on three real-world surveys in different disciplines, paired with genuine human responses. Our evaluation of existing machine-generated text (MGT) detectors shows that naive AI usage is readily detectable, whereas persona-grounded agents that mimic entire respondents push detector performance toward chance. We further show that agentic completion cannot fully replicate respondent-level behaviour and leaves distinctive behavioural traces. While individual cues can be circumvented by targeted prompting, a simple few-shot, training-free aggregator over these cues improves mean AUROC by +0.14 over the best existing detector across agentic settings. Our project is available at https://github.com/mike-qz-wang/ASURRE.",
+      "abs_url": "http://arxiv.org/abs/2609.17317v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17317v1",
+      "code_url": "https://github.com/mike-qz-wang/ASURRE"
+    },
+    "2609.17194": {
+      "id": "2609.17194",
+      "version": "2609.17194v1",
+      "title": "MyoFlow: Anchor-Tied Rectified Flow for HD-sEMG Gesture Recognition Across Sessions and Subjects",
+      "authors": [
+        "Chenhao Wu",
+        "Dingjie Peng",
+        "Satoshi Funabashi",
+        "Satoshi Konishi",
+        "Wuqiang Yang",
+        "Hiroshi Onoda",
+        "Hironori Washizaki",
+        "Jiang Liu"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-15",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "High-density surface electromyography (HD-sEMG) gesture recognition supports prosthetic control, assistive robotics, and rehabilitation, but electrode re-donning and physiological variability cause distribution shifts that degrade accuracy across sessions and subjects. Generative HD-sEMG models primarily synthesize signals for augmentation; although diffusion models enhance representation learning, prediction still relies on a separate classifier. To tie learned dynamics to the decision rule, we propose MyoFlow, the first discriminative flow-matching framework for HD-sEMG recognition across sessions and subjects. It recasts classification as anchor-tied transport: a domain-conditioned rectified flow moves encoded windows toward gesture anchors that serve as transport targets and define the nearest-anchor decision geometry, enabling zero-shot prediction without an independent head. On the Hyser dataset, MyoFlow improves mean cross-session and cross-subject accuracy over the strongest diffusion-based baseline by 4.24\\% and 6.37\\%, respectively, and achieves 91.71\\% mean zero-shot accuracy and 97.39\\% mean few-shot accuracy across multiple days on the CEMHSEY dataset.",
+      "abs_url": "http://arxiv.org/abs/2609.17194v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17194v1",
+      "code_url": null
     }
   }
 }
