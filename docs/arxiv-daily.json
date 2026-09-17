@@ -12213,6 +12213,155 @@
       "abs_url": "http://arxiv.org/abs/2609.17194v1",
       "pdf_url": "https://arxiv.org/pdf/2609.17194v1",
       "code_url": null
+    },
+    "2609.18739": {
+      "id": "2609.18739",
+      "version": "2609.18739v1",
+      "title": "A Scalable Framework for Automated NER Annotation Correction in Low-Resource Languages",
+      "authors": [
+        "Toqeer Ehsan",
+        "Thamar Solorio"
+      ],
+      "published": "2026-09-16",
+      "updated": "2026-09-16",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Poor quality or noisy annotations in Named Entity Recognition (NER), as in any other NLP task, make it challenging to achieve state-of-the-art performance. In this paper, we present a multi-step framework to enhance the annotation quality of NER datasets by employing automated techniques. We propose a frequency-based iterative approach that leverages self-training and a dual-threshold mechanism to enhance inference confidence. Experimental evaluations on different NER datasets demonstrate significant improvements in NER performance with respect to the original datasets. This work further explores the potential of generative Large Language Models (LLMs) to perform NER for low-resource languages.",
+      "abs_url": "http://arxiv.org/abs/2609.18739v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.18739v1",
+      "code_url": null
+    },
+    "2609.18529": {
+      "id": "2609.18529",
+      "version": "2609.18529v1",
+      "title": "Machine Translation between English and Syriac (East Syriac Dialect) using Statistical Machine Learning",
+      "authors": [
+        "Hadiana Sliwa",
+        "Hossein Hassani"
+      ],
+      "published": "2026-09-16",
+      "updated": "2026-09-16",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "UNESCO considers the Assyrian (Syriac) language an endangered language. Although Assyrians speak the language worldwide, the speaking population is uncertain (ranging from 500,000 to 1,500,000). Syriac is also one of the least studied languages in Natural Language Processing (NLP). Despite advances in Machine Translation (MT) over the past decade, the lack of publicly available corpora and the orthographic complexity of the Syriac script, specifically the Madnkhaya script, have left this language entirely ignored in the computational linguistics literature. This study develops the first phrase-based Statistical MT (SMT) model for English-to-Assyrian MT using the Moses framework. We created a dataset of 38,847 sentence pairs from the complete English and Syriac Bible, merging a pre-existing New Testament dataset with an Old Testament built from scratch through PDF extraction, using custom segmentation scripts and manual alignment review by three bilingual annotators. The Syriac side of the corpus undergoes diacritic removal and Byte-Pair Encoding tokenization to reduce orthographic sparsity before training. We trained and evaluated six models using different configurations and splitting-scheme ratios, language model order, distortion limits, and the inclusion of an Operation Sequence Model. The best-performing configuration achieves a word-level BLEU score of 23.54. Human evaluation by 11 native Assyrian speakers resulted in mean adequacy and fluency scores of 3.42 and 3.34 out of 5, respectively. These results are consistent with comparable low-resource SMT models trained on Biblical corpora for morphologically rich Semitic languages. The corpora, scripts, and trained model are publicly available, providing the research community with the first systematically curated English-Syriac dataset and a reproducible baseline for future MT and broader NLP work on this endangered language.",
+      "abs_url": "http://arxiv.org/abs/2609.18529v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.18529v1",
+      "code_url": null
+    },
+    "2609.17977": {
+      "id": "2609.17977",
+      "version": "2609.17977v1",
+      "title": "When to Call an LLM: A Confidence-Gated Hybrid for Cost-Effective Emotion Recognition in Conversational AI",
+      "authors": [
+        "Sai Babu Udayagiri",
+        "Arjun Chouhan",
+        "Ravisekhar Kanagala",
+        "Trishala Pavagada"
+      ],
+      "published": "2026-09-16",
+      "updated": "2026-09-16",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Emotion recognition in conversation (ERC) is a production capability behind agent-assist prompts, escalation routing, and post-call analytics in contact-center-as-a-service (CCaaS) platforms, where cost and latency constraints matter as much as accuracy. We report a systems-level comparison of three deployment options for dialogue-contextual ERC: a low-cost stacked ensemble (sentence embeddings, windowed context, RandomForest/XGBoost/logistic-regression stacking), off-the-shelf LLM prompting (GPT-4o-mini; zero-shot, few-shot, chain-of-thought), and a confidence-gated hybrid that escalates only the ensemble's least-confident predictions to the LLM - modeled on IVA-to-human-agent escalation policies used in production contact centers. On IEMOCAP, the ensemble significantly outperforms every LLM configuration (0.595 vs. 0.460-0.536 weighted F1, p < 0.0001) at a fraction of the cost and sub-10ms latency; on MELD and CMU-MOSI the ranking reverses, showing neither pure system is a safe default. The confidence-gated hybrid resolves this by Pareto-dominating both pure systems on all three datasets (0.620, 0.643, 0.824 weighted F1) while routing the majority of traffic through the near-zero-cost ensemble, translating to roughly $10-85 per million utterances versus $99-170 for an LLM-only pipeline. The escalation policy is not an opaque cost/accuracy dial: escalated turns disproportionately follow an emotion or sentiment shift, giving operators an interpretable, auditable routing signal, and the ensemble's confidence is well-calibrated and safely under- rather than over-confident. The pattern holds across three datasets and two LLM providers. Confidence-gated cascading is established in general ML systems; our contribution is showing it transfers cleanly to dialogue-contextual ERC, yielding a concrete deployment recipe for CCaaS and conversational-AI platforms deciding how to allocate LLM spend.",
+      "abs_url": "http://arxiv.org/abs/2609.17977v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17977v1",
+      "code_url": null
+    },
+    "2609.18111": {
+      "id": "2609.18111",
+      "version": "2609.18111v1",
+      "title": "A Comprehensive Review of Generative Physical Artificial Intelligence",
+      "authors": [
+        "Satyam Gaba",
+        "Krutiksinh Rana",
+        "Siva Sai",
+        "Vinay Chamola",
+        "Dusit Niyato"
+      ],
+      "published": "2026-09-16",
+      "updated": "2026-09-16",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CL",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "The integration of large-scale foundation models with physical embodiments has led to significant advancements in robotics known as Generative Physical Artificial Intelligence (GPAI). These agentic AI systems autonomously perceive, reason, and act in complex real-world situations. This survey comprehensively analyzes GPAI systems, focusing on their architectural foundations, current applications, and key limitations. We introduce a taxonomy of five distinct approaches: Robot Foundation Models (RFMs) for cross-platform skill transfer; Vision-Language Action (VLA) models for end-to-end multi-modal perception and control; Large Behavior Models (LBMs) for human-like movement generation; Diffusion Policy Models (DPMs) for diffusion model-based temporally coherent action generation; and World Foundation Models (WFMs) for physics-compliant simulation and data generation. We examine how these approaches complement each other: WFMs generate training data for VLAs and DPMs, RFMs enable cross-platform deployment of learned policies, while LBMs provide motion priors for natural behavior. Through examples across autonomous vehicles, industrial automation, healthcare robotics, and humanoid systems, we identify significant performance improvements and summarize promising research directions in data-efficient learning, sim-to-real transfer, edge-compatible architectures, and safety frameworks. These insights advance embodied AI for IoT-connected environments where intelligent agents interact with networked sensors, actuators, and edge devices.",
+      "abs_url": "http://arxiv.org/abs/2609.18111v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.18111v1",
+      "code_url": null
+    },
+    "2609.17646": {
+      "id": "2609.17646",
+      "version": "2609.17646v1",
+      "title": "Robust and Efficient AI Frameworks for Scalable Material Design and Property Prediction",
+      "authors": [
+        "Kishalay Das"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-15",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cs.LG"
+      ],
+      "abstract": "This thesis develops robust and efficient AI frameworks for accelerating crystalline materials discovery by addressing both major stages of the materials-design pipeline: crystal property prediction and crystal structure generation. Motivated by the high computational cost of Density Functional Theory (DFT) and the limited availability of labeled materials data, the thesis explores graph representation learning, pretraining, multimodal learning, and generative modeling for scalable materials design. For property prediction, the thesis first introduces CrysXPP, which learns transferable crystal representations through unsupervised graph autoencoding, reducing dependence on large property-labeled datasets. It then proposes CrysGNN, a large-scale self-supervised graph pretraining framework that captures atomic connectivity, chemical attributes, and global structural information and transfers this knowledge to downstream property predictors through knowledge distillation. CrysMMNet further enriches crystal representations by jointly modeling graph structure and textual descriptions, thereby incorporating both local chemical and global structural knowledge. For crystal generation, the thesis introduces TGDMat, a text-guided joint diffusion framework that jointly models lattice parameters, atomic types, and atomic coordinates while incorporating textual structural knowledge during denoising. This enables the generation of more valid and stable periodic materials while also supporting conditional generation from natural-language descriptions. Overall, the thesis establishes a unified AI-based framework for data-efficient property prediction and controllable crystal generation, demonstrating how graph learning, multimodal representations, and generative models can reduce computational cost and improve the scalability of materials",
+      "abs_url": "http://arxiv.org/abs/2609.17646v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17646v1",
+      "code_url": null
+    },
+    "2609.18207": {
+      "id": "2609.18207",
+      "version": "2609.18207v1",
+      "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+      "authors": [
+        "Perry Dong",
+        "Kuo-Han Hung",
+        "Dorsa Sadigh",
+        "Chelsea Finn"
+      ],
+      "published": "2026-09-16",
+      "updated": "2026-09-16",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "abstract": "Reinforcement learning fine-tuning on top of large, pretrained Vision-Language-Action (VLA) models offers promise for highly reliable robot deployment. However, because of their scale, modern VLA models suffer from high inference latency, so the observation used to select an action is often stale by execution time, creating a distribution shift that can substantially degrade reliability and performance. Prior work has explored asynchronous policy execution to reduce the effect of latency, but these methods are mostly built on imitation learning and offer no mechanism for moving beyond the training distribution toward higher reliability. We close this gap by enabling RL fine-tuning that meets the real-time control requirements of dynamic real-world manipulation. Our approach builds on EXPO-FT, a framework for sample-efficient, reliable VLA fine-tuning with reinforcement learning, and decouples slow, expressive action generation from fast, reactive action edits: a large pretrained VLA proposes action chunks using its strong behavior prior, while a lightweight edit policy performs fast, reactive decision-making by editing actions in response to changes in state, conditioned on the latest observation. We instantiate this as Real-Time EXPO-FT, an RL framework for finetuning real-time VLA policies. On the Kinetix benchmark, Real-Time EXPO-FT enables a delayed policy to achieve the best performance among delayed and non-delayed methods in 10 out of 10 environments. On four dynamic real-world tasks, robot object passing, ball balancing, table soccer kicking, and dynamic object picking, with online robot data capped at 10 minutes, Real-Time EXPO-FT improves average policy performance from 42% to 97%, all without human intervention, demonstrating rapid, sample-efficient adaptation to challenging real-world dynamics. Website: https://pd-perry.github.io/real-time-expo-ft",
+      "abs_url": "http://arxiv.org/abs/2609.18207v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.18207v1",
+      "code_url": "https://pd-perry.github.io/real-time-expo-ft"
+    },
+    "2609.17536": {
+      "id": "2609.17536",
+      "version": "2609.17536v1",
+      "title": "Think Before You Comfort: Reflective Cognitive Alignment for Protocol-Grounded Elderly Stimulation Agents",
+      "authors": [
+        "Jiyue Jiang",
+        "Ziyi Li",
+        "He Hu",
+        "Sheng Wang",
+        "Yuhan Chen",
+        "Yanyu Chen",
+        "Jingqi Zhou",
+        "Pengan Chen",
+        "Fei Ma",
+        "Irwin King",
+        "Yu Li",
+        "Chuan Wu"
+      ],
+      "published": "2026-07-13",
+      "updated": "2026-07-13",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Cognitive Stimulation Therapy (CST) offers non-pharmacological support for elders with cognitive impairment, yet scalability remains constrained by reliance on trained facilitators and severe data scarcity, particularly for privacy-sensitive, low-resource languages such as Cantonese. While Large Language Models (LLMs) show promise for automated companionship, they often struggle to balance empathetic engagement with adherence to cognitive stimulation guidelines. We propose a framework addressing these challenges along two complementary axes. First, STaR-CS (Style-Transfer and Role-Conditioned Cognitive Stimulation) synthesizes multi-party dialogues through facilitator style modeling and structured skeleton extraction, mitigating data barriers. Building upon this corpus, the Reflective Cognitive Alignment (RCA) framework models stimulation interactions as a sequential decision process, integrating Protocol-Constrained Chain-of-Cognition (PC-CoC) for structured reasoning and Inference-Time Value Alignment (IVA) for principled response selection based on safety and engagement goals. Evaluations across six backbone LLMs and two independent judges show that RCA consistently improves protocol adherence, safety, and group facilitation over standard prompting baselines. Our code is available at https://github.com/jiangjyjy/RCA_Agent.",
+      "abs_url": "http://arxiv.org/abs/2609.17536v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.17536v1",
+      "code_url": "https://github.com/jiangjyjy/RCA_Agent"
     }
   }
 }
