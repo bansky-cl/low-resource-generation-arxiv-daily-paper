@@ -12362,6 +12362,63 @@
       "abs_url": "http://arxiv.org/abs/2609.17536v1",
       "pdf_url": "https://arxiv.org/pdf/2609.17536v1",
       "code_url": "https://github.com/jiangjyjy/RCA_Agent"
+    },
+    "2609.20130": {
+      "id": "2609.20130",
+      "version": "2609.20130v1",
+      "title": "AdaRepair-Mem: Adaptive Experience Orchestration for Repository-Level Program Repair",
+      "authors": [
+        "Z. C. Luo",
+        "J. C. Guo",
+        "W. J. He",
+        "S. Y. Wang",
+        "J. C. Yu",
+        "F. M. Zhao",
+        "Y. Chen",
+        "T. Cao",
+        "L. Q. Liu",
+        "N. Zheng",
+        "W. Xu",
+        "J. Jiang",
+        "Z. M. Zhao"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-17",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "abstract": "Recent memory-augmented repository-level program repair methods reuse historical repair experiences to improve LLM-based issue resolution. However, our analysis reveals three limitations in existing repository-level memory retrieval. First, episodic memory is highly imbalanced across repositories, leaving low-resource repositories with little effective support. Second, more memory does not monotonically lead to higher repair success, suggesting that relevance, quality, and redundancy matter more than raw memory volume. Third, memory accumulation is phase-misaligned: repositories may contain many reproduction experiences but few patch or refinement experiences. To address these problems, we propose an adaptive experience retrieval framework for repository-level program repair. Our framework introduces coverage-aware retrieval, which falls back to cross-repository or repair-type-based memories when same-repository memory is insufficient; quality-aware selection, which ranks memories by relevance, historical utility, specificity, and redundancy; and stage-aware routing, which separates and retrieves memories for reproduction, localization, patch generation, patch refinement, and validation. Evaluated on SWE-Bench-Lite and SWE-Bench-Verified, the proposed framework improves repair performance on under-covered repositories, reduces noisy memory retrieval, and better supports failed-to-fixed patch refinement. Our results show that the key to memory-augmented repair is not simply accumulating more experiences, but retrieving the right experiences for the right repair context.",
+      "abs_url": "http://arxiv.org/abs/2609.20130v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20130v1",
+      "code_url": null
+    },
+    "2609.19585": {
+      "id": "2609.19585",
+      "version": "2609.19585v1",
+      "title": "CliniCIRCA: A Modular LLM Framework for Constructing Longitudinal Mental Health Patient Journeys from Raw EHR Narratives",
+      "authors": [
+        "Aiwei Ivy Zhang",
+        "Nimra Ishfaq",
+        "Mohit Chandra",
+        "Santiago Alvarez Lesmes",
+        "Adam Coscia",
+        "Khatiya Chelidze Moon",
+        "Xiaohan Ding",
+        "Munmun De Choudhury"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-17",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "abstract": "In mental health care, reasoning over patient journeys is a key task for clinicians. Yet these journeys, encompassing a longitudinal progression of biological, psychological, and social events, are often spread across disparate unstructured text narratives, making temporal recovery challenging. We present CliniCIRCA, a multi-stage LLM framework for Calendar-anchored, Imprecision-aware Reconstruction of Clinical Annals. To our knowledge, CliniCIRCA is the first to temporally classify clinical events across unstructured discharge summaries without event-level timestamps. From 14,882 MIMIC-III mental health admissions, we first construct a benchmark of 52 discharge summaries on which CliniCIRCA produces 15,891 temporally tagged events. After correcting 629 errors based on a clinician-in-the-loop evaluation, we produce verified gold-standard labels. Finally, the corrected timelines drive a temporally grounded summarization stage that compresses each source 1.52 times into a date-grouped chronological record. We then scale the framework to generate 1,000 silver-standard timelines and evaluate them as training data. Compared with zero- and few-shot prompting, instruction tuning generally improves five open-weight models on event extraction, temporal tagging, and summarization across silver and clinician-verified evaluations.",
+      "abs_url": "http://arxiv.org/abs/2609.19585v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.19585v1",
+      "code_url": null
     }
   }
 }

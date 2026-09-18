@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **571**
-- Recent 30 days: **79**
+- Total papers in JSON: **573**
+- Recent 30 days: **81**
 - Older than 30 days: **492**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-17**|**AdaRepair-Mem: Adaptive Experience Orchestration for Repository-Level Program Repair**|cs.SE, cs.AI|[2609.20130v1](http://arxiv.org/abs/2609.20130v1)|null|
+|**2026-09-17**|**CliniCIRCA: A Modular LLM Framework for Constructing Longitudinal Mental Health Patient Journeys from Raw EHR Narratives**|cs.CL, cs.AI, cs.IR, cs.LG|[2609.19585v1](http://arxiv.org/abs/2609.19585v1)|null|
 |**2026-09-16**|**A Scalable Framework for Automated NER Annotation Correction in Low-Resource Languages**|cs.CL, cs.AI|[2609.18739v1](http://arxiv.org/abs/2609.18739v1)|null|
 |**2026-09-16**|**Machine Translation between English and Syriac (East Syriac Dialect) using Statistical Machine Learning**|cs.CL|[2609.18529v1](http://arxiv.org/abs/2609.18529v1)|null|
 |**2026-09-16**|**Reinforcement Learning for Real-Time Vision-Language-Action Policies**|cs.RO, cs.LG|[2609.18207v1](http://arxiv.org/abs/2609.18207v1)|**[code](https://pd-perry.github.io/real-time-expo-ft)**|
@@ -225,10 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-06-29**|**Translating Natural Language to Strategic Temporal Specifications via LLMs**|cs.MA, cs.AI|[2606.30441v2](http://arxiv.org/abs/2606.30441v2)|null|
 |**2026-06-29**|**ARMOR: Adaptive Retriever Optimization for Low-Resource Telecom Question Answering**|cs.IR, cs.AI, cs.CL, cs.LG|[2606.29706v1](http://arxiv.org/abs/2606.29706v1)|**[code](https://github.com/heshandevaka/ARMOR.git)**|
 |**2026-06-28**|**KrishokChat: A Citation-Grounded Dataset and Benchmark for Bengali Agricultural Advisory**|cs.LG|[2606.29243v1](http://arxiv.org/abs/2606.29243v1)|null|
-|**2026-06-26**|**Beyond Sparse Supervision: Diffusion-Guided Learning for Few-Shot Graph Fraud Detection**|cs.LG, cs.AI|[2606.28134v1](http://arxiv.org/abs/2606.28134v1)|null|
-|**2026-06-26**|**SHARD: cell-keyed residual splitting for alignment-resistant private dense retrieval**|cs.CR, cs.AI, cs.IR|[2606.27976v1](http://arxiv.org/abs/2606.27976v1)|null|
 
-README omitted **371** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **373** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
