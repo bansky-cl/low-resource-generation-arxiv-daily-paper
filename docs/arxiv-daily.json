@@ -12419,6 +12419,62 @@
       "abs_url": "http://arxiv.org/abs/2609.19585v1",
       "pdf_url": "https://arxiv.org/pdf/2609.19585v1",
       "code_url": null
+    },
+    "2609.21179": {
+      "id": "2609.21179",
+      "version": "2609.21179v1",
+      "title": "Not All Irregularity Is Equal: Causally Isolating a Rare Failure Mode in Japanese Morphological Inflection",
+      "authors": [
+        "Wen Zhang"
+      ],
+      "published": "2026-09-18",
+      "updated": "2026-09-18",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Neural morphological generation systems often achieve high aggregate accuracy on benchmark datasets, yet such performance can conceal systematic errors clustered in rare morphological subclasses. We present an orthography-aware diagnosis of Japanese past-tense verb inflection, treating hiragana not merely as a transcriptional medium but as a representational system that encodes morphophonological structure. Using two character-level Transformer architectures evaluated across five random seeds, we show that although both systems exceed 97% aggregate accuracy, a single structurally specific irregular subtype, verbs whose stems end in /e/ and require gemination before the past-tense suffix and make up fewer than 1% of the data, accounts for a disproportionate 30-43% share of residual errors and contributes roughly 34-48x its prevalence to total errors. We then move from diagnosis to causal isolation: controlled ablation experiments show that removing this subtype alone produces larger accuracy gains than removing all irregular verbs combined. These findings indicate that error concentration in neural morphological learning is not driven by irregularity per se, but by the interaction between extreme low-frequency morphological patterns and specific orthographic processes. We argue that morphological evaluation should incorporate fine-grained subclass analysis, and discuss implications for data-efficient, developmentally plausible language model pretraining.",
+      "abs_url": "http://arxiv.org/abs/2609.21179v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.21179v1",
+      "code_url": null
+    },
+    "2609.20899": {
+      "id": "2609.20899",
+      "version": "2609.20899v1",
+      "title": "SpaceDiffusion: Over-the-Orbit Diffusion for Space Generate-and-Forward Communications",
+      "authors": [
+        "Jianhao Huang",
+        "Zhanwei Wang",
+        "Khaled B. Letaief",
+        "Kaibin Huang"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-17",
+      "categories": [
+        "cs.IT",
+        "cs.AI"
+      ],
+      "abstract": "Satellite communications are an essential component of sixth-generation (6G) mobile networks, which provide ubiquitous connectivity for global services. However, the satellite uplink remains a critical bottleneck for ground devices: their limited transmit power and antenna apertures result in low data rates and high packet errors. To overcome this bottleneck, this paper advocates a novel relaying paradigm termed generate-and-forward (GF) communications, where satellites exploit on-orbit generative artificial intelligence (AI) to robustly reconstruct corrupted data prior to forwarding. Specifically, we propose SpaceDiffusion, an over-the-orbit diffusion framework for satellite-assisted image transmission. The core of this framework is a channel-distortion-aware diffusion theory developed using the following approach. By formulating the recovery of compressed and lost image tokens as an inverse problem, this theory incorporates a channel-distortion correction term directly into the conventional denoising diffusion implicit model (DDIM) update. As a result, this design enables a single pretrained diffusion model to adapt dynamically to varying packet-loss patterns and compression distortions without retraining. Furthermore, we analytically characterize the progressive token-reconstruction error and derive a diffusion-step activation threshold that predicts when SpaceDiffusion is expected to outperform conventional decode-and-forward (DF) relaying. Building on these theoretical insights, we further develop an energy-aware early-exit policy to efficiently deploy SpaceDiffusion in orbit. Experimental results demonstrate that SpaceDiffusion achieves lower end-to-end latency compared to DF scheme with retransmission protocol and saves approximately 15 dB of uplink transmit power at a target perceptual quality.",
+      "abs_url": "http://arxiv.org/abs/2609.20899v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20899v1",
+      "code_url": null
+    },
+    "2609.20978": {
+      "id": "2609.20978",
+      "version": "2609.20978v1",
+      "title": "Generative inversion for early ranking of competing geologic interpretations",
+      "authors": [
+        "Harun Ur Rashid",
+        "Daniel O'Malley"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-17",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "High-consequence subsurface decisions are often made under severe data scarcity. Experts may arrive at competing interpretations of the same subsurface system, yet early in a project there is rarely a practical way to determine which one is most realistic. This uncertainty can persist until several wells are drilled, often costing millions of dollars. Existing approaches for evaluating geologic interpretations rely either on subjective judgment or on dense data that are rarely available in early-stage investigations. We present a workflow that addresses this challenge by translating competing geologic interpretations into alternative spatial priors and ranking them according to their consistency with hydraulic-head observations. For each interpretation, a text-to-image foundation model generates an ensemble of 1600 geologic images, and a separately trained variational autoencoder provides an interpretation-specific latent representation. A supervised inverse network maps the head observations into this latent space, and the frozen decoder produces an image that is mapped to a log-conductivity field. Steady-state flow simulation then provides predicted heads, and the resulting mismatch is converted into a Gaussian-form compatibility score. We evaluate the framework using a synthetic benchmark based on the Johansen Formation and three interpretations of decreasing consistency with the reference representation. Across 925 test cases, the mean head RMSE increases from 0.197 for the Precise \\& Accurate interpretation to 0.227 for the Accurate interpretation and 0.280 for the Mismatched interpretation. We subsequently apply the workflow to two published conceptual models of the Culebra Dolomite Member at the Waste Isolation Pilot Plant. The revised model receives a compatibility weight of 0.991, compared with 0.009 for the original model, consistent with the independent evidence.",
+      "abs_url": "http://arxiv.org/abs/2609.20978v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.20978v1",
+      "code_url": null
     }
   }
 }
