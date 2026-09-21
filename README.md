@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.09.21
+## Updated on 2026.09.22
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **576**
-- Recent 30 days: **80**
-- Older than 30 days: **496**
+- Recent 30 days: **79**
+- Older than 30 days: **497**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -101,12 +101,12 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-24**|**From Multimodal Observation to Interpretable Suggestions: Counterfactual Time-Expanded Relational Modeling of Surgical Teams**|cs.LG|[2608.23254v1](http://arxiv.org/abs/2608.23254v1)|null|
 |**2026-08-24**|**Statistical Machine Translation Systems of English-Pnar Language Pair : Some Insights of the Emperical Study**|cs.CL, cs.AI|[2608.23120v1](http://arxiv.org/abs/2608.23120v1)|null|
 |**2026-08-24**|**DIAG: Diagnostic Iterative Alignment and Generation for Data-Efficient Mathematical Preference Distillation**|cs.CL|[2608.22806v1](http://arxiv.org/abs/2608.22806v1)|null|
-|**2026-08-22**|**LLMs are Few-Shot Decision-Makers: Generalized Context-Aware Microgrid Frequency Control through Prompt Decision Transformer**|eess.SY, cs.AI|[2608.21858v1](http://arxiv.org/abs/2608.21858v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-22**|**LLMs are Few-Shot Decision-Makers: Generalized Context-Aware Microgrid Frequency Control through Prompt Decision Transformer**|eess.SY, cs.AI|[2608.21858v1](http://arxiv.org/abs/2608.21858v1)|null|
 |**2026-08-20**|**HealMed: Multilingual Evaluation of Large Language Models in Medicine**|cs.CL|[2608.19981v1](http://arxiv.org/abs/2608.19981v1)|null|
 |**2026-08-20**|**ADAPT: Physics-Aware Diffusion-based World Models for Adaptive Predictive Transferable HVAC Control**|cs.AI|[2608.19804v1](http://arxiv.org/abs/2608.19804v1)|null|
 |**2026-08-19**|**TranslatePsy-AfriSLM: High-Quality Data Scaling For Low-Resource Machine Translation**|cs.CL|[2608.18655v2](http://arxiv.org/abs/2608.18655v2)|null|
