@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **576**
-- Recent 30 days: **79**
+- Total papers in JSON: **581**
+- Recent 30 days: **84**
 - Older than 30 days: **497**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,11 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-21**|**URA-NER: A Unified Retrieval-Augmented Framework with Retrieval Alignment and Uncertainty Reduction for Low-Resource NER**|cs.CL, cs.AI|[2609.24372v1](http://arxiv.org/abs/2609.24372v1)|null|
+|**2026-09-21**|**Few-Shot Demonstrations Elicit the Use of In-Context World Representations in LLMs**|cs.AI|[2609.24352v1](http://arxiv.org/abs/2609.24352v1)|null|
+|**2026-09-20**|**Error-Supervised Synthetic Learner Writing for Automated Essay Scoring**|cs.CL|[2609.23573v1](http://arxiv.org/abs/2609.23573v1)|null|
+|**2026-09-20**|**BabelArena: A Large-Scale Multilingual Benchmark for LLM Agents**|cs.CL|[2609.23490v1](http://arxiv.org/abs/2609.23490v1)|null|
+|**2026-09-19**|**Beyond Similarity: Coverage-Aware Prompt Selection for Time Series Forecasting with LLMs**|cs.LG, cs.CL|[2609.22977v1](http://arxiv.org/abs/2609.22977v1)|null|
 |**2026-09-18**|**Not All Irregularity Is Equal: Causally Isolating a Rare Failure Mode in Japanese Morphological Inflection**|cs.CL|[2609.21179v1](http://arxiv.org/abs/2609.21179v1)|null|
 |**2026-09-17**|**Generative inversion for early ranking of competing geologic interpretations**|cs.LG|[2609.20978v1](http://arxiv.org/abs/2609.20978v1)|null|
 |**2026-09-17**|**SpaceDiffusion: Over-the-Orbit Diffusion for Space Generate-and-Forward Communications**|cs.IT, cs.AI|[2609.20899v1](http://arxiv.org/abs/2609.20899v1)|null|
@@ -222,13 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-01**|**Sequentially-Controlled Interactive Multi-Particle Flow-Maps for Online Feedback-Driven Search**|cs.LG, cs.AI, cs.CE|[2607.01144v1](http://arxiv.org/abs/2607.01144v1)|null|
 |**2026-06-30**|**ALEE: Any-Language Evaluation of Embeddings via English-Centric Minimal Pairs**|cs.CL|[2607.00171v1](http://arxiv.org/abs/2607.00171v1)|**[code](https://github.com/Andrian0s/any-lang-embed-eval)**|
 |**2026-06-30**|**Cross-lingual Relation Extraction with Large Language Models: Zero-Shot, Few-Shot, and Fine-Tuned Evaluation on Romanian**|cs.CL, cs.AI|[2606.31718v1](http://arxiv.org/abs/2606.31718v1)|null|
-|**2026-06-30**|**Modality-Driven Search with Holistic Trace Judging for ARC-AGI-2**|cs.AI, cs.CL, cs.LG|[2606.31543v1](http://arxiv.org/abs/2606.31543v1)|null|
-|**2026-06-30**|**Agentic-Ideation: Sample Efficient Agentic Trajectories Synthesis for Scientific Ideation Agents**|cs.AI|[2606.31229v1](http://arxiv.org/abs/2606.31229v1)|null|
-|**2026-06-30**|**Cross-Domain Feature Expansion for Tabular Medical Data via Knowledge Graphs Injection**|cs.AI, cs.ET|[2606.31171v1](http://arxiv.org/abs/2606.31171v1)|null|
-|**2026-06-30**|**Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?**|cs.LG, q-bio.QM, stat.ML|[2606.31126v2](http://arxiv.org/abs/2606.31126v2)|null|
-|**2026-06-29**|**Bridging Scientific Heritage: An Arabic--Russian Parallel Corpus and LLM Benchmark for Sustainable Knowledge Transfer**|cs.CL|[2606.30943v1](http://arxiv.org/abs/2606.30943v1)|null|
 
-README omitted **376** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **381** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
