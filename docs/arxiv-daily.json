@@ -12583,6 +12583,49 @@
       "abs_url": "http://arxiv.org/abs/2609.22977v1",
       "pdf_url": "https://arxiv.org/pdf/2609.22977v1",
       "code_url": null
+    },
+    "2609.26347": {
+      "id": "2609.26347",
+      "version": "2609.26347v1",
+      "title": "TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling",
+      "authors": [
+        "Julien Knafou",
+        "Luc Mottin",
+        "Anaïs Mottaz",
+        "Alexandre Flament",
+        "Patrick Ruch"
+      ],
+      "published": "2026-09-22",
+      "updated": "2026-09-22",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "The scarcity of non-English language data in specialized domains significantly limits the development of effective Natural Language Processing (NLP) tools. We present TransBERT, a novel framework for pre-training language models using exclusively synthetically translated text, and introduce TransCorpus, a scalable translation toolkit. Focusing on the life sciences domain in French, our approach demonstrates that state-of-the-art performance on various downstream tasks can be achieved solely by leveraging synthetically translated data. We release the TransCorpus toolkit, the TransCorpus-bio-fr corpus (36.4GB of French life sciences text), TransBERT-bio-fr, its associated pre-trained language model and reproducible code for both pre-training and fine-tuning. Our results highlight the viability of synthetic translation in a high-resource translation direction for building high-quality NLP resources in low-resource language/domain pairs.",
+      "abs_url": "http://arxiv.org/abs/2609.26347v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.26347v1",
+      "code_url": null
+    },
+    "2609.25833": {
+      "id": "2609.25833",
+      "version": "2609.25833v1",
+      "title": "ARAFA: An LLM-Generated Arabic Fact-Checking Dataset",
+      "authors": [
+        "Christophe Khalil",
+        "Shady Elbassuoni",
+        "Rida Assaf"
+      ],
+      "published": "2026-09-22",
+      "updated": "2026-09-22",
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "abstract": "Automatic fact-checking poses a significant challenge in Arabic natural language processing due to the scarcity of datasets and resources. In this manuscript, we introduce Arafa, a new large-scale dataset for fact-checking in Modern Standard Arabic, constructed through an automated framework leveraging large language models (LLMs). The dataset was constructed through a three-step pipeline: (1) claim generation from Arabic Wikipedia pages with supporting textual evidence, (2) claim mutation to generate challenging counterfactual claims with refuting evidence, and (3) an automatic validation step to validate that the generated claims are either supported or refuted by their accompanying evidence, or if the evidence does not provide enough information to judge the validity of the claims. The resulting dataset comprises 181,976 claim-evidence pairs labeled as supported, refuted, or not enough information. Human evaluation carried out on a test sample from the dataset demonstrated strong inter-annotator agreement (kappa = 0.89) using Cohen's Kappa for supported claims and (kappa = 0.94) for refuted claims. Automatic validation based on a human-evaluated sample achieved 86% accuracy for supported claims and 88% for refuted ones. To showcase Arafa's value as a resource for automatic Arabic fact-checking, four open-source transformer-based models were fine-tuned using Arafa, with the top-performing model achieving a Macro F1-score of 77% on the test data. In addition to Arafa being the first large-scale dataset for Arabic fact-checking, our framework presents a scalable approach for developing similar resources for other low-resource languages.",
+      "abs_url": "http://arxiv.org/abs/2609.25833v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.25833v1",
+      "code_url": null
     }
   }
 }
