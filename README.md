@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **583**
-- Recent 30 days: **80**
+- Total papers in JSON: **584**
+- Recent 30 days: **81**
 - Older than 30 days: **503**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,7 +22,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
-|**2026-09-22**|**TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling**|cs.CL, cs.AI, cs.LG|[2609.26347v1](http://arxiv.org/abs/2609.26347v1)|null|
+|**2026-09-23**|**Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?**|cs.CL, cs.AI|[2609.28245v1](http://arxiv.org/abs/2609.28245v1)|null|
+|**2026-09-22**|**TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling**|cs.CL, cs.AI, cs.LG|[2609.26347v2](http://arxiv.org/abs/2609.26347v2)|null|
 |**2026-09-22**|**ARAFA: An LLM-Generated Arabic Fact-Checking Dataset**|cs.CL, cs.IR|[2609.25833v1](http://arxiv.org/abs/2609.25833v1)|null|
 |**2026-09-21**|**URA-NER: A Unified Retrieval-Augmented Framework with Retrieval Alignment and Uncertainty Reduction for Low-Resource NER**|cs.CL, cs.AI|[2609.24372v1](http://arxiv.org/abs/2609.24372v1)|null|
 |**2026-09-21**|**Few-Shot Demonstrations Elicit the Use of In-Context World Representations in LLMs**|cs.AI|[2609.24352v1](http://arxiv.org/abs/2609.24352v1)|null|
@@ -41,7 +42,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-16**|**When to Call an LLM: A Confidence-Gated Hybrid for Cost-Effective Emotion Recognition in Conversational AI**|cs.AI|[2609.17977v1](http://arxiv.org/abs/2609.17977v1)|null|
 |**2026-09-15**|**Robust and Efficient AI Frameworks for Scalable Material Design and Property Prediction**|cond-mat.mtrl-sci, cs.LG|[2609.17646v1](http://arxiv.org/abs/2609.17646v1)|null|
 |**2026-09-15**|**Towards Detecting AI-Assisted Responses in Online Surveys**|cs.CL, cs.CY|[2609.17317v1](http://arxiv.org/abs/2609.17317v1)|**[code](https://github.com/mike-qz-wang/ASURRE)**|
-|**2026-09-15**|**MyoFlow: Anchor-Tied Rectified Flow for HD-sEMG Gesture Recognition Across Sessions and Subjects**|cs.LG|[2609.17194v1](http://arxiv.org/abs/2609.17194v1)|null|
+|**2026-09-15**|**MyoFlow: Anchor-Tied Rectified Flow for HD-sEMG Gesture Recognition Across Sessions and Subjects**|cs.LG|[2609.17194v2](http://arxiv.org/abs/2609.17194v2)|null|
 |**2026-09-14**|**A Language-Guided Multimodal Foundation Model for Zero-Shot and Multi-Task Brain Signal Analysis**|cs.LG, cs.AI|[2609.15740v1](http://arxiv.org/abs/2609.15740v1)|null|
 |**2026-09-14**|**Authorship attribution and aesthetic evaluation of AI poetry: a case study with Haiku**|cs.CL, cs.AI|[2609.15511v1](http://arxiv.org/abs/2609.15511v1)|null|
 |**2026-09-14**|**ProtoGuide: Prototype-Driven Guidance for Class-Conditional Graph Generation**|cs.LG, cs.AI, physics.soc-ph|[2609.15239v1](http://arxiv.org/abs/2609.15239v1)|null|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-03**|**Labeled-Data-Free Meta-Learning: Efficient Task Generation Using Pre-trained Models and Unlabeled Data**|cs.LG|[2607.02850v1](http://arxiv.org/abs/2607.02850v1)|null|
 |**2026-07-02**|**Reinforcement Learning for Data-Efficient Code-Switched ASR**|cs.CL, cs.SD|[2607.02757v1](http://arxiv.org/abs/2607.02757v1)|null|
 |**2026-07-02**|**Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages**|cs.CL, cs.AI|[2607.02235v1](http://arxiv.org/abs/2607.02235v1)|null|
-|**2026-07-01**|**Sequentially-Controlled Interactive Multi-Particle Flow-Maps for Online Feedback-Driven Search**|cs.LG, cs.AI, cs.CE|[2607.01144v1](http://arxiv.org/abs/2607.01144v1)|null|
 
-README omitted **383** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **384** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

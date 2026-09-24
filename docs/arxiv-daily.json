@@ -12192,11 +12192,12 @@
     },
     "2609.17194": {
       "id": "2609.17194",
-      "version": "2609.17194v1",
+      "version": "2609.17194v2",
       "title": "MyoFlow: Anchor-Tied Rectified Flow for HD-sEMG Gesture Recognition Across Sessions and Subjects",
       "authors": [
         "Chenhao Wu",
         "Dingjie Peng",
+        "Zhihe Zhang",
         "Satoshi Funabashi",
         "Satoshi Konishi",
         "Wuqiang Yang",
@@ -12205,13 +12206,13 @@
         "Jiang Liu"
       ],
       "published": "2026-09-15",
-      "updated": "2026-09-15",
+      "updated": "2026-09-23",
       "categories": [
         "cs.LG"
       ],
-      "abstract": "High-density surface electromyography (HD-sEMG) gesture recognition supports prosthetic control, assistive robotics, and rehabilitation, but electrode re-donning and physiological variability cause distribution shifts that degrade accuracy across sessions and subjects. Generative HD-sEMG models primarily synthesize signals for augmentation; although diffusion models enhance representation learning, prediction still relies on a separate classifier. To tie learned dynamics to the decision rule, we propose MyoFlow, the first discriminative flow-matching framework for HD-sEMG recognition across sessions and subjects. It recasts classification as anchor-tied transport: a domain-conditioned rectified flow moves encoded windows toward gesture anchors that serve as transport targets and define the nearest-anchor decision geometry, enabling zero-shot prediction without an independent head. On the Hyser dataset, MyoFlow improves mean cross-session and cross-subject accuracy over the strongest diffusion-based baseline by 4.24\\% and 6.37\\%, respectively, and achieves 91.71\\% mean zero-shot accuracy and 97.39\\% mean few-shot accuracy across multiple days on the CEMHSEY dataset.",
-      "abs_url": "http://arxiv.org/abs/2609.17194v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.17194v1",
+      "abstract": "High-density surface electromyography (HD-sEMG) gesture recognition supports prosthetic control, assistive robotics, and rehabilitation, but electrode re-donning and physiological variability cause distribution shifts that degrade accuracy across sessions and subjects. Generative HD-sEMG models primarily synthesize signals for augmentation; although diffusion models enhance representation learning, prediction still relies on a separate classifier. To tie learned dynamics to the decision rule, we propose MyoFlow, the first discriminative flow-matching framework for HD-sEMG recognition across sessions and subjects. It recasts classification as anchor-tied transport: a domain-conditioned rectified flow moves encoded windows toward gesture anchors that serve as transport targets and define the nearest-anchor decision geometry, enabling zero-shot recognition without an independent head. On the Hyser dataset, MyoFlow improves mean cross-session and cross-subject accuracy over the strongest diffusion-based baseline by 4.24% and 6.37%, respectively, and achieves 91.71% mean zero-shot accuracy and 97.39% mean few-shot accuracy across multiple days on the CEMHSEY dataset.",
+      "abs_url": "http://arxiv.org/abs/2609.17194v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.17194v2",
       "code_url": null
     },
     "2609.18739": {
@@ -12586,7 +12587,7 @@
     },
     "2609.26347": {
       "id": "2609.26347",
-      "version": "2609.26347v1",
+      "version": "2609.26347v2",
       "title": "TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling",
       "authors": [
         "Julien Knafou",
@@ -12596,15 +12597,15 @@
         "Patrick Ruch"
       ],
       "published": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "categories": [
         "cs.CL",
         "cs.AI",
         "cs.LG"
       ],
       "abstract": "The scarcity of non-English language data in specialized domains significantly limits the development of effective Natural Language Processing (NLP) tools. We present TransBERT, a novel framework for pre-training language models using exclusively synthetically translated text, and introduce TransCorpus, a scalable translation toolkit. Focusing on the life sciences domain in French, our approach demonstrates that state-of-the-art performance on various downstream tasks can be achieved solely by leveraging synthetically translated data. We release the TransCorpus toolkit, the TransCorpus-bio-fr corpus (36.4GB of French life sciences text), TransBERT-bio-fr, its associated pre-trained language model and reproducible code for both pre-training and fine-tuning. Our results highlight the viability of synthetic translation in a high-resource translation direction for building high-quality NLP resources in low-resource language/domain pairs.",
-      "abs_url": "http://arxiv.org/abs/2609.26347v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.26347v1",
+      "abs_url": "http://arxiv.org/abs/2609.26347v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.26347v2",
       "code_url": null
     },
     "2609.25833": {
@@ -12625,6 +12626,25 @@
       "abstract": "Automatic fact-checking poses a significant challenge in Arabic natural language processing due to the scarcity of datasets and resources. In this manuscript, we introduce Arafa, a new large-scale dataset for fact-checking in Modern Standard Arabic, constructed through an automated framework leveraging large language models (LLMs). The dataset was constructed through a three-step pipeline: (1) claim generation from Arabic Wikipedia pages with supporting textual evidence, (2) claim mutation to generate challenging counterfactual claims with refuting evidence, and (3) an automatic validation step to validate that the generated claims are either supported or refuted by their accompanying evidence, or if the evidence does not provide enough information to judge the validity of the claims. The resulting dataset comprises 181,976 claim-evidence pairs labeled as supported, refuted, or not enough information. Human evaluation carried out on a test sample from the dataset demonstrated strong inter-annotator agreement (kappa = 0.89) using Cohen's Kappa for supported claims and (kappa = 0.94) for refuted claims. Automatic validation based on a human-evaluated sample achieved 86% accuracy for supported claims and 88% for refuted ones. To showcase Arafa's value as a resource for automatic Arabic fact-checking, four open-source transformer-based models were fine-tuned using Arafa, with the top-performing model achieving a Macro F1-score of 77% on the test data. In addition to Arafa being the first large-scale dataset for Arabic fact-checking, our framework presents a scalable approach for developing similar resources for other low-resource languages.",
       "abs_url": "http://arxiv.org/abs/2609.25833v1",
       "pdf_url": "https://arxiv.org/pdf/2609.25833v1",
+      "code_url": null
+    },
+    "2609.28245": {
+      "id": "2609.28245",
+      "version": "2609.28245v1",
+      "title": "Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?",
+      "authors": [
+        "AbdulRahman A. Morsy",
+        "Aya Zirikly"
+      ],
+      "published": "2026-09-23",
+      "updated": "2026-09-23",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Large language models (LLMs) have shown strong performance in creative text generation, yet their ability to produce culturally grounded and stylistically constrained literary forms remains underexplored. Prior work has focused largely on modern language varieties and poetry, while classical prose traditions such as maqama remain largely unstudied. The maqama is a classical literary genre characterized by rhymed prose (saj), dense rhetorical ornamentation, and episodic narrative structure, making it a challenging testbed for evaluating whether LLMs can move beyond surface fluency toward deeper literary competence. In this paper, we present the first controlled evaluation study of maqama generation with LLMs, comparing five models under zero-shot, few-shot, and rule-based prompting, and evaluating outputs through both human annotation and an LLM-as-a-judge framework across dimensions such as rhetorical richness, saj density, structural coherence, and stylistic authenticity. Our results show that prompting strategy plays a strong role in stylistic quality: few-shot prompting most consistently improves saj density, while its effects on rhetoric and coherence vary by model, with the strongest models (GPT-4o and GPT-5.4-mini) benefiting most from rule-based prompting on these dimensions, though zero-shot prompting yields the highest aggregate scores across all five models. We further observe systematic differences between models in stylistic alignment with Arabic maqama conventions, and corroborate our findings with a second independent LLM judge, paired statistical significance testing, and non-LLM proxy measures of saj.",
+      "abs_url": "http://arxiv.org/abs/2609.28245v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.28245v1",
       "code_url": null
     }
   }
