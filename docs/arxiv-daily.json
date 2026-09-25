@@ -12646,6 +12646,44 @@
       "abs_url": "http://arxiv.org/abs/2609.28245v1",
       "pdf_url": "https://arxiv.org/pdf/2609.28245v1",
       "code_url": null
+    },
+    "2609.29680": {
+      "id": "2609.29680",
+      "version": "2609.29680v1",
+      "title": "Confident but Wrong: A Constrained Decoding Diagnostic for Low-Resource Automatic Post-Editing",
+      "authors": [
+        "Isuru Wijesiri",
+        "Nisansa de Silva",
+        "Kavindu Warnakulasuriya",
+        "Aloka Fernando",
+        "Surangika Ranathunga"
+      ],
+      "published": "2026-08-30",
+      "updated": "2026-08-30",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Automatic Post-Editing (APE) for low-resource languages (LRLs) often fails to improve Machine Translation (MT), and the score alone cannot say why: whether more training would help, or whether the training data is too inconsistent to learn from. We introduce a black-box, inference-time diagnostic that tells these two cases apart without retraining or annotation. It varies an edit-distance penalty $λ$ that drives the model from free editing towards copying the MT, and reads two signals: (1) the shape of the Translation Edit Rate (TER)-vs-$λ$ curve, U-shaped if edits from the model reduce error and monotonically decreasing if none does; and (2) the ordering of constraint variants that trust model confidence to increasing degrees, which shows whether confidence tracks edit quality. Across decoder-only and encoder-decoder models on English-Sinhala, the diagnostic exposes two failure modes consistent with a heterogeneous post-edit signal as the underlying cause: Binary Collapse, where the model copies the MT or makes off-target edits, and Confident Miscalibration, where the confidence signals we test do not separate useful edits from unnecessary ones. The pattern holds on English-Marathi and English-Tamil, with the failure modes tracking the post-edit distribution rather than MT quality or language family. Beyond diagnosis, the curve shape prescribes a concrete next step for practitioners; in the favorable case, a static constraint yields a free inference-time accuracy gain. We release the first English-Sinhala (~66k) and a new English-Tamil (~39k) APE datasets with all code.",
+      "abs_url": "http://arxiv.org/abs/2609.29680v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.29680v1",
+      "code_url": null
+    },
+    "2609.29559": {
+      "id": "2609.29559",
+      "version": "2609.29559v1",
+      "title": "Benchmarking Arabic--Russian Machine Translation: A Comparison of Fine-tuned NMT and Few-shot LLMs under Rich Morphology and Low Lexical Overlap",
+      "authors": [
+        "Mullosharaf K. Arabov"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-08-26",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Arabic-Russian machine translation (MT) remains under-explored due to the rich morphology of Arabic and low lexical overlap between the two languages. We benchmark seven fine-tuned neural machine translation (NMT) models against four few-shot large language models (LLMs) on a 20k/5k/5k split of a new 15.47M-pair corpus. Fine-tuned NLLB-1.3B achieves the highest BLEU (16.3) and COMET (0.738). Aya-Expanse 8B leads the few-shot LLMs (BLEU 1.7 on 500 sentences, chrF 25.7), but all LLM scores remain far below the fine-tuned NMT baselines. Error analysis identifies low lexical overlap as the dominant failure mode; among the worst translations, mT5-small produces 32% too-short outputs. Bootstrap tests confirm significant differences among most models. Our results demonstrate that fine-tuned NMT significantly outperforms few-shot LLMs for Arabic-Russian translation under low-resource conditions.",
+      "abs_url": "http://arxiv.org/abs/2609.29559v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.29559v1",
+      "code_url": null
     }
   }
 }

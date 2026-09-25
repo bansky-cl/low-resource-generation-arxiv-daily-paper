@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **584**
-- Recent 30 days: **78**
+- Total papers in JSON: **586**
+- Recent 30 days: **80**
 - Older than 30 days: **506**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -87,6 +87,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-01**|**Automated Tree Knowledge Graph Construction using Ontology Expansion and Retrieval from Vietnamese History Textbooks**|cs.AI|[2609.00763v1](http://arxiv.org/abs/2609.00763v1)|null|
 |**2026-08-31**|**Enhancing Low-Resource Language Reasoning via High-Resource Language Feature Transfer**|cs.CL, cs.AI|[2608.30462v1](http://arxiv.org/abs/2608.30462v1)|null|
 |**2026-08-31**|**Generative multi-domain transfer learning for fault detection in data-scarce wind turbines**|cs.LG|[2608.30323v1](http://arxiv.org/abs/2608.30323v1)|null|
+|**2026-08-30**|**Confident but Wrong: A Constrained Decoding Diagnostic for Low-Resource Automatic Post-Editing**|cs.CL|[2609.29680v1](http://arxiv.org/abs/2609.29680v1)|null|
 |**2026-08-30**|**Pak3H: Evaluating the Cost of Cultural Mismatch in LLM Alignment with a Human-Contextualized Urdu Benchmark**|cs.CL, cs.AI|[2608.30065v1](http://arxiv.org/abs/2608.30065v1)|null|
 |**2026-08-30**|**Generative vs. Encoder Models for Multilingual NER: A Comprehensive Empirical Study on Naamapadam**|cs.CL|[2608.29959v1](http://arxiv.org/abs/2608.29959v1)|null|
 |**2026-08-30**|**Improving Argument Saliency Coverage in Small LLMs for Long Legal Opinion Summarization via Sequence-Level Distillation**|cs.CL|[2608.29884v1](http://arxiv.org/abs/2608.29884v1)|null|
@@ -98,6 +99,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-28**|**NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry**|cs.CL, cs.AI|[2608.28481v1](http://arxiv.org/abs/2608.28481v1)|null|
 |**2026-08-28**|**CNeo-Bench: Diagnosing Large Language Models on Chinese Neologisms**|cs.CL|[2608.28053v1](http://arxiv.org/abs/2608.28053v1)|null|
 |**2026-08-27**|**pro-team at LLMs4OL 2026 Tasks Flagship and Reuse: Retrieval-Augmented Generation and Vocabulary-Constrained Filtering for Ontology Learning**|cs.AI|[2608.27101v2](http://arxiv.org/abs/2608.27101v2)|null|
+|**2026-08-26**|**Benchmarking Arabic--Russian Machine Translation: A Comparison of Fine-tuned NMT and Few-shot LLMs under Rich Morphology and Low Lexical Overlap**|cs.CL|[2609.29559v1](http://arxiv.org/abs/2609.29559v1)|null|
 |**2026-08-26**|**Cross-lingual Representation Learning via Centroid Intervention Fusion**|cs.CL|[2608.26357v1](http://arxiv.org/abs/2608.26357v1)|**[code](https://github.com/VRCMF/CIF.git)**|
 |**2026-08-26**|**PhaseShift: Topology-Aware Data Harmonization and Model Consolidation Across Signalized Intersections**|cs.AI, cs.RO|[2608.25275v1](http://arxiv.org/abs/2608.25275v1)|null|
 
@@ -225,10 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-04**|**Punching Above Their Weight: Classification-Head Fine-Tuning of Tiny Language Models (TLMs) for Verifiable Multiple-Choice Tasks**|cs.LG, cs.AI, cs.CL|[2607.03801v1](http://arxiv.org/abs/2607.03801v1)|null|
 |**2026-07-03**|**Conditional Diffusion Guided Knowledge Transfer for Multi-Domain Knowledge Graph Completion**|cs.CL, cs.AI|[2607.03154v1](http://arxiv.org/abs/2607.03154v1)|null|
 |**2026-07-03**|**Labeled-Data-Free Meta-Learning: Efficient Task Generation Using Pre-trained Models and Unlabeled Data**|cs.LG|[2607.02850v1](http://arxiv.org/abs/2607.02850v1)|null|
-|**2026-07-02**|**Reinforcement Learning for Data-Efficient Code-Switched ASR**|cs.CL, cs.SD|[2607.02757v1](http://arxiv.org/abs/2607.02757v1)|null|
-|**2026-07-02**|**Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages**|cs.CL, cs.AI|[2607.02235v1](http://arxiv.org/abs/2607.02235v1)|null|
 
-README omitted **384** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **386** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
