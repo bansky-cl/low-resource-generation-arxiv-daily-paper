@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **586**
-- Recent 30 days: **74**
+- Total papers in JSON: **589**
+- Recent 30 days: **77**
 - Older than 30 days: **512**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-25**|**Evaluating Cultural Awareness of LLMs for Haitian Creole**|cs.CL, cs.AI|[2609.31506v1](http://arxiv.org/abs/2609.31506v1)|null|
+|**2026-09-25**|**LUMO (Lightweight Unified Multilingual Orchestrator): A Privacy Preserving Offline Voice Assistant**|cs.LG|[2609.30692v1](http://arxiv.org/abs/2609.30692v1)|null|
+|**2026-09-24**|**All In Good Time: Causality-Aware Framework for LLM-Based Simultaneous Speech-to-Speech Translation**|cs.CL|[2609.30416v1](http://arxiv.org/abs/2609.30416v1)|null|
 |**2026-09-23**|**Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?**|cs.CL, cs.AI|[2609.28245v1](http://arxiv.org/abs/2609.28245v1)|null|
 |**2026-09-22**|**TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling**|cs.CL, cs.AI, cs.LG|[2609.26347v2](http://arxiv.org/abs/2609.26347v2)|null|
 |**2026-09-22**|**ARAFA: An LLM-Generated Arabic Fact-Checking Dataset**|cs.CL, cs.IR|[2609.25833v1](http://arxiv.org/abs/2609.25833v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-06**|**LLM-Driven CI-CD Workflow Intelligence for Cyber Systems Engineering**|cs.SE, cs.AI|[2607.04579v1](http://arxiv.org/abs/2607.04579v1)|null|
 |**2026-07-05**|**CertMix: Certified, Data-Efficient Metamaterial Design by Affine Mixing of Aligned Neural-Implicit Weight Spaces**|cs.LG|[2607.04123v1](http://arxiv.org/abs/2607.04123v1)|null|
 |**2026-07-04**|**When Simpler Is Better: Evaluating Translation Pipelines for Medieval Latin Manuscripts**|cs.CV, cs.AI, cs.CL|[2607.03836v1](http://arxiv.org/abs/2607.03836v1)|null|
-|**2026-07-04**|**Punching Above Their Weight: Classification-Head Fine-Tuning of Tiny Language Models (TLMs) for Verifiable Multiple-Choice Tasks**|cs.LG, cs.AI, cs.CL|[2607.03801v1](http://arxiv.org/abs/2607.03801v1)|null|
-|**2026-07-03**|**Conditional Diffusion Guided Knowledge Transfer for Multi-Domain Knowledge Graph Completion**|cs.CL, cs.AI|[2607.03154v1](http://arxiv.org/abs/2607.03154v1)|null|
-|**2026-07-03**|**Labeled-Data-Free Meta-Learning: Efficient Task Generation Using Pre-trained Models and Unlabeled Data**|cs.LG|[2607.02850v1](http://arxiv.org/abs/2607.02850v1)|null|
 
-README omitted **386** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **389** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

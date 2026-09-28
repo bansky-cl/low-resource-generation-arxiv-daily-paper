@@ -12684,6 +12684,72 @@
       "abs_url": "http://arxiv.org/abs/2609.29559v1",
       "pdf_url": "https://arxiv.org/pdf/2609.29559v1",
       "code_url": null
+    },
+    "2609.31506": {
+      "id": "2609.31506",
+      "version": "2609.31506v1",
+      "title": "Evaluating Cultural Awareness of LLMs for Haitian Creole",
+      "authors": [
+        "Christelle Clervilsson",
+        "Yanzhu Guo"
+      ],
+      "published": "2026-09-25",
+      "updated": "2026-09-25",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Large language models (LLMs) exhibit substantial performance disparities between high- and low-resource languages. Beyond lower task performance, they often fail to capture the cultural norms and values of underrepresented communities. In this work, we present the first systematic evaluation of cultural awareness in LLMs for Haitian Creole, a language spoken by millions but severely underrepresented in digital resources. We assess cultural awareness along four complementary dimensions---specificity, bias, diversity, and variation---using a benchmark of culturally salient prompts curated by native speakers in a text infilling setting. Our results reveal a clear gap between cultural awareness in Haitian Creole and higher-resource French, with Haitian performance being more uneven across domains and more affected by French linguistic interference. Story generation further reveals recurring portrayals of Haitian characters through hardship and resilience, showing that even positive characterizations can encode stereotypical narratives. Our code, benchmark, and evaluation framework are publicly available.",
+      "abs_url": "http://arxiv.org/abs/2609.31506v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.31506v1",
+      "code_url": null
+    },
+    "2609.30692": {
+      "id": "2609.30692",
+      "version": "2609.30692v1",
+      "title": "LUMO (Lightweight Unified Multilingual Orchestrator): A Privacy Preserving Offline Voice Assistant",
+      "authors": [
+        "Md. Mehedi Hasan Naeem",
+        "Mst. Kamrunnahar Ruma",
+        "Nafiza Anjum",
+        "Shakila Sultana",
+        "Md. Sujan Ali"
+      ],
+      "published": "2026-09-25",
+      "updated": "2026-09-25",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Reliable voice interaction is essential in environments with limited internet connectivity and strong privacy. However, most existing voice assistants depend on cloud-based services, which leads to latency issues, dependency on internet access, and privacy vulnerabilities. This research presents LUMO (Lightweight Unified Multilingual Orchestrator), a privacy preserving offline voice assistant designed for edge computing environments. This system integrates local Automatic Speech Recognition (ASR), locally deployed quantized Large Language Model (LLM), and Text-to-Speech (TTS) synthesis into a fully offline pipeline running on a Raspberry Pi 5 with 8 GB RAM. To enable efficient operation on resource constrained hardware, the language model is compressed using 4-bit GGUF quantization, which reduces memory usage while preserving practical conversational capability. Existing edge based voice assistants Mycroft provides partial offline functionality without a generative LLM, with an approximate latency of ~5 s and power consumption of ~12 W, while Rhasspy supports full offline operation but lacks generative capabilities, with ~3 s latency and ~11 W power usage. In contrast, LUMO achieves a Word Error Rate (WER) of 6.8% for short English utterances in low noise conditions, an end-to-end response latency of 2.0-4.0 s, and a lower peak power consumption of approximately 9.0 W. The system also achieves effective offline recognition for Bangla speech, supporting multilingual accessibility in low resource settings. By operating entirely offline, LUMO provides strong data privacy, reduced need for cloud connectivity, and suitability for privacy sensitive edge execution such as rural healthcare, education, and disaster response scenarios.",
+      "abs_url": "http://arxiv.org/abs/2609.30692v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.30692v1",
+      "code_url": null
+    },
+    "2609.30416": {
+      "id": "2609.30416",
+      "version": "2609.30416v1",
+      "title": "All In Good Time: Causality-Aware Framework for LLM-Based Simultaneous Speech-to-Speech Translation",
+      "authors": [
+        "Amir Hussein",
+        "Enas Albasiri",
+        "Travis M. Bartley",
+        "Nourchene Ferchichi",
+        "Ke Hu",
+        "Harishchandra Dubey",
+        "Myungjong Kim",
+        "Zhehuai Chen",
+        "Oluwatobi Olabiyi",
+        "Sanjeev Khudanpur"
+      ],
+      "published": "2026-09-24",
+      "updated": "2026-09-24",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large Language Models (LLMs) have shown strong performance in low-resource offline translation; however, extending them to simultaneous speech-to-speech translation (Simul-S2ST) remains challenging due to the scarcity of causally aligned training data with high cross-lingual speaker fidelity. In addition, existing approaches rely on fixed translation policy or confidence heuristics, leading to suboptimal quality and higher latency. We propose a causality-aware Simul-S2ST framework with a novel data pipeline that generates high-fidelity, causally aligned segments with improved voice transfer. The framework introduces (i) a factorized S2ST architecture (FAST), (ii) a causality-aware adaptive policy (CAP), and (iii) causality-aware latency metric. Experiments on CVSS Spanish, German, and French show that FAST-CAP consistently improves the quality-latency trade-off, achieving up to +1.2 BLEU and a 26% relative latency reduction over a fixed policy. Despite using substantially less training data than existing systems, FAST-CAP achieves state-of-the-art results in speech translation quality and speaker fidelity while yielding up to a 38.8% relative reduction in latency.",
+      "abs_url": "http://arxiv.org/abs/2609.30416v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.30416v1",
+      "code_url": null
     }
   }
 }
