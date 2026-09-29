@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.09.29
+## Updated on 2026.09.30
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **592**
-- Recent 30 days: **76**
-- Older than 30 days: **516**
+- Recent 30 days: **71**
+- Older than 30 days: **521**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -93,16 +93,16 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-01**|**Automated Tree Knowledge Graph Construction using Ontology Expansion and Retrieval from Vietnamese History Textbooks**|cs.AI|[2609.00763v1](http://arxiv.org/abs/2609.00763v1)|null|
 |**2026-08-31**|**Enhancing Low-Resource Language Reasoning via High-Resource Language Feature Transfer**|cs.CL, cs.AI|[2608.30462v1](http://arxiv.org/abs/2608.30462v1)|null|
 |**2026-08-31**|**Generative multi-domain transfer learning for fault detection in data-scarce wind turbines**|cs.LG|[2608.30323v1](http://arxiv.org/abs/2608.30323v1)|null|
-|**2026-08-30**|**Confident but Wrong: A Constrained Decoding Diagnostic for Low-Resource Automatic Post-Editing**|cs.CL|[2609.29680v1](http://arxiv.org/abs/2609.29680v1)|null|
-|**2026-08-30**|**Pak3H: Evaluating the Cost of Cultural Mismatch in LLM Alignment with a Human-Contextualized Urdu Benchmark**|cs.CL, cs.AI|[2608.30065v1](http://arxiv.org/abs/2608.30065v1)|null|
-|**2026-08-30**|**Generative vs. Encoder Models for Multilingual NER: A Comprehensive Empirical Study on Naamapadam**|cs.CL|[2608.29959v1](http://arxiv.org/abs/2608.29959v1)|null|
-|**2026-08-30**|**Improving Argument Saliency Coverage in Small LLMs for Long Legal Opinion Summarization via Sequence-Level Distillation**|cs.CL|[2608.29884v1](http://arxiv.org/abs/2608.29884v1)|null|
-|**2026-08-30**|**GraM-Diff: A Unified Graph-Mamba Diffusion Framework for EEG-Based Alzheimer's Disease Data Generation and Diagnosis**|cs.LG|[2608.29755v1](http://arxiv.org/abs/2608.29755v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-30**|**Confident but Wrong: A Constrained Decoding Diagnostic for Low-Resource Automatic Post-Editing**|cs.CL|[2609.29680v1](http://arxiv.org/abs/2609.29680v1)|null|
+|**2026-08-30**|**Pak3H: Evaluating the Cost of Cultural Mismatch in LLM Alignment with a Human-Contextualized Urdu Benchmark**|cs.CL, cs.AI|[2608.30065v1](http://arxiv.org/abs/2608.30065v1)|null|
+|**2026-08-30**|**Generative vs. Encoder Models for Multilingual NER: A Comprehensive Empirical Study on Naamapadam**|cs.CL|[2608.29959v1](http://arxiv.org/abs/2608.29959v1)|null|
+|**2026-08-30**|**Improving Argument Saliency Coverage in Small LLMs for Long Legal Opinion Summarization via Sequence-Level Distillation**|cs.CL|[2608.29884v1](http://arxiv.org/abs/2608.29884v1)|null|
+|**2026-08-30**|**GraM-Diff: A Unified Graph-Mamba Diffusion Framework for EEG-Based Alzheimer's Disease Data Generation and Diagnosis**|cs.LG|[2608.29755v1](http://arxiv.org/abs/2608.29755v1)|null|
 |**2026-08-29**|**BIRD-History: A Benchmark for History-Driven Text-to-SQL with Fine-Grained Knowledge Annotations**|cs.AI, cs.CL|[2608.29345v1](http://arxiv.org/abs/2608.29345v1)|**[code](https://github.com/zjuidg/BIRD-History)**|
 |**2026-08-29**|**Padārtha: Ontology-Grounded Fine-Grained NER Benchmark for Classical Sanskrit**|cs.CL|[2608.29324v1](http://arxiv.org/abs/2608.29324v1)|null|
 |**2026-08-29**|**Anchoring Speech with Semantics: A Multimodal Adapter Mechanism for Automatic Speech Recognition in Low-Resource Languages**|cs.CL, cs.SD, eess.AS|[2608.29239v1](http://arxiv.org/abs/2608.29239v1)|null|
