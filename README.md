@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **589**
-- Recent 30 days: **73**
+- Total papers in JSON: **592**
+- Recent 30 days: **76**
 - Older than 30 days: **516**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-27**|**QuPID: Quantum Parameter-Efficient Input-Dependent Retrieval Adaptation for Medical RAG**|cs.AI, cs.LG|[2609.33351v1](http://arxiv.org/abs/2609.33351v1)|null|
+|**2026-09-27**|**BaatCheet: A Multilingual Corpus for Dialogue Translation in Indian Languages**|cs.CL|[2609.33296v1](http://arxiv.org/abs/2609.33296v1)|null|
+|**2026-09-27**|**Save Your Saturated Data: Learning Beyond Reward Saturation in Group-Based RL**|cs.LG, cs.CL|[2609.33126v1](http://arxiv.org/abs/2609.33126v1)|null|
 |**2026-09-25**|**Evaluating Cultural Awareness of LLMs for Haitian Creole**|cs.CL, cs.AI|[2609.31506v1](http://arxiv.org/abs/2609.31506v1)|null|
 |**2026-09-25**|**LUMO (Lightweight Unified Multilingual Orchestrator): A Privacy Preserving Offline Voice Assistant**|cs.LG|[2609.30692v1](http://arxiv.org/abs/2609.30692v1)|null|
 |**2026-09-24**|**All In Good Time: Causality-Aware Framework for LLM-Based Simultaneous Speech-to-Speech Translation**|cs.CL|[2609.30416v1](http://arxiv.org/abs/2609.30416v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-07**|**PluraMath: Extending Mathematical Reasoning Evaluation Beyond High-Resource Languages**|cs.CL, cs.AI|[2607.05992v1](http://arxiv.org/abs/2607.05992v1)|null|
 |**2026-07-07**|**CoPiT: Cognitive Pivot Translation for Digraphic Low-Resource Mongolian in the Traditional Script**|cs.CL|[2607.05849v1](http://arxiv.org/abs/2607.05849v1)|**[code](https://anonymous.4open.science/r/anonymous_project-76C7)**|
 |**2026-07-06**|**Formal Disco: Scalable Open-Ended Generation of Formally Verified Programs**|cs.AI|[2607.04631v1](http://arxiv.org/abs/2607.04631v1)|null|
-|**2026-07-06**|**LLM-Driven CI-CD Workflow Intelligence for Cyber Systems Engineering**|cs.SE, cs.AI|[2607.04579v1](http://arxiv.org/abs/2607.04579v1)|null|
-|**2026-07-05**|**CertMix: Certified, Data-Efficient Metamaterial Design by Affine Mixing of Aligned Neural-Implicit Weight Spaces**|cs.LG|[2607.04123v1](http://arxiv.org/abs/2607.04123v1)|null|
-|**2026-07-04**|**When Simpler Is Better: Evaluating Translation Pipelines for Medieval Latin Manuscripts**|cs.CV, cs.AI, cs.CL|[2607.03836v1](http://arxiv.org/abs/2607.03836v1)|null|
 
-README omitted **389** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **392** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

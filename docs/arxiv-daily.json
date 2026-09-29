@@ -12750,6 +12750,72 @@
       "abs_url": "http://arxiv.org/abs/2609.30416v1",
       "pdf_url": "https://arxiv.org/pdf/2609.30416v1",
       "code_url": null
+    },
+    "2609.33296": {
+      "id": "2609.33296",
+      "version": "2609.33296v1",
+      "title": "BaatCheet: A Multilingual Corpus for Dialogue Translation in Indian Languages",
+      "authors": [
+        "Priyanka Dasari",
+        "Yuvrajsinh D. Bodana",
+        "Vandan Mujadia",
+        "Arafat Ahsan",
+        "Dipti Misra Sharma",
+        "Parameswari Krishnamurthy"
+      ],
+      "published": "2026-09-27",
+      "updated": "2026-09-27",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Existing translation models are typically trained on sentence-level and formal text, limiting their ability to capture everyday conversational dialogue phenomena such as informality, speaker interaction, and discourse coherence. Most existing Indic translation resources and evaluation benchmarks focus on sentence-level or formal text, making it difficult to assess translation quality of the dialogue phenomena. In this work, we introduce BaatCheet, a multilingual dialogue corpus named after the Hindi term for conversation or chitchat, containing approximately 49,000 dialogues for dialogue translation across five translation directions. We fine-tune five open-source LLMs across seven training data configurations and find that fine-tuning yields substantial gains over zero- and few-shot baselines. To comprehensively evaluate dialogue translation quality, we employ multiple evaluation strategies, including automatic metrics, LLM-as-judge, and human assessments using an SQM-guided Direct Assessment (DA) Protocol.",
+      "abs_url": "http://arxiv.org/abs/2609.33296v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.33296v1",
+      "code_url": null
+    },
+    "2609.33126": {
+      "id": "2609.33126",
+      "version": "2609.33126v1",
+      "title": "Save Your Saturated Data: Learning Beyond Reward Saturation in Group-Based RL",
+      "authors": [
+        "Ziyuan Yang",
+        "Yike Wang",
+        "Shangbin Feng",
+        "Yulia Tsvetkov"
+      ],
+      "published": "2026-09-27",
+      "updated": "2026-09-27",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Group-relative reinforcement learning (RL) relies on reward variation among sampled responses to estimate informative relative advantages. As language models become increasingly capable, existing training data can become reward-saturated: all sampled responses to the same problem might receive equally high rewards, where the group-relative learning signals vanish and leave previously useful data obsolete. In this work, we investigate whether useful learning signals can be recovered from such saturated data. We study interventions at four levels of group-policy RL pipelines---data, rollout, reward, and advantage---and conduct extensive RL training on saturated reasoning data only. While standard GRPO on saturated data would almost always yield near-0 advantages and near-noise signals, diverse interventions successfully recycle and repurpose such data: among the proposed strategies, interventions at rollout generation are consistently most effective: nudging the policy to generate ``high-quality'', incorrect solutions introduces rollouts with poor rewards into saturated groups as negative samples, which turns out to improve GRPO by 6.4% to 9.0% across Qwen3-1.7B and 4B. Other interventions such as increasing rollout temperature or adding auxiliary rewards can also restore non-zero advantages, but yield less consistent gains. Further analyses show that effective negative rollouts require informative negative trajectories, that the method remains effective alongside unsaturated data, and that it supports iterative recycling of newly saturated examples. While increasingly stronger LLMs would render more data as saturated, our results demonstrate that don't waste your saturated data: with the right strategies they can be recycled into useful RL training signals in an increasingly data-scarce world.",
+      "abs_url": "http://arxiv.org/abs/2609.33126v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.33126v1",
+      "code_url": null
+    },
+    "2609.33351": {
+      "id": "2609.33351",
+      "version": "2609.33351v1",
+      "title": "QuPID: Quantum Parameter-Efficient Input-Dependent Retrieval Adaptation for Medical RAG",
+      "authors": [
+        "Hyojun Ahn",
+        "Emily Jimin Roh",
+        "Soohyun Park",
+        "Walid Saad",
+        "Hyung-Chul Lee",
+        "Joongheon Kim"
+      ],
+      "published": "2026-09-27",
+      "updated": "2026-09-27",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Fidelity-based quantum retrieval ranks candidates by the fidelity between query and archive states. Applying a shared input-independent unitary after fixed state encoding leaves that fidelity unchanged, so training the circuit cannot alter the ranking. Quantum parameter-efficient input-dependent retrieval adaptation (QuPID) repairs this by making the circuit input-dependent through data re-uploading and by comparing measurement readouts, vectors of local Pauli expectations, rather than states. The result is a small readout for adapting frozen image features to a local archive with limited data: training simulates the circuit classically, and inference runs on a GPU with fixed learned parameters. We characterize the class as a structured factorization of input-modulated quadratic feature maps, bound the frequency support of its re-uploading channel, and give a parameter-count generalization bound that motivates its small budget. Under a shared frozen backbone and a label-free protocol, QuPID's 60 parameters give higher precision-at-5 (P@5) on ChestX-ray14 and MURA than frozen medical encoders, and than adapters and low-rank adaptation (LoRA) with up to 5.25 million trainable parameters. On ChestX-ray14, the P@5 gain over the frozen encoder is +0.116, the lead over retuned adapters is widest at 512 adaptation examples (+0.040), and the full-budget margin over an equally compact classical rotation-plane head is +0.023 with a 95% interval excluding zero. Medical imaging is the primary testbed; the pattern recurs on two non-medical benchmarks, in report generation, and under simulated gate noise and finite-shot readout.",
+      "abs_url": "http://arxiv.org/abs/2609.33351v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.33351v1",
+      "code_url": null
     }
   }
 }
