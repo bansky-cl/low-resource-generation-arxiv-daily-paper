@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.09.30
+## Updated on 2026.10.01
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **595**
-- Recent 30 days: **74**
-- Older than 30 days: **521**
+- Recent 30 days: **72**
+- Older than 30 days: **523**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -94,13 +94,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-01**|**Text-guided flow matching enables sample-efficient crystal structure generation**|cond-mat.mtrl-sci, cs.AI|[2609.01076v2](http://arxiv.org/abs/2609.01076v2)|null|
 |**2026-09-01**|**Inspicio: Open-Vocabulary, LLM-Based Sense Retrieval for Historical Languages**|cs.CL, cs.AI|[2609.00998v1](http://arxiv.org/abs/2609.00998v1)|null|
 |**2026-09-01**|**Automated Tree Knowledge Graph Construction using Ontology Expansion and Retrieval from Vietnamese History Textbooks**|cs.AI|[2609.00763v1](http://arxiv.org/abs/2609.00763v1)|null|
-|**2026-08-31**|**Enhancing Low-Resource Language Reasoning via High-Resource Language Feature Transfer**|cs.CL, cs.AI|[2608.30462v1](http://arxiv.org/abs/2608.30462v1)|null|
-|**2026-08-31**|**Generative multi-domain transfer learning for fault detection in data-scarce wind turbines**|cs.LG|[2608.30323v1](http://arxiv.org/abs/2608.30323v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-08-31**|**Enhancing Low-Resource Language Reasoning via High-Resource Language Feature Transfer**|cs.CL, cs.AI|[2608.30462v1](http://arxiv.org/abs/2608.30462v1)|null|
+|**2026-08-31**|**Generative multi-domain transfer learning for fault detection in data-scarce wind turbines**|cs.LG|[2608.30323v1](http://arxiv.org/abs/2608.30323v1)|null|
 |**2026-08-30**|**Confident but Wrong: A Constrained Decoding Diagnostic for Low-Resource Automatic Post-Editing**|cs.CL|[2609.29680v1](http://arxiv.org/abs/2609.29680v1)|null|
 |**2026-08-30**|**Pak3H: Evaluating the Cost of Cultural Mismatch in LLM Alignment with a Human-Contextualized Urdu Benchmark**|cs.CL, cs.AI|[2608.30065v1](http://arxiv.org/abs/2608.30065v1)|null|
 |**2026-08-30**|**Generative vs. Encoder Models for Multilingual NER: A Comprehensive Empirical Study on Naamapadam**|cs.CL|[2608.29959v1](http://arxiv.org/abs/2608.29959v1)|null|
