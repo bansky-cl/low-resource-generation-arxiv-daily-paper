@@ -12883,6 +12883,137 @@
       "abs_url": "http://arxiv.org/abs/2609.36069v1",
       "pdf_url": "https://arxiv.org/pdf/2609.36069v1",
       "code_url": null
+    },
+    "2609.40041": {
+      "id": "2609.40041",
+      "version": "2609.40041v1",
+      "title": "MGhana-ST: A Low-Resource Speech Translation Dataset for Ghanaian Languages and an Analysis of Multilingual Training Trade-offs",
+      "authors": [
+        "Frank Lawrence Nii Adoquaye Acquaye",
+        "Eric George Parakal",
+        "Jesse Johnson",
+        "Kishankumar Bhimani",
+        "Jochebed Afua Basil"
+      ],
+      "published": "2026-09-30",
+      "updated": "2026-09-30",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "We present MGhana-ST, a speech translation dataset for four low-resource Ghanaian language varieties: Ga, Twi (Akuapem and Asante), Ewe, and Fante. MGhana-ST is an ongoing annotation effort; the experiments here use a fixed subset of about 16.1 hours of paired speech and English translations. The audio is curated from two existing Ghanaian speech resources. Unlike in those resources, the English translations are produced directly from audio by 37 native-speaker annotators and include verbal and non-verbal event annotations. Using Whisper-small, we compare monolingual and multilingual training under severe data scarcity, reporting means over three seeds. Flat multilingual training benefits no variety in this regime. Ga and Twi are unchanged within seed variance (+0.51 and +0.06 BLEU against monolingual standard deviations of 1.63 and 2.20), while Ewe declines by 6.99 BLEU and Fante by 5.11. The degrading varieties are Ewe, which is linguistically distinct and drawn from a different source corpus, and Fante, the least-resourced. Comparing empirical cross-lingual transfer with typology-based similarity, we find that transfer BLEU identifies closely interacting language pairs better than URIEL similarity, though neither predicts which varieties benefit from joint training. We also report a methodological finding. An earlier single-run analysis found positive transfer for three of four varieties; this did not survive replication across seeds. For Ga and Twi, monolingual baselines trained on 1.6 to 6.2 hours of audio have seed standard deviations roughly five and thirty times those of the multilingual models (0.35 and 0.07 BLEU). When the monolingual condition is noisier, a single-run comparison can show apparent transfer of this size from seed variation alone. We release MGhana-ST to support research on African language speech technology and low-resource speech translation.",
+      "abs_url": "http://arxiv.org/abs/2609.40041v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.40041v1",
+      "code_url": null
+    },
+    "2609.38574": {
+      "id": "2609.38574",
+      "version": "2609.38574v1",
+      "title": "Towards Model as a Library: Offline, Community-Sourced AI for Low-Resource African Languages",
+      "authors": [
+        "Fendji K. E. Jean Louis"
+      ],
+      "published": "2026-09-29",
+      "updated": "2026-09-29",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "Large language models are frequently proposed as a route to AI-powered services for African communities, but they are least reliable exactly where the need is greatest: all African languages remain low-resource by any standard measure, and models trained on scraped, standardised text systematically misrepresent the dialectal and regional variation of how people actually speak. We introduce \\textbf{Model as a Library (MaaL)}, a software architecture that packages small, community-enrolled speech models as versioned on-device dependencies, enabling offline structured data collection that cannot generatively hallucinate, for populations that current language models serve worst. Rather than relying on web-scraped corpora, MaaL's vocabulary is enrolled directly from a small number of example recordings by the speakers themselves, at the point of deployment. We describe the architecture and its central mechanism - keyword spotting that turns a closed-vocabulary text form into a voice form, filled and submitted entirely on-device - and propose transpiling the closed-vocabulary elements already present in widely-deployed digital form tools into MaaL schemas, a low-friction path to voice-first, offline data collection for the low-literacy populations these tools already reach. This is a position and system-design paper: we describe the concept, the mechanism, and an analytical feasibility case, and identify what a working implementation still requires.",
+      "abs_url": "http://arxiv.org/abs/2609.38574v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.38574v1",
+      "code_url": null
+    },
+    "2609.39964": {
+      "id": "2609.39964",
+      "version": "2609.39964v1",
+      "title": "AIMS: An Agentic AI Framework for Sim-to-Real Multi-Modal ISAC",
+      "authors": [
+        "Yijie Bian",
+        "Kai Zhang",
+        "Wei Guo",
+        "Zixin Wang",
+        "Shenghui Song",
+        "Jun Zhang",
+        "Khaled B. Letaief"
+      ],
+      "published": "2026-09-30",
+      "updated": "2026-09-30",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "abstract": "Multi-modal integrated sensing and communication (ISAC) enables environmental perception and reliable connectivity for intelligent wireless networks. Data-driven multi-modal ISAC models depend heavily on annotated real-world data to learn relationships across sensing and wireless observations, thereby constraining scalable deployment. Although synthetic data generation reduces the burden, adapting existing simulation pipelines to a target deployment requires consistent scene, sensing, wireless, and learning configurations, while mismatches among these coupled components impair sim-to-real transferability. To address the challenge, we propose an agentic artificial intelligence (AI) framework for sim-to-real multi-modal ISAC, named AIMS. Given a natural-language deployment request specifying the target task, deployment conditions, and real-data budget, AIMS derives a deployment-specific sim-to-real configuration and coordinates its execution to produce a deployment-specific task model. A two-agent architecture coordinates scene construction with task learning. A scene construction agent generates geographically grounded, synchronized sensing and wireless records from shared physical states, while a scene understanding agent configures task-relevant modalities and mixture-of-experts (MoE) learning for zero-shot inference or few-shot adaptation. Structured domain knowledge guides dependency-aware planning, while validation evidence supports feedback-driven revision of affected decisions. Experiments on the real-world DeepSense~6G dataset demonstrate improved vehicle detection and beam prediction over the considered simulation and fusion baselines. A separate orchestration benchmark evaluates task interpretation, dependency reasoning, and feedback-driven replanning across diverse deployment requests, showing improved plan correctness with structured domain knowledge and validation feedback.",
+      "abs_url": "http://arxiv.org/abs/2609.39964v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.39964v1",
+      "code_url": null
+    },
+    "2609.39390": {
+      "id": "2609.39390",
+      "version": "2609.39390v1",
+      "title": "Decoupled and Distilled: Task-Adaptive LoRA-Teachers with Ensemble Knowledge Transfer for Few-Shot Class-Incremental Learning",
+      "authors": [
+        "Hongwei Zhao",
+        "Rui Liu",
+        "Yansong Liu",
+        "Zhiyuan Zou",
+        "Yong Chen"
+      ],
+      "published": "2026-09-30",
+      "updated": "2026-09-30",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Few-Shot Class-Incremental Learning (FSCIL) addresses the challenge of learning new classes from very limited samples while retaining knowledge of previously learned ones. Although parameter-efficient fine-tuning methods with pre-trained models show promise for class-incremental learning, strict gradient-based constraints can be unreliable under severe data scarcity, while multi-expert approaches can impose substantial inference-time costs. We propose TALON (Task-Adaptive LoRA-Teachers with Ensemble Knowledge Transfer), an inference-efficient FSCIL framework. TALON dynamically allocates an independent LoRA-Teacher to each incremental task for task-specific representation learning, then distills multiple frozen teachers into a unified LoRA-Student through Ensemble Knowledge Transfer, eliminating runtime module selection or generation. A semantic-guided distillation strategy weights teacher contributions by feature-space similarity to mitigate catastrophic forgetting and overfitting. Across three class-order runs, TALON achieves comparable or better mean average accuracy across four FSCIL benchmarks, obtaining 86.68 +/- 1.22% on CUB200, 90.39 +/- 0.27% on CIFAR100, 78.38 +/- 0.94% on ImageNet-R, and 96.34 +/- 0.33% on miniImageNet. TALON uses up to 33x fewer deployment parameters and reduces average inference time per task to 26.7 s, a 41.70% reduction relative to ASP.",
+      "abs_url": "http://arxiv.org/abs/2609.39390v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.39390v1",
+      "code_url": null
+    },
+    "2609.39072": {
+      "id": "2609.39072",
+      "version": "2609.39072v1",
+      "title": "Beyond Text: LLM-Based Dimensional Emotion Evaluation in Multimodal Dialogue",
+      "authors": [
+        "Yutong Hu",
+        "Jinho Choi"
+      ],
+      "published": "2026-09-30",
+      "updated": "2026-09-30",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG",
+        "cs.MM"
+      ],
+      "abstract": "Emotion recognition in conversation has been widely studied, but applying Large Language Models (LLMs) to continuous dimensional emotion evaluation in multimodal dialogue remains largely unexplored. We propose an LLM-based framework that performs discrete emotion recognition and Valence-Arousal-Dominance (VAD) dimensional evaluation on IEMOCAP, incorporating acoustic cues as natural language descriptions following the SpeechCueLLM approach. We evaluate six models spanning the LLaMA, GPT, and Qwen families under zero-shot prompting, few-shot prompting, and LoRA fine-tuning. LoRA fine-tuned LLaMA models substantially outperform prompt-engineered GPT models on both tasks despite GPT's larger scale, a gap we attribute to domain adaptation rather than model capacity. Our best model achieves a Valence CCC of 0.7822, a new state-of-the-art on IEMOCAP. Ablation studies confirm that textual audio descriptions meaningfully improve smaller models (+3.5 to 3.6 weighted F1) while contributing little for the largest model, suggesting audio cues are most valuable when linguistic capacity is limited. The performance asymmetry across VAD dimensions closely mirrors the annotator agreement hierarchy in IEMOCAP's own annotations.",
+      "abs_url": "http://arxiv.org/abs/2609.39072v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.39072v1",
+      "code_url": null
+    },
+    "2609.38809": {
+      "id": "2609.38809",
+      "version": "2609.38809v1",
+      "title": "StateTree: Enhancing Long-Term Dialogue Reasoning via Reinforcement Learning",
+      "authors": [
+        "Naen Xu",
+        "Wanqing Cui",
+        "Yibo Hu",
+        "Shixin Hong",
+        "Hengyu An",
+        "Meiguang Jin",
+        "Junfeng Ma",
+        "Tianyu Du"
+      ],
+      "published": "2026-09-30",
+      "updated": "2026-09-30",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Large language models deployed as personalized assistants must reason over long, evolving interaction histories. However, in long-term dialogue reasoning, relevant evidence is scattered across sessions, preferences may be revised over time, and standard long-context training fails to address these challenges under data scarcity and prohibitive computational costs. We propose StateTree, a data-driven RL method that constructs a challenging auxiliary task from scarce dialogues with verifiable ground truth. StateTree augments multi-session dialogues with a tree-structured path-tracing task: key-value records are embedded across sessions to form a binary tree. Solving the task requires the model to traverse from root to leaf by retrieving records across sessions and comparing timestamps to resolve branches, then recover the hidden target question among distractor leaves. We apply curriculum RL training progressively increasing tree depth and introduce a compositional variant whose edges carry step-level reasoning fragments, training the model to compose partial cues into coherent queries. Trained on 10K-token contexts, StateTree generalizes to 128K tokens without full-length RL costs and exhibits capabilities including cross-session retrieval, temporal reasoning, knowledge update, and compositional multi-hop reasoning. StateTree outperforms both SFT and RL-based baselines while preserving short-context general reasoning. StateTree-7B achieves gains up to +23.60% on LongMemEval (128k), and StateTree-14B reaches 59.00% accuracy on LongMemEval, surpassing QwenLong-L1-32B (45.20%).",
+      "abs_url": "http://arxiv.org/abs/2609.38809v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.38809v1",
+      "code_url": null
     }
   }
 }

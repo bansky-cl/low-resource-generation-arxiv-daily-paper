@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **595**
-- Recent 30 days: **72**
+- Total papers in JSON: **601**
+- Recent 30 days: **78**
 - Older than 30 days: **523**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,12 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-30**|**MGhana-ST: A Low-Resource Speech Translation Dataset for Ghanaian Languages and an Analysis of Multilingual Training Trade-offs**|cs.CL|[2609.40041v1](http://arxiv.org/abs/2609.40041v1)|null|
+|**2026-09-30**|**AIMS: An Agentic AI Framework for Sim-to-Real Multi-Modal ISAC**|cs.AI, cs.MA|[2609.39964v1](http://arxiv.org/abs/2609.39964v1)|null|
+|**2026-09-30**|**Decoupled and Distilled: Task-Adaptive LoRA-Teachers with Ensemble Knowledge Transfer for Few-Shot Class-Incremental Learning**|cs.LG|[2609.39390v1](http://arxiv.org/abs/2609.39390v1)|null|
+|**2026-09-30**|**Beyond Text: LLM-Based Dimensional Emotion Evaluation in Multimodal Dialogue**|cs.CL, cs.AI, cs.LG, cs.MM|[2609.39072v1](http://arxiv.org/abs/2609.39072v1)|null|
+|**2026-09-30**|**StateTree: Enhancing Long-Term Dialogue Reasoning via Reinforcement Learning**|cs.CL, cs.AI|[2609.38809v1](http://arxiv.org/abs/2609.38809v1)|null|
+|**2026-09-29**|**Towards Model as a Library: Offline, Community-Sourced AI for Low-Resource African Languages**|cs.AI, cs.CL, cs.HC|[2609.38574v1](http://arxiv.org/abs/2609.38574v1)|null|
 |**2026-09-29**|**MatToolBench: Benchmarking Multimodal Agents in Real-World Materials Science Workflows**|cs.AI|[2609.37053v1](http://arxiv.org/abs/2609.37053v1)|null|
 |**2026-09-29**|**Dating the Model: Hidden Dates in System Prompts Affect LLM Evaluation**|cs.CL|[2609.36931v1](http://arxiv.org/abs/2609.36931v1)|null|
 |**2026-09-28**|**The Uneven Decline of Collective Knowledge Production: Evidence from Stack Overflow After Generative AI**|cs.SE, cs.AI, cs.DL|[2609.36069v1](http://arxiv.org/abs/2609.36069v1)|null|
@@ -221,14 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-11**|**Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety**|cs.CR, cs.AI|[2607.10112v1](http://arxiv.org/abs/2607.10112v1)|**[code](https://github.com/Brentkong/Minionese-Comprehensive-Benchmark-and-Mechanistic-Study-of-Multilingual-LLM-Safety.git)**|
 |**2026-07-10**|**Index SLM Technical Report**|cs.CL|[2607.09885v1](http://arxiv.org/abs/2607.09885v1)|**[code](https://github.com/bilibili/Index-1.9B)**|
 |**2026-07-10**|**Quantum-Enhanced Synthetic Data Generation Using Quantum Circuit Born Machines for Imbalanced Tabular Learning**|quant-ph, cs.LG|[2607.09113v1](http://arxiv.org/abs/2607.09113v1)|null|
-|**2026-07-09**|**MASTE: A Multi-Agent Pipeline for Zero-Shot Aspect Sentiment Triplet Extraction**|cs.CL|[2607.08080v1](http://arxiv.org/abs/2607.08080v1)|**[code](https://github.com/Hankerlove/MASTE)**|
-|**2026-07-08**|**Feedback Manipulation Regularization: Enabling Offline Agent Alignment for Imitation Learning**|cs.AI, cs.HC, cs.LG|[2607.07859v1](http://arxiv.org/abs/2607.07859v1)|null|
-|**2026-07-08**|**Selective Left-Shift: Turning Test-Time Compute and Difficulty-based Curation into Training Data for Low-Resource Code Generation**|cs.LG|[2607.07748v1](http://arxiv.org/abs/2607.07748v1)|null|
-|**2026-07-08**|**Future Confidence Distillation in Large Language Models**|cs.CL, cs.AI|[2607.07626v1](http://arxiv.org/abs/2607.07626v1)|null|
-|**2026-07-07**|**Estimating Uncertainty from Reasoning: A Large-Scale Study of Multi- and Crosslingual MCQA Performance in LLMs**|cs.CL, cs.AI|[2607.06327v2](http://arxiv.org/abs/2607.06327v2)|null|
-|**2026-07-07**|**Property-Driven Synthetic Data Engineering for Data-Scarce Software Systems: Reflections from the Breast Cancer Domain**|cs.SE, cs.AI|[2607.06133v1](http://arxiv.org/abs/2607.06133v1)|null|
 
-README omitted **395** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **401** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
