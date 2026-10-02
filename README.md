@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **601**
-- Recent 30 days: **73**
+- Total papers in JSON: **604**
+- Recent 30 days: **76**
 - Older than 30 days: **528**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,8 +22,11 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-01**|**Precision over Scale: A Polish-Silesian Benchmark and a Translation System Outperforming Open-Source and Commercial Models**|cs.CL|[2610.01082v1](http://arxiv.org/abs/2610.01082v1)|null|
+|**2026-09-30**|**On-the-fly Weight Generation: A Hypernetwork Proof of Concept on ARC-1D**|cs.LG, cs.AI|[2610.00820v1](http://arxiv.org/abs/2610.00820v1)|null|
+|**2026-09-30**|**LLM-as-a-Judge for Low-Resource Languages: Adapting Ragas and Comparative Ranking for Romanian**|cs.CL|[2610.00406v1](http://arxiv.org/abs/2610.00406v1)|null|
 |**2026-09-30**|**MGhana-ST: A Low-Resource Speech Translation Dataset for Ghanaian Languages and an Analysis of Multilingual Training Trade-offs**|cs.CL|[2609.40041v1](http://arxiv.org/abs/2609.40041v1)|null|
-|**2026-09-30**|**AIMS: An Agentic AI Framework for Sim-to-Real Multi-Modal ISAC**|cs.AI, cs.MA|[2609.39964v1](http://arxiv.org/abs/2609.39964v1)|null|
+|**2026-09-30**|**AIMS: An Agentic AI Framework for Sim-to-Real Multi-Modal ISAC**|cs.AI, cs.MA|[2609.39964v2](http://arxiv.org/abs/2609.39964v2)|null|
 |**2026-09-30**|**Decoupled and Distilled: Task-Adaptive LoRA-Teachers with Ensemble Knowledge Transfer for Few-Shot Class-Incremental Learning**|cs.LG|[2609.39390v1](http://arxiv.org/abs/2609.39390v1)|null|
 |**2026-09-30**|**Beyond Text: LLM-Based Dimensional Emotion Evaluation in Multimodal Dialogue**|cs.CL, cs.AI, cs.LG, cs.MM|[2609.39072v1](http://arxiv.org/abs/2609.39072v1)|null|
 |**2026-09-30**|**StateTree: Enhancing Long-Term Dialogue Reasoning via Reinforcement Learning**|cs.CL, cs.AI|[2609.38809v1](http://arxiv.org/abs/2609.38809v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-13**|**Think Before You Comfort: Reflective Cognitive Alignment for Protocol-Grounded Elderly Stimulation Agents**|cs.CL|[2609.17536v1](http://arxiv.org/abs/2609.17536v1)|**[code](https://github.com/jiangjyjy/RCA_Agent)**|
 |**2026-07-13**|**Direct Image-to-Modern Vietnamese Translation of Han-Nom Manuscripts via Multimodal RLHF Preference Alignment**|cs.CL, cs.CV|[2607.11434v1](http://arxiv.org/abs/2607.11434v1)|null|
 |**2026-07-12**|**Diachronic Sample Integration: Robust Tail-Risk Estimation with Generative Models**|cs.LG, cs.AI, q-fin.RM|[2607.10810v1](http://arxiv.org/abs/2607.10810v1)|null|
-|**2026-07-11**|**Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety**|cs.CR, cs.AI|[2607.10112v1](http://arxiv.org/abs/2607.10112v1)|**[code](https://github.com/Brentkong/Minionese-Comprehensive-Benchmark-and-Mechanistic-Study-of-Multilingual-LLM-Safety.git)**|
-|**2026-07-10**|**Index SLM Technical Report**|cs.CL|[2607.09885v1](http://arxiv.org/abs/2607.09885v1)|**[code](https://github.com/bilibili/Index-1.9B)**|
-|**2026-07-10**|**Quantum-Enhanced Synthetic Data Generation Using Quantum Circuit Born Machines for Imbalanced Tabular Learning**|quant-ph, cs.LG|[2607.09113v1](http://arxiv.org/abs/2607.09113v1)|null|
 
-README omitted **401** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **404** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

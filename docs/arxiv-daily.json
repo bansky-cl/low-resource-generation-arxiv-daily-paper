@@ -12926,7 +12926,7 @@
     },
     "2609.39964": {
       "id": "2609.39964",
-      "version": "2609.39964v1",
+      "version": "2609.39964v2",
       "title": "AIMS: An Agentic AI Framework for Sim-to-Real Multi-Modal ISAC",
       "authors": [
         "Yijie Bian",
@@ -12938,14 +12938,14 @@
         "Khaled B. Letaief"
       ],
       "published": "2026-09-30",
-      "updated": "2026-09-30",
+      "updated": "2026-10-01",
       "categories": [
         "cs.AI",
         "cs.MA"
       ],
-      "abstract": "Multi-modal integrated sensing and communication (ISAC) enables environmental perception and reliable connectivity for intelligent wireless networks. Data-driven multi-modal ISAC models depend heavily on annotated real-world data to learn relationships across sensing and wireless observations, thereby constraining scalable deployment. Although synthetic data generation reduces the burden, adapting existing simulation pipelines to a target deployment requires consistent scene, sensing, wireless, and learning configurations, while mismatches among these coupled components impair sim-to-real transferability. To address the challenge, we propose an agentic artificial intelligence (AI) framework for sim-to-real multi-modal ISAC, named AIMS. Given a natural-language deployment request specifying the target task, deployment conditions, and real-data budget, AIMS derives a deployment-specific sim-to-real configuration and coordinates its execution to produce a deployment-specific task model. A two-agent architecture coordinates scene construction with task learning. A scene construction agent generates geographically grounded, synchronized sensing and wireless records from shared physical states, while a scene understanding agent configures task-relevant modalities and mixture-of-experts (MoE) learning for zero-shot inference or few-shot adaptation. Structured domain knowledge guides dependency-aware planning, while validation evidence supports feedback-driven revision of affected decisions. Experiments on the real-world DeepSense~6G dataset demonstrate improved vehicle detection and beam prediction over the considered simulation and fusion baselines. A separate orchestration benchmark evaluates task interpretation, dependency reasoning, and feedback-driven replanning across diverse deployment requests, showing improved plan correctness with structured domain knowledge and validation feedback.",
-      "abs_url": "http://arxiv.org/abs/2609.39964v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.39964v1",
+      "abstract": "Multi-modal integrated sensing and communication (ISAC) enables environmental perception and reliable connectivity for intelligent wireless networks. Data-driven multi-modal ISAC models depend heavily on annotated real-world data to learn relationships across sensing and wireless observations, thereby constraining scalable deployment. Although synthetic data generation reduces the burden, adapting existing simulation pipelines to a target deployment requires consistent scene, sensing, wireless, and learning configurations, while mismatches among these coupled components impair sim-to-real transferability. To address the challenge, we propose an agentic artificial intelligence (AI) framework for sim-to-real multi-modal ISAC, named AIMS. Given a natural-language deployment request specifying the target task, deployment conditions, and real-data budget, AIMS derives a deployment-specific sim-to-real configuration and coordinates its execution to produce a deployment-specific task model. A two-agent architecture coordinates scene construction with task learning. A scene construction agent generates geographically grounded, synchronized sensing and wireless records from shared physical states, while a scene understanding agent configures task-relevant modalities and mixture-of-experts (MoE) learning for zero-shot inference or few-shot adaptation. Structured domain knowledge guides dependency-aware planning, while validation evidence supports feedback-driven revision of affected decisions. Experiments on the real-world DeepSense 6G dataset demonstrate improved vehicle detection and beam prediction over the considered simulation and fusion baselines. A separate orchestration benchmark evaluates task interpretation, dependency reasoning, and feedback-driven replanning across diverse deployment requests, showing improved plan correctness with structured domain knowledge and validation feedback.",
+      "abs_url": "http://arxiv.org/abs/2609.39964v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.39964v2",
       "code_url": null
     },
     "2609.39390": {
@@ -13013,6 +13013,63 @@
       "abstract": "Large language models deployed as personalized assistants must reason over long, evolving interaction histories. However, in long-term dialogue reasoning, relevant evidence is scattered across sessions, preferences may be revised over time, and standard long-context training fails to address these challenges under data scarcity and prohibitive computational costs. We propose StateTree, a data-driven RL method that constructs a challenging auxiliary task from scarce dialogues with verifiable ground truth. StateTree augments multi-session dialogues with a tree-structured path-tracing task: key-value records are embedded across sessions to form a binary tree. Solving the task requires the model to traverse from root to leaf by retrieving records across sessions and comparing timestamps to resolve branches, then recover the hidden target question among distractor leaves. We apply curriculum RL training progressively increasing tree depth and introduce a compositional variant whose edges carry step-level reasoning fragments, training the model to compose partial cues into coherent queries. Trained on 10K-token contexts, StateTree generalizes to 128K tokens without full-length RL costs and exhibits capabilities including cross-session retrieval, temporal reasoning, knowledge update, and compositional multi-hop reasoning. StateTree outperforms both SFT and RL-based baselines while preserving short-context general reasoning. StateTree-7B achieves gains up to +23.60% on LongMemEval (128k), and StateTree-14B reaches 59.00% accuracy on LongMemEval, surpassing QwenLong-L1-32B (45.20%).",
       "abs_url": "http://arxiv.org/abs/2609.38809v1",
       "pdf_url": "https://arxiv.org/pdf/2609.38809v1",
+      "code_url": null
+    },
+    "2610.00406": {
+      "id": "2610.00406",
+      "version": "2610.00406v1",
+      "title": "LLM-as-a-Judge for Low-Resource Languages: Adapting Ragas and Comparative Ranking for Romanian",
+      "authors": [
+        "Claudiu Creanga",
+        "Liviu P. Dinu"
+      ],
+      "published": "2026-09-30",
+      "updated": "2026-09-30",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Evaluating Retrieval-Augmented Generation (RAG) systems remains a challenge for Low-Resource Languages (LRLs), where standard reference-based metrics fall short. This paper investigates the viability of the \"LLM-as-a-Judge\" paradigm for Romanian by adapting the Ragas framework using next-generation models (Gemini 2.5 and Gemini 3). We introduce AdminRo-Eval, a curated dataset of Romanian administrative documents annotated by native speakers, to serve as a ground truth for benchmarking automated evaluators. We compare three evaluation methodologies - direct scoring, comparative ranking, and granular decomposition - across metrics for Faithfulness, Answer Relevance, and Context Relevance. Our findings reveal that evaluation strategies must be metric-specific: granular decomposition achieves the highest human alignment for Faithfulness (96% with Gemini 2.5 Pro), while comparative ranking outperforms in Answer Relevance (90%). Furthermore, we demonstrate that while lightweight models struggle with complex reasoning in LRLs, the Gemini 2.5 Pro architecture establishes a robust, transferable baseline for automated Romanian RAG evaluation.",
+      "abs_url": "http://arxiv.org/abs/2610.00406v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.00406v1",
+      "code_url": null
+    },
+    "2610.00820": {
+      "id": "2610.00820",
+      "version": "2610.00820v1",
+      "title": "On-the-fly Weight Generation: A Hypernetwork Proof of Concept on ARC-1D",
+      "authors": [
+        "Fabio J. Fehr",
+        "Philip Torr"
+      ],
+      "published": "2026-09-30",
+      "updated": "2026-09-30",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "General-purpose models can adapt to many tasks from context, while specialised models can execute individual functions with less capacity. Yet obtaining such specialists requires task-specific training or adaptation. We ask whether they can instead be generated directly from a few demonstrations. Using ARC-1D as a controlled testbed, we show that individual transformations can be represented by tiny specialist models, and that a hypernetwork can generate their parameters from context. The generated parameters form a structured weight space, while the resulting specialists show partial compositional generalisation and generalisation to transformations not seen during training. In both settings, removing explicit task identifiers improves generalisation beyond the training transformations. Together, these results provide a proof of concept that few-shot task context can be compiled on-the-fly into compact executable model parameters, and that the resulting weight space can support reuse and generalisation beyond known functions.",
+      "abs_url": "http://arxiv.org/abs/2610.00820v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.00820v1",
+      "code_url": null
+    },
+    "2610.01082": {
+      "id": "2610.01082",
+      "version": "2610.01082v1",
+      "title": "Precision over Scale: A Polish-Silesian Benchmark and a Translation System Outperforming Open-Source and Commercial Models",
+      "authors": [
+        "Grzegorz Kulik",
+        "Mikołaj Pokrywka",
+        "Adam Jatowt",
+        "Wojciech Kusa"
+      ],
+      "published": "2026-10-01",
+      "updated": "2026-10-01",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Dialectal machine translation remains challenging due to limited data and strong linguistic variation not captured by standard benchmarks, which often assume standardized and well-edited text. We study Polish-Silesian MT using neural and rule-based systems, evaluating on SiLTT - a new Pol-Szl testset, alongside established BOUQuET and FLORES benchmarks. Results show our rule-based system is consistently strongest on SiLTT and BOUQuET datasets and that TranslateGemma fine-tuned on a curated dataset improves over strong neural baselines but does not surpass the rule-based system in dialectal settings. We release SiLTT and our best neural model to support further research.",
+      "abs_url": "http://arxiv.org/abs/2610.01082v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.01082v1",
       "code_url": null
     }
   }
