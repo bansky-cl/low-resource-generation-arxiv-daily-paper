@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.10.03
+## Updated on 2026.10.04
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **604**
-- Recent 30 days: **73**
-- Older than 30 days: **531**
+- Recent 30 days: **69**
+- Older than 30 days: **535**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -91,15 +91,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-04**|**MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis**|cs.AI|[2609.04804v1](http://arxiv.org/abs/2609.04804v1)|null|
 |**2026-09-04**|**Choosing the Right Language Mode at Inference Time for Multilingual Reliability**|cs.CL|[2609.04653v1](http://arxiv.org/abs/2609.04653v1)|null|
 |**2026-09-04**|**When Do Internal Probes Beat Reading the Answer? Miscalibrated Readouts and Behavior-Concealed Knowledge in Language Models**|cs.CL, cs.AI|[2609.04582v1](http://arxiv.org/abs/2609.04582v1)|null|
-|**2026-09-03**|**Dynamic Adaptation of the LLM Context for Generating Routines with Coupled Semantics**|cs.SE, cs.AI|[2609.04570v1](http://arxiv.org/abs/2609.04570v1)|null|
-|**2026-09-03**|**Translation as a Decision Space: A Multi-Agent Perspective on Low-Resource Dialect Generation**|cs.CL, cs.AI|[2609.04048v1](http://arxiv.org/abs/2609.04048v1)|null|
-|**2026-09-03**|**Beyond BLEU: A Case for Redefining Sign Language Translation Benchmarks**|cs.CL, cs.AI|[2609.03734v1](http://arxiv.org/abs/2609.03734v1)|null|
-|**2026-09-03**|**Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech**|cs.CL, cs.AI|[2609.03502v1](http://arxiv.org/abs/2609.03502v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-03**|**Dynamic Adaptation of the LLM Context for Generating Routines with Coupled Semantics**|cs.SE, cs.AI|[2609.04570v1](http://arxiv.org/abs/2609.04570v1)|null|
+|**2026-09-03**|**Translation as a Decision Space: A Multi-Agent Perspective on Low-Resource Dialect Generation**|cs.CL, cs.AI|[2609.04048v1](http://arxiv.org/abs/2609.04048v1)|null|
+|**2026-09-03**|**Beyond BLEU: A Case for Redefining Sign Language Translation Benchmarks**|cs.CL, cs.AI|[2609.03734v1](http://arxiv.org/abs/2609.03734v1)|null|
+|**2026-09-03**|**Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech**|cs.CL, cs.AI|[2609.03502v1](http://arxiv.org/abs/2609.03502v1)|null|
 |**2026-09-02**|**Improving Health Literacy through Lay Summarization of Radiological Reports: An Evaluation of BioNER and Retrieval-Augmented Generation**|cs.CL|[2609.02396v1](http://arxiv.org/abs/2609.02396v1)|null|
 |**2026-09-02**|**PolERo: Studying Political Evasion in Romanian**|cs.CL, cs.AI|[2609.02391v1](http://arxiv.org/abs/2609.02391v1)|null|
 |**2026-09-02**|**Prototype-guided transfer of sparse literature knowledge for electrolyte additive discovery**|physics.chem-ph, cs.LG|[2609.02209v1](http://arxiv.org/abs/2609.02209v1)|null|
