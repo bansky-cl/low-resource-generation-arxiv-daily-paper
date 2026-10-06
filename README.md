@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **611**
-- Recent 30 days: **71**
+- Total papers in JSON: **618**
+- Recent 30 days: **78**
 - Older than 30 days: **540**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,13 +22,20 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
-|**2026-10-02**|**Multilingual GSM-Symbolic: What determines capability transfer across languages?**|cs.AI, cs.CL|[2610.03367v1](http://arxiv.org/abs/2610.03367v1)|null|
-|**2026-10-02**|**Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers**|cs.AI|[2610.03363v1](http://arxiv.org/abs/2610.03363v1)|null|
+|**2026-10-05**|**Xaurora: Generative Weather Forecasting with Denoising Stochastic Interpolants from a Foundation Model Prior**|cs.LG|[2610.06509v1](http://arxiv.org/abs/2610.06509v1)|null|
+|**2026-10-05**|**Constraint-Aware Conversational Job Recommendation in Code-Mixed Low-Resource Settings**|cs.IR|[2610.05787v1](http://arxiv.org/abs/2610.05787v1)|**[code](https://huggingface.co/datasets/Armans33115/JobCCC-Conversational-Job-Recommendation-Bangladesh)**|
+|**2026-10-04**|**Image Synthesis as an Intermediate for Controllable Time Series Generation**|cs.AI|[2610.05211v1](http://arxiv.org/abs/2610.05211v1)|null|
+|**2026-10-03**|**Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations**|cs.AI, cs.CL, cs.CR|[2610.04693v1](http://arxiv.org/abs/2610.04693v1)|null|
+|**2026-10-03**|**Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation**|cs.AI|[2610.04188v1](http://arxiv.org/abs/2610.04188v1)|null|
+|**2026-10-02**|**Protecting Sensitive Data in Image Synthesis via PAC-Private Adaptation for Diffusion Models**|cs.LG|[2610.04038v1](http://arxiv.org/abs/2610.04038v1)|null|
+|**2026-10-02**|**Multilingual GSM-Symbolic: What determines capability transfer across languages?**|cs.AI, cs.CL|[2610.03367v2](http://arxiv.org/abs/2610.03367v2)|null|
+|**2026-10-02**|**Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers**|cs.AI|[2610.03363v2](http://arxiv.org/abs/2610.03363v2)|null|
 |**2026-10-02**|**Predicting Steering Vectors and Adapter Weights for Few-Shot Author-Style Transfer**|cs.CL, cs.AI|[2610.03163v1](http://arxiv.org/abs/2610.03163v1)|null|
 |**2026-10-02**|**Enhancing Biomedical Named Entity Recognition via Multiple Programming Languages Instruction Tuning and Ensemble Method**|cs.CL|[2610.02949v1](http://arxiv.org/abs/2610.02949v1)|null|
+|**2026-10-01**|**Fine-Grained Emotion Classification from Mobile App Reviews: An Empirical Study with Large Language Models**|cs.CL, cs.IR, cs.SE|[2610.03802v1](http://arxiv.org/abs/2610.03802v1)|null|
 |**2026-10-01**|**How To Train Your World Model: Fine-tuning vs RAG for LM-based World Modeling**|cs.AI|[2610.02542v1](http://arxiv.org/abs/2610.02542v1)|null|
 |**2026-10-01**|**Social bot detection in the age of ChatGPT: Challenges and opportunities**|cs.CY, cs.CL|[2610.02386v1](http://arxiv.org/abs/2610.02386v1)|null|
-|**2026-10-01**|**Precision over Scale: A Polish-Silesian Benchmark and a Translation System Outperforming Open-Source and Commercial Models**|cs.CL|[2610.01082v1](http://arxiv.org/abs/2610.01082v1)|null|
+|**2026-10-01**|**Precision over Scale: A Polish-Silesian Benchmark and a Translation System Outperforming Open-Source and Commercial Models**|cs.CL|[2610.01082v2](http://arxiv.org/abs/2610.01082v2)|null|
 |**2026-09-30**|**On-the-fly Weight Generation: A Hypernetwork Proof of Concept on ARC-1D**|cs.LG, cs.AI|[2610.00820v1](http://arxiv.org/abs/2610.00820v1)|null|
 |**2026-09-30**|**LLM-as-a-Judge for Low-Resource Languages: Adapting Ragas and Comparative Ranking for Romanian**|cs.CL|[2610.00406v1](http://arxiv.org/abs/2610.00406v1)|null|
 |**2026-09-30**|**MGhana-ST: A Low-Resource Speech Translation Dataset for Ghanaian Languages and an Analysis of Multilingual Training Trade-offs**|cs.CL|[2609.40041v2](http://arxiv.org/abs/2609.40041v2)|null|
@@ -220,15 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-20**|**Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments**|cs.PL, cs.AI, cs.LG|[2607.18357v1](http://arxiv.org/abs/2607.18357v1)|null|
 |**2026-07-20**|**Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory**|cs.AI|[2607.17879v1](http://arxiv.org/abs/2607.17879v1)|null|
 |**2026-07-20**|**Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare**|cs.LG, cs.AI|[2607.17508v2](http://arxiv.org/abs/2607.17508v2)|null|
-|**2026-07-19**|**KyrgyzLLM-Bench: Benchmarking Kyrgyz Language Understanding**|cs.CL|[2607.17173v1](http://arxiv.org/abs/2607.17173v1)|null|
-|**2026-07-19**|**Robust Assamese Speech Recognition through Controlled Fine-Tuning of Whisper Models**|cs.LG|[2607.17164v1](http://arxiv.org/abs/2607.17164v1)|null|
-|**2026-07-18**|**NOWJ@COLIEE 2026: Adaptive Pipelines for Legal Retrieval and Reasoning**|cs.CL|[2607.16603v1](http://arxiv.org/abs/2607.16603v1)|null|
-|**2026-07-17**|**A Better Start for Language Models: Domain-Conditional Position Offsets**|cs.LG|[2607.18302v1](http://arxiv.org/abs/2607.18302v1)|null|
-|**2026-07-17**|**RIMS: Preference Optimization via Smoothed Multi-pair Aggregation for Small-Scale LLM Retrieval-Augmented Generation**|cs.CL|[2607.16431v1](http://arxiv.org/abs/2607.16431v1)|**[code](https://github.com/tptrix29/RIMS)**|
-|**2026-07-16**|**One-Shot Generative Design for Disordered Metamaterials via Self-Organizing Neural Cellular Automata**|cs.CE, cs.LG|[2607.14475v1](http://arxiv.org/abs/2607.14475v1)|null|
-|**2026-07-15**|**A POS Tier Is the Key to Automated Annotation for Low-Resource Language Documentation: Neural Interlinear Glossing for Irabu, a Southern Ryukyuan Language**|cs.CL|[2607.13372v1](http://arxiv.org/abs/2607.13372v1)|null|
 
-README omitted **411** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **418** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

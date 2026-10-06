@@ -13054,7 +13054,7 @@
     },
     "2610.01082": {
       "id": "2610.01082",
-      "version": "2610.01082v1",
+      "version": "2610.01082v2",
       "title": "Precision over Scale: A Polish-Silesian Benchmark and a Translation System Outperforming Open-Source and Commercial Models",
       "authors": [
         "Grzegorz Kulik",
@@ -13063,18 +13063,18 @@
         "Wojciech Kusa"
       ],
       "published": "2026-10-01",
-      "updated": "2026-10-01",
+      "updated": "2026-10-03",
       "categories": [
         "cs.CL"
       ],
       "abstract": "Dialectal machine translation remains challenging due to limited data and strong linguistic variation not captured by standard benchmarks, which often assume standardized and well-edited text. We study Polish-Silesian MT using neural and rule-based systems, evaluating on SiLTT - a new Pol-Szl testset, alongside established BOUQuET and FLORES benchmarks. Results show our rule-based system is consistently strongest on SiLTT and BOUQuET datasets and that TranslateGemma fine-tuned on a curated dataset improves over strong neural baselines but does not surpass the rule-based system in dialectal settings. We release SiLTT and our best neural model to support further research.",
-      "abs_url": "http://arxiv.org/abs/2610.01082v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.01082v1",
+      "abs_url": "http://arxiv.org/abs/2610.01082v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.01082v2",
       "code_url": null
     },
     "2610.03367": {
       "id": "2610.03367",
-      "version": "2610.03367v1",
+      "version": "2610.03367v2",
       "title": "Multilingual GSM-Symbolic: What determines capability transfer across languages?",
       "authors": [
         "Kenneth Enevoldsen",
@@ -13104,14 +13104,14 @@
         "Kristoffer Nielbo"
       ],
       "published": "2026-10-02",
-      "updated": "2026-10-02",
+      "updated": "2026-10-05",
       "categories": [
         "cs.AI",
         "cs.CL"
       ],
       "abstract": "We understand little about how capabilities acquired in one language carry over to another, or what governs this transfer: evaluations rely on incomparable, saturation-prone datasets and rarely examine its determinants jointly. Identifying what predicts transfer would let us avoid exhaustive evaluation across all language pairs and let developers target the factors that limit performance in low-resource languages. To evaluate cross-lingual capability transfer, we introduce Multilingual GSM-Symbolic, an extensible multilingual mathematical dataset covering 30,000 item-matched question-answer pairs and spanning 15 languages. It utilises symbolic templates to prevent overfitting and ensure generalisation by allowing generation of millions of high-quality variations from a single sample. Using Multilingual GSM-Symbolic, we quantify the largest determinants of capability as model size ($β= 1.77$), language resource level ($β= 0.77$), reasoning ($β= 0.67$) and typological distance ($β= -0.25$). This joint estimation allows these determinants to be expressed in terms of one another: a 32B model evaluated in Marathi performs like a 10B model in English. Our findings have important implications for model developers, showing that model size and reasoning narrow the performance gap between low- and high-resource languages ($β= -0.27$ and $β= -0.20$, respectively), while similar levers have little or no effect on typologically distant languages. Overall, our analysis framework explains 92% of between-language variation, but only 23% of the model-by-language variation, and predicts a model's performance on an unseen language within 6.0pp (r=.96). Incorporating measurements from just 10 templates in the target language reduces this to 4.19pp, enabling reasonable estimates of performance with little or no downstream dataset.",
-      "abs_url": "http://arxiv.org/abs/2610.03367v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03367v1",
+      "abs_url": "http://arxiv.org/abs/2610.03367v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.03367v2",
       "code_url": null
     },
     "2610.02386": {
@@ -13155,7 +13155,7 @@
     },
     "2610.03363": {
       "id": "2610.03363",
-      "version": "2610.03363v1",
+      "version": "2610.03363v2",
       "title": "Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers",
       "authors": [
         "Luis Medrano-Navarro",
@@ -13167,13 +13167,13 @@
         "Nils Thuerey"
       ],
       "published": "2026-10-02",
-      "updated": "2026-10-02",
+      "updated": "2026-10-05",
       "categories": [
         "cs.AI"
       ],
       "abstract": "Neural surrogate models for Partial Differential Equations (PDEs) on unstructured 3D geometries are often limited by poor generalization and the high cost of generating large-scale training datasets. Consequently, pre-training on massive datasets of related PDE dynamics has emerged as a critical alternative to enhance the robustness and scalability of these models. However, this strategy is neither compute- nor data-efficient, as it relies on massive pre-computed data that is very costly to generate. In this work, we introduce a disk-data-free pre-training framework tailored to both steady-state and transient regimes. For steady-state problems, we propose a geometry-driven strategy that leverages intrinsic shape descriptors to learn representations of complex 3D domains. For transient problems, we introduce a physics-driven approach based on online generation of synthetic PDE data, enabling scalable pre-training without reliance on expensive datasets. Across multiple experiments, our approach achieves faster convergence, greater data efficiency, and higher accuracy during fine-tuning, particularly under realistic low-data regimes. This methodology provides a practical pathway toward data-efficient neural emulators for large-scale simulations.",
-      "abs_url": "http://arxiv.org/abs/2610.03363v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03363v1",
+      "abs_url": "http://arxiv.org/abs/2610.03363v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.03363v2",
       "code_url": null
     },
     "2610.02542": {
@@ -13239,6 +13239,150 @@
       "abstract": "Instruction tuning has become a common paradigm for applying large language models (LLMs) to biomedical named entity recognition (BioNER). However, existing instruction-tuning approaches still face two key challenges. First, conventional natural-language instructions typically serialize BioNER annotations as flat textual outputs, providing limited structural constraints for typed entity extraction. Second, high-quality biomedical annotations are limited, and learning from a single serialized output form may restrict structural diversity and reduce model robustness. Although external biomedical knowledge can be introduced to alleviate data scarcity, it often requires costly resource construction. To address these challenges, we propose MITE, a Multiple Programming Languages Instruction Tuning and Ensemble method for BioNER. MITE reformulates BioNER as a structure-to-structure generation task by representing both instructions and entity outputs in code-formatted representations. Specifically, each training instance is transformed into multiple programming-language formats, including Python, C++, and Java, while preserving the same underlying entity semantics. These language-specific representations provide structurally diverse supervision without requiring external biomedical knowledge or additional annotations. During inference, MITE aggregates predictions from different code formats through an entity-level voting strategy, reducing language-specific prediction variance and improving robustness. Experiments on six widely used BioNER datasets demonstrate that MITE consistently outperforms representative BERT-based and LLM-based baselines and exhibits strong cross-dataset generalization. Ablation and parameter analyses further verify the effectiveness and robustness of the proposed components.",
       "abs_url": "http://arxiv.org/abs/2610.02949v1",
       "pdf_url": "https://arxiv.org/pdf/2610.02949v1",
+      "code_url": null
+    },
+    "2610.05787": {
+      "id": "2610.05787",
+      "version": "2610.05787v1",
+      "title": "Constraint-Aware Conversational Job Recommendation in Code-Mixed Low-Resource Settings",
+      "authors": [
+        "Md Arman Hossain",
+        "Mubashir Jawad",
+        "Fariha Khandaker Moon",
+        "Sonia Binte Siraj",
+        "Masfiqur Rahaman",
+        "Raihan ul Islam",
+        "Ahmed Wasif Reza",
+        "Nafis Sadeq"
+      ],
+      "published": "2026-10-05",
+      "updated": "2026-10-05",
+      "categories": [
+        "cs.IR"
+      ],
+      "abstract": "Conversational job recommendation requires jointly modeling semantic relevance, user preferences, eligibility requirements, and the noisy language used in real-world career discussions. These challenges are especially pronounced in low-resource, code-mixed settings, where strict constraint matching can incorrectly eliminate otherwise suitable jobs. We introduce JobCCC, a conversational job recommendation benchmark for Bangladesh comprising 22,410 structured job postings and 988 multi-turn career-advice dialogues derived from regional Reddit communities. Each dialogue is annotated with evolving seeker preferences and linked to a ground-truth job, and is evaluated in semantically equivalent English and Romanized Bangla--English variants. We compare sparse BM25 retrieval, multilingual dense retrieval, and their hard-constraint-filtered counterparts against Weighted Soft-Constraint-Aware Ranking (W-SCAR), our multi-criteria ranking framework that combines lexical relevance, semantic relevance, and graded utilities for experience, location, education, and salary using the Technique for Order Preference by Similarity to Ideal Solution (TOPSIS). Experiments reveal that strict filtering consistently degrades retrieval because incomplete extraction and brittle attribute matching irreversibly remove relevant jobs. W-SCAR avoids destructive pruning and achieves more balanced performance across the two language conditions, obtaining 37.37% and 38.43% Hit@10 on English and Banglish, respectively. The code and dataset are publicly available at \\href{https://github.com/M-Jawad01/Conversational-Job-Recommendation-System-LLM}{GitHub} and \\href{https://huggingface.co/datasets/Armans33115/JobCCC-Conversational-Job-Recommendation-Bangladesh}{Hugging Face}, respectively.",
+      "abs_url": "http://arxiv.org/abs/2610.05787v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.05787v1",
+      "code_url": "https://huggingface.co/datasets/Armans33115/JobCCC-Conversational-Job-Recommendation-Bangladesh"
+    },
+    "2610.05211": {
+      "id": "2610.05211",
+      "version": "2610.05211v1",
+      "title": "Image Synthesis as an Intermediate for Controllable Time Series Generation",
+      "authors": [
+        "Haochen Yuan",
+        "Jing Xie",
+        "Yunbo Wang"
+      ],
+      "published": "2026-10-04",
+      "updated": "2026-10-04",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Semantic-driven time-series generation offers a promising way to improve downstream learning in few-shot forecasting, but directly generating numerical sequences from language often fails to preserve the intended temporal structure. We propose VisualBridge, which uses time-series plots as a visual intermediate to bridge high-level temporal semantics and numerical sequences. An MLLM first converts plotted series into structured semantic representations, enabling explicit control over temporal properties such as trend, seasonality, and volatility. We then learn a semantic editing policy with downstream forecasting rewards, allowing the generation process to favor temporal patterns that are beneficial for the target task. The resulting sequences are further modeled by a temporal VAE to produce consistent multivariate augmentations. Experiments on standard public forecasting benchmarks demonstrate that VisualBridge improves few-shot forecasting over conventional augmentation methods, with ablations validating the roles of visual semantic grounding, learned semantic control, and VAE-based generation.",
+      "abs_url": "http://arxiv.org/abs/2610.05211v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.05211v1",
+      "code_url": null
+    },
+    "2610.04188": {
+      "id": "2610.04188",
+      "version": "2610.04188v1",
+      "title": "Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation",
+      "authors": [
+        "Uttamasha Monjoree",
+        "Wei Yan"
+      ],
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Recent studies show that artificial intelligence (AI) with language and vision capabilities still experiences limitations in spatial reasoning. In this paper, we have studied the spatial capabilities of advanced generative AI to understand the rotations of objects in 3D space, utilizing AI's image processing and language processing features. We trained and examined the spatial intelligence of a generative Agentic AI model (GPT-5.6) to understand the spatial rotation process with rotation diagrams based on the revised Purdue Spatial Visualization Test: Visualization of Rotations (Revised PSVT:R). We improvised the Revised PSVT:R by superimposing additional graphical and contextual features to evaluate how different Chain-of-Thought (CoT) reasoning strategies influence model performance. The results indicate that structured CoT reasoning improves the spatial reasoning performance of the base GPT-5.6 model in both datasets (PSVT:R and PSVT:R with coordinate system). We used three CoT approaches - (1) Structured CoT, (2) few-shot Structured CoT, and Structured CoT with Self-optimized Prompt. The three CoT approaches evaluated in this study showed no significant performance difference. Results showed that combining structured CoT reasoning with relevant contextual information leads to considerable improvements in VLM performance on 3D rotation tasks, demonstrating the potential of agentic AI for more effective spatial reasoning. However, when contextual information is removed, structured CoT reasoning alone provides limited improvement, and the models continue to exhibit notable difficulties in understanding spatial transformations. These findings suggest that effective spatial reasoning in VLMs relies on the integration of visual, textual, and reasoning-based information in future agentic AI systems for spatial intelligence.",
+      "abs_url": "http://arxiv.org/abs/2610.04188v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.04188v1",
+      "code_url": null
+    },
+    "2610.04038": {
+      "id": "2610.04038",
+      "version": "2610.04038v1",
+      "title": "Protecting Sensitive Data in Image Synthesis via PAC-Private Adaptation for Diffusion Models",
+      "authors": [
+        "Boming Miao",
+        "Tao Zhang",
+        "Netanel Raviv",
+        "Murat Kantarcioglu",
+        "Bradley A. Malin",
+        "Yevgeniy Vorobeychik"
+      ],
+      "published": "2026-10-02",
+      "updated": "2026-10-02",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Synthetic data are increasingly used as an alternative to sharing sensitive records. However, synthetic data generation does not guarantee privacy, as diffusion models trained or adapted on sensitive data remain susceptible to reconstruction attacks. Moreover, while approaches that use differential privacy (DP), such as DP-SGD, achieve provably private diffusion model training, the repeated gradient clipping and noise injection they require result in significant utility loss. An important limitation of DP-based privacy is that, although it has a provable relationship to reconstruction privacy (RP), that relationship is indirect. RP is defined in terms of limiting how much an adversary's posterior distribution over sensitive data differs from the prior, whereas DP provides guarantees by bounding the sensitivity of outputs to changes in individual records. This indirection is an important source of the utility loss. To address this, we propose a PAC-private diffusion model adaptation to achieve reconstruction privacy. Since PAC-privacy is defined directly with respect to posterior advantage over the prior, it directly implicates RP. To obtain scalable PAC privatization in high dimensions, we first learn a compact data-dependent diffusion model component using LoRA or Textual Inversion, and then calibrate anisotropic Gaussian noise from the covariance of repeated mechanism outputs. Unlike DP-SGD, our method perturbs the learned component only once after optimization, thereby avoiding privacy composition across gradient updates. We evaluate the framework on few-shot concept personalization and full-dataset image synthesis, and show that the proposed approach better preserves subject identity, generation quality, and downstream classification accuracy than DP while achieving the same reconstruction privacy.",
+      "abs_url": "http://arxiv.org/abs/2610.04038v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.04038v1",
+      "code_url": null
+    },
+    "2610.03802": {
+      "id": "2610.03802",
+      "version": "2610.03802v1",
+      "title": "Fine-Grained Emotion Classification from Mobile App Reviews: An Empirical Study with Large Language Models",
+      "authors": [
+        "Quim Motger",
+        "Carlota Catot",
+        "Marc Oriol"
+      ],
+      "published": "2026-10-01",
+      "updated": "2026-10-01",
+      "categories": [
+        "cs.CL",
+        "cs.IR",
+        "cs.SE"
+      ],
+      "abstract": "Context: Fine-grained emotion classification of mobile app reviews enables requirements engineering activities that go beyond polarity-based opinion mining, including emotionally informed issue prioritisation and feature-oriented feedback analysis. However, automatic fine-grained emotion extraction from app reviews remains understudied. Objectives: Building on a previously published annotation framework and human-labelled ground truth adapted from Plutchik's taxonomy, this paper investigates how large language models can be leveraged for automatic multi-label emotion classification under severe class imbalance. Methods: We compare encoder-only fine-tuning under multi-label and binary-ensemble formulations, decoder-only zero- and few-shot prompting across open-source and proprietary models, and a catalogue of imbalance mitigation strategies (loss reweighting, resampling, generative data augmentation), with the synthetic-review generator and prompting strategy selected via an intrinsic augmentation-utility ranking. Results: Fine-tuned encoders trail the best decoder-only few-shot prompting (macro-F1 0.642) by a wide margin at baseline (multi-label: 0.387; binary ensemble: 0.450); pairing the best multi-label encoder with generative data augmentation and positive-weighted loss closes most of this gap (+0.204) at up to three orders of magnitude lower inference latency than the decoders, with the largest gains on the rarest emotions, from undetected to gains of up to +0.501 F1. Conclusion: Large language models make fine-grained, multi-label emotion classification of app reviews feasible for requirements engineering pipelines, with modest macro-F1, and the best formulation and mitigation strategy are backbone- and formulation-dependent. We release the experimental pipeline, synthetic corpora, and fine-tuned checkpoints for replication and reuse.",
+      "abs_url": "http://arxiv.org/abs/2610.03802v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.03802v1",
+      "code_url": null
+    },
+    "2610.06509": {
+      "id": "2610.06509",
+      "version": "2610.06509v1",
+      "title": "Xaurora: Generative Weather Forecasting with Denoising Stochastic Interpolants from a Foundation Model Prior",
+      "authors": [
+        "Eliot Walt",
+        "Miltiadis Kofinas",
+        "Nikolaj Mücke",
+        "Efstratios Gavves",
+        "Dim Coumou"
+      ],
+      "published": "2026-10-05",
+      "updated": "2026-10-05",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Deep learning has revolutionised weather forecasting in recent years, especially through atmospheric foundation models, which offer competitive skill for a fraction of the computational costs of classic physics-based models. However, most existing foundation models are deterministic, limiting the generation of large ensembles for accurate uncertainty quantification, extreme weather risk assessment, and long-range weather forecasting. Furthermore, these models incur a large, often prohibitive, computational overhead to train from scratch. To address these shortcomings, we turn a pretrained deterministic prior model, namely the Aurora foundation model, into a generative ensemble-prediction model. To that end, we introduce a novel generative method, Denoising Stochastic Interpolants, combined with a replay buffer for Stochastic Differential Equation (SDE) rollout, enabling probabilistic training of SDE trajectories. Our stochastic foundation model, Xaurora, is finetuned from the small Aurora version, yet it approaches the state-of-the-art on global ensemble metrics and is competitive with the large version of Aurora. Our method is parameter and sample efficient, and generates skilful 15-day forecasts in 13 minutes. Our results demonstrate that deterministic foundation models can be efficiently extended into even stronger stochastic models.",
+      "abs_url": "http://arxiv.org/abs/2610.06509v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.06509v1",
+      "code_url": null
+    },
+    "2610.04693": {
+      "id": "2610.04693",
+      "version": "2610.04693v1",
+      "title": "Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations",
+      "authors": [
+        "Anthony Rhodes"
+      ],
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "Agents are entering finance, healthcare and law, sectors where a violation leaves no lexical signature and carries real penalties. Whether an omission is material, or a disclosure sufficient, depends on what the response left out. Probing such an obligation means finding responses one minimal edit from flipping compliance, and every probe costs a generation and two adjudications, so the binding constraint on regulatory red-teaming is sample efficiency, not volume. We introduce Penumbra, an adversarial search that walks from a verified anchor under an expanding edit budget until a two-evaluator committee changes its verdict, and emits the two adjacent responses that straddle the change. Allocation is adaptive, and the objective is coverage of the defeat surface: distinct (obligation x defeat mode) cells resolved per candidate. At matched budget, adaptive allocation reaches uniform allocation's full-budget coverage on 59% of the candidates; at equal records it covers 1.43x the defeat modes of naive enumeration, and the gain is confined to the axis it targets. On 60 screened obligations of a financial advisory constitution, Penumbra returns 144 pairs, each a compliant and a violating response that the committee places on opposite sides of the boundary, differing by a handful of words where a model asked for both directly produces texts sharing almost nothing. A second constitution, for clinical triage, reproduces this on 18 obligations: 49 pairs at the same tightness, with the same modes hardest. Pairs like these show where an obligation's own terms stop deciding, which is what an agent deployed under it must be tested against, and the search finds them at a cost that scales with the boundary, not the text.",
+      "abs_url": "http://arxiv.org/abs/2610.04693v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.04693v1",
       "code_url": null
     }
   }
