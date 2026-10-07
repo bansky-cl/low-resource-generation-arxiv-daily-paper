@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.10.07
+## Updated on 2026.10.08
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **623**
-- Recent 30 days: **83**
-- Older than 30 days: **540**
+- Recent 30 days: **79**
+- Older than 30 days: **544**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -101,15 +101,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-08**|**Do LLMs Make More Mistakes If They Do Not Believe the Input Data?**|cs.CL|[2609.09363v1](http://arxiv.org/abs/2609.09363v1)|null|
 |**2026-09-08**|**RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation**|cs.RO, cs.AI|[2609.08339v1](http://arxiv.org/abs/2609.08339v1)|null|
 |**2026-09-08**|**LEBGen: An LLM-Enhanced Bayesian Network Framework for Few-Shot Travel Survey Data Generation**|cs.AI|[2609.08288v1](http://arxiv.org/abs/2609.08288v1)|null|
-|**2026-09-07**|**BanglaMemeX: Advancing Cultural Metaphoric Image Interpretation in Bangla with a Multimodal Explainable Dataset**|cs.CL, cs.CV|[2609.08029v1](http://arxiv.org/abs/2609.08029v1)|null|
-|**2026-09-07**|**Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy**|cs.RO, cs.AI|[2609.07470v1](http://arxiv.org/abs/2609.07470v1)|null|
-|**2026-09-07**|**AAS-RAIL: Improving Information Extraction for Asset Administration Shells through Retrieval-Augmented In-Context Learning**|cs.AI|[2609.07334v1](http://arxiv.org/abs/2609.07334v1)|null|
-|**2026-09-07**|**AI and TCAD for Inverse Design and Defect Discovery: From Simple Machine Learning to LLM**|cs.LG|[2609.07046v1](http://arxiv.org/abs/2609.07046v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-07**|**BanglaMemeX: Advancing Cultural Metaphoric Image Interpretation in Bangla with a Multimodal Explainable Dataset**|cs.CL, cs.CV|[2609.08029v1](http://arxiv.org/abs/2609.08029v1)|null|
+|**2026-09-07**|**Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy**|cs.RO, cs.AI|[2609.07470v1](http://arxiv.org/abs/2609.07470v1)|null|
+|**2026-09-07**|**AAS-RAIL: Improving Information Extraction for Asset Administration Shells through Retrieval-Augmented In-Context Learning**|cs.AI|[2609.07334v1](http://arxiv.org/abs/2609.07334v1)|null|
+|**2026-09-07**|**AI and TCAD for Inverse Design and Defect Discovery: From Simple Machine Learning to LLM**|cs.LG|[2609.07046v1](http://arxiv.org/abs/2609.07046v1)|null|
 |**2026-09-05**|**SLATE: Are AI-Generated Slides Educationally Effective? A Benchmark for Language Teaching Quality and Learner Knowledge Acquisition**|cs.CL|[2609.06212v1](http://arxiv.org/abs/2609.06212v1)|null|
 |**2026-09-04**|**Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation**|cs.LG|[2609.05363v1](http://arxiv.org/abs/2609.05363v1)|null|
 |**2026-09-04**|**MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis**|cs.AI|[2609.04804v1](http://arxiv.org/abs/2609.04804v1)|null|
