@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **618**
-- Recent 30 days: **78**
+- Total papers in JSON: **623**
+- Recent 30 days: **83**
 - Older than 30 days: **540**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,11 +22,16 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
-|**2026-10-05**|**Xaurora: Generative Weather Forecasting with Denoising Stochastic Interpolants from a Foundation Model Prior**|cs.LG|[2610.06509v1](http://arxiv.org/abs/2610.06509v1)|null|
+|**2026-10-06**|**Language Unalignability: Why Some Concepts Resist Cross-Cultural Benchmark Evaluation**|cs.CL|[2610.08303v1](http://arxiv.org/abs/2610.08303v1)|null|
+|**2026-10-06**|**VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation**|cs.RO, cs.AI|[2610.08220v1](http://arxiv.org/abs/2610.08220v1)|null|
+|**2026-10-06**|**Improving Synthetic Data Generation for Argument Mining via Adversarial Reinforcement Learning**|cs.LG, cs.CL|[2610.07699v1](http://arxiv.org/abs/2610.07699v1)|null|
+|**2026-10-05**|**HyperNSDE: Personalized Neural SDEs for Joint Static-Longitudinal Clinical Data Generation**|stat.ML, cs.LG, stat.AP, stat.ME|[2610.07383v1](http://arxiv.org/abs/2610.07383v1)|null|
+|**2026-10-05**|**Xaurora: Generative Weather Forecasting with Denoising Stochastic Interpolants from a Foundation Model Prior**|cs.LG, physics.ao-ph|[2610.06509v1](http://arxiv.org/abs/2610.06509v1)|null|
 |**2026-10-05**|**Constraint-Aware Conversational Job Recommendation in Code-Mixed Low-Resource Settings**|cs.IR|[2610.05787v1](http://arxiv.org/abs/2610.05787v1)|**[code](https://huggingface.co/datasets/Armans33115/JobCCC-Conversational-Job-Recommendation-Bangladesh)**|
+|**2026-10-04**|**Investigating Model Compression for Neural Machine Translation in the Biomedical Domain**|cs.CL, cs.AI, cs.LG|[2610.07032v1](http://arxiv.org/abs/2610.07032v1)|null|
 |**2026-10-04**|**Image Synthesis as an Intermediate for Controllable Time Series Generation**|cs.AI|[2610.05211v1](http://arxiv.org/abs/2610.05211v1)|null|
 |**2026-10-03**|**Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations**|cs.AI, cs.CL, cs.CR|[2610.04693v1](http://arxiv.org/abs/2610.04693v1)|null|
-|**2026-10-03**|**Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation**|cs.AI|[2610.04188v1](http://arxiv.org/abs/2610.04188v1)|null|
+|**2026-10-03**|**Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation**|cs.AI|[2610.04188v2](http://arxiv.org/abs/2610.04188v2)|null|
 |**2026-10-02**|**Protecting Sensitive Data in Image Synthesis via PAC-Private Adaptation for Diffusion Models**|cs.LG|[2610.04038v1](http://arxiv.org/abs/2610.04038v1)|null|
 |**2026-10-02**|**Multilingual GSM-Symbolic: What determines capability transfer across languages?**|cs.AI, cs.CL|[2610.03367v2](http://arxiv.org/abs/2610.03367v2)|null|
 |**2026-10-02**|**Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers**|cs.AI|[2610.03363v2](http://arxiv.org/abs/2610.03363v2)|null|
@@ -222,13 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-22**|**When Does Knowledge Distillation Hurt? Reliability-Aware Distillation for Low-Resource Language Summarization**|cs.CL, cs.AI|[2607.19956v1](http://arxiv.org/abs/2607.19956v1)|null|
 |**2026-07-21**|**SynPre-FL: Synthetic data-driven pretraining integrated Federated Learning training framework**|cs.LG, cs.AI, cs.DC|[2607.19524v1](http://arxiv.org/abs/2607.19524v1)|null|
 |**2026-07-21**|**Translation as Augmentation: Effect of Translated Data on Assessment of Difficulty**|cs.CL, cs.LG|[2607.19101v1](http://arxiv.org/abs/2607.19101v1)|null|
-|**2026-07-21**|**Variational meta-learning inference for low dimensional neural system identification**|cs.LG, cs.AI, eess.SY|[2607.18965v1](http://arxiv.org/abs/2607.18965v1)|null|
-|**2026-07-21**|**LatentMT: Machine Translation with Latent Reasoning**|cs.CL, cs.AI, cs.LG|[2607.18618v1](http://arxiv.org/abs/2607.18618v1)|null|
-|**2026-07-20**|**Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments**|cs.PL, cs.AI, cs.LG|[2607.18357v1](http://arxiv.org/abs/2607.18357v1)|null|
-|**2026-07-20**|**Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory**|cs.AI|[2607.17879v1](http://arxiv.org/abs/2607.17879v1)|null|
-|**2026-07-20**|**Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare**|cs.LG, cs.AI|[2607.17508v2](http://arxiv.org/abs/2607.17508v2)|null|
 
-README omitted **418** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **423** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

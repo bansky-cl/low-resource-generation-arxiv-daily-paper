@@ -8992,11 +8992,11 @@
     },
     "2607.17508": {
       "id": "2607.17508",
-      "version": "2607.17508v2",
+      "version": "2607.17508v3",
       "title": "Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare",
       "authors": [
         "Sazan Mahbub",
-        "Caleb Ellington",
+        "Caleb N. Ellington",
         "Zhiyuan Li",
         "Yixin Yang",
         "Souvik Kundu",
@@ -9004,14 +9004,14 @@
         "Eric P. Xing"
       ],
       "published": "2026-07-20",
-      "updated": "2026-07-31",
+      "updated": "2026-10-06",
       "categories": [
         "cs.LG",
         "cs.AI"
       ],
-      "abstract": "We introduce Retrieval-Augmented Interpretable Learning (RAIL), a probabilistic meta-learning framework for zero-shot generation of task-specific interpretable models that synthesizes coefficient-space structure from natural-language task descriptions and a memory of previously learned task-specific predictors. RAIL retrieves related source tasks, transfers structure through coefficient space, and generates a new predictor in the original diagnostic-feature space, enabling zero-shot and few-shot clinical procedure prediction with feature-level explanations. Its probabilistic formulation provides uncertainty over retrieval, model coefficients, and predictions, supporting reliability-aware deployment: uncertain predictions or unstable explanations can be flagged for additional clinical review rather than treated as automatic decisions. This makes RAIL particularly suited for healthcare settings, where prediction tasks are highly long-tailed, new clinical targets arise frequently, and models must remain inspectable, uncertainty-aware, and compatible with human oversight. Across long-tailed clinical procedure prediction tasks, RAIL maintains reliable performance across data-availability regimes: it achieves 73.4% accuracy in the held-out zero-shot settings, where no supervised task-specific model can be trained, and remains near 73.2% accuracy in the extreme few-shot regime with only 2-4 examples, where supervised task-specific models perform close to chance. RAIL further benefits from clinically informed task representations and yields retrieval, uncertainty, and coefficient-level diagnostics that make model behavior more transparent. These results suggest a path toward scalable clinical prediction systems that can adapt to new tasks while preserving interpretability and reliability.",
-      "abs_url": "http://arxiv.org/abs/2607.17508v2",
-      "pdf_url": "https://arxiv.org/pdf/2607.17508v2",
+      "abstract": "We introduce Retrieval-Augmented Interpretable Learning (RAIL), a probabilistic meta-learning framework for zero-shot generation of task-specific interpretable models that synthesizes coefficient-space structure from natural-language task descriptions and a memory of previously learned task-specific predictors. RAIL retrieves related source tasks, transfers structure through coefficient space, and generates a new predictor in the original diagnostic-feature space, enabling zero-shot and few-shot clinical procedure prediction with feature-level explanations. Its probabilistic formulation provides uncertainty over retrieval, model coefficients, and predictions, supporting uncertainty-aware deployment: uncertain predictions or unstable explanations can be flagged for additional clinical review rather than treated as automatic decisions. This makes RAIL particularly suited for healthcare settings, where prediction tasks are highly long-tailed, new clinical targets arise frequently, and models must remain inspectable, uncertainty-aware, and compatible with human oversight. Across long-tailed clinical procedure prediction tasks, RAIL improves low-data model generation, benefits from clinically informed task representations, and yields retrieval, uncertainty, and coefficient-level diagnostics that make model behavior more transparent. These results suggest a path toward scalable clinical prediction systems that can adapt to new tasks while preserving interpretability and reliability.",
+      "abs_url": "http://arxiv.org/abs/2607.17508v3",
+      "pdf_url": "https://arxiv.org/pdf/2607.17508v3",
       "code_url": null
     },
     "2607.17173": {
@@ -13286,20 +13286,20 @@
     },
     "2610.04188": {
       "id": "2610.04188",
-      "version": "2610.04188v1",
+      "version": "2610.04188v2",
       "title": "Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation",
       "authors": [
         "Uttamasha Monjoree",
         "Wei Yan"
       ],
       "published": "2026-10-03",
-      "updated": "2026-10-03",
+      "updated": "2026-10-06",
       "categories": [
         "cs.AI"
       ],
       "abstract": "Recent studies show that artificial intelligence (AI) with language and vision capabilities still experiences limitations in spatial reasoning. In this paper, we have studied the spatial capabilities of advanced generative AI to understand the rotations of objects in 3D space, utilizing AI's image processing and language processing features. We trained and examined the spatial intelligence of a generative Agentic AI model (GPT-5.6) to understand the spatial rotation process with rotation diagrams based on the revised Purdue Spatial Visualization Test: Visualization of Rotations (Revised PSVT:R). We improvised the Revised PSVT:R by superimposing additional graphical and contextual features to evaluate how different Chain-of-Thought (CoT) reasoning strategies influence model performance. The results indicate that structured CoT reasoning improves the spatial reasoning performance of the base GPT-5.6 model in both datasets (PSVT:R and PSVT:R with coordinate system). We used three CoT approaches - (1) Structured CoT, (2) few-shot Structured CoT, and Structured CoT with Self-optimized Prompt. The three CoT approaches evaluated in this study showed no significant performance difference. Results showed that combining structured CoT reasoning with relevant contextual information leads to considerable improvements in VLM performance on 3D rotation tasks, demonstrating the potential of agentic AI for more effective spatial reasoning. However, when contextual information is removed, structured CoT reasoning alone provides limited improvement, and the models continue to exhibit notable difficulties in understanding spatial transformations. These findings suggest that effective spatial reasoning in VLMs relies on the integration of visual, textual, and reasoning-based information in future agentic AI systems for spatial intelligence.",
-      "abs_url": "http://arxiv.org/abs/2610.04188v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.04188v1",
+      "abs_url": "http://arxiv.org/abs/2610.04188v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.04188v2",
       "code_url": null
     },
     "2610.04038": {
@@ -13359,7 +13359,8 @@
       "published": "2026-10-05",
       "updated": "2026-10-05",
       "categories": [
-        "cs.LG"
+        "cs.LG",
+        "physics.ao-ph"
       ],
       "abstract": "Deep learning has revolutionised weather forecasting in recent years, especially through atmospheric foundation models, which offer competitive skill for a fraction of the computational costs of classic physics-based models. However, most existing foundation models are deterministic, limiting the generation of large ensembles for accurate uncertainty quantification, extreme weather risk assessment, and long-range weather forecasting. Furthermore, these models incur a large, often prohibitive, computational overhead to train from scratch. To address these shortcomings, we turn a pretrained deterministic prior model, namely the Aurora foundation model, into a generative ensemble-prediction model. To that end, we introduce a novel generative method, Denoising Stochastic Interpolants, combined with a replay buffer for Stochastic Differential Equation (SDE) rollout, enabling probabilistic training of SDE trajectories. Our stochastic foundation model, Xaurora, is finetuned from the small Aurora version, yet it approaches the state-of-the-art on global ensemble metrics and is competitive with the large version of Aurora. Our method is parameter and sample efficient, and generates skilful 15-day forecasts in 13 minutes. Our results demonstrate that deterministic foundation models can be efficiently extended into even stronger stochastic models.",
       "abs_url": "http://arxiv.org/abs/2610.06509v1",
@@ -13383,6 +13384,123 @@
       "abstract": "Agents are entering finance, healthcare and law, sectors where a violation leaves no lexical signature and carries real penalties. Whether an omission is material, or a disclosure sufficient, depends on what the response left out. Probing such an obligation means finding responses one minimal edit from flipping compliance, and every probe costs a generation and two adjudications, so the binding constraint on regulatory red-teaming is sample efficiency, not volume. We introduce Penumbra, an adversarial search that walks from a verified anchor under an expanding edit budget until a two-evaluator committee changes its verdict, and emits the two adjacent responses that straddle the change. Allocation is adaptive, and the objective is coverage of the defeat surface: distinct (obligation x defeat mode) cells resolved per candidate. At matched budget, adaptive allocation reaches uniform allocation's full-budget coverage on 59% of the candidates; at equal records it covers 1.43x the defeat modes of naive enumeration, and the gain is confined to the axis it targets. On 60 screened obligations of a financial advisory constitution, Penumbra returns 144 pairs, each a compliant and a violating response that the committee places on opposite sides of the boundary, differing by a handful of words where a model asked for both directly produces texts sharing almost nothing. A second constitution, for clinical triage, reproduces this on 18 obligations: 49 pairs at the same tightness, with the same modes hardest. Pairs like these show where an obligation's own terms stop deciding, which is what an agent deployed under it must be tested against, and the search finds them at a cost that scales with the boundary, not the text.",
       "abs_url": "http://arxiv.org/abs/2610.04693v1",
       "pdf_url": "https://arxiv.org/pdf/2610.04693v1",
+      "code_url": null
+    },
+    "2610.08303": {
+      "id": "2610.08303",
+      "version": "2610.08303v1",
+      "title": "Language Unalignability: Why Some Concepts Resist Cross-Cultural Benchmark Evaluation",
+      "authors": [
+        "Shu-Kai Hsieh",
+        "Da-Chen Lian"
+      ],
+      "published": "2026-10-06",
+      "updated": "2026-10-06",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Current evaluation of multilingual Large Language Models (LLMs) rests on an implicit Translation-Isomorphism Assumption (TIA): that semantic structures across languages are congruent and mutually mappable without loss of information. We argue that this assumption is not merely violated in practice, but ill-posed in principle for a typologically identifiable class of concepts, including pragmatic markers, honorifics, and diachronically stratified terms. We formalize this failure using a usage-cloud framework, representing concepts as point sets of contextualized embeddings. We define $α$-unalignability as the impossibility of any mapping that simultaneously preserves lexical faithfulness (centroid correspondence) and structural faithfulness (local neighborhood topology). We provide three layers of evidence. Behaviorally, we show that FLORES-200 translation failures are predicted by language family and resource class but not by script, and that LOBSTER reasoning scores vary by family. Mechanistically, we report a Representation-Intervention Gap (RIG) in a nine-model case study on Yami: the models' activations encode a regularity along which Yami groups with other low-resource and Austronesian languages, yet interventions on language-specific neurons show no demonstrated advantage over random masks: the regularity is visible but not usable by this intervention. Finally, we operationalize these findings into a multidimensional diagnostic profile: Cycle-Consistency, Pragmatic-Load Disagreement, Manifold-Curvature Mismatch, and RIG. We argue that collapsing cultural competence into a single scalar incentivizes \"probabilistic flattening,\" and that recognizing the unalignable class is a precondition for AI that respects, rather than erases, cultural divergence. This suggests that multilingual alignment is not a single well-defined objective, but a set of mutually incompatible projections.",
+      "abs_url": "http://arxiv.org/abs/2610.08303v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.08303v1",
+      "code_url": null
+    },
+    "2610.07699": {
+      "id": "2610.07699",
+      "version": "2610.07699v1",
+      "title": "Improving Synthetic Data Generation for Argument Mining via Adversarial Reinforcement Learning",
+      "authors": [
+        "Zhijun Zhang",
+        "Qianlong Wang",
+        "Keyang Ding",
+        "Genan Dai",
+        "Bowen Zhang",
+        "Bin Liang",
+        "Ruifeng Xu",
+        "Yongsheng Liang"
+      ],
+      "published": "2026-10-06",
+      "updated": "2026-10-06",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Argument Mining (AM) is fundamentally constrained by the scarcity of high-quality structure-annotated datasets. While LLMs have shown promise in synthetic data generation, producing synthetic AM data that is both structurally accurate and sufficiently diverse remains a challenging problem. To address this problem, we revisit synthetic data generation for AM from a new perspective and propose a novel adversarial reinforcement learning framework for data synthesis. The proposed framework jointly optimizes the generator and the discriminator in an adversarial loop, in which the generator produces structured AM instances, and the discriminator provides learning signals by distinguishing real data from synthetic candidates. This enables the generator to progressively improve both the structural accuracy of generated argument data while maintaining diversity through adversarial feedback. Extensive experiments demonstrate that the proposed framework consistently improves AM performance on three benchmark datasets in both full-data and low-resource settings, validating its effectiveness and scalability.",
+      "abs_url": "http://arxiv.org/abs/2610.07699v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07699v1",
+      "code_url": null
+    },
+    "2610.07032": {
+      "id": "2610.07032",
+      "version": "2610.07032v1",
+      "title": "Investigating Model Compression for Neural Machine Translation in the Biomedical Domain",
+      "authors": [
+        "Maria Zafar",
+        "Souhail Bakkali",
+        "Rejwanul Haque"
+      ],
+      "published": "2026-10-04",
+      "updated": "2026-10-04",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Large-scale pretrained transformer models have achieved state-of-the-art performance across diverse machine translation tasks, including multilingual settings. Knowledge distillation has emerged as a sustainable approach for model compression, transferring knowledge from large teacher models to smaller, more efficient student models. Similarly, quantization, which reduces the numerical precision of model weights and activations (e.g., from 32-bit to 8-bit representations) is widely used to accelerate inference, enabling models to run several times faster during deployment. However, both techniques face limitations when applied to specialized domain data, particularly under low-resource conditions. In knowledge distillation, the effectiveness of transfer is often constrained by the scarcity of domain-specific parallel data, while quantization can lead to performance degradation as bit precision decreases. In this work, we investigate the combined application of knowledge distillation and quantization for French-to-English biomedical translation, a domain characterized by specialized terminology and limited parallel resources. We develop and compare multiple fine-tuning strategies to adapt compressed student models to this challenging setting. Our experiments demonstrate that a collaboratively distilled and quantized student model achieves a 69% reduction in size, a 98.21% increase in inference speed, and a 98.46% reduction in CO2 emissions compared to the original baseline all without sacrificing translation quality. These results indicate that jointly optimized compression techniques can yield efficient, high-performance models suitable for translation service providers operating under resource constraints.",
+      "abs_url": "http://arxiv.org/abs/2610.07032v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07032v1",
+      "code_url": null
+    },
+    "2610.08220": {
+      "id": "2610.08220",
+      "version": "2610.08220v1",
+      "title": "VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation",
+      "authors": [
+        "Yutian Zhang",
+        "Xingrui Xiong",
+        "Siyuan Ma",
+        "Yang Li",
+        "Jiawen Wen",
+        "Jiaqi Zhai",
+        "Liwen Yang",
+        "Ce Hao",
+        "Haozhen Chi",
+        "Yangkun Zhu",
+        "Yifan Zhu",
+        "Xiaowen Chu",
+        "Dong Wei",
+        "Qiaojun Yu",
+        "Dibo Hou"
+      ],
+      "published": "2026-10-06",
+      "updated": "2026-10-06",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "abstract": "Portable mobile-manipulation demonstrations can help alleviate data scarcity for embodied intelligence, but obtaining reliable, low-cost, and robot-free motion supervision from RGB observations remains challenging. Existing approaches often rely on teleoperation or specialized devices equipped with additional sensing hardware, while directly using estimated visual odometry (VO) trajectories can introduce inconsistencies due to accumulated drift and imperfect motion supervision. We present the Visual-Odometry-Conditioned Mobile Manipulation Interface (VOMMI), a portable demonstration collection and learning framework that connects portable RGB demonstrations to vision-language-action (VLA) post-training through offline trajectory reconstruction and online visual-motion conditioning. VOMMI synchronizes body and hand views to capture navigation context and local object interactions without requiring human-robot kinematic correspondence calibration. R2-VO refines offline demonstration trajectories using sparse geometric anchors and produces causal local-motion tokens over multiple prediction horizons for online policy conditioning. An action-group residual adapter incorporates these tokens only into the base branch. Experiments use a 500-trajectory portable for each task, with 75 trajectories held out for RGB-VO evaluation, and 200 robot demonstrations as references. Our policy, post-trained only on portable demonstrations, achieves 18.2% lower base-velocity error than a policy trained with robot-collected demonstrations, while maintaining comparable end-effector translation accuracy. Offline reconstruction reduces absolute trajectory errors for the body and hand streams by 24.6% on average relative to the best evaluated baseline for each stream. The complete system improves the mean success rate by 8.3 percentage points over OpenPI 0.5 across three real-robot tasks.",
+      "abs_url": "http://arxiv.org/abs/2610.08220v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.08220v1",
+      "code_url": null
+    },
+    "2610.07383": {
+      "id": "2610.07383",
+      "version": "2610.07383v1",
+      "title": "HyperNSDE: Personalized Neural SDEs for Joint Static-Longitudinal Clinical Data Generation",
+      "authors": [
+        "Perrine Chassat",
+        "Agathe Guilloux"
+      ],
+      "published": "2026-10-05",
+      "updated": "2026-10-05",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "stat.AP",
+        "stat.ME"
+      ],
+      "abstract": "Synthetic patient data generation is a promising solution to the dual challenge of data scarcity and privacy constraints in healthcare machine learning. Realistic synthesis of patient-level clinical data requires jointly modeling heterogeneous static covariates, irregularly sampled longitudinal trajectories, and informative observation times - three tightly coupled components in practice yet rarely addressed together. We propose HyperNSDE, a continuous-time generative model that conditions a latent Neural SDE on static patient representations through a hypernetwork, allowing baseline characteristics to shape trajectory evolution beyond the initial condition without requiring a trajectory encoder, while stochastic latent dynamics capture realistic variability in generated paths. Observation times are modeled jointly through a latent-state-dependent intensity process, and training on irregular stochastic paths is stabilized via a deterministic-stochastic path decomposition with a non-adversarial signature-kernel objective. Experiments on simulated and real clinical datasets show improved observation-time fidelity and competitive performance, while matched-grid analyses reveal that forecasting and correlation metrics are affected by observation-grid regularity and trajectory smoothness.",
+      "abs_url": "http://arxiv.org/abs/2610.07383v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07383v1",
       "code_url": null
     }
   }
