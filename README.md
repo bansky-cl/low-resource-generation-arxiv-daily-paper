@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **623**
-- Recent 30 days: **79**
+- Total papers in JSON: **629**
+- Recent 30 days: **85**
 - Older than 30 days: **544**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,12 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-07**|**Document-Level Text Simplification in Estonian Using Large Language Models**|cs.CL|[2610.10378v1](http://arxiv.org/abs/2610.10378v1)|null|
+|**2026-10-07**|**From Prompts to Trees: Effective LLM-Guided Tree Generation for Few-Shot Tabular Classification**|cs.LG, cs.AI, cs.CL|[2610.10227v1](http://arxiv.org/abs/2610.10227v1)|null|
+|**2026-10-07**|**Quantum anomaly detection in real scarce data**|quant-ph, cs.LG|[2610.09635v1](http://arxiv.org/abs/2610.09635v1)|null|
+|**2026-10-07**|**Which Language Should a Skeleton Speak? Language Choices in Multilingual Reasoning**|cs.CL, cs.AI|[2610.09607v1](http://arxiv.org/abs/2610.09607v1)|**[code](https://github.com/lhsstn/LASEF)**|
+|**2026-10-07**|**Dialect-Robust Speech Language Models with Synthetic Pseudo-Dialect Augmentation**|cs.CL, eess.AS|[2610.09321v1](http://arxiv.org/abs/2610.09321v1)|null|
+|**2026-10-06**|**Multi-Objective Aligned Small Language Model Framework for SUD Patient Dialogue Generation**|cs.CL, cs.AI|[2610.09209v1](http://arxiv.org/abs/2610.09209v1)|null|
 |**2026-10-06**|**Language Unalignability: Why Some Concepts Resist Cross-Cultural Benchmark Evaluation**|cs.CL|[2610.08303v1](http://arxiv.org/abs/2610.08303v1)|null|
 |**2026-10-06**|**VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation**|cs.RO, cs.AI|[2610.08220v1](http://arxiv.org/abs/2610.08220v1)|null|
 |**2026-10-06**|**Improving Synthetic Data Generation for Argument Mining via Adversarial Reinforcement Learning**|cs.LG, cs.CL|[2610.07699v1](http://arxiv.org/abs/2610.07699v1)|null|
@@ -221,14 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-24**|**Towards Trustworthy and Cost-Efficient Data Integration: From Naïve RAG to Agentic RAG**|cs.DB, cs.AI|[2607.22319v1](http://arxiv.org/abs/2607.22319v1)|null|
 |**2026-07-24**|**Biomedical Machine Translation for Low-Resource Arabic-Script Languages via Cross-Lingual Transfer and LoRA Adapter Merging**|cs.CL|[2607.22300v1](http://arxiv.org/abs/2607.22300v1)|null|
 |**2026-07-24**|**One Hand Watches The Other: Dynamic Multi-Agent Cooperation for Sample-Efficient Bimanual Manipulation in Dynamic Environments**|cs.RO, cs.AI, cs.LG|[2607.22119v1](http://arxiv.org/abs/2607.22119v1)|null|
-|**2026-07-24**|**MEUSLI: a Multilingual Projector for LLM-based ASR and Beyond**|cs.CL, cs.AI, eess.AS|[2607.22100v1](http://arxiv.org/abs/2607.22100v1)|null|
-|**2026-07-23**|**Expert Behavior Prior Reinforcement Learning**|cs.AI|[2607.21302v2](http://arxiv.org/abs/2607.21302v2)|null|
-|**2026-07-22**|**The Maskability Index: Predicting Task-Objective Alignment in Pretrained Language Models**|cs.CL, cs.AI|[2607.20265v1](http://arxiv.org/abs/2607.20265v1)|null|
-|**2026-07-22**|**When Does Knowledge Distillation Hurt? Reliability-Aware Distillation for Low-Resource Language Summarization**|cs.CL, cs.AI|[2607.19956v1](http://arxiv.org/abs/2607.19956v1)|null|
-|**2026-07-21**|**SynPre-FL: Synthetic data-driven pretraining integrated Federated Learning training framework**|cs.LG, cs.AI, cs.DC|[2607.19524v1](http://arxiv.org/abs/2607.19524v1)|null|
-|**2026-07-21**|**Translation as Augmentation: Effect of Translated Data on Assessment of Difficulty**|cs.CL, cs.LG|[2607.19101v1](http://arxiv.org/abs/2607.19101v1)|null|
 
-README omitted **423** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **429** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

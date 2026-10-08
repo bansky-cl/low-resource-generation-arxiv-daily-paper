@@ -13502,6 +13502,131 @@
       "abs_url": "http://arxiv.org/abs/2610.07383v1",
       "pdf_url": "https://arxiv.org/pdf/2610.07383v1",
       "code_url": null
+    },
+    "2610.10378": {
+      "id": "2610.10378",
+      "version": "2610.10378v1",
+      "title": "Document-Level Text Simplification in Estonian Using Large Language Models",
+      "authors": [
+        "Meeri-Ly Muru",
+        "Eduard Barbu"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Document-level text simplification involves transformations that go beyond sentence-internal edits, addressing discourse coherence, anaphora resolution, and cross-paragraph consistency. Despite advances in sentence-level simplification for high-resource languages, document-level simplification in morphologically rich, low-resource languages such as Estonian remains largely unexplored. This study presents a comprehensive evaluation of five state-of-the-art multilingual large language models (LLMs) for document-level simplification in Estonian. Three prompting strategies are examined: single-pass generation, pipeline-based modular agents, and guideline-augmented pipelines. The evaluation framework integrates automatic metrics assessing readability, semantic preservation, and discourse coherence, alongside a structured manual annotation protocol. The findings indicate that Gemini-2.0 and LLaMA-3.3 produce outputs with near-native fluency and strong meaning preservation, whereas other models display notable grammatical and semantic limitations. This work contributes novel document-level coherence metrics, evidence-based prompting strategies, and publicly available resources for reproducibility.",
+      "abs_url": "http://arxiv.org/abs/2610.10378v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10378v1",
+      "code_url": null
+    },
+    "2610.09607": {
+      "id": "2610.09607",
+      "version": "2610.09607v1",
+      "title": "Which Language Should a Skeleton Speak? Language Choices in Multilingual Reasoning",
+      "authors": [
+        "HyeonSeok Lim",
+        "SeungWoo Song",
+        "Inho Won",
+        "Hoyun Song",
+        "Jihyo Kim",
+        "KyungTae Lim"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Skeleton-based reasoning prompting is a promising training-free approach for structuring LLM reasoning, but prior work largely assumes an English-centric setting. We propose the Language-Aware Skeleton Exploration Framework (LASEF) to study skeleton-language choice in multilingual mathematical reasoning. Across math benchmarks, model scales, and languages, we show that English skeletons yield a small positive tendency on average, most visible for smaller models and low-resource languages. However, few language-level gains remain significant after correction, and English is not universally optimal. Combining greedy decoding, multi-rollout evaluation, translation ablation, and cross-benchmark validation, we further find three patterns of skeleton-language effects: directionally consistent, evaluation- and benchmark-dependent, and asymmetric negative. These effects cannot be fully explained by generation quality alone. Overall, skeleton language is a context-dependent design variable that requires multi-level exploration. All resources are released at https://github.com/lhsstn/LASEF.",
+      "abs_url": "http://arxiv.org/abs/2610.09607v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09607v1",
+      "code_url": "https://github.com/lhsstn/LASEF"
+    },
+    "2610.10227": {
+      "id": "2610.10227",
+      "version": "2610.10227v1",
+      "title": "From Prompts to Trees: Effective LLM-Guided Tree Generation for Few-Shot Tabular Classification",
+      "authors": [
+        "Yue Qiu",
+        "Zekang Du",
+        "Yiqun Diao",
+        "Bingsheng He",
+        "Qinbin Li"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "While Large Language Models (LLMs) possess rich world knowledge and impressive generalization capabilities, their direct application to tabular data classification is hindered by high inference costs and limited interpretability. In contrast, decision trees are fast and transparent but often underperform in low-data regimes. In this work, we propose a novel framework that bridges these paradigms by distilling LLM knowledge into interpretable decision trees under a few-shot learning setting. Instead of directly prompting the LLM to generate full trees, which is often unstable and inefficient, we develop a three-stage paradigm that prompts the LLM to generate rules and organize the rules into a tree. Experiments on multiple real-world tabular datasets demonstrate that our method achieves superior accuracy and interpretability with significantly lower prompting overhead compared to existing baselines.",
+      "abs_url": "http://arxiv.org/abs/2610.10227v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10227v1",
+      "code_url": null
+    },
+    "2610.09209": {
+      "id": "2610.09209",
+      "version": "2610.09209v1",
+      "title": "Multi-Objective Aligned Small Language Model Framework for SUD Patient Dialogue Generation",
+      "authors": [
+        "Thushara Manjari Naduvilakandy",
+        "Hyeju Jang",
+        "Mohammad Al Hasan"
+      ],
+      "published": "2026-10-06",
+      "updated": "2026-10-06",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Substance Use Disorder (SUD) counseling requires patient responses that reflect underlying cognitive states such as beliefs, coping strategies, and readiness for change. Although large language models (LLMs) can generate fluent text, they often fail to produce cognitively coherent and clinically realistic patient behavior, especially under ethical and data-scarce clinical settings. Moreover, deploying frontier-scale LLMs in healthcare applications presents practical challenges including high computational cost, latency, privacy concerns, and limited deployability in resource-constrained environments, motivating the need for cognitively aligned small language models (SLMs). We propose a cognitively grounded framework for SUD patient dialogue generation that explicitly models and aligns latent cognitive components with patient histories and counselor questions. Our pipeline consists of two stages: cognitive component detection and cognitive component-aligned dialogue generation. To enable effective learning with smaller models, we combine knowledge distillation from high-capacity teacher models, preference optimization from human-annotations, and attention-guided reward shaping. Extensive evaluations using automatic scores like BERTScore, ROUGE, METEOR and BLEU, and LLM-as-judge hit-metrics against both human and teacher-model references show that cognitively informed fine-tuning substantially improves cognitive realization and alignment over a generic instruction-tuned baselines and mental health domain specific SLMs, with particularly strong gains for open-ended cognitive components.",
+      "abs_url": "http://arxiv.org/abs/2610.09209v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09209v1",
+      "code_url": null
+    },
+    "2610.09635": {
+      "id": "2610.09635",
+      "version": "2610.09635v1",
+      "title": "Quantum anomaly detection in real scarce data",
+      "authors": [
+        "Emanuele Casciaro",
+        "Fabio Mascherpa",
+        "Alfonso Amendola",
+        "Filippo Caruso"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "categories": [
+        "quant-ph",
+        "cs.LG"
+      ],
+      "abstract": "Anomaly detection on small and unbalanced datasets remains very challenging in machine learning, although this scenario is common in several domains, including healthcare, cybersecurity, finance, and energy. Data augmentation and generative AI may mitigate training-data scarcity, but they often fall short because anomalies are, by definition, unpredictable, rare, and highly diverse events compared to high-probability normal data. Overfitting to pseudo-anomalies, model collapse, high-dimensional data, uninterpretable black-box models, and validation challenges are typical issues limiting their practical applicability. In this context, quantum machine learning may provide a promising and more sustainable avenue because it can enable more interpretable models with far fewer trainable parameters and smaller datasets, implementable on energy-efficient quantum hardware. Here, we propose a novel two-step hybrid classical--quantum architecture for sequential data and test it on a realistic scenario in the global energy-transition domain, i.e., automated anomaly detection in large-scale photovoltaic plants. The achieved generalization capability and competitive prediction accuracy may pave the way for new hybrid learning models able to exploit the continuously increasing power of cloud-available and more sustainable quantum accelerators integrated with more traditional energy-hungry High Performance Computing resources.",
+      "abs_url": "http://arxiv.org/abs/2610.09635v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09635v1",
+      "code_url": null
+    },
+    "2610.09321": {
+      "id": "2610.09321",
+      "version": "2610.09321v1",
+      "title": "Dialect-Robust Speech Language Models with Synthetic Pseudo-Dialect Augmentation",
+      "authors": [
+        "Shunsuke Mitsumori",
+        "Tomoya Mizumoto",
+        "Yusuke Fujita"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "categories": [
+        "cs.CL",
+        "eess.AS"
+      ],
+      "abstract": "Speech Language Model (SLM) performance often degrades on dialects due to data scarcity. Conventional text-to-speech (TTS) augmentation struggles to cover diverse dialects as it requires a certain amount of real dialect speech. We propose synthesizing pseudo-dialect speech by converting LLM-generated dialect text via a standard-language TTS model, requiring zero real dialect speech. Additionally, we introduce intermediate standard-text prediction during training, acting as semantic normalization for downstream tasks. We evaluate dialect understanding via dialect-to-English speech translation across Japanese, German, and Chinese dialects. Compared to synthetic standard speech baselines, pseudo-dialect augmentation improves scores for Japanese (from 25.38 to 26.24) and German (from 31.57 to 32.47). Furthermore, the intermediate standard-text prediction effectively bridges the semantic gap, boosting performance to 28.26 for Japanese and from 11.67 to 16.37 for Chinese. These results suggest that our approach scales to various languages without requiring speech resources specific to each dialect.",
+      "abs_url": "http://arxiv.org/abs/2610.09321v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09321v1",
+      "code_url": null
     }
   }
 }
