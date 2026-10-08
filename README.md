@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.10.08
+## Updated on 2026.10.09
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **629**
-- Recent 30 days: **85**
-- Older than 30 days: **544**
+- Recent 30 days: **82**
+- Older than 30 days: **547**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -104,14 +104,14 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-09**|**Leveraging Fine-grained Error Correction in Korean Speech Recognition for Consultation Services**|cs.CL|[2609.09889v1](http://arxiv.org/abs/2609.09889v1)|null|
 |**2026-09-09**|**Exact Degeneracy Under Balanced k-Shot Sampling:Consequences for Small-Sample Discriminant Analysis on LLM Embeddings**|cs.LG|[2609.09860v1](http://arxiv.org/abs/2609.09860v1)|null|
 |**2026-09-09**|**SEA-SpeechBench: A Large-Scale Multitask Benchmark for Speech Understanding Across Southeast Asia**|cs.CL|[2609.09672v1](http://arxiv.org/abs/2609.09672v1)|**[code](https://zwenyu.github.io/SEA-SpeechBench/)**|
-|**2026-09-08**|**Do LLMs Make More Mistakes If They Do Not Believe the Input Data?**|cs.CL|[2609.09363v1](http://arxiv.org/abs/2609.09363v1)|null|
-|**2026-09-08**|**RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation**|cs.RO, cs.AI|[2609.08339v1](http://arxiv.org/abs/2609.08339v1)|null|
-|**2026-09-08**|**LEBGen: An LLM-Enhanced Bayesian Network Framework for Few-Shot Travel Survey Data Generation**|cs.AI|[2609.08288v1](http://arxiv.org/abs/2609.08288v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-08**|**Do LLMs Make More Mistakes If They Do Not Believe the Input Data?**|cs.CL|[2609.09363v1](http://arxiv.org/abs/2609.09363v1)|null|
+|**2026-09-08**|**RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation**|cs.RO, cs.AI|[2609.08339v1](http://arxiv.org/abs/2609.08339v1)|null|
+|**2026-09-08**|**LEBGen: An LLM-Enhanced Bayesian Network Framework for Few-Shot Travel Survey Data Generation**|cs.AI|[2609.08288v1](http://arxiv.org/abs/2609.08288v1)|null|
 |**2026-09-07**|**BanglaMemeX: Advancing Cultural Metaphoric Image Interpretation in Bangla with a Multimodal Explainable Dataset**|cs.CL, cs.CV|[2609.08029v1](http://arxiv.org/abs/2609.08029v1)|null|
 |**2026-09-07**|**Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy**|cs.RO, cs.AI|[2609.07470v1](http://arxiv.org/abs/2609.07470v1)|null|
 |**2026-09-07**|**AAS-RAIL: Improving Information Extraction for Asset Administration Shells through Retrieval-Augmented In-Context Learning**|cs.AI|[2609.07334v1](http://arxiv.org/abs/2609.07334v1)|null|
