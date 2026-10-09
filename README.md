@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **629**
-- Recent 30 days: **82**
+- Total papers in JSON: **635**
+- Recent 30 days: **88**
 - Older than 30 days: **547**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,12 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-08**|**Ambient Discrete Diffusion: Using the Wrong Data at the Right Time for Data Efficient Learning**|cs.LG|[2610.12340v1](http://arxiv.org/abs/2610.12340v1)|null|
+|**2026-10-08**|**Zatom-2: Multitask Pretraining on Atomistic Data for Generative Modeling across Domains**|cs.LG, cs.AI|[2610.11454v1](http://arxiv.org/abs/2610.11454v1)|null|
+|**2026-10-08**|**Fact over Fiction: Detection of Pathological Hallucinations in Sinhala-to-English Neural Machine Translation**|cs.CL|[2610.11389v1](http://arxiv.org/abs/2610.11389v1)|null|
+|**2026-10-08**|**Sample-Efficient Generative Conformal Prediction**|cs.LG, stat.ME|[2610.11349v1](http://arxiv.org/abs/2610.11349v1)|null|
+|**2026-10-08**|**Local Prototype Reconstruction for Text-Compatible Speech-to-LLM Bridge Pretraining**|cs.CL, cs.SD|[2610.11159v1](http://arxiv.org/abs/2610.11159v1)|null|
+|**2026-10-07**|**Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged**|cs.CL|[2610.10918v1](http://arxiv.org/abs/2610.10918v1)|null|
 |**2026-10-07**|**Document-Level Text Simplification in Estonian Using Large Language Models**|cs.CL|[2610.10378v1](http://arxiv.org/abs/2610.10378v1)|null|
 |**2026-10-07**|**From Prompts to Trees: Effective LLM-Guided Tree Generation for Few-Shot Tabular Classification**|cs.LG, cs.AI, cs.CL|[2610.10227v1](http://arxiv.org/abs/2610.10227v1)|null|
 |**2026-10-07**|**Quantum anomaly detection in real scarce data**|quant-ph, cs.LG|[2610.09635v1](http://arxiv.org/abs/2610.09635v1)|null|
@@ -221,14 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-07-28**|**A Control System, a Dataset, and a Recipe for Making Frozen LLM Agents Learn a Domain**|cs.AI|[2607.25415v1](http://arxiv.org/abs/2607.25415v1)|null|
 |**2026-07-27**|**Systematic Analysis of Large Language Models and Transformer-Based Machine Translation for English-Tamil and Tamil-English Across Diverse Datasets**|cs.CL|[2607.24515v2](http://arxiv.org/abs/2607.24515v2)|null|
 |**2026-07-26**|**Guiding Language Models to Be More Empathetic: Culturally Sensitive Mental Health Advice Generation Through Human-LLM Collaboration**|cs.CL|[2607.23538v1](http://arxiv.org/abs/2607.23538v1)|null|
-|**2026-07-26**|**NeurGO: Learning to Generate Elite Candidates for Meta-Black-Box Expensive Optimization**|cs.AI|[2607.23408v1](http://arxiv.org/abs/2607.23408v1)|null|
-|**2026-07-24**|**Complexity Bounds and Approaches to Learning Projected Gradient Descent Solver Iterates**|cs.LG|[2607.22467v1](http://arxiv.org/abs/2607.22467v1)|null|
-|**2026-07-24**|**A Factorial Study of Synthetic Data Generation for Low-Resource Machine Translation using Grammar Books**|cs.CL|[2607.22376v1](http://arxiv.org/abs/2607.22376v1)|null|
-|**2026-07-24**|**Towards Trustworthy and Cost-Efficient Data Integration: From Naïve RAG to Agentic RAG**|cs.DB, cs.AI|[2607.22319v1](http://arxiv.org/abs/2607.22319v1)|null|
-|**2026-07-24**|**Biomedical Machine Translation for Low-Resource Arabic-Script Languages via Cross-Lingual Transfer and LoRA Adapter Merging**|cs.CL|[2607.22300v1](http://arxiv.org/abs/2607.22300v1)|null|
-|**2026-07-24**|**One Hand Watches The Other: Dynamic Multi-Agent Cooperation for Sample-Efficient Bimanual Manipulation in Dynamic Environments**|cs.RO, cs.AI, cs.LG|[2607.22119v1](http://arxiv.org/abs/2607.22119v1)|null|
 
-README omitted **429** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **435** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

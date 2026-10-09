@@ -13627,6 +13627,135 @@
       "abs_url": "http://arxiv.org/abs/2610.09321v1",
       "pdf_url": "https://arxiv.org/pdf/2610.09321v1",
       "code_url": null
+    },
+    "2610.11389": {
+      "id": "2610.11389",
+      "version": "2610.11389v1",
+      "title": "Fact over Fiction: Detection of Pathological Hallucinations in Sinhala-to-English Neural Machine Translation",
+      "authors": [
+        "Navam Obeysekara",
+        "Nevidu Jayatilleke"
+      ],
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Neural Machine Translation (NMT) models, while capable of producing highly fluent outputs, remain vulnerable to hallucinations, which are translations that are natural yet semantically unrelated to the source. This vulnerability is acute in low-resource settings like Sinhala-to-English, where weak cross-lingual alignment leads to hallucinations. This paper introduces a framework for reference-free hallucination detection in this language pair. We present a 45,000-sample synthetic dataset generated through a probabilistic chain of five linguistically motivated corruption strategies, with a semantic rescue mechanism that uses character-level similarity to distinguish hallucinations from morphological variants. We fine-tune mDeBERTa-v3 for token-level sequence labelling, reaching a token-level F1 of 0.841 +/- 0.001 over three seeds on a source-disjoint test set, and study a three-signal ensemble integrating neural risk scores, sequence log-probabilities, and cross-lingual semantic embeddings (LaBSE). A source-ablation control shows that the detector relies on the Sinhala source rather than on surface artefacts of the corruption process: shuffling or removing the source reduces sentence-level AUROC from 0.970 to chance. We benchmark eight NMT systems spanning five model families and find that detector firings vary by an order of magnitude across architectures.",
+      "abs_url": "http://arxiv.org/abs/2610.11389v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.11389v1",
+      "code_url": null
+    },
+    "2610.11159": {
+      "id": "2610.11159",
+      "version": "2610.11159v1",
+      "title": "Local Prototype Reconstruction for Text-Compatible Speech-to-LLM Bridge Pretraining",
+      "authors": [
+        "Xinnian Zhao",
+        "Chia-Hua Wu",
+        "Pu Wang",
+        "Hugo Van Hamme"
+      ],
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "categories": [
+        "cs.CL",
+        "cs.SD"
+      ],
+      "abstract": "Speech-to-LLM systems often connect a frozen speech encoder to a frozen large language model (LLM) through a small trainable bridge. The bridge is usually treated as plumbing, but it in fact defines the geometry of the speech-to-LLM interface, and the pretraining objective decides whether that interface provides a reusable initialization for downstream tasks. We study a transferable bridge through two complementary properties: global alignment with the text side, and local lexical manifold compatibility, where bridge embeddings remain close to the frozen LLM's input-embedding neighbourhoods. We make this property measurable with a fixed, head-free, timestamp-free diagnostic that applies to any objective, and show that next-word prediction (NWP) and sentence-level contrastive pretraining do not fully capture token-level lexical compatibility. We then introduce Local Prototype Reconstruction (LPR), a lightweight training-only regularizer that requires each aligned bridge token to be reconstructable from a small neighbourhood of frozen LLM token embeddings, with a hard single-prototype anchor as its limiting case. On multilingual ASR and speech translation, LPR improves transfer, with the largest gains on translation and low-resource adaptation. Crucially, our independent diagnostic correlates with downstream gains across objectives, suggesting that lexical manifold compatibility is predictive of reusability for speech-to-LLM bridges.",
+      "abs_url": "http://arxiv.org/abs/2610.11159v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.11159v1",
+      "code_url": null
+    },
+    "2610.10918": {
+      "id": "2610.10918",
+      "version": "2610.10918v1",
+      "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
+      "authors": [
+        "Hala Almaghout",
+        "Christian Federmann",
+        "Qin Gao"
+      ],
+      "published": "2026-10-07",
+      "updated": "2026-10-07",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation spanning a large number of language pairs, domains and levels of annotation granularity, LLMs must be thoroughly evaluated across these dimensions before being reliably used as alternatives to human evaluation. In this paper, we evaluate the performance of LLMs for two prominent MT quality evaluation schemes: Multidimensional Quality Metrics (MQM) and Error Span Annotation (ESA) by comparing their agreement with human annotators. We present results on a long-context test set of 70 language pairs and the publicly available WMT23 and WMT25 data, investigating both score and error span annotation agreement across a variety of language pairs and domains. Our results show that while LLM agreement with human annotators exceeds agreement between human annotators for some evaluation tasks, both vary substantially across annotation schemes, language pairs and domains and remain unreliable for most settings. Furthermore, we identify challenges facing both human and LLM annotators: humans are particularly challenged by fine-grained MQM annotations and low-resource language pairs, while LLMs struggle with minor errors, wrong language variants and error span annotation. Our results highlight the potential for improvement for both human and LLM annotation performance, possibly through human-LLM collaborative annotation pipelines that address the reliability issues identified in this work.",
+      "abs_url": "http://arxiv.org/abs/2610.10918v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10918v1",
+      "code_url": null
+    },
+    "2610.12340": {
+      "id": "2610.12340",
+      "version": "2610.12340v1",
+      "title": "Ambient Discrete Diffusion: Using the Wrong Data at the Right Time for Data Efficient Learning",
+      "authors": [
+        "Julian Kleutgens",
+        "Mauricio Tec",
+        "Claudio Battiloro",
+        "Francesca Dominici",
+        "Giannis Daras"
+      ],
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "We introduce RefineMix, a framework for training discrete diffusion models under severe data scarcity, a common constraint in scientific applications. RefineMix uses out-of-distribution data at selected diffusion times to improve generalization without biasing the sampling distribution. Although this strategy has been explored in continuous diffusion, discrete diffusion presents a distinct challenge: unlike Gaussian noise, masking preserves domain information in surviving tokens, limiting the use of related data at high noise levels. At low noise levels, however, the domains effectively disjoint supports become an advantage, allowing the model to learn from both in-domain and out-of-distribution data without biasing the sampler. We formalize these intuitions and provide a theoretical analysis for the proposed method. Experimentally, across five domain-shift settings, RefineMix matches or outperforms in-domain finetuning and data mixing. For protein sequence generation, finetuning with just 197 in-domain examples nearly doubles the fraction of generated proteins that are simultaneously novel, foldable, and in-family compared to standard finetuning.",
+      "abs_url": "http://arxiv.org/abs/2610.12340v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12340v1",
+      "code_url": null
+    },
+    "2610.11349": {
+      "id": "2610.11349",
+      "version": "2610.11349v1",
+      "title": "Sample-Efficient Generative Conformal Prediction",
+      "authors": [
+        "Minxing Zheng",
+        "Shixiang Zhu"
+      ],
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "categories": [
+        "cs.LG",
+        "stat.ME"
+      ],
+      "abstract": "Generative conformal prediction builds uncertainty sets from samples of a conditional generator, which are efficient only when the samples represent the response distribution well. This can require many samples, each of which can be costly, as in large diffusion models and scientific simulators, so the sampling budget must be used efficiently. Existing methods draw the same number of samples at every input, wasting samples where the response distribution is simple and undersampling where it is complex, which inflates sets and leaves those inputs under-covered. We propose CASA (Conformal Adaptive Sample Allocation), which characterizes the marginal value of an additional sample and allocates samples across inputs to minimize the expected set size subject to marginal coverage and an average sampling budget. Theoretical analysis shows that adaptive allocation yields smaller sets than a fixed count at the same budget: a missed mode forces a radius that spans the gap between modes, and even oracle radius cannot compensate for it. On synthetic and real tasks, CASA produces substantially smaller sets at the same budget, often improves conditional coverage, and complements existing radius-adaptive methods.",
+      "abs_url": "http://arxiv.org/abs/2610.11349v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.11349v1",
+      "code_url": null
+    },
+    "2610.11454": {
+      "id": "2610.11454",
+      "version": "2610.11454v1",
+      "title": "Zatom-2: Multitask Pretraining on Atomistic Data for Generative Modeling across Domains",
+      "authors": [
+        "Miruna Cretu",
+        "Alex Abrudan",
+        "Antonia Panescu",
+        "Tynan Perez",
+        "Rishabh Anand",
+        "N. Benjamin Erichson",
+        "Michael W. Mahoney",
+        "Samuel Blau",
+        "Joseph Jacobson",
+        "Rafael Gómez-Bombarelli",
+        "Rex Ying",
+        "Tuomas Knowles",
+        "Pietro Liò",
+        "Alex Morehead"
+      ],
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Unified atomistic modeling has the potential to accelerate discovery in chemistry, materials science, and biology by bridging data-rich chemical domains and data-scarce biological contexts. However, existing generative approaches to atomistic modeling remain highly specialized to scientific disciplines (chemistry vs. biology) or do not leverage both high-volume organic (molecule) and inorganic (material) data for general-purpose pretraining. To this end, we introduce Zatom-2, an atomistic generative model pretrained on approximately five million structures from the OMol25 and OMat24 electronic structure datasets. Zatom-2 features a multiscale Transformer architecture coupled with conditional flow matching that supports force conditioning and foundational pretraining tasks such as generation, structure prediction, and prediction of molecular and material energies and forces. Empirically, Zatom-2 achieves better molecular distribution fidelity than Zatom-1 and achieves strong performance on existing molecule and material generation benchmarks. Zatom-2 demonstrates the ability to control sample generation across low- and high-force regimes, and enhances protein generation in a low-data setting through joint generative-predictive pretraining and transfer learning, increasing protein backbone designability in a length extrapolation setting from 67.8% without pretraining to 74.8% after finetuning on 2,000 protein domains.",
+      "abs_url": "http://arxiv.org/abs/2610.11454v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.11454v1",
+      "code_url": null
     }
   }
 }
