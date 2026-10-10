@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.10.10
+## Updated on 2026.10.11
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **635**
-- Recent 30 days: **81**
-- Older than 30 days: **554**
+- Recent 30 days: **79**
+- Older than 30 days: **556**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -101,13 +101,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-12**|**Scaling Hindi Quantum Natural Language Processing through Automatic Pregroup Supertagging**|cs.CL, quant-ph|[2609.13721v1](http://arxiv.org/abs/2609.13721v1)|null|
 |**2026-09-12**|**The University of Melbourne WMT 2026 CreoleMT Submission: A Domain-Balanced Approach to Low-Resource Pacific Creole Machine Translation**|cs.CL|[2609.13615v1](http://arxiv.org/abs/2609.13615v1)|null|
 |**2026-09-11**|**Breaking the Token Ceiling: Distilling Smaller, Stronger Byte Models**|cs.CL, cs.AI, cs.LG|[2609.12303v1](http://arxiv.org/abs/2609.12303v1)|null|
-|**2026-09-10**|**Beyond Word Error Rate: A Switch Aware Evaluation of ASR and Audio Language Models on English Yoruba Code-Switched Speech**|cs.CL, cs.AI|[2609.11786v1](http://arxiv.org/abs/2609.11786v1)|null|
-|**2026-09-10**|**Complex-Text Robustness Evaluation and Failure Diagnosis for Low-Resource Multilingual Text-to-Speech**|cs.CL, cs.SD|[2609.11545v1](http://arxiv.org/abs/2609.11545v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-10**|**Beyond Word Error Rate: A Switch Aware Evaluation of ASR and Audio Language Models on English Yoruba Code-Switched Speech**|cs.CL, cs.AI|[2609.11786v1](http://arxiv.org/abs/2609.11786v1)|null|
+|**2026-09-10**|**Complex-Text Robustness Evaluation and Failure Diagnosis for Low-Resource Multilingual Text-to-Speech**|cs.CL, cs.SD|[2609.11545v1](http://arxiv.org/abs/2609.11545v1)|null|
 |**2026-09-09**|**Multilingual in Name Only? Cultural and Linguistic Weaknesses of LLMs in Urdu**|cs.CL, cs.AI, cs.LG|[2609.10758v1](http://arxiv.org/abs/2609.10758v1)|null|
 |**2026-09-09**|**Data-Efficient Language Modeling: From Frontier Advancement to Principle-Guided Model Improvement**|cs.CL, cs.AI|[2609.10702v1](http://arxiv.org/abs/2609.10702v1)|null|
 |**2026-09-09**|**5-Dialects-BN: Unmasking the Impact of Transliteration on Bangla Dialectal LLMs**|cs.CL|[2609.09964v1](http://arxiv.org/abs/2609.09964v1)|null|
