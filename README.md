@@ -7,21 +7,22 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.10.14
+## Updated on 2026.10.15
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **646**
-- Recent 30 days: **84**
-- Older than 30 days: **562**
+- Total papers in JSON: **647**
+- Recent 30 days: **82**
+- Older than 30 days: **565**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-13**|**Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs**|cs.CL, cs.AI|[2610.18818v1](http://arxiv.org/abs/2610.18818v1)|null|
 |**2026-10-12**|**Generative Models as Adaptive Trust Regions for Discrete Bayesian Optimisation**|cs.LG|[2610.16992v1](http://arxiv.org/abs/2610.16992v1)|null|
 |**2026-10-12**|**PATMT2: Two-stage domain adaptation for multilingual patent translation**|cs.CL, cs.AI|[2610.16466v1](http://arxiv.org/abs/2610.16466v1)|null|
 |**2026-10-11**|**Robust Marathi Sentiment Analysis using Domain-Adaptive Pre-training and Data Augmentation Approaches**|cs.CL, cs.LG|[2610.15761v1](http://arxiv.org/abs/2610.15761v1)|null|
@@ -103,14 +104,14 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-15**|**Robust and Efficient AI Frameworks for Scalable Material Design and Property Prediction**|cond-mat.mtrl-sci, cs.LG|[2609.17646v1](http://arxiv.org/abs/2609.17646v1)|null|
 |**2026-09-15**|**Towards Detecting AI-Assisted Responses in Online Surveys**|cs.CL, cs.CY|[2609.17317v1](http://arxiv.org/abs/2609.17317v1)|**[code](https://github.com/mike-qz-wang/ASURRE)**|
 |**2026-09-15**|**MyoFlow: Anchor-Tied Rectified Flow for HD-sEMG Gesture Recognition Across Sessions and Subjects**|cs.LG|[2609.17194v2](http://arxiv.org/abs/2609.17194v2)|null|
-|**2026-09-14**|**A Language-Guided Multimodal Foundation Model for Zero-Shot and Multi-Task Brain Signal Analysis**|cs.LG, cs.AI|[2609.15740v1](http://arxiv.org/abs/2609.15740v1)|null|
-|**2026-09-14**|**Authorship attribution and aesthetic evaluation of AI poetry: a case study with Haiku**|cs.CL, cs.AI|[2609.15511v1](http://arxiv.org/abs/2609.15511v1)|null|
-|**2026-09-14**|**ProtoGuide: Prototype-Driven Guidance for Class-Conditional Graph Generation**|cs.LG, cs.AI, physics.soc-ph|[2609.15239v1](http://arxiv.org/abs/2609.15239v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-14**|**A Language-Guided Multimodal Foundation Model for Zero-Shot and Multi-Task Brain Signal Analysis**|cs.LG, cs.AI|[2609.15740v1](http://arxiv.org/abs/2609.15740v1)|null|
+|**2026-09-14**|**Authorship attribution and aesthetic evaluation of AI poetry: a case study with Haiku**|cs.CL, cs.AI|[2609.15511v1](http://arxiv.org/abs/2609.15511v1)|null|
+|**2026-09-14**|**ProtoGuide: Prototype-Driven Guidance for Class-Conditional Graph Generation**|cs.LG, cs.AI, physics.soc-ph|[2609.15239v1](http://arxiv.org/abs/2609.15239v1)|null|
 |**2026-09-13**|**TriCalRAG: A Three-Strategy, Retrieval-Augmented Benchmark for On-Premise LLM-Based Root Cause Analysis in AIOps**|cs.DC, cs.AI, cs.CR, cs.ET, cs.LG|[2609.14762v1](http://arxiv.org/abs/2609.14762v1)|null|
 |**2026-09-13**|**Corpus Characterization and Inverse Constitutional Fine-Tuning for Style-Aware Radiology Reports**|cs.CL|[2609.14226v1](http://arxiv.org/abs/2609.14226v1)|null|
 |**2026-09-12**|**Conditional Quantum Flow Matching for Data-Scarce Physiological Signal Augmentation**|quant-ph, cs.LG, cs.MM|[2609.14019v1](http://arxiv.org/abs/2609.14019v1)|null|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-04**|**VIVID: A Culturally Grounded Benchmark Exposing the Figurative Language Gap in Vietnamese NLP**|cs.CL, cs.LG|[2608.03095v1](http://arxiv.org/abs/2608.03095v1)|null|
 |**2026-08-03**|**FLARE: Few-shot Learning-based Adaptive Reflective Engine**|cs.CL|[2608.02919v1](http://arxiv.org/abs/2608.02919v1)|null|
 |**2026-08-03**|**LAB-Tab: LLM-Augmented Bayesian Network Adaptation for Few-Shot Tabular Generation**|cs.LG, cs.AI|[2608.01879v1](http://arxiv.org/abs/2608.01879v1)|null|
-|**2026-08-02**|**ArabicDialectSafety: A Dialect-Aware Benchmark for Arabic Content Safety Classification**|cs.CL|[2608.01291v2](http://arxiv.org/abs/2608.01291v2)|null|
 
-README omitted **446** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **447** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
