@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **642**
-- Recent 30 days: **80**
+- Total papers in JSON: **646**
+- Recent 30 days: **84**
 - Older than 30 days: **562**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,10 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-12**|**Generative Models as Adaptive Trust Regions for Discrete Bayesian Optimisation**|cs.LG|[2610.16992v1](http://arxiv.org/abs/2610.16992v1)|null|
+|**2026-10-12**|**PATMT2: Two-stage domain adaptation for multilingual patent translation**|cs.CL, cs.AI|[2610.16466v1](http://arxiv.org/abs/2610.16466v1)|null|
+|**2026-10-11**|**Robust Marathi Sentiment Analysis using Domain-Adaptive Pre-training and Data Augmentation Approaches**|cs.CL, cs.LG|[2610.15761v1](http://arxiv.org/abs/2610.15761v1)|null|
+|**2026-10-10**|**Amharic-English Cross-Language Question Answering Using Statistical Machine Translation, Named Entity Recognition, and Semantic Indexing**|cs.CL|[2610.14756v1](http://arxiv.org/abs/2610.14756v1)|null|
 |**2026-10-09**|**Structural Automata for Neural Semantic Parsing**|cs.CL|[2610.13896v1](http://arxiv.org/abs/2610.13896v1)|null|
 |**2026-10-09**|**Inference-Time Steering Across Scaffolds and Epitopes for Sample-Efficient De Novo Nanobody Design**|cs.LG|[2610.13844v1](http://arxiv.org/abs/2610.13844v1)|null|
 |**2026-10-09**|**OccludeBench: Can VLMs Find What's Missing?**|cs.CV, cs.CL|[2610.13790v1](http://arxiv.org/abs/2610.13790v1)|null|
@@ -30,7 +34,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-09**|**COFFEQA: Counterfactual-Guided Few-Shot Distillation for LLM Question Answering**|cs.CL, cs.AI, cs.LG|[2610.12837v1](http://arxiv.org/abs/2610.12837v1)|null|
 |**2026-10-08**|**STAPLE: Static Sparse Upcycling of Pretrained Checkpoints via Embedding Modules**|cs.LG|[2610.12599v1](http://arxiv.org/abs/2610.12599v1)|null|
 |**2026-10-08**|**Ambient Discrete Diffusion: Using the Wrong Data at the Right Time for Data Efficient Learning**|cs.LG|[2610.12340v1](http://arxiv.org/abs/2610.12340v1)|null|
-|**2026-10-08**|**Zatom-2: Multitask Pretraining on Atomistic Data for Generative Modeling across Domains**|cs.LG, cs.AI|[2610.11454v1](http://arxiv.org/abs/2610.11454v1)|null|
+|**2026-10-08**|**Zatom-2: Multitask Pretraining on Atomistic Data for Generative Modeling across Domains**|cs.LG, cs.AI|[2610.11454v2](http://arxiv.org/abs/2610.11454v2)|null|
 |**2026-10-08**|**Fact over Fiction: Detection of Pathological Hallucinations in Sinhala-to-English Neural Machine Translation**|cs.CL|[2610.11389v1](http://arxiv.org/abs/2610.11389v1)|null|
 |**2026-10-08**|**Sample-Efficient Generative Conformal Prediction**|cs.LG, stat.ME|[2610.11349v1](http://arxiv.org/abs/2610.11349v1)|null|
 |**2026-10-08**|**Local Prototype Reconstruction for Text-Compatible Speech-to-LLM Bridge Pretraining**|cs.CL, cs.SD|[2610.11159v1](http://arxiv.org/abs/2610.11159v1)|null|
@@ -49,7 +53,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-05**|**Constraint-Aware Conversational Job Recommendation in Code-Mixed Low-Resource Settings**|cs.IR|[2610.05787v1](http://arxiv.org/abs/2610.05787v1)|**[code](https://huggingface.co/datasets/Armans33115/JobCCC-Conversational-Job-Recommendation-Bangladesh)**|
 |**2026-10-04**|**Investigating Model Compression for Neural Machine Translation in the Biomedical Domain**|cs.CL, cs.AI, cs.LG|[2610.07032v1](http://arxiv.org/abs/2610.07032v1)|null|
 |**2026-10-04**|**Image Synthesis as an Intermediate for Controllable Time Series Generation**|cs.AI|[2610.05211v1](http://arxiv.org/abs/2610.05211v1)|null|
-|**2026-10-03**|**Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations**|cs.AI, cs.CL, cs.CR|[2610.04693v1](http://arxiv.org/abs/2610.04693v1)|null|
+|**2026-10-03**|**Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations**|cs.AI, cs.CL, cs.CR|[2610.04693v2](http://arxiv.org/abs/2610.04693v2)|null|
 |**2026-10-03**|**Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation**|cs.AI|[2610.04188v2](http://arxiv.org/abs/2610.04188v2)|null|
 |**2026-10-02**|**Protecting Sensitive Data in Image Synthesis via PAC-Private Adaptation for Diffusion Models**|cs.LG|[2610.04038v1](http://arxiv.org/abs/2610.04038v1)|null|
 |**2026-10-02**|**Multilingual GSM-Symbolic: What determines capability transfer across languages?**|cs.AI, cs.CL|[2610.03367v2](http://arxiv.org/abs/2610.03367v2)|null|
@@ -223,12 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-03**|**FLARE: Few-shot Learning-based Adaptive Reflective Engine**|cs.CL|[2608.02919v1](http://arxiv.org/abs/2608.02919v1)|null|
 |**2026-08-03**|**LAB-Tab: LLM-Augmented Bayesian Network Adaptation for Few-Shot Tabular Generation**|cs.LG, cs.AI|[2608.01879v1](http://arxiv.org/abs/2608.01879v1)|null|
 |**2026-08-02**|**ArabicDialectSafety: A Dialect-Aware Benchmark for Arabic Content Safety Classification**|cs.CL|[2608.01291v2](http://arxiv.org/abs/2608.01291v2)|null|
-|**2026-08-02**|**Opt.Gear Technical Report**|cs.CL|[2608.01034v2](http://arxiv.org/abs/2608.01034v2)|null|
-|**2026-08-01**|**Native Multilingual Chain-of-Thought Reasoning in Low-Resource Southeast Asian Languages**|cs.CL, cs.AI, cs.LG|[2608.00533v1](http://arxiv.org/abs/2608.00533v1)|null|
-|**2026-07-31**|**Bridging the English-Arabic Medical Knowledge Gap: Targeted Low-Rank Adaptation via Causal Layer Selection**|cs.CL|[2608.00207v1](http://arxiv.org/abs/2608.00207v1)|null|
-|**2026-07-31**|**Cross-Lingual Transfer for Machine Translation in Turkic Languages**|cs.CL, cs.AI|[2607.29355v1](http://arxiv.org/abs/2607.29355v1)|null|
 
-README omitted **442** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **446** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

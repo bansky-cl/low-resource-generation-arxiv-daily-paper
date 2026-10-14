@@ -13369,21 +13369,21 @@
     },
     "2610.04693": {
       "id": "2610.04693",
-      "version": "2610.04693v1",
+      "version": "2610.04693v2",
       "title": "Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations",
       "authors": [
         "Anthony Rhodes"
       ],
       "published": "2026-10-03",
-      "updated": "2026-10-03",
+      "updated": "2026-10-12",
       "categories": [
         "cs.AI",
         "cs.CL",
         "cs.CR"
       ],
       "abstract": "Agents are entering finance, healthcare and law, sectors where a violation leaves no lexical signature and carries real penalties. Whether an omission is material, or a disclosure sufficient, depends on what the response left out. Probing such an obligation means finding responses one minimal edit from flipping compliance, and every probe costs a generation and two adjudications, so the binding constraint on regulatory red-teaming is sample efficiency, not volume. We introduce Penumbra, an adversarial search that walks from a verified anchor under an expanding edit budget until a two-evaluator committee changes its verdict, and emits the two adjacent responses that straddle the change. Allocation is adaptive, and the objective is coverage of the defeat surface: distinct (obligation x defeat mode) cells resolved per candidate. At matched budget, adaptive allocation reaches uniform allocation's full-budget coverage on 59% of the candidates; at equal records it covers 1.43x the defeat modes of naive enumeration, and the gain is confined to the axis it targets. On 60 screened obligations of a financial advisory constitution, Penumbra returns 144 pairs, each a compliant and a violating response that the committee places on opposite sides of the boundary, differing by a handful of words where a model asked for both directly produces texts sharing almost nothing. A second constitution, for clinical triage, reproduces this on 18 obligations: 49 pairs at the same tightness, with the same modes hardest. Pairs like these show where an obligation's own terms stop deciding, which is what an agent deployed under it must be tested against, and the search finds them at a cost that scales with the boundary, not the text.",
-      "abs_url": "http://arxiv.org/abs/2610.04693v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.04693v1",
+      "abs_url": "http://arxiv.org/abs/2610.04693v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.04693v2",
       "code_url": null
     },
     "2610.08303": {
@@ -13728,7 +13728,7 @@
     },
     "2610.11454": {
       "id": "2610.11454",
-      "version": "2610.11454v1",
+      "version": "2610.11454v2",
       "title": "Zatom-2: Multitask Pretraining on Atomistic Data for Generative Modeling across Domains",
       "authors": [
         "Miruna Cretu",
@@ -13747,14 +13747,14 @@
         "Alex Morehead"
       ],
       "published": "2026-10-08",
-      "updated": "2026-10-08",
+      "updated": "2026-10-10",
       "categories": [
         "cs.LG",
         "cs.AI"
       ],
       "abstract": "Unified atomistic modeling has the potential to accelerate discovery in chemistry, materials science, and biology by bridging data-rich chemical domains and data-scarce biological contexts. However, existing generative approaches to atomistic modeling remain highly specialized to scientific disciplines (chemistry vs. biology) or do not leverage both high-volume organic (molecule) and inorganic (material) data for general-purpose pretraining. To this end, we introduce Zatom-2, an atomistic generative model pretrained on approximately five million structures from the OMol25 and OMat24 electronic structure datasets. Zatom-2 features a multiscale Transformer architecture coupled with conditional flow matching that supports force conditioning and foundational pretraining tasks such as generation, structure prediction, and prediction of molecular and material energies and forces. Empirically, Zatom-2 achieves better molecular distribution fidelity than Zatom-1 and achieves strong performance on existing molecule and material generation benchmarks. Zatom-2 demonstrates the ability to control sample generation across low- and high-force regimes, and enhances protein generation in a low-data setting through joint generative-predictive pretraining and transfer learning, increasing protein backbone designability in a length extrapolation setting from 67.8% without pretraining to 74.8% after finetuning on 2,000 protein domains.",
-      "abs_url": "http://arxiv.org/abs/2610.11454v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.11454v1",
+      "abs_url": "http://arxiv.org/abs/2610.11454v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.11454v2",
       "code_url": null
     },
     "2610.13207": {
@@ -13906,6 +13906,87 @@
       "abstract": "Neural semantic parsers generate meaning representations token by token, yet well-formedness depends on references, scope, and graph relations that unfold during generation. Constrained decoding prevents locally invalid tokens but does not guarantee that a valid prefix can be completed within a fixed output-length limit. We investigate structural automata at three stages of DRS parsing (decoding, post hoc processing, and training) and additionally evaluate decoding on AMR. For decoding, we introduce accepting-path decoding (APD), which maintains a verified completion within the remaining length limit and follows the model's preferred token whenever that token can also be completed. APD guarantees an accepted output without retracting tokens. Under tight length limits, it improves Smatch++ over local masking by 5.1 and 2.4 points on DRS and by 6.4 and 3.2 points on AMR, comparable to rollback under the same limit, which retracts tokens. For post hoc processing, invalid outputs concentrate on the same inputs: eight unconstrained samples yield no valid output for 10.2% of inputs with limited training data, compared with 0.4% with full data, where filtering comes within 0.2 Smatch++ points of APD. For training, penalizing automaton-rejected tokens improves development Smatch++ by 3.6-11.0 points after 10% of training, but this advantage diminishes as cross-entropy alone reduces the probability assigned to rejected tokens from 14% to below 2% within the first sixth of training with limited data.",
       "abs_url": "http://arxiv.org/abs/2610.13896v1",
       "pdf_url": "https://arxiv.org/pdf/2610.13896v1",
+      "code_url": null
+    },
+    "2610.16466": {
+      "id": "2610.16466",
+      "version": "2610.16466v1",
+      "title": "PATMT2: Two-stage domain adaptation for multilingual patent translation",
+      "authors": [
+        "Xiaowei Su",
+        "Xusen Cheng"
+      ],
+      "published": "2026-10-12",
+      "updated": "2026-10-12",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "We present PatMT2 (Patent Machine Translation, v2), a two-stage LoRA pipeline that adapts the Hy-MT2-7B dedicated translation model to four-language (Chinese/English/Japanese/Korean) patent translation. On six translation directions, the Stage-2 checkpoint reaches a macro-average BLEU of 43.39 (BF16) to 43.57 (AWQ INT4), improving over the Hy-MT2-7B base by up to +8.8 BLEU and also exceeding Qwen3-32B and several external systems on the same average. We then measure the cost of adaptation: probing 38 languages absent from the fine-tuning data, the model still produces correct, fluent output on 34, while four low-resource languages collapse into distinct, reproducible failure modes. We treat these as diagnostic cases rather than retention rates, and report their mechanisms without attributing them to a single cause. Paired bootstrap tests confirm the translation gains over all baselines (p < 0.001).",
+      "abs_url": "http://arxiv.org/abs/2610.16466v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.16466v1",
+      "code_url": null
+    },
+    "2610.15761": {
+      "id": "2610.15761",
+      "version": "2610.15761v1",
+      "title": "Robust Marathi Sentiment Analysis using Domain-Adaptive Pre-training and Data Augmentation Approaches",
+      "authors": [
+        "Tanvi Somani",
+        "Aryan Babare",
+        "Samyak Bora",
+        "Raviraj Joshi",
+        "Abhinay Dhamankar"
+      ],
+      "published": "2026-10-11",
+      "updated": "2026-10-11",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "For languages with limited resources, Sentiment Analysis remains a challenging problem due to limited annotated data and strong domain variability across textual sources. Marathi, despite being widely spoken, lacks extensive multi-domain sentiment analysis studies. Recent efforts by L3Cube have introduced multi-domain datasets in Marathi, enabling a better study of domain-aware sentiment classification. This study uses the pretrained MahaBERT model to improve sentiment classification for Marathi across different domains. Models are trained on individual domain datasets and domain-adaptive pretraining is applied using masked language modeling to help the model better understand domain-specific language. In addition, back-translation is used as a method of data augmentation to increase the diversity of training data. Results show that these methods lead to consistent improvements in accuracy across all domains. The improvements range from a minimum of about 0.12% to a maximum of about 1.74%, depending on the dataset. These results demonstrate that domain-adaptive pretraining and data augmentation are effective strategies for improving sentiment analysis models. This helps achieve more robust performance across different domains and makes the approach more suitable for low-resource languages like Marathi.",
+      "abs_url": "http://arxiv.org/abs/2610.15761v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.15761v1",
+      "code_url": null
+    },
+    "2610.14756": {
+      "id": "2610.14756",
+      "version": "2610.14756v1",
+      "title": "Amharic-English Cross-Language Question Answering Using Statistical Machine Translation, Named Entity Recognition, and Semantic Indexing",
+      "authors": [
+        "Emebet Bekele",
+        "Fekade Getahun"
+      ],
+      "published": "2026-10-10",
+      "updated": "2026-10-10",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "The predominance of English-language Web content creates an information-access barrier for speakers of low-resource languages such as Amharic. This paper presents the design, imple-mentation, and evaluation of a bidirectional Amharic-English cross-language question answering (CLQA) system that allows a user to formulate a natural-language question in either Amharic or English and retrieve an answer from documents written in the other language. The system integrates a statistical machine translation (SMT) component for query translation, a maximum-entropy named entity recognition (NER) component for Amharic text processing, semantic-based indexing, question analysis, passage retrieval, and answer extraction. A domain-diverse Amharic-English parallel corpus was used to train the SMT component, while monolingual cor-pora supported language modeling. Documents were normalized, tokenized, stemmed, indexed, and semantically enriched before retrieval. The original evaluation used precision and recall as the principal effectiveness measures. For Amharic-to-English retrieval, the system achieved 72% precision and 79% recall; for English-to-Amharic retrieval, it achieved 65% precision and 70% recall. These findings show that a modular translation-and-retrieval architecture can provide useful cross-language access even under low-resource conditions. This revised article preserves the original experimental claims while situating them in the context of subsequent multilingual transformer and Amharic QA research.",
+      "abs_url": "http://arxiv.org/abs/2610.14756v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.14756v1",
+      "code_url": null
+    },
+    "2610.16992": {
+      "id": "2610.16992",
+      "version": "2610.16992v1",
+      "title": "Generative Models as Adaptive Trust Regions for Discrete Bayesian Optimisation",
+      "authors": [
+        "Michael Dodds",
+        "Erik Bodin",
+        "Sebastian W. Ober",
+        "Tom Diethe",
+        "Carl Henrik Ek",
+        "Henry Moss"
+      ],
+      "published": "2026-10-12",
+      "updated": "2026-10-12",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Bayesian optimisation (BO) is a powerful framework for sample-efficient optimisation of expensive black-box functions, but its application to high-dimensional discrete scientific design remains challenging. Local trust-region BO methods such as TuRBO address high dimensionality by restricting search to adaptively sized neighbourhoods. However, a direct discrete analogue based on edit distance can be poorly suited to structured discrete objects: neighbourhoods grow combinatorially, and metric proximity does not capture the dependencies that determine whether a design is plausible or useful. Motivated by the growing availability of pretrained generative models, we introduce GenTuRBO, which replaces the geometric trust region with an adaptively scaled proposal distribution defined by a pretrained generator. The generator provides a learned prior over discrete transformations, encoding coordinated changes without explicitly enumerating edit-distance neighbourhoods. GenTuRBO performs strongly across all three domains and achieves the highest mean final scores on Ehrlich sequence optimisation and Sokoban coordination.",
+      "abs_url": "http://arxiv.org/abs/2610.16992v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.16992v1",
       "code_url": null
     }
   }
