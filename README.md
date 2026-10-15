@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **647**
-- Recent 30 days: **82**
+- Total papers in JSON: **652**
+- Recent 30 days: **87**
 - Older than 30 days: **565**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,7 +22,12 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
-|**2026-10-13**|**Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs**|cs.CL, cs.AI|[2610.18818v1](http://arxiv.org/abs/2610.18818v1)|null|
+|**2026-10-14**|**HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation**|cs.AI, cs.IR|[2610.20191v1](http://arxiv.org/abs/2610.20191v1)|null|
+|**2026-10-14**|**Structure-Preserving Document-Level Data Augmentation via Discourse Parsing**|cs.CL, cs.AI|[2610.19497v1](http://arxiv.org/abs/2610.19497v1)|null|
+|**2026-10-13**|**PairIT: Autoregressive Transformers for Low-Data Molecule Optimization**|cs.LG, cs.AI, physics.chem-ph|[2610.19123v1](http://arxiv.org/abs/2610.19123v1)|null|
+|**2026-10-13**|**Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models**|cs.CV, cs.AI, cs.CL|[2610.19108v1](http://arxiv.org/abs/2610.19108v1)|null|
+|**2026-10-13**|**Evaluating Large Language Models for Multilingual Abstractive Summarization: A Comprehensive Study of English and Bengali**|cs.CL, cs.AI|[2610.19003v1](http://arxiv.org/abs/2610.19003v1)|null|
+|**2026-10-13**|**Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs**|cs.CL, cs.AI|[2610.18818v2](http://arxiv.org/abs/2610.18818v2)|null|
 |**2026-10-12**|**Generative Models as Adaptive Trust Regions for Discrete Bayesian Optimisation**|cs.LG|[2610.16992v1](http://arxiv.org/abs/2610.16992v1)|null|
 |**2026-10-12**|**PATMT2: Two-stage domain adaptation for multilingual patent translation**|cs.CL, cs.AI|[2610.16466v1](http://arxiv.org/abs/2610.16466v1)|null|
 |**2026-10-11**|**Robust Marathi Sentiment Analysis using Domain-Adaptive Pre-training and Data Augmentation Approaches**|cs.CL, cs.LG|[2610.15761v1](http://arxiv.org/abs/2610.15761v1)|null|
@@ -55,7 +60,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-04**|**Investigating Model Compression for Neural Machine Translation in the Biomedical Domain**|cs.CL, cs.AI, cs.LG|[2610.07032v1](http://arxiv.org/abs/2610.07032v1)|null|
 |**2026-10-04**|**Image Synthesis as an Intermediate for Controllable Time Series Generation**|cs.AI|[2610.05211v1](http://arxiv.org/abs/2610.05211v1)|null|
 |**2026-10-03**|**Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations**|cs.AI, cs.CL, cs.CR|[2610.04693v2](http://arxiv.org/abs/2610.04693v2)|null|
-|**2026-10-03**|**Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation**|cs.AI|[2610.04188v2](http://arxiv.org/abs/2610.04188v2)|null|
+|**2026-10-03**|**Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation**|cs.AI|[2610.04188v3](http://arxiv.org/abs/2610.04188v3)|null|
 |**2026-10-02**|**Protecting Sensitive Data in Image Synthesis via PAC-Private Adaptation for Diffusion Models**|cs.LG|[2610.04038v1](http://arxiv.org/abs/2610.04038v1)|null|
 |**2026-10-02**|**Multilingual GSM-Symbolic: What determines capability transfer across languages?**|cs.AI, cs.CL|[2610.03367v2](http://arxiv.org/abs/2610.03367v2)|null|
 |**2026-10-02**|**Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers**|cs.AI|[2610.03363v2](http://arxiv.org/abs/2610.03363v2)|null|
@@ -84,7 +89,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-24**|**All In Good Time: Causality-Aware Framework for LLM-Based Simultaneous Speech-to-Speech Translation**|cs.CL|[2609.30416v1](http://arxiv.org/abs/2609.30416v1)|null|
 |**2026-09-23**|**Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?**|cs.CL, cs.AI|[2609.28245v1](http://arxiv.org/abs/2609.28245v1)|null|
 |**2026-09-22**|**TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling**|cs.CL, cs.AI, cs.LG|[2609.26347v2](http://arxiv.org/abs/2609.26347v2)|null|
-|**2026-09-22**|**ARAFA: An LLM-Generated Arabic Fact-Checking Dataset**|cs.CL, cs.IR|[2609.25833v1](http://arxiv.org/abs/2609.25833v1)|null|
+|**2026-09-22**|**ARAFA: An LLM-Generated Arabic Fact-Checking Dataset**|cs.CL, cs.IR|[2609.25833v2](http://arxiv.org/abs/2609.25833v2)|null|
 |**2026-09-21**|**URA-NER: A Unified Retrieval-Augmented Framework with Retrieval Alignment and Uncertainty Reduction for Low-Resource NER**|cs.CL, cs.AI|[2609.24372v1](http://arxiv.org/abs/2609.24372v1)|null|
 |**2026-09-21**|**Few-Shot Demonstrations Elicit the Use of In-Context World Representations in LLMs**|cs.AI|[2609.24352v1](http://arxiv.org/abs/2609.24352v1)|null|
 |**2026-09-20**|**Error-Supervised Synthetic Learner Writing for Automated Essay Scoring**|cs.CL|[2609.23573v1](http://arxiv.org/abs/2609.23573v1)|null|
@@ -222,13 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-04**|**Assessment of Conditional Diffusion Model for Synthetic Histopathology Image Generation**|cs.LG|[2608.03990v1](http://arxiv.org/abs/2608.03990v1)|null|
 |**2026-08-04**|**M-GATE: Multilingual Grammar, Accuracy in Translation, and Efficiency Benchmark for Large Language Models**|cs.CL, cs.LG|[2608.03803v1](http://arxiv.org/abs/2608.03803v1)|**[code](https://m-gate.ai)**|
 |**2026-08-04**|**DiagLoop: A Counterfactual Data Flywheel with Stage-Localized Reinforcement for Diagnostic LLMs**|cs.LG|[2608.03674v1](http://arxiv.org/abs/2608.03674v1)|null|
-|**2026-08-04**|**Looking under the Wrong Lamppost: On the Limitations of Automated Translation Quality Estimation**|cs.CL|[2608.03577v1](http://arxiv.org/abs/2608.03577v1)|null|
-|**2026-08-04**|**ConlangBench: Exploring Language Knowledge and Learning in LLMs through Diverse Constructed Languages**|cs.CL|[2608.03505v2](http://arxiv.org/abs/2608.03505v2)|null|
-|**2026-08-04**|**VIVID: A Culturally Grounded Benchmark Exposing the Figurative Language Gap in Vietnamese NLP**|cs.CL, cs.LG|[2608.03095v1](http://arxiv.org/abs/2608.03095v1)|null|
-|**2026-08-03**|**FLARE: Few-shot Learning-based Adaptive Reflective Engine**|cs.CL|[2608.02919v1](http://arxiv.org/abs/2608.02919v1)|null|
-|**2026-08-03**|**LAB-Tab: LLM-Augmented Bayesian Network Adaptation for Few-Shot Tabular Generation**|cs.LG, cs.AI|[2608.01879v1](http://arxiv.org/abs/2608.01879v1)|null|
 
-README omitted **447** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **452** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

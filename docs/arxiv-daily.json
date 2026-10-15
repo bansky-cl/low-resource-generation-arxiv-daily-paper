@@ -12610,7 +12610,7 @@
     },
     "2609.25833": {
       "id": "2609.25833",
-      "version": "2609.25833v1",
+      "version": "2609.25833v2",
       "title": "ARAFA: An LLM-Generated Arabic Fact-Checking Dataset",
       "authors": [
         "Christophe Khalil",
@@ -12618,14 +12618,14 @@
         "Rida Assaf"
       ],
       "published": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-10-14",
       "categories": [
         "cs.CL",
         "cs.IR"
       ],
       "abstract": "Automatic fact-checking poses a significant challenge in Arabic natural language processing due to the scarcity of datasets and resources. In this manuscript, we introduce Arafa, a new large-scale dataset for fact-checking in Modern Standard Arabic, constructed through an automated framework leveraging large language models (LLMs). The dataset was constructed through a three-step pipeline: (1) claim generation from Arabic Wikipedia pages with supporting textual evidence, (2) claim mutation to generate challenging counterfactual claims with refuting evidence, and (3) an automatic validation step to validate that the generated claims are either supported or refuted by their accompanying evidence, or if the evidence does not provide enough information to judge the validity of the claims. The resulting dataset comprises 181,976 claim-evidence pairs labeled as supported, refuted, or not enough information. Human evaluation carried out on a test sample from the dataset demonstrated strong inter-annotator agreement (kappa = 0.89) using Cohen's Kappa for supported claims and (kappa = 0.94) for refuted claims. Automatic validation based on a human-evaluated sample achieved 86% accuracy for supported claims and 88% for refuted ones. To showcase Arafa's value as a resource for automatic Arabic fact-checking, four open-source transformer-based models were fine-tuned using Arafa, with the top-performing model achieving a Macro F1-score of 77% on the test data. In addition to Arafa being the first large-scale dataset for Arabic fact-checking, our framework presents a scalable approach for developing similar resources for other low-resource languages.",
-      "abs_url": "http://arxiv.org/abs/2609.25833v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.25833v1",
+      "abs_url": "http://arxiv.org/abs/2609.25833v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.25833v2",
       "code_url": null
     },
     "2609.28245": {
@@ -13286,20 +13286,20 @@
     },
     "2610.04188": {
       "id": "2610.04188",
-      "version": "2610.04188v2",
+      "version": "2610.04188v3",
       "title": "Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation",
       "authors": [
         "Uttamasha Monjoree",
         "Wei Yan"
       ],
       "published": "2026-10-03",
-      "updated": "2026-10-06",
+      "updated": "2026-10-14",
       "categories": [
         "cs.AI"
       ],
       "abstract": "Recent studies show that artificial intelligence (AI) with language and vision capabilities still experiences limitations in spatial reasoning. In this paper, we have studied the spatial capabilities of advanced generative AI to understand the rotations of objects in 3D space, utilizing AI's image processing and language processing features. We trained and examined the spatial intelligence of a generative Agentic AI model (GPT-5.6) to understand the spatial rotation process with rotation diagrams based on the revised Purdue Spatial Visualization Test: Visualization of Rotations (Revised PSVT:R). We improvised the Revised PSVT:R by superimposing additional graphical and contextual features to evaluate how different Chain-of-Thought (CoT) reasoning strategies influence model performance. The results indicate that structured CoT reasoning improves the spatial reasoning performance of the base GPT-5.6 model in both datasets (PSVT:R and PSVT:R with coordinate system). We used three CoT approaches - (1) Structured CoT, (2) few-shot Structured CoT, and Structured CoT with Self-optimized Prompt. The three CoT approaches evaluated in this study showed no significant performance difference. Results showed that combining structured CoT reasoning with relevant contextual information leads to considerable improvements in VLM performance on 3D rotation tasks, demonstrating the potential of agentic AI for more effective spatial reasoning. However, when contextual information is removed, structured CoT reasoning alone provides limited improvement, and the models continue to exhibit notable difficulties in understanding spatial transformations. These findings suggest that effective spatial reasoning in VLMs relies on the integration of visual, textual, and reasoning-based information in future agentic AI systems for spatial intelligence.",
-      "abs_url": "http://arxiv.org/abs/2610.04188v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.04188v2",
+      "abs_url": "http://arxiv.org/abs/2610.04188v3",
+      "pdf_url": "https://arxiv.org/pdf/2610.04188v3",
       "code_url": null
     },
     "2610.04038": {
@@ -13991,7 +13991,7 @@
     },
     "2610.18818": {
       "id": "2610.18818",
-      "version": "2610.18818v1",
+      "version": "2610.18818v2",
       "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
       "authors": [
         "Divyanshu Bathla",
@@ -13999,14 +13999,127 @@
         "Jitin Singla"
       ],
       "published": "2026-10-13",
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "categories": [
         "cs.CL",
         "cs.AI"
       ],
       "abstract": "Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resource languages, the obvious options are few-shot prompting and fine-tuning on a small parallel set. We ask: what if moderate amounts of low-resource monolingual data are also available? We argue that, rather than continued pretraining, a more effective use of this data is the pre-LLM era technique of back-translation (BT). The current fine-tuned LLM translates monolingual sentences in each language, and the resulting pairs train it in the reverse direction. Updates on the parallel set are interleaved for stable learning. With 1K parallel pairs on Odia and Swahili, BT beats continued pretraining into the low-resource language by 7.7 to 16.4 XCOMET-XXL points in domain. With beam-decoded intermediate translations, it also beats a model with 10 time more parallel data. In-context examples retrieved from the parallel data further improve BT. We also analyze the source, quality and amount of monolingual text. Across five low-resource languages, with Hindi as a high-resource control, and two 3B backbones, BT improves translation into the low-resource language by 16 to 173% XCOMET-XXL over parallel-only fine-tuning. Blind human evaluation on Odia and Sanskrit agrees with the automatic metrics.",
-      "abs_url": "http://arxiv.org/abs/2610.18818v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.18818v1",
+      "abs_url": "http://arxiv.org/abs/2610.18818v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.18818v2",
+      "code_url": null
+    },
+    "2610.20191": {
+      "id": "2610.20191",
+      "version": "2610.20191v1",
+      "title": "HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation",
+      "authors": [
+        "Min Xiao",
+        "Jin Li",
+        "Shoujin Wang",
+        "Yeguang Zhen",
+        "Yishuo Li",
+        "Wenpeng Lu"
+      ],
+      "published": "2026-10-14",
+      "updated": "2026-10-14",
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "Medication recommendation (MR) is critical for clinical decision support. While existing MR methods are mostly designed for single-center learning, where only one independent hospital is involved, multi-center MR with hospitals of different scales has become increasingly demanding in practice. In multi center settings, abundant data from large medical centers can improve recommendation performance for low-resource centers. Despite a few preliminary attempts on this task, two critical gaps remain. Gap 1: Existing multi-center methods fail to disentangle transferable cross-hospital clinical experience from hospital-specific prescribing patterns, limiting clinical feasibility and physician acceptance. Gap 2: They commonly overlook multi label safety constraints of MR, including drug-drug interaction risks and local formulary feasibility, which are essential for safe real-world deployment. To address these gaps, we propose HEM-Med, a novel hierarchical agentic memory framework for multi-center MR. To address Gap 1, we design a disentangled hierarchical memory module that builds patient-level medication context attribution records and disentangles them into cross hospital experience memory and hospital-specific residual memory. To address Gap 2, we introduce a safety-aware medication set generation module, which integrates dual-level experience retrieval with safety-aware set decoding to produce clinically relevant, safer, and locally adaptive medication recommendations. Experiments on a real-world multi-center eICU dataset show that HEM-Med outperforms representative transfer learning, LLM-based, and MR baselines in terms of both recommendation accuracy and safety.",
+      "abs_url": "http://arxiv.org/abs/2610.20191v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20191v1",
+      "code_url": null
+    },
+    "2610.19497": {
+      "id": "2610.19497",
+      "version": "2610.19497v1",
+      "title": "Structure-Preserving Document-Level Data Augmentation via Discourse Parsing",
+      "authors": [
+        "Ruilin Shang",
+        "Shilong Hou",
+        "Zi Long",
+        "Xianghua Fu"
+      ],
+      "published": "2026-10-14",
+      "updated": "2026-10-14",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Data augmentation (DA) plays a vital role in improving model performance in low-resource or limited-supervision scenarios within Natural Language Processing (NLP). Existing DA methods, such as synonym replacement and back-translation, have demonstrated effectiveness on the word or sentence level; however, they frequently neglect discourse-level coherence and logical flow, which are essential for complex tasks dependent on inter-sentential relationships. In this paper, we propose a structure-preserving document-level data augmentation framework based on large language models (LLMs) and document-level discourse structure parsing. Our approach identifies rhetorical relations between sentence pairs and extracts key phrases, which are then replaced with semantically coherent but topically shifted content while preserving the original discourse structure. Experimental results on text summarization and question answering show that the proposed augmented data provides complementary supervision and improves combined-data training across the evaluated tasks. Comparisons with a standard RST parser and controlled ablations further support the proposed discourse representation.",
+      "abs_url": "http://arxiv.org/abs/2610.19497v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.19497v1",
+      "code_url": null
+    },
+    "2610.19003": {
+      "id": "2610.19003",
+      "version": "2610.19003v1",
+      "title": "Evaluating Large Language Models for Multilingual Abstractive Summarization: A Comprehensive Study of English and Bengali",
+      "authors": [
+        "Khan Mahi Al Atahar",
+        "Nazifa Tasneem",
+        "Ajwad Abrar"
+      ],
+      "published": "2026-10-13",
+      "updated": "2026-10-13",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Abstractive summarization remains challenging across languages, where linguistic quality and factual consistency may diverge, particularly in low-resource settings. We present a standardized zero-shot benchmark of eight closed-source and open-weight LLMs on size-matched English and Bengali XL-Sum test sets. Our evaluation combines lexical and semantic metrics with reference-free factuality verification and multidimensional LLM-as-a-Judge assessment, providing a comprehensive analysis of both surface-level quality and factual reliability in multilingual summarization. Results reveal substantial cross-lingual variation: GPT-5.6 Luna leads several English lexical metrics but does not maintain the same advantage in Bengali, where LLaMA 3.3 70B achieves the highest ROUGE and BLEU scores. Gemini 2.5 Flash obtains the highest observed Bengali factuality score. Furthermore, evaluation methods produce different model rankings, highlighting the limitations of relying on a single metric for multilingual summarization assessment. These findings demonstrate that strong English summarization performance does not necessarily transfer to Bengali and emphasize the need for comprehensive evaluation frameworks for low-resource languages.",
+      "abs_url": "http://arxiv.org/abs/2610.19003v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.19003v1",
+      "code_url": null
+    },
+    "2610.19123": {
+      "id": "2610.19123",
+      "version": "2610.19123v1",
+      "title": "PairIT: Autoregressive Transformers for Low-Data Molecule Optimization",
+      "authors": [
+        "Hannah Lawrence",
+        "Bodhi P. Vani",
+        "Ji Won Park",
+        "Natasa Tagasovska",
+        "Samuel Don Stanton",
+        "Andrew Martin Watkins",
+        "Michael Maser",
+        "Ewa M. Nowara"
+      ],
+      "published": "2026-10-13",
+      "updated": "2026-10-13",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "physics.chem-ph"
+      ],
+      "abstract": "Generating novel molecules with desired properties is a central challenge in drug discovery. Although foundational work focused on de novo generation, practical use cases require a more complex setting: conditioning on an initial seed molecule, optimizing multiple properties, and operating in data-sparse regimes. We introduce PairIT, a flexible training framework for autoregressive transformers over SMILES sequences that enables seeded generation by learning from pairs of structurally similar molecules. By leveraging matched pairs, the model learns to generate local, chemically meaningful edits that improve a property of the seed molecule. Prompt tokens extend this framework by specifying the target property, desired direction, and approximate magnitude of change. Multiple prompt tokens can be concatenated to enable multi-property optimization at inference time. For properties where pair supervision alone is insufficient, reinforcement learning post-training can further improve optimization, providing a tunable trade-off between proximity to the seed and the optimization objective. PairIT naturally supports pretraining on a large dataset and fine-tuning on a smaller dataset, which is critical for performance in data-sparse regimes. Surprisingly, we observe diminishing returns to the scale of the pretraining dataset. We demonstrate empirically on MoleculeNet and Therapeutics Data Commons datasets that, with appropriate paired-data curation, a standard transformer model of modest size (68M parameters) can achieve robust seeded molecular optimization in low-data regimes.",
+      "abs_url": "http://arxiv.org/abs/2610.19123v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.19123v1",
+      "code_url": null
+    },
+    "2610.19108": {
+      "id": "2610.19108",
+      "version": "2610.19108v1",
+      "title": "Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models",
+      "authors": [
+        "Mahdieh Mallahnezhad",
+        "Masoud Jafaripour",
+        "Mohamadali Tofigh",
+        "Sheila Schoepp",
+        "Osmar R. Zaiane"
+      ],
+      "published": "2026-10-13",
+      "updated": "2026-10-13",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Multimodal Large Language Models (MLLMs) have been widely applied in embodied agents and robotics for vision tasks. However, MLLMs suffer from limitations in spatial reasoning and perception. Post-training techniques have shown promise for improving these capabilities; yet, there are limited data-driven surveys of such approaches. In this survey, we consider approaches to fine-tuning pretrained MLLMs for spatial reasoning tasks, ranging from supervised to reinforcement learning, with an emphasis on the datasets used. We investigate themes of dataset construction, data modality and annotation, and evaluation of the resulting models. Based on these themes, we categorize research into three groups: dataset design, dataset construction and evaluation. We find four main methods for constructing fixed spatial annotations: rules and templates, LLM prompting, procedural generation, and human-in-the-loop. We also observe substantial variation in evaluation approaches, including different scoring methods, tolerance metrics, and benchmark types. Finally, we identify opportunities for future research in unified dynamic annotation, efficient spatial reasoning, standardization of evaluation, expanded spatial range, and human-centered spatial interactions.",
+      "abs_url": "http://arxiv.org/abs/2610.19108v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.19108v1",
       "code_url": null
     }
   }
