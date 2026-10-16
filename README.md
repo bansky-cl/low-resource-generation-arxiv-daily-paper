@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.10.16
+## Updated on 2026.10.17
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **660**
-- Recent 30 days: **92**
-- Older than 30 days: **568**
+- Recent 30 days: **87**
+- Older than 30 days: **573**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -109,16 +109,16 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-17**|**SpaceDiffusion: Over-the-Orbit Diffusion for Space Generate-and-Forward Communications**|cs.IT, cs.AI|[2609.20899v1](http://arxiv.org/abs/2609.20899v1)|null|
 |**2026-09-17**|**AdaRepair-Mem: Adaptive Experience Orchestration for Repository-Level Program Repair**|cs.SE, cs.AI|[2609.20130v1](http://arxiv.org/abs/2609.20130v1)|null|
 |**2026-09-17**|**CliniCIRCA: A Modular LLM Framework for Constructing Longitudinal Mental Health Patient Journeys from Raw EHR Narratives**|cs.CL, cs.AI, cs.IR, cs.LG|[2609.19585v1](http://arxiv.org/abs/2609.19585v1)|null|
-|**2026-09-16**|**A Scalable Framework for Automated NER Annotation Correction in Low-Resource Languages**|cs.CL, cs.AI|[2609.18739v1](http://arxiv.org/abs/2609.18739v1)|null|
-|**2026-09-16**|**Machine Translation between English and Syriac (East Syriac Dialect) using Statistical Machine Learning**|cs.CL|[2609.18529v1](http://arxiv.org/abs/2609.18529v1)|null|
-|**2026-09-16**|**Reinforcement Learning for Real-Time Vision-Language-Action Policies**|cs.RO, cs.LG|[2609.18207v1](http://arxiv.org/abs/2609.18207v1)|**[code](https://pd-perry.github.io/real-time-expo-ft)**|
-|**2026-09-16**|**A Comprehensive Review of Generative Physical Artificial Intelligence**|cs.RO, cs.AI, cs.CL, cs.CV, cs.LG|[2609.18111v1](http://arxiv.org/abs/2609.18111v1)|null|
-|**2026-09-16**|**When to Call an LLM: A Confidence-Gated Hybrid for Cost-Effective Emotion Recognition in Conversational AI**|cs.AI|[2609.17977v1](http://arxiv.org/abs/2609.17977v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-16**|**A Scalable Framework for Automated NER Annotation Correction in Low-Resource Languages**|cs.CL, cs.AI|[2609.18739v1](http://arxiv.org/abs/2609.18739v1)|null|
+|**2026-09-16**|**Machine Translation between English and Syriac (East Syriac Dialect) using Statistical Machine Learning**|cs.CL|[2609.18529v1](http://arxiv.org/abs/2609.18529v1)|null|
+|**2026-09-16**|**Reinforcement Learning for Real-Time Vision-Language-Action Policies**|cs.RO, cs.LG|[2609.18207v1](http://arxiv.org/abs/2609.18207v1)|**[code](https://pd-perry.github.io/real-time-expo-ft)**|
+|**2026-09-16**|**A Comprehensive Review of Generative Physical Artificial Intelligence**|cs.RO, cs.AI, cs.CL, cs.CV, cs.LG|[2609.18111v1](http://arxiv.org/abs/2609.18111v1)|null|
+|**2026-09-16**|**When to Call an LLM: A Confidence-Gated Hybrid for Cost-Effective Emotion Recognition in Conversational AI**|cs.AI|[2609.17977v1](http://arxiv.org/abs/2609.17977v1)|null|
 |**2026-09-15**|**Robust and Efficient AI Frameworks for Scalable Material Design and Property Prediction**|cond-mat.mtrl-sci, cs.LG|[2609.17646v1](http://arxiv.org/abs/2609.17646v1)|null|
 |**2026-09-15**|**Towards Detecting AI-Assisted Responses in Online Surveys**|cs.CL, cs.CY|[2609.17317v1](http://arxiv.org/abs/2609.17317v1)|**[code](https://github.com/mike-qz-wang/ASURRE)**|
 |**2026-09-15**|**MyoFlow: Anchor-Tied Rectified Flow for HD-sEMG Gesture Recognition Across Sessions and Subjects**|cs.LG|[2609.17194v2](http://arxiv.org/abs/2609.17194v2)|null|
