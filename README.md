@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **652**
-- Recent 30 days: **84**
+- Total papers in JSON: **660**
+- Recent 30 days: **92**
 - Older than 30 days: **568**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,14 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-15**|**Multi-Target Few-Shot Prompting with Diffusion Language Models**|cs.CL|[2610.22294v1](http://arxiv.org/abs/2610.22294v1)|null|
+|**2026-10-15**|**Unfragmenting Nawatl NMT: Single-Variant Specialization for Masewalkopa**|cs.CL|[2610.22110v1](http://arxiv.org/abs/2610.22110v1)|null|
+|**2026-10-15**|**Dynamic ordering in sequence generation in Transformers: experiments on low-resource Tagging scenarios**|cs.CL|[2610.21862v1](http://arxiv.org/abs/2610.21862v1)|null|
+|**2026-10-15**|**Abstracts or full text? Evaluating input scope and computational efficiency in biomedical lay summarization**|cs.CL|[2610.21690v1](http://arxiv.org/abs/2610.21690v1)|null|
+|**2026-10-15**|**Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation**|cs.CL|[2610.21456v1](http://arxiv.org/abs/2610.21456v1)|null|
+|**2026-10-15**|**Recursive Reward Improvement via Adversarial Meta-Prompt Evolution**|cs.AI, cs.MA|[2610.21040v1](http://arxiv.org/abs/2610.21040v1)|null|
+|**2026-10-15**|**Efficient Agnostic Learning of Univariate Densities Under Local Differential Privacy**|stat.ML, cs.CR, cs.DS, cs.IT, cs.LG|[2610.21033v1](http://arxiv.org/abs/2610.21033v1)|null|
+|**2026-10-14**|**CoTranslator: Reverse to Forward Chain-of-Thought Translator for Reasoning Distillation**|cs.CL, cs.AI, cs.LG|[2610.20828v1](http://arxiv.org/abs/2610.20828v1)|null|
 |**2026-10-14**|**HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation**|cs.AI, cs.IR|[2610.20191v1](http://arxiv.org/abs/2610.20191v1)|null|
 |**2026-10-14**|**Structure-Preserving Document-Level Data Augmentation via Discourse Parsing**|cs.CL, cs.AI|[2610.19497v1](http://arxiv.org/abs/2610.19497v1)|null|
 |**2026-10-13**|**PairIT: Autoregressive Transformers for Low-Data Molecule Optimization**|cs.LG, cs.AI, physics.chem-ph|[2610.19123v1](http://arxiv.org/abs/2610.19123v1)|null|
@@ -219,16 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-07**|**Multi-Perspective Triad Interaction Graph Neural Network for Cognitive Distortion Detection**|cs.CL|[2608.06785v1](http://arxiv.org/abs/2608.06785v1)|null|
 |**2026-08-06**|**SAGA: Score-Weighted Adaptive Generation Alignment for Low-Resource Nordic Language Models**|cs.LG|[2608.06179v2](http://arxiv.org/abs/2608.06179v2)|null|
 |**2026-08-06**|**Clinical Communication Processing with Models Trained on LLM-Generated Synthetic Data: A Structured Survey and Novel Application Case Studies**|cs.CL|[2608.05993v1](http://arxiv.org/abs/2608.05993v1)|null|
-|**2026-08-06**|**MameLoshnLM: Yiddish Language Model and Evaluation Benchmark**|cs.CL, cs.AI|[2608.05850v1](http://arxiv.org/abs/2608.05850v1)|null|
-|**2026-08-05**|**Traceable LLM-Generated Hazard Scenarios for Operational Safety Analysis of Aviation Systems Using ASRS Reports**|cs.AI|[2608.04697v1](http://arxiv.org/abs/2608.04697v1)|null|
-|**2026-08-05**|**Breaking the Curse of Multilinguality in Many-to-Many Speech-to-Text Translation via a Resource-Aware Mixture of Speech Encoders**|cs.CL, cs.AI|[2608.04586v2](http://arxiv.org/abs/2608.04586v2)|null|
-|**2026-08-04**|**The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning**|cs.AI, cs.LG|[2608.04285v1](http://arxiv.org/abs/2608.04285v1)|null|
-|**2026-08-04**|**Large Language Models for Low-Resource Languages: A Conceptual Framework for an Electronic Explanatory Dictionary of the Tajik Language**|cs.CL|[2608.04186v2](http://arxiv.org/abs/2608.04186v2)|null|
-|**2026-08-04**|**Assessment of Conditional Diffusion Model for Synthetic Histopathology Image Generation**|cs.LG|[2608.03990v1](http://arxiv.org/abs/2608.03990v1)|null|
-|**2026-08-04**|**M-GATE: Multilingual Grammar, Accuracy in Translation, and Efficiency Benchmark for Large Language Models**|cs.CL, cs.LG|[2608.03803v1](http://arxiv.org/abs/2608.03803v1)|**[code](https://m-gate.ai)**|
-|**2026-08-04**|**DiagLoop: A Counterfactual Data Flywheel with Stage-Localized Reinforcement for Diagnostic LLMs**|cs.LG|[2608.03674v1](http://arxiv.org/abs/2608.03674v1)|null|
 
-README omitted **452** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **460** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

@@ -14121,6 +14121,173 @@
       "abs_url": "http://arxiv.org/abs/2610.19108v1",
       "pdf_url": "https://arxiv.org/pdf/2610.19108v1",
       "code_url": null
+    },
+    "2610.22110": {
+      "id": "2610.22110",
+      "version": "2610.22110v1",
+      "title": "Unfragmenting Nawatl NMT: Single-Variant Specialization for Masewalkopa",
+      "authors": [
+        "Luis A. Mercado-Campos",
+        "Alexis Palmer"
+      ],
+      "published": "2026-10-15",
+      "updated": "2026-10-15",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "In minoritized (low-resource) language technologies, a common response to data sparsity is to aggregate text across multiple varieties and treat the combined data as a single corpus. However, mixed corpora of closely related indigenous variants can produce an artificial register that is accountable to no single speaker community, a structural failure we call variant fragmentation. This issue is acute for minoritized languages native to Mexico, such as Nawatl. Building on a 70,000-pair multi-variant foundation, we specialize an mT5-large checkpoint to Masewalkopa (nhn), the Nawatl variety spoken in Santa Ana Tlacotenco. We curate 2,665 parallel pairs, reserve all sentence-level data for evaluation, and incorporate 192 elder-transcribed target sentences via asymmetric backtranslation. A custom finite-state analyzer reduces unanalyzed surface forms from 82.0% to 19.9% and supplies functional syntax tags as plain-text prefixes, allowing the model to reuse existing subword embeddings rather than relying on frozen special tokens. The resulting LoRA-v9c-b model achieves 58.46 dev chrF++ and 58.20/57.90 directional test chrF++. Finally, CTranslate2 int8 quantization reduces CPU latency from 137.5 to 1.8-2.6 seconds per request, enabling cost-bounded Cloud Run deployment.",
+      "abs_url": "http://arxiv.org/abs/2610.22110v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22110v1",
+      "code_url": null
+    },
+    "2610.21862": {
+      "id": "2610.21862",
+      "version": "2610.21862v1",
+      "title": "Dynamic ordering in sequence generation in Transformers: experiments on low-resource Tagging scenarios",
+      "authors": [
+        "Giacomo Bais",
+        "Tejaswini Deoskar"
+      ],
+      "published": "2026-10-15",
+      "updated": "2026-10-15",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This paper introduces TagInsert, a Transformer-based model that challenges the common left-to-right (L2R) generation paradigm in Transformers, for sequence labelling tasks where dependencies may not naturally align with a L2R order. TagInsert lifts the L2R constraint by removing the decoder-side attention mask and enabling the model to decide a preferred order of tag generation at inference time. We experiment on the common Part-of-Speech tagging and the more complex Combinatory Categorial Grammar (CCG) supertagging tasks on multiple languages and low-resource data settings. We show that, although encoder-only models like BERT remain strong performers for tagging tasks, TagInsert frequently outperforms a L2R encoder-decoder model, achieves results comparable to encoder-only models under data-scarce conditions, and shows better results on the long-tail of rare categories. Our analyses show that TagInsert alleviates error propagation typical of autoregressive models by learning to defer difficult predictions to later stages in the decoding process.",
+      "abs_url": "http://arxiv.org/abs/2610.21862v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.21862v1",
+      "code_url": null
+    },
+    "2610.21456": {
+      "id": "2610.21456",
+      "version": "2610.21456v1",
+      "title": "Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation",
+      "authors": [
+        "Atai Waris Khan",
+        "Abdullah Mazhar",
+        "Raghu Kumar",
+        "Md Shad Akhtar"
+      ],
+      "published": "2026-10-15",
+      "updated": "2026-10-15",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Recent multilingual large language models achieve strong translation performance, yet the internal mechanisms responsible for low-resource multilingual translation remain insufficiently understood. In this paper, we study translation circuits in multilingual decoder-only LLMs for Hindi-to-Urdu and Hindi-to-Sindhi (Devanagari). We propose TITAN, a mechanistic framework that combines causal intervention, sparse feature decomposition, and targeted preference optimization to identify and optimize crucial translation components in the transformer. Unlike conventional full-parameter fine-tuning, TITAN restricts optimization to sparse, causally important circuits, enabling scalable and parameter-efficient adaptation while updating fewer than 5% of model parameters. Experimental results show that TITAN achieves BLEU improvements of 33.75% on Hindi-to-Urdu and 45.86% on Hindi-to-Sindhi over the strongest multilingual baselines. Human expert evaluation further confirms substantial gains in adequacy and fluency across both language pairs. Additional analyses reveal that multilingual translation is implemented through sparse, structured circuits operating over a shared semantic subspace rather than through an English-centric pivot representation. Overall, our findings demonstrate that mechanistic circuit discovery can directly improve low-resource multilingual translation while providing interpretable insights into multilingual transformer behavior.",
+      "abs_url": "http://arxiv.org/abs/2610.21456v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.21456v1",
+      "code_url": null
+    },
+    "2610.22294": {
+      "id": "2610.22294",
+      "version": "2610.22294v1",
+      "title": "Multi-Target Few-Shot Prompting with Diffusion Language Models",
+      "authors": [
+        "Anton Xue",
+        "Alan Li",
+        "Rahul Saha"
+      ],
+      "published": "2026-10-15",
+      "updated": "2026-10-15",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Few-shot prompting is useful when instructions and rewards are hard to specify. One such application is editing by example, where a demonstrated formatting change or API migration may need to be applied across multiple sites. However, such edits often depend on both left and right context, making generation with causal autoregressive models awkward. We therefore introduce multi-target few-shot prompting with diffusion language models, where examples guide the infilling of multiple masked regions within a shared canvas. To address the known challenge of reliably following demonstrations in few-shot prompting, we further leverage selective masking of the canvas to derive a likelihood-ratio reward that favors example-supported infills. Across few-shot prompting benchmarks and software refactoring case studies, we find that demonstrations improve infilling accuracy, with example guidance yielding further gains in several settings.",
+      "abs_url": "http://arxiv.org/abs/2610.22294v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22294v1",
+      "code_url": null
+    },
+    "2610.21690": {
+      "id": "2610.21690",
+      "version": "2610.21690v1",
+      "title": "Abstracts or full text? Evaluating input scope and computational efficiency in biomedical lay summarization",
+      "authors": [
+        "Egecan Çelik Evgin",
+        "İlknur Karadeniz",
+        "Olcay Taner Yıldız"
+      ],
+      "published": "2026-10-15",
+      "updated": "2026-10-15",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Biomedical research articles are mainly written for experts and often contain terms that are difficult for the general public to understand. Automated lay summarization has become a solution to make biomedical knowledge easier for patients and the public to understand. However, generating lay summaries from full-text articles requires more computing power because the articles are long and costly to process. Fine-tuning large language models for this task also requires substantial resources. This study asks two questions: (1) whether abstracts contain enough information to produce lay summaries as good as those based on full-text articles, and (2) whether few-shot learning performs as well as task-specific fine-tuning. The study used two public biomedical lay summarization datasets and two recent models, evaluated for readability, factual consistency, semantic similarity, and runtime efficiency. Results show that abstract-based summarization performs better overall. Across both datasets and models, abstract fine-tuning is 4.70 times faster, while abstract zero- and few-shot prompting is 5.31 times faster than full-text methods. These results show that abstract-based prompting reduces runtime cost while maintaining lay summary quality.",
+      "abs_url": "http://arxiv.org/abs/2610.21690v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.21690v1",
+      "code_url": null
+    },
+    "2610.20828": {
+      "id": "2610.20828",
+      "version": "2610.20828v1",
+      "title": "CoTranslator: Reverse to Forward Chain-of-Thought Translator for Reasoning Distillation",
+      "authors": [
+        "Zinan Tang",
+        "Zhuoshi Pan",
+        "Kairui Chen",
+        "Ze Yan",
+        "Shaomian Zheng",
+        "Yukun Zhang",
+        "Gang Wang",
+        "Biqing Huang"
+      ],
+      "published": "2026-10-14",
+      "updated": "2026-10-14",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Reasoning distillation requires chain-of-thought (CoT) data with correct answers, but obtaining such data efficiently remains challenging. Forward CoT generation (FCG) followed by rejection sampling (RS) produces verified, question-only responses, yet may require many teacher calls for difficult problems. Reverse CoT generation (RCG) is cheaper because it conditions on the known answer, but access to this answer can lead to post-hoc rationalization and a mismatch with the student's answer-free inference setting. We propose CoTranslator, which learns to translate reverse CoT responses toward the distribution of verified forward responses. Trained on a small set of paired reverse and rejection-sampled forward responses, it supports large-scale generation and verification of student training data. Across six student models evaluated on six mathematics benchmarks, CoTranslator improves average accuracy over semantic suppression by up to $5.82$ percentage points. For two 4B students, it retains $95.0\\%$ of rejection sampling's average accuracy while using $35.9\\%$ of its estimated compute. Without retraining, the same translator transfers to a new mathematics dataset, a different teacher, and STEM problems, improving average STEM accuracy by $4.88$ and $4.31$ percentage points for 4B and 8B students, respectively. These results show that CoTranslator offers an efficient and transferable approach to reasoning distillation.",
+      "abs_url": "http://arxiv.org/abs/2610.20828v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20828v1",
+      "code_url": null
+    },
+    "2610.21033": {
+      "id": "2610.21033",
+      "version": "2610.21033v1",
+      "title": "Efficient Agnostic Learning of Univariate Densities Under Local Differential Privacy",
+      "authors": [
+        "Mohammad Afzali",
+        "Hassan Ashtiani",
+        "Sivan Sabato"
+      ],
+      "published": "2026-10-15",
+      "updated": "2026-10-15",
+      "categories": [
+        "stat.ML",
+        "cs.CR",
+        "cs.DS",
+        "cs.IT",
+        "cs.LG"
+      ],
+      "abstract": "We propose a general framework for non-interactive locally differentially private (LDP) learning of structured univariate distributions that can be approximated by piece-wise polynomials. This gives the first sample-efficient LDP learners for several distribution classes, including mixtures of log-concave distributions, such as Gaussian mixture models (GMMs). These learners also provide agnostic guarantees and are computationally efficient. We also prove a lower bound for learning GMMs under LDP, improving on the standard pure-DP packing lower bounds of Bun et al. [BKSW19]. To obtain our general learning framework, we develop an efficient non-interactive LDP algorithm for synthetic data generation over large domains, which may be of independent interest. We then use it together with a deterministic adaptation of the non-private piecewise polynomial learner of Acharya et al. [ADLS17].",
+      "abs_url": "http://arxiv.org/abs/2610.21033v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.21033v1",
+      "code_url": null
+    },
+    "2610.21040": {
+      "id": "2610.21040",
+      "version": "2610.21040v1",
+      "title": "Recursive Reward Improvement via Adversarial Meta-Prompt Evolution",
+      "authors": [
+        "Wei Dai",
+        "Qianchu Liu",
+        "Guanghui Qin",
+        "Xing Han",
+        "Tristan Naumann",
+        "Paul Pu Liang",
+        "Sheng Zhang"
+      ],
+      "published": "2026-10-15",
+      "updated": "2026-10-15",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "abstract": "Recursive Self-Improvement (RSI) has gained wide attention for its ability to work with limited data. In a proposer-solver loop, a proposer model writes training tasks and a solver model learns to solve them through reinforcement learning. Such loops have succeeded in mathematics and coding, where every answer can be checked automatically. Open-ended expert tasks, like clinical report generations, have no answer key, which makes simple question-answer generation not viable. Here the proposer must also write a rubric that lists the content an answer should include and the errors it should avoid. However, the unique challenge behind model-written rubric is the comprehensiveness of it. For naively generated rubric, solvers tend to exploit it, naming the expected topics without the substance behind them, which corrupts the learning process. To solve this problem, we introduce RRI, Recursive Reward Improvement, which uses a reward hacking adversary to supervise the reward. Before the solver trains on a generated task, an adversary writes an answer that games its rubric while being as useless as possible, the same model writes an honest answer without seeing the rubric, and up to two repair steps revise the rubric to make the honest answer win. The exploits found also rewrite how future tasks and rubrics are generated. On HealthBench Professional, RRI improves the adjusted score over the Generation Only self-improvement baseline by 10.9 points at 9B and 12.4 at 27B, and by 10.3 points without any external model. In particular, the gains are largest on difficult and writing tasks. We show that the 27B model trained on the HealthBench Professional description improves by 6.6 points on PRBench Hard and 8.0 on ProfBench without seeing a task from either. We further analyze the exploitable points of model-generated question-rubric pairs to facilitate future research on open-ended self-play.",
+      "abs_url": "http://arxiv.org/abs/2610.21040v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.21040v1",
+      "code_url": null
     }
   }
 }
