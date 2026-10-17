@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.10.17
+## Updated on 2026.10.18
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **660**
-- Recent 30 days: **87**
-- Older than 30 days: **573**
+- Recent 30 days: **83**
+- Older than 30 days: **577**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -105,15 +105,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-19**|**Beyond Similarity: Coverage-Aware Prompt Selection for Time Series Forecasting with LLMs**|cs.LG, cs.CL|[2609.22977v1](http://arxiv.org/abs/2609.22977v1)|null|
 |**2026-09-18**|**Hybrid Machine Learning-Assisted Raman Spectroscopy with Generative Feature Augmentation for Pharmaceutical Identification**|cs.LG, cond-mat.mtrl-sci|[2610.02224v1](http://arxiv.org/abs/2610.02224v1)|null|
 |**2026-09-18**|**Not All Irregularity Is Equal: Causally Isolating a Rare Failure Mode in Japanese Morphological Inflection**|cs.CL|[2609.21179v1](http://arxiv.org/abs/2609.21179v1)|null|
-|**2026-09-17**|**Generative inversion for early ranking of competing geologic interpretations**|cs.LG|[2609.20978v1](http://arxiv.org/abs/2609.20978v1)|null|
-|**2026-09-17**|**SpaceDiffusion: Over-the-Orbit Diffusion for Space Generate-and-Forward Communications**|cs.IT, cs.AI|[2609.20899v1](http://arxiv.org/abs/2609.20899v1)|null|
-|**2026-09-17**|**AdaRepair-Mem: Adaptive Experience Orchestration for Repository-Level Program Repair**|cs.SE, cs.AI|[2609.20130v1](http://arxiv.org/abs/2609.20130v1)|null|
-|**2026-09-17**|**CliniCIRCA: A Modular LLM Framework for Constructing Longitudinal Mental Health Patient Journeys from Raw EHR Narratives**|cs.CL, cs.AI, cs.IR, cs.LG|[2609.19585v1](http://arxiv.org/abs/2609.19585v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-17**|**Generative inversion for early ranking of competing geologic interpretations**|cs.LG|[2609.20978v1](http://arxiv.org/abs/2609.20978v1)|null|
+|**2026-09-17**|**SpaceDiffusion: Over-the-Orbit Diffusion for Space Generate-and-Forward Communications**|cs.IT, cs.AI|[2609.20899v1](http://arxiv.org/abs/2609.20899v1)|null|
+|**2026-09-17**|**AdaRepair-Mem: Adaptive Experience Orchestration for Repository-Level Program Repair**|cs.SE, cs.AI|[2609.20130v1](http://arxiv.org/abs/2609.20130v1)|null|
+|**2026-09-17**|**CliniCIRCA: A Modular LLM Framework for Constructing Longitudinal Mental Health Patient Journeys from Raw EHR Narratives**|cs.CL, cs.AI, cs.IR, cs.LG|[2609.19585v1](http://arxiv.org/abs/2609.19585v1)|null|
 |**2026-09-16**|**A Scalable Framework for Automated NER Annotation Correction in Low-Resource Languages**|cs.CL, cs.AI|[2609.18739v1](http://arxiv.org/abs/2609.18739v1)|null|
 |**2026-09-16**|**Machine Translation between English and Syriac (East Syriac Dialect) using Statistical Machine Learning**|cs.CL|[2609.18529v1](http://arxiv.org/abs/2609.18529v1)|null|
 |**2026-09-16**|**Reinforcement Learning for Real-Time Vision-Language-Action Policies**|cs.RO, cs.LG|[2609.18207v1](http://arxiv.org/abs/2609.18207v1)|**[code](https://pd-perry.github.io/real-time-expo-ft)**|
