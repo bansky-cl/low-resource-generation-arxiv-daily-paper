@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.10.18
+## Updated on 2026.10.19
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **660**
-- Recent 30 days: **83**
-- Older than 30 days: **577**
+- Recent 30 days: **81**
+- Older than 30 days: **579**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -103,13 +103,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-20**|**Error-Supervised Synthetic Learner Writing for Automated Essay Scoring**|cs.CL|[2609.23573v1](http://arxiv.org/abs/2609.23573v1)|null|
 |**2026-09-20**|**BabelArena: A Large-Scale Multilingual Benchmark for LLM Agents**|cs.CL|[2609.23490v1](http://arxiv.org/abs/2609.23490v1)|null|
 |**2026-09-19**|**Beyond Similarity: Coverage-Aware Prompt Selection for Time Series Forecasting with LLMs**|cs.LG, cs.CL|[2609.22977v1](http://arxiv.org/abs/2609.22977v1)|null|
-|**2026-09-18**|**Hybrid Machine Learning-Assisted Raman Spectroscopy with Generative Feature Augmentation for Pharmaceutical Identification**|cs.LG, cond-mat.mtrl-sci|[2610.02224v1](http://arxiv.org/abs/2610.02224v1)|null|
-|**2026-09-18**|**Not All Irregularity Is Equal: Causally Isolating a Rare Failure Mode in Japanese Morphological Inflection**|cs.CL|[2609.21179v1](http://arxiv.org/abs/2609.21179v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-18**|**Hybrid Machine Learning-Assisted Raman Spectroscopy with Generative Feature Augmentation for Pharmaceutical Identification**|cs.LG, cond-mat.mtrl-sci|[2610.02224v1](http://arxiv.org/abs/2610.02224v1)|null|
+|**2026-09-18**|**Not All Irregularity Is Equal: Causally Isolating a Rare Failure Mode in Japanese Morphological Inflection**|cs.CL|[2609.21179v1](http://arxiv.org/abs/2609.21179v1)|null|
 |**2026-09-17**|**Generative inversion for early ranking of competing geologic interpretations**|cs.LG|[2609.20978v1](http://arxiv.org/abs/2609.20978v1)|null|
 |**2026-09-17**|**SpaceDiffusion: Over-the-Orbit Diffusion for Space Generate-and-Forward Communications**|cs.IT, cs.AI|[2609.20899v1](http://arxiv.org/abs/2609.20899v1)|null|
 |**2026-09-17**|**AdaRepair-Mem: Adaptive Experience Orchestration for Repository-Level Program Repair**|cs.SE, cs.AI|[2609.20130v1](http://arxiv.org/abs/2609.20130v1)|null|
