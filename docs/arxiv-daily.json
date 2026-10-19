@@ -14011,7 +14011,7 @@
     },
     "2610.20191": {
       "id": "2610.20191",
-      "version": "2610.20191v1",
+      "version": "2610.20191v2",
       "title": "HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation",
       "authors": [
         "Min Xiao",
@@ -14022,14 +14022,14 @@
         "Wenpeng Lu"
       ],
       "published": "2026-10-14",
-      "updated": "2026-10-14",
+      "updated": "2026-10-16",
       "categories": [
         "cs.AI",
         "cs.IR"
       ],
       "abstract": "Medication recommendation (MR) is critical for clinical decision support. While existing MR methods are mostly designed for single-center learning, where only one independent hospital is involved, multi-center MR with hospitals of different scales has become increasingly demanding in practice. In multi center settings, abundant data from large medical centers can improve recommendation performance for low-resource centers. Despite a few preliminary attempts on this task, two critical gaps remain. Gap 1: Existing multi-center methods fail to disentangle transferable cross-hospital clinical experience from hospital-specific prescribing patterns, limiting clinical feasibility and physician acceptance. Gap 2: They commonly overlook multi label safety constraints of MR, including drug-drug interaction risks and local formulary feasibility, which are essential for safe real-world deployment. To address these gaps, we propose HEM-Med, a novel hierarchical agentic memory framework for multi-center MR. To address Gap 1, we design a disentangled hierarchical memory module that builds patient-level medication context attribution records and disentangles them into cross hospital experience memory and hospital-specific residual memory. To address Gap 2, we introduce a safety-aware medication set generation module, which integrates dual-level experience retrieval with safety-aware set decoding to produce clinically relevant, safer, and locally adaptive medication recommendations. Experiments on a real-world multi-center eICU dataset show that HEM-Med outperforms representative transfer learning, LLM-based, and MR baselines in terms of both recommendation accuracy and safety.",
-      "abs_url": "http://arxiv.org/abs/2610.20191v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.20191v1",
+      "abs_url": "http://arxiv.org/abs/2610.20191v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.20191v2",
       "code_url": null
     },
     "2610.19497": {
@@ -14287,6 +14287,107 @@
       "abstract": "Recursive Self-Improvement (RSI) has gained wide attention for its ability to work with limited data. In a proposer-solver loop, a proposer model writes training tasks and a solver model learns to solve them through reinforcement learning. Such loops have succeeded in mathematics and coding, where every answer can be checked automatically. Open-ended expert tasks, like clinical report generations, have no answer key, which makes simple question-answer generation not viable. Here the proposer must also write a rubric that lists the content an answer should include and the errors it should avoid. However, the unique challenge behind model-written rubric is the comprehensiveness of it. For naively generated rubric, solvers tend to exploit it, naming the expected topics without the substance behind them, which corrupts the learning process. To solve this problem, we introduce RRI, Recursive Reward Improvement, which uses a reward hacking adversary to supervise the reward. Before the solver trains on a generated task, an adversary writes an answer that games its rubric while being as useless as possible, the same model writes an honest answer without seeing the rubric, and up to two repair steps revise the rubric to make the honest answer win. The exploits found also rewrite how future tasks and rubrics are generated. On HealthBench Professional, RRI improves the adjusted score over the Generation Only self-improvement baseline by 10.9 points at 9B and 12.4 at 27B, and by 10.3 points without any external model. In particular, the gains are largest on difficult and writing tasks. We show that the 27B model trained on the HealthBench Professional description improves by 6.6 points on PRBench Hard and 8.0 on ProfBench without seeing a task from either. We further analyze the exploitable points of model-generated question-rubric pairs to facilitate future research on open-ended self-play.",
       "abs_url": "http://arxiv.org/abs/2610.21040v1",
       "pdf_url": "https://arxiv.org/pdf/2610.21040v1",
+      "code_url": null
+    },
+    "2610.23534": {
+      "id": "2610.23534",
+      "version": "2610.23534v1",
+      "title": "From Billion-Scale to Million-Scale Language Models: Operational Capabilities for Embedded Post-Exploitation",
+      "authors": [
+        "Gabriel Hortea",
+        "Simon Pietro Romano",
+        "Juan Tapiador",
+        "Mario Varlese"
+      ],
+      "published": "2026-10-16",
+      "updated": "2026-10-16",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Small Language Models (SLMs) are increasingly attractive for resource-constrained environments due to their low computational footprint. These characteristics also make them candidates for future autonomous malware, where connectivity, latency, privacy, or operational constraints may preclude cloud-based inference. Yet the ability of ultra-compact models to support malware during post-exploitation remains poorly understood. We systematically evaluate seven open-source SLMs (20M-1.5B parameters) on two post-exploitation code-generation tasks: Directory Enumeration and Backdoor Generation. We compare Python (high-resource) and Lua (low-resource) across prompting strategies, task formulations, iterative reasoning, grammar-constrained decoding, and execution-feedback loops. Results show that offensive code-generation capabilities do not increase linearly with model size. Successful execution depends on the interaction of model capacity, task formulation, and prompting strategy, with task formulation exerting a greater influence than prompt engineering alone. Algorithmic formulation combined with few-shot prompting enables Qwen2.5-Coder 1.5B to reach Pass@5 of 100% in both Python and Lua for Directory Enumeration, 100% in Python for Backdoor Generation, and 99.2% in Lua. Although the evaluated models remain too computationally demanding for widespread deployment in contemporary malware, rapid progress in compact models may reduce this barrier. These findings help anticipate AI-assisted malware and inform future countermeasures.",
+      "abs_url": "http://arxiv.org/abs/2610.23534v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23534v1",
+      "code_url": null
+    },
+    "2610.23205": {
+      "id": "2610.23205",
+      "version": "2610.23205v1",
+      "title": "MAS-Bai: Linguistically Informed Adaptive Multi-Agent Translation for Bowen-Script Bai",
+      "authors": [
+        "Jingting Zheng",
+        "Hong Ren",
+        "Yuehan Cui",
+        "Shaolin Zhu",
+        "Deyi Xiong"
+      ],
+      "published": "2026-10-16",
+      "updated": "2026-10-16",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large Language Models (LLMs) remain unreliable for extremely low-resource languages whose writing systems conflict with high-resource pretraining priors. We study Bai-Chinese translation in the Bowen script, where Chinese characters are frequently borrowed phonetically rather than semantically, causing severe literal-translation hallucinations. We propose MAS-Bai, a linguistically informed adaptive multi-agent framework for Bowen-script Bai-Chinese translation. MAS-Bai routes each input through either a lightweight retrieval-translation path or a deeper philological path with etymological and syntactic agents, and uses cycle-consistency with a lightweight reverse translator as an inference-time reliability signal. We construct a 6,536-sentence Bai-Chinese corpus and evaluate on a 1,536-sentence test set. MAS-Bai achieves 16.23 BLEU and 62.15 COMET, improving over Standard RAG by 8.11 BLEU and 6.85 COMET. Forward LoRA, expert ablations and controlled routing experiments distinguish the roles of supervised adaptation, Bai-specific expertise and conditional routing. The largest gains occur on Bowen phonetic loans and divergent Bai word order, while human evaluation and reverse-verifier analyses support the automatic results.",
+      "abs_url": "http://arxiv.org/abs/2610.23205v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23205v1",
+      "code_url": null
+    },
+    "2610.23175": {
+      "id": "2610.23175",
+      "version": "2610.23175v1",
+      "title": "Do Speech BCIs Need Larger Models? Rethinking Neural Decoding beyond Scaling",
+      "authors": [
+        "Zehui Feng",
+        "Weichuan Wang",
+        "Xiaohan Chen",
+        "Cuntai Guan",
+        "Ting Han"
+      ],
+      "published": "2026-10-16",
+      "updated": "2026-10-16",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Recent speech brain-computer interfaces (BCIs) increasingly rely on large models and complex multi-stage pipelines for neural decoding. However, in speech BCI, where training data are scarce, noisy, and expensive to collect, the benefits of model scaling remain unclear. This work revisits a fundamental question: are large models truly necessary for accurate neural decoding? We propose BEST (Brain-Encoding-Speech-Text), a two-stage framework for efficient neural-to-text decoding. Instead of relying on large generative models or phoneme-centric pipelines, BEST introduces hierarchical intermediate representations and a compact speech-oriented decoder that directly maps neural activity to text. This design preserves essential structure while significantly reducing computational cost, enabling robust generalization in low-resource settings and practical deployment under constrained resources. On the Brain-to-Text '24 and '25 benchmarks, BEST achieves word error rates (WERs) of 6.19% and 1.62%, respectively, using only 3.85% of the parameters required by comparable methods. Beyond these results, we provide three key insights: (1) decoder scaling yields non-monotonic gains; (2) cross-modal alignment is more critical than model size; and (3) overfitting degards sequence-level performance. Representation analysis further reveals a consistent neural-audio-text alignment pathway.",
+      "abs_url": "http://arxiv.org/abs/2610.23175v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23175v1",
+      "code_url": null
+    },
+    "2610.22542": {
+      "id": "2610.22542",
+      "version": "2610.22542v1",
+      "title": "HeRE: A Novel Benchmark for Hebrew Relation Extraction via LLM-Guided Denoising of Knowledge Graph Alignments",
+      "authors": [
+        "Ron Keinan",
+        "Amir David Nissan Cohen",
+        "Reut Tsarfaty"
+      ],
+      "published": "2026-10-15",
+      "updated": "2026-10-15",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "While LLMs demonstrate strong capabilities in English Relation Extraction (RE) tasks, a significant gap remains in assessing their RE performance in low-resource languages, due to a lack of standardized benchmarks. Creating native, language-specific annotated RE benchmarks is expensive and requires human expertise, while relying on translation yields suboptimal, inaccurate datasets that introduce English-centric biases. To tackle this, we propose a scalable, language-agnostic methodology to create RE data by denoising naturally occurring yet noisy alignments of knowledge bases and corresponding texts. We define a proper alignment via a Natural Language Inference (NLI) task, where a relation triplet is entailed by an input text. We empirically assess five denoising strategies, and demonstrate that multilingual models outperform language-specific models in the few-shot LLM setting, while Hebrew-specific encoders remain competitive under NLI fine-tuning and are strongest in the label-free cross-training setting. We further find that prompting in the native language achieves performance on par with or slightly exceeding English prompts, confirming that the pipeline operates naturally in the target language. The best open-weights model, Gemma-4-31B-it (F1\\,=\\,0.915), matches the best API model, GPT-5.4 (0.921), and reaches F1\\,=\\,0.844 on a fully held-out, dual-annotated test set. Applying the optimized pipeline, we release HeRE: a novel, massive, 1.5-million-instance silver dataset for Hebrew RE, designed to support data-intensive experimentation and model fine-tuning. HeRE bridges a critical gap in standard Hebrew RE evaluation, while providing the NLP community with a reproducible, language-agnostic pipeline for RE dataset construction in other low-resource settings.",
+      "abs_url": "http://arxiv.org/abs/2610.22542v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22542v1",
+      "code_url": null
+    },
+    "2610.22529": {
+      "id": "2610.22529",
+      "version": "2610.22529v1",
+      "title": "Pearl-Chat: Engineering a native Luganda language model from first principles in JAX and Flax NNX",
+      "authors": [
+        "Wesley Kambale",
+        "Roland Sankara"
+      ],
+      "published": "2026-10-15",
+      "updated": "2026-10-15",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Autoregressive foundation language models predominantly target high-resource Indo-European languages, imposing computational and morphological penalties on under-represented African languages. Generic multilingual tokenizers routinely exceed fertility rates of 3.2 tokens per word on agglutinative Bantu languages, degrading context efficiency and inflating latency. We present Pearl-Chat, an 8,473,122-parameter ($\\sim$8.5M) causal decoder-only transformer engineered for Luganda (Oluganda, ISO 639-2: lg), a low-resource Niger-Congo Bantu language spoken by over 10 million people in East Africa. Built from first mathematical principles in JAX and Flax NNX, Pearl-Chat uses explicit functional state decomposition (nnx.split and nnx.merge), deterministic resumable data streaming via Google Grain, and SPMD tensor parallelism using jax.sharding.Mesh. We introduce a byte-level byte-pair encoding (BPE) subword tokenizer trained from scratch on curated Luganda corpora ($V = 8,192$), achieving 4.88 characters per token compression and 1.60 tokens per word fertility, a two-fold compression improvement over LLaMA-3 (128K) and Gemma (256K). The model is trained with a two-stage curriculum: Stage 1 pre-training on 59,501 sequences across parallel, biblical, encyclopedic, and journalistic corpora, and Stage 2 instruction fine-tuning on 510 dialogues with assistant-only loss masking. Across 4,000 optimization steps, validation cross-entropy loss drops monotonically from 9.4695 (perplexity: 12,958.98) to 0.1818 (perplexity: 1.20), a decrease of 9.2877 nats. On a three-tier held-out diagnostic benchmark, Pearl-Chat achieves 0.9792 ROUGE-L and 0.9405 BLEU while maintaining concordial agreement across Bantu noun classes. We provide a Python Server-Sent Events (SSE) streaming runtime and open-source all weights, tokenizers, and code.",
+      "abs_url": "http://arxiv.org/abs/2610.22529v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22529v1",
       "code_url": null
     }
   }

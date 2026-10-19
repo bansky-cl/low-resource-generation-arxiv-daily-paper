@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **660**
-- Recent 30 days: **81**
+- Total papers in JSON: **665**
+- Recent 30 days: **86**
 - Older than 30 days: **579**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,11 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-16**|**From Billion-Scale to Million-Scale Language Models: Operational Capabilities for Embedded Post-Exploitation**|cs.CR, cs.AI|[2610.23534v1](http://arxiv.org/abs/2610.23534v1)|null|
+|**2026-10-16**|**MAS-Bai: Linguistically Informed Adaptive Multi-Agent Translation for Bowen-Script Bai**|cs.CL|[2610.23205v1](http://arxiv.org/abs/2610.23205v1)|null|
+|**2026-10-16**|**Do Speech BCIs Need Larger Models? Rethinking Neural Decoding beyond Scaling**|cs.CL|[2610.23175v1](http://arxiv.org/abs/2610.23175v1)|null|
+|**2026-10-15**|**HeRE: A Novel Benchmark for Hebrew Relation Extraction via LLM-Guided Denoising of Knowledge Graph Alignments**|cs.CL, cs.LG|[2610.22542v1](http://arxiv.org/abs/2610.22542v1)|null|
+|**2026-10-15**|**Pearl-Chat: Engineering a native Luganda language model from first principles in JAX and Flax NNX**|cs.CL|[2610.22529v1](http://arxiv.org/abs/2610.22529v1)|null|
 |**2026-10-15**|**Multi-Target Few-Shot Prompting with Diffusion Language Models**|cs.CL|[2610.22294v1](http://arxiv.org/abs/2610.22294v1)|null|
 |**2026-10-15**|**Unfragmenting Nawatl NMT: Single-Variant Specialization for Masewalkopa**|cs.CL|[2610.22110v1](http://arxiv.org/abs/2610.22110v1)|null|
 |**2026-10-15**|**Dynamic ordering in sequence generation in Transformers: experiments on low-resource Tagging scenarios**|cs.CL|[2610.21862v1](http://arxiv.org/abs/2610.21862v1)|null|
@@ -30,7 +35,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-15**|**Recursive Reward Improvement via Adversarial Meta-Prompt Evolution**|cs.AI, cs.MA|[2610.21040v1](http://arxiv.org/abs/2610.21040v1)|null|
 |**2026-10-15**|**Efficient Agnostic Learning of Univariate Densities Under Local Differential Privacy**|stat.ML, cs.CR, cs.DS, cs.IT, cs.LG|[2610.21033v1](http://arxiv.org/abs/2610.21033v1)|null|
 |**2026-10-14**|**CoTranslator: Reverse to Forward Chain-of-Thought Translator for Reasoning Distillation**|cs.CL, cs.AI, cs.LG|[2610.20828v1](http://arxiv.org/abs/2610.20828v1)|null|
-|**2026-10-14**|**HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation**|cs.AI, cs.IR|[2610.20191v1](http://arxiv.org/abs/2610.20191v1)|null|
+|**2026-10-14**|**HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation**|cs.AI, cs.IR|[2610.20191v2](http://arxiv.org/abs/2610.20191v2)|null|
 |**2026-10-14**|**Structure-Preserving Document-Level Data Augmentation via Discourse Parsing**|cs.CL, cs.AI|[2610.19497v1](http://arxiv.org/abs/2610.19497v1)|null|
 |**2026-10-13**|**PairIT: Autoregressive Transformers for Low-Data Molecule Optimization**|cs.LG, cs.AI, physics.chem-ph|[2610.19123v1](http://arxiv.org/abs/2610.19123v1)|null|
 |**2026-10-13**|**Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models**|cs.CV, cs.AI, cs.CL|[2610.19108v1](http://arxiv.org/abs/2610.19108v1)|null|
@@ -222,13 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-08**|**DialectS2S: End-to-End Speech Dialogue Modeling for Low-Resource Chinese Dialects**|cs.CL, cs.AI|[2608.08067v2](http://arxiv.org/abs/2608.08067v2)|null|
 |**2026-08-07**|**Embedding Initialization for Unseen Low-resource Languages in Multilingual NMT: A Case Study on Limbum-English Translation**|cs.CL, cs.LG|[2608.07629v1](http://arxiv.org/abs/2608.07629v1)|null|
 |**2026-08-07**|**Skaling: Chinchilla's Exponents Meet Kaplan's Coupling**|cs.CL|[2608.07222v1](http://arxiv.org/abs/2608.07222v1)|null|
-|**2026-08-07**|**Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models**|cs.RO, cs.AI|[2608.06994v1](http://arxiv.org/abs/2608.06994v1)|null|
-|**2026-08-07**|**Evolving Parallel Algorithm Portfolios via Potential-Aware Instance Generation with LLMs**|cs.AI|[2608.06808v1](http://arxiv.org/abs/2608.06808v1)|null|
-|**2026-08-07**|**Multi-Perspective Triad Interaction Graph Neural Network for Cognitive Distortion Detection**|cs.CL|[2608.06785v1](http://arxiv.org/abs/2608.06785v1)|null|
-|**2026-08-06**|**SAGA: Score-Weighted Adaptive Generation Alignment for Low-Resource Nordic Language Models**|cs.LG|[2608.06179v2](http://arxiv.org/abs/2608.06179v2)|null|
-|**2026-08-06**|**Clinical Communication Processing with Models Trained on LLM-Generated Synthetic Data: A Structured Survey and Novel Application Case Studies**|cs.CL|[2608.05993v1](http://arxiv.org/abs/2608.05993v1)|null|
 
-README omitted **460** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **465** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
