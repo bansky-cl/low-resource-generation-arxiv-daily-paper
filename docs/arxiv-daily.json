@@ -13221,7 +13221,7 @@
     },
     "2610.02949": {
       "id": "2610.02949",
-      "version": "2610.02949v1",
+      "version": "2610.02949v2",
       "title": "Enhancing Biomedical Named Entity Recognition via Multiple Programming Languages Instruction Tuning and Ensemble Method",
       "authors": [
         "Songtao Li",
@@ -13232,13 +13232,13 @@
         "Hongfei Lin"
       ],
       "published": "2026-10-02",
-      "updated": "2026-10-02",
+      "updated": "2026-10-17",
       "categories": [
         "cs.CL"
       ],
-      "abstract": "Instruction tuning has become a common paradigm for applying large language models (LLMs) to biomedical named entity recognition (BioNER). However, existing instruction-tuning approaches still face two key challenges. First, conventional natural-language instructions typically serialize BioNER annotations as flat textual outputs, providing limited structural constraints for typed entity extraction. Second, high-quality biomedical annotations are limited, and learning from a single serialized output form may restrict structural diversity and reduce model robustness. Although external biomedical knowledge can be introduced to alleviate data scarcity, it often requires costly resource construction. To address these challenges, we propose MITE, a Multiple Programming Languages Instruction Tuning and Ensemble method for BioNER. MITE reformulates BioNER as a structure-to-structure generation task by representing both instructions and entity outputs in code-formatted representations. Specifically, each training instance is transformed into multiple programming-language formats, including Python, C++, and Java, while preserving the same underlying entity semantics. These language-specific representations provide structurally diverse supervision without requiring external biomedical knowledge or additional annotations. During inference, MITE aggregates predictions from different code formats through an entity-level voting strategy, reducing language-specific prediction variance and improving robustness. Experiments on six widely used BioNER datasets demonstrate that MITE consistently outperforms representative BERT-based and LLM-based baselines and exhibits strong cross-dataset generalization. Ablation and parameter analyses further verify the effectiveness and robustness of the proposed components.",
-      "abs_url": "http://arxiv.org/abs/2610.02949v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02949v1",
+      "abstract": "Instruction tuning has become a common paradigm for applying large language models (LLMs) to biomedical named entity recognition (BioNER). However, existing instruction-tuning approaches still face two key challenges. First, conventional natural-language instructions typically serialize BioNER annotations as flat textual outputs, providing limited structural constraints for typed entity extraction. Second, high-quality biomedical annotations are limited, and learning from a single serialized output form may restrict structural diversity and reduce model robustness. Although external biomedical knowledge can be introduced to alleviate data scarcity, it often requires costly resource construction. To address these challenges, we propose MITE, a Multiple Programming Languages Instruction Tuning and Ensemble method for BioNER. MITE reformulates BioNER as a structure-to-structure generation task by representing both instructions and entity outputs in code-formatted representations. Specifically, each training instance is transformed into multiple programming-language formats, including Python, C++, and Java, while preserving the same underlying entity semantics. These language-specific representations provide structurally diverse supervision without requiring external biomedical knowledge or additional annotations. During inference, MITE aggregates predictions from different code formats through an entity-level voting strategy, reducing language-specific prediction variance and improving robustness. Experiments on three widely used BioNER datasets demonstrate that MITE achieves competitive performance against representative BERT-based and LLM-based baselines, attaining the best results on two benchmarks. Ablation studies further validate the effectiveness of multi-language representations.",
+      "abs_url": "http://arxiv.org/abs/2610.02949v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.02949v2",
       "code_url": null
     },
     "2610.05787": {
@@ -13286,20 +13286,20 @@
     },
     "2610.04188": {
       "id": "2610.04188",
-      "version": "2610.04188v3",
+      "version": "2610.04188v4",
       "title": "Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation",
       "authors": [
         "Uttamasha Monjoree",
         "Wei Yan"
       ],
       "published": "2026-10-03",
-      "updated": "2026-10-14",
+      "updated": "2026-10-17",
       "categories": [
         "cs.AI"
       ],
       "abstract": "Recent studies show that artificial intelligence (AI) with language and vision capabilities still experiences limitations in spatial reasoning. In this paper, we have studied the spatial capabilities of advanced generative AI to understand the rotations of objects in 3D space, utilizing AI's image processing and language processing features. We trained and examined the spatial intelligence of a generative Agentic AI model (GPT-5.6) to understand the spatial rotation process with rotation diagrams based on the revised Purdue Spatial Visualization Test: Visualization of Rotations (Revised PSVT:R). We improvised the Revised PSVT:R by superimposing additional graphical and contextual features to evaluate how different Chain-of-Thought (CoT) reasoning strategies influence model performance. The results indicate that structured CoT reasoning improves the spatial reasoning performance of the base GPT-5.6 model in both datasets (PSVT:R and PSVT:R with coordinate system). We used three CoT approaches - (1) Structured CoT, (2) few-shot Structured CoT, and Structured CoT with Self-optimized Prompt. The three CoT approaches evaluated in this study showed no significant performance difference. Results showed that combining structured CoT reasoning with relevant contextual information leads to considerable improvements in VLM performance on 3D rotation tasks, demonstrating the potential of agentic AI for more effective spatial reasoning. However, when contextual information is removed, structured CoT reasoning alone provides limited improvement, and the models continue to exhibit notable difficulties in understanding spatial transformations. These findings suggest that effective spatial reasoning in VLMs relies on the integration of visual, textual, and reasoning-based information in future agentic AI systems for spatial intelligence.",
-      "abs_url": "http://arxiv.org/abs/2610.04188v3",
-      "pdf_url": "https://arxiv.org/pdf/2610.04188v3",
+      "abs_url": "http://arxiv.org/abs/2610.04188v4",
+      "pdf_url": "https://arxiv.org/pdf/2610.04188v4",
       "code_url": null
     },
     "2610.04038": {
@@ -14388,6 +14388,233 @@
       "abstract": "Autoregressive foundation language models predominantly target high-resource Indo-European languages, imposing computational and morphological penalties on under-represented African languages. Generic multilingual tokenizers routinely exceed fertility rates of 3.2 tokens per word on agglutinative Bantu languages, degrading context efficiency and inflating latency. We present Pearl-Chat, an 8,473,122-parameter ($\\sim$8.5M) causal decoder-only transformer engineered for Luganda (Oluganda, ISO 639-2: lg), a low-resource Niger-Congo Bantu language spoken by over 10 million people in East Africa. Built from first mathematical principles in JAX and Flax NNX, Pearl-Chat uses explicit functional state decomposition (nnx.split and nnx.merge), deterministic resumable data streaming via Google Grain, and SPMD tensor parallelism using jax.sharding.Mesh. We introduce a byte-level byte-pair encoding (BPE) subword tokenizer trained from scratch on curated Luganda corpora ($V = 8,192$), achieving 4.88 characters per token compression and 1.60 tokens per word fertility, a two-fold compression improvement over LLaMA-3 (128K) and Gemma (256K). The model is trained with a two-stage curriculum: Stage 1 pre-training on 59,501 sequences across parallel, biblical, encyclopedic, and journalistic corpora, and Stage 2 instruction fine-tuning on 510 dialogues with assistant-only loss masking. Across 4,000 optimization steps, validation cross-entropy loss drops monotonically from 9.4695 (perplexity: 12,958.98) to 0.1818 (perplexity: 1.20), a decrease of 9.2877 nats. On a three-tier held-out diagnostic benchmark, Pearl-Chat achieves 0.9792 ROUGE-L and 0.9405 BLEU while maintaining concordial agreement across Bantu noun classes. We provide a Python Server-Sent Events (SSE) streaming runtime and open-source all weights, tokenizers, and code.",
       "abs_url": "http://arxiv.org/abs/2610.22529v1",
       "pdf_url": "https://arxiv.org/pdf/2610.22529v1",
+      "code_url": null
+    },
+    "2610.26595": {
+      "id": "2610.26595",
+      "version": "2610.26595v1",
+      "title": "Concerns in Benchmarking Jailbreaks: An Empirical Study of Attack Success Rates",
+      "authors": [
+        "Leon Tu Nguyen",
+        "Rohan Menon",
+        "Rafael Tappe Maestro",
+        "Eric Aubinais",
+        "Chih-Hong Cheng"
+      ],
+      "published": "2026-10-19",
+      "updated": "2026-10-19",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Jailbreak methods are commonly compared using Attack Success Rate (ASR), but these comparisons depend on how responses are generated and judged. In this paper, we examine eight attacks against three open-weight language models using three evaluation procedures. Low-resource language attacks achieve a mean ASR of 96.0% under keyword matching but 2.7% under a Qwen3 evaluator following StrongREJECT scoring instructions. Changing the number and arrangement of attempts reverses the ranking of DeepInception and rewriting. In a separate experiment, sampling 100 responses for each unchanged request at Ollama's default temperature of 0.8 yields 100% ASR under keyword matching but 50% under the Qwen3 evaluator. Beyond evaluator sensitivity, these findings raise a safety concern: repeated sampling can expose residual unsafe behavior despite an initial refusal, suggesting probabilistic suppression rather than robust exclusion. We recommend explicit success definitions, matched response budgets, validated evaluators, and reporting cumulative failure under repeated interaction rather than relying on single-generation tests.",
+      "abs_url": "http://arxiv.org/abs/2610.26595v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26595v1",
+      "code_url": null
+    },
+    "2610.26155": {
+      "id": "2610.26155",
+      "version": "2610.26155v1",
+      "title": "DeepSEA: A Multilingual Evaluation Benchmark for Southeast Asia",
+      "authors": [
+        "Jiuzhou Han",
+        "Abhishek Bijay Mishra",
+        "Trevor Cohn",
+        "Shubham Mittal"
+      ],
+      "published": "2026-10-19",
+      "updated": "2026-10-19",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "While language models have demonstrated remarkable capabilities, their performance remains disproportionately skewed towards high-resource languages. This disparity is particularly acute for the 700 million inhabitants of Southeast Asia, where vast linguistic diversity remains under-represented in existing benchmarks, often suffering from limited language coverage or narrow task scopes. To address this, we introduce DeepSEA, a comprehensive benchmark constructed from established datasets through professional human translation into 12 Southeast Asian languages, spanning both high-resource (e.g., Indonesian, Thai, Vietnamese) and low-resource (e.g., Burmese, Khmer, Lao) tiers across five distinct tasks: mathematical reasoning, scientific reasoning, question answering, abstractive summarization, and machine translation. Extensive evaluation of frontier proprietary and open-weights models reveals that while frontier models like Gemini-3.7-Flash maintain robustness across resource tiers, smaller models face severe performance degradation on low-resource languages. Crucially, models perform better in reasoning and summarization when pivoted through English rather than target languages, exposing a critical dependency on English representations, especially for low-resource languages. Beyond these observations, we provide a cross-lingual error analysis and a cross-script tokenizer fertility analysis. We hope these findings shed light on the development of next-generation inclusive multilingual models.",
+      "abs_url": "http://arxiv.org/abs/2610.26155v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26155v1",
+      "code_url": null
+    },
+    "2610.24990": {
+      "id": "2610.24990",
+      "version": "2610.24990v1",
+      "title": "The World as Viewed by 136 Countries: An Open, Curated, Annotated, and Multilingual Dataset of 118 Million State Media Articles",
+      "authors": [
+        "Bryan Li",
+        "Samar Haider",
+        "Grace Kim",
+        "Fiona Luo",
+        "Jinqi Luo",
+        "Yuan Yuan",
+        "Duncan Watts",
+        "René Vidal",
+        "Chris Callison-Burch"
+      ],
+      "published": "2026-10-18",
+      "updated": "2026-10-18",
+      "categories": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "State media outlets often project their governments' narratives to target both domestic and foreign audiences. Because this content is plentiful and free to access, it appears widely in the web corpora that large language models (LLMs) are trained on and that retrieval systems draw from. However, the prevalence of state media in these corpora and its potential influence on LLM outputs remain largely unexplored. In this paper, we introduce WorldStateMedia, an open dataset of 118 million state media articles from 136 countries in 114 languages. We extract these articles from existing pretraining corpora and annotate each outlet with level of state control from State Media Monitor. Using WorldStateMedia to audit these corpora, we find that, in English web crawls, the share of state media pages from editorially controlled (vs. independent) outlets rose from 39% in 2013 to 93% in 2025. In several low-resource languages, state media make up a substantial share of all web data, such as 17.8% for Uyghur and 7.8% for Belarusian. To characterize the differing narratives of news outlets, we compare Russian and Ukrainian state media in English and in their native languages, revealing asymmetric topical focus and opposing framings of contested issues such as Crimea. Furthermore, in a retrieval-augmented generation (RAG) experiment on territorial disputes, retrieving a country's state media shifts model answers toward that country's claims, most strongly for English-language (foreign-targeted) media. We release WorldStateMedia to support multilingual, cross-national insights on state media at https://huggingface.co/collections/manestay/worldstatemedia",
+      "abs_url": "http://arxiv.org/abs/2610.24990v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.24990v1",
+      "code_url": "https://huggingface.co/collections/manestay/worldstatemedia"
+    },
+    "2610.24730": {
+      "id": "2610.24730",
+      "version": "2610.24730v1",
+      "title": "GLOSS-MT: Controllable Low-Resource Machine Translation with an Editable Dictionary",
+      "authors": [
+        "Mich-Seth Owusu",
+        "Stephen E. Moore",
+        "Akwasi Asare",
+        "Lawrence Adu Gyamfi",
+        "Paul Azunre",
+        "Joel Budu",
+        "Jonathan Asiamah"
+      ],
+      "published": "2026-10-17",
+      "updated": "2026-10-17",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Adapting a pretrained machine translation (MT) model to new terminology usually requires new parallel data and another round of fine-tuning, which is costly for low-resource languages. We ask whether controllability can be added to MT, and the fine-tuning burden reduced, without degrading the pretrained model. GLOSS-MT looks up the source's noun phrases in an offline English-Twi dictionary, replaces every phrase found by its Twi translation in place, and fine-tunes a translation model once to translate these mixed inputs. We apply the same data and pipeline to NLLB-200 (600M, 1.3B, 3.3B), OPUS-MT en-tw and TranslateGemma 4B. On a document-level English-to-Asante Twi benchmark (84 documents, four domains), every fine-tune scores above its pretrained base in chrF2 (+2.85 to +5.48), and the three NLLB fine-tunes are the best open systems (50.12-50.80). A direct controllability test on human-translated Bible passages shows that the three fine-tunes tested write 79-97% of the dictionary terms, and that replacing every dictionary entry by a different term changes the output accordingly (70-97% of the new terms appear) with no retraining. We release the models, data and code.",
+      "abs_url": "http://arxiv.org/abs/2610.24730v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.24730v1",
+      "code_url": null
+    },
+    "2610.26351": {
+      "id": "2610.26351",
+      "version": "2610.26351v1",
+      "title": "PhyPro-FM: A Physics and Prompt-Guided Graph Foundation Model for Contingency Analysis",
+      "authors": [
+        "Xu Yang",
+        "Zhanyuan Sheng",
+        "Chenhui Lin",
+        "Haotian Liu",
+        "Qi Wang",
+        "Yue Yang",
+        "Wenchuan Wu"
+      ],
+      "published": "2026-10-19",
+      "updated": "2026-10-19",
+      "categories": [
+        "eess.SY",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "The continuous evolution of next-generation power systems, characterized by the high penetration of renewable energy resources and dynamic topology variations, poses formidable challenges to traditional N-1/N-2 contingency analysis in terms of computational efficiency and scalability. While deep learning-based methods offer accelerated inference, existing studies predominantly treat contingency analysis as a pure regression problem, often overlooking the physical essence of grid operation and engineering requirements of real-world scenarios. To bridge this gap, this paper proposes a physics and prompt-guided graph foundation model (PhyPro-FM) for generalizable and engineering-viable contingency analysis. The proposed architecture integrates graph neural networks with a learnable global query mechanism and, notably, introduces a prompt-guided learning paradigm. By leveraging historical snapshots as few-shot prompts, the model dynamically captures correlations between target and historical operating conditions, significantly enhancing generalization capabilities under unseen topologies. Furthermore, we design a physics-informed training mechanism that prioritizes branch power flow errors over nodal voltage errors, aligning the optimization objective with critical grid security constraints. To ensure engineering applicability, a physics-informed inference mechanism is also developed, incorporating a residual-based correction module and a specialized post-processing strategy for singular branches to circumvent numerical instability. Comprehensive experiments demonstrate that PhyPro-FM outperforms state-of-the-art methods in accuracy and generalization, validating its superior physical consistency and robustness for practical engineering applications.",
+      "abs_url": "http://arxiv.org/abs/2610.26351v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26351v1",
+      "code_url": null
+    },
+    "2610.25076": {
+      "id": "2610.25076",
+      "version": "2610.25076v1",
+      "title": "P2N: Reusing Deep Representations for Greater Effective Depth",
+      "authors": [
+        "Yiqin Hao",
+        "Boyi Zeng",
+        "Zitong Wang",
+        "He Li",
+        "Shixiang Song",
+        "Feichen Song",
+        "Yifan Liu",
+        "Zhouhan Lin"
+      ],
+      "published": "2026-10-18",
+      "updated": "2026-10-18",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Mathematical problem solving and autonomous agents are increasingly important applications of language models, demanding stronger reasoning capabilities. Computational depth is a key resource for such reasoning, but adding model layers increases both training and inference costs, while test-time scaling incurs substantial additional inference computation. We introduce P2N (Previous to Next), which reuses the previous token's deep representations, already available during generation, to increase effective computational depth with negligible decoding overhead. Specifically, P2N adds the previous token's deep hidden state to the current token's shallow representation, allowing subsequent layers to build on previously completed deep computation. This recurrence extends effective computational depth across tokens, while introducing only a single vector addition per decoding step. We train the recurrence using parallel Jacobi updates restricted to a middle-layer core. Experiments with Qwen-style models show that, at 1.5B parameters, P2N improves GSM8K accuracy by over 10 percentage points under both zero-shot and few-shot prompting, with nearly unchanged decoding latency. The benefits also extend to language modeling and average performance on general downstream benchmarks. on general downstream benchmarks.",
+      "abs_url": "http://arxiv.org/abs/2610.25076v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.25076v1",
+      "code_url": null
+    },
+    "2610.24913": {
+      "id": "2610.24913",
+      "version": "2610.24913v1",
+      "title": "A Cross-Domain Evaluation of Prompting Techniques for Large Language Models",
+      "authors": [
+        "Kevin Krazius",
+        "Tim Schlippe",
+        "Paul Libbrecht"
+      ],
+      "published": "2026-10-17",
+      "updated": "2026-10-17",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Prompt engineering has become a central mechanism for guiding the behavior of Large Language Models (LLMs) across a wide range of reasoning and language understanding tasks [1], [2]. However, existing studies frequently evaluate prompting techniques using different LLMs, datasets, or task settings, making direct comparisons across methods and domains difficult [3]. Consequently, in this paper we present a controlled cross-domain evaluation of Zero-Shot prompting, Few-Shot prompting, Retrieval-Augmented Generation (RAG), and automatic prompt optimization based on a PE2-inspired optimization pipeline [4]-[6]. All experiments were conducted with the same LLM and evaluated on six benchmark datasets covering arithmetic reasoning, logical reasoning, commonsense reasoning, and factual verification. The results show that no prompting strategy consistently outperforms the others across all domains, and pairwise statistical comparisons of the highest-performing configurations revealed no significant differences. RAG achieves the highest overall average accuracy of 78.33% when 300 examples are available for retrieval, while Few-Shot Prompting achieves comparatively high accuracies across several structured reasoning tasks. Zero-Shot Prompting remains competitive on tasks with self-contained inputs, whereas the PE2-inspired optimization approach produces stable but not systematically superior results compared to the other evaluated prompting techniques. Furthermore, increasing the number of task-specific examples does not consistently improve performance across prompting techniques, indicating strong domain and task dependency. These findings suggest that prompting techniques should be selected adaptively based on task characteristics rather than treated as universally applicable optimization strategies.",
+      "abs_url": "http://arxiv.org/abs/2610.24913v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.24913v1",
+      "code_url": null
+    },
+    "2610.25441": {
+      "id": "2610.25441",
+      "version": "2610.25441v1",
+      "title": "Stepwise Reasoning Verification: Don't Generate, Classify!",
+      "authors": [
+        "Yifei Shi",
+        "Michalis Korakakis",
+        "Rami Aly",
+        "Eric Chamoun",
+        "Lukasz Szpruch",
+        "Andreas Vlachos"
+      ],
+      "published": "2026-10-18",
+      "updated": "2026-10-18",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Verifying the reasoning of large language models is increasingly important as they are applied to complex mathematical and scientific problems. Existing work focuses on large decoder models and reports mixed results for generative and discriminative verifiers, leaving unclear which paradigm is more effective and whether large models are necessary. In this work, we cast stepwise verification as a natural language inference task: the problem and partial solution prefix form the premise, while the next reasoning step serves as the hypothesis to be classified as entailed or non-entailed. This formulation enables error localisation at individual reasoning steps and direct comparison of encoder classification, decoder classification, and decoder verdict generation across model scales and annotation budgets. Across five reasoning datasets, a 0.15B encoder classifier outperforms most generative verifiers with up to 4B parameters. On identical decoder backbones, classification outperforms generation from 0.5B to 4B parameters and matches it on the strongest 7B backbone---reaching comparable performance with roughly one tenth as many annotated problems. Our findings establish classification as a parameter- and data-efficient approach to stepwise verification and show that strong verification does not require large generative decoders.",
+      "abs_url": "http://arxiv.org/abs/2610.25441v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.25441v1",
+      "code_url": null
+    },
+    "2610.26066": {
+      "id": "2610.26066",
+      "version": "2610.26066v1",
+      "title": "FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety",
+      "authors": [
+        "Joseph Thomas Thacil",
+        "Reetu Raj Harsh",
+        "Krati Saxena",
+        "Bhaskarjit Sarmah",
+        "Stefano Pasquali"
+      ],
+      "published": "2026-10-19",
+      "updated": "2026-10-19",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Generating high-quality synthetic datasets at scale remains a fundamental challenge for training specialized AI systems in data-scarce domains. We present a comprehensive methodology that produces 14.3 million quality-filtered synthetic training examples from a structured taxonomy of 632,000 scenario specifications. Our four-stage pipeline ad- dresses critical challenges in synthetic data quality, diversity, and realism through: (1) systematic pre-generation research establishing optimal generation parameters via diminishing returns analysis, (2) conditional auto evolution mechanisms that remediate low-diversity batches during generation, (3) a two-layer semantic deduplication architecture combining lexical and embedding-based methods, and (4) LLM-as-Judge quality evaluation filtering samples based on behavioral correctness and tuple fidelity. Empirical analysis across three domains (Banking, Insurance, Financial Services) demonstrates domain-specific deduplication patterns ranging from 9.9% to 40.6%, with output generation modes exhibiting highest redundancy. Our batch size optimization reveals mode-specific diversity saturation thresholds, enabling principled allocation strategies. The complete pipeline reduces 26.4M raw samples to 14.3M high-confidence examples through merge (20.9% reduction), semantic deduplication (18.7% reduction), and quality-based filtering (15.9% reduction), providing a reproducible framework for domain-specific synthetic data generation with rigorous quality control.",
+      "abs_url": "http://arxiv.org/abs/2610.26066v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26066v1",
+      "code_url": null
+    },
+    "2610.26173": {
+      "id": "2610.26173",
+      "version": "2610.26173v1",
+      "title": "Conditional information Retrieval for Longitudinal Survey Harmonisation",
+      "authors": [
+        "Wing Yan Li",
+        "Zeqiang Wang",
+        "Michelle Lin",
+        "Jon Johnson",
+        "Suparna De"
+      ],
+      "published": "2026-10-19",
+      "updated": "2026-10-19",
+      "categories": [
+        "cs.CL",
+        "cs.CY",
+        "cs.IR"
+      ],
+      "abstract": "Identifying conceptually equivalent questions across different surveys is a challenging information retrieval task where surface-level textual similarity is insufficient. Two questions may be lexically similar yet assess entirely different sociological sub-concepts, or lexically different yet conceptually equivalent. We introduce a conditional information retrieval framework that addresses this by decomposing the task into two steps: concept extraction, which identifies the underlying sociological concept of a survey question using a fine-tuned generative model, and concept-aware retrieval, which augments question representations with the extracted concept as an explicit conditioning signal for finer-grained alignment. To reflect the realistic data scarcity conditions of specialised social science annotation, we use CLOSER as a case study. Our framework consistently outperforms baselines by 2-3 points in both MAP and Recall. We further analyse fine-tuning strategies including SFT, DPO, and dynamic DPO, finding that SFT delivers the most stable gains while dynamic DPO interacts differently with instruction-tuned versus distilled reasoning backbones. Finally, we demonstrate that a model fine-tuned on a general social science thesaurus (ELSST) transfers robustly to task-specific survey data, offering a practical solution under data scarcity.",
+      "abs_url": "http://arxiv.org/abs/2610.26173v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26173v1",
       "code_url": null
     }
   }

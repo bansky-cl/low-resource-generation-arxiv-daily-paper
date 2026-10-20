@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **665**
-- Recent 30 days: **85**
+- Total papers in JSON: **675**
+- Recent 30 days: **95**
 - Older than 30 days: **580**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,16 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-19**|**Concerns in Benchmarking Jailbreaks: An Empirical Study of Attack Success Rates**|cs.LG, cs.AI|[2610.26595v1](http://arxiv.org/abs/2610.26595v1)|null|
+|**2026-10-19**|**PhyPro-FM: A Physics and Prompt-Guided Graph Foundation Model for Contingency Analysis**|eess.SY, cs.AI, cs.LG|[2610.26351v1](http://arxiv.org/abs/2610.26351v1)|null|
+|**2026-10-19**|**Conditional information Retrieval for Longitudinal Survey Harmonisation**|cs.CL, cs.CY, cs.IR|[2610.26173v1](http://arxiv.org/abs/2610.26173v1)|null|
+|**2026-10-19**|**DeepSEA: A Multilingual Evaluation Benchmark for Southeast Asia**|cs.CL|[2610.26155v1](http://arxiv.org/abs/2610.26155v1)|null|
+|**2026-10-19**|**FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety**|cs.AI|[2610.26066v1](http://arxiv.org/abs/2610.26066v1)|null|
+|**2026-10-18**|**Stepwise Reasoning Verification: Don't Generate, Classify!**|cs.AI|[2610.25441v1](http://arxiv.org/abs/2610.25441v1)|null|
+|**2026-10-18**|**P2N: Reusing Deep Representations for Greater Effective Depth**|cs.CL|[2610.25076v1](http://arxiv.org/abs/2610.25076v1)|null|
+|**2026-10-18**|**The World as Viewed by 136 Countries: An Open, Curated, Annotated, and Multilingual Dataset of 118 Million State Media Articles**|cs.CL, cs.CY|[2610.24990v1](http://arxiv.org/abs/2610.24990v1)|**[code](https://huggingface.co/collections/manestay/worldstatemedia)**|
+|**2026-10-17**|**A Cross-Domain Evaluation of Prompting Techniques for Large Language Models**|cs.AI, cs.CL|[2610.24913v1](http://arxiv.org/abs/2610.24913v1)|null|
+|**2026-10-17**|**GLOSS-MT: Controllable Low-Resource Machine Translation with an Editable Dictionary**|cs.CL, cs.AI|[2610.24730v1](http://arxiv.org/abs/2610.24730v1)|null|
 |**2026-10-16**|**From Billion-Scale to Million-Scale Language Models: Operational Capabilities for Embedded Post-Exploitation**|cs.CR, cs.AI|[2610.23534v1](http://arxiv.org/abs/2610.23534v1)|null|
 |**2026-10-16**|**MAS-Bai: Linguistically Informed Adaptive Multi-Agent Translation for Bowen-Script Bai**|cs.CL|[2610.23205v1](http://arxiv.org/abs/2610.23205v1)|null|
 |**2026-10-16**|**Do Speech BCIs Need Larger Models? Rethinking Neural Decoding beyond Scaling**|cs.CL|[2610.23175v1](http://arxiv.org/abs/2610.23175v1)|null|
@@ -73,12 +83,12 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-04**|**Investigating Model Compression for Neural Machine Translation in the Biomedical Domain**|cs.CL, cs.AI, cs.LG|[2610.07032v1](http://arxiv.org/abs/2610.07032v1)|null|
 |**2026-10-04**|**Image Synthesis as an Intermediate for Controllable Time Series Generation**|cs.AI|[2610.05211v1](http://arxiv.org/abs/2610.05211v1)|null|
 |**2026-10-03**|**Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations**|cs.AI, cs.CL, cs.CR|[2610.04693v2](http://arxiv.org/abs/2610.04693v2)|null|
-|**2026-10-03**|**Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation**|cs.AI|[2610.04188v3](http://arxiv.org/abs/2610.04188v3)|null|
+|**2026-10-03**|**Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation**|cs.AI|[2610.04188v4](http://arxiv.org/abs/2610.04188v4)|null|
 |**2026-10-02**|**Protecting Sensitive Data in Image Synthesis via PAC-Private Adaptation for Diffusion Models**|cs.LG|[2610.04038v1](http://arxiv.org/abs/2610.04038v1)|null|
 |**2026-10-02**|**Multilingual GSM-Symbolic: What determines capability transfer across languages?**|cs.AI, cs.CL|[2610.03367v2](http://arxiv.org/abs/2610.03367v2)|null|
 |**2026-10-02**|**Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers**|cs.AI|[2610.03363v2](http://arxiv.org/abs/2610.03363v2)|null|
 |**2026-10-02**|**Predicting Steering Vectors and Adapter Weights for Few-Shot Author-Style Transfer**|cs.CL, cs.AI|[2610.03163v1](http://arxiv.org/abs/2610.03163v1)|null|
-|**2026-10-02**|**Enhancing Biomedical Named Entity Recognition via Multiple Programming Languages Instruction Tuning and Ensemble Method**|cs.CL|[2610.02949v1](http://arxiv.org/abs/2610.02949v1)|null|
+|**2026-10-02**|**Enhancing Biomedical Named Entity Recognition via Multiple Programming Languages Instruction Tuning and Ensemble Method**|cs.CL|[2610.02949v2](http://arxiv.org/abs/2610.02949v2)|null|
 |**2026-10-01**|**Fine-Grained Emotion Classification from Mobile App Reviews: An Empirical Study with Large Language Models**|cs.CL, cs.IR, cs.SE|[2610.03802v1](http://arxiv.org/abs/2610.03802v1)|null|
 |**2026-10-01**|**How To Train Your World Model: Fine-tuning vs RAG for LM-based World Modeling**|cs.AI|[2610.02542v1](http://arxiv.org/abs/2610.02542v1)|null|
 |**2026-10-01**|**Social bot detection in the age of ChatGPT: Challenges and opportunities**|cs.CY, cs.CL|[2610.02386v1](http://arxiv.org/abs/2610.02386v1)|null|
@@ -217,18 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-12**|**Preference Tree Optimization: Enhancing Goal-Oriented Dialogue with Look-Ahead Simulations**|cs.CL, cs.AI|[2608.12062v2](http://arxiv.org/abs/2608.12062v2)|null|
 |**2026-08-12**|**Poly-Dialectal Neural Machine Translation System for Bangla Regional Dialects**|cs.CL|[2608.12018v1](http://arxiv.org/abs/2608.12018v1)|**[code](https://data.mendeley.com/datasets/v9cf66fk2t/2)**|
 |**2026-08-12**|**When the Knowledge Base Becomes the Gold Standard: Measuring Resource-Shared Evaluation Loops in Entity-Level Machine Translation**|cs.CL, cs.DL|[2608.11843v1](http://arxiv.org/abs/2608.11843v1)|null|
-|**2026-08-11**|**Reward-Oracle MCTS for Formal Theorem Proving: Sample-Efficient Search and the Need for Kernel-Level Proof Auditing**|cs.AI, cs.LG, cs.LO|[2608.28639v1](http://arxiv.org/abs/2608.28639v1)|null|
-|**2026-08-11**|**The Illusion of Cross-Lingual Safety in Low-Resource Languages**|cs.CL|[2608.11146v1](http://arxiv.org/abs/2608.11146v1)|null|
-|**2026-08-11**|**Physics-informed Diffusion Generative Model for Time-Series Data Synthesis in Dynamic Systems**|cs.LG|[2608.10941v1](http://arxiv.org/abs/2608.10941v1)|null|
-|**2026-08-11**|**A Cost-Efficient Routing Pipeline for Multilingual Short-Text Classification Using Small Language Models**|cs.CL, cs.AI|[2608.10939v1](http://arxiv.org/abs/2608.10939v1)|null|
-|**2026-08-09**|**Integrated Multimodal AI System for Retrieval-Augmented Reasoning, Object Sensing, and Damage Analysis**|cs.AI|[2608.08935v1](http://arxiv.org/abs/2608.08935v1)|null|
-|**2026-08-09**|**Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies**|cs.RO, cs.LG|[2608.08545v1](http://arxiv.org/abs/2608.08545v1)|null|
-|**2026-08-08**|**A Hierarchical Energy-Based Model for Multimodal Cognition**|q-bio.NC, cs.AI|[2608.12398v1](http://arxiv.org/abs/2608.12398v1)|null|
-|**2026-08-08**|**DialectS2S: End-to-End Speech Dialogue Modeling for Low-Resource Chinese Dialects**|cs.CL, cs.AI|[2608.08067v2](http://arxiv.org/abs/2608.08067v2)|null|
-|**2026-08-07**|**Embedding Initialization for Unseen Low-resource Languages in Multilingual NMT: A Case Study on Limbum-English Translation**|cs.CL, cs.LG|[2608.07629v1](http://arxiv.org/abs/2608.07629v1)|null|
-|**2026-08-07**|**Skaling: Chinchilla's Exponents Meet Kaplan's Coupling**|cs.CL|[2608.07222v1](http://arxiv.org/abs/2608.07222v1)|null|
 
-README omitted **465** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **475** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
