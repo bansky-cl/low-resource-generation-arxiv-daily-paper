@@ -13369,21 +13369,21 @@
     },
     "2610.04693": {
       "id": "2610.04693",
-      "version": "2610.04693v2",
+      "version": "2610.04693v3",
       "title": "Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations",
       "authors": [
         "Anthony Rhodes"
       ],
       "published": "2026-10-03",
-      "updated": "2026-10-12",
+      "updated": "2026-10-19",
       "categories": [
         "cs.AI",
         "cs.CL",
         "cs.CR"
       ],
       "abstract": "Agents are entering finance, healthcare and law, sectors where a violation leaves no lexical signature and carries real penalties. Whether an omission is material, or a disclosure sufficient, depends on what the response left out. Probing such an obligation means finding responses one minimal edit from flipping compliance, and every probe costs a generation and two adjudications, so the binding constraint on regulatory red-teaming is sample efficiency, not volume. We introduce Penumbra, an adversarial search that walks from a verified anchor under an expanding edit budget until a two-evaluator committee changes its verdict, and emits the two adjacent responses that straddle the change. Allocation is adaptive, and the objective is coverage of the defeat surface: distinct (obligation x defeat mode) cells resolved per candidate. At matched budget, adaptive allocation reaches uniform allocation's full-budget coverage on 59% of the candidates; at equal records it covers 1.43x the defeat modes of naive enumeration, and the gain is confined to the axis it targets. On 60 screened obligations of a financial advisory constitution, Penumbra returns 144 pairs, each a compliant and a violating response that the committee places on opposite sides of the boundary, differing by a handful of words where a model asked for both directly produces texts sharing almost nothing. A second constitution, for clinical triage, reproduces this on 18 obligations: 49 pairs at the same tightness, with the same modes hardest. Pairs like these show where an obligation's own terms stop deciding, which is what an agent deployed under it must be tested against, and the search finds them at a cost that scales with the boundary, not the text.",
-      "abs_url": "http://arxiv.org/abs/2610.04693v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.04693v2",
+      "abs_url": "http://arxiv.org/abs/2610.04693v3",
+      "pdf_url": "https://arxiv.org/pdf/2610.04693v3",
       "code_url": null
     },
     "2610.08303": {
@@ -14615,6 +14615,125 @@
       "abstract": "Identifying conceptually equivalent questions across different surveys is a challenging information retrieval task where surface-level textual similarity is insufficient. Two questions may be lexically similar yet assess entirely different sociological sub-concepts, or lexically different yet conceptually equivalent. We introduce a conditional information retrieval framework that addresses this by decomposing the task into two steps: concept extraction, which identifies the underlying sociological concept of a survey question using a fine-tuned generative model, and concept-aware retrieval, which augments question representations with the extracted concept as an explicit conditioning signal for finer-grained alignment. To reflect the realistic data scarcity conditions of specialised social science annotation, we use CLOSER as a case study. Our framework consistently outperforms baselines by 2-3 points in both MAP and Recall. We further analyse fine-tuning strategies including SFT, DPO, and dynamic DPO, finding that SFT delivers the most stable gains while dynamic DPO interacts differently with instruction-tuned versus distilled reasoning backbones. Finally, we demonstrate that a model fine-tuned on a general social science thesaurus (ELSST) transfers robustly to task-specific survey data, offering a practical solution under data scarcity.",
       "abs_url": "http://arxiv.org/abs/2610.26173v1",
       "pdf_url": "https://arxiv.org/pdf/2610.26173v1",
+      "code_url": null
+    },
+    "2610.27304": {
+      "id": "2610.27304",
+      "version": "2610.27304v1",
+      "title": "Global Security Blind Spots: Translation as a Safety Bypass in Low-Resource Languages",
+      "authors": [
+        "Jalil Alva",
+        "David Harper",
+        "Abigail E. Thornton",
+        "Rafael S. Villalobos Alva",
+        "Leonardo Kenji Minemura Suazo",
+        "Konstantinos Karageorgos",
+        "Diego Velazquez",
+        "Sergio A. Serrano",
+        "Marvin Vargas Flores",
+        "Aaron Schliem",
+        "Fernando F. Migone"
+      ],
+      "published": "2026-10-19",
+      "updated": "2026-10-19",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "abstract": "Large language models are deployed globally, yet safety alignment and evaluation remain concentrated in English: harmful requests refused in English can elicit unsafe completions when translated into low-resource languages. We evaluate ten widely deployed LLMs across 79 languages (English plus 78 low-resource) under a translation-bypass threat model, using a metric conditioned on English safety, which separates translation bypass from unsafety already present in English. English safety does not transfer reliably: conditioned on safe English completions, mean bypass rates range from 21.9% to 44.4%. Bypass risk concentrates in a subset of language families, a pattern broadly shared across models. The shared ordering is confounded with translation degeneracy, but its variation across models is significant and survives every control we apply. We also show that per-model bypass rates do not identify a stable ranking: nine of ten models change rank across three conditioning schemes that estimate the same quantity, with no change to any underlying response.",
+      "abs_url": "http://arxiv.org/abs/2610.27304v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.27304v1",
+      "code_url": null
+    },
+    "2610.26963": {
+      "id": "2610.26963",
+      "version": "2610.26963v1",
+      "title": "FoundPDE: A generative foundation model for data-driven symbolic discovery of partial differential equations",
+      "authors": [
+        "Langchen Liu",
+        "Junlin Luo",
+        "Min Zhu",
+        "Zhuoran Yang",
+        "Lu Lu"
+      ],
+      "published": "2026-10-18",
+      "updated": "2026-10-18",
+      "categories": [
+        "physics.comp-ph",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Discovering governing partial differential equations (PDEs) from observed data is a central inverse problem in computational science and engineering: the goal is not only to predict trajectories, but to identify interpretable symbolic laws that can be analyzed and reused. Existing PDE discovery methods often depend on hand-designed libraries, accurate numerical derivatives, or per-equation symbolic search, making them fragile under sparse observations, noisy data, broad equation families, and unseen symbolic compositions. Here, we introduce FoundPDE, a pretrained data-to-symbol foundation model for PDE discovery. FoundPDE maps discretized spatio-temporal trajectories to symbolic equations with a transformer, uses Fourier and first-order spatial-derivative augmentation to expose complementary trajectory information, refines numerical coefficients, and supports downstream extension with improved generalization through few-shot fine-tuning and hierarchical discovery. On a clean in-domain benchmark spanning 20 PDE families, our model reaches 97.50% type recognition. Under coefficient shifts beyond the training support, type recognition remains 90.53%; under multiplicative Gaussian noise on the model input, it is 94.43% at a 2% noise level but falls to 52.09% at 10%. For unseen composite equations, few-shot fine-tuning reaches over 90% exact recovery on four held-out families, and we further develop a hierarchical discovery algorithm that recovers two-term composites without fine-tuning FoundPDE. By amortizing symbolic discovery across equation families, FoundPDE shifts PDE discovery from per-dataset search toward a reusable pretrained model that extends to new physics with limited additional data, a step toward foundation models that uncover interpretable governing laws directly from scientific data.",
+      "abs_url": "http://arxiv.org/abs/2610.26963v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26963v1",
+      "code_url": null
+    },
+    "2610.28559": {
+      "id": "2610.28559",
+      "version": "2610.28559v1",
+      "title": "Large Flow Language Models",
+      "authors": [
+        "Arnav Chavan",
+        "Chanhyuk Lee",
+        "Udbhav Bamba",
+        "Jaehoon Yoo",
+        "Seunghoon Hong",
+        "Aditi Raghunathan",
+        "Jinwoo Kim"
+      ],
+      "published": "2026-10-20",
+      "updated": "2026-10-20",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Continuous flow language models offer a path to parallel generation with tools for control and acceleration unavailable to discrete diffusion, yet effective techniques for building them at the billion-parameter scale remain less established. We present Lafa (Large flow language model), a fast, high-performing flow language model scaled to 8B parameters in a data-efficient manner. Lafa is a blockwise flow model with causal attention on the prefix and bidirectional, asynchronous flow within each block. This design enables efficient training by adapting pretrained autoregressive (AR) models and fast inference via prefix caching and blockwise parallel decoding. We train Lafa at 0.5B, 7B, and 8B scales with fewer than 30B tokens, more efficient than previous diffusion models, and evaluate it on instruction following, reasoning, and coding, where the learned flow matches or surpasses the quality of AR and can be distilled into flow maps for one- and few-step generation. Notably, flow training preserves or even improves pretrained AR capabilities via a multi-token prediction effect, which we leverage in a self-speculative decoding scheme that verifies flow-based drafts autoregressively within a single model. This yields 2.54x the throughput of an AR model at comparable quality, outperforming multi-token prediction and discrete diffusion methods. Our findings show that continuous flows can serve as a scalable foundation for language modeling.",
+      "abs_url": "http://arxiv.org/abs/2610.28559v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28559v1",
+      "code_url": null
+    },
+    "2610.27384": {
+      "id": "2610.27384",
+      "version": "2610.27384v1",
+      "title": "Sample-efficient learning with Dense Associative Memories",
+      "authors": [
+        "Andrew Lucas",
+        "Dmitry Krotov"
+      ],
+      "published": "2026-10-19",
+      "updated": "2026-10-19",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "We analytically study the evolution of the energy function of Dense Associative Memories (DenseAMs) as they train on randomly sampled codewords of random expander low-density parity-check codes (a.k.a. solutions of random XORSAT problems). We identify two distinct regimes and a transition between them, reminiscent of grokking in neural networks. A regime of small training set size is where the model memorizes a few training examples but cannot discover the underlying rules of the entire codeword dictionary generative process. The opposite regime, corresponding to a larger training set size, is where the model has uncovered the sparse constraints that generated the entire data set after seeing only polynomially many patterns. We also design a novel class of DenseAMs with a thresholding learning rule, and show that any amount of thresholding enables the model to perform simplified sparse Hamiltonian learning, which exponentially reduces the number of training examples needed to learn the true underlying data set. In this regime, the model learns how to discover $\\exp[\\mathrm{O}(n)]$ solutions from only $\\mathrm{O}(\\log n)$ training samples, which is asymptotically optimal for any learning algorithm. When training on codewords of certain random codes, the model can even learn the underlying code when a small O(1) fraction of bits are latent variables. These latent variables are not shown to the model during learning, but will be discovered by sparsifying observed higher-order correlations. For certain random codes, we show that a simple and conservative algorithm learns a minimal latent representation for the data set. This provides a transparent, physics-motivated, and analytically tractable toy model for how deep latent representations emerge in an associative memory training.",
+      "abs_url": "http://arxiv.org/abs/2610.27384v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.27384v1",
+      "code_url": null
+    },
+    "2610.27000": {
+      "id": "2610.27000",
+      "version": "2610.27000v1",
+      "title": "ORBIT: Autoregressive Time Series Generation via Next Frequency-Band Prediction",
+      "authors": [
+        "Chunyi Hou",
+        "Xiangfei Qiu",
+        "Hanyin Cheng",
+        "Chenchen Sun",
+        "Yisheng An",
+        "Yang Shu",
+        "Jilin Hu",
+        "Bin Yang"
+      ],
+      "published": "2026-10-19",
+      "updated": "2026-10-19",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Deep generative models provide an effective modern solution to alleviating the problem of data scarcity by synthesizing realistic time series. However, despite the considerable progress achieved by existing deep time series generators, two key challenges remain: (1) learning hierarchical representations for heterogeneous temporal patterns; and (2) coordinating the generation process of heterogeneous temporal dynamics. To address these key bottlenecks, in this work, we propose ORBIT, a unified deep generative framework for time series. Specifically, we develop two key components: the Frequency-Hierarchical VQ-VAE (FH-VQ-VAE) and the Frequency-Band Autoregressive Transformer (FBAR). The former learns hierarchical representations by decomposing latent temporal representations into different frequency bands and applying residual quantization with increasing token budgets. The latter establishes a novel low-to-high frequency autoregressive direction, yielding a time series generation process that first constructs global temporal structures and then incrementally incorporates fine-grained temporal details. These compact designs not only disentangle heterogeneous temporal patterns for more effective representation learning but also mitigate potential interference among different temporal dynamics during generation. Extensive experiments on multiple challenging real-world benchmarks demonstrate that ORBIT achieves state-of-the-art overall performance while exhibiting superior inference efficiency compared with advanced baselines.",
+      "abs_url": "http://arxiv.org/abs/2610.27000v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.27000v1",
       "code_url": null
     }
   }
