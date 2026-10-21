@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.10.21
+## Updated on 2026.10.22
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **680**
-- Recent 30 days: **98**
-- Older than 30 days: **582**
+- Recent 30 days: **96**
+- Older than 30 days: **584**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -118,13 +118,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-23**|**Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?**|cs.CL, cs.AI|[2609.28245v1](http://arxiv.org/abs/2609.28245v1)|null|
 |**2026-09-22**|**TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling**|cs.CL, cs.AI, cs.LG|[2609.26347v2](http://arxiv.org/abs/2609.26347v2)|null|
 |**2026-09-22**|**ARAFA: An LLM-Generated Arabic Fact-Checking Dataset**|cs.CL, cs.IR|[2609.25833v2](http://arxiv.org/abs/2609.25833v2)|null|
-|**2026-09-21**|**URA-NER: A Unified Retrieval-Augmented Framework with Retrieval Alignment and Uncertainty Reduction for Low-Resource NER**|cs.CL, cs.AI|[2609.24372v1](http://arxiv.org/abs/2609.24372v1)|null|
-|**2026-09-21**|**Few-Shot Demonstrations Elicit the Use of In-Context World Representations in LLMs**|cs.AI|[2609.24352v1](http://arxiv.org/abs/2609.24352v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-21**|**URA-NER: A Unified Retrieval-Augmented Framework with Retrieval Alignment and Uncertainty Reduction for Low-Resource NER**|cs.CL, cs.AI|[2609.24372v1](http://arxiv.org/abs/2609.24372v1)|null|
+|**2026-09-21**|**Few-Shot Demonstrations Elicit the Use of In-Context World Representations in LLMs**|cs.AI|[2609.24352v1](http://arxiv.org/abs/2609.24352v1)|null|
 |**2026-09-20**|**Error-Supervised Synthetic Learner Writing for Automated Essay Scoring**|cs.CL|[2609.23573v1](http://arxiv.org/abs/2609.23573v1)|null|
 |**2026-09-20**|**BabelArena: A Large-Scale Multilingual Benchmark for LLM Agents**|cs.CL|[2609.23490v1](http://arxiv.org/abs/2609.23490v1)|null|
 |**2026-09-19**|**Beyond Similarity: Coverage-Aware Prompt Selection for Time Series Forecasting with LLMs**|cs.LG, cs.CL|[2609.22977v1](http://arxiv.org/abs/2609.22977v1)|null|
