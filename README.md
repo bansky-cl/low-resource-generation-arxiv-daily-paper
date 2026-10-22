@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.10.22
+## Updated on 2026.10.23
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **682**
-- Recent 30 days: **98**
-- Older than 30 days: **584**
+- Recent 30 days: **96**
+- Older than 30 days: **586**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -118,13 +118,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-25**|**LUMO (Lightweight Unified Multilingual Orchestrator): A Privacy Preserving Offline Voice Assistant**|cs.LG|[2609.30692v1](http://arxiv.org/abs/2609.30692v1)|null|
 |**2026-09-24**|**All In Good Time: Causality-Aware Framework for LLM-Based Simultaneous Speech-to-Speech Translation**|cs.CL|[2609.30416v1](http://arxiv.org/abs/2609.30416v1)|null|
 |**2026-09-23**|**Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?**|cs.CL, cs.AI|[2609.28245v1](http://arxiv.org/abs/2609.28245v1)|null|
-|**2026-09-22**|**TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling**|cs.CL, cs.AI, cs.LG|[2609.26347v2](http://arxiv.org/abs/2609.26347v2)|null|
-|**2026-09-22**|**ARAFA: An LLM-Generated Arabic Fact-Checking Dataset**|cs.CL, cs.IR|[2609.25833v2](http://arxiv.org/abs/2609.25833v2)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-22**|**TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling**|cs.CL, cs.AI, cs.LG|[2609.26347v2](http://arxiv.org/abs/2609.26347v2)|null|
+|**2026-09-22**|**ARAFA: An LLM-Generated Arabic Fact-Checking Dataset**|cs.CL, cs.IR|[2609.25833v2](http://arxiv.org/abs/2609.25833v2)|null|
 |**2026-09-21**|**URA-NER: A Unified Retrieval-Augmented Framework with Retrieval Alignment and Uncertainty Reduction for Low-Resource NER**|cs.CL, cs.AI|[2609.24372v1](http://arxiv.org/abs/2609.24372v1)|null|
 |**2026-09-21**|**Few-Shot Demonstrations Elicit the Use of In-Context World Representations in LLMs**|cs.AI|[2609.24352v1](http://arxiv.org/abs/2609.24352v1)|null|
 |**2026-09-20**|**Error-Supervised Synthetic Learner Writing for Automated Essay Scoring**|cs.CL|[2609.23573v1](http://arxiv.org/abs/2609.23573v1)|null|
