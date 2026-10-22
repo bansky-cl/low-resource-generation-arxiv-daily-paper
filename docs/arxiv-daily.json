@@ -14735,6 +14735,48 @@
       "abs_url": "http://arxiv.org/abs/2610.27000v1",
       "pdf_url": "https://arxiv.org/pdf/2610.27000v1",
       "code_url": null
+    },
+    "2610.28838": {
+      "id": "2610.28838",
+      "version": "2610.28838v1",
+      "title": "How to Use Parallel Data for Multilingual Pretraining",
+      "authors": [
+        "Zhihong Huang",
+        "Yao Lu",
+        "Derek F. Wong",
+        "Hamid Alinejad-Rokny",
+        "Min Yang"
+      ],
+      "published": "2026-10-20",
+      "updated": "2026-10-20",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "High-quality human-translated parallel corpora can improve cross-lingual transfer, but are typically too small for large-scale pretraining. Machine-translated web corpora help overcome this limitation, making parallel data available at pretraining scale. Standard multilingual pretraining, however, samples source documents and their translations independently, without explicitly using their parallel structure. We investigate how to use the parallel structure of the data to improve multilingual pretraining by concatenating each document with its translation in the same training sequence. We compare this parallel pretraining (PPT) approach with standard pretraining (SPT), training models from scratch at matched token budgets. Surprisingly, despite the benefits of parallel data reported in prior cross-lingual work, PPT alone does not consistently improve language understanding over SPT. Our further analysis suggests that although PPT builds a strong cross-lingual foundation, as shown by its better use of shared information across languages, the mismatch between parallel training contexts and single-language task inputs limits its gains in general language understanding. This finding motivates a two-stage approach following the pretraining-fine-tuning paradigm: we first use PPT to build a cross-lingual foundation, then continue with SPT to adapt it to standard language modeling. In both high-resource and low-resource settings, the two-stage approach consistently improves general language understanding and cross-lingual task performance over standard pretraining alone at matched training budgets.",
+      "abs_url": "http://arxiv.org/abs/2610.28838v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28838v1",
+      "code_url": null
+    },
+    "2610.29602": {
+      "id": "2610.29602",
+      "version": "2610.29602v1",
+      "title": "A Diagnostic Study of Faithfulness in Diffusion Language Models for Table-to-Text Generation",
+      "authors": [
+        "Zaynab Merimi",
+        "Noussayba El Marrakchi",
+        "Arthur Satouf"
+      ],
+      "published": "2026-10-21",
+      "updated": "2026-10-21",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Diffusion language models generate by iteratively denoising a masked sequence under bidirectional attention, without the strict left-to-right commitment of autoregressive decoding. Whether this difference affects how reliably they remain grounded in structured inputs is largely unexplored. We study this question in table-to-text generation using ToTTo, where highlighted source cells make factual grounding directly testable. We compare the masked diffusion models MDLM and LLaDA with GPT-2 and GPT-Neo under an identical retrieval-based few-shot protocol, together with a QLoRA-adapted LLaDA, and we score reference similarity and source grounding as separate axes. The two pull apart. Within LLaDA, additional demonstrations raise BLEU from 11.3 to 22.0 while NLI entailment against the source table falls from 0.78 to 0.52; QLoRA reaches the best BLEU of the study, 24.15, and grounds no better for it. Manual annotation shows the failure modes differ in kind: the autoregressive baselines tend to wander off the table, while LLaDA-based models more often stay on topic and swap out individual entities. Reference-based metrics alone are insufficient to assess faithfulness in table-to-text generation.",
+      "abs_url": "http://arxiv.org/abs/2610.29602v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29602v1",
+      "code_url": null
     }
   }
 }
