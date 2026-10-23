@@ -14799,6 +14799,24 @@
       "abs_url": "http://arxiv.org/abs/2610.31256v1",
       "pdf_url": "https://arxiv.org/pdf/2610.31256v1",
       "code_url": null
+    },
+    "2610.30374": {
+      "id": "2610.30374",
+      "version": "2610.30374v1",
+      "title": "Climbing the Ladder: Automating Data Pipelines and Reproducing Baselines in Low-Resource Settings",
+      "authors": [
+        "Donato Meoli",
+        "Eryk Wdowiak"
+      ],
+      "published": "2026-10-21",
+      "updated": "2026-10-21",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "The massively multilingual translation systems that now include Sicilian learned it from noisy, non-standardised web text. To obtain better translation quality, we redevelop the small neural machine translation (NMT) system that Wdowiak customized for Sicilian. We rebuild on maintained software the extraction of the parallel text from the PDFs of the bilingual journal Arba Sicula, whose sentences are aligned by a language-agnostic sentence encoder with thresholds tuned against an existing hand alignment and then filtered for the typical errors of automatic alignment. Furthermore, the tokenization and the desinence-biased subword segmentation of the original system are ported to a Perl-free implementation, and all the results are measured on a frozen test set drawn from the journal. We compare small Transformers trained from scratch with the pretrained NLLB model adapted by low-rank fine-tuning, in both directions and with Italian as a closely related bridge language, and we adapt to the pretrained model the reverse-training recipe of the original system, i.e., a stage on forward-scored back-translations of the web Sicilian followed by a stage on the curated literary text. The pretrained model is by far the better of the two, and the staged training improves the translation into Sicilian more than the translation from it. On the test set of the original system, and in the tokenized space in which it was scored, the staged model with a larger adapter and more back-translations is above the reverse-training recipe in the directions that involve English and below it between Sicilian and Italian. Yet, a multilingual adapter degrades the directions on which it was not trained, which limits its use as a general multilingual model.",
+      "abs_url": "http://arxiv.org/abs/2610.30374v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30374v1",
+      "code_url": null
     }
   }
 }
