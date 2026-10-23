@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **682**
-- Recent 30 days: **96**
+- Total papers in JSON: **683**
+- Recent 30 days: **97**
 - Older than 30 days: **586**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,7 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-22**|**IndoNutriQA: An Indonesian Clinical Nutrition Question Answering Benchmark**|cs.CL|[2610.31256v1](http://arxiv.org/abs/2610.31256v1)|null|
 |**2026-10-21**|**A Diagnostic Study of Faithfulness in Diffusion Language Models for Table-to-Text Generation**|cs.CL, cs.LG|[2610.29602v1](http://arxiv.org/abs/2610.29602v1)|null|
 |**2026-10-20**|**How to Use Parallel Data for Multilingual Pretraining**|cs.CL, cs.AI|[2610.28838v1](http://arxiv.org/abs/2610.28838v1)|null|
 |**2026-10-20**|**Large Flow Language Models**|cs.CL, cs.AI|[2610.28559v1](http://arxiv.org/abs/2610.28559v1)|null|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-16**|**BengaliMCQ: Automatic Generation and Answer Prediction of Academic Multiple-Choice Questions in a Low-Resource Language**|cs.CL|[2608.15547v1](http://arxiv.org/abs/2608.15547v1)|null|
 |**2026-08-15**|**Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL**|cs.AI|[2608.15389v2](http://arxiv.org/abs/2608.15389v2)|null|
 |**2026-08-15**|**Structuring Semantic Embeddings for Principle Evaluation: A Prototype-Guided Contrastive Learning Approach**|cs.LG|[2608.15224v2](http://arxiv.org/abs/2608.15224v2)|null|
-|**2026-08-14**|**Envs-FORGE: Frontier-Optimized Reward-Grounded Environment Synthesis for Agent RL**|cs.CL|[2608.14312v1](http://arxiv.org/abs/2608.14312v1)|**[code](https://github.com/DataArcTech/DataArc-SynData-Toolkit/)**|
 
-README omitted **482** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **483** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
