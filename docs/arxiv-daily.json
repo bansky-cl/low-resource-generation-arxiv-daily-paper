@@ -13221,7 +13221,7 @@
     },
     "2610.02949": {
       "id": "2610.02949",
-      "version": "2610.02949v2",
+      "version": "2610.02949v3",
       "title": "Enhancing Biomedical Named Entity Recognition via Multiple Programming Languages Instruction Tuning and Ensemble Method",
       "authors": [
         "Songtao Li",
@@ -13232,13 +13232,13 @@
         "Hongfei Lin"
       ],
       "published": "2026-10-02",
-      "updated": "2026-10-17",
+      "updated": "2026-10-23",
       "categories": [
         "cs.CL"
       ],
       "abstract": "Instruction tuning has become a common paradigm for applying large language models (LLMs) to biomedical named entity recognition (BioNER). However, existing instruction-tuning approaches still face two key challenges. First, conventional natural-language instructions typically serialize BioNER annotations as flat textual outputs, providing limited structural constraints for typed entity extraction. Second, high-quality biomedical annotations are limited, and learning from a single serialized output form may restrict structural diversity and reduce model robustness. Although external biomedical knowledge can be introduced to alleviate data scarcity, it often requires costly resource construction. To address these challenges, we propose MITE, a Multiple Programming Languages Instruction Tuning and Ensemble method for BioNER. MITE reformulates BioNER as a structure-to-structure generation task by representing both instructions and entity outputs in code-formatted representations. Specifically, each training instance is transformed into multiple programming-language formats, including Python, C++, and Java, while preserving the same underlying entity semantics. These language-specific representations provide structurally diverse supervision without requiring external biomedical knowledge or additional annotations. During inference, MITE aggregates predictions from different code formats through an entity-level voting strategy, reducing language-specific prediction variance and improving robustness. Experiments on three widely used BioNER datasets demonstrate that MITE achieves competitive performance against representative BERT-based and LLM-based baselines, attaining the best results on two benchmarks. Ablation studies further validate the effectiveness of multi-language representations.",
-      "abs_url": "http://arxiv.org/abs/2610.02949v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.02949v2",
+      "abs_url": "http://arxiv.org/abs/2610.02949v3",
+      "pdf_url": "https://arxiv.org/pdf/2610.02949v3",
       "code_url": null
     },
     "2610.05787": {
@@ -14816,6 +14816,85 @@
       "abstract": "The massively multilingual translation systems that now include Sicilian learned it from noisy, non-standardised web text. To obtain better translation quality, we redevelop the small neural machine translation (NMT) system that Wdowiak customized for Sicilian. We rebuild on maintained software the extraction of the parallel text from the PDFs of the bilingual journal Arba Sicula, whose sentences are aligned by a language-agnostic sentence encoder with thresholds tuned against an existing hand alignment and then filtered for the typical errors of automatic alignment. Furthermore, the tokenization and the desinence-biased subword segmentation of the original system are ported to a Perl-free implementation, and all the results are measured on a frozen test set drawn from the journal. We compare small Transformers trained from scratch with the pretrained NLLB model adapted by low-rank fine-tuning, in both directions and with Italian as a closely related bridge language, and we adapt to the pretrained model the reverse-training recipe of the original system, i.e., a stage on forward-scored back-translations of the web Sicilian followed by a stage on the curated literary text. The pretrained model is by far the better of the two, and the staged training improves the translation into Sicilian more than the translation from it. On the test set of the original system, and in the tokenized space in which it was scored, the staged model with a larger adapter and more back-translations is above the reverse-training recipe in the directions that involve English and below it between Sicilian and Italian. Yet, a multilingual adapter degrades the directions on which it was not trained, which limits its use as a general multilingual model.",
       "abs_url": "http://arxiv.org/abs/2610.30374v1",
       "pdf_url": "https://arxiv.org/pdf/2610.30374v1",
+      "code_url": null
+    },
+    "2610.23170": {
+      "id": "2610.23170",
+      "version": "2610.23170v2",
+      "title": "Chinese Decision: A Family of Language Models for Single-Pass Probabilistic Decision-Making",
+      "authors": [
+        "Qiang Yan"
+      ],
+      "published": "2026-10-16",
+      "updated": "2026-10-23",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Many language-based applications need a probability distribution over a small set of decisions rather than an open-ended response. We present Chinese Decision, a family of Chinese-language decision models that adapts pretrained causal language models to this interface. Each question is compiled into a shared instruction-and-candidate prompt; a single forward pass reads the final-position logits of the candidate letters and normalizes them over the valid options, without autoregressive answer generation. The interface covers Boolean judgments, categorical choices, and ordinal scores. We report three completed members built on Qwen3.5 0.8B, 2B, and 4B backbones, each trained for one epoch on the same 13.048 million decisions and released with a validation-fitted temperature and a Q8_0 quantization. On the full 307,900-decision CJ-Bench, the 4B model reaches 85.97% overall accuracy, 75.69% general-domain accuracy, and 84.00% average accuracy across medicine, law, and finance with a single checkpoint, above every reported baseline in each domain, at 1.00% expected calibration error. Between the 2B and 4B members, which share data, objective, and minimum batch, parent-clustered paired bootstrap intervals show gains in all four domains, largest in the two low-resource domains (+8.5 and +7.1 points), whereas the 2B gain over 0.8B in law is not statistically resolved. Analyses of the stored predictions further show that a single global temperature lowers pooled calibration error while worsening some domains, that larger members rank their own errors better for selective prediction, and that merging and quantization each change 0.4-1.1% of top-1 predictions while leaving aggregate metrics nearly unchanged. All comparisons rest on single training runs and imported baselines.",
+      "abs_url": "http://arxiv.org/abs/2610.23170v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.23170v2",
+      "code_url": null
+    },
+    "2610.32955": {
+      "id": "2610.32955",
+      "version": "2610.32955v1",
+      "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+      "authors": [
+        "Federico Lucca"
+      ],
+      "published": "2026-10-23",
+      "updated": "2026-10-23",
+      "categories": [
+        "cs.CL",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "abstract": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protocol (stratified sampling, frozen snapshots, thread-grouped splits, pre-registered hypotheses, human labels in the agent's review loop) that yields ground truth before any training. On 739 real Italian/English emails labelled by the owner (231 unbiased, 500 adversarially sampled), we compare nine systems under thread-grouped cross-validation: the production keyword rules, a TF-IDF + logistic-regression baseline, local typed decision models (Tev1, Nimble), a hosted decision model (Nimble v4-max), and hosted generative LLMs (Qwen2.5-7B, Gemma 4 26B/31B). Four results. The production rules score 28% on message type against a 58% majority class: the field shown most prominently carried no information. With ~200 labels, logistic regression has the highest accuracy on every field (type 0.79, urgency 0.74, needs-reply 0.83, is-noise 0.90), though it never predicts the two rarest classes and is statistically tied with Gemma 4 on type; few-shot prompting does not close the gap. The sender's relationship (client, supplier, service) is recovered from other emails of the same contact with 98.6% accuracy where the contact has been seen, and is not inferable from a single message by any model: it belongs in the contact graph, not the prompt. Finally, accuracy is not the product metric: composed into actions, the most accurate system most often ignores emails needing action (18% vs 4% for the best LLM); a cost-chosen threshold on its noise probability halves that rate and makes it the cheapest system.",
+      "abs_url": "http://arxiv.org/abs/2610.32955v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32955v1",
+      "code_url": null
+    },
+    "2610.31904": {
+      "id": "2610.31904",
+      "version": "2610.31904v1",
+      "title": "Real-to-Sim Calibration of Bosch Etching Simulators with Few-Shot XSEM Data and Hybrid Search",
+      "authors": [
+        "Xinyu Jia",
+        "Jainil Shah",
+        "Rahul Tripathi",
+        "Vijay Gupta",
+        "Zhihong Chen"
+      ],
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "categories": [
+        "cs.CE",
+        "cs.LG"
+      ],
+      "abstract": "The Bosch process is widely used in MEMS and TSV fabrication, but accurate prediction of etching outcomes remains difficult without calibration against real measurements, which are sparse and costly to obtain. This work presents a few-shot real-to-sim calibration framework that decouples simulator parameters from direct process variables to infer a recipe-specific simulator parameter vector from sparse measurements, enabling reliable prediction of etch depth and sidewall angle under held-out process conditions. We first formulate Bosch profile prediction as a few-shot real-to-sim calibration problem, where a small set of real XSEM measurements is used to identify a recipe-specific ViennaPS parameter vector $z_r^*$ that minimizes the discrepancy between simulated and measured etch depth and sidewall angle. To search this parameter space efficiently, the framework combines local exploration, LLM-guided candidate generation, and XGBoost-based surrogate screening, while retaining ViennaPS simulation as the final verification step for each selected candidate. Experiments on two Bosch etching recipes show that the proposed framework accurately predicts held-out etching results, achieving normalized global errors of 0.340 and 0.249 for the 2 recipes respectively.",
+      "abs_url": "http://arxiv.org/abs/2610.31904v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31904v1",
+      "code_url": null
+    },
+    "2610.32334": {
+      "id": "2610.32334",
+      "version": "2610.32334v1",
+      "title": "Data-Efficient Backdoor Attacks on Code Models via Trigger-Neutralized Counterfactual Scoring",
+      "authors": [
+        "Yu-Yu Lee",
+        "Ming-Feng Tsai",
+        "Tomohiro Morikawa",
+        "Chun-I Fan"
+      ],
+      "published": "2026-10-23",
+      "updated": "2026-10-23",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Pre-trained code models are exposed to backdoor poisoning, in which crafted training samples make the model misbehave on a trigger. A capable attacker minimizes the number of such samples, since each adds cost and exposure and a lower poisoning rate leaves a smaller footprint for defenses. Which samples to poison therefore matters, but existing data-efficient selection methods target image classification, offer no scoring mechanism for autoregressive generation, and have not been studied on code. We propose Trigger-Neutralized Counterfactual Scoring (TNCS), which isolates a trigger's contribution to the target behavior by comparing the scoring model's output on a triggered input with its output on a trigger-neutralized counterfactual, covering classification and generation alike. TNCS attains higher attack success rates than the baselines at very low poisoning ratios, across three CodeXGLUE tasks and five trigger families, without degrading clean-task performance, and its margin grows as the ratio decreases. It is the only method effective on every trigger family, and its selected poison set transfers to mismatched victims.",
+      "abs_url": "http://arxiv.org/abs/2610.32334v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32334v1",
       "code_url": null
     }
   }
