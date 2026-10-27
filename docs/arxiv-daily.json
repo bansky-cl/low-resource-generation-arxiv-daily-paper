@@ -13155,7 +13155,7 @@
     },
     "2610.03363": {
       "id": "2610.03363",
-      "version": "2610.03363v2",
+      "version": "2610.03363v3",
       "title": "Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers",
       "authors": [
         "Luis Medrano-Navarro",
@@ -13167,14 +13167,14 @@
         "Nils Thuerey"
       ],
       "published": "2026-10-02",
-      "updated": "2026-10-05",
+      "updated": "2026-10-26",
       "categories": [
         "cs.AI"
       ],
-      "abstract": "Neural surrogate models for Partial Differential Equations (PDEs) on unstructured 3D geometries are often limited by poor generalization and the high cost of generating large-scale training datasets. Consequently, pre-training on massive datasets of related PDE dynamics has emerged as a critical alternative to enhance the robustness and scalability of these models. However, this strategy is neither compute- nor data-efficient, as it relies on massive pre-computed data that is very costly to generate. In this work, we introduce a disk-data-free pre-training framework tailored to both steady-state and transient regimes. For steady-state problems, we propose a geometry-driven strategy that leverages intrinsic shape descriptors to learn representations of complex 3D domains. For transient problems, we introduce a physics-driven approach based on online generation of synthetic PDE data, enabling scalable pre-training without reliance on expensive datasets. Across multiple experiments, our approach achieves faster convergence, greater data efficiency, and higher accuracy during fine-tuning, particularly under realistic low-data regimes. This methodology provides a practical pathway toward data-efficient neural emulators for large-scale simulations.",
-      "abs_url": "http://arxiv.org/abs/2610.03363v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.03363v2",
-      "code_url": null
+      "abstract": "Neural surrogate models for Partial Differential Equations (PDEs) on unstructured 3D geometries are often limited by poor generalization and the high cost of generating large-scale training datasets. Consequently, pre-training on massive datasets of related PDE dynamics has emerged as a critical alternative to enhance the robustness and scalability of these models. However, this strategy is neither compute- nor data-efficient, as it relies on massive pre-computed data that is very costly to generate. In this work, we introduce a disk-data-free pre-training framework tailored to both steady-state and transient regimes. For steady-state problems, we propose a geometry-driven strategy that leverages intrinsic shape descriptors to learn representations of complex 3D domains. For transient problems, we introduce a physics-driven approach based on online generation of synthetic PDE data, enabling scalable pre-training without reliance on expensive datasets. Across multiple experiments, our approach achieves faster convergence, greater data efficiency, and higher accuracy during fine-tuning, particularly under realistic low-data regimes. This methodology provides a practical pathway toward data-efficient neural emulators for large-scale simulations. Code and models are available at https://github.com/tum-pbs/GMP.",
+      "abs_url": "http://arxiv.org/abs/2610.03363v3",
+      "pdf_url": "https://arxiv.org/pdf/2610.03363v3",
+      "code_url": "https://github.com/tum-pbs/GMP"
     },
     "2610.02542": {
       "id": "2610.02542",
@@ -13991,7 +13991,7 @@
     },
     "2610.18818": {
       "id": "2610.18818",
-      "version": "2610.18818v2",
+      "version": "2610.18818v3",
       "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
       "authors": [
         "Divyanshu Bathla",
@@ -13999,14 +13999,14 @@
         "Jitin Singla"
       ],
       "published": "2026-10-13",
-      "updated": "2026-10-14",
+      "updated": "2026-10-26",
       "categories": [
         "cs.CL",
         "cs.AI"
       ],
       "abstract": "Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resource languages, the obvious options are few-shot prompting and fine-tuning on a small parallel set. We ask: what if moderate amounts of low-resource monolingual data are also available? We argue that, rather than continued pretraining, a more effective use of this data is the pre-LLM era technique of back-translation (BT). The current fine-tuned LLM translates monolingual sentences in each language, and the resulting pairs train it in the reverse direction. Updates on the parallel set are interleaved for stable learning. With 1K parallel pairs on Odia and Swahili, BT beats continued pretraining into the low-resource language by 7.7 to 16.4 XCOMET-XXL points in domain. With beam-decoded intermediate translations, it also beats a model with 10 time more parallel data. In-context examples retrieved from the parallel data further improve BT. We also analyze the source, quality and amount of monolingual text. Across five low-resource languages, with Hindi as a high-resource control, and two 3B backbones, BT improves translation into the low-resource language by 16 to 173% XCOMET-XXL over parallel-only fine-tuning. Blind human evaluation on Odia and Sanskrit agrees with the automatic metrics.",
-      "abs_url": "http://arxiv.org/abs/2610.18818v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.18818v2",
+      "abs_url": "http://arxiv.org/abs/2610.18818v3",
+      "pdf_url": "https://arxiv.org/pdf/2610.18818v3",
       "code_url": null
     },
     "2610.20191": {
@@ -14509,7 +14509,7 @@
     },
     "2610.25076": {
       "id": "2610.25076",
-      "version": "2610.25076v1",
+      "version": "2610.25076v2",
       "title": "P2N: Reusing Deep Representations for Greater Effective Depth",
       "authors": [
         "Yiqin Hao",
@@ -14519,16 +14519,18 @@
         "Shixiang Song",
         "Feichen Song",
         "Yifan Liu",
+        "Ran Tao",
+        "Bryan Dai",
         "Zhouhan Lin"
       ],
       "published": "2026-10-18",
-      "updated": "2026-10-18",
+      "updated": "2026-10-24",
       "categories": [
         "cs.CL"
       ],
       "abstract": "Mathematical problem solving and autonomous agents are increasingly important applications of language models, demanding stronger reasoning capabilities. Computational depth is a key resource for such reasoning, but adding model layers increases both training and inference costs, while test-time scaling incurs substantial additional inference computation. We introduce P2N (Previous to Next), which reuses the previous token's deep representations, already available during generation, to increase effective computational depth with negligible decoding overhead. Specifically, P2N adds the previous token's deep hidden state to the current token's shallow representation, allowing subsequent layers to build on previously completed deep computation. This recurrence extends effective computational depth across tokens, while introducing only a single vector addition per decoding step. We train the recurrence using parallel Jacobi updates restricted to a middle-layer core. Experiments with Qwen-style models show that, at 1.5B parameters, P2N improves GSM8K accuracy by over 10 percentage points under both zero-shot and few-shot prompting, with nearly unchanged decoding latency. The benefits also extend to language modeling and average performance on general downstream benchmarks. on general downstream benchmarks.",
-      "abs_url": "http://arxiv.org/abs/2610.25076v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.25076v1",
+      "abs_url": "http://arxiv.org/abs/2610.25076v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.25076v2",
       "code_url": null
     },
     "2610.24913": {
@@ -14895,6 +14897,107 @@
       "abstract": "Pre-trained code models are exposed to backdoor poisoning, in which crafted training samples make the model misbehave on a trigger. A capable attacker minimizes the number of such samples, since each adds cost and exposure and a lower poisoning rate leaves a smaller footprint for defenses. Which samples to poison therefore matters, but existing data-efficient selection methods target image classification, offer no scoring mechanism for autoregressive generation, and have not been studied on code. We propose Trigger-Neutralized Counterfactual Scoring (TNCS), which isolates a trigger's contribution to the target behavior by comparing the scoring model's output on a triggered input with its output on a trigger-neutralized counterfactual, covering classification and generation alike. TNCS attains higher attack success rates than the baselines at very low poisoning ratios, across three CodeXGLUE tasks and five trigger families, without degrading clean-task performance, and its margin grows as the ratio decreases. It is the only method effective on every trigger family, and its selected poison set transfers to mismatched victims.",
       "abs_url": "http://arxiv.org/abs/2610.32334v1",
       "pdf_url": "https://arxiv.org/pdf/2610.32334v1",
+      "code_url": null
+    },
+    "2610.35114": {
+      "id": "2610.35114",
+      "version": "2610.35114v1",
+      "title": "Quality over Quantity: Rethinking Data and Model Assumptions for Bengali Coreference Resolution",
+      "authors": [
+        "Zenith Biswas",
+        "Andrew Thomas Dyer"
+      ],
+      "published": "2026-10-26",
+      "updated": "2026-10-26",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Multilingual transformer models are often assumed to generalise across languages, but their effectiveness for coreference resolution in low-resource settings remains unverified. We investigate this gap in Bengali, a language with over 250 million speakers but limited annotated coreference resources. We evaluate transformer-based pre-trained encoders under multiple settings, including zero-shot, fine-tuning, data augmentation, and cross-lingual transfer. Our results challenge several common assumptions about model generalisation and data efficiency in low-resource NLP. We demonstrate that a small amount of high-quality annotated data significantly outperforms larger mixed-quality datasets (p < 0.01). We find that data augmentation, particularly back-translation, does not improve performance and can degrade results in coreference resolution. Cross-lingual transfer is also inconsistent: transfer from a distant language like English reduces performance, and transfer from the related language Hindi provides no consistent benefit across models. Several widely used multilingual models exhibit collapsed embedding spaces, rendering them unsuitable for similarity-based clustering tasks. These findings highlight the importance of annotation quality over data quantity and provide empirical guidance for developing coreference resolution systems in low-resource languages.",
+      "abs_url": "http://arxiv.org/abs/2610.35114v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.35114v1",
+      "code_url": null
+    },
+    "2610.35523": {
+      "id": "2610.35523",
+      "version": "2610.35523v1",
+      "title": "Ranking Function Generation with LLMs for Termination",
+      "authors": [
+        "Rongkang Li",
+        "Jiaxin Hu",
+        "Taolue Chen",
+        "Yong Li",
+        "Fu Song",
+        "Zhilin Wu"
+      ],
+      "published": "2026-10-26",
+      "updated": "2026-10-26",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.LO"
+      ],
+      "abstract": "Ranking functions are a fundamental technique for proving loop termination, but constructing them manually is challenging and requires substantial expertise. We propose RAINFALL, a neuro-symbolic framework which follows the generate-verify-refine paradigm and tightly integrates LLMs with symbolic verification. RAINFALL formulates ranking function synthesis as a code-completion task by inserting placeholders into the input program and constraining the LLM to fill four predefined slots for each loop. The completed program is then checked by a symbolic verifier. If verification succeeds, a valid ranking function is obtained; otherwise, the verifier's diagnostics are translated into natural-language feedback that guides iterative refinement of the LLM's output. We evaluate RAINFALL on two public benchmark suites comprising 358 terminating C programs. Using MiniMax V2.7, RAINFALL synthesizes verifiable ranking functions for 323 programs (90.22%), outperforming all promising baselines. In particular, it solves 12 more programs than PROTON 2.1, the best-performing baseline and winner of the SV-COMP 2026 Termination category. Furthermore, combining RAINFALL with PROTON 2.1 increases the success rate to 96.65% (346/358 programs). We also conduct ablation study confirming individual contributions of placeholder contracts, few-shot examples, symbolic verification, and diagnostic information feedback. Experiments across LLMs further confirm the effectiveness of RAINFALL. Our results suggest a generic, sound framework for ranking-function synthesis and, beyond termination, LLM-assisted synthesis of formally checkable liveness certificates, both of which represent new directions of software engineering research.",
+      "abs_url": "http://arxiv.org/abs/2610.35523v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.35523v1",
+      "code_url": null
+    },
+    "2610.34281": {
+      "id": "2610.34281",
+      "version": "2610.34281v1",
+      "title": "Transformer to GPT-5: Advancements, Limitations, and Future Directions in Large Language Model Design",
+      "authors": [
+        "Harsidak Singh Banwait",
+        "Chander Prabha"
+      ],
+      "published": "2026-10-25",
+      "updated": "2026-10-25",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Large Language Models (LLMs) have revolutionized Artificial Intelligence (AI) by their extraordinary capabilities, like contextual understanding, few-shot/zero-shot learning, code generation, ability to reason and problem-solving. Recent studies have shown immense work on LLMs. Yet, there is limited work on the thorough taxonomy of LLMs. This study would showcase a detailed classification of LLMs, starting with the earlier models like BERT and leading to LLMs like GPT, Gemini, Claude and Grok. We would delve into topics like datasets used to train LLMs, computational power used during training, their hardware specifications, architecture and parameters. Further, we would also look at the limitations, computational challenges and open problems as well. This study would primarily focus on the timeline of LLMs, signifying their growth over the period. Findings reveal a clear pattern: models that optimize the ratio between architectural complexity and data quality exhibit stronger reasoning stability and better alignment, without proportionally increasing the computational load. This desired balance between scaling and sustainability is the defining characteristic of the current generation of AI.",
+      "abs_url": "http://arxiv.org/abs/2610.34281v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.34281v1",
+      "code_url": null
+    },
+    "2610.33775": {
+      "id": "2610.33775",
+      "version": "2610.33775v1",
+      "title": "The Hitchhiker's Guide to System 1 Models: Fast Decision-Making Beyond LLMS",
+      "authors": [
+        "Haggai Roitman"
+      ],
+      "published": "2026-10-24",
+      "updated": "2026-10-24",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Large Language Models excel at reasoning and generation but their autoregressive, token-by-token inference makes them unnecessarily slow, expensive, and poorly calibrated for the many routine decisions (routing, gating, scoring, classification) that modern AI systems require at sub-second latency. A growing class of models addresses this gap: System 1 decision models, architectures that map an input directly to a typed, structured decision in a single forward pass. This guide provides a comprehensive, practitioner-oriented treatment of the field. We propose a five-family taxonomy covering encoder-based classifiers, reward models, non-autoregressive decision engines, contrastive decision models, and extraction models, and we provide in-depth coverage of each family's architecture, training methodology, and deployment trade-offs. A central theme is calibration: we develop the theory of proper scoring rules, analyze Reinforcement Learning for Calibrated Decisions (RLCD), and examine recently discovered phenomena including IIA violations, ordinal-scale bias, and few-shot recalibration under distribution shift. On the integration side, we describe how System 1 models serve as decision infrastructure within agentic workflows and System 1 + System 2 cascades that route between fast and slow models based on calibrated confidence. The guide covers 18 application domains, maps the rapidly growing open-source ecosystem (over 70 model reproductions in weeks), provides runnable code throughout, and includes a practitioner's checklist, an open-source model zoo, and 22 self-assessment questions with detailed answers. Spanning 190 references, it is intended as a unified entry point for researchers and engineers working at the intersection of fast decision-making, calibration, and production AI systems.",
+      "abs_url": "http://arxiv.org/abs/2610.33775v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.33775v1",
+      "code_url": null
+    },
+    "2610.33741": {
+      "id": "2610.33741",
+      "version": "2610.33741v1",
+      "title": "Beyond Prompts: A Systematic Study of LLM-Based Machine Translation Evaluators",
+      "authors": [
+        "Dmitry Popov",
+        "Roman Bokhyan",
+        "Ekaterina Enikeeva",
+        "Artem Mekhraliev",
+        "Stepan Vysotsky",
+        "Nikolay Karpachev"
+      ],
+      "published": "2026-10-24",
+      "updated": "2026-10-24",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "LLM-based evaluators have rapidly become a standard tool for machine translation evaluation, yet the design choices that shape their behavior remain poorly understood. We present a systematic study of how instruction design, few-shot demonstrations, backbone model choice, and multi-step workflows affect span-level and ranking-based MT evaluation. We collect new expert RATE annotations on WMT24 and WMT25 English-Russian translations, with transfer validation on MQM- and ESA-annotated benchmarks across five additional language pairs. Our experiments reveal four robust findings: instruction structure shapes evaluator behavior, high-quality demonstrations matter more than quantity, frontier backbones exhibit distinct evaluator profiles (recall-, precision-, or ranking-oriented), and fusing outputs across diverse backbones outperforms single-evaluator multi-call setups. Although evaluator design exposes a large combinatorial space, several discovered design principles transfer consistently across annotation protocols and language pairs. We synthesize these findings into ORBIT, a family of LLM-based MT evaluators. Our strongest configurations achieve expert-level performance in error span detection and in Accuracy and Fluency ranking at roughly 20x lower cost than expert human annotation.",
+      "abs_url": "http://arxiv.org/abs/2610.33741v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.33741v1",
       "code_url": null
     }
   }

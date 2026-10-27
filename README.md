@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **688**
-- Recent 30 days: **98**
+- Total papers in JSON: **693**
+- Recent 30 days: **103**
 - Older than 30 days: **590**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,11 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-26**|**Ranking Function Generation with LLMs for Termination**|cs.SE, cs.AI, cs.LO|[2610.35523v1](http://arxiv.org/abs/2610.35523v1)|null|
+|**2026-10-26**|**Quality over Quantity: Rethinking Data and Model Assumptions for Bengali Coreference Resolution**|cs.CL|[2610.35114v1](http://arxiv.org/abs/2610.35114v1)|null|
+|**2026-10-25**|**Transformer to GPT-5: Advancements, Limitations, and Future Directions in Large Language Model Design**|cs.CL, cs.LG|[2610.34281v1](http://arxiv.org/abs/2610.34281v1)|null|
+|**2026-10-24**|**The Hitchhiker's Guide to System 1 Models: Fast Decision-Making Beyond LLMS**|cs.AI, cs.CL|[2610.33775v1](http://arxiv.org/abs/2610.33775v1)|null|
+|**2026-10-24**|**Beyond Prompts: A Systematic Study of LLM-Based Machine Translation Evaluators**|cs.CL|[2610.33741v1](http://arxiv.org/abs/2610.33741v1)|null|
 |**2026-10-23**|**Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox**|cs.CL, cs.HC, cs.LG|[2610.32955v1](http://arxiv.org/abs/2610.32955v1)|null|
 |**2026-10-23**|**Data-Efficient Backdoor Attacks on Code Models via Trigger-Neutralized Counterfactual Scoring**|cs.CR, cs.AI|[2610.32334v1](http://arxiv.org/abs/2610.32334v1)|null|
 |**2026-10-22**|**Real-to-Sim Calibration of Bosch Etching Simulators with Few-Shot XSEM Data and Hybrid Search**|cs.CE, cs.LG|[2610.31904v1](http://arxiv.org/abs/2610.31904v1)|null|
@@ -40,7 +45,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-19**|**FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety**|cs.AI|[2610.26066v1](http://arxiv.org/abs/2610.26066v1)|null|
 |**2026-10-18**|**FoundPDE: A generative foundation model for data-driven symbolic discovery of partial differential equations**|physics.comp-ph, cs.AI, cs.LG|[2610.26963v1](http://arxiv.org/abs/2610.26963v1)|null|
 |**2026-10-18**|**Stepwise Reasoning Verification: Don't Generate, Classify!**|cs.AI|[2610.25441v1](http://arxiv.org/abs/2610.25441v1)|null|
-|**2026-10-18**|**P2N: Reusing Deep Representations for Greater Effective Depth**|cs.CL|[2610.25076v1](http://arxiv.org/abs/2610.25076v1)|null|
+|**2026-10-18**|**P2N: Reusing Deep Representations for Greater Effective Depth**|cs.CL|[2610.25076v2](http://arxiv.org/abs/2610.25076v2)|null|
 |**2026-10-18**|**The World as Viewed by 136 Countries: An Open, Curated, Annotated, and Multilingual Dataset of 118 Million State Media Articles**|cs.CL, cs.CY|[2610.24990v1](http://arxiv.org/abs/2610.24990v1)|**[code](https://huggingface.co/collections/manestay/worldstatemedia)**|
 |**2026-10-17**|**A Cross-Domain Evaluation of Prompting Techniques for Large Language Models**|cs.AI, cs.CL|[2610.24913v1](http://arxiv.org/abs/2610.24913v1)|null|
 |**2026-10-17**|**GLOSS-MT: Controllable Low-Resource Machine Translation with an Editable Dictionary**|cs.CL, cs.AI|[2610.24730v1](http://arxiv.org/abs/2610.24730v1)|null|
@@ -63,7 +68,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-13**|**PairIT: Autoregressive Transformers for Low-Data Molecule Optimization**|cs.LG, cs.AI, physics.chem-ph|[2610.19123v1](http://arxiv.org/abs/2610.19123v1)|null|
 |**2026-10-13**|**Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models**|cs.CV, cs.AI, cs.CL|[2610.19108v1](http://arxiv.org/abs/2610.19108v1)|null|
 |**2026-10-13**|**Evaluating Large Language Models for Multilingual Abstractive Summarization: A Comprehensive Study of English and Bengali**|cs.CL, cs.AI|[2610.19003v1](http://arxiv.org/abs/2610.19003v1)|null|
-|**2026-10-13**|**Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs**|cs.CL, cs.AI|[2610.18818v2](http://arxiv.org/abs/2610.18818v2)|null|
+|**2026-10-13**|**Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs**|cs.CL, cs.AI|[2610.18818v3](http://arxiv.org/abs/2610.18818v3)|null|
 |**2026-10-12**|**Generative Models as Adaptive Trust Regions for Discrete Bayesian Optimisation**|cs.LG|[2610.16992v1](http://arxiv.org/abs/2610.16992v1)|null|
 |**2026-10-12**|**PATMT2: Two-stage domain adaptation for multilingual patent translation**|cs.CL, cs.AI|[2610.16466v1](http://arxiv.org/abs/2610.16466v1)|null|
 |**2026-10-11**|**Robust Marathi Sentiment Analysis using Domain-Adaptive Pre-training and Data Augmentation Approaches**|cs.CL, cs.LG|[2610.15761v1](http://arxiv.org/abs/2610.15761v1)|null|
@@ -99,7 +104,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-03**|**Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation**|cs.AI|[2610.04188v4](http://arxiv.org/abs/2610.04188v4)|null|
 |**2026-10-02**|**Protecting Sensitive Data in Image Synthesis via PAC-Private Adaptation for Diffusion Models**|cs.LG|[2610.04038v1](http://arxiv.org/abs/2610.04038v1)|null|
 |**2026-10-02**|**Multilingual GSM-Symbolic: What determines capability transfer across languages?**|cs.AI, cs.CL|[2610.03367v2](http://arxiv.org/abs/2610.03367v2)|null|
-|**2026-10-02**|**Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers**|cs.AI|[2610.03363v2](http://arxiv.org/abs/2610.03363v2)|null|
+|**2026-10-02**|**Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers**|cs.AI|[2610.03363v3](http://arxiv.org/abs/2610.03363v3)|**[code](https://github.com/tum-pbs/GMP)**|
 |**2026-10-02**|**Predicting Steering Vectors and Adapter Weights for Few-Shot Author-Style Transfer**|cs.CL, cs.AI|[2610.03163v1](http://arxiv.org/abs/2610.03163v1)|null|
 |**2026-10-02**|**Enhancing Biomedical Named Entity Recognition via Multiple Programming Languages Instruction Tuning and Ensemble Method**|cs.CL|[2610.02949v3](http://arxiv.org/abs/2610.02949v3)|null|
 |**2026-10-01**|**Fine-Grained Emotion Classification from Mobile App Reviews: An Empirical Study with Large Language Models**|cs.CL, cs.IR, cs.SE|[2610.03802v1](http://arxiv.org/abs/2610.03802v1)|null|
@@ -222,13 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-20**|**HealMed: Multilingual Evaluation of Large Language Models in Medicine**|cs.CL|[2608.19981v1](http://arxiv.org/abs/2608.19981v1)|null|
 |**2026-08-20**|**ADAPT: Physics-Aware Diffusion-based World Models for Adaptive Predictive Transferable HVAC Control**|cs.AI|[2608.19804v1](http://arxiv.org/abs/2608.19804v1)|null|
 |**2026-08-19**|**TranslatePsy-AfriSLM: High-Quality Data Scaling For Low-Resource Machine Translation**|cs.CL|[2608.18655v2](http://arxiv.org/abs/2608.18655v2)|null|
-|**2026-08-19**|**FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis**|cs.AI, cs.PL|[2608.18580v1](http://arxiv.org/abs/2608.18580v1)|null|
-|**2026-08-18**|**Analysis of Types of Inquiries in Student-AI Interaction: A case study of two CS2 tasks**|cs.HC, cs.AI|[2608.17919v1](http://arxiv.org/abs/2608.17919v1)|null|
-|**2026-08-18**|**GADR: Gathering Architecture Decision Records from Meeting Transcriptions**|cs.SE, cs.AI|[2608.17694v1](http://arxiv.org/abs/2608.17694v1)|null|
-|**2026-08-18**|**Cognitive Graph Intelligence for Adaptive and Robust DDoS Attack Detection in Next Generation Networks**|cs.AI|[2608.17352v1](http://arxiv.org/abs/2608.17352v1)|null|
-|**2026-08-17**|**Beyond Asking: A Pipeline for Personalized Game Generation that Reads Players from Behavior**|cs.AI, cs.HC|[2608.16196v1](http://arxiv.org/abs/2608.16196v1)|null|
 
-README omitted **488** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **493** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
