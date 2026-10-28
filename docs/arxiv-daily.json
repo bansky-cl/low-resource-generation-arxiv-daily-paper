@@ -14999,6 +14999,118 @@
       "abs_url": "http://arxiv.org/abs/2610.33741v1",
       "pdf_url": "https://arxiv.org/pdf/2610.33741v1",
       "code_url": null
+    },
+    "2610.37245": {
+      "id": "2610.37245",
+      "version": "2610.37245v1",
+      "title": "Aligning Large Language Models for Safety in African Languages: A Case Study of Hausa",
+      "authors": [
+        "Valdini Douglace Lemofouet",
+        "Blessing Ngozi Uzor",
+        "Paula Chikaodinaka Anyanwu",
+        "Danielle Blanche Kapsa",
+        "Saminu Mohammad Aliyu",
+        "Seid Muhie Yimam",
+        "Shamsuddeen Hassan Muhammad"
+      ],
+      "published": "2026-10-27",
+      "updated": "2026-10-27",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Safety alignment research for large language models (LLMs) remains concentrated on high-resource languages, leaving open how existing alignment methods perform in low-resource, culturally distinct settings. We study this question for Hausa, a language spoken by more than 200 million people across West Africa. We introduce HausaSafeLM, one of the first Hausa safety preference dataset, built from 10,000 prompts derived from PKU-SafeRLHF: 3,000 human-corrected (gold) and 7,000 machine-translated (silver) examples spanning six harm macro-categories. Using Qwen2.5-7B-Instruct, we compare supervised fine-tuning (SFT) and SFT followed by Direct Preference Optimization (DPO) under both data regimes, evaluating on 500 harmful and 200 benign Hausa prompts.We find that the untuned base model appears highly safe by refusal-rate metrics alone, but this reflects limited Hausa generation ability rather than genuine alignment: its refusals are almost uniformly low quality. SFT improves both refusal fluency and precision and benefits substantially from the larger, noisier silver-tier data, while DPO sharpens refusal precision but comes at a steep, largely data-invariant cost to linguistic quality. No single configuration jointly maximizes safety, helpfulness, and fluency. Our results suggest that current alignment techniques teach models when to refuse more readily than how to do so fluently in underrepresented languages, and that refusal-rate metrics alone are an unreliable signal of safety in low-resource settings.",
+      "abs_url": "http://arxiv.org/abs/2610.37245v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37245v1",
+      "code_url": null
+    },
+    "2610.37105": {
+      "id": "2610.37105",
+      "version": "2610.37105v1",
+      "title": "Text Generation in Low-Resource Languages Using Human-Curated Vocabularies",
+      "authors": [
+        "Michael Christlambert Sinanta",
+        "Muhammad Dehan Al Kautsar",
+        "Amanda Nurul Izzah",
+        "Thanh-Nhi Nguyen",
+        "Phan Phuong Mai Chau",
+        "Zheng Wei Lim",
+        "Fajri Koto"
+      ],
+      "published": "2026-10-27",
+      "updated": "2026-10-27",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Synthetic text generation offers a promising approach to alleviating data scarcity in low-resource languages. However, its effectiveness is inherently limited for languages that are scarcely represented, or entirely absent, in an LLM's pretraining data. At the same time, many such languages have human-curated vocabularies that provide rich lexical and semantic information, often accompanied by grammatical information such as part-of-speech labels. In this work, we ask whether LLMs can leverage these resources to generate coherent text in extremely low-resource and unseen languages. We introduce a framework that combines human-curated vocabularies with a small number of human-written exemplars that provide syntactic signals, while sampling candidate words according to a Zipfian distribution. Across languages with varying levels of resource availability, we evaluate the generated text using lexical diversity, off-target ratio, and human judgments of fluency. Our results show that reasoning-enabled LLMs can generate fluent text even in extremely low-resource languages, with particularly strong results at the sentence level and promising performance at the paragraph level. Our findings highlight a practical pathway for bootstrapping synthetic data in low-resource languages, expanding the amount of usable text even when existing digital resources are extremely limited. Our source code is available at https://github.com/michaelsinanta/vocab2text.",
+      "abs_url": "http://arxiv.org/abs/2610.37105v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37105v1",
+      "code_url": "https://github.com/michaelsinanta/vocab2text"
+    },
+    "2610.36990": {
+      "id": "2610.36990",
+      "version": "2610.36990v1",
+      "title": "The State and Fate of Multilingual, Contextual Evaluation in the NLP World",
+      "authors": [
+        "Manan Uppadhyay",
+        "Himanshu Beniwal",
+        "Prashant Kodali",
+        "Sunayana Sitaram"
+      ],
+      "published": "2026-10-27",
+      "updated": "2026-10-27",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Multilingual evaluation benchmarks are the primary instrument for assessing whether large language models generalize beyond English, yet the adequacy of these benchmarks has received little systematic scrutiny. We present a data-driven audit of 51 recent multilingual benchmarks spanning 242 datasets and 219 languages, organized around three pillars: coverage, representativeness, and rigor. Our analysis reveals that coverage is wide but thin with 36% of evaluated languages appearing in only a single benchmark, entire regions (Oceania, the Americas, Central Asia) are near-zero, and a stark task equity gap leaves low-resource languages evaluated on only 1-3 task categories versus 14 for high-resource languages. Representativeness is structurally compromised: translation from English remains the dominant construction strategy where 56% of all dataset-language instances are translated introducing artifacts and English-centric framing, while culturally grounded content is concentrated in a handful of community-driven benchmarks with narrow language scope. The ecosystem thus forces a trade-off between breadth and validity. Rigor is undermined by benchmark contamination, including translated benchmark leakage and parallel corpus overlap that evade surface-form detection. We synthesize these findings into concrete recommendations for building evaluation frameworks that are natively constructed, culturally grounded, contamination-aware, and designed to serve the communities whose languages they claim to evaluate. The dashboard with all the metadata collected can be found at https://aka.ms/multilingual-evals.",
+      "abs_url": "http://arxiv.org/abs/2610.36990v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36990v1",
+      "code_url": "https://aka.ms/multilingual-evals"
+    },
+    "2610.36572": {
+      "id": "2610.36572",
+      "version": "2610.36572v1",
+      "title": "Learning from Points and Patches: A Pre-trained Hybrid Attention Transformer for Time Series Analysis",
+      "authors": [
+        "Peiwang Tang",
+        "Cheng HE",
+        "Yupeng Ye",
+        "Weitai Zhang",
+        "Qinghua Sun",
+        "Defu Lian"
+      ],
+      "published": "2026-10-27",
+      "updated": "2026-10-27",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Time-series data generated by Web services and connected systems support applications such as user activity analysis, service monitoring, and resource management. However, learning transferable representations from heterogeneous time series remains challenging due to diverse temporal patterns, variable sequence lengths, and limited high-quality annotations. Despite the success of pre-training in natural language processing and computer vision, effective time-series pre-training requires strategies tailored to temporal data. We propose TimeHAT (Hybrid Attention Transformer), a general-purpose pre-training framework for time-series analysis that addresses two complementary questions: what to learn and how to learn. For what to learn, we introduce a Unified Point-Patch Masking Strategy (UPPMS) that integrates point-level and patch-level supervision within a unified framework for contextual reconstruction and causal extrapolation, enabling the model to capture both fine-grained temporal variations and broader temporal patterns. For how to learn, we develop a Hybrid Attention Encoder (HAE) that combines prefix-constrained bidirectional attention in initial layers with directional hybrid attention in deeper layers, aiming to preserve effective contextual interactions while mitigating rank degeneration. We evaluate TimeHAT across real-world datasets and four downstream tasks: classification, long-term forecasting, imputation, and anomaly detection. Experiments cover fine-tuning, few-shot, and zero-shot transfer settings, demonstrating competitive performance across diverse time-series analysis tasks. Code is available at https://github.com/TangPeiwang/TimeHAT.",
+      "abs_url": "http://arxiv.org/abs/2610.36572v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36572v1",
+      "code_url": "https://github.com/TangPeiwang/TimeHAT"
+    },
+    "2610.36280": {
+      "id": "2610.36280",
+      "version": "2610.36280v1",
+      "title": "EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware Molecular Conformation Generation",
+      "authors": [
+        "Bing Yan",
+        "Anuroop Sriram",
+        "Zachary Ward Ulissi",
+        "Kyunghyun Cho",
+        "Ricky T. Q. Chen",
+        "Benjamin Kurt Miller"
+      ],
+      "published": "2026-10-26",
+      "updated": "2026-10-26",
+      "categories": [
+        "cs.LG",
+        "cs.CE"
+      ],
+      "abstract": "Molecular 3D structures underpin simulations of thermodynamics, kinetics, crystallization, and nucleation, making their accurate prediction central to drug discovery and materials design. However, molecular geometry can change dramatically across environments. Existing models either ignore environmental effects or train separate models for each environment. We hypothesize that transfer learning across contexts is possible for conformer generation and that a general model will perform better when training data are limited, as in ligand binding and crystallization. We introduce EVA-Flow, a unified framework for environment-aware molecular conformation generation that learns shared chemical structure and adapts it through environment-conditioned generative modeling. Across vacuum, protein-ligand docking, solvation, and crystal packing, pretraining and cross-environment finetuning provide their largest gains in the three data-scarce settings. Evaluation against multiple reference conformations shows that EVA-Flow covers a broad range of solvation conformations. Analyses of molecules shared across environments support its ability to generate different conformations for the same molecule in different environments.",
+      "abs_url": "http://arxiv.org/abs/2610.36280v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36280v1",
+      "code_url": null
     }
   }
 }

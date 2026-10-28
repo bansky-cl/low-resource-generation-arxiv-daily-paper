@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **693**
-- Recent 30 days: **100**
+- Total papers in JSON: **698**
+- Recent 30 days: **105**
 - Older than 30 days: **593**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,11 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-27**|**Aligning Large Language Models for Safety in African Languages: A Case Study of Hausa**|cs.CL, cs.AI|[2610.37245v1](http://arxiv.org/abs/2610.37245v1)|null|
+|**2026-10-27**|**Text Generation in Low-Resource Languages Using Human-Curated Vocabularies**|cs.CL|[2610.37105v1](http://arxiv.org/abs/2610.37105v1)|**[code](https://github.com/michaelsinanta/vocab2text)**|
+|**2026-10-27**|**The State and Fate of Multilingual, Contextual Evaluation in the NLP World**|cs.CL|[2610.36990v1](http://arxiv.org/abs/2610.36990v1)|**[code](https://aka.ms/multilingual-evals)**|
+|**2026-10-27**|**Learning from Points and Patches: A Pre-trained Hybrid Attention Transformer for Time Series Analysis**|cs.LG|[2610.36572v1](http://arxiv.org/abs/2610.36572v1)|**[code](https://github.com/TangPeiwang/TimeHAT)**|
+|**2026-10-26**|**EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware Molecular Conformation Generation**|cs.LG, cs.CE|[2610.36280v1](http://arxiv.org/abs/2610.36280v1)|null|
 |**2026-10-26**|**Ranking Function Generation with LLMs for Termination**|cs.SE, cs.AI, cs.LO|[2610.35523v1](http://arxiv.org/abs/2610.35523v1)|null|
 |**2026-10-26**|**Quality over Quantity: Rethinking Data and Model Assumptions for Bengali Coreference Resolution**|cs.CL|[2610.35114v1](http://arxiv.org/abs/2610.35114v1)|null|
 |**2026-10-25**|**Transformer to GPT-5: Advancements, Limitations, and Future Directions in Large Language Model Design**|cs.CL, cs.LG|[2610.34281v1](http://arxiv.org/abs/2610.34281v1)|null|
@@ -222,13 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-24**|**The Geometry of Low-Resource Language Representations**|cs.CL|[2608.23358v1](http://arxiv.org/abs/2608.23358v1)|null|
 |**2026-08-24**|**From Multimodal Observation to Interpretable Suggestions: Counterfactual Time-Expanded Relational Modeling of Surgical Teams**|cs.LG|[2608.23254v1](http://arxiv.org/abs/2608.23254v1)|null|
 |**2026-08-24**|**Statistical Machine Translation Systems of English-Pnar Language Pair : Some Insights of the Emperical Study**|cs.CL, cs.AI|[2608.23120v1](http://arxiv.org/abs/2608.23120v1)|null|
-|**2026-08-24**|**DIAG: Diagnostic Iterative Alignment and Generation for Data-Efficient Mathematical Preference Distillation**|cs.CL|[2608.22806v1](http://arxiv.org/abs/2608.22806v1)|null|
-|**2026-08-22**|**LLMs are Few-Shot Decision-Makers: Generalized Context-Aware Microgrid Frequency Control through Prompt Decision Transformer**|eess.SY, cs.AI|[2608.21858v1](http://arxiv.org/abs/2608.21858v1)|null|
-|**2026-08-20**|**HealMed: Multilingual Evaluation of Large Language Models in Medicine**|cs.CL|[2608.19981v1](http://arxiv.org/abs/2608.19981v1)|null|
-|**2026-08-20**|**ADAPT: Physics-Aware Diffusion-based World Models for Adaptive Predictive Transferable HVAC Control**|cs.AI|[2608.19804v1](http://arxiv.org/abs/2608.19804v1)|null|
-|**2026-08-19**|**TranslatePsy-AfriSLM: High-Quality Data Scaling For Low-Resource Machine Translation**|cs.CL|[2608.18655v2](http://arxiv.org/abs/2608.18655v2)|null|
 
-README omitted **493** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **498** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
