@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.10.28
+## Updated on 2026.10.29
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **698**
-- Recent 30 days: **105**
-- Older than 30 days: **593**
+- Recent 30 days: **104**
+- Older than 30 days: **594**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -126,12 +126,12 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-29**|**Towards Model as a Library: Offline, Community-Sourced AI for Low-Resource African Languages**|cs.AI, cs.CL, cs.HC|[2609.38574v1](http://arxiv.org/abs/2609.38574v1)|null|
 |**2026-09-29**|**MatToolBench: Benchmarking Multimodal Agents in Real-World Materials Science Workflows**|cs.AI|[2609.37053v1](http://arxiv.org/abs/2609.37053v1)|null|
 |**2026-09-29**|**Dating the Model: Hidden Dates in System Prompts Affect LLM Evaluation**|cs.CL|[2609.36931v1](http://arxiv.org/abs/2609.36931v1)|null|
-|**2026-09-28**|**The Uneven Decline of Collective Knowledge Production: Evidence from Stack Overflow After Generative AI**|cs.SE, cs.AI, cs.DL|[2609.36069v1](http://arxiv.org/abs/2609.36069v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-28**|**The Uneven Decline of Collective Knowledge Production: Evidence from Stack Overflow After Generative AI**|cs.SE, cs.AI, cs.DL|[2609.36069v1](http://arxiv.org/abs/2609.36069v1)|null|
 |**2026-09-27**|**QuPID: Quantum Parameter-Efficient Input-Dependent Retrieval Adaptation for Medical RAG**|cs.AI, cs.LG|[2609.33351v1](http://arxiv.org/abs/2609.33351v1)|null|
 |**2026-09-27**|**BaatCheet: A Multilingual Corpus for Dialogue Translation in Indian Languages**|cs.CL|[2609.33296v1](http://arxiv.org/abs/2609.33296v1)|null|
 |**2026-09-27**|**Save Your Saturated Data: Learning Beyond Reward Saturation in Group-Based RL**|cs.LG, cs.CL|[2609.33126v1](http://arxiv.org/abs/2609.33126v1)|null|
