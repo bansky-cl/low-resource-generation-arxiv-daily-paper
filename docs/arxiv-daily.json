@@ -14962,20 +14962,20 @@
     },
     "2610.33775": {
       "id": "2610.33775",
-      "version": "2610.33775v1",
+      "version": "2610.33775v2",
       "title": "The Hitchhiker's Guide to System 1 Models: Fast Decision-Making Beyond LLMS",
       "authors": [
         "Haggai Roitman"
       ],
       "published": "2026-10-24",
-      "updated": "2026-10-24",
+      "updated": "2026-10-29",
       "categories": [
         "cs.AI",
         "cs.CL"
       ],
       "abstract": "Large Language Models excel at reasoning and generation but their autoregressive, token-by-token inference makes them unnecessarily slow, expensive, and poorly calibrated for the many routine decisions (routing, gating, scoring, classification) that modern AI systems require at sub-second latency. A growing class of models addresses this gap: System 1 decision models, architectures that map an input directly to a typed, structured decision in a single forward pass. This guide provides a comprehensive, practitioner-oriented treatment of the field. We propose a five-family taxonomy covering encoder-based classifiers, reward models, non-autoregressive decision engines, contrastive decision models, and extraction models, and we provide in-depth coverage of each family's architecture, training methodology, and deployment trade-offs. A central theme is calibration: we develop the theory of proper scoring rules, analyze Reinforcement Learning for Calibrated Decisions (RLCD), and examine recently discovered phenomena including IIA violations, ordinal-scale bias, and few-shot recalibration under distribution shift. On the integration side, we describe how System 1 models serve as decision infrastructure within agentic workflows and System 1 + System 2 cascades that route between fast and slow models based on calibrated confidence. The guide covers 18 application domains, maps the rapidly growing open-source ecosystem (over 70 model reproductions in weeks), provides runnable code throughout, and includes a practitioner's checklist, an open-source model zoo, and 22 self-assessment questions with detailed answers. Spanning 190 references, it is intended as a unified entry point for researchers and engineers working at the intersection of fast decision-making, calibration, and production AI systems.",
-      "abs_url": "http://arxiv.org/abs/2610.33775v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.33775v1",
+      "abs_url": "http://arxiv.org/abs/2610.33775v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.33775v2",
       "code_url": null
     },
     "2610.33741": {
@@ -15110,6 +15110,129 @@
       "abstract": "Molecular 3D structures underpin simulations of thermodynamics, kinetics, crystallization, and nucleation, making their accurate prediction central to drug discovery and materials design. However, molecular geometry can change dramatically across environments. Existing models either ignore environmental effects or train separate models for each environment. We hypothesize that transfer learning across contexts is possible for conformer generation and that a general model will perform better when training data are limited, as in ligand binding and crystallization. We introduce EVA-Flow, a unified framework for environment-aware molecular conformation generation that learns shared chemical structure and adapts it through environment-conditioned generative modeling. Across vacuum, protein-ligand docking, solvation, and crystal packing, pretraining and cross-environment finetuning provide their largest gains in the three data-scarce settings. Evaluation against multiple reference conformations shows that EVA-Flow covers a broad range of solvation conformations. Analyses of molecules shared across environments support its ability to generate different conformations for the same molecule in different environments.",
       "abs_url": "http://arxiv.org/abs/2610.36280v1",
       "pdf_url": "https://arxiv.org/pdf/2610.36280v1",
+      "code_url": null
+    },
+    "2610.40516": {
+      "id": "2610.40516",
+      "version": "2610.40516v1",
+      "title": "How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates",
+      "authors": [
+        "Max Neuwinger",
+        "Hanna Yukhymenko",
+        "Imanol Schlag"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-29",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Safety alignment for Large Language Models is heavily focused on English with limited multilingual representation, particularly damaging low-resource language performance. Related open training datasets are often limited in size or do not follow region-localized harmful topics to broaden the scope of alignment beyond cultures. We propose a scalable template-based augmentation pipeline to produce massive multilingual refusal and benign corpora, extracting safe templates from harmful prompts, translating them and then filling in the slots with culturally authentic entities, both harmful and benign. As a result, we release MSafeTemp, a validated corpus spanning 60 languages useful for multilingual safety alignment and evaluation. Using the dataset, we show that English-only evaluation misjudges multilingual safety: for several models, attacks that fail in English succeed once translated, while culturally localized variants expose further failures that translation alone misses. We also confirm that augmenting safety training data through templates allows for higher diversity and quality of alignment, resulting in improved safety performance beyond English. MSafeTemp and the respective pipeline are aimed at facilitating research and development of safer and more responsible models for less-represented cultures.",
+      "abs_url": "http://arxiv.org/abs/2610.40516v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40516v1",
+      "code_url": null
+    },
+    "2610.40233": {
+      "id": "2610.40233",
+      "version": "2610.40233v1",
+      "title": "Mobilizing the Archive: Bitext Extraction at Scale from Archival Documents for Extremely Low-resource Languages",
+      "authors": [
+        "Chutong Meng",
+        "Alec J. Bateman",
+        "Antonios Anastasopoulos"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-29",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "While mining parallel sentences from web pages has proven effective for low-resource machine translation, the majority of the world's languages have little to no web presence. What they do have, though, are resources that are the result of centuries of efforts by linguists, such as grammars, dictionaries, and other documentation materials. We propose extracting translation examples from such linguistic resources, which offer parallel data for languages under-represented online and could potentially scale to thousands more languages. We develop a pipeline to achieve this, leveraging an Optical Character Recognition (OCR) model as well as a vision language model (VLM), to ensure identified content to be aligned with visual layout information. We demonstrate the utility of the extracted bitexts for bootstrapping translation systems across 20 languages, both by training machine translation models and by applying in-context learning for large language models. For in-context learning, we observe improvements of +15.78 and +6.94 chrF2++ over zero-shot translation for into low- and high-resource languages, respectively.",
+      "abs_url": "http://arxiv.org/abs/2610.40233v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40233v1",
+      "code_url": null
+    },
+    "2610.39168": {
+      "id": "2610.39168",
+      "version": "2610.39168v1",
+      "title": "Reading-Level Verification of Kanji Words in Japanese Financial Speech Synthesis",
+      "authors": [
+        "Cheng Zhang"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-29",
+      "categories": [
+        "cs.SD",
+        "cs.CL",
+        "eess.AS"
+      ],
+      "abstract": "Few-shot voice cloning makes it cheap to produce daily Japanese financial commentary with several synthetic speakers, but kanji words with more than one reading, such as the word for \"market\" (shijo vs. ichiba) or \"overall trend\" (taisei vs. oze), are still misread. A common quality gate transcribes each synthesized sentence with automatic speech recognition (ASR), converts both the input and the transcript to kana, and regenerates on mismatch. We show that this gate is unreliable in both directions: when the audio contains a misreading, the ASR language model frequently writes the expected kanji back, hiding the error, and when the audio is correct, ordinary recognition errors trigger needless regeneration. We propose a reading-level check that scores the expected reading and its confusable alternatives with a connectionist temporal classification (CTC) hiragana recognizer and flags a word when an alternative explains the audio better. On 540 utterances from three voice-cloned production voices covering 30 financial terms, with misreadings injected under controlled conditions, the transcript-based gate detected 78.9% of misreadings at a 44.4% false-alarm rate, whereas the proposed check detected 91.7% at 5.0% (AUC 0.990). On natural kanji input, it caught a front-end error that the transcript-based gate missed for one voice, and reduced regeneration requests from 38.9% to 6.1% of sentences.",
+      "abs_url": "http://arxiv.org/abs/2610.39168v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.39168v1",
+      "code_url": null
+    },
+    "2610.40005": {
+      "id": "2610.40005",
+      "version": "2610.40005v1",
+      "title": "Efficient Learning of Mechanism Designs and Compositionality",
+      "authors": [
+        "João Pedro Gandarela",
+        "Thiago Rios",
+        "Stefan Menzel",
+        "André Freitas"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-29",
+      "categories": [
+        "cs.AI",
+        "cs.CE"
+      ],
+      "abstract": "Learning mechanism behaviour requires a representation of how connected parts jointly constrain motion. We study whether exposing reusable constraint subassemblies improves prediction from limited data. Assur-KB represents planar mechanisms through irreducible modules, boundary interfaces, and solve dependencies while retaining source geometry. Our theoretical results characterize transfer through module interfaces and establish physical limits arising from missing interface information and accumulated sensitivity. To test the representation claim directly, the experimental design compares matched mechanism-curve pairs across training budgets within the same multilayer-perceptron family. This controlled comparison establishes the utility of the complete representation in the evaluated learning setting. Assur-derived features provide a geometric-mean $1.8\\times$ advantage in sample efficiency over flattened adjacency and position inputs across budgets of 50-10,000 mechanisms. Separate experiments establish invariance under tested joint relabelings, higher valid-generation rates under dyadic composition, and a coarser structural index over 10.02 million mechanisms. In summary, the theory and experiments identify how physical constraint structure supports limited-data prediction and which interface conditions govern compositional reuse.",
+      "abs_url": "http://arxiv.org/abs/2610.40005v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40005v1",
+      "code_url": null
+    },
+    "2610.37962": {
+      "id": "2610.37962",
+      "version": "2610.37962v1",
+      "title": "Statistical Detection of Positional Bias in LLM-Based Recommender Systems: Methodologies and Empirical Evidence",
+      "authors": [
+        "Carlos Peláez-González",
+        "Francisco Herrera",
+        "Andrés Herrera-Poyatos"
+      ],
+      "published": "2026-10-27",
+      "updated": "2026-10-27",
+      "categories": [
+        "cs.IR",
+        "cs.AI"
+      ],
+      "abstract": "Large Language Models (LLMs) are increasingly used as recommendation generators in conversational recommender systems (RS) via retrieval-augmented generation (RAG). This flexible design introduces new sources of structural bias. This paper studies positional bias in top-1 and single-turn LLM-based RS: systematic dependence of the recommended item on the order in which candidates are presented in the prompt. We propose two complementary detection methodologies: (i) POB-ICM, based on contingency matrix analysis and Chi-square independence testing, and (ii) POB-UNBP, a sample-efficient approach derived from a uniformity null model under permutation-based evaluation, enabling stochastic decoding with formal statistical guarantees. Using a controlled RAG testbed for product recommendation, built on a real product catalog, a fixed prompt template and 2000 template-generated user queries with 20 permutations each (40,000 instances), both methodologies reject the null hypothesis of positional independence and uniformity in all evaluated state-of-the-art models. We introduce three complementary metrics -- permutation sensitivity, positional bias, and strong positional bias -- to quantify this effect, the latter targeting cases where the position displaces the recommendation towards clearly less relevant items rather than only choosing among comparably relevant ones. A robustness analysis across candidate-set size and decoding temperature shows that the bias is structural and model-dependent, not an artifact of deterministic decoding or candidate-set size. These results establish positional bias as a measurable, reproducible property of prompt-mediated recommendation pipelines in the evaluated setting and motivate routine auditing and governance controls (e.g., order randomization, standardized prompting) for deployed LLM-based RS. Source code is publicly released.",
+      "abs_url": "http://arxiv.org/abs/2610.37962v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37962v1",
+      "code_url": null
+    },
+    "2610.38835": {
+      "id": "2610.38835",
+      "version": "2610.38835v1",
+      "title": "What to randomize matters: a controlled study of volume, axis and representation in low-data molecular generation",
+      "authors": [
+        "Neerav Kaushal",
+        "Alisa Teige",
+        "Ajay MNV Penmatsa"
+      ],
+      "published": "2026-10-28",
+      "updated": "2026-10-28",
+      "categories": [
+        "cs.LG",
+        "cs.CE",
+        "cs.CL",
+        "q-bio.BM",
+        "q-bio.QM"
+      ],
+      "abstract": "Chemical language models can struggle to generate new molecules when trained on small datasets, where a model may reproduce training examples rather than learn a useful generative distribution. Randomized SMILES augmentation varies atom traversal, whereas Sequential Attachment-based Fragment Embedding (SAFE) also allows the order of fragment blocks to vary. How these distinct sources of representational variation affect low-data molecular generation has not been clearly studied. Here, using 1,000 seed molecules to train an autoregressive sequence model, we compare canonical SAFE with randomized SAFE at increasing corpus sizes, isolate atom-order and fragment-order axes of SAFE randomization, and compare fully randomized SAFE with randomized SMILES at molecule-by-molecule matched training corpora. Three findings emerge. First, randomization of SAFE alone raises the genuine yield of novel molecules more than 450-fold, turning a model that merely reproduces its training set into a practical molecular generator. Second, the two axes of randomization act jointly rather than additively: atom order alone reaches a tenth, and fragment order alone a seventh, of the genuine yield obtained when both vary, which is four times their combined contribution. Third, at matched corpus size and compute, randomized SAFE delivers 2.8 times the genuine yield of randomized SMILES. Welch tests with Games-Howell post-hoc comparisons resolve every difference on the primary outcomes. In the low-data regime, thus, what one randomizes rather than only how much determines whether augmentation produces new molecules or merely new spellings of the training set.",
+      "abs_url": "http://arxiv.org/abs/2610.38835v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.38835v1",
       "code_url": null
     }
   }

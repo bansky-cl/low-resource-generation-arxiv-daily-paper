@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **698**
-- Recent 30 days: **101**
+- Total papers in JSON: **704**
+- Recent 30 days: **107**
 - Older than 30 days: **597**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,12 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-29**|**How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates**|cs.CL, cs.AI, cs.LG|[2610.40516v1](http://arxiv.org/abs/2610.40516v1)|null|
+|**2026-10-29**|**Mobilizing the Archive: Bitext Extraction at Scale from Archival Documents for Extremely Low-resource Languages**|cs.CL|[2610.40233v1](http://arxiv.org/abs/2610.40233v1)|null|
+|**2026-10-29**|**Efficient Learning of Mechanism Designs and Compositionality**|cs.AI, cs.CE|[2610.40005v1](http://arxiv.org/abs/2610.40005v1)|null|
+|**2026-10-29**|**Reading-Level Verification of Kanji Words in Japanese Financial Speech Synthesis**|cs.SD, cs.CL, eess.AS|[2610.39168v1](http://arxiv.org/abs/2610.39168v1)|null|
+|**2026-10-28**|**What to randomize matters: a controlled study of volume, axis and representation in low-data molecular generation**|cs.LG, cs.CE, cs.CL, q-bio.BM, q-bio.QM|[2610.38835v1](http://arxiv.org/abs/2610.38835v1)|null|
+|**2026-10-27**|**Statistical Detection of Positional Bias in LLM-Based Recommender Systems: Methodologies and Empirical Evidence**|cs.IR, cs.AI|[2610.37962v1](http://arxiv.org/abs/2610.37962v1)|null|
 |**2026-10-27**|**Aligning Large Language Models for Safety in African Languages: A Case Study of Hausa**|cs.CL, cs.AI|[2610.37245v1](http://arxiv.org/abs/2610.37245v1)|null|
 |**2026-10-27**|**Text Generation in Low-Resource Languages Using Human-Curated Vocabularies**|cs.CL|[2610.37105v1](http://arxiv.org/abs/2610.37105v1)|**[code](https://github.com/michaelsinanta/vocab2text)**|
 |**2026-10-27**|**The State and Fate of Multilingual, Contextual Evaluation in the NLP World**|cs.CL|[2610.36990v1](http://arxiv.org/abs/2610.36990v1)|**[code](https://aka.ms/multilingual-evals)**|
@@ -30,7 +36,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-26**|**Ranking Function Generation with LLMs for Termination**|cs.SE, cs.AI, cs.LO|[2610.35523v1](http://arxiv.org/abs/2610.35523v1)|null|
 |**2026-10-26**|**Quality over Quantity: Rethinking Data and Model Assumptions for Bengali Coreference Resolution**|cs.CL|[2610.35114v1](http://arxiv.org/abs/2610.35114v1)|null|
 |**2026-10-25**|**Transformer to GPT-5: Advancements, Limitations, and Future Directions in Large Language Model Design**|cs.CL, cs.LG|[2610.34281v1](http://arxiv.org/abs/2610.34281v1)|null|
-|**2026-10-24**|**The Hitchhiker's Guide to System 1 Models: Fast Decision-Making Beyond LLMS**|cs.AI, cs.CL|[2610.33775v1](http://arxiv.org/abs/2610.33775v1)|null|
+|**2026-10-24**|**The Hitchhiker's Guide to System 1 Models: Fast Decision-Making Beyond LLMS**|cs.AI, cs.CL|[2610.33775v2](http://arxiv.org/abs/2610.33775v2)|null|
 |**2026-10-24**|**Beyond Prompts: A Systematic Study of LLM-Based Machine Translation Evaluators**|cs.CL|[2610.33741v1](http://arxiv.org/abs/2610.33741v1)|null|
 |**2026-10-23**|**Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox**|cs.CL, cs.HC, cs.LG|[2610.32955v1](http://arxiv.org/abs/2610.32955v1)|null|
 |**2026-10-23**|**Data-Efficient Backdoor Attacks on Code Models via Trigger-Neutralized Counterfactual Scoring**|cs.CR, cs.AI|[2610.32334v1](http://arxiv.org/abs/2610.32334v1)|null|
@@ -221,14 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-26**|**PhaseShift: Topology-Aware Data Harmonization and Model Consolidation Across Signalized Intersections**|cs.AI, cs.RO|[2608.25275v1](http://arxiv.org/abs/2608.25275v1)|null|
 |**2026-08-25**|**Padamitra: Grounded Glossary Generation for Classical Sanskrit**|cs.CL|[2608.25038v2](http://arxiv.org/abs/2608.25038v2)|null|
 |**2026-08-25**|**Do Recipes Have Personas? Characterizing and Generating Creator Style in Attributed Procedural Graphs**|cs.AI|[2608.24369v1](http://arxiv.org/abs/2608.24369v1)|null|
-|**2026-08-25**|**PhysicsBench: A Unified Leaderboard for Generative and Predictive Models in Engineering Design and Simulation**|cs.LG, cs.CE|[2608.24056v1](http://arxiv.org/abs/2608.24056v1)|null|
-|**2026-08-24**|**StrategyBench: Evaluating Explicit Strategy Induction in Large Language Models**|cs.AI|[2608.23475v1](http://arxiv.org/abs/2608.23475v1)|**[code](https://anonymous.4open.science/r/StrategyBench-D53C)**|
-|**2026-08-24**|**MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learning of Lightweight Time Series Forecasters**|cs.LG, cs.AI|[2608.23473v2](http://arxiv.org/abs/2608.23473v2)|null|
-|**2026-08-24**|**The Geometry of Low-Resource Language Representations**|cs.CL|[2608.23358v1](http://arxiv.org/abs/2608.23358v1)|null|
-|**2026-08-24**|**From Multimodal Observation to Interpretable Suggestions: Counterfactual Time-Expanded Relational Modeling of Surgical Teams**|cs.LG|[2608.23254v1](http://arxiv.org/abs/2608.23254v1)|null|
-|**2026-08-24**|**Statistical Machine Translation Systems of English-Pnar Language Pair : Some Insights of the Emperical Study**|cs.CL, cs.AI|[2608.23120v1](http://arxiv.org/abs/2608.23120v1)|null|
 
-README omitted **498** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **504** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
