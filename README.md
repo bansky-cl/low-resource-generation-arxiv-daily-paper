@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.10.30
+## Updated on 2026.10.31
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **704**
-- Recent 30 days: **107**
-- Older than 30 days: **597**
+- Recent 30 days: **100**
+- Older than 30 days: **604**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -122,6 +122,11 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-01**|**How To Train Your World Model: Fine-tuning vs RAG for LM-based World Modeling**|cs.AI|[2610.02542v1](http://arxiv.org/abs/2610.02542v1)|null|
 |**2026-10-01**|**Social bot detection in the age of ChatGPT: Challenges and opportunities**|cs.CY, cs.CL|[2610.02386v1](http://arxiv.org/abs/2610.02386v1)|null|
 |**2026-10-01**|**Precision over Scale: A Polish-Silesian Benchmark and a Translation System Outperforming Open-Source and Commercial Models**|cs.CL|[2610.01082v2](http://arxiv.org/abs/2610.01082v2)|null|
+
+## Older Than 30 Days
+
+|Date|Title|Categories|PDF|Code|
+|---|---|---|---|---|
 |**2026-09-30**|**On-the-fly Weight Generation: A Hypernetwork Proof of Concept on ARC-1D**|cs.LG, cs.AI|[2610.00820v1](http://arxiv.org/abs/2610.00820v1)|null|
 |**2026-09-30**|**LLM-as-a-Judge for Low-Resource Languages: Adapting Ragas and Comparative Ranking for Romanian**|cs.CL|[2610.00406v1](http://arxiv.org/abs/2610.00406v1)|null|
 |**2026-09-30**|**MGhana-ST: A Low-Resource Speech Translation Dataset for Ghanaian Languages and an Analysis of Multilingual Training Trade-offs**|cs.CL|[2609.40041v2](http://arxiv.org/abs/2609.40041v2)|null|
@@ -129,11 +134,6 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-30**|**Decoupled and Distilled: Task-Adaptive LoRA-Teachers with Ensemble Knowledge Transfer for Few-Shot Class-Incremental Learning**|cs.LG|[2609.39390v1](http://arxiv.org/abs/2609.39390v1)|null|
 |**2026-09-30**|**Beyond Text: LLM-Based Dimensional Emotion Evaluation in Multimodal Dialogue**|cs.CL, cs.AI, cs.LG, cs.MM|[2609.39072v1](http://arxiv.org/abs/2609.39072v1)|null|
 |**2026-09-30**|**StateTree: Enhancing Long-Term Dialogue Reasoning via Reinforcement Learning**|cs.CL, cs.AI|[2609.38809v1](http://arxiv.org/abs/2609.38809v1)|null|
-
-## Older Than 30 Days
-
-|Date|Title|Categories|PDF|Code|
-|---|---|---|---|---|
 |**2026-09-29**|**Towards Model as a Library: Offline, Community-Sourced AI for Low-Resource African Languages**|cs.AI, cs.CL, cs.HC|[2609.38574v1](http://arxiv.org/abs/2609.38574v1)|null|
 |**2026-09-29**|**MatToolBench: Benchmarking Multimodal Agents in Real-World Materials Science Workflows**|cs.AI|[2609.37053v1](http://arxiv.org/abs/2609.37053v1)|null|
 |**2026-09-29**|**Dating the Model: Hidden Dates in System Prompts Affect LLM Evaluation**|cs.CL|[2609.36931v1](http://arxiv.org/abs/2609.36931v1)|null|
