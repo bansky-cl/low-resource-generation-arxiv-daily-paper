@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.10.31
+## Updated on 2026.11.01
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **704**
-- Recent 30 days: **100**
-- Older than 30 days: **604**
+- Recent 30 days: **96**
+- Older than 30 days: **608**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -118,15 +118,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-02**|**Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers**|cs.AI|[2610.03363v3](http://arxiv.org/abs/2610.03363v3)|**[code](https://github.com/tum-pbs/GMP)**|
 |**2026-10-02**|**Predicting Steering Vectors and Adapter Weights for Few-Shot Author-Style Transfer**|cs.CL, cs.AI|[2610.03163v1](http://arxiv.org/abs/2610.03163v1)|null|
 |**2026-10-02**|**Enhancing Biomedical Named Entity Recognition via Multiple Programming Languages Instruction Tuning and Ensemble Method**|cs.CL|[2610.02949v3](http://arxiv.org/abs/2610.02949v3)|null|
-|**2026-10-01**|**Fine-Grained Emotion Classification from Mobile App Reviews: An Empirical Study with Large Language Models**|cs.CL, cs.IR, cs.SE|[2610.03802v1](http://arxiv.org/abs/2610.03802v1)|null|
-|**2026-10-01**|**How To Train Your World Model: Fine-tuning vs RAG for LM-based World Modeling**|cs.AI|[2610.02542v1](http://arxiv.org/abs/2610.02542v1)|null|
-|**2026-10-01**|**Social bot detection in the age of ChatGPT: Challenges and opportunities**|cs.CY, cs.CL|[2610.02386v1](http://arxiv.org/abs/2610.02386v1)|null|
-|**2026-10-01**|**Precision over Scale: A Polish-Silesian Benchmark and a Translation System Outperforming Open-Source and Commercial Models**|cs.CL|[2610.01082v2](http://arxiv.org/abs/2610.01082v2)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-01**|**Fine-Grained Emotion Classification from Mobile App Reviews: An Empirical Study with Large Language Models**|cs.CL, cs.IR, cs.SE|[2610.03802v1](http://arxiv.org/abs/2610.03802v1)|null|
+|**2026-10-01**|**How To Train Your World Model: Fine-tuning vs RAG for LM-based World Modeling**|cs.AI|[2610.02542v1](http://arxiv.org/abs/2610.02542v1)|null|
+|**2026-10-01**|**Social bot detection in the age of ChatGPT: Challenges and opportunities**|cs.CY, cs.CL|[2610.02386v1](http://arxiv.org/abs/2610.02386v1)|null|
+|**2026-10-01**|**Precision over Scale: A Polish-Silesian Benchmark and a Translation System Outperforming Open-Source and Commercial Models**|cs.CL|[2610.01082v2](http://arxiv.org/abs/2610.01082v2)|null|
 |**2026-09-30**|**On-the-fly Weight Generation: A Hypernetwork Proof of Concept on ARC-1D**|cs.LG, cs.AI|[2610.00820v1](http://arxiv.org/abs/2610.00820v1)|null|
 |**2026-09-30**|**LLM-as-a-Judge for Low-Resource Languages: Adapting Ragas and Comparative Ranking for Romanian**|cs.CL|[2610.00406v1](http://arxiv.org/abs/2610.00406v1)|null|
 |**2026-09-30**|**MGhana-ST: A Low-Resource Speech Translation Dataset for Ghanaian Languages and an Analysis of Multilingual Training Trade-offs**|cs.CL|[2609.40041v2](http://arxiv.org/abs/2609.40041v2)|null|
