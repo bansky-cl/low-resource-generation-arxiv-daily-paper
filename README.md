@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.02
+## Updated on 2026.11.03
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **707**
-- Recent 30 days: **94**
-- Older than 30 days: **613**
+- Recent 30 days: **92**
+- Older than 30 days: **615**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -114,13 +114,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-05**|**Constraint-Aware Conversational Job Recommendation in Code-Mixed Low-Resource Settings**|cs.IR|[2610.05787v1](http://arxiv.org/abs/2610.05787v1)|**[code](https://huggingface.co/datasets/Armans33115/JobCCC-Conversational-Job-Recommendation-Bangladesh)**|
 |**2026-10-04**|**Investigating Model Compression for Neural Machine Translation in the Biomedical Domain**|cs.CL, cs.AI, cs.LG|[2610.07032v1](http://arxiv.org/abs/2610.07032v1)|null|
 |**2026-10-04**|**Image Synthesis as an Intermediate for Controllable Time Series Generation**|cs.AI|[2610.05211v1](http://arxiv.org/abs/2610.05211v1)|null|
-|**2026-10-03**|**Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations**|cs.AI, cs.CL, cs.CR|[2610.04693v3](http://arxiv.org/abs/2610.04693v3)|null|
-|**2026-10-03**|**Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation**|cs.AI|[2610.04188v4](http://arxiv.org/abs/2610.04188v4)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-03**|**Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations**|cs.AI, cs.CL, cs.CR|[2610.04693v3](http://arxiv.org/abs/2610.04693v3)|null|
+|**2026-10-03**|**Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation**|cs.AI|[2610.04188v4](http://arxiv.org/abs/2610.04188v4)|null|
 |**2026-10-02**|**Protecting Sensitive Data in Image Synthesis via PAC-Private Adaptation for Diffusion Models**|cs.LG|[2610.04038v1](http://arxiv.org/abs/2610.04038v1)|null|
 |**2026-10-02**|**Multilingual GSM-Symbolic: What determines capability transfer across languages?**|cs.AI, cs.CL|[2610.03367v2](http://arxiv.org/abs/2610.03367v2)|null|
 |**2026-10-02**|**Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers**|cs.AI|[2610.03363v3](http://arxiv.org/abs/2610.03363v3)|**[code](https://github.com/tum-pbs/GMP)**|
