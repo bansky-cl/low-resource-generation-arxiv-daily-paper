@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **704**
-- Recent 30 days: **91**
+- Total papers in JSON: **707**
+- Recent 30 days: **94**
 - Older than 30 days: **613**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-30**|**Statistical Foundations of Reinforcement Learning: A Non-Asymptotic Perspective**|stat.ML, cs.IT, cs.LG|[2610.41903v1](http://arxiv.org/abs/2610.41903v1)|null|
+|**2026-10-30**|**Enhancing Sentiment Classification on Small Datasets through Data Augmentation and Transfer Learning**|cs.LG, cs.CL|[2610.41518v1](http://arxiv.org/abs/2610.41518v1)|null|
+|**2026-10-30**|**TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection**|cs.AI, cs.CL|[2610.41232v1](http://arxiv.org/abs/2610.41232v1)|null|
 |**2026-10-29**|**How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates**|cs.CL, cs.AI, cs.LG|[2610.40516v1](http://arxiv.org/abs/2610.40516v1)|null|
 |**2026-10-29**|**Mobilizing the Archive: Bitext Extraction at Scale from Archival Documents for Extremely Low-resource Languages**|cs.CL|[2610.40233v1](http://arxiv.org/abs/2610.40233v1)|null|
 |**2026-10-29**|**Efficient Learning of Mechanism Designs and Compositionality**|cs.AI, cs.CE|[2610.40005v1](http://arxiv.org/abs/2610.40005v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-27**|**pro-team at LLMs4OL 2026 Tasks Flagship and Reuse: Retrieval-Augmented Generation and Vocabulary-Constrained Filtering for Ontology Learning**|cs.AI|[2608.27101v2](http://arxiv.org/abs/2608.27101v2)|null|
 |**2026-08-26**|**Benchmarking Arabic--Russian Machine Translation: A Comparison of Fine-tuned NMT and Few-shot LLMs under Rich Morphology and Low Lexical Overlap**|cs.CL|[2609.29559v1](http://arxiv.org/abs/2609.29559v1)|null|
 |**2026-08-26**|**Cross-lingual Representation Learning via Centroid Intervention Fusion**|cs.CL|[2608.26357v1](http://arxiv.org/abs/2608.26357v1)|**[code](https://github.com/VRCMF/CIF.git)**|
-|**2026-08-26**|**PhaseShift: Topology-Aware Data Harmonization and Model Consolidation Across Signalized Intersections**|cs.AI, cs.RO|[2608.25275v1](http://arxiv.org/abs/2608.25275v1)|null|
-|**2026-08-25**|**Padamitra: Grounded Glossary Generation for Classical Sanskrit**|cs.CL|[2608.25038v2](http://arxiv.org/abs/2608.25038v2)|null|
-|**2026-08-25**|**Do Recipes Have Personas? Characterizing and Generating Creator Style in Attributed Procedural Graphs**|cs.AI|[2608.24369v1](http://arxiv.org/abs/2608.24369v1)|null|
 
-README omitted **504** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **507** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

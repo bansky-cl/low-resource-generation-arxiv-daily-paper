@@ -15234,6 +15234,69 @@
       "abs_url": "http://arxiv.org/abs/2610.38835v1",
       "pdf_url": "https://arxiv.org/pdf/2610.38835v1",
       "code_url": null
+    },
+    "2610.41518": {
+      "id": "2610.41518",
+      "version": "2610.41518v1",
+      "title": "Enhancing Sentiment Classification on Small Datasets through Data Augmentation and Transfer Learning",
+      "authors": [
+        "Mahmoud S. Mayaleh",
+        "Samer A. Mayaleh"
+      ],
+      "published": "2026-10-30",
+      "updated": "2026-10-30",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Small-scale sentiment classification often suffers from data scarcity, which limits the generalization ability of the models. This study evaluates and compares the effectiveness of three data augmentation strategies: Easy Data Augmentation (EDA), back-translation, and contextual token substitution (nlpaug-style), with both traditional machine learning classifiers (Logistic Regression, Random Forest) and transformer-based models (BERT). We perform a comprehensive empirical comparison with low-resource sentiment datasets by summarizing the results of recent studies and performing targeted head-to-head experiments. Our findings indicate that all augmentation methods improve performance. Contextual augmentation yields the most consistent gains for BERT models, while EDA and back-translation provide greater benefits for traditional classifiers. These insights help guide the selection of data augmentation techniques tailored to model type and dataset size, filling a critical gap in research on data augmentation for sentiment classification on small datasets.",
+      "abs_url": "http://arxiv.org/abs/2610.41518v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41518v1",
+      "code_url": null
+    },
+    "2610.41232": {
+      "id": "2610.41232",
+      "version": "2610.41232v1",
+      "title": "TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection",
+      "authors": [
+        "Shifali Agrahari",
+        "Sujit Kumar",
+        "Sanasam Ranbir Singh"
+      ],
+      "published": "2026-10-30",
+      "updated": "2026-10-30",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "As Large Language Models (LLMs) become increasingly multilingual, distinguishing human-written from AI-generated text is essential for maintaining information integrity. However, research remains English-centric, with limited benchmarks for low-resource languages such as Hindi. To address this gap, we introduce SHAKTI, a large-scale Hindi benchmark covering four genres, eight LLM families, multiple prompting strategies, and adversarial transformations. We evaluate its quality through human annotation and analyze linguistic, grammatical, and sentiment-based differences between human- and AI-generated texts. Building on these findings, we propose TRIDENT, a round-trip translation-based detection framework with three variants: TRIDENT-S (static threshold), TRIDENT-D (dynamic threshold), and TRIDENT-C (logistic regression using multi-distance RTT features). TRIDENT leverages semantic consistency between original and round-trip translated texts to identify AI-generated content. Extensive experiments show that TRIDENT outperforms conventional and supervised baselines, with TRIDENT-S achieving the best overall performance. Further evaluations across seven languages, adversarial settings, and unseen LLMs demonstrate its multilingual applicability and robustness, while highlighting sensitivity to the translation model.",
+      "abs_url": "http://arxiv.org/abs/2610.41232v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41232v1",
+      "code_url": null
+    },
+    "2610.41903": {
+      "id": "2610.41903",
+      "version": "2610.41903v1",
+      "title": "Statistical Foundations of Reinforcement Learning: A Non-Asymptotic Perspective",
+      "authors": [
+        "Yuxin Chen",
+        "Yuejie Chi",
+        "Jianqing Fan",
+        "Gen Li",
+        "Yuting Wei",
+        "Yuling Yan"
+      ],
+      "published": "2026-10-30",
+      "updated": "2026-10-30",
+      "categories": [
+        "stat.ML",
+        "cs.IT",
+        "cs.LG"
+      ],
+      "abstract": "Reinforcement learning (RL) embodies a foundational paradigm for sequential decision-making in the face of uncertainty. The rapid growth of model complexity in emerging applications has significantly amplified the challenges of achieving data-efficient RL, particularly in sample-starved scenarios where data collection may be costly, time-consuming, or even high-stakes. Consequently, understanding and improving the data efficiency of RL algorithms has become a central problem of both fundamental theoretical interest and practical importance. Despite decades of research, the statistical underpinnings of RL remained remarkably underdeveloped until relatively recently, particularly in the finite-sample regimes most relevant to modern practice. Over the past few years, there has been a surge of activity advancing the frontiers of non-asymptotic statistical RL theory, drawing on ideas from high-dimensional statistics and probability, information theory, and statistical learning theory. In this monograph, we present a non-asymptotic treatment for RL based on tabular Markov decision processes, focusing on three canonical sampling mechanisms --- RL with a generative model, online RL, and offline RL --- together with two algorithmic paradigms: model-based and model-free approaches. Centered around non-asymptotic sample complexity analysis, our treatment emphasizes minimax-optimal algorithm design, particularly methods that attain statistical optimality without significant burn-in costs, as well as sharp statistical characterizations of several widely used RL algorithms. Whenever possible, we provide largely self-contained analyses together with intuitive explanations. We also briefly discuss several extensions, such as robust RL, competitive multi-agent RL, federated RL, uncertainty quantification, and RL from human feedback.",
+      "abs_url": "http://arxiv.org/abs/2610.41903v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41903v1",
+      "code_url": null
     }
   }
 }
