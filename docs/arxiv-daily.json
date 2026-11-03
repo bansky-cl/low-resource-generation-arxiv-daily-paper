@@ -8603,7 +8603,7 @@
     },
     "2607.05849": {
       "id": "2607.05849",
-      "version": "2607.05849v1",
+      "version": "2607.05849v2",
       "title": "CoPiT: Cognitive Pivot Translation for Digraphic Low-Resource Mongolian in the Traditional Script",
       "authors": [
         "Burte Bayarsaikhan",
@@ -8611,14 +8611,14 @@
         "Buru Chang"
       ],
       "published": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-11-02",
       "categories": [
         "cs.CL"
       ],
-      "abstract": "Low-resource languages remain challenging for machine translation, and Mongolian is a representative case. As a digraphic language, Mongolian is written in both Cyrillic and Traditional scripts, which exhibit a severe imbalance in data availability. While the Cyrillic script is relatively well-resourced, the Traditional script remains extremely data-scarce and orthographically ambiguous, leading to substantial performance degradation in direct translation. We propose CoPiT, a cognitively motivated pivot-based translation pipeline that exploits this internal resource hierarchy by routing translation through the Cyrillic script. The pipeline explicitly resolves script-induced ambiguity in the Traditional script before translation, enabling more stable and accurate meaning transfer. Across multiple backbone models and target languages, CoPiT consistently outperforms direct translation, achieving substantial absolute BLEU improvements together with consistent 1.5-1.6x COMET gains. These gains allow strong open-source models to match or outperform GPT-4.1 under comparable evaluation settings. Beyond inference-time improvements, CoPiT enables the construction of synthetic parallel data directly from Traditional-script text, mitigating data scarcity in realistic low-resource scenarios. We release a new multi-script parallel dataset covering Mongolian in both scripts alongside English, Korean, and Russian. All datasets and code are publicly available at https://anonymous.4open.science/r/anonymous_project-76C7.",
-      "abs_url": "http://arxiv.org/abs/2607.05849v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.05849v1",
-      "code_url": "https://anonymous.4open.science/r/anonymous_project-76C7"
+      "abstract": "Low-resource languages remain challenging for machine translation, and Mongolian is a representative case. As a digraphic language, Mongolian is written in both Cyrillic and Traditional scripts, which exhibit a severe imbalance in data availability. While the Cyrillic script is relatively well-resourced, the Traditional script remains extremely data-scarce and orthographically ambiguous, leading to substantial performance degradation in direct translation. We propose CoPiT, a cognitively motivated pivot-based translation pipeline that exploits this internal resource hierarchy by routing translation through the Cyrillic script. The pipeline explicitly resolves script-induced ambiguity in the Traditional script before translation, enabling more stable and accurate meaning transfer. Across multiple backbone models and target languages, CoPiT generally improves over direct translation, with substantial absolute BLEU improvements and up to 1.5-1.6x gains in COMET. These gains allow strong open-source models to match or outperform GPT-4.1 under comparable evaluation settings. Beyond inference-time improvements, CoPiT enables the construction of synthetic parallel data directly from Traditional-script text, mitigating data scarcity in realistic low-resource scenarios. We release a new multi-script parallel dataset covering Mongolian in both scripts alongside English, Korean, and Russian.",
+      "abs_url": "http://arxiv.org/abs/2607.05849v2",
+      "pdf_url": "https://arxiv.org/pdf/2607.05849v2",
+      "code_url": null
     },
     "2607.05416": {
       "id": "2607.05416",
@@ -14555,7 +14555,7 @@
     },
     "2610.25441": {
       "id": "2610.25441",
-      "version": "2610.25441v1",
+      "version": "2610.25441v2",
       "title": "Stepwise Reasoning Verification: Don't Generate, Classify!",
       "authors": [
         "Yifei Shi",
@@ -14566,13 +14566,13 @@
         "Andreas Vlachos"
       ],
       "published": "2026-10-18",
-      "updated": "2026-10-18",
+      "updated": "2026-11-01",
       "categories": [
         "cs.AI"
       ],
       "abstract": "Verifying the reasoning of large language models is increasingly important as they are applied to complex mathematical and scientific problems. Existing work focuses on large decoder models and reports mixed results for generative and discriminative verifiers, leaving unclear which paradigm is more effective and whether large models are necessary. In this work, we cast stepwise verification as a natural language inference task: the problem and partial solution prefix form the premise, while the next reasoning step serves as the hypothesis to be classified as entailed or non-entailed. This formulation enables error localisation at individual reasoning steps and direct comparison of encoder classification, decoder classification, and decoder verdict generation across model scales and annotation budgets. Across five reasoning datasets, a 0.15B encoder classifier outperforms most generative verifiers with up to 4B parameters. On identical decoder backbones, classification outperforms generation from 0.5B to 4B parameters and matches it on the strongest 7B backbone---reaching comparable performance with roughly one tenth as many annotated problems. Our findings establish classification as a parameter- and data-efficient approach to stepwise verification and show that strong verification does not require large generative decoders.",
-      "abs_url": "http://arxiv.org/abs/2610.25441v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.25441v1",
+      "abs_url": "http://arxiv.org/abs/2610.25441v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.25441v2",
       "code_url": null
     },
     "2610.26066": {
@@ -15296,6 +15296,169 @@
       "abstract": "Reinforcement learning (RL) embodies a foundational paradigm for sequential decision-making in the face of uncertainty. The rapid growth of model complexity in emerging applications has significantly amplified the challenges of achieving data-efficient RL, particularly in sample-starved scenarios where data collection may be costly, time-consuming, or even high-stakes. Consequently, understanding and improving the data efficiency of RL algorithms has become a central problem of both fundamental theoretical interest and practical importance. Despite decades of research, the statistical underpinnings of RL remained remarkably underdeveloped until relatively recently, particularly in the finite-sample regimes most relevant to modern practice. Over the past few years, there has been a surge of activity advancing the frontiers of non-asymptotic statistical RL theory, drawing on ideas from high-dimensional statistics and probability, information theory, and statistical learning theory. In this monograph, we present a non-asymptotic treatment for RL based on tabular Markov decision processes, focusing on three canonical sampling mechanisms --- RL with a generative model, online RL, and offline RL --- together with two algorithmic paradigms: model-based and model-free approaches. Centered around non-asymptotic sample complexity analysis, our treatment emphasizes minimax-optimal algorithm design, particularly methods that attain statistical optimality without significant burn-in costs, as well as sharp statistical characterizations of several widely used RL algorithms. Whenever possible, we provide largely self-contained analyses together with intuitive explanations. We also briefly discuss several extensions, such as robust RL, competitive multi-agent RL, federated RL, uncertainty quantification, and RL from human feedback.",
       "abs_url": "http://arxiv.org/abs/2610.41903v1",
       "pdf_url": "https://arxiv.org/pdf/2610.41903v1",
+      "code_url": null
+    },
+    "2611.01191": {
+      "id": "2611.01191",
+      "version": "2611.01191v1",
+      "title": "ArSciKids: Arabic Curriculum-Aligned Datasets for Scientific Experiment and Multiple-Choice Question Generation in Primary Education",
+      "authors": [
+        "Taghrid Housari",
+        "Massa Rankoussi",
+        "Jafar Abdul Majeed",
+        "Wael Tarabishi",
+        "Khloud Al Jallad",
+        "Nada Ghneim"
+      ],
+      "published": "2026-10-31",
+      "updated": "2026-10-31",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Despite growing interest in Arabic natural language processing, curriculum-aligned educational resources remain scarce compared with English, and few public datasets for Arabic curriculum content with structured, generation-ready annotations are available, particularly for primary-school science. We introduce ArSciKids, a collection of two Arabic datasets designed for curriculum-aligned educational content generation: (1) a scientific-experiments dataset containing 999 manually curated records from official primary-school science textbooks in Saudi Arabia, Syria, and Jordan, and (2) an assessment-question dataset containing 2,167 multiple-choice questions collected from the Saudi Manhaji educational platform. The experiment records are structured with titles, objectives, tools, procedures, observations, conclusions, keywords, and grade levels, while the assessment records contain lesson references, questions, four answer options, correct answers, and explanations. Both datasets cover grades 1-6 and consist of real-life Arabic educational content rather than machine-translated or synthetically generated material. We assess the usefulness of these resources for generation by fine-tuning ten open models spanning sub-billion to several-billion parameter scales using LoRA. Models are evaluated using automatic metrics, including ROUGE and BLEU, and answer accuracy for multiple-choice generation. Moreover, we evaluate the results using a five-criterion human evaluation protocol. The results show substantial differences across model scales and tasks. ArSciKids will be publicly available, and we hope that it provides a manually curated, structured foundation for research on Arabic educational NLP, curriculum-aware generation, and low-resource language modeling.",
+      "abs_url": "http://arxiv.org/abs/2611.01191v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.01191v1",
+      "code_url": null
+    },
+    "2611.01065": {
+      "id": "2611.01065",
+      "version": "2611.01065v1",
+      "title": "Label Smoothing in Disguise? Gated Knowledge Distillation for Low-Resource Bangla Generation",
+      "authors": [
+        "Dipto Sumit",
+        "Zobeida Zaman Chowdhury",
+        "Syeda Fabiayee Jahan",
+        "Farig Sadeque"
+      ],
+      "published": "2026-10-31",
+      "updated": "2026-10-31",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Gated knowledge distillation (KD) weights teacher signals per token or example, aiming to trust an imperfect teacher only where it seems reliable. We test two gates: EWAD (entropy-weighted agreement-aware distillation), which gates tokens by teacher confidence, and CHAD (counterfactual harm-aware distillation), which gates examples by gradient alignment with validation data. Across six Bangla-centric tasks, three student models (60M to about 2B parameters), and two teacher families, no gate significantly improves plain KD in 45 comparisons. KD also fails to beat cross-entropy (CE) fine-tuning on gold outputs in 40 single-seed comparisons or three-seed runs on four tasks; CE leads on every summarisation metric. The main benefit of KD is regularisation: over ten fixed epochs, CE students lose 0.030 to 0.044 token-F1 from their early-stopped checkpoint, versus 0.005 to 0.025 for distilled students. Teacher-free label smoothing closes most of this gap. In one comparison, a teacher 0.29 token-F1 worse yields students at most 0.009 worse. Thus, gating may change regularisation strength but has little teacher knowledge to select. Findings are limited to Bangla-centric tasks and small students. We will release code, data splits, predictions, and scores.",
+      "abs_url": "http://arxiv.org/abs/2611.01065v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.01065v1",
+      "code_url": null
+    },
+    "2611.00935": {
+      "id": "2611.00935",
+      "version": "2611.00935v1",
+      "title": "Labadain-MedQA: A Tetun Medical QA Dataset for Fine-Tuning and Evaluating Large Language Models",
+      "authors": [
+        "Gabriel de Jesus",
+        "Sérgio Nunes"
+      ],
+      "published": "2026-10-31",
+      "updated": "2026-10-31",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Advances in large language models (LLMs) have created opportunities for cross-lingual transfer of medical knowledge from high-resource to low-resource languages to support access to healthcare information. However, medical question-answering (QA) datasets for fine-tuning and evaluating LLMs remain scarce for Tetun. To address this gap, we translated MedAlpaca's Medical Flashcards and WikiDoc Patient Information collections into Tetun using Gemini 2.5 Flash, producing 39,077 medical QA pairs. Translation quality was assessed on 50 randomly sampled QA pairs (100 documents) using automatic metrics against human reference translations and evaluations by two native Tetun-speaking healthcare professionals, focusing on medical accuracy and Tetun fluency. Human translations achieved higher mean ratings than LLM-generated translations for both criteria (4.43/5 vs. 4.02/5), with statistically significant differences (Wilcoxon signed-rank test, p < 0.001). To assess downstream utility, we fine-tuned Gemma and Llama variants on the translated MedAlpaca dataset using parameter-efficient fine-tuning (PEFT) and evaluated them on 325 Tetun-translated United States Medical Licensing Examination multiple-choice questions. Gemma 4 12B fine-tuned using QLoRA achieved relative improvements in mean accuracy of 10.79% with 4-bit NormalFloat (NF4) inference and 10.42% after merging the LoRA adapters into the BF16 base model, compared with the corresponding base models. These results highlight the viability of automatic dataset translation for Tetun medical QA and the effectiveness of PEFT in enhancing model performance. The datasets, models, and evaluation resources are accessible at https://github.com/labadain/labadain-medqa to support reproducible research on Tetun medical QA and facilitate machine translation, cross lingual, and multilingual research.",
+      "abs_url": "http://arxiv.org/abs/2611.00935v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.00935v1",
+      "code_url": "https://github.com/labadain/labadain-medqa"
+    },
+    "2611.02637": {
+      "id": "2611.02637",
+      "version": "2611.02637v1",
+      "title": "Variable names provide priors: semantic grounding enables data-efficient numerical prediction by large language models",
+      "authors": [
+        "Xin-Rui Ma",
+        "Shi-Zhi Chen",
+        "Hai-Yan Jiang",
+        "De-Cheng Feng",
+        "Michael Beer"
+      ],
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Large language models (LLMs) have achieved strong performance across diverse tasks, from question answering to code generation. Recent studies have found that LLMs can perform numerical prediction on tabular datasets via in-context learning. However, it remains unclear under what conditions and how LLMs use variable names and in-context examples for numerical prediction. Here we show that semantic grounding, the match between variable names and the values they describe, allows five LLMs without task-specific training to match or outperform seven supervised machine learning (ML) models across 20 datasets from nine scientific domains, particularly when examples are scarce. Reasoning traces indicate that variable names allow LLMs to draw on domain-specific knowledge acquired during pretraining. Using controlled tasks based on physical formulas, we further show that LLMs integrate domain-specific knowledge with in-context examples in a way consistent with Bayesian updating. Specifically, when the relationship between the inputs and the target cannot be inferred from the examples alone, LLMs rely on domain-specific knowledge as the prior. Conversely, as contradicting examples accumulate, LLM predictions shift progressively towards these examples, which act as the likelihood. Our work reveals how LLMs use domain-specific knowledge in numerical prediction and positions them as data-efficient predictors for data-scarce scientific domains.",
+      "abs_url": "http://arxiv.org/abs/2611.02637v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.02637v1",
+      "code_url": null
+    },
+    "2611.02581": {
+      "id": "2611.02581",
+      "version": "2611.02581v1",
+      "title": "SMILE: A Structured Multi-Agent Clinical Reasoning for Liver Ultrasound Understanding",
+      "authors": [
+        "Haris Ghafoor",
+        "Minjee Seo",
+        "Seonaeng cho",
+        "Keungmo Yang",
+        "Jaejun Lee",
+        "Kyungho Yoon"
+      ],
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Automated liver ultrasound report generation improves the diagnosis of liver diseases by producing clinically structured descriptions of anatomical and disease-related findings. However, current generative vision-language models (VLMs) often rely on a single reasoning pathway that maps ultrasound appearance directly to textual descriptions. In addition to the inherent vision-language modality gap, this design is limited for liver ultrasound because disease interpretation is constrained by subtle visual evidence, heterogeneous disease patterns, and limited paired supervision. To address these limitations, we propose SMILE, a Structured Multi-agent clInicaL rEasoning framework that uses multiple complementary specialist agents to interpret ultrasound images and consolidates their outputs through a judge-guided consensus mechanism. Our approach employs three specialized agents: an image interpretation agent for morphological descriptions, a clinical-stage reasoning agent, and a visual question answering (VQA) agent for targeted queries. These agent responses are then aggregated and scrutinized by a judge VLM using a consensus filtering prompt to produce a unified, clinically coherent output. Across a public liver ultrasound dataset and an internal clinical dataset, SMILE consistently outperforms state-of-the-art VLMs, achieving up to 19.0\\% improvement in ROUGE-1 and 18.8\\% improvement in clinical F1-score, while reaching VQA F1-scores of 0.82 and 0.65 on public and internal datasets, respectively. These results demonstrate the potential of SMILE for data-scarce and limited-supervision clinical settings. Our models, datasets, and code are available \\href{https://github.com/CMME-Lab/SMILE}{here}.",
+      "abs_url": "http://arxiv.org/abs/2611.02581v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.02581v1",
+      "code_url": "https://github.com/CMME-Lab/SMILE"
+    },
+    "2611.02002": {
+      "id": "2611.02002",
+      "version": "2611.02002v1",
+      "title": "To Align Long, Plan Short: Simulating Diverse Profile-Aligned Students by Realizing Short-Term Plans in Long-Horizon Learning Environments",
+      "authors": [
+        "Bahar Radmehr",
+        "Jiaxu Zhao",
+        "Fatma Betül Güreş",
+        "Adish Singla",
+        "Tanja Käser"
+      ],
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "abstract": "Simulated students offer a scalable way to test learning platforms and AI tutors before deployment with real students and to augment scarce data for studying learning at scale. Existing LLM-based simulators primarily target short, language-centered interactions. In open-ended learning environments, however, student behavior emerges from patterns across long-horizon interaction trajectories, where turn-level prompting can drift from an assigned behavior profile. We introduce ALPS (Align Long-term by Planning Short-term), a hierarchical simulated student conditioned on observable, environment-specific behavior profiles. Rather than selecting every action independently, ALPS alternates between planning profile-aligned task segments and generating the corresponding actions. We evaluate ALPS in both data-sufficient and data-scarce settings, where supervision comes either from real student trajectories or from a teacher LLM. Across both settings, we compare in-context learning (ICL), supervised fine-tuning (SFT), reward-ranked fine-tuning (RAFT), and their sequential combination (SFT followed by RAFT). Experiments in an inquiry-based physics game and a pharmacy simulation evaluate behavioral density and coverage against held-out real data, and profile consistency using a human-aligned LLM judge. Across both settings, ALPS consistently outperforms turn-level generation, achieving comparable density and judge pass rates under scarce supervision, although coverage remains lower. These results show that hierarchical planning enables faithful, profile-aligned simulation over long interaction horizons, even with limited real student data.",
+      "abs_url": "http://arxiv.org/abs/2611.02002v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.02002v1",
+      "code_url": null
+    },
+    "2611.00265": {
+      "id": "2611.00265",
+      "version": "2611.00265v1",
+      "title": "A generative foundation model for computational brain imaging",
+      "authors": [
+        "Yuting He",
+        "Xu Wen",
+        "Hongxing Lan",
+        "Chengliang Liu",
+        "Yuxing Liu",
+        "Yan Xi",
+        "Wenxue Yu",
+        "Jindi Kong",
+        "Zhiqiang Zhang",
+        "Liang Jiang",
+        "Rongjun Ge",
+        "Yang Chen",
+        "Multi-Center Cooperative Clinical Study Group for \"Lesion-Phenotype Brain Mapping in Acute Stroke\""
+      ],
+      "published": "2026-10-30",
+      "updated": "2026-10-30",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Computational brain imaging is constrained by a mismatch between increasingly diverse tasks and scarce, heterogeneous clinical data. Although existing brain foundation models transfer pretrained representations, their knowledge remains entangled within model-specific features and fixed architectures. This paper proposes BrainGFM, a generative foundation model that extends knowledge transfer beyond representation reuse through a reusable and reconfigurable brain-imaging prior. By pretraining on a corpus of about 1.3 million MRI and CT slices, BrainGFM supported task-aligned data synthesis for low-data predictive learning and task-adapted post-training for image reconstruction. Across 48 downstream tasks, BrainGFM improved segmentation and classification under limited supervision and achieved high-fidelity image enhancement across heterogeneous imaging conditions. Multicenter clinical validation involving 4,796 stroke patients across two internal and four external centers demonstrated its applicability to three clinically relevant tasks around stroke cohorts. Blinded reader assessments showed that BrainGFM-generated FLAIR images approached acquired FLAIR in overall diagnostic quality. In a human-AI collaboration study, BrainGFM assistance yielded a 14% relative improvement in mean radiologist stroke-subtyping accuracy. These findings support generative priors as a reusable foundation for heterogeneous computational brain-imaging applications.",
+      "abs_url": "http://arxiv.org/abs/2611.00265v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.00265v1",
       "code_url": null
     }
   }

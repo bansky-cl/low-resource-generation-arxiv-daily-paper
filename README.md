@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **707**
-- Recent 30 days: **92**
+- Total papers in JSON: **714**
+- Recent 30 days: **99**
 - Older than 30 days: **615**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,13 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-02**|**Variable names provide priors: semantic grounding enables data-efficient numerical prediction by large language models**|cs.AI, cs.CL, cs.LG|[2611.02637v1](http://arxiv.org/abs/2611.02637v1)|null|
+|**2026-11-02**|**SMILE: A Structured Multi-Agent Clinical Reasoning for Liver Ultrasound Understanding**|cs.CV, cs.CL, cs.LG|[2611.02581v1](http://arxiv.org/abs/2611.02581v1)|**[code](https://github.com/CMME-Lab/SMILE)**|
+|**2026-11-01**|**To Align Long, Plan Short: Simulating Diverse Profile-Aligned Students by Realizing Short-Term Plans in Long-Horizon Learning Environments**|cs.AI, cs.CL, cs.CY|[2611.02002v1](http://arxiv.org/abs/2611.02002v1)|null|
+|**2026-10-31**|**ArSciKids: Arabic Curriculum-Aligned Datasets for Scientific Experiment and Multiple-Choice Question Generation in Primary Education**|cs.CL, cs.AI, cs.LG|[2611.01191v1](http://arxiv.org/abs/2611.01191v1)|null|
+|**2026-10-31**|**Label Smoothing in Disguise? Gated Knowledge Distillation for Low-Resource Bangla Generation**|cs.CL, cs.AI|[2611.01065v1](http://arxiv.org/abs/2611.01065v1)|null|
+|**2026-10-31**|**Labadain-MedQA: A Tetun Medical QA Dataset for Fine-Tuning and Evaluating Large Language Models**|cs.CL, cs.AI|[2611.00935v1](http://arxiv.org/abs/2611.00935v1)|**[code](https://github.com/labadain/labadain-medqa)**|
+|**2026-10-30**|**A generative foundation model for computational brain imaging**|cs.AI|[2611.00265v1](http://arxiv.org/abs/2611.00265v1)|null|
 |**2026-10-30**|**Statistical Foundations of Reinforcement Learning: A Non-Asymptotic Perspective**|stat.ML, cs.IT, cs.LG|[2610.41903v1](http://arxiv.org/abs/2610.41903v1)|null|
 |**2026-10-30**|**Enhancing Sentiment Classification on Small Datasets through Data Augmentation and Transfer Learning**|cs.LG, cs.CL|[2610.41518v1](http://arxiv.org/abs/2610.41518v1)|null|
 |**2026-10-30**|**TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection**|cs.AI, cs.CL|[2610.41232v1](http://arxiv.org/abs/2610.41232v1)|null|
@@ -58,7 +65,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-19**|**DeepSEA: A Multilingual Evaluation Benchmark for Southeast Asia**|cs.CL|[2610.26155v1](http://arxiv.org/abs/2610.26155v1)|null|
 |**2026-10-19**|**FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety**|cs.AI|[2610.26066v1](http://arxiv.org/abs/2610.26066v1)|null|
 |**2026-10-18**|**FoundPDE: A generative foundation model for data-driven symbolic discovery of partial differential equations**|physics.comp-ph, cs.AI, cs.LG|[2610.26963v1](http://arxiv.org/abs/2610.26963v1)|null|
-|**2026-10-18**|**Stepwise Reasoning Verification: Don't Generate, Classify!**|cs.AI|[2610.25441v1](http://arxiv.org/abs/2610.25441v1)|null|
+|**2026-10-18**|**Stepwise Reasoning Verification: Don't Generate, Classify!**|cs.AI|[2610.25441v2](http://arxiv.org/abs/2610.25441v2)|null|
 |**2026-10-18**|**P2N: Reusing Deep Representations for Greater Effective Depth**|cs.CL|[2610.25076v2](http://arxiv.org/abs/2610.25076v2)|null|
 |**2026-10-18**|**The World as Viewed by 136 Countries: An Open, Curated, Annotated, and Multilingual Dataset of 118 Million State Media Articles**|cs.CL, cs.CY|[2610.24990v1](http://arxiv.org/abs/2610.24990v1)|**[code](https://huggingface.co/collections/manestay/worldstatemedia)**|
 |**2026-10-17**|**A Cross-Domain Evaluation of Prompting Techniques for Large Language Models**|cs.AI, cs.CL|[2610.24913v1](http://arxiv.org/abs/2610.24913v1)|null|
@@ -220,15 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-30**|**GraM-Diff: A Unified Graph-Mamba Diffusion Framework for EEG-Based Alzheimer's Disease Data Generation and Diagnosis**|cs.LG|[2608.29755v1](http://arxiv.org/abs/2608.29755v1)|null|
 |**2026-08-29**|**BIRD-History: A Benchmark for History-Driven Text-to-SQL with Fine-Grained Knowledge Annotations**|cs.AI, cs.CL|[2608.29345v1](http://arxiv.org/abs/2608.29345v1)|**[code](https://github.com/zjuidg/BIRD-History)**|
 |**2026-08-29**|**Padārtha: Ontology-Grounded Fine-Grained NER Benchmark for Classical Sanskrit**|cs.CL|[2608.29324v1](http://arxiv.org/abs/2608.29324v1)|null|
-|**2026-08-29**|**Anchoring Speech with Semantics: A Multimodal Adapter Mechanism for Automatic Speech Recognition in Low-Resource Languages**|cs.CL, cs.SD, eess.AS|[2608.29239v1](http://arxiv.org/abs/2608.29239v1)|null|
-|**2026-08-29**|**Toward a Cross-Lingual Romanization Ecosystem for Sinitic Languages: A Paired Mandarin-Cantonese Case Study**|cs.CL|[2608.29170v2](http://arxiv.org/abs/2608.29170v2)|null|
-|**2026-08-28**|**NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry**|cs.CL, cs.AI|[2608.28481v1](http://arxiv.org/abs/2608.28481v1)|null|
-|**2026-08-28**|**CNeo-Bench: Diagnosing Large Language Models on Chinese Neologisms**|cs.CL|[2608.28053v1](http://arxiv.org/abs/2608.28053v1)|null|
-|**2026-08-27**|**pro-team at LLMs4OL 2026 Tasks Flagship and Reuse: Retrieval-Augmented Generation and Vocabulary-Constrained Filtering for Ontology Learning**|cs.AI|[2608.27101v2](http://arxiv.org/abs/2608.27101v2)|null|
-|**2026-08-26**|**Benchmarking Arabic--Russian Machine Translation: A Comparison of Fine-tuned NMT and Few-shot LLMs under Rich Morphology and Low Lexical Overlap**|cs.CL|[2609.29559v1](http://arxiv.org/abs/2609.29559v1)|null|
-|**2026-08-26**|**Cross-lingual Representation Learning via Centroid Intervention Fusion**|cs.CL|[2608.26357v1](http://arxiv.org/abs/2608.26357v1)|**[code](https://github.com/VRCMF/CIF.git)**|
 
-README omitted **507** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **514** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
