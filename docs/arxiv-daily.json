@@ -15460,6 +15460,116 @@
       "abs_url": "http://arxiv.org/abs/2611.00265v1",
       "pdf_url": "https://arxiv.org/pdf/2611.00265v1",
       "code_url": null
+    },
+    "2611.04010": {
+      "id": "2611.04010",
+      "version": "2611.04010v1",
+      "title": "Decision Transformer with Task-Aware Representations for Offline Meta-Reinforcement Learning",
+      "authors": [
+        "Xinbo Zhao",
+        "Yuhang Liu",
+        "Xin Zhang",
+        "Lei Le",
+        "Zhaohan Xi",
+        "Yingxue Zhang"
+      ],
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "To enable effective generalization in offline meta-RL, it is essential to accurately infer the underlying task through latent task representations, which provide a compact and transferable summary of task-specific characteristics for guiding policy generation. In this paper, we propose Contrastive Task-Aware Decision Transformer (CoTA-DT), a DT-based offline meta-RL framework that learns task representations by jointly integrating four complementary components: (i) contrastive learning from offline trajectories, (ii) alignment with natural-language task descriptions, (iii) one-step supervision via a task-conditioned world model, and (iv) long-term supervision via a task-conditioned Q function. The learned task representations are used as conditioning signals for a DT-based policy, enabling task-aware meta-policy learning. To further support generalization in both zero-shot and few-shot settings, we design a language-grounded, self-adaptive strategy that enables effective and reliable adaptation to unseen tasks. Notably, in CoTA-DT, the pretrained LLM serves as a shared backbone for language encoding, world modeling, Q-function estimation, and policy learning. This unified design facilitates parameter sharing, improving both efficiency and generalization. Extensive experiments across diverse offline meta-RL benchmarks demonstrate that CoTA-DT consistently outperforms prior methods, particularly in challenging zero-shot generalization scenarios.",
+      "abs_url": "http://arxiv.org/abs/2611.04010v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04010v1",
+      "code_url": null
+    },
+    "2611.05241": {
+      "id": "2611.05241",
+      "version": "2611.05241v1",
+      "title": "Shrinkage prior for implicit generative models",
+      "authors": [
+        "Shreya Sinha-Roy",
+        "Christian P. Robert",
+        "Ritabrata Dutta"
+      ],
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "categories": [
+        "cs.LG",
+        "stat.CO"
+      ],
+      "abstract": "Implicit generative models based on deep neural networks have revolutionized many scientific fields, from weather research to language generation. They successfully model complex random objects arising in real-world problems. In this work, we propose a sample-efficient training mechanism for these models. Our approach leverages regularized inference with shrinkage priors and generalized Bayes. In the large $p$ (parameter dimension) and small $n$ (sample size) setting, sparsity-inducing priors have been successfully used for linear regression when $p \\gg n$. However, their application to implicit generative models remains challenging due to the intractability of the likelihood function. To address this, we adapt a scoring rule posterior based on a strictly proper scoring rule, following the generalized Bayes framework. We then propose a block SGMCMC within Gibbs sampling mechanism. This enables efficient exploration of high-dimensional parameter spaces by identifying a sparse representation of neural implicit generative models. We demonstrate the performance of our proposed method through experiments on $p \\gg n$ linear regression and an application of neural generative models.",
+      "abs_url": "http://arxiv.org/abs/2611.05241v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05241v1",
+      "code_url": null
+    },
+    "2611.04543": {
+      "id": "2611.04543",
+      "version": "2611.04543v1",
+      "title": "CANDO: Conservative Action-Noise Directional Optimization for Residual Reinforcement Learning",
+      "authors": [
+        "Zeyu Gao",
+        "Chengkai Hou",
+        "Chaoyue Li",
+        "Zhuangzhe Wu",
+        "Jiaming Liu",
+        "Yao Mu",
+        "Peng Jia",
+        "Li Zhang",
+        "Shanghang Zhang"
+      ],
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Pretrained generative policies provide strong behavior priors for robot control, but adapting them efficiently with online reinforcement learning remains difficult. A central challenge is how to improve a frozen generative policy without destroying the structure learned from offline demonstrations. Noise-space residual methods address this by modifying the policy's input noise, but existing noise-space methods typically regulate adaptation through fixed latent feasible regions, which may exclude valuable noise edits. In contrast, action-space residual methods are more sample-efficient, but their efficiency can still be further improved. We propose Conservative Noise Directional Optimization (CNDO), a noise-space residual RL method that improves a frozen generative policy by learning state- and noise-conditioned directions around Gaussian latent samples. CNDO removes predefined latent feasible regions and instead regulates noise-space adaptation through the soft conservative constraint, which consists of conservative value estimation and gated execution. We further introduce Conservative Action-Noise Directional Optimization (CANDO), which adds an action-space residual, combining structured latent-space improvement with local action correction. Experiments show that, once CNDO narrows the gap between noise-space and action-space residual learning, CANDO further improves over single-space optimization, achieving 76.1 NAUC and a 91.4% final success rate, surpassing the best single-space results by 6.6 NAUC and 4.1% success rate. More demos and info are available on https://cando-rl.github.io/.",
+      "abs_url": "http://arxiv.org/abs/2611.04543v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04543v1",
+      "code_url": "https://cando-rl.github.io/"
+    },
+    "2611.04031": {
+      "id": "2611.04031",
+      "version": "2611.04031v1",
+      "title": "Language Model Augmented Decision Transformer for Multi-Task Offline Reinforcement Learning",
+      "authors": [
+        "Xinbo Zhao",
+        "Yuhang Liu",
+        "Xin Zhang",
+        "Lei Le",
+        "Zhaohan Xi",
+        "Yu Yang",
+        "Yingxue Zhang"
+      ],
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Offline multi-task reinforcement learning (MTRL) aims to learn a unified policy from heterogeneous offline datasets that generalizes across tasks. However, existing offline MTRL methods often struggle with two fundamental issues: severe per-task data scarcity and limited cross-task generalization. In this paper, we propose Language-Model Augmented Decision Transformer (LaMA-DT), a unified sequence-modeling framework that leverages a single large language model (LLM) for both trajectory augmentation and multi-task policy learning. LaMA-DT uses natural-language task descriptions to guide task-aligned trajectory augmentation through a set of supervised generation and alignment objectives, and incorporates a scoring-and-filtering mechanism to retain high-quality augmented trajectories. The same LLM is then repurposed as a language-conditioned Decision Transformer and fine-tuned on a mixture of real and augmented data. Experiments on Meta-World and MuJoCo multi-task benchmarks demonstrate that LaMA-DT consistently outperforms competitive baselines, particularly in low-data regimes, showing that language-guided data augmentation substantially improves cross-task generalization.",
+      "abs_url": "http://arxiv.org/abs/2611.04031v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04031v1",
+      "code_url": null
+    },
+    "2611.04949": {
+      "id": "2611.04949",
+      "version": "2611.04949v1",
+      "title": "HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias",
+      "authors": [
+        "Dayeon Jeong",
+        "Kyeongpil Kang"
+      ],
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Historical archives are invaluable for multidisciplinary research but remain inaccessible globally due to severe language barriers. While manual translation is prohibitively expensive and time-consuming, simply applying existing machine translation models is inadequate due to unique linguistic nuances and the temporal bias inherent in scarce human-labeled corpora. To address these challenges, we propose HERIT, a systematic domain-adaptation pipeline that leverages retrieval-augmented generation (RAG) to generate high-quality pseudo-labeled data from abundant Hanja-Korean corpora. This approach substantially expands the training dataset, mitigating both data scarcity and temporal overfitting across different historical periods. Extensive automated and human evaluations demonstrate that HERIT consistently outperforms baselines. Finally, we translate previously untranslated portions of the archives using our model, thereby enabling global access to these resources for researchers.",
+      "abs_url": "http://arxiv.org/abs/2611.04949v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04949v1",
+      "code_url": null
     }
   }
 }

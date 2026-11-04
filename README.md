@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **714**
-- Recent 30 days: **97**
+- Total papers in JSON: **719**
+- Recent 30 days: **102**
 - Older than 30 days: **617**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,11 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-03**|**Shrinkage prior for implicit generative models**|cs.LG, stat.CO|[2611.05241v1](http://arxiv.org/abs/2611.05241v1)|null|
+|**2026-11-03**|**HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias**|cs.CL|[2611.04949v1](http://arxiv.org/abs/2611.04949v1)|null|
+|**2026-11-03**|**CANDO: Conservative Action-Noise Directional Optimization for Residual Reinforcement Learning**|cs.LG, cs.AI|[2611.04543v1](http://arxiv.org/abs/2611.04543v1)|**[code](https://cando-rl.github.io/)**|
+|**2026-11-02**|**Language Model Augmented Decision Transformer for Multi-Task Offline Reinforcement Learning**|cs.CL, cs.LG|[2611.04031v1](http://arxiv.org/abs/2611.04031v1)|null|
+|**2026-11-02**|**Decision Transformer with Task-Aware Representations for Offline Meta-Reinforcement Learning**|cs.LG|[2611.04010v1](http://arxiv.org/abs/2611.04010v1)|null|
 |**2026-11-02**|**Variable names provide priors: semantic grounding enables data-efficient numerical prediction by large language models**|cs.AI, cs.CL, cs.LG|[2611.02637v1](http://arxiv.org/abs/2611.02637v1)|null|
 |**2026-11-02**|**SMILE: A Structured Multi-Agent Clinical Reasoning for Liver Ultrasound Understanding**|cs.CV, cs.CL, cs.LG|[2611.02581v1](http://arxiv.org/abs/2611.02581v1)|**[code](https://github.com/CMME-Lab/SMILE)**|
 |**2026-11-01**|**To Align Long, Plan Short: Simulating Diverse Profile-Aligned Students by Realizing Short-Term Plans in Long-Horizon Learning Environments**|cs.AI, cs.CL, cs.CY|[2611.02002v1](http://arxiv.org/abs/2611.02002v1)|null|
@@ -222,13 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-08-31**|**Generative multi-domain transfer learning for fault detection in data-scarce wind turbines**|cs.LG|[2608.30323v1](http://arxiv.org/abs/2608.30323v1)|null|
 |**2026-08-30**|**Confident but Wrong: A Constrained Decoding Diagnostic for Low-Resource Automatic Post-Editing**|cs.CL|[2609.29680v1](http://arxiv.org/abs/2609.29680v1)|null|
 |**2026-08-30**|**Pak3H: Evaluating the Cost of Cultural Mismatch in LLM Alignment with a Human-Contextualized Urdu Benchmark**|cs.CL, cs.AI|[2608.30065v1](http://arxiv.org/abs/2608.30065v1)|null|
-|**2026-08-30**|**Generative vs. Encoder Models for Multilingual NER: A Comprehensive Empirical Study on Naamapadam**|cs.CL|[2608.29959v1](http://arxiv.org/abs/2608.29959v1)|null|
-|**2026-08-30**|**Improving Argument Saliency Coverage in Small LLMs for Long Legal Opinion Summarization via Sequence-Level Distillation**|cs.CL|[2608.29884v1](http://arxiv.org/abs/2608.29884v1)|null|
-|**2026-08-30**|**GraM-Diff: A Unified Graph-Mamba Diffusion Framework for EEG-Based Alzheimer's Disease Data Generation and Diagnosis**|cs.LG|[2608.29755v1](http://arxiv.org/abs/2608.29755v1)|null|
-|**2026-08-29**|**BIRD-History: A Benchmark for History-Driven Text-to-SQL with Fine-Grained Knowledge Annotations**|cs.AI, cs.CL|[2608.29345v1](http://arxiv.org/abs/2608.29345v1)|**[code](https://github.com/zjuidg/BIRD-History)**|
-|**2026-08-29**|**Padārtha: Ontology-Grounded Fine-Grained NER Benchmark for Classical Sanskrit**|cs.CL|[2608.29324v1](http://arxiv.org/abs/2608.29324v1)|null|
 
-README omitted **514** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **519** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
