@@ -15345,21 +15345,21 @@
     },
     "2611.00935": {
       "id": "2611.00935",
-      "version": "2611.00935v1",
+      "version": "2611.00935v2",
       "title": "Labadain-MedQA: A Tetun Medical QA Dataset for Fine-Tuning and Evaluating Large Language Models",
       "authors": [
         "Gabriel de Jesus",
         "Sérgio Nunes"
       ],
       "published": "2026-10-31",
-      "updated": "2026-10-31",
+      "updated": "2026-11-04",
       "categories": [
         "cs.CL",
         "cs.AI"
       ],
       "abstract": "Advances in large language models (LLMs) have created opportunities for cross-lingual transfer of medical knowledge from high-resource to low-resource languages to support access to healthcare information. However, medical question-answering (QA) datasets for fine-tuning and evaluating LLMs remain scarce for Tetun. To address this gap, we translated MedAlpaca's Medical Flashcards and WikiDoc Patient Information collections into Tetun using Gemini 2.5 Flash, producing 39,077 medical QA pairs. Translation quality was assessed on 50 randomly sampled QA pairs (100 documents) using automatic metrics against human reference translations and evaluations by two native Tetun-speaking healthcare professionals, focusing on medical accuracy and Tetun fluency. Human translations achieved higher mean ratings than LLM-generated translations for both criteria (4.43/5 vs. 4.02/5), with statistically significant differences (Wilcoxon signed-rank test, p < 0.001). To assess downstream utility, we fine-tuned Gemma and Llama variants on the translated MedAlpaca dataset using parameter-efficient fine-tuning (PEFT) and evaluated them on 325 Tetun-translated United States Medical Licensing Examination multiple-choice questions. Gemma 4 12B fine-tuned using QLoRA achieved relative improvements in mean accuracy of 10.79% with 4-bit NormalFloat (NF4) inference and 10.42% after merging the LoRA adapters into the BF16 base model, compared with the corresponding base models. These results highlight the viability of automatic dataset translation for Tetun medical QA and the effectiveness of PEFT in enhancing model performance. The datasets, models, and evaluation resources are accessible at https://github.com/labadain/labadain-medqa to support reproducible research on Tetun medical QA and facilitate machine translation, cross lingual, and multilingual research.",
-      "abs_url": "http://arxiv.org/abs/2611.00935v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.00935v1",
+      "abs_url": "http://arxiv.org/abs/2611.00935v2",
+      "pdf_url": "https://arxiv.org/pdf/2611.00935v2",
       "code_url": "https://github.com/labadain/labadain-medqa"
     },
     "2611.02637": {
@@ -15570,6 +15570,95 @@
       "abs_url": "http://arxiv.org/abs/2611.04949v1",
       "pdf_url": "https://arxiv.org/pdf/2611.04949v1",
       "code_url": null
+    },
+    "2611.06517": {
+      "id": "2611.06517",
+      "version": "2611.06517v1",
+      "title": "Dialect Matters: A Dialect-Aware Baseline for Igala-English Machine Translation",
+      "authors": [
+        "Etuh E.",
+        "Eli. A. Jiya"
+      ],
+      "published": "2026-11-04",
+      "updated": "2026-11-04",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "The massive permeability of intelligent systems in every sphere of human activities have greatly enhanced clarity, ease of work, and increased general global understanding which has significantly awaken the use of intelligent systems by all users. Intelligent systems greatly rely on precise dataset/corpus for the correctness of their output. Despite efforts by researchers to address Low-resource language in the Natural Language Processing (NLP), Igala still has zero parallel corpora despite efforts by researchers. We present a dialect-aware baseline for Igala-English machine translation, among first open systems and first with dialectal variation analysis. Our dataset of 1137 sentences (899 training) is first with dialect tags: Idah 459 (40.4%), Ankpa 297 (26.1%), Ibaji 160 (14.1%), Other 187 (16.4%), Ogugu 32 (2.8%). Same English yields 20-60 Igala forms. Mixed-dialect training achieves balanced BLEU 11.66 versus Idah-only model which drops 4.7 BLEU on Ibaji (13.2 on Idah, 8.5 on Ibaji), proving dialect fairness requires mixing. Fine-tuned from Helsinki-NLP/opus-mt-en-mul (78M), epoch ablation shows convergence at 8 epochs and overfitting at 15. BLEU 11.66, chrF 46.69. Analysis shows 899 sentences on log-linear trend consistent with African low-resource literature. This work provides first dialectal impact analysis for Igala and establishes baseline for future work.",
+      "abs_url": "http://arxiv.org/abs/2611.06517v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06517v1",
+      "code_url": null
+    },
+    "2611.06170": {
+      "id": "2611.06170",
+      "version": "2611.06170v1",
+      "title": "AssameseLM-E2B: An Open-Weight Assamese Language Model for Efficient Consumer-Grade Deployment",
+      "authors": [
+        "Pragyan Phukan"
+      ],
+      "published": "2026-11-04",
+      "updated": "2026-11-04",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "While Large Language Models (LLMs) excel in high-resource languages, their performance often degrades in low-resource languages due to tokenization inefficiencies, generative instability, and linguistic interference. This paper presents AssameseLM-E2B and its instruction-tuned variant, AssameseLM-E2B-it, a 2-billion-parameter model adapted specifically for low resource Assamese language. Built upon the Gemma-4 architecture, the model incorporates an expanded byte-level BPE vocabulary to reduce tokenization overhead by nearly 500% compared with multilingual 2B--3B baselines. We employ a parameter-efficient Continual Pre-Training (CPT) pipeline with Hybrid LoRA, followed by Supervised Fine-Tuning (SFT) on a balanced, multi-domain dataset to enhance instruction-following and Retrieval-Augmented Generation (RAG) capabilities. Evaluation demonstrates a Bits-per-Byte (BPB) score of 0.7488 on FLORES-200, alongside an overall RAG score of 96.7% and 100% refusal accuracy on adversarial unanswerable prompts. Comparative analysis reveals significant limitations in general-purpose baselines, including receptive-productive decoupling, generative degradation on Romanized Assamese, and unintended Bengali script assimilation. These results demonstrate the potential of parameter-efficient adaptation for developing capable, locally deployable language models for low-resource languages under constrained computational resources.",
+      "abs_url": "http://arxiv.org/abs/2611.06170v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06170v1",
+      "code_url": null
+    },
+    "2610.31323": {
+      "id": "2610.31323",
+      "version": "2610.31323v2",
+      "title": "Bridging the Data Gap: Source-Informed Task-Space Transport for Few-Shot Diffusion",
+      "authors": [
+        "Jinjian Jiang",
+        "Jing Peng",
+        "Rehan Deen",
+        "Yu Cao",
+        "Ziquan Liu",
+        "Muhammad Salman Haleem",
+        "David Mguni"
+      ],
+      "published": "2026-10-22",
+      "updated": "2026-11-04",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "When an object category is well represented in one domain but scarcely observed in another, adapting a diffusion model to the target can be unreliable. Yet the same source-target relationship may have been observed for other categories. We ask whether this recurring relation can be learned and reused for a new semantic task. We introduce Meta-Diff, which embeds source and target distributions in a shared low-dimensional task space, learns an affine transport map across paired training tasks, and generates from the transported source coordinate using a shared diffusion backbone. At deployment, it requires source examples and the identity of a previously learned relation, but neither target images nor target-specific optimisation. Gaussian-mixture experiments examine how transfer depends on task information retained by the encoder, relation predictability and the size of the source--target shift. On held-out CIFAR-100 validation tasks, correct-source transport achieves 13.9% lower mean sliced Wasserstein distance than wrong-source transport. In the one-target final-test comparison, it achieves 14.7% lower mean distance than target-only adaptation and 32.7% lower than full fine-tuning under validation-selected settings. These gains have clear limits: directly applying the known corruption to clean-source generations performs better on CIFAR, and requested-class identity remains weak. Office-Home shows domain alignment without reliable object identity; clinical stress tests show no resolved source-specific advantage. The results characterise when reusable task-space relations help and where their generative limitations remain.",
+      "abs_url": "http://arxiv.org/abs/2610.31323v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.31323v2",
+      "code_url": null
+    },
+    "2611.05862": {
+      "id": "2611.05862",
+      "version": "2611.05862v1",
+      "title": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
+      "authors": [
+        "Yuqin Dai",
+        "Zhanwei Zhang",
+        "Honghui Yang",
+        "Zhouheng Yao",
+        "Yueqi Zhang",
+        "Jingyu He",
+        "Chaoyang Shi",
+        "Fanding Wei",
+        "Boyuan Pan",
+        "Kai Xu",
+        "Yao Hu",
+        "Yongliang Shen"
+      ],
+      "published": "2026-11-04",
+      "updated": "2026-11-04",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large language model (LLM) shopping assistants now recommend products in multi-turn conversations. However, reliable evaluation faces Data scarcity and Difficulty Standardizing Criteria. To address these obstacles, we introduce CARTBench for CART (Complex and Ambiguous Requests with Timelines). For Data scarcity, we curate cases from real commercial shopping needs across 17 retail domains, pairing timestamped dialogue with 1,603 product records. For Difficulty Standardizing Criteria, we develop case-specific rubrics guided by Ideal Response Principles, distilled from excellent replies manually selected from successfully completed orders. These principles also guide Principle-Guided CART Prompting, our structured recommendation strategy. The experimental benchmark contains 1,328 expert-annotated criteria across Core, Excellence, and Safety. To answer the CART question, we evaluate 7 flagship commercial API models, including GPT-6.1-Sol and Claude-Opus-5, and 35B+ parameters open-weight models. In the first full-suite evaluation under the frozen rubrics, 3 of 10 models exceed 90% on Core, while none exceeds 45% on Excellence. Therefore, we identify an understanding-to-execution gap between required behavior and high-quality purchase advice. To examine these limitations, we diagnose shared failures in product evidence and unresolved needs, linked to changing requirements and decisive unknowns. Code and data are available at https://github.com/Da1yuqin/CARTBench.",
+      "abs_url": "http://arxiv.org/abs/2611.05862v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05862v1",
+      "code_url": "https://github.com/Da1yuqin/CARTBench"
     }
   }
 }

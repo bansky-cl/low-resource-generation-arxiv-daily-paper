@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **719**
-- Recent 30 days: **99**
+- Total papers in JSON: **723**
+- Recent 30 days: **103**
 - Older than 30 days: **620**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-04**|**Dialect Matters: A Dialect-Aware Baseline for Igala-English Machine Translation**|cs.CL|[2611.06517v1](http://arxiv.org/abs/2611.06517v1)|null|
+|**2026-11-04**|**AssameseLM-E2B: An Open-Weight Assamese Language Model for Efficient Consumer-Grade Deployment**|cs.CL, cs.AI, cs.LG|[2611.06170v1](http://arxiv.org/abs/2611.06170v1)|null|
+|**2026-11-04**|**CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines**|cs.CL|[2611.05862v1](http://arxiv.org/abs/2611.05862v1)|**[code](https://github.com/Da1yuqin/CARTBench)**|
 |**2026-11-03**|**Shrinkage prior for implicit generative models**|cs.LG, stat.CO|[2611.05241v1](http://arxiv.org/abs/2611.05241v1)|null|
 |**2026-11-03**|**HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias**|cs.CL|[2611.04949v1](http://arxiv.org/abs/2611.04949v1)|null|
 |**2026-11-03**|**CANDO: Conservative Action-Noise Directional Optimization for Residual Reinforcement Learning**|cs.LG, cs.AI|[2611.04543v1](http://arxiv.org/abs/2611.04543v1)|**[code](https://cando-rl.github.io/)**|
@@ -32,7 +35,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-11-01**|**To Align Long, Plan Short: Simulating Diverse Profile-Aligned Students by Realizing Short-Term Plans in Long-Horizon Learning Environments**|cs.AI, cs.CL, cs.CY|[2611.02002v1](http://arxiv.org/abs/2611.02002v1)|null|
 |**2026-10-31**|**ArSciKids: Arabic Curriculum-Aligned Datasets for Scientific Experiment and Multiple-Choice Question Generation in Primary Education**|cs.CL, cs.AI, cs.LG|[2611.01191v1](http://arxiv.org/abs/2611.01191v1)|null|
 |**2026-10-31**|**Label Smoothing in Disguise? Gated Knowledge Distillation for Low-Resource Bangla Generation**|cs.CL, cs.AI|[2611.01065v1](http://arxiv.org/abs/2611.01065v1)|null|
-|**2026-10-31**|**Labadain-MedQA: A Tetun Medical QA Dataset for Fine-Tuning and Evaluating Large Language Models**|cs.CL, cs.AI|[2611.00935v1](http://arxiv.org/abs/2611.00935v1)|**[code](https://github.com/labadain/labadain-medqa)**|
+|**2026-10-31**|**Labadain-MedQA: A Tetun Medical QA Dataset for Fine-Tuning and Evaluating Large Language Models**|cs.CL, cs.AI|[2611.00935v2](http://arxiv.org/abs/2611.00935v2)|**[code](https://github.com/labadain/labadain-medqa)**|
 |**2026-10-30**|**A generative foundation model for computational brain imaging**|cs.AI|[2611.00265v1](http://arxiv.org/abs/2611.00265v1)|null|
 |**2026-10-30**|**Statistical Foundations of Reinforcement Learning: A Non-Asymptotic Perspective**|stat.ML, cs.IT, cs.LG|[2610.41903v1](http://arxiv.org/abs/2610.41903v1)|null|
 |**2026-10-30**|**Enhancing Sentiment Classification on Small Datasets through Data Augmentation and Transfer Learning**|cs.LG, cs.CL|[2610.41518v1](http://arxiv.org/abs/2610.41518v1)|null|
@@ -56,6 +59,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-23**|**Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox**|cs.CL, cs.HC, cs.LG|[2610.32955v1](http://arxiv.org/abs/2610.32955v1)|null|
 |**2026-10-23**|**Data-Efficient Backdoor Attacks on Code Models via Trigger-Neutralized Counterfactual Scoring**|cs.CR, cs.AI|[2610.32334v1](http://arxiv.org/abs/2610.32334v1)|null|
 |**2026-10-22**|**Real-to-Sim Calibration of Bosch Etching Simulators with Few-Shot XSEM Data and Hybrid Search**|cs.CE, cs.LG|[2610.31904v1](http://arxiv.org/abs/2610.31904v1)|null|
+|**2026-10-22**|**Bridging the Data Gap: Source-Informed Task-Space Transport for Few-Shot Diffusion**|cs.LG, cs.AI|[2610.31323v2](http://arxiv.org/abs/2610.31323v2)|null|
 |**2026-10-22**|**IndoNutriQA: An Indonesian Clinical Nutrition Question Answering Benchmark**|cs.CL|[2610.31256v1](http://arxiv.org/abs/2610.31256v1)|null|
 |**2026-10-21**|**Climbing the Ladder: Automating Data Pipelines and Reproducing Baselines in Low-Resource Settings**|cs.CL|[2610.30374v1](http://arxiv.org/abs/2610.30374v1)|null|
 |**2026-10-21**|**A Diagnostic Study of Faithfulness in Diffusion Language Models for Table-to-Text Generation**|cs.CL, cs.LG|[2610.29602v1](http://arxiv.org/abs/2610.29602v1)|null|
@@ -223,12 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-01**|**Text-guided flow matching enables sample-efficient crystal structure generation**|cond-mat.mtrl-sci, cs.AI|[2609.01076v2](http://arxiv.org/abs/2609.01076v2)|null|
 |**2026-09-01**|**Inspicio: Open-Vocabulary, LLM-Based Sense Retrieval for Historical Languages**|cs.CL, cs.AI|[2609.00998v1](http://arxiv.org/abs/2609.00998v1)|null|
 |**2026-09-01**|**Automated Tree Knowledge Graph Construction using Ontology Expansion and Retrieval from Vietnamese History Textbooks**|cs.AI|[2609.00763v1](http://arxiv.org/abs/2609.00763v1)|null|
-|**2026-08-31**|**Enhancing Low-Resource Language Reasoning via High-Resource Language Feature Transfer**|cs.CL, cs.AI|[2608.30462v1](http://arxiv.org/abs/2608.30462v1)|null|
-|**2026-08-31**|**Generative multi-domain transfer learning for fault detection in data-scarce wind turbines**|cs.LG|[2608.30323v1](http://arxiv.org/abs/2608.30323v1)|null|
-|**2026-08-30**|**Confident but Wrong: A Constrained Decoding Diagnostic for Low-Resource Automatic Post-Editing**|cs.CL|[2609.29680v1](http://arxiv.org/abs/2609.29680v1)|null|
-|**2026-08-30**|**Pak3H: Evaluating the Cost of Cultural Mismatch in LLM Alignment with a Human-Contextualized Urdu Benchmark**|cs.CL, cs.AI|[2608.30065v1](http://arxiv.org/abs/2608.30065v1)|null|
 
-README omitted **519** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **523** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
