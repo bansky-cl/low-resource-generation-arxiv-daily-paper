@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.05
+## Updated on 2026.11.06
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **723**
-- Recent 30 days: **103**
-- Older than 30 days: **620**
+- Recent 30 days: **99**
+- Older than 30 days: **624**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -121,15 +121,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-07**|**Quantum anomaly detection in real scarce data**|quant-ph, cs.LG|[2610.09635v1](http://arxiv.org/abs/2610.09635v1)|null|
 |**2026-10-07**|**Which Language Should a Skeleton Speak? Language Choices in Multilingual Reasoning**|cs.CL, cs.AI|[2610.09607v1](http://arxiv.org/abs/2610.09607v1)|**[code](https://github.com/lhsstn/LASEF)**|
 |**2026-10-07**|**Dialect-Robust Speech Language Models with Synthetic Pseudo-Dialect Augmentation**|cs.CL, eess.AS|[2610.09321v1](http://arxiv.org/abs/2610.09321v1)|null|
-|**2026-10-06**|**Multi-Objective Aligned Small Language Model Framework for SUD Patient Dialogue Generation**|cs.CL, cs.AI|[2610.09209v1](http://arxiv.org/abs/2610.09209v1)|null|
-|**2026-10-06**|**Language Unalignability: Why Some Concepts Resist Cross-Cultural Benchmark Evaluation**|cs.CL|[2610.08303v1](http://arxiv.org/abs/2610.08303v1)|null|
-|**2026-10-06**|**VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation**|cs.RO, cs.AI|[2610.08220v1](http://arxiv.org/abs/2610.08220v1)|null|
-|**2026-10-06**|**Improving Synthetic Data Generation for Argument Mining via Adversarial Reinforcement Learning**|cs.LG, cs.CL|[2610.07699v1](http://arxiv.org/abs/2610.07699v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-06**|**Multi-Objective Aligned Small Language Model Framework for SUD Patient Dialogue Generation**|cs.CL, cs.AI|[2610.09209v1](http://arxiv.org/abs/2610.09209v1)|null|
+|**2026-10-06**|**Language Unalignability: Why Some Concepts Resist Cross-Cultural Benchmark Evaluation**|cs.CL|[2610.08303v1](http://arxiv.org/abs/2610.08303v1)|null|
+|**2026-10-06**|**VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation**|cs.RO, cs.AI|[2610.08220v1](http://arxiv.org/abs/2610.08220v1)|null|
+|**2026-10-06**|**Improving Synthetic Data Generation for Argument Mining via Adversarial Reinforcement Learning**|cs.LG, cs.CL|[2610.07699v1](http://arxiv.org/abs/2610.07699v1)|null|
 |**2026-10-05**|**HyperNSDE: Personalized Neural SDEs for Joint Static-Longitudinal Clinical Data Generation**|stat.ML, cs.LG, stat.AP, stat.ME|[2610.07383v1](http://arxiv.org/abs/2610.07383v1)|null|
 |**2026-10-05**|**Xaurora: Generative Weather Forecasting with Denoising Stochastic Interpolants from a Foundation Model Prior**|cs.LG, physics.ao-ph|[2610.06509v1](http://arxiv.org/abs/2610.06509v1)|null|
 |**2026-10-05**|**Constraint-Aware Conversational Job Recommendation in Code-Mixed Low-Resource Settings**|cs.IR|[2610.05787v1](http://arxiv.org/abs/2610.05787v1)|**[code](https://huggingface.co/datasets/Armans33115/JobCCC-Conversational-Job-Recommendation-Bangladesh)**|
