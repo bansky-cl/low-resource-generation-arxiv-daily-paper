@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.06
+## Updated on 2026.11.07
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **727**
-- Recent 30 days: **103**
-- Older than 30 days: **624**
+- Recent 30 days: **97**
+- Older than 30 days: **630**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -119,17 +119,17 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-08**|**Fact over Fiction: Detection of Pathological Hallucinations in Sinhala-to-English Neural Machine Translation**|cs.CL|[2610.11389v1](http://arxiv.org/abs/2610.11389v1)|null|
 |**2026-10-08**|**Sample-Efficient Generative Conformal Prediction**|cs.LG, stat.ME|[2610.11349v1](http://arxiv.org/abs/2610.11349v1)|null|
 |**2026-10-08**|**Local Prototype Reconstruction for Text-Compatible Speech-to-LLM Bridge Pretraining**|cs.CL, cs.SD|[2610.11159v1](http://arxiv.org/abs/2610.11159v1)|null|
+
+## Older Than 30 Days
+
+|Date|Title|Categories|PDF|Code|
+|---|---|---|---|---|
 |**2026-10-07**|**Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged**|cs.CL|[2610.10918v1](http://arxiv.org/abs/2610.10918v1)|null|
 |**2026-10-07**|**Document-Level Text Simplification in Estonian Using Large Language Models**|cs.CL|[2610.10378v1](http://arxiv.org/abs/2610.10378v1)|null|
 |**2026-10-07**|**From Prompts to Trees: Effective LLM-Guided Tree Generation for Few-Shot Tabular Classification**|cs.LG, cs.AI, cs.CL|[2610.10227v1](http://arxiv.org/abs/2610.10227v1)|null|
 |**2026-10-07**|**Quantum anomaly detection in real scarce data**|quant-ph, cs.LG|[2610.09635v1](http://arxiv.org/abs/2610.09635v1)|null|
 |**2026-10-07**|**Which Language Should a Skeleton Speak? Language Choices in Multilingual Reasoning**|cs.CL, cs.AI|[2610.09607v1](http://arxiv.org/abs/2610.09607v1)|**[code](https://github.com/lhsstn/LASEF)**|
 |**2026-10-07**|**Dialect-Robust Speech Language Models with Synthetic Pseudo-Dialect Augmentation**|cs.CL, eess.AS|[2610.09321v1](http://arxiv.org/abs/2610.09321v1)|null|
-
-## Older Than 30 Days
-
-|Date|Title|Categories|PDF|Code|
-|---|---|---|---|---|
 |**2026-10-06**|**Multi-Objective Aligned Small Language Model Framework for SUD Patient Dialogue Generation**|cs.CL, cs.AI|[2610.09209v1](http://arxiv.org/abs/2610.09209v1)|null|
 |**2026-10-06**|**Language Unalignability: Why Some Concepts Resist Cross-Cultural Benchmark Evaluation**|cs.CL|[2610.08303v1](http://arxiv.org/abs/2610.08303v1)|null|
 |**2026-10-06**|**VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation**|cs.RO, cs.AI|[2610.08220v1](http://arxiv.org/abs/2610.08220v1)|null|
