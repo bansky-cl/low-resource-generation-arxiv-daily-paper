@@ -14509,7 +14509,7 @@
     },
     "2610.25076": {
       "id": "2610.25076",
-      "version": "2610.25076v2",
+      "version": "2610.25076v3",
       "title": "P2N: Reusing Deep Representations for Greater Effective Depth",
       "authors": [
         "Yiqin Hao",
@@ -14524,13 +14524,13 @@
         "Zhouhan Lin"
       ],
       "published": "2026-10-18",
-      "updated": "2026-10-24",
+      "updated": "2026-11-05",
       "categories": [
         "cs.CL"
       ],
       "abstract": "Mathematical problem solving and autonomous agents are increasingly important applications of language models, demanding stronger reasoning capabilities. Computational depth is a key resource for such reasoning, but adding model layers increases both training and inference costs, while test-time scaling incurs substantial additional inference computation. We introduce P2N (Previous to Next), which reuses the previous token's deep representations, already available during generation, to increase effective computational depth with negligible decoding overhead. Specifically, P2N adds the previous token's deep hidden state to the current token's shallow representation, allowing subsequent layers to build on previously completed deep computation. This recurrence extends effective computational depth across tokens, while introducing only a single vector addition per decoding step. We train the recurrence using parallel Jacobi updates restricted to a middle-layer core. Experiments with Qwen-style models show that, at 1.5B parameters, P2N improves GSM8K accuracy by over 10 percentage points under both zero-shot and few-shot prompting, with nearly unchanged decoding latency. The benefits also extend to language modeling and average performance on general downstream benchmarks. on general downstream benchmarks.",
-      "abs_url": "http://arxiv.org/abs/2610.25076v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.25076v2",
+      "abs_url": "http://arxiv.org/abs/2610.25076v3",
+      "pdf_url": "https://arxiv.org/pdf/2610.25076v3",
       "code_url": null
     },
     "2610.24913": {
@@ -15659,6 +15659,83 @@
       "abs_url": "http://arxiv.org/abs/2611.05862v1",
       "pdf_url": "https://arxiv.org/pdf/2611.05862v1",
       "code_url": "https://github.com/Da1yuqin/CARTBench"
+    },
+    "2611.08006": {
+      "id": "2611.08006",
+      "version": "2611.08006v1",
+      "title": "Automatic keyphrase extraction and annotation: modern theoretical approaches and practical solutions for text and speech",
+      "authors": [
+        "Daria Guseva",
+        "Olga Mitrofanova"
+      ],
+      "published": "2026-11-05",
+      "updated": "2026-11-05",
+      "categories": [
+        "cs.CL",
+        "cs.HC"
+      ],
+      "abstract": "The exponential growth of textual and audiovisual information has made the task of automatic keyphrase extraction (KE) increasingly significant. This article provides a comprehensive analysis of contemporary theoretical approaches and practical solutions for KE across both text and speech modalities. The primary contribution of this work is its systematic synthesis of these often-disparate research strands into a unified analytical framework, highlighting the evolution of the field from statistical methods towards large language models (LLMs) and end-to-end speech processing. We examine the stages of KE, the characteristics of keyphrases in written and spoken language, and terminological nuances. Various methods for automatic KE are discussed and analyzed in detail: statistical, hybrid, machine learning-based, and structural. The review dedicates substantial attention to emerging paradigms, including keyphrase generation using LLMs, and provides a detailed overview of methodologies and challenges in automatic corpus annotation. Furthermore, we specifically analyze current directions and inherent difficulties in KE for spoken language, comparing transcript based and end-to-end acoustic approaches. This synthesis leads us to conclude that the field is moving towards a more integrated, context-aware paradigm. Future progress will depend on addressing key challenges such as data scarcity for low-resource languages, effective multimodal fusion, and the nuanced evaluation of generative KE systems.",
+      "abs_url": "http://arxiv.org/abs/2611.08006v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08006v1",
+      "code_url": null
+    },
+    "2611.07982": {
+      "id": "2611.07982",
+      "version": "2611.07982v1",
+      "title": "How Far Can Lightweight LLMs Go in Intent-to-SLO Translation?",
+      "authors": [
+        "Sabbir Ahmed",
+        "Hazem Abbas",
+        "Salimur Choudhury"
+      ],
+      "published": "2026-11-05",
+      "updated": "2026-11-05",
+      "categories": [
+        "cs.NI",
+        "cs.CL"
+      ],
+      "abstract": "Intent-based networking (IBN) promises QoS provisioning in which the network derives the configuration from operator-stated goals. Its first step, translating a natural-language intent into enforceable service-level objectives (SLOs) grounded in a live snapshot of the network state, increasingly relies on large language models (LLMs). These large models add cost and energy to the management loop and typically require multi-GPU, cloud-hosted infrastructure. Can lightweight open LLMs take over this step dependably? We answer this question with a five-dimensional evaluation of ten LLMs with <10B parameters from five families, under four prompting setups, on 716 placement intents. We evaluate translation performance, intent validation, hallucination, energy impact, and robustness to diverse phrasing. The best configurations translate intents with a strict F1 of 0.943 and reject up to 191 of 195 invalid intents. With few-shot reasoning, the strongest models hallucinate unsupported QoS requirements in only about one response in a hundred, whereas the zero-shot setup struggles. A translated intent costs 0.044-0.148 Wh of GPU energy without reasoning, and added energy cost for reasoning pays off for the weaker models. Furthermore, we show that realistic rephrasing lowers the rejection of invalid intents in 15 of 16 configurations for the best-performing models, leaving robust intent validation as a key open challenge for reliable IBN. Our code and data are available: https://github.com/ggck43/intent2slo.",
+      "abs_url": "http://arxiv.org/abs/2611.07982v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.07982v1",
+      "code_url": "https://github.com/ggck43/intent2slo"
+    },
+    "2611.07570": {
+      "id": "2611.07570",
+      "version": "2611.07570v1",
+      "title": "ACSeL: Adaptive Configuration Search for Hardware-Constrained LLM Inference",
+      "authors": [
+        "Bokun Wang",
+        "Hung-Yueh Chiang",
+        "Diana Marculescu"
+      ],
+      "published": "2026-11-05",
+      "updated": "2026-11-05",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Serving large language models (LLMs) under tight memory and latency service-level objectives (SLOs), including on edge devices, requires jointly selecting the model size, batch size, quantization algorithm, and mixed-precision quantization recipes. Exhaustive search over this combinatorially large space is infeasible. Unlike data-center serving, which often prioritizes throughput or generation speed, resource-constrained deployments typically set memory and latency budgets as constraints and then seek the configuration with the highest generation quality among feasible ones. To this end, we propose ACSeL, a framework that identifies configurations predicted to satisfy deployment constraints while achieving high predicted generation quality. To enable efficient quality estimation, we use Relative Model Quality Degradation (RMQD), a proxy based on the divergence between the candidate and reference models' next-token distributions over a small calibration corpus. Across the evaluated model sizes and precisions, RMQD is inexpensive to evaluate and strongly correlated with downstream benchmark performance. ACSeL combines (i) a lightweight quality surrogate that predicts RMQD directly from a configuration; (ii) Few-shot Median Calibration (FMC), which calibrates operator-profile-based latency estimates using a small number of end-to-end profiles; and (iii) a structured search algorithm BandPareto for exploring layerwise mixed-precision configurations. Experiments on an NVIDIA RTX A6000 workstation and an NVIDIA Jetson Thor edge platform show that FMC substantially improves deployment feasibility, while BandPareto + FMC achieves the highest feasibility and the lowest RMQD gaps to the best measured configurations in the evaluation set.",
+      "abs_url": "http://arxiv.org/abs/2611.07570v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.07570v1",
+      "code_url": null
+    },
+    "2611.07282": {
+      "id": "2611.07282",
+      "version": "2611.07282v1",
+      "title": "Scenario Augmentation for Rare Financial Events via Multimodal Latent Diffusion",
+      "authors": [
+        "Mahdi Arab Loodaricheh",
+        "Anita Raja",
+        "Indranil SenGupta"
+      ],
+      "published": "2026-11-05",
+      "updated": "2026-11-05",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Extreme market movements are scarce, heterogeneous, and difficult to learn from imbalanced historical data. We study whether generative augmentation can improve the representation and classification of CVaR-labeled rare financial windows while retaining the complementary structure exposed by different financial representations. Each market window is expressed through three aligned modalities: structured market variables, a spatial image transformation, and a sequence of portfolio returns. Separate variational autoencoders map the modalities to compact latent codes, and a class-conditional diffusion model learns their joint latent distribution. Conditional Value-at-Risk (CVaR) provides a risk-aware definition of rare windows and directs generation toward the minority regime. Across four window lengths on U.S. technology equities, the resulting synthetic samples improve fidelity and support relative to tabular diffusion baselines. An XGBoost classifier trained with real and generated samples attains AUCs of 0.953 - 0.960, exceeding both tabular generators and the corresponding real-only baselines. These results show that multimodal latent generation can provide useful synthetic stress scenarios for data-scarce financial risk models.",
+      "abs_url": "http://arxiv.org/abs/2611.07282v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.07282v1",
+      "code_url": null
     }
   }
 }

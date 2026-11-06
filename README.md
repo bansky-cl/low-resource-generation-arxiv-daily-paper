@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **723**
-- Recent 30 days: **99**
+- Total papers in JSON: **727**
+- Recent 30 days: **103**
 - Older than 30 days: **624**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,10 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-05**|**Automatic keyphrase extraction and annotation: modern theoretical approaches and practical solutions for text and speech**|cs.CL, cs.HC|[2611.08006v1](http://arxiv.org/abs/2611.08006v1)|null|
+|**2026-11-05**|**How Far Can Lightweight LLMs Go in Intent-to-SLO Translation?**|cs.NI, cs.CL|[2611.07982v1](http://arxiv.org/abs/2611.07982v1)|**[code](https://github.com/ggck43/intent2slo)**|
+|**2026-11-05**|**ACSeL: Adaptive Configuration Search for Hardware-Constrained LLM Inference**|cs.LG|[2611.07570v1](http://arxiv.org/abs/2611.07570v1)|null|
+|**2026-11-05**|**Scenario Augmentation for Rare Financial Events via Multimodal Latent Diffusion**|cs.LG|[2611.07282v1](http://arxiv.org/abs/2611.07282v1)|null|
 |**2026-11-04**|**Dialect Matters: A Dialect-Aware Baseline for Igala-English Machine Translation**|cs.CL|[2611.06517v1](http://arxiv.org/abs/2611.06517v1)|null|
 |**2026-11-04**|**AssameseLM-E2B: An Open-Weight Assamese Language Model for Efficient Consumer-Grade Deployment**|cs.CL, cs.AI, cs.LG|[2611.06170v1](http://arxiv.org/abs/2611.06170v1)|null|
 |**2026-11-04**|**CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines**|cs.CL|[2611.05862v1](http://arxiv.org/abs/2611.05862v1)|**[code](https://github.com/Da1yuqin/CARTBench)**|
@@ -75,7 +79,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-19**|**FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety**|cs.AI|[2610.26066v1](http://arxiv.org/abs/2610.26066v1)|null|
 |**2026-10-18**|**FoundPDE: A generative foundation model for data-driven symbolic discovery of partial differential equations**|physics.comp-ph, cs.AI, cs.LG|[2610.26963v1](http://arxiv.org/abs/2610.26963v1)|null|
 |**2026-10-18**|**Stepwise Reasoning Verification: Don't Generate, Classify!**|cs.AI|[2610.25441v2](http://arxiv.org/abs/2610.25441v2)|null|
-|**2026-10-18**|**P2N: Reusing Deep Representations for Greater Effective Depth**|cs.CL|[2610.25076v2](http://arxiv.org/abs/2610.25076v2)|null|
+|**2026-10-18**|**P2N: Reusing Deep Representations for Greater Effective Depth**|cs.CL|[2610.25076v3](http://arxiv.org/abs/2610.25076v3)|null|
 |**2026-10-18**|**The World as Viewed by 136 Countries: An Open, Curated, Annotated, and Multilingual Dataset of 118 Million State Media Articles**|cs.CL, cs.CY|[2610.24990v1](http://arxiv.org/abs/2610.24990v1)|**[code](https://huggingface.co/collections/manestay/worldstatemedia)**|
 |**2026-10-17**|**A Cross-Domain Evaluation of Prompting Techniques for Large Language Models**|cs.AI, cs.CL|[2610.24913v1](http://arxiv.org/abs/2610.24913v1)|null|
 |**2026-10-17**|**GLOSS-MT: Controllable Low-Resource Machine Translation with an Editable Dictionary**|cs.CL, cs.AI|[2610.24730v1](http://arxiv.org/abs/2610.24730v1)|null|
@@ -223,12 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-02**|**PolERo: Studying Political Evasion in Romanian**|cs.CL, cs.AI|[2609.02391v1](http://arxiv.org/abs/2609.02391v1)|null|
 |**2026-09-02**|**Prototype-guided transfer of sparse literature knowledge for electrolyte additive discovery**|physics.chem-ph, cs.LG|[2609.02209v1](http://arxiv.org/abs/2609.02209v1)|null|
 |**2026-09-01**|**Automated Event Log Generation from Unstructured Text Using Finetuned LLMs**|cs.AI|[2609.01320v1](http://arxiv.org/abs/2609.01320v1)|null|
-|**2026-09-01**|**Measuring the Behavioral Fidelity of Long-Horizon Human Activity Simulations**|cs.AI|[2609.01257v1](http://arxiv.org/abs/2609.01257v1)|null|
-|**2026-09-01**|**Text-guided flow matching enables sample-efficient crystal structure generation**|cond-mat.mtrl-sci, cs.AI|[2609.01076v2](http://arxiv.org/abs/2609.01076v2)|null|
-|**2026-09-01**|**Inspicio: Open-Vocabulary, LLM-Based Sense Retrieval for Historical Languages**|cs.CL, cs.AI|[2609.00998v1](http://arxiv.org/abs/2609.00998v1)|null|
-|**2026-09-01**|**Automated Tree Knowledge Graph Construction using Ontology Expansion and Retrieval from Vietnamese History Textbooks**|cs.AI|[2609.00763v1](http://arxiv.org/abs/2609.00763v1)|null|
 
-README omitted **523** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **527** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
