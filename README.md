@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.07
+## Updated on 2026.11.08
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **727**
-- Recent 30 days: **97**
-- Older than 30 days: **630**
+- Recent 30 days: **91**
+- Older than 30 days: **636**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -113,17 +113,17 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-09**|**SharP: Soft and Hard Prompt-Guided Augmentation with LLM for Low Resource Fake News Detection**|cs.CL|[2610.13207v1](http://arxiv.org/abs/2610.13207v1)|null|
 |**2026-10-09**|**CB-Orchestrator: Adaptive Workflow Optimization for LLM Agents via Contextual Bandits**|cs.LG|[2610.13064v1](http://arxiv.org/abs/2610.13064v1)|null|
 |**2026-10-09**|**COFFEQA: Counterfactual-Guided Few-Shot Distillation for LLM Question Answering**|cs.CL, cs.AI, cs.LG|[2610.12837v1](http://arxiv.org/abs/2610.12837v1)|null|
+
+## Older Than 30 Days
+
+|Date|Title|Categories|PDF|Code|
+|---|---|---|---|---|
 |**2026-10-08**|**STAPLE: Static Sparse Upcycling of Pretrained Checkpoints via Embedding Modules**|cs.LG|[2610.12599v1](http://arxiv.org/abs/2610.12599v1)|null|
 |**2026-10-08**|**Ambient Discrete Diffusion: Using the Wrong Data at the Right Time for Data Efficient Learning**|cs.LG|[2610.12340v1](http://arxiv.org/abs/2610.12340v1)|null|
 |**2026-10-08**|**Zatom-2: Multitask Pretraining on Atomistic Data for Generative Modeling across Domains**|cs.LG, cs.AI|[2610.11454v2](http://arxiv.org/abs/2610.11454v2)|null|
 |**2026-10-08**|**Fact over Fiction: Detection of Pathological Hallucinations in Sinhala-to-English Neural Machine Translation**|cs.CL|[2610.11389v1](http://arxiv.org/abs/2610.11389v1)|null|
 |**2026-10-08**|**Sample-Efficient Generative Conformal Prediction**|cs.LG, stat.ME|[2610.11349v1](http://arxiv.org/abs/2610.11349v1)|null|
 |**2026-10-08**|**Local Prototype Reconstruction for Text-Compatible Speech-to-LLM Bridge Pretraining**|cs.CL, cs.SD|[2610.11159v1](http://arxiv.org/abs/2610.11159v1)|null|
-
-## Older Than 30 Days
-
-|Date|Title|Categories|PDF|Code|
-|---|---|---|---|---|
 |**2026-10-07**|**Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged**|cs.CL|[2610.10918v1](http://arxiv.org/abs/2610.10918v1)|null|
 |**2026-10-07**|**Document-Level Text Simplification in Estonian Using Large Language Models**|cs.CL|[2610.10378v1](http://arxiv.org/abs/2610.10378v1)|null|
 |**2026-10-07**|**From Prompts to Trees: Effective LLM-Guided Tree Generation for Few-Shot Tabular Classification**|cs.LG, cs.AI, cs.CL|[2610.10227v1](http://arxiv.org/abs/2610.10227v1)|null|
