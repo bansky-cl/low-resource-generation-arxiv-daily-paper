@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.08
+## Updated on 2026.11.09
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **727**
-- Recent 30 days: **91**
-- Older than 30 days: **636**
+- Recent 30 days: **85**
+- Older than 30 days: **642**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -107,17 +107,17 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-12**|**PATMT2: Two-stage domain adaptation for multilingual patent translation**|cs.CL, cs.AI|[2610.16466v1](http://arxiv.org/abs/2610.16466v1)|null|
 |**2026-10-11**|**Robust Marathi Sentiment Analysis using Domain-Adaptive Pre-training and Data Augmentation Approaches**|cs.CL, cs.LG|[2610.15761v1](http://arxiv.org/abs/2610.15761v1)|null|
 |**2026-10-10**|**Amharic-English Cross-Language Question Answering Using Statistical Machine Translation, Named Entity Recognition, and Semantic Indexing**|cs.CL|[2610.14756v1](http://arxiv.org/abs/2610.14756v1)|null|
+
+## Older Than 30 Days
+
+|Date|Title|Categories|PDF|Code|
+|---|---|---|---|---|
 |**2026-10-09**|**Structural Automata for Neural Semantic Parsing**|cs.CL|[2610.13896v1](http://arxiv.org/abs/2610.13896v1)|null|
 |**2026-10-09**|**Inference-Time Steering Across Scaffolds and Epitopes for Sample-Efficient De Novo Nanobody Design**|cs.LG|[2610.13844v1](http://arxiv.org/abs/2610.13844v1)|null|
 |**2026-10-09**|**OccludeBench: Can VLMs Find What's Missing?**|cs.CV, cs.CL|[2610.13790v1](http://arxiv.org/abs/2610.13790v1)|null|
 |**2026-10-09**|**SharP: Soft and Hard Prompt-Guided Augmentation with LLM for Low Resource Fake News Detection**|cs.CL|[2610.13207v1](http://arxiv.org/abs/2610.13207v1)|null|
 |**2026-10-09**|**CB-Orchestrator: Adaptive Workflow Optimization for LLM Agents via Contextual Bandits**|cs.LG|[2610.13064v1](http://arxiv.org/abs/2610.13064v1)|null|
 |**2026-10-09**|**COFFEQA: Counterfactual-Guided Few-Shot Distillation for LLM Question Answering**|cs.CL, cs.AI, cs.LG|[2610.12837v1](http://arxiv.org/abs/2610.12837v1)|null|
-
-## Older Than 30 Days
-
-|Date|Title|Categories|PDF|Code|
-|---|---|---|---|---|
 |**2026-10-08**|**STAPLE: Static Sparse Upcycling of Pretrained Checkpoints via Embedding Modules**|cs.LG|[2610.12599v1](http://arxiv.org/abs/2610.12599v1)|null|
 |**2026-10-08**|**Ambient Discrete Diffusion: Using the Wrong Data at the Right Time for Data Efficient Learning**|cs.LG|[2610.12340v1](http://arxiv.org/abs/2610.12340v1)|null|
 |**2026-10-08**|**Zatom-2: Multitask Pretraining on Atomistic Data for Generative Modeling across Domains**|cs.LG, cs.AI|[2610.11454v2](http://arxiv.org/abs/2610.11454v2)|null|
