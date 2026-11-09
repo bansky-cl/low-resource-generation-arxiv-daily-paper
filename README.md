@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **727**
-- Recent 30 days: **85**
+- Total papers in JSON: **730**
+- Recent 30 days: **88**
 - Older than 30 days: **642**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-06**|**Are These Programmers Ripe Enough to Eat? Evaluating How LLMs Handle Lexical Knowledge Conflicts in Translation**|cs.CL, cs.LG|[2611.09785v1](http://arxiv.org/abs/2611.09785v1)|null|
+|**2026-11-06**|**Khmer PFGen-Bench: Building a Judge-Free Benchmark for Open-Ended Generation in a Low-Resource Language**|cs.CL|[2611.09222v1](http://arxiv.org/abs/2611.09222v1)|null|
+|**2026-11-06**|**Toward LLM Self-Play Under Data Scarcity: Effectiveness, Generalizability, and Trustworthiness**|cs.AI|[2611.08908v1](http://arxiv.org/abs/2611.08908v1)|null|
 |**2026-11-05**|**Automatic keyphrase extraction and annotation: modern theoretical approaches and practical solutions for text and speech**|cs.CL, cs.HC|[2611.08006v1](http://arxiv.org/abs/2611.08006v1)|null|
 |**2026-11-05**|**How Far Can Lightweight LLMs Go in Intent-to-SLO Translation?**|cs.NI, cs.CL|[2611.07982v1](http://arxiv.org/abs/2611.07982v1)|**[code](https://github.com/ggck43/intent2slo)**|
 |**2026-11-05**|**ACSeL: Adaptive Configuration Search for Hardware-Constrained LLM Inference**|cs.LG|[2611.07570v1](http://arxiv.org/abs/2611.07570v1)|null|
@@ -132,7 +135,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-07**|**Dialect-Robust Speech Language Models with Synthetic Pseudo-Dialect Augmentation**|cs.CL, eess.AS|[2610.09321v1](http://arxiv.org/abs/2610.09321v1)|null|
 |**2026-10-06**|**Multi-Objective Aligned Small Language Model Framework for SUD Patient Dialogue Generation**|cs.CL, cs.AI|[2610.09209v1](http://arxiv.org/abs/2610.09209v1)|null|
 |**2026-10-06**|**Language Unalignability: Why Some Concepts Resist Cross-Cultural Benchmark Evaluation**|cs.CL|[2610.08303v1](http://arxiv.org/abs/2610.08303v1)|null|
-|**2026-10-06**|**VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation**|cs.RO, cs.AI|[2610.08220v1](http://arxiv.org/abs/2610.08220v1)|null|
+|**2026-10-06**|**VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation**|cs.RO, cs.AI|[2610.08220v2](http://arxiv.org/abs/2610.08220v2)|null|
 |**2026-10-06**|**Improving Synthetic Data Generation for Argument Mining via Adversarial Reinforcement Learning**|cs.LG, cs.CL|[2610.07699v1](http://arxiv.org/abs/2610.07699v1)|null|
 |**2026-10-05**|**HyperNSDE: Personalized Neural SDEs for Joint Static-Longitudinal Clinical Data Generation**|stat.ML, cs.LG, stat.AP, stat.ME|[2610.07383v1](http://arxiv.org/abs/2610.07383v1)|null|
 |**2026-10-05**|**Xaurora: Generative Weather Forecasting with Denoising Stochastic Interpolants from a Foundation Model Prior**|cs.LG, physics.ao-ph|[2610.06509v1](http://arxiv.org/abs/2610.06509v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-03**|**Beyond BLEU: A Case for Redefining Sign Language Translation Benchmarks**|cs.CL, cs.AI|[2609.03734v1](http://arxiv.org/abs/2609.03734v1)|null|
 |**2026-09-03**|**Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech**|cs.CL, cs.AI|[2609.03502v1](http://arxiv.org/abs/2609.03502v1)|null|
 |**2026-09-02**|**Improving Health Literacy through Lay Summarization of Radiological Reports: An Evaluation of BioNER and Retrieval-Augmented Generation**|cs.CL|[2609.02396v1](http://arxiv.org/abs/2609.02396v1)|null|
-|**2026-09-02**|**PolERo: Studying Political Evasion in Romanian**|cs.CL, cs.AI|[2609.02391v1](http://arxiv.org/abs/2609.02391v1)|null|
-|**2026-09-02**|**Prototype-guided transfer of sparse literature knowledge for electrolyte additive discovery**|physics.chem-ph, cs.LG|[2609.02209v1](http://arxiv.org/abs/2609.02209v1)|null|
-|**2026-09-01**|**Automated Event Log Generation from Unstructured Text Using Finetuned LLMs**|cs.AI|[2609.01320v1](http://arxiv.org/abs/2609.01320v1)|null|
 
-README omitted **527** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **530** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
