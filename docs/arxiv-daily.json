@@ -15799,6 +15799,76 @@
       "abs_url": "http://arxiv.org/abs/2611.08908v1",
       "pdf_url": "https://arxiv.org/pdf/2611.08908v1",
       "code_url": null
+    },
+    "2611.11597": {
+      "id": "2611.11597",
+      "version": "2611.11597v1",
+      "title": "Out of Parameters, Saved by Syntax: UD-PrMPT for Parser Augmented Low Resource Machine Translation",
+      "authors": [
+        "Emma Thronson",
+        "Abhishek Purushothama",
+        "Amir Zeldes"
+      ],
+      "published": "2026-11-08",
+      "updated": "2026-11-08",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Recent work advancing machine translation quality using LLMs for very low resource languages has relied on the injection of lexicon-based prompt components to expose vocabulary to models. However, these approaches run into a ceiling when models must guess sentence meaning purely from plausible combinations of possible word senses mapped to strings. In this paper we test UD-PrMPT, an approach using syntactic analyses in the Universal Dependencies formalism as prompt components to improve MT in five diverse low resource languages: Beja, Chintang, Chukchi, Coptic, and Xibe. Our results show additive improvements which stack on top of the lexicon based approach which are stronger for higher quality manual analyses but consistent for predicted parses as well.",
+      "abs_url": "http://arxiv.org/abs/2611.11597v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.11597v1",
+      "code_url": null
+    },
+    "2611.11891": {
+      "id": "2611.11891",
+      "version": "2611.11891v1",
+      "title": "A Large-Scale Dataset for Cross-Lingual Multi-Jurisdiction Patent Drafting from Patent Cooperation Treaty Applications",
+      "authors": [
+        "Trung Phuong Le",
+        "Hirofumi Nonaka",
+        "Koji Marusaki",
+        "Katsuhito Sudoh",
+        "Seiya Kawano"
+      ],
+      "published": "2026-11-09",
+      "updated": "2026-11-09",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Securing patent protection across countries requires drafting claims separately for each national patent office, in the relevant language and according to its legal and stylistic conventions. Patent claims can therefore differ across languages and jurisdictions because of translation, target-office drafting practices, and prosecution-stage changes. We formulate cross-lingual patent drafting as generating plausible candidate claim sets for a specified target language, jurisdiction, and prosecution stage from a source claim set in another language. The task models jurisdiction- and stage-specific transformations beyond content-preserving translation. We construct a large-scale Japanese-English dataset by linking Japan Patent Office (JPO) and United States Patent and Trademark Office (USPTO) records through 884,179 Patent Cooperation Treaty (PCT)-derived patent families. Across six released configurations, these families yield 4,067,168 directional claim-set instances; four core configurations form the main benchmark. Commercial machine translation and zero- and few-shot prompting capture part of the task, while supervised adaptation provides the strongest overall baseline, showing that task-specific patterns can be learned from linked cross-jurisdictional claim sets.",
+      "abs_url": "http://arxiv.org/abs/2611.11891v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.11891v1",
+      "code_url": null
+    },
+    "2611.10180": {
+      "id": "2611.10180",
+      "version": "2611.10180v1",
+      "title": "Generative Active Learning for Label-Efficient Pan-Organ Ultrasound Diagnosis",
+      "authors": [
+        "Yaofei Duan",
+        "Yuhao Huang",
+        "Yuan Gao",
+        "Ruixiang Qi",
+        "Tianyu Zhang",
+        "Yanlin Geng",
+        "Yue Sun",
+        "Sio-Kei Im",
+        "Dong Ni",
+        "Dong Xu",
+        "Ritse Mann",
+        "Tao Tan"
+      ],
+      "published": "2026-11-06",
+      "updated": "2026-11-06",
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "abstract": "Medical ultrasound (US) enables real-time, non-invasive diagnosis, yet building US-based AI systems is limited by data scarcity, costly expert annotation, and limited cross-center generalizability. Privacy constraints and instance-level reporting hinder the collection of diverse abnormal cases and frame-level labels, while repeated retraining for new centers increases computational cost. We introduce EvoDiff, a generative active learning framework that integrates diffusion modelling with information-theoretic objectives, evolutionary search, and curriculum-based sampling to select informative samples across heterogeneous US datasets. EvoDiff formulates sample selection as a generate-to-retrieve process, in which diffusion-based optimization in feature space guided by information gain produces synthetic probes, and only the real unlabeled samples retrieved by these probes are annotated and used for downstream training. Across six benchmarks covering fifteen datasets and 16,696 images, we evaluate EvoDiff on convolutional network and transformer-based foundation model. EvoDiff approaches fully supervised performance with substantially fewer labels, outperforms active learning baselines, and improves foundation model generalization under cross-domain external validation on unseen cohorts. A reader study with six radiologists indicates the potential to support clinical annotation workflows, with a model-based estimated 24% to 84% reduction in annotation workload at matched downstream performance.",
+      "abs_url": "http://arxiv.org/abs/2611.10180v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.10180v1",
+      "code_url": null
     }
   }
 }

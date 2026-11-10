@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **730**
-- Recent 30 days: **87**
+- Total papers in JSON: **733**
+- Recent 30 days: **90**
 - Older than 30 days: **643**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-09**|**A Large-Scale Dataset for Cross-Lingual Multi-Jurisdiction Patent Drafting from Patent Cooperation Treaty Applications**|cs.CL, cs.AI|[2611.11891v1](http://arxiv.org/abs/2611.11891v1)|null|
+|**2026-11-08**|**Out of Parameters, Saved by Syntax: UD-PrMPT for Parser Augmented Low Resource Machine Translation**|cs.CL|[2611.11597v1](http://arxiv.org/abs/2611.11597v1)|null|
+|**2026-11-06**|**Generative Active Learning for Label-Efficient Pan-Organ Ultrasound Diagnosis**|cs.AI, cs.HC|[2611.10180v1](http://arxiv.org/abs/2611.10180v1)|null|
 |**2026-11-06**|**Are These Programmers Ripe Enough to Eat? Evaluating How LLMs Handle Lexical Knowledge Conflicts in Translation**|cs.CL, cs.LG|[2611.09785v1](http://arxiv.org/abs/2611.09785v1)|null|
 |**2026-11-06**|**Khmer PFGen-Bench: Building a Judge-Free Benchmark for Open-Ended Generation in a Low-Resource Language**|cs.CL|[2611.09222v1](http://arxiv.org/abs/2611.09222v1)|null|
 |**2026-11-06**|**Toward LLM Self-Play Under Data Scarcity: Effectiveness, Generalizability, and Trustworthiness**|cs.AI|[2611.08908v1](http://arxiv.org/abs/2611.08908v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-04**|**When Do Internal Probes Beat Reading the Answer? Miscalibrated Readouts and Behavior-Concealed Knowledge in Language Models**|cs.CL, cs.AI|[2609.04582v1](http://arxiv.org/abs/2609.04582v1)|null|
 |**2026-09-03**|**Dynamic Adaptation of the LLM Context for Generating Routines with Coupled Semantics**|cs.SE, cs.AI|[2609.04570v1](http://arxiv.org/abs/2609.04570v1)|null|
 |**2026-09-03**|**Translation as a Decision Space: A Multi-Agent Perspective on Low-Resource Dialect Generation**|cs.CL, cs.AI|[2609.04048v1](http://arxiv.org/abs/2609.04048v1)|null|
-|**2026-09-03**|**Beyond BLEU: A Case for Redefining Sign Language Translation Benchmarks**|cs.CL, cs.AI|[2609.03734v1](http://arxiv.org/abs/2609.03734v1)|null|
-|**2026-09-03**|**Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech**|cs.CL, cs.AI|[2609.03502v1](http://arxiv.org/abs/2609.03502v1)|null|
-|**2026-09-02**|**Improving Health Literacy through Lay Summarization of Radiological Reports: An Evaluation of BioNER and Retrieval-Augmented Generation**|cs.CL|[2609.02396v1](http://arxiv.org/abs/2609.02396v1)|null|
 
-README omitted **530** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **533** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
