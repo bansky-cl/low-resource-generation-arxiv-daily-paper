@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **733**
-- Recent 30 days: **89**
+- Total papers in JSON: **734**
+- Recent 30 days: **90**
 - Older than 30 days: **644**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,7 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-10**|**ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows**|cs.AI, cs.LG, cs.MA|[2611.14492v1](http://arxiv.org/abs/2611.14492v1)|null|
 |**2026-11-09**|**A Large-Scale Dataset for Cross-Lingual Multi-Jurisdiction Patent Drafting from Patent Cooperation Treaty Applications**|cs.CL, cs.AI|[2611.11891v1](http://arxiv.org/abs/2611.11891v1)|null|
 |**2026-11-08**|**Out of Parameters, Saved by Syntax: UD-PrMPT for Parser Augmented Low Resource Machine Translation**|cs.CL|[2611.11597v1](http://arxiv.org/abs/2611.11597v1)|null|
 |**2026-11-06**|**Generative Active Learning for Label-Efficient Pan-Organ Ultrasound Diagnosis**|cs.AI, cs.HC|[2611.10180v1](http://arxiv.org/abs/2611.10180v1)|null|
@@ -57,7 +58,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-28**|**What to randomize matters: a controlled study of volume, axis and representation in low-data molecular generation**|cs.LG, cs.CE, cs.CL, q-bio.BM, q-bio.QM|[2610.38835v1](http://arxiv.org/abs/2610.38835v1)|null|
 |**2026-10-27**|**Statistical Detection of Positional Bias in LLM-Based Recommender Systems: Methodologies and Empirical Evidence**|cs.IR, cs.AI|[2610.37962v1](http://arxiv.org/abs/2610.37962v1)|null|
 |**2026-10-27**|**Aligning Large Language Models for Safety in African Languages: A Case Study of Hausa**|cs.CL, cs.AI|[2610.37245v1](http://arxiv.org/abs/2610.37245v1)|null|
-|**2026-10-27**|**Text Generation in Low-Resource Languages Using Human-Curated Vocabularies**|cs.CL|[2610.37105v1](http://arxiv.org/abs/2610.37105v1)|**[code](https://github.com/michaelsinanta/vocab2text)**|
+|**2026-10-27**|**Text Generation in Low-Resource Languages Using Human-Curated Vocabularies**|cs.CL|[2610.37105v2](http://arxiv.org/abs/2610.37105v2)|**[code](https://github.com/michaelsinanta/vocab2text)**|
 |**2026-10-27**|**The State and Fate of Multilingual, Contextual Evaluation in the NLP World**|cs.CL|[2610.36990v1](http://arxiv.org/abs/2610.36990v1)|**[code](https://aka.ms/multilingual-evals)**|
 |**2026-10-27**|**Learning from Points and Patches: A Pre-trained Hybrid Attention Transformer for Time Series Analysis**|cs.LG|[2610.36572v1](http://arxiv.org/abs/2610.36572v1)|**[code](https://github.com/TangPeiwang/TimeHAT)**|
 |**2026-10-26**|**EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware Molecular Conformation Generation**|cs.LG, cs.CE|[2610.36280v1](http://arxiv.org/abs/2610.36280v1)|null|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-04**|**Choosing the Right Language Mode at Inference Time for Multilingual Reliability**|cs.CL|[2609.04653v1](http://arxiv.org/abs/2609.04653v1)|null|
 |**2026-09-04**|**When Do Internal Probes Beat Reading the Answer? Miscalibrated Readouts and Behavior-Concealed Knowledge in Language Models**|cs.CL, cs.AI|[2609.04582v1](http://arxiv.org/abs/2609.04582v1)|null|
 |**2026-09-03**|**Dynamic Adaptation of the LLM Context for Generating Routines with Coupled Semantics**|cs.SE, cs.AI|[2609.04570v1](http://arxiv.org/abs/2609.04570v1)|null|
-|**2026-09-03**|**Translation as a Decision Space: A Multi-Agent Perspective on Low-Resource Dialect Generation**|cs.CL, cs.AI|[2609.04048v1](http://arxiv.org/abs/2609.04048v1)|null|
 
-README omitted **533** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **534** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

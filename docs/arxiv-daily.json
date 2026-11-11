@@ -15027,7 +15027,7 @@
     },
     "2610.37105": {
       "id": "2610.37105",
-      "version": "2610.37105v1",
+      "version": "2610.37105v2",
       "title": "Text Generation in Low-Resource Languages Using Human-Curated Vocabularies",
       "authors": [
         "Michael Christlambert Sinanta",
@@ -15039,13 +15039,13 @@
         "Fajri Koto"
       ],
       "published": "2026-10-27",
-      "updated": "2026-10-27",
+      "updated": "2026-11-10",
       "categories": [
         "cs.CL"
       ],
       "abstract": "Synthetic text generation offers a promising approach to alleviating data scarcity in low-resource languages. However, its effectiveness is inherently limited for languages that are scarcely represented, or entirely absent, in an LLM's pretraining data. At the same time, many such languages have human-curated vocabularies that provide rich lexical and semantic information, often accompanied by grammatical information such as part-of-speech labels. In this work, we ask whether LLMs can leverage these resources to generate coherent text in extremely low-resource and unseen languages. We introduce a framework that combines human-curated vocabularies with a small number of human-written exemplars that provide syntactic signals, while sampling candidate words according to a Zipfian distribution. Across languages with varying levels of resource availability, we evaluate the generated text using lexical diversity, off-target ratio, and human judgments of fluency. Our results show that reasoning-enabled LLMs can generate fluent text even in extremely low-resource languages, with particularly strong results at the sentence level and promising performance at the paragraph level. Our findings highlight a practical pathway for bootstrapping synthetic data in low-resource languages, expanding the amount of usable text even when existing digital resources are extremely limited. Our source code is available at https://github.com/michaelsinanta/vocab2text.",
-      "abs_url": "http://arxiv.org/abs/2610.37105v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.37105v1",
+      "abs_url": "http://arxiv.org/abs/2610.37105v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.37105v2",
       "code_url": "https://github.com/michaelsinanta/vocab2text"
     },
     "2610.36990": {
@@ -15868,6 +15868,33 @@
       "abstract": "Medical ultrasound (US) enables real-time, non-invasive diagnosis, yet building US-based AI systems is limited by data scarcity, costly expert annotation, and limited cross-center generalizability. Privacy constraints and instance-level reporting hinder the collection of diverse abnormal cases and frame-level labels, while repeated retraining for new centers increases computational cost. We introduce EvoDiff, a generative active learning framework that integrates diffusion modelling with information-theoretic objectives, evolutionary search, and curriculum-based sampling to select informative samples across heterogeneous US datasets. EvoDiff formulates sample selection as a generate-to-retrieve process, in which diffusion-based optimization in feature space guided by information gain produces synthetic probes, and only the real unlabeled samples retrieved by these probes are annotated and used for downstream training. Across six benchmarks covering fifteen datasets and 16,696 images, we evaluate EvoDiff on convolutional network and transformer-based foundation model. EvoDiff approaches fully supervised performance with substantially fewer labels, outperforms active learning baselines, and improves foundation model generalization under cross-domain external validation on unseen cohorts. A reader study with six radiologists indicates the potential to support clinical annotation workflows, with a model-based estimated 24% to 84% reduction in annotation workload at matched downstream performance.",
       "abs_url": "http://arxiv.org/abs/2611.10180v1",
       "pdf_url": "https://arxiv.org/pdf/2611.10180v1",
+      "code_url": null
+    },
+    "2611.14492": {
+      "id": "2611.14492",
+      "version": "2611.14492v1",
+      "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+      "authors": [
+        "Kaiyuan Hou",
+        "Yang Ping Kuo",
+        "Indranil Bhattacharya",
+        "Rohith Nama",
+        "Arushi Gupta",
+        "Carlos D. Castillo",
+        "Prathap Ramachandra",
+        "Xiaofan Jiang",
+        "Francesco Carbone"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every run, which adds latency and cost at scale. We present ReTrace, which turns an SOP and a few logged agent runs into a reusable workflow in which code, not an LLM, selects the next step. The agent's reasoning, the explanation it writes with each tool call, often states why it took an action; the tool calls alone do not. ReTrace extracts the condition behind each step, merges these conditions across runs into a compact rule document, and generates an executable workflow from it. Only this last stage depends on the platform, so rule documents can be compiled for different orchestration platforms. On $79$ procedures from our production platform, ReTrace workflows reach $93.8\\%$ completion, against $96.8\\%$ for the agent, at $24\\%$ lower cost per task. On $τ^2$-Bench, they reach $75.8\\%$ task success (agent: $80.6\\%$) and run in $1.3$s instead of $170$s; three rounds of repair on training failures lift $k{=}2$ workflows from $66.7\\%$ to $81.2\\%$. On eight SOP-Bench procedures, ReTrace without repair trails few-shot generation ($80.6\\%$ vs. $83.6\\%$), but repair from labeled training failures lifts it to $87.8\\%$ at $0.40$s per task, compared to $85.5\\%$ in $46.6$s for the agent.",
+      "abs_url": "http://arxiv.org/abs/2611.14492v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14492v1",
       "code_url": null
     }
   }
