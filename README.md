@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.12
+## Updated on 2026.11.13
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **734**
-- Recent 30 days: **88**
-- Older than 30 days: **646**
+- Recent 30 days: **84**
+- Older than 30 days: **650**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -106,15 +106,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-14**|**CoTranslator: Reverse to Forward Chain-of-Thought Translator for Reasoning Distillation**|cs.CL, cs.AI, cs.LG|[2610.20828v1](http://arxiv.org/abs/2610.20828v1)|null|
 |**2026-10-14**|**HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation**|cs.AI, cs.IR|[2610.20191v2](http://arxiv.org/abs/2610.20191v2)|null|
 |**2026-10-14**|**Structure-Preserving Document-Level Data Augmentation via Discourse Parsing**|cs.CL, cs.AI|[2610.19497v1](http://arxiv.org/abs/2610.19497v1)|null|
-|**2026-10-13**|**PairIT: Autoregressive Transformers for Low-Data Molecule Optimization**|cs.LG, cs.AI, physics.chem-ph|[2610.19123v1](http://arxiv.org/abs/2610.19123v1)|null|
-|**2026-10-13**|**Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models**|cs.CV, cs.AI, cs.CL|[2610.19108v1](http://arxiv.org/abs/2610.19108v1)|null|
-|**2026-10-13**|**Evaluating Large Language Models for Multilingual Abstractive Summarization: A Comprehensive Study of English and Bengali**|cs.CL, cs.AI|[2610.19003v1](http://arxiv.org/abs/2610.19003v1)|null|
-|**2026-10-13**|**Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs**|cs.CL, cs.AI|[2610.18818v3](http://arxiv.org/abs/2610.18818v3)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-13**|**PairIT: Autoregressive Transformers for Low-Data Molecule Optimization**|cs.LG, cs.AI, physics.chem-ph|[2610.19123v1](http://arxiv.org/abs/2610.19123v1)|null|
+|**2026-10-13**|**Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models**|cs.CV, cs.AI, cs.CL|[2610.19108v1](http://arxiv.org/abs/2610.19108v1)|null|
+|**2026-10-13**|**Evaluating Large Language Models for Multilingual Abstractive Summarization: A Comprehensive Study of English and Bengali**|cs.CL, cs.AI|[2610.19003v1](http://arxiv.org/abs/2610.19003v1)|null|
+|**2026-10-13**|**Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs**|cs.CL, cs.AI|[2610.18818v3](http://arxiv.org/abs/2610.18818v3)|null|
 |**2026-10-12**|**Generative Models as Adaptive Trust Regions for Discrete Bayesian Optimisation**|cs.LG|[2610.16992v1](http://arxiv.org/abs/2610.16992v1)|null|
 |**2026-10-12**|**PATMT2: Two-stage domain adaptation for multilingual patent translation**|cs.CL, cs.AI|[2610.16466v1](http://arxiv.org/abs/2610.16466v1)|null|
 |**2026-10-11**|**Robust Marathi Sentiment Analysis using Domain-Adaptive Pre-training and Data Augmentation Approaches**|cs.CL, cs.LG|[2610.15761v1](http://arxiv.org/abs/2610.15761v1)|null|
