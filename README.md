@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.13
+## Updated on 2026.11.14
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **743**
-- Recent 30 days: **93**
-- Older than 30 days: **650**
+- Recent 30 days: **90**
+- Older than 30 days: **653**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -112,14 +112,14 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-15**|**Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation**|cs.CL|[2610.21456v1](http://arxiv.org/abs/2610.21456v1)|null|
 |**2026-10-15**|**Recursive Reward Improvement via Adversarial Meta-Prompt Evolution**|cs.AI, cs.MA|[2610.21040v1](http://arxiv.org/abs/2610.21040v1)|null|
 |**2026-10-15**|**Efficient Agnostic Learning of Univariate Densities Under Local Differential Privacy**|stat.ML, cs.CR, cs.DS, cs.IT, cs.LG|[2610.21033v1](http://arxiv.org/abs/2610.21033v1)|null|
-|**2026-10-14**|**CoTranslator: Reverse to Forward Chain-of-Thought Translator for Reasoning Distillation**|cs.CL, cs.AI, cs.LG|[2610.20828v1](http://arxiv.org/abs/2610.20828v1)|null|
-|**2026-10-14**|**HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation**|cs.AI, cs.IR|[2610.20191v2](http://arxiv.org/abs/2610.20191v2)|null|
-|**2026-10-14**|**Structure-Preserving Document-Level Data Augmentation via Discourse Parsing**|cs.CL, cs.AI|[2610.19497v1](http://arxiv.org/abs/2610.19497v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-14**|**CoTranslator: Reverse to Forward Chain-of-Thought Translator for Reasoning Distillation**|cs.CL, cs.AI, cs.LG|[2610.20828v1](http://arxiv.org/abs/2610.20828v1)|null|
+|**2026-10-14**|**HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation**|cs.AI, cs.IR|[2610.20191v2](http://arxiv.org/abs/2610.20191v2)|null|
+|**2026-10-14**|**Structure-Preserving Document-Level Data Augmentation via Discourse Parsing**|cs.CL, cs.AI|[2610.19497v1](http://arxiv.org/abs/2610.19497v1)|null|
 |**2026-10-13**|**PairIT: Autoregressive Transformers for Low-Data Molecule Optimization**|cs.LG, cs.AI, physics.chem-ph|[2610.19123v1](http://arxiv.org/abs/2610.19123v1)|null|
 |**2026-10-13**|**Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models**|cs.CV, cs.AI, cs.CL|[2610.19108v1](http://arxiv.org/abs/2610.19108v1)|null|
 |**2026-10-13**|**Evaluating Large Language Models for Multilingual Abstractive Summarization: A Comprehensive Study of English and Bengali**|cs.CL, cs.AI|[2610.19003v1](http://arxiv.org/abs/2610.19003v1)|null|
