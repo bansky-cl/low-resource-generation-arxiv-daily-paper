@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **734**
-- Recent 30 days: **84**
+- Total papers in JSON: **743**
+- Recent 30 days: **93**
 - Older than 30 days: **650**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,15 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-12**|**An Integrated Architecture for Data-Efficient Real-Time Neural Imitation of Nonlinear Time-Optimal Model Predictive Control**|eess.SY, cs.LG, cs.RO|[2611.17005v1](http://arxiv.org/abs/2611.17005v1)|null|
+|**2026-11-12**|**EvenVLM: A Text and Multimodal Dataset for the Even Language with Vision-Language Fine-Tuning**|cs.CL|[2611.16500v1](http://arxiv.org/abs/2611.16500v1)|null|
+|**2026-11-12**|**Fine-Tuned Small Language Model for Synthetic Clinical Data Generation and Predictive Healthcare Analytics**|cs.AI|[2611.16460v1](http://arxiv.org/abs/2611.16460v1)|null|
+|**2026-11-12**|**IsharaBART: An efficient BART-Based Framework for Low-Resource Bangla Sign Language Translation**|cs.CL|[2611.16359v1](http://arxiv.org/abs/2611.16359v1)|null|
+|**2026-11-12**|**Few-Shot Cross-Subject Neural--Image Retrieval via Stimulus-Anchored Latent Bias Calibration**|cs.LG|[2611.16257v1](http://arxiv.org/abs/2611.16257v1)|**[code](https://github.com/Xizhang-Yao/SA-LBC)**|
+|**2026-11-11**|**Observations Drift, Structures Remain: Structural Pretraining with Time Alignment for Electromagnetic Signals**|cs.LG|[2611.15566v1](http://arxiv.org/abs/2611.15566v1)|null|
+|**2026-11-11**|**Edge-Native Multimodal RAG: Hardware-Aware Quantization and Architectural Optimization for Consumer GPUs**|cs.AI|[2611.14924v1](http://arxiv.org/abs/2611.14924v1)|null|
+|**2026-11-11**|**Is Jev a Good Multilingual Judge?**|cs.CL|[2611.14861v1](http://arxiv.org/abs/2611.14861v1)|null|
+|**2026-11-10**|**An LLM Is All You Need: Data-Efficient Adaptation to Full-Duplex, Word-Level Spoken Dialogue**|cs.CL, cs.SD, eess.AS|[2611.14774v1](http://arxiv.org/abs/2611.14774v1)|null|
 |**2026-11-10**|**ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows**|cs.AI, cs.LG, cs.MA|[2611.14492v1](http://arxiv.org/abs/2611.14492v1)|null|
 |**2026-11-09**|**A Large-Scale Dataset for Cross-Lingual Multi-Jurisdiction Patent Drafting from Patent Cooperation Treaty Applications**|cs.CL, cs.AI|[2611.11891v1](http://arxiv.org/abs/2611.11891v1)|null|
 |**2026-11-08**|**Out of Parameters, Saved by Syntax: UD-PrMPT for Parser Augmented Low Resource Machine Translation**|cs.CL|[2611.11597v1](http://arxiv.org/abs/2611.11597v1)|null|
@@ -218,17 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-08**|**RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation**|cs.RO, cs.AI|[2609.08339v1](http://arxiv.org/abs/2609.08339v1)|null|
 |**2026-09-08**|**LEBGen: An LLM-Enhanced Bayesian Network Framework for Few-Shot Travel Survey Data Generation**|cs.AI|[2609.08288v1](http://arxiv.org/abs/2609.08288v1)|null|
 |**2026-09-07**|**BanglaMemeX: Advancing Cultural Metaphoric Image Interpretation in Bangla with a Multimodal Explainable Dataset**|cs.CL, cs.CV|[2609.08029v1](http://arxiv.org/abs/2609.08029v1)|null|
-|**2026-09-07**|**Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy**|cs.RO, cs.AI|[2609.07470v1](http://arxiv.org/abs/2609.07470v1)|null|
-|**2026-09-07**|**AAS-RAIL: Improving Information Extraction for Asset Administration Shells through Retrieval-Augmented In-Context Learning**|cs.AI|[2609.07334v1](http://arxiv.org/abs/2609.07334v1)|null|
-|**2026-09-07**|**AI and TCAD for Inverse Design and Defect Discovery: From Simple Machine Learning to LLM**|cs.LG|[2609.07046v1](http://arxiv.org/abs/2609.07046v1)|null|
-|**2026-09-05**|**SLATE: Are AI-Generated Slides Educationally Effective? A Benchmark for Language Teaching Quality and Learner Knowledge Acquisition**|cs.CL|[2609.06212v1](http://arxiv.org/abs/2609.06212v1)|null|
-|**2026-09-04**|**Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation**|cs.LG|[2609.05363v1](http://arxiv.org/abs/2609.05363v1)|null|
-|**2026-09-04**|**MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis**|cs.AI|[2609.04804v1](http://arxiv.org/abs/2609.04804v1)|null|
-|**2026-09-04**|**Choosing the Right Language Mode at Inference Time for Multilingual Reliability**|cs.CL|[2609.04653v1](http://arxiv.org/abs/2609.04653v1)|null|
-|**2026-09-04**|**When Do Internal Probes Beat Reading the Answer? Miscalibrated Readouts and Behavior-Concealed Knowledge in Language Models**|cs.CL, cs.AI|[2609.04582v1](http://arxiv.org/abs/2609.04582v1)|null|
-|**2026-09-03**|**Dynamic Adaptation of the LLM Context for Generating Routines with Coupled Semantics**|cs.SE, cs.AI|[2609.04570v1](http://arxiv.org/abs/2609.04570v1)|null|
 
-README omitted **534** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **543** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

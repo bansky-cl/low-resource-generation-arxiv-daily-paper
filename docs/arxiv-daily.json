@@ -15896,6 +15896,194 @@
       "abs_url": "http://arxiv.org/abs/2611.14492v1",
       "pdf_url": "https://arxiv.org/pdf/2611.14492v1",
       "code_url": null
+    },
+    "2611.16500": {
+      "id": "2611.16500",
+      "version": "2611.16500v1",
+      "title": "EvenVLM: A Text and Multimodal Dataset for the Even Language with Vision-Language Fine-Tuning",
+      "authors": [
+        "Daniil Makovetskii",
+        "Ivan Bondarenko"
+      ],
+      "published": "2026-11-12",
+      "updated": "2026-11-12",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "We present EvenVLM, the first text and multimodal (VQA) dataset for Even (Lamut), an endangered Northern Tungusic language spoken by approximately 6,800 people in Siberia. Our dataset comprises 50,521 structured Even-Russian entries extracted from dictionary and phrasebook sources via GPT-4o Mini-based parsing, from which we synthetically generate 107,543 training examples spanning translation, grammar, reading comprehension, and semantic classification. To address tokenization inefficiency on Even's agglutinative morphology, we propose a three-step tokenizer expansion algorithm that adds Even-specific graphemes (eng, oe, o-umlaut), whitelisted vocabulary, and BPE merges, reducing average tokens per word by 27% (4.99 to 3.64). Using LoRA fine-tuning of Qwen3-VL-4B, we adapt the model for text tasks (0.53% trainable parameters, rank 32) and separately for visual question answering (rank 64, frozen vision encoder). Our best configuration achieves 11.4% exact match and a 13.6 weighted score on text benchmarks, 0.1283 chrF for sentence translation, and 65% accuracy on VQA (up from 0% for the base model and text-only fine-tuning). We release our datasets, evaluation benchmarks, and training pipeline to support further research on Even and other low-resource languages.",
+      "abs_url": "http://arxiv.org/abs/2611.16500v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.16500v1",
+      "code_url": null
+    },
+    "2611.16359": {
+      "id": "2611.16359",
+      "version": "2611.16359v1",
+      "title": "IsharaBART: An efficient BART-Based Framework for Low-Resource Bangla Sign Language Translation",
+      "authors": [
+        "Aonmoy Das",
+        "Ananna Dev Aishi",
+        "Md. Fazlul Kader"
+      ],
+      "published": "2026-11-12",
+      "updated": "2026-11-12",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Millions of Bangla Sign Language (BdSL) users lack reliable automatic translation tools. Existing systems are limited by data scarcity, unidirectional design, and computationally expensive architectures that are not suitable for low-resource deployment. We introduce IsharaBART, a bidirectional generative framework for gloss-sentence translation in BdSL. IsharaBART uses Bidirectional and Auto-Regressive Transformers (BART)-based conditional language modeling with denoising learning objectives. We developed a parallel dataset of 1,000 professionally annotated gloss-sentence pairs, balanced across tenses and structures. We expanded the dataset to 4,831 pairs through four augmentation techniques: rule-based tense transformations, masked token substitutions, back-translation, and one-shot prompting. A compact denoising sequence-to-sequence model was pre-trained from scratch on monolingual Bangla text from six different corpora, then fine-tuned on the annotated and augmented datasets. We compare IsharaBART against four larger baseline models under identical conditions, where it achieves comparable or superior bidirectional performance. On the gloss-to-sentence (G2S) task, it attains Bilingual Evaluation Understudy (BLEU-4) score up to 51.7, and on the sentence-to-gloss (S2G) task, it achieves 61.40, outperforming multilingual models despite having fewer than 10% of the parameters. Ablation studies demonstrate that pre-training provides 62.5-90.4% faster convergence and 11.5-118% higher BLEU-4 than scratch. Low-rank adaptation (LoRA) reduces trainable parameters by 99.3%, but with 28.0-52.2% loss of BLEU-4 compared to full-parameter fine-tuning.",
+      "abs_url": "http://arxiv.org/abs/2611.16359v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.16359v1",
+      "code_url": null
+    },
+    "2611.14861": {
+      "id": "2611.14861",
+      "version": "2611.14861v1",
+      "title": "Is Jev a Good Multilingual Judge?",
+      "authors": [
+        "Wei Liu",
+        "Yi Fan",
+        "Xiyan Fu"
+      ],
+      "published": "2026-11-11",
+      "updated": "2026-11-11",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Generative large language models are widely used for multilingual text evaluation, yet whether decision models that directly output judgment probabilities can serve as multilingual judges has received limited attention. We evaluate Jev against generative LLM judges on four multilingual benchmarks with human annotations, covering up to 47 language varieties and three evaluation formats: binary decisions, pairwise comparisons, and graded ratings. At approximately $1/31$ to $1/61$ of GPT-6.1's evaluation cost, Jev is competitive on most multilingual judging tasks, but falls behind GPT-6.1 on knowledge-intensive answer verification. Further analysis shows that Jev is more likely to accept incorrect answers in low-resource languages than in English and that its probability outputs help identify errors across tasks. Based on these findings, we offer recommendations on evaluation instructions, confidence-based selection, and model routing, providing empirical guidance for using Jev as a multilingual judge.",
+      "abs_url": "http://arxiv.org/abs/2611.14861v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14861v1",
+      "code_url": null
+    },
+    "2611.16460": {
+      "id": "2611.16460",
+      "version": "2611.16460v1",
+      "title": "Fine-Tuned Small Language Model for Synthetic Clinical Data Generation and Predictive Healthcare Analytics",
+      "authors": [
+        "Mihnea Sebastian Burlacu",
+        "Ionut Anghel",
+        "Tudor Cioara"
+      ],
+      "published": "2026-11-12",
+      "updated": "2026-11-12",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "The reduced availability of medical datasets represents an important challenge in the development of predictive models for remote healthcare solutions, especially when the available data are imbalanced or difficult to extend through traditional methods. Small Language Models (SLMs) have become a promising alternative to Large Language Models (LLMs) for addressing these limitations due to their lower computational requirements and adaptability to specialized tasks. However, their performance remains highly dependent on the quality and representativeness of the available training data. In this paper, we propose a method for clinical data augmentation based on a fine-tuned Microsoft Phi-2 model that is used to generate synthetic instances, with the purpose of improving deep learning-based model for predicting remotely monitored vital signs. The Phi-2 model was adapted to the medical domain through supervised fine-tuning on the MedQuad dataset, through a Quantized Low-Rank Adaptation (QLoRA)-based method and by applying few-shot prompting techniques. The resulting model was used afterwards in the augmentation of a small-sized dataset, composed of vital sign values and labels associated with pathological and physiological states. The experimental results demonstrate that fine-tuned SLMs improved the performance on medical domain, achieving higher scores for both lexical (ROUGE) and semantic (BERTScore) evaluation metrics compared to the pretrained model. Moreover, the fine-tuned SLM is effective for generating structured synthetic clinical data. When used for data augmentation, the generated dataset improved the performance of a LSTM predictive model, increasing the classification accuracy from 89.0% to 93.7% and showing consistent improvements in precision, recall, and F1-score.",
+      "abs_url": "http://arxiv.org/abs/2611.16460v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.16460v1",
+      "code_url": null
+    },
+    "2611.16257": {
+      "id": "2611.16257",
+      "version": "2611.16257v1",
+      "title": "Few-Shot Cross-Subject Neural--Image Retrieval via Stimulus-Anchored Latent Bias Calibration",
+      "authors": [
+        "Xizhang Yao",
+        "Li Zhang",
+        "Gan Huang",
+        "Zhen Liang"
+      ],
+      "published": "2026-11-12",
+      "updated": "2026-11-12",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "In cross-subject neural--image retrieval, comparing the mean of a few stimulus-matched target observations with the global source mean conflates subject-specific representation shifts with stimulus-composition effects. To address this problem, we propose Stimulus-Anchored Latent Bias Calibration (SA-LBC), which estimates the first-order shift under fixed preprocessing and a frozen source-trained representation by averaging residuals between target responses and same-stimulus source-population anchors, then shrinks the correction using source-derived uncertainty. Under uniform sampling without replacement from a finite stimulus population, we derive exact finite-population MSE expressions for the unshrunk anchored and global-mean estimators, including residual--anchor cross-covariance, and establish a necessary and sufficient condition for anchoring to reduce MSE relative to global-mean estimation. In a 10-subject leave-one-subject-out evaluation on THINGS-EEG2, SA-LBC increases mean reciprocal rank (MRR) for the Attention--CLIP ViT-B/32 configuration from 0.1867 without calibration to 0.2013 and 0.2336 with M=2 and M=16 stimulus-level calibration samples, respectively. Across six neural--visual configurations and all calibration budgets, stimulus-matched anchors yield higher MRR than anchors with shuffled stimulus identities, but retrieval gains over no calibration remain representation-dependent. At (M=2), shrinkage improves MRR over the unshrunk anchored estimator in all six configurations, but its effects at larger budgets vary across representations; the relative ranking of translation and orientation corrections also depends on regularization strength. Thus, lower shift-estimation MSE does not guarantee higher retrieval performance. The source code is publicly available at: https://github.com/Xizhang-Yao/SA-LBC.",
+      "abs_url": "http://arxiv.org/abs/2611.16257v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.16257v1",
+      "code_url": "https://github.com/Xizhang-Yao/SA-LBC"
+    },
+    "2611.15566": {
+      "id": "2611.15566",
+      "version": "2611.15566v1",
+      "title": "Observations Drift, Structures Remain: Structural Pretraining with Time Alignment for Electromagnetic Signals",
+      "authors": [
+        "Wenjin Gui",
+        "Junyu Shen",
+        "Haibo Xu",
+        "Yuchuang Sun",
+        "Luqing Luo",
+        "Wupeng Xie",
+        "Qian Huang",
+        "Fengxiang Wang",
+        "Yangang Sun",
+        "Maosong Sun"
+      ],
+      "published": "2026-11-11",
+      "updated": "2026-11-11",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Electromagnetic signal modeling is increasingly moving toward self-supervised pretraining on heterogeneous I/Q observations. However, an observed waveform is jointly shaped by signal generation, propagation environments, and acquisition processes, which mix reusable structural regularities with observation-specific variations. Existing methods usually pursue unified pretraining with reconstruction objectives on mixed observations. This heterogeneity creates two key mismatches for reconstruction pretraining: (1) appearance mismatch, induced by propagation-dependent waveform variations; and (2) temporal mismatch, induced by acquisition-dependent sampling coordinates. These mismatches make observation-specific appearances and sampling coordinates easier to reconstruct than stable signal structures, inducing observational shortcuts. We identify this failure mode as observation-biased pretraining. To address this, we propose Structural Pretraining with Time Alignment for heterogeneous EM signals. It mitigates temporal mismatch with RoPE-fs, which maps token positions to sampling-rate-normalized physical-time positions, and reduces reliance on appearance shortcuts by replacing waveform reconstruction with masked prediction of discrete structural units. These units are organized into atomic structural units and emergent structural units that capture variable-length compositional patterns beyond fixed patch boundaries. Across diverse EM benchmarks, our method improves both full-supervision and few-shot adaptation over existing EM pretraining baselines, showing that the learned representations better preserve structural consistency when observations drift in waveform appearance and temporal scale.",
+      "abs_url": "http://arxiv.org/abs/2611.15566v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.15566v1",
+      "code_url": null
+    },
+    "2611.14924": {
+      "id": "2611.14924",
+      "version": "2611.14924v1",
+      "title": "Edge-Native Multimodal RAG: Hardware-Aware Quantization and Architectural Optimization for Consumer GPUs",
+      "authors": [
+        "Zahraa Selim",
+        "Menna Hamed",
+        "Wesam Ahmed",
+        "Sohyla Said",
+        "Sara Basheer",
+        "Rami Zewail"
+      ],
+      "published": "2026-11-11",
+      "updated": "2026-11-11",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Deployment of retrieval-augmented generation (RAG) for Edge-AI is constrained by memory and bandwidth limitations. A standard 7B parameter model consumes 14 GB Video Random Access Memory (VRAM) in half-precision (FP16), precluding co-location of vector indices and Key-Value (KV) caches. This paper presents an engineering integration and empirical evaluation of a multimodal RAG framework optimized for consumer-grade Turing hardware (e.g., NVIDIA Tesla T4). Our system-level analysis identifies a critical trade-off: while generative pre-trained transformer quantization (GPTQ) offers superior throughput (51.6 tok/s), it exhibits significant context instability at 2048+ tokens on Turing architectures. Conversely, NormalFloat 4-bit (NF4) maintains robust long-context performance with viable latency (81 ms/tok). By coupling NF4 with a decoupled Florence-2 vision integration, we achieve visual reasoning with only 430 MB VRAM overhead. Furthermore, empirical observations of prompt-induced search space pruning show that structured prompting reduces latency by 47% without altering computational intensity (1.88 GFLOPs/token). The integrated architecture maintains an 8.37 GB footprint, establishing a viable RAG pipeline for 12-16 GB GPUs. Finally, structured few-shot prompting effectively compensates for quantization-induced reasoning loss, restoring mathematical accuracy from 35.0% to 92.0% across 200 trials.",
+      "abs_url": "http://arxiv.org/abs/2611.14924v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14924v1",
+      "code_url": null
+    },
+    "2611.17005": {
+      "id": "2611.17005",
+      "version": "2611.17005v1",
+      "title": "An Integrated Architecture for Data-Efficient Real-Time Neural Imitation of Nonlinear Time-Optimal Model Predictive Control",
+      "authors": [
+        "Maarten De Baecke",
+        "Flavia Sofia Acerbo",
+        "Andrea Giusti",
+        "Wilm Decré"
+      ],
+      "published": "2026-11-12",
+      "updated": "2026-11-12",
+      "categories": [
+        "eess.SY",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "abstract": "Nonlinear time-optimal model predictive control (TOMPC) enables highly performant control of constrained systems, but its computational cost prohibits real-time use on fast dynamical systems. Neural network imitation of the TOMPC control law can reduce online computational costs, yet existing work mostly targets quadratic cost formulations in simulation and addresses the challenges of neural controllers in isolation. This work imitates a long-horizon nonconvex TOMPC with hard terminal constraints, whose high computational cost limits training-data generation. We present (i) \\emph{self-informed sampling (SIFS)}, a data-efficient expert-sampling strategy that uses a learned time-to-go to query the expert only where the policy deviates from time-optimal behavior, (ii) a complete training and control architecture that jointly addresses dataset correlation, suboptimal expert labels, covariate shift, constraint satisfaction and model mismatch, and (iii) real-world validation on a Furuta pendulum. SIFS matches standard dataset aggregation performance in roughly one-third of the training time and with less than half the training data. The resulting controller matches the region of attraction of the expert TOMPC while raising the control frequency from 1.4~Hz to 1~kHz. On hardware, the controller swings up and stabilizes the pendulum along trajectories closely matching the expert TOMPC solution.",
+      "abs_url": "http://arxiv.org/abs/2611.17005v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17005v1",
+      "code_url": null
+    },
+    "2611.14774": {
+      "id": "2611.14774",
+      "version": "2611.14774v1",
+      "title": "An LLM Is All You Need: Data-Efficient Adaptation to Full-Duplex, Word-Level Spoken Dialogue",
+      "authors": [
+        "Tairan Chen",
+        "Richard Yucheng He",
+        "Yihang Liu",
+        "Baodong Cao",
+        "Chen Xu"
+      ],
+      "published": "2026-11-10",
+      "updated": "2026-11-10",
+      "categories": [
+        "cs.CL",
+        "cs.SD",
+        "eess.AS"
+      ],
+      "abstract": "Full-duplex spoken dialogue, in which a system listens while it speaks and can backchannel, yield the floor, and be interrupted, is usually obtained by training on hundreds of thousands to millions of hours of speech. This is costly, rewrites the language model that supplies the system's knowledge, and still leaves turn-taking either implicit or decided coarsely rather than word by word. We show that a frozen, general-purpose multimodal LLM can instead be adapted into a word-level full-duplex system with little data. Our system is a thinker-talker cascade on an 80 ms frame clock. The thinker keeps the LLM frozen and trains only lightweight adapters and a few new token embeddings (97M parameters); at every frame it emits one token of agent text, with pauses, yields, and onsets represented as tokens of the same vocabulary and kept legal by a finite-state machine. A four-stage curriculum, each stage anchored to the model's own behavior under the previous format, performs the conversion in about 30 GPU-hours. The talker reads only the thinker's discrete tokens, so the two halves are trained independently. On Full-Duplex-Bench and InteractionBench, the system is competitive with open-source full-duplex systems built through large-scale speech training: among them, it is the least likely to take the floor when the user merely pauses, backchannels most often, and leads in spoken-task accuracy, groundedness, and coherence over long conversations.",
+      "abs_url": "http://arxiv.org/abs/2611.14774v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14774v1",
+      "code_url": null
     }
   }
 }
