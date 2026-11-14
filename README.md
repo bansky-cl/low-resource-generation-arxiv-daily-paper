@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.14
+## Updated on 2026.11.15
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **743**
-- Recent 30 days: **90**
-- Older than 30 days: **653**
+- Recent 30 days: **81**
+- Older than 30 days: **662**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -103,6 +103,11 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-16**|**MAS-Bai: Linguistically Informed Adaptive Multi-Agent Translation for Bowen-Script Bai**|cs.CL|[2610.23205v1](http://arxiv.org/abs/2610.23205v1)|null|
 |**2026-10-16**|**Do Speech BCIs Need Larger Models? Rethinking Neural Decoding beyond Scaling**|cs.CL|[2610.23175v1](http://arxiv.org/abs/2610.23175v1)|null|
 |**2026-10-16**|**Chinese Decision: A Family of Language Models for Single-Pass Probabilistic Decision-Making**|cs.CL|[2610.23170v2](http://arxiv.org/abs/2610.23170v2)|null|
+
+## Older Than 30 Days
+
+|Date|Title|Categories|PDF|Code|
+|---|---|---|---|---|
 |**2026-10-15**|**HeRE: A Novel Benchmark for Hebrew Relation Extraction via LLM-Guided Denoising of Knowledge Graph Alignments**|cs.CL, cs.LG|[2610.22542v1](http://arxiv.org/abs/2610.22542v1)|null|
 |**2026-10-15**|**Pearl-Chat: Engineering a native Luganda language model from first principles in JAX and Flax NNX**|cs.CL|[2610.22529v1](http://arxiv.org/abs/2610.22529v1)|null|
 |**2026-10-15**|**Multi-Target Few-Shot Prompting with Diffusion Language Models**|cs.CL|[2610.22294v1](http://arxiv.org/abs/2610.22294v1)|null|
@@ -112,11 +117,6 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-15**|**Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation**|cs.CL|[2610.21456v1](http://arxiv.org/abs/2610.21456v1)|null|
 |**2026-10-15**|**Recursive Reward Improvement via Adversarial Meta-Prompt Evolution**|cs.AI, cs.MA|[2610.21040v1](http://arxiv.org/abs/2610.21040v1)|null|
 |**2026-10-15**|**Efficient Agnostic Learning of Univariate Densities Under Local Differential Privacy**|stat.ML, cs.CR, cs.DS, cs.IT, cs.LG|[2610.21033v1](http://arxiv.org/abs/2610.21033v1)|null|
-
-## Older Than 30 Days
-
-|Date|Title|Categories|PDF|Code|
-|---|---|---|---|---|
 |**2026-10-14**|**CoTranslator: Reverse to Forward Chain-of-Thought Translator for Reasoning Distillation**|cs.CL, cs.AI, cs.LG|[2610.20828v1](http://arxiv.org/abs/2610.20828v1)|null|
 |**2026-10-14**|**HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation**|cs.AI, cs.IR|[2610.20191v2](http://arxiv.org/abs/2610.20191v2)|null|
 |**2026-10-14**|**Structure-Preserving Document-Level Data Augmentation via Discourse Parsing**|cs.CL, cs.AI|[2610.19497v1](http://arxiv.org/abs/2610.19497v1)|null|
