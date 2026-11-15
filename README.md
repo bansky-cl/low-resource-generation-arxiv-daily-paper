@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.15
+## Updated on 2026.11.16
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **743**
-- Recent 30 days: **81**
-- Older than 30 days: **662**
+- Recent 30 days: **77**
+- Older than 30 days: **666**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -99,15 +99,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-18**|**The World as Viewed by 136 Countries: An Open, Curated, Annotated, and Multilingual Dataset of 118 Million State Media Articles**|cs.CL, cs.CY|[2610.24990v1](http://arxiv.org/abs/2610.24990v1)|**[code](https://huggingface.co/collections/manestay/worldstatemedia)**|
 |**2026-10-17**|**A Cross-Domain Evaluation of Prompting Techniques for Large Language Models**|cs.AI, cs.CL|[2610.24913v1](http://arxiv.org/abs/2610.24913v1)|null|
 |**2026-10-17**|**GLOSS-MT: Controllable Low-Resource Machine Translation with an Editable Dictionary**|cs.CL, cs.AI|[2610.24730v1](http://arxiv.org/abs/2610.24730v1)|null|
-|**2026-10-16**|**From Billion-Scale to Million-Scale Language Models: Operational Capabilities for Embedded Post-Exploitation**|cs.CR, cs.AI|[2610.23534v1](http://arxiv.org/abs/2610.23534v1)|null|
-|**2026-10-16**|**MAS-Bai: Linguistically Informed Adaptive Multi-Agent Translation for Bowen-Script Bai**|cs.CL|[2610.23205v1](http://arxiv.org/abs/2610.23205v1)|null|
-|**2026-10-16**|**Do Speech BCIs Need Larger Models? Rethinking Neural Decoding beyond Scaling**|cs.CL|[2610.23175v1](http://arxiv.org/abs/2610.23175v1)|null|
-|**2026-10-16**|**Chinese Decision: A Family of Language Models for Single-Pass Probabilistic Decision-Making**|cs.CL|[2610.23170v2](http://arxiv.org/abs/2610.23170v2)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-16**|**From Billion-Scale to Million-Scale Language Models: Operational Capabilities for Embedded Post-Exploitation**|cs.CR, cs.AI|[2610.23534v1](http://arxiv.org/abs/2610.23534v1)|null|
+|**2026-10-16**|**MAS-Bai: Linguistically Informed Adaptive Multi-Agent Translation for Bowen-Script Bai**|cs.CL|[2610.23205v1](http://arxiv.org/abs/2610.23205v1)|null|
+|**2026-10-16**|**Do Speech BCIs Need Larger Models? Rethinking Neural Decoding beyond Scaling**|cs.CL|[2610.23175v1](http://arxiv.org/abs/2610.23175v1)|null|
+|**2026-10-16**|**Chinese Decision: A Family of Language Models for Single-Pass Probabilistic Decision-Making**|cs.CL|[2610.23170v2](http://arxiv.org/abs/2610.23170v2)|null|
 |**2026-10-15**|**HeRE: A Novel Benchmark for Hebrew Relation Extraction via LLM-Guided Denoising of Knowledge Graph Alignments**|cs.CL, cs.LG|[2610.22542v1](http://arxiv.org/abs/2610.22542v1)|null|
 |**2026-10-15**|**Pearl-Chat: Engineering a native Luganda language model from first principles in JAX and Flax NNX**|cs.CL|[2610.22529v1](http://arxiv.org/abs/2610.22529v1)|null|
 |**2026-10-15**|**Multi-Target Few-Shot Prompting with Diffusion Language Models**|cs.CL|[2610.22294v1](http://arxiv.org/abs/2610.22294v1)|null|
