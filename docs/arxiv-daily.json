@@ -16084,6 +16084,50 @@
       "abs_url": "http://arxiv.org/abs/2611.14774v1",
       "pdf_url": "https://arxiv.org/pdf/2611.14774v1",
       "code_url": null
+    },
+    "2611.18096": {
+      "id": "2611.18096",
+      "version": "2611.18096v1",
+      "title": "VEPO: Mitigating Multilingual Hallucinations in LVLMs via Visual Evidence-guided Preference Optimization",
+      "authors": [
+        "Chengpeng Fu",
+        "Xiaocheng Feng",
+        "Wenshuai Huo",
+        "Yichong Huang",
+        "Baohang Li",
+        "Duyu Tang",
+        "Ting Liu"
+      ],
+      "published": "2026-11-13",
+      "updated": "2026-11-13",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large vision-language models (LVLMs) achieve strong multimodal performance, yet they remain prone to object hallucination---generating answers that are linguistically fluent but visually ungrounded. This issue is especially severe in low-resource languages, where weaker cross-modal alignment causes models to rely more on language priors than on image evidence. Existing remedies either require costly multilingual annotations or external translation/reward models, or intervene at inference time in ways that can distort the output language. We propose VEPO(Visual Evidence-guided Preference Optimization), a training-time method that transfers reliable visual grounding from English to other languages without external models. VEPO first localizes key visual evidence using English queries via mid-layer cross-modal attention, then constructs preference pairs that share the same correct answer but differ in evidence sufficiency (full image vs.\\ key-region masked image). Direct preference optimization on these pairs encourages low-resource inputs to prefer answers supported by complete visual evidence. Experiments on multilingual POPE and MME with Chinese, French, and Hindi show consistent hallucination reduction and perception gains, with the largest improvements on the lowest-resource language. Analyses further confirm that VEPO sharpens question-relevant attention and that evidence-guided masking outperforms random masking.",
+      "abs_url": "http://arxiv.org/abs/2611.18096v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18096v1",
+      "code_url": null
+    },
+    "2611.18157": {
+      "id": "2611.18157",
+      "version": "2611.18157v1",
+      "title": "A Multi-Layered AI Pipeline for BPMN Generation from Natural Language",
+      "authors": [
+        "Alexandru Rancea",
+        "Ionut Anghel",
+        "Tudor Cioara",
+        "Ovidiu Anchidin",
+        "Ancuta Nemes"
+      ],
+      "published": "2026-11-13",
+      "updated": "2026-11-13",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "The automated transformation of unstructured natural language process descriptions into Business Process Model and Notation (BPMN) diagrams remains a challenging task, due to linguistic ambiguity and the difficulty to detect non-adjacent control-flow relationships. This paper proposes a solution for generating BPMN models from natural language descriptions through a multi-layered pipeline that integrates transformer-based architectures, Large Language Models and ontology population. The proposed method starts with natural language descriptions and separates textual processing, control-flow relation extraction, and structural validation into dedicated components. Entity extraction is performed using a fine-tuned RoBERTa-based transformer model while a control-flow engine captures non-adjacent relationships through LLM-based inference. To improve generalization under limited available data, the approach uses a dynamic few-shot strategy with con- trolled template input construction, enabling improved generalization under limited data availability. Additionally, an ontology population mechanism is introduced to represent the generated process models as semantic knowledge structures. For evaluation purposes we have used from the literature and industry reference processes. Additionally, we have validated the proposed method on a real-world heart disease patients transitional care process, capturing practical constraints and multi-actor collaboration, and serving as an expert-defined benchmark scenario. Experimental results demonstrate strong performance in the relation extraction task, achieving an accuracy of 90.7%, as well as maintaining structural alignment between the generated and reference BPMN models across multiple evaluation scenarios scenarios.",
+      "abs_url": "http://arxiv.org/abs/2611.18157v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18157v1",
+      "code_url": null
     }
   }
 }

@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **743**
-- Recent 30 days: **77**
+- Total papers in JSON: **745**
+- Recent 30 days: **79**
 - Older than 30 days: **666**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-13**|**A Multi-Layered AI Pipeline for BPMN Generation from Natural Language**|cs.CL|[2611.18157v1](http://arxiv.org/abs/2611.18157v1)|null|
+|**2026-11-13**|**VEPO: Mitigating Multilingual Hallucinations in LVLMs via Visual Evidence-guided Preference Optimization**|cs.CL|[2611.18096v1](http://arxiv.org/abs/2611.18096v1)|null|
 |**2026-11-12**|**An Integrated Architecture for Data-Efficient Real-Time Neural Imitation of Nonlinear Time-Optimal Model Predictive Control**|eess.SY, cs.LG, cs.RO|[2611.17005v1](http://arxiv.org/abs/2611.17005v1)|null|
 |**2026-11-12**|**EvenVLM: A Text and Multimodal Dataset for the Even Language with Vision-Language Fine-Tuning**|cs.CL|[2611.16500v1](http://arxiv.org/abs/2611.16500v1)|null|
 |**2026-11-12**|**Fine-Tuned Small Language Model for Synthetic Clinical Data Generation and Predictive Healthcare Analytics**|cs.AI|[2611.16460v1](http://arxiv.org/abs/2611.16460v1)|null|
@@ -225,10 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-09**|**SEA-SpeechBench: A Large-Scale Multitask Benchmark for Speech Understanding Across Southeast Asia**|cs.CL|[2609.09672v1](http://arxiv.org/abs/2609.09672v1)|**[code](https://zwenyu.github.io/SEA-SpeechBench/)**|
 |**2026-09-08**|**Do LLMs Make More Mistakes If They Do Not Believe the Input Data?**|cs.CL|[2609.09363v1](http://arxiv.org/abs/2609.09363v1)|null|
 |**2026-09-08**|**RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation**|cs.RO, cs.AI|[2609.08339v1](http://arxiv.org/abs/2609.08339v1)|null|
-|**2026-09-08**|**LEBGen: An LLM-Enhanced Bayesian Network Framework for Few-Shot Travel Survey Data Generation**|cs.AI|[2609.08288v1](http://arxiv.org/abs/2609.08288v1)|null|
-|**2026-09-07**|**BanglaMemeX: Advancing Cultural Metaphoric Image Interpretation in Bangla with a Multimodal Explainable Dataset**|cs.CL, cs.CV|[2609.08029v1](http://arxiv.org/abs/2609.08029v1)|null|
 
-README omitted **543** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **545** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
