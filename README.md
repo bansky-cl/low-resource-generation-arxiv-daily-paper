@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.17
+## Updated on 2026.11.18
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **748**
-- Recent 30 days: **80**
-- Older than 30 days: **668**
+- Recent 30 days: **76**
+- Older than 30 days: **672**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -98,15 +98,15 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-19**|**Conditional information Retrieval for Longitudinal Survey Harmonisation**|cs.CL, cs.CY, cs.IR|[2610.26173v1](http://arxiv.org/abs/2610.26173v1)|null|
 |**2026-10-19**|**DeepSEA: A Multilingual Evaluation Benchmark for Southeast Asia**|cs.CL|[2610.26155v1](http://arxiv.org/abs/2610.26155v1)|null|
 |**2026-10-19**|**FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety**|cs.AI|[2610.26066v1](http://arxiv.org/abs/2610.26066v1)|null|
-|**2026-10-18**|**FoundPDE: A generative foundation model for data-driven symbolic discovery of partial differential equations**|physics.comp-ph, cs.AI, cs.LG|[2610.26963v1](http://arxiv.org/abs/2610.26963v1)|null|
-|**2026-10-18**|**Stepwise Reasoning Verification: Don't Generate, Classify!**|cs.AI|[2610.25441v2](http://arxiv.org/abs/2610.25441v2)|null|
-|**2026-10-18**|**P2N: Reusing Deep Representations for Greater Effective Depth**|cs.CL|[2610.25076v3](http://arxiv.org/abs/2610.25076v3)|null|
-|**2026-10-18**|**The World as Viewed by 136 Countries: An Open, Curated, Annotated, and Multilingual Dataset of 118 Million State Media Articles**|cs.CL, cs.CY|[2610.24990v1](http://arxiv.org/abs/2610.24990v1)|**[code](https://huggingface.co/collections/manestay/worldstatemedia)**|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-18**|**FoundPDE: A generative foundation model for data-driven symbolic discovery of partial differential equations**|physics.comp-ph, cs.AI, cs.LG|[2610.26963v1](http://arxiv.org/abs/2610.26963v1)|null|
+|**2026-10-18**|**Stepwise Reasoning Verification: Don't Generate, Classify!**|cs.AI|[2610.25441v2](http://arxiv.org/abs/2610.25441v2)|null|
+|**2026-10-18**|**P2N: Reusing Deep Representations for Greater Effective Depth**|cs.CL|[2610.25076v3](http://arxiv.org/abs/2610.25076v3)|null|
+|**2026-10-18**|**The World as Viewed by 136 Countries: An Open, Curated, Annotated, and Multilingual Dataset of 118 Million State Media Articles**|cs.CL, cs.CY|[2610.24990v1](http://arxiv.org/abs/2610.24990v1)|**[code](https://huggingface.co/collections/manestay/worldstatemedia)**|
 |**2026-10-17**|**A Cross-Domain Evaluation of Prompting Techniques for Large Language Models**|cs.AI, cs.CL|[2610.24913v1](http://arxiv.org/abs/2610.24913v1)|null|
 |**2026-10-17**|**GLOSS-MT: Controllable Low-Resource Machine Translation with an Editable Dictionary**|cs.CL, cs.AI|[2610.24730v1](http://arxiv.org/abs/2610.24730v1)|null|
 |**2026-10-16**|**From Billion-Scale to Million-Scale Language Models: Operational Capabilities for Embedded Post-Exploitation**|cs.CR, cs.AI|[2610.23534v1](http://arxiv.org/abs/2610.23534v1)|null|
