@@ -16128,6 +16128,65 @@
       "abs_url": "http://arxiv.org/abs/2611.18157v1",
       "pdf_url": "https://arxiv.org/pdf/2611.18157v1",
       "code_url": null
+    },
+    "2611.19900": {
+      "id": "2611.19900",
+      "version": "2611.19900v1",
+      "title": "Attribute or Abstain: Evaluating Evidence-Grounded Retrieval on the Low-Resource African Business Web",
+      "authors": [
+        "Bakary Gibba",
+        "Muhammad Abba Mandara",
+        "Karim Ismail Abd-Ellah Mohamed"
+      ],
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "abstract": "Retrieval-augmented systems that research companies are judged by how much they find, yet in markets where public evidence is sparse, a confident answer without support costs more than no answer. We introduce AfriBizClaims, a benchmark of 150 company-research queries across six African markets in English, French and Portuguese, including queries about fictitious companies that a correct system must decline. Each claim a system makes is judged against the page it cites by an AI judge, checked against a second AI judge from another model family and against two human annotators, and abstentions are scored against answerability labels. We compare BM25 over a pooled corpus, standard web retrieval-augmented generation, and a multi-step agent pipeline (Konexium V1), all using the same language model. The two simple baselines are well attributed: 98% of their judged claims are supported by the page they cite, and they decline every field of every fictitious company. Counting claims about a company other than the one asked about as errors, the agent pipeline's per-query precision is 68%, and it never answers a question about a named company correctly: it substitutes other firms, including for 5 of the 24 fictitious names, and it is the least stable between runs and the most expensive. In the pipeline we evaluated, more steps between the query and the evidence did not buy more grounded answers. We will release the queries, system outputs, labels and short evidence excerpts.",
+      "abs_url": "http://arxiv.org/abs/2611.19900v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.19900v1",
+      "code_url": null
+    },
+    "2611.19145": {
+      "id": "2611.19145",
+      "version": "2611.19145v1",
+      "title": "A Systematic Study of Cross-Token Transfer for Data-Efficient Non-Verbal Text-to-Speech",
+      "authors": [
+        "Jing Pan",
+        "Haibin Wu",
+        "Minxue Niu",
+        "Florian Metze",
+        "Yuzong Liu"
+      ],
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Non-verbal vocalizations (NVs), such as laughter and breath, carry affective cues that words alone do not convey. Yet NV data remains scarce because speech annotation pipelines often omit or normalize these events. Existing work has improved NV text-to-speech through model design and data curation, but whether one NV token can help a model learn another has received little systematic study. We investigate this cross-token transferability in a controlled CosyVoice 2 setup. We first trace a laughter-only scaling curve, then hold laughter at 200 or 1,600 examples while adding breath, sigh, cough, lip-smack, or neutral speech. With only 200 laughter examples, adding 3,200 cough examples raises end-to-end laughter F1 from 0.170 to 0.529, surpassing the 0.495 obtained from 1,600 laughter examples alone. At the 1,600-example anchor, cough reaches 0.695, nearly matching 6,400 laughter examples (0.697). Waveform-level Whisper-D scoring and a semantic-token transcriber show consistent trends. Cross-token transfer therefore offers a complementary route to low-resource NV generation.",
+      "abs_url": "http://arxiv.org/abs/2611.19145v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.19145v1",
+      "code_url": null
+    },
+    "2611.19214": {
+      "id": "2611.19214",
+      "version": "2611.19214v1",
+      "title": "STaSBO: LLM-Guided Strategy Planning and Configuration Selection for Bayesian Optimization",
+      "authors": [
+        "Youngseok Yoon",
+        "Peng Li"
+      ],
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Bayesian optimization (BO) enables sample-efficient search for expensive black-box problems, but its performance depends strongly on surrogate-acquisition configurations whose suitability varies across problems and optimization states. We take a significant step toward LLM-driven strategic management of BO with STaSBO, a task-agnostic meta-controller that plans search behavior and jointly selects surrogate-acquisition configurations, while numerical BO retains responsibility for probabilistic modeling and candidate generation. STaSBO comprises two coordinated stages: strategy planning and strategy-guided configuration selection. A structured memory system connects prior plans, configuration selections, and candidate behaviors to optimization states, allowing the controller to revise its trajectory summary and behavioral plans during planning. To navigate the large joint configuration space, the selection stage shortlists configurations using surrogate fit evidence. Prospective BO-action diagnostics then expose the candidate behaviors, supporting final joint selection against the behavioral plans. Across 12 synthetic mathematical and 10 scientific and engineering application tasks, STaSBO achieves the best average rank against 11 baselines: 2.17 and 2.60, compared with 4.08 and 4.10 for the strongest baseline in each suite, respectively.",
+      "abs_url": "http://arxiv.org/abs/2611.19214v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.19214v1",
+      "code_url": null
     }
   }
 }

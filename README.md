@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **745**
-- Recent 30 days: **77**
+- Total papers in JSON: **748**
+- Recent 30 days: **80**
 - Older than 30 days: **668**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-15**|**Attribute or Abstain: Evaluating Evidence-Grounded Retrieval on the Low-Resource African Business Web**|cs.CL, cs.IR|[2611.19900v1](http://arxiv.org/abs/2611.19900v1)|null|
+|**2026-11-14**|**STaSBO: LLM-Guided Strategy Planning and Configuration Selection for Bayesian Optimization**|cs.AI|[2611.19214v1](http://arxiv.org/abs/2611.19214v1)|null|
+|**2026-11-14**|**A Systematic Study of Cross-Token Transfer for Data-Efficient Non-Verbal Text-to-Speech**|cs.CL|[2611.19145v1](http://arxiv.org/abs/2611.19145v1)|null|
 |**2026-11-13**|**A Multi-Layered AI Pipeline for BPMN Generation from Natural Language**|cs.CL|[2611.18157v1](http://arxiv.org/abs/2611.18157v1)|null|
 |**2026-11-13**|**VEPO: Mitigating Multilingual Hallucinations in LVLMs via Visual Evidence-guided Preference Optimization**|cs.CL|[2611.18096v1](http://arxiv.org/abs/2611.18096v1)|null|
 |**2026-11-12**|**An Integrated Architecture for Data-Efficient Real-Time Neural Imitation of Nonlinear Time-Optimal Model Predictive Control**|eess.SY, cs.LG, cs.RO|[2611.17005v1](http://arxiv.org/abs/2611.17005v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-09**|**Improving Cross-Lingual Token Representations by Adding a Pinch of SALT**|cs.CL, cs.AI|[2609.09953v1](http://arxiv.org/abs/2609.09953v1)|null|
 |**2026-09-09**|**Leveraging Fine-grained Error Correction in Korean Speech Recognition for Consultation Services**|cs.CL|[2609.09889v1](http://arxiv.org/abs/2609.09889v1)|null|
 |**2026-09-09**|**Exact Degeneracy Under Balanced k-Shot Sampling:Consequences for Small-Sample Discriminant Analysis on LLM Embeddings**|cs.LG|[2609.09860v1](http://arxiv.org/abs/2609.09860v1)|null|
-|**2026-09-09**|**SEA-SpeechBench: A Large-Scale Multitask Benchmark for Speech Understanding Across Southeast Asia**|cs.CL|[2609.09672v1](http://arxiv.org/abs/2609.09672v1)|**[code](https://zwenyu.github.io/SEA-SpeechBench/)**|
-|**2026-09-08**|**Do LLMs Make More Mistakes If They Do Not Believe the Input Data?**|cs.CL|[2609.09363v1](http://arxiv.org/abs/2609.09363v1)|null|
-|**2026-09-08**|**RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation**|cs.RO, cs.AI|[2609.08339v1](http://arxiv.org/abs/2609.08339v1)|null|
 
-README omitted **545** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **548** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
