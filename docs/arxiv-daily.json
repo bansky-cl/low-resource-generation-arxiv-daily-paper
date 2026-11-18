@@ -16187,6 +16187,101 @@
       "abs_url": "http://arxiv.org/abs/2611.19214v1",
       "pdf_url": "https://arxiv.org/pdf/2611.19214v1",
       "code_url": null
+    },
+    "2611.23158": {
+      "id": "2611.23158",
+      "version": "2611.23158v1",
+      "title": "MoE--LoRA Methods for Multilingual Adaptation: A Systematic Empirical Study",
+      "authors": [
+        "Nikit Srivastava",
+        "Joel Dag",
+        "René Speck",
+        "Axel-Cyrille Ngonga Ngomo"
+      ],
+      "published": "2026-11-17",
+      "updated": "2026-11-17",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Routed low-rank adapters offer a parameter-efficient means to improve the performance of large language models (LLMs) across tasks. Hence, it is assumed that they can also be used to improve the support of low-resource languages in LLMs, which currently serve English far better than the thousands of other languages spoken worldwide. However, this assumption has never been verified empirically under a shared multilingual evaluation protocol. We address exactly this gap by comparing eight low-rank adaptation (LoRA) methods on a frozen base model using 200 unique languages in more than 9{,}000 evaluation settings. Our results suggest that a reduced-scale search can identify viable configurations of LoRA methods but does not reliably predict their relative performance, as the top-ranking configuration is never best at scale. LoRA reliably improves language-model fit on translation data, consistently degrades reading comprehension, and benefits low-resource languages most. These findings suggest that LoRA methods should be regarded as targeted tools rather than general-purpose means for improving the multilingual capabilities of LLMs.",
+      "abs_url": "http://arxiv.org/abs/2611.23158v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.23158v1",
+      "code_url": null
+    },
+    "2611.22708": {
+      "id": "2611.22708",
+      "version": "2611.22708v1",
+      "title": "Cross-cultural Adaptation of Recipes for Low-Resource Languages: A Benchmark and Multilingual Culinary Lexicon for Hausa, Yorùbá, and Igbo",
+      "authors": [
+        "Nuhu Ibrahim",
+        "Maryam Abdulazeez",
+        "Fatsuma Jauro",
+        "Salisu Aliyu",
+        "Robert Stevens",
+        "Riza Batista-Navarro"
+      ],
+      "published": "2026-11-17",
+      "updated": "2026-11-17",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Recent multilingual large language models (LLMs) have improved machine translation, yet culturally adaptive translation for low-resource languages (LRLs) remains underexplored. This is particularly challenging for recipes, where ingredients, cooking tools, measurements, and procedures may require adaptation to the target cultural context. In this work, we introduce ReciLoReL, a benchmark of 600 expert-translated and culturally adapted recipes across Yorùbá, Hausa, and Igbo (three of the most prominent languages in Nigeria), and ReciLex, a multilingual culinary lexicon containing approximately 15,000 translated entities across ten recipe entity categories, including ingredients, tools, chef actions, state of tools, and durations. We evaluate state-of-the-art multilingual LLMs for English-to-LRL recipe translation under zero-shot and few-shot settings and investigate whether augmenting LLMs with ReciLex improves culturally adaptive recipe translation without requiring large target-language recipe corpora for training or fine-tuning. Beyond conventional reference-based translation evaluation using BLEU, chrF, and TER, we introduce five criteria for evaluating cultural adaptation, adapted from established cross-cultural adaptation methods. Across the selected LLMs and languages, ReciLex improves average BLEU from 13.57 to 14.51 and chrF from 37.89 to 38.74, while reducing TER from 77.14 to 75.12. Human evaluation further shows improvements ranging from 0.11 to 0.36 points across the five cultural adaptation evaluation criteria on a five-point scale. Overall, our work provides new resources, evaluation criteria, and empirical evaluation for studying culturally adaptive recipe translation in low-resource settings.",
+      "abs_url": "http://arxiv.org/abs/2611.22708v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.22708v1",
+      "code_url": null
+    },
+    "2611.22497": {
+      "id": "2611.22497",
+      "version": "2611.22497v1",
+      "title": "Towards Data-Efficient, Real-Time World Models",
+      "authors": [
+        "Raluca Stevenson",
+        "David Bignell",
+        "Jennifer C. White",
+        "Tabish Rashid",
+        "Emanuele Aiello",
+        "Mariya Hendriksen",
+        "Junha Hyung",
+        "Sadegh Aliakbarian",
+        "Abdelhak Lemkhenter",
+        "Marko Tot",
+        "Katja Hofmann",
+        "Sarah Parisot"
+      ],
+      "published": "2026-11-17",
+      "updated": "2026-11-17",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "State-of-the-art world models have been used to produce sequences of gameplay that accord with provided user-input actions. However, high quality, consistent gameplay generation often comes at the cost of inference speed, making real-time interactive play and ideation challenging. The substantial quantities of data used to train state-of-the-art models have also made custom training of these models appear impractical, limiting many of their potential uses in creative fields. In this work we demonstrate a major step towards efficient world models: achieving both fast high-quality inference, and improved data efficiency. This is done by replacing the next-token prediction paradigm with a two-stage discrete diffusion-based approach, introducing a lightweight refinement transformer which carries out iterative masked predictions. Building on an autoregressive world model capable of generating highly consistent and complex sequences over minutes (Kanervisto et al., 2025), we achieve substantial model speed-up (79x) with a modest quality trade-off. Additionally, we demonstrate that this model can be trained to reproduce high-quality, consistent gameplay using a dataset containing approximately one day (28 hours) of gameplay data. Our results demonstrate progress towards removing barriers to the use of world models in settings where real-time inference and data efficiency are essential.",
+      "abs_url": "http://arxiv.org/abs/2611.22497v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.22497v1",
+      "code_url": null
+    },
+    "2611.22965": {
+      "id": "2611.22965",
+      "version": "2611.22965v1",
+      "title": "High-Dimensional Black-Box Optimization via Guidance Sampling of Diffusion Models",
+      "authors": [
+        "Xiaoyan Hu",
+        "Rohit Sonker",
+        "Jalal Butt",
+        "Jiayu Chen",
+        "Egemen Kolemen",
+        "Jeff Schneider"
+      ],
+      "published": "2026-11-17",
+      "updated": "2026-11-17",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Many real-world optimization problems involve optimizing black-box objectives for which only a limited number of evaluations are available. Bayesian optimization (BO) is a powerful framework for such problems, but its effectiveness often deteriorates in high-dimensional spaces. Recent work leverages diffusion models for black-box optimization, often through pre-training a reward-conditioned score network to steer generation towards high-reward samples. Alternatively, gradient-based guidance methods assume access to a differentiable reward function from which guidance gradients are queried. However, these approaches either require large amounts of labeled data for offline training or access to exact reward gradients, limiting their applicability in black-box settings. We propose BReaD (Black-box Reward-guided Sampling of Diffusion Model), a guidance sampling framework for optimizing black-box rewards without assuming access to a labeled dataset or reward gradients. The proposed method uses a Gaussian process (GP) as a differentiable surrogate for the unknown objective and actively queries labels for the generated samples. We provide a theoretical analysis of the total-variation distance between the generated distribution and the target distribution. Using Upper Confidence Bound (UCB) as guidance signals, our method balances exploration and exploitation during generation and enables the discovery of high-reward regions in the data space. Numerical experiments on scientific discovery and image generation tasks demonstrate that our framework can effectively optimize black-box rewards in low-data scenarios.",
+      "abs_url": "http://arxiv.org/abs/2611.22965v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.22965v1",
+      "code_url": null
     }
   }
 }

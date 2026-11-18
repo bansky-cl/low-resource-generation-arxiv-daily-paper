@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **748**
-- Recent 30 days: **76**
+- Total papers in JSON: **752**
+- Recent 30 days: **80**
 - Older than 30 days: **672**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,10 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-17**|**MoE--LoRA Methods for Multilingual Adaptation: A Systematic Empirical Study**|cs.CL, cs.LG|[2611.23158v1](http://arxiv.org/abs/2611.23158v1)|null|
+|**2026-11-17**|**High-Dimensional Black-Box Optimization via Guidance Sampling of Diffusion Models**|cs.LG, cs.AI|[2611.22965v1](http://arxiv.org/abs/2611.22965v1)|null|
+|**2026-11-17**|**Cross-cultural Adaptation of Recipes for Low-Resource Languages: A Benchmark and Multilingual Culinary Lexicon for Hausa, Yorùbá, and Igbo**|cs.CL, cs.AI|[2611.22708v1](http://arxiv.org/abs/2611.22708v1)|null|
+|**2026-11-17**|**Towards Data-Efficient, Real-Time World Models**|cs.AI|[2611.22497v1](http://arxiv.org/abs/2611.22497v1)|null|
 |**2026-11-15**|**Attribute or Abstain: Evaluating Evidence-Grounded Retrieval on the Low-Resource African Business Web**|cs.CL, cs.IR|[2611.19900v1](http://arxiv.org/abs/2611.19900v1)|null|
 |**2026-11-14**|**STaSBO: LLM-Guided Strategy Planning and Configuration Selection for Bayesian Optimization**|cs.AI|[2611.19214v1](http://arxiv.org/abs/2611.19214v1)|null|
 |**2026-11-14**|**A Systematic Study of Cross-Token Transfer for Data-Efficient Non-Verbal Text-to-Speech**|cs.CL|[2611.19145v1](http://arxiv.org/abs/2611.19145v1)|null|
@@ -223,12 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-10**|**Complex-Text Robustness Evaluation and Failure Diagnosis for Low-Resource Multilingual Text-to-Speech**|cs.CL, cs.SD|[2609.11545v1](http://arxiv.org/abs/2609.11545v1)|null|
 |**2026-09-09**|**Multilingual in Name Only? Cultural and Linguistic Weaknesses of LLMs in Urdu**|cs.CL, cs.AI, cs.LG|[2609.10758v1](http://arxiv.org/abs/2609.10758v1)|null|
 |**2026-09-09**|**Data-Efficient Language Modeling: From Frontier Advancement to Principle-Guided Model Improvement**|cs.CL, cs.AI|[2609.10702v1](http://arxiv.org/abs/2609.10702v1)|null|
-|**2026-09-09**|**5-Dialects-BN: Unmasking the Impact of Transliteration on Bangla Dialectal LLMs**|cs.CL|[2609.09964v1](http://arxiv.org/abs/2609.09964v1)|null|
-|**2026-09-09**|**Improving Cross-Lingual Token Representations by Adding a Pinch of SALT**|cs.CL, cs.AI|[2609.09953v1](http://arxiv.org/abs/2609.09953v1)|null|
-|**2026-09-09**|**Leveraging Fine-grained Error Correction in Korean Speech Recognition for Consultation Services**|cs.CL|[2609.09889v1](http://arxiv.org/abs/2609.09889v1)|null|
-|**2026-09-09**|**Exact Degeneracy Under Balanced k-Shot Sampling:Consequences for Small-Sample Discriminant Analysis on LLM Embeddings**|cs.LG|[2609.09860v1](http://arxiv.org/abs/2609.09860v1)|null|
 
-README omitted **548** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **552** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
