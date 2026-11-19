@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.19
+## Updated on 2026.11.20
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **755**
-- Recent 30 days: **75**
-- Older than 30 days: **680**
+- Recent 30 days: **73**
+- Older than 30 days: **682**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -95,13 +95,13 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-22**|**IndoNutriQA: An Indonesian Clinical Nutrition Question Answering Benchmark**|cs.CL|[2610.31256v1](http://arxiv.org/abs/2610.31256v1)|null|
 |**2026-10-21**|**Climbing the Ladder: Automating Data Pipelines and Reproducing Baselines in Low-Resource Settings**|cs.CL|[2610.30374v1](http://arxiv.org/abs/2610.30374v1)|null|
 |**2026-10-21**|**A Diagnostic Study of Faithfulness in Diffusion Language Models for Table-to-Text Generation**|cs.CL, cs.LG|[2610.29602v1](http://arxiv.org/abs/2610.29602v1)|null|
-|**2026-10-20**|**How to Use Parallel Data for Multilingual Pretraining**|cs.CL, cs.AI|[2610.28838v1](http://arxiv.org/abs/2610.28838v1)|null|
-|**2026-10-20**|**Large Flow Language Models**|cs.CL, cs.AI|[2610.28559v1](http://arxiv.org/abs/2610.28559v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-20**|**How to Use Parallel Data for Multilingual Pretraining**|cs.CL, cs.AI|[2610.28838v1](http://arxiv.org/abs/2610.28838v1)|null|
+|**2026-10-20**|**Large Flow Language Models**|cs.CL, cs.AI|[2610.28559v1](http://arxiv.org/abs/2610.28559v1)|null|
 |**2026-10-19**|**Sample-efficient learning with Dense Associative Memories**|cs.LG|[2610.27384v1](http://arxiv.org/abs/2610.27384v1)|null|
 |**2026-10-19**|**Global Security Blind Spots: Translation as a Safety Bypass in Low-Resource Languages**|cs.CL, cs.AI, cs.CR, cs.LG|[2610.27304v1](http://arxiv.org/abs/2610.27304v1)|null|
 |**2026-10-19**|**ORBIT: Autoregressive Time Series Generation via Next Frequency-Band Prediction**|cs.LG|[2610.27000v1](http://arxiv.org/abs/2610.27000v1)|null|
