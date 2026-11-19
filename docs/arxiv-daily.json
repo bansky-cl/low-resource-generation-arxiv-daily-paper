@@ -15292,7 +15292,8 @@
       "categories": [
         "stat.ML",
         "cs.IT",
-        "cs.LG"
+        "cs.LG",
+        "math.OC"
       ],
       "abstract": "Reinforcement learning (RL) embodies a foundational paradigm for sequential decision-making in the face of uncertainty. The rapid growth of model complexity in emerging applications has significantly amplified the challenges of achieving data-efficient RL, particularly in sample-starved scenarios where data collection may be costly, time-consuming, or even high-stakes. Consequently, understanding and improving the data efficiency of RL algorithms has become a central problem of both fundamental theoretical interest and practical importance. Despite decades of research, the statistical underpinnings of RL remained remarkably underdeveloped until relatively recently, particularly in the finite-sample regimes most relevant to modern practice. Over the past few years, there has been a surge of activity advancing the frontiers of non-asymptotic statistical RL theory, drawing on ideas from high-dimensional statistics and probability, information theory, and statistical learning theory. In this monograph, we present a non-asymptotic treatment for RL based on tabular Markov decision processes, focusing on three canonical sampling mechanisms --- RL with a generative model, online RL, and offline RL --- together with two algorithmic paradigms: model-based and model-free approaches. Centered around non-asymptotic sample complexity analysis, our treatment emphasizes minimax-optimal algorithm design, particularly methods that attain statistical optimality without significant burn-in costs, as well as sharp statistical characterizations of several widely used RL algorithms. Whenever possible, we provide largely self-contained analyses together with intuitive explanations. We also briefly discuss several extensions, such as robust RL, competitive multi-agent RL, federated RL, uncertainty quantification, and RL from human feedback.",
       "abs_url": "http://arxiv.org/abs/2610.41903v1",
@@ -16190,7 +16191,7 @@
     },
     "2611.23158": {
       "id": "2611.23158",
-      "version": "2611.23158v1",
+      "version": "2611.23158v2",
       "title": "MoE--LoRA Methods for Multilingual Adaptation: A Systematic Empirical Study",
       "authors": [
         "Nikit Srivastava",
@@ -16199,14 +16200,14 @@
         "Axel-Cyrille Ngonga Ngomo"
       ],
       "published": "2026-11-17",
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "categories": [
         "cs.CL",
         "cs.LG"
       ],
-      "abstract": "Routed low-rank adapters offer a parameter-efficient means to improve the performance of large language models (LLMs) across tasks. Hence, it is assumed that they can also be used to improve the support of low-resource languages in LLMs, which currently serve English far better than the thousands of other languages spoken worldwide. However, this assumption has never been verified empirically under a shared multilingual evaluation protocol. We address exactly this gap by comparing eight low-rank adaptation (LoRA) methods on a frozen base model using 200 unique languages in more than 9{,}000 evaluation settings. Our results suggest that a reduced-scale search can identify viable configurations of LoRA methods but does not reliably predict their relative performance, as the top-ranking configuration is never best at scale. LoRA reliably improves language-model fit on translation data, consistently degrades reading comprehension, and benefits low-resource languages most. These findings suggest that LoRA methods should be regarded as targeted tools rather than general-purpose means for improving the multilingual capabilities of LLMs.",
-      "abs_url": "http://arxiv.org/abs/2611.23158v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.23158v1",
+      "abstract": "Routed low-rank adapters offer a parameter-efficient means to improve the performance of large language models (LLMs) across tasks. Hence, it is assumed that they can also be used to improve the support of low-resource languages in LLMs, which currently serve English far better than the thousands of other languages spoken worldwide. However, this assumption has never been verified empirically under a shared multilingual evaluation protocol. We address exactly this gap by comparing eight low-rank adaptation (LoRA) methods on a frozen base model, using 146 training runs across 200 unique languages and more than 10,000 evaluations. Our results suggest that a reduced-scale search can identify viable configurations of LoRA methods but does not reliably predict their relative performance, as the top-ranking configuration is never best at scale. LoRA reliably improves language-model fit on translation data, consistently degrades reading comprehension, and benefits low-resource languages most. These findings suggest that LoRA methods should be regarded as targeted tools rather than general-purpose means for improving the multilingual capabilities of LLMs.",
+      "abs_url": "http://arxiv.org/abs/2611.23158v2",
+      "pdf_url": "https://arxiv.org/pdf/2611.23158v2",
       "code_url": null
     },
     "2611.22708": {
@@ -16281,6 +16282,60 @@
       "abstract": "Many real-world optimization problems involve optimizing black-box objectives for which only a limited number of evaluations are available. Bayesian optimization (BO) is a powerful framework for such problems, but its effectiveness often deteriorates in high-dimensional spaces. Recent work leverages diffusion models for black-box optimization, often through pre-training a reward-conditioned score network to steer generation towards high-reward samples. Alternatively, gradient-based guidance methods assume access to a differentiable reward function from which guidance gradients are queried. However, these approaches either require large amounts of labeled data for offline training or access to exact reward gradients, limiting their applicability in black-box settings. We propose BReaD (Black-box Reward-guided Sampling of Diffusion Model), a guidance sampling framework for optimizing black-box rewards without assuming access to a labeled dataset or reward gradients. The proposed method uses a Gaussian process (GP) as a differentiable surrogate for the unknown objective and actively queries labels for the generated samples. We provide a theoretical analysis of the total-variation distance between the generated distribution and the target distribution. Using Upper Confidence Bound (UCB) as guidance signals, our method balances exploration and exploitation during generation and enables the discovery of high-reward regions in the data space. Numerical experiments on scientific discovery and image generation tasks demonstrate that our framework can effectively optimize black-box rewards in low-data scenarios.",
       "abs_url": "http://arxiv.org/abs/2611.22965v1",
       "pdf_url": "https://arxiv.org/pdf/2611.22965v1",
+      "code_url": null
+    },
+    "2611.24588": {
+      "id": "2611.24588",
+      "version": "2611.24588v1",
+      "title": "Large Language Models or AI Agents for English to Arabic Translation? An assessment on WikiEn-Ar190",
+      "authors": [
+        "Fatima Zahra Iguenfer",
+        "Yousra Chtouki"
+      ],
+      "published": "2026-11-18",
+      "updated": "2026-11-18",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "This research investigates whether a large language model or an autonomous AI Agent performs better at translating from English to Arabic, which is considered a low-resource language. The authors introduce WikiEn-Ar190, a new dataset of 190 carefully selected Wikipedia articles from 18 different areas, which were created and verified by two native Arabic speakers to ensure that they accurately reflect both meaning and style. Using this dataset, the study evaluates the translation quality of GPT-5-mini both as an independent neural translator and when used within a more complex process that includes self-assessment and improvement. As a standalone model, GPT-5-mini produced very fluent translations , achieving a COMET score of 0.8649 and receiving high human scores for adequacy, fluency, and style (averaging 4.53 out of 5). When used in a system that combined translation with self-assessment, it improved lexical accuracy by 28.76% (BLEU score of 22.83) while maintaining a similar level of semantic quality. These findings show that methods involving autonomous reasoning can improve translation consistency for language pairs with limited resources. Beyond the results, the approach offers a framework for evaluating and improving translations, potentially using them as assisting tools to expand the representation of low resource languages, such as Arabic, on the web.",
+      "abs_url": "http://arxiv.org/abs/2611.24588v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24588v1",
+      "code_url": null
+    },
+    "2611.24043": {
+      "id": "2611.24043",
+      "version": "2611.24043v1",
+      "title": "Compression Effects on Low-Resource Multilingual Translation",
+      "authors": [
+        "Abbas Sani"
+      ],
+      "published": "2026-11-18",
+      "updated": "2026-11-18",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "We present a pilot study characterising the effect of post-training quantisation on multilingual machine translation quality and inference cost for three African languages - Hausa, Swahili, and Yoruba - across three model families: a small general-purpose LLM (Qwen2.5-1.5B), a larger multilingual instruction-tuned LLM (Aya-23-8B), and a dedicated multilingual MT model (NLLB-200-distilled-1.3B). Evaluating on the FLORES-200 devtest set (1,012 sentences per direction) under FP16, bitsandbytes INT8, and NF4 INT4 precisions on consumer-grade NVIDIA T4 GPUs, we find: (i) the specialised MT model outperforms both LLMs by 32.7-43.3 chrF on the Hausa and Swahili directions, and by 12.9-24.7 chrF on Yoruba, despite being roughly a sixth the size of the 8B instruction-tuned LLM; (ii) post-training quantisation preserves aggregate translation quality within approximately 1 chrF across all model families and language directions, with a single worst case of 2.19 chrF; (iii) on consumer GPUs, INT8 and INT4 quantisation provide substantial memory savings (49-61% at INT4) but do not reduce inference latency relative to FP16 - in fact, latency increases by 1.3x to 5.3x; (iv) a clear performance gradient tracking training-resource availability is visible across languages (Swahili > Hausa > Yoruba). These findings motivate a research agenda focused on hardware-aware compression and error-type analysis beyond aggregate metrics for low-resource deployment.",
+      "abs_url": "http://arxiv.org/abs/2611.24043v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24043v1",
+      "code_url": null
+    },
+    "2611.23454": {
+      "id": "2611.23454",
+      "version": "2611.23454v1",
+      "title": "LusoClin: A Synthetic Clinical Note Dataset for Medical Information Retrieval in European Portuguese",
+      "authors": [
+        "Carla Teixeira Lopes",
+        "Daniel Félix"
+      ],
+      "published": "2026-11-17",
+      "updated": "2026-11-17",
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "abstract": "Access to large-scale clinical text collections is crucial for advancing medical information retrieval research, including clinical note search, patient cohort identification, and domain-adapted retrieval models. However, real clinical notes are rarely available due to privacy regulations, which particularly limits progress for low-resource languages such as European Portuguese. We present LusoClin, a publicly released dataset of synthetic clinical notes in European Portuguese, created to support privacy-preserving research on clinical text retrieval. LusoClin was generated by pre-processing real clinical data, fine-tuning the open-source Llama 3.2 (3B) instruction-tuned model using Quantized Low-Rank Adaptation, and applying prompt-based clinical note generation. To facilitate semantic indexing and clinical search, the notes are automatically annotated with clinical entities using a BERT-based model. We evaluate LusoClin in terms of utility, fidelity, diversity, and privacy using automatic metrics and human evaluation. Results indicate that the dataset captures clinically relevant language patterns and can support downstream IR applications such as clinical document retrieval and domain-specific model adaptation, although annotators can often distinguish synthetic from real notes and some medical inconsistencies persist.",
+      "abs_url": "http://arxiv.org/abs/2611.23454v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.23454v1",
       "code_url": null
     }
   }

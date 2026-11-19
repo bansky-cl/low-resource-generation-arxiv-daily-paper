@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **752**
-- Recent 30 days: **72**
+- Total papers in JSON: **755**
+- Recent 30 days: **75**
 - Older than 30 days: **680**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,7 +22,10 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
-|**2026-11-17**|**MoE--LoRA Methods for Multilingual Adaptation: A Systematic Empirical Study**|cs.CL, cs.LG|[2611.23158v1](http://arxiv.org/abs/2611.23158v1)|null|
+|**2026-11-18**|**Large Language Models or AI Agents for English to Arabic Translation? An assessment on WikiEn-Ar190**|cs.CL|[2611.24588v1](http://arxiv.org/abs/2611.24588v1)|null|
+|**2026-11-18**|**Compression Effects on Low-Resource Multilingual Translation**|cs.CL|[2611.24043v1](http://arxiv.org/abs/2611.24043v1)|null|
+|**2026-11-17**|**LusoClin: A Synthetic Clinical Note Dataset for Medical Information Retrieval in European Portuguese**|cs.AI, cs.IR|[2611.23454v1](http://arxiv.org/abs/2611.23454v1)|null|
+|**2026-11-17**|**MoE--LoRA Methods for Multilingual Adaptation: A Systematic Empirical Study**|cs.CL, cs.LG|[2611.23158v2](http://arxiv.org/abs/2611.23158v2)|null|
 |**2026-11-17**|**High-Dimensional Black-Box Optimization via Guidance Sampling of Diffusion Models**|cs.LG, cs.AI|[2611.22965v1](http://arxiv.org/abs/2611.22965v1)|null|
 |**2026-11-17**|**Cross-cultural Adaptation of Recipes for Low-Resource Languages: A Benchmark and Multilingual Culinary Lexicon for Hausa, Yorùbá, and Igbo**|cs.CL, cs.AI|[2611.22708v1](http://arxiv.org/abs/2611.22708v1)|null|
 |**2026-11-17**|**Towards Data-Efficient, Real-Time World Models**|cs.AI|[2611.22497v1](http://arxiv.org/abs/2611.22497v1)|null|
@@ -66,7 +69,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-31**|**Label Smoothing in Disguise? Gated Knowledge Distillation for Low-Resource Bangla Generation**|cs.CL, cs.AI|[2611.01065v1](http://arxiv.org/abs/2611.01065v1)|null|
 |**2026-10-31**|**Labadain-MedQA: A Tetun Medical QA Dataset for Fine-Tuning and Evaluating Large Language Models**|cs.CL, cs.AI|[2611.00935v2](http://arxiv.org/abs/2611.00935v2)|**[code](https://github.com/labadain/labadain-medqa)**|
 |**2026-10-30**|**A generative foundation model for computational brain imaging**|cs.AI|[2611.00265v1](http://arxiv.org/abs/2611.00265v1)|null|
-|**2026-10-30**|**Statistical Foundations of Reinforcement Learning: A Non-Asymptotic Perspective**|stat.ML, cs.IT, cs.LG|[2610.41903v1](http://arxiv.org/abs/2610.41903v1)|null|
+|**2026-10-30**|**Statistical Foundations of Reinforcement Learning: A Non-Asymptotic Perspective**|stat.ML, cs.IT, cs.LG, math.OC|[2610.41903v1](http://arxiv.org/abs/2610.41903v1)|null|
 |**2026-10-30**|**Enhancing Sentiment Classification on Small Datasets through Data Augmentation and Transfer Learning**|cs.LG, cs.CL|[2610.41518v1](http://arxiv.org/abs/2610.41518v1)|null|
 |**2026-10-30**|**TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection**|cs.AI, cs.CL|[2610.41232v1](http://arxiv.org/abs/2610.41232v1)|null|
 |**2026-10-29**|**How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates**|cs.CL, cs.AI, cs.LG|[2610.40516v1](http://arxiv.org/abs/2610.40516v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-12**|**The University of Melbourne WMT 2026 CreoleMT Submission: A Domain-Balanced Approach to Low-Resource Pacific Creole Machine Translation**|cs.CL|[2609.13615v1](http://arxiv.org/abs/2609.13615v1)|null|
 |**2026-09-11**|**Breaking the Token Ceiling: Distilling Smaller, Stronger Byte Models**|cs.CL, cs.AI, cs.LG|[2609.12303v1](http://arxiv.org/abs/2609.12303v1)|null|
 |**2026-09-10**|**Beyond Word Error Rate: A Switch Aware Evaluation of ASR and Audio Language Models on English Yoruba Code-Switched Speech**|cs.CL, cs.AI|[2609.11786v1](http://arxiv.org/abs/2609.11786v1)|null|
-|**2026-09-10**|**Complex-Text Robustness Evaluation and Failure Diagnosis for Low-Resource Multilingual Text-to-Speech**|cs.CL, cs.SD|[2609.11545v1](http://arxiv.org/abs/2609.11545v1)|null|
-|**2026-09-09**|**Multilingual in Name Only? Cultural and Linguistic Weaknesses of LLMs in Urdu**|cs.CL, cs.AI, cs.LG|[2609.10758v1](http://arxiv.org/abs/2609.10758v1)|null|
-|**2026-09-09**|**Data-Efficient Language Modeling: From Frontier Advancement to Principle-Guided Model Improvement**|cs.CL, cs.AI|[2609.10702v1](http://arxiv.org/abs/2609.10702v1)|null|
 
-README omitted **552** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **555** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
