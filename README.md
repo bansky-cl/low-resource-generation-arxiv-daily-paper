@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **755**
-- Recent 30 days: **73**
+- Total papers in JSON: **756**
+- Recent 30 days: **74**
 - Older than 30 days: **682**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,7 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-19**|**From Data Alignment to Parameter Generation: Few-Shot Cross-City Traffic Prediction with Conditional Diffusion**|cs.LG|[2611.25592v1](http://arxiv.org/abs/2611.25592v1)|**[code](https://github.com/LingoodBoy/CDPG)**|
 |**2026-11-18**|**Large Language Models or AI Agents for English to Arabic Translation? An assessment on WikiEn-Ar190**|cs.CL|[2611.24588v1](http://arxiv.org/abs/2611.24588v1)|null|
 |**2026-11-18**|**Compression Effects on Low-Resource Multilingual Translation**|cs.CL|[2611.24043v1](http://arxiv.org/abs/2611.24043v1)|null|
 |**2026-11-17**|**LusoClin: A Synthetic Clinical Note Dataset for Medical Information Retrieval in European Portuguese**|cs.AI, cs.IR|[2611.23454v1](http://arxiv.org/abs/2611.23454v1)|null|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-12**|**Scaling Hindi Quantum Natural Language Processing through Automatic Pregroup Supertagging**|cs.CL, quant-ph|[2609.13721v1](http://arxiv.org/abs/2609.13721v1)|null|
 |**2026-09-12**|**The University of Melbourne WMT 2026 CreoleMT Submission: A Domain-Balanced Approach to Low-Resource Pacific Creole Machine Translation**|cs.CL|[2609.13615v1](http://arxiv.org/abs/2609.13615v1)|null|
 |**2026-09-11**|**Breaking the Token Ceiling: Distilling Smaller, Stronger Byte Models**|cs.CL, cs.AI, cs.LG|[2609.12303v1](http://arxiv.org/abs/2609.12303v1)|null|
-|**2026-09-10**|**Beyond Word Error Rate: A Switch Aware Evaluation of ASR and Audio Language Models on English Yoruba Code-Switched Speech**|cs.CL, cs.AI|[2609.11786v1](http://arxiv.org/abs/2609.11786v1)|null|
 
-README omitted **555** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **556** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
