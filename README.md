@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.21
+## Updated on 2026.11.22
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **756**
-- Recent 30 days: **72**
-- Older than 30 days: **684**
+- Recent 30 days: **69**
+- Older than 30 days: **687**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -91,14 +91,14 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-24**|**Beyond Prompts: A Systematic Study of LLM-Based Machine Translation Evaluators**|cs.CL|[2610.33741v1](http://arxiv.org/abs/2610.33741v1)|null|
 |**2026-10-23**|**Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox**|cs.CL, cs.HC, cs.LG|[2610.32955v1](http://arxiv.org/abs/2610.32955v1)|null|
 |**2026-10-23**|**Data-Efficient Backdoor Attacks on Code Models via Trigger-Neutralized Counterfactual Scoring**|cs.CR, cs.AI|[2610.32334v1](http://arxiv.org/abs/2610.32334v1)|null|
-|**2026-10-22**|**Real-to-Sim Calibration of Bosch Etching Simulators with Few-Shot XSEM Data and Hybrid Search**|cs.CE, cs.LG|[2610.31904v1](http://arxiv.org/abs/2610.31904v1)|null|
-|**2026-10-22**|**Bridging the Data Gap: Source-Informed Task-Space Transport for Few-Shot Diffusion**|cs.LG, cs.AI|[2610.31323v2](http://arxiv.org/abs/2610.31323v2)|null|
-|**2026-10-22**|**IndoNutriQA: An Indonesian Clinical Nutrition Question Answering Benchmark**|cs.CL|[2610.31256v1](http://arxiv.org/abs/2610.31256v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-22**|**Real-to-Sim Calibration of Bosch Etching Simulators with Few-Shot XSEM Data and Hybrid Search**|cs.CE, cs.LG|[2610.31904v1](http://arxiv.org/abs/2610.31904v1)|null|
+|**2026-10-22**|**Bridging the Data Gap: Source-Informed Task-Space Transport for Few-Shot Diffusion**|cs.LG, cs.AI|[2610.31323v2](http://arxiv.org/abs/2610.31323v2)|null|
+|**2026-10-22**|**IndoNutriQA: An Indonesian Clinical Nutrition Question Answering Benchmark**|cs.CL|[2610.31256v1](http://arxiv.org/abs/2610.31256v1)|null|
 |**2026-10-21**|**Climbing the Ladder: Automating Data Pipelines and Reproducing Baselines in Low-Resource Settings**|cs.CL|[2610.30374v1](http://arxiv.org/abs/2610.30374v1)|null|
 |**2026-10-21**|**A Diagnostic Study of Faithfulness in Diffusion Language Models for Table-to-Text Generation**|cs.CL, cs.LG|[2610.29602v1](http://arxiv.org/abs/2610.29602v1)|null|
 |**2026-10-20**|**How to Use Parallel Data for Multilingual Pretraining**|cs.CL, cs.AI|[2610.28838v1](http://arxiv.org/abs/2610.28838v1)|null|
