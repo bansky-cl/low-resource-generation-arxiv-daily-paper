@@ -16361,6 +16361,125 @@
       "abs_url": "http://arxiv.org/abs/2611.25592v1",
       "pdf_url": "https://arxiv.org/pdf/2611.25592v1",
       "code_url": "https://github.com/LingoodBoy/CDPG"
+    },
+    "2611.27521": {
+      "id": "2611.27521",
+      "version": "2611.27521v1",
+      "title": "PaMuk-Bench: A Parallel Multilingual Multitask Benchmark for Vision-Language Tasks",
+      "authors": [
+        "Silviu-Florin Gheorghe",
+        "Radu-Stefan Popa",
+        "Adriana Valentina Costache",
+        "Adrian-Gabriel Chifu",
+        "Alessia Amelio",
+        "Paul Irofti",
+        "Anders Skaarup Johansen",
+        "Lallouani Bouchakour",
+        "Mohamed Lichouri",
+        "Khaled Lounnas",
+        "Neelu Madan",
+        "Yashvir Malik",
+        "Radu Tudor Ionescu"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "While vision-language models (VLMs) currently obtain notable results for highly-studied languages, e.g. English, they exhibit significant performance drops in certain low-resource languages, especially due to the lack of annotated datasets. To this end, we propose PaMuk-Bench, a novel parallel multilingual multitask benchmark for vision-language tasks. Our benchmark includes a set of over 10K curated English prompts that are translated into six languages: Arabic, Danish, French, Hindi, Italian, Romanian. Parallel translations, which are obtained via a semi-automatic process, along with accompanying generated and retrieved images enable the comparative development and evaluation of VLMs across a wide range of tasks: text-to-image generation, image captioning, content-based image retrieval, image generation difficulty estimation, image retrieval difficulty estimation. We empirically show that zero-shot English and multilingual pre-trained VLMs compare consistently worse than their fine-tuned counterparts, confirming that PaMuk-Bench is a valuable resource that can drastically reduce the language gap across a variety of VLM architectures and tasks. PaMuk-Bench is available at https://github.com/ghesil/pamuk_bench.",
+      "abs_url": "http://arxiv.org/abs/2611.27521v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27521v1",
+      "code_url": "https://github.com/ghesil/pamuk_bench"
+    },
+    "2611.27421": {
+      "id": "2611.27421",
+      "version": "2611.27421v1",
+      "title": "ORBIT: Offset-based Activation Steering for Cross-lingual Multimodal Fact Verification",
+      "authors": [
+        "Huy Trieu",
+        "Duy-Minh Nguyen-Tran",
+        "Thanh-Dat Nguyen",
+        "Huy Tien Nguyen",
+        "Tung Le"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Multimodal fact verification faces a fundamental accessibility bottleneck: while large proprietary models exhibit cross-lingual robustness, small vision-language models suffer a severe, disproportionate accuracy collapse on low-resource languages. Closing this gap traditionally requires prohibitive scale or extensive language-specific fine-tuning. In this work, we propose Offset Recovery via Bilingual Inference-time Technique (ORBIT), an algorithmic intervention that mitigates this collapse at inference time. ORBIT estimates span-specific offset vectors from parallel claim-evidence instances and applies them to claim and evidence representations, targeting the cross-lingual degradation induced by low-resource evidence. Experiments across 81 configurations reveal that ORBIT substantially recovers both accuracy and F1-score in low-resource settings, exposes calibration offset norms as a diagnostic proxy, and outperforms translation-based and steering baselines.",
+      "abs_url": "http://arxiv.org/abs/2611.27421v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27421v1",
+      "code_url": null
+    },
+    "2611.27962": {
+      "id": "2611.27962",
+      "version": "2611.27962v1",
+      "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+      "authors": [
+        "Kaden Zheng",
+        "Pratyusha Sharma"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every layer, in the same order, and optimizes the weights within. This uniformity is a convention rather than a principled design choice, and it is likely suboptimal: the best architecture for a given task may be smaller, more efficient, and far from uniform. We believe that, ideally, training itself should shape the model's topology. To this end, we introduce Model Carving, which learns both a Transformer's weights and its architecture in a single run. By applying learnable, scalar gates to each sublayer, we allow the training loss to remove the model's own components during training -- freeing a smaller heterogeneous network inside. We evaluate Model Carving by pre-training standard Transformers from 140M to 2.7B parameters and looped Transformers from 140M to 1.3B. At equal training compute, carved models reach a lower validation loss than dense models trained with up to 1.7 times more compute. Furthermore, carved models also outperform size-matched models produced by pruning or distillation, suggesting that the best way to obtain small models for edge devices is to carve them during training, not to compress a large one afterwards. This advantage both grows with scale and carries over to downstream tasks such as few-shot evaluation and generation. Because the removed sublayers no longer run, carved models also cost up to 34% fewer FLOPs per token and decode up to 1.6 times faster without cost in quality. Our results show that architecture, like weights, should be learned and not fixed in advance, and that inside every large transformer is a smaller, faster, stronger one waiting to be carved out.",
+      "abs_url": "http://arxiv.org/abs/2611.27962v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27962v1",
+      "code_url": null
+    },
+    "2611.26900": {
+      "id": "2611.26900",
+      "version": "2611.26900v1",
+      "title": "Modeling Attributional Style at Scale: A Dataset and Analysis for Psychological Attribution Assessment and Reframing",
+      "authors": [
+        "Qiang Zhou",
+        "Hanzhen Zhu",
+        "Pan Wang",
+        "Rui Tu",
+        "Huaizhi Qu",
+        "Zhuoran Wang",
+        "Xin Hu",
+        "Lei Li",
+        "Tianlong Chen",
+        "Jingtong Hu"
+      ],
+      "published": "2026-11-19",
+      "updated": "2026-11-19",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "abstract": "According to the reformulated Learned Helplessness theory, repeated exposure to uncontrollable negative events can foster a depressogenic attributional style, increasing susceptibility to depression yet remaining a tractable target for cognitive therapy. Computational research on attributional cognition, however, is hampered by the lack of large-scale datasets and robust evaluation protocols. In this work, we introduce the Attributional Style Transfer Dataset (ASTD) along with dedicated evaluation metrics, the first benchmark designed to model, assess, and reframe attributional explanations at scale. Constructed via a Prevent-Filter-Validate pipeline that integrates LLM-based generation with specialist validation, ASTD contains 42,000 real-world events paired with psychologically grounded attributions spanning seven styles. Using this dataset, we address two key challenges: (1) scalable assessment of attributional style via both supervised classifiers and zero/few-shot LLMs; and (2) attributional reframing and evaluation, where we propose automatic evaluation metrics to quantify psychological validity. Furthermore, we leverage our proposed metrics to construct a preference dataset, fine-tuning LLMs with Direct Preference Optimization (DPO) and achieving substantial gains in reframing quality. Together, our dataset, metrics, and methodology offer a new paradigm for understanding and modeling attributional style, with direct implications for scalable and adaptive mental health interventions. Code and data: https://github.com/qzhou711/ASTD",
+      "abs_url": "http://arxiv.org/abs/2611.26900v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26900v1",
+      "code_url": "https://github.com/qzhou711/ASTD"
+    },
+    "2611.27511": {
+      "id": "2611.27511",
+      "version": "2611.27511v1",
+      "title": "Breaking the Barrier of Hard Samples: A Data-Centric Approach to Synthetic Data for Medical Tasks",
+      "authors": [
+        "Maynara Donato de Souza",
+        "Cleber Zanchettin"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Data scarcity and quality issues remain significant barriers to developing robust predictive models in medical research. Traditional reliance on real-world data often leads to biased models with poor generalizability across diverse patient populations. Synthetic data generation has emerged as a promising solution, yet challenges related to these samples' representativeness and effective utilization persist. This paper introduces Profile2Gen, a novel data-centric framework designed to guide the generation and refinement of synthetic data, focusing on addressing hard-to-learn samples in regression tasks. We conducted approximately 18,000 experiments to validate its effectiveness across six medical datasets, utilizing seven state-of-the-art generative models. Results demonstrate that refined synthetic samples can reduce predictive errors and enhance model reliability. Additionally, we generalize the DataIQ framework to support regression tasks, enabling its application in broader contexts. Statistical analyses confirm that our approach achieves equal or superior performance compared to models trained exclusively on real data.",
+      "abs_url": "http://arxiv.org/abs/2611.27511v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27511v1",
+      "code_url": null
     }
   }
 }

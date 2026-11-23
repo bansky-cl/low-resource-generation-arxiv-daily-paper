@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **756**
-- Recent 30 days: **67**
+- Total papers in JSON: **761**
+- Recent 30 days: **72**
 - Older than 30 days: **689**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,11 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-20**|**Model Carving: Training Transformers That Optimize Their Own Topology**|cs.LG, cs.AI|[2611.27962v1](http://arxiv.org/abs/2611.27962v1)|null|
+|**2026-11-20**|**PaMuk-Bench: A Parallel Multilingual Multitask Benchmark for Vision-Language Tasks**|cs.CV, cs.AI, cs.CL, cs.LG|[2611.27521v1](http://arxiv.org/abs/2611.27521v1)|**[code](https://github.com/ghesil/pamuk_bench)**|
+|**2026-11-20**|**Breaking the Barrier of Hard Samples: A Data-Centric Approach to Synthetic Data for Medical Tasks**|cs.LG|[2611.27511v1](http://arxiv.org/abs/2611.27511v1)|null|
+|**2026-11-20**|**ORBIT: Offset-based Activation Steering for Cross-lingual Multimodal Fact Verification**|cs.CL, cs.LG|[2611.27421v1](http://arxiv.org/abs/2611.27421v1)|null|
+|**2026-11-19**|**Modeling Attributional Style at Scale: A Dataset and Analysis for Psychological Attribution Assessment and Reframing**|cs.CL, cs.AI, cs.CY|[2611.26900v1](http://arxiv.org/abs/2611.26900v1)|**[code](https://github.com/qzhou711/ASTD)**|
 |**2026-11-19**|**From Data Alignment to Parameter Generation: Few-Shot Cross-City Traffic Prediction with Conditional Diffusion**|cs.LG|[2611.25592v1](http://arxiv.org/abs/2611.25592v1)|**[code](https://github.com/LingoodBoy/CDPG)**|
 |**2026-11-18**|**Large Language Models or AI Agents for English to Arabic Translation? An assessment on WikiEn-Ar190**|cs.CL|[2611.24588v1](http://arxiv.org/abs/2611.24588v1)|null|
 |**2026-11-18**|**Compression Effects on Low-Resource Multilingual Translation**|cs.CL|[2611.24043v1](http://arxiv.org/abs/2611.24043v1)|null|
@@ -222,13 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-14**|**Authorship attribution and aesthetic evaluation of AI poetry: a case study with Haiku**|cs.CL, cs.AI|[2609.15511v1](http://arxiv.org/abs/2609.15511v1)|null|
 |**2026-09-14**|**ProtoGuide: Prototype-Driven Guidance for Class-Conditional Graph Generation**|cs.LG, cs.AI, physics.soc-ph|[2609.15239v1](http://arxiv.org/abs/2609.15239v1)|null|
 |**2026-09-13**|**TriCalRAG: A Three-Strategy, Retrieval-Augmented Benchmark for On-Premise LLM-Based Root Cause Analysis in AIOps**|cs.DC, cs.AI, cs.CR, cs.ET, cs.LG|[2609.14762v1](http://arxiv.org/abs/2609.14762v1)|null|
-|**2026-09-13**|**Corpus Characterization and Inverse Constitutional Fine-Tuning for Style-Aware Radiology Reports**|cs.CL|[2609.14226v1](http://arxiv.org/abs/2609.14226v1)|null|
-|**2026-09-12**|**Conditional Quantum Flow Matching for Data-Scarce Physiological Signal Augmentation**|quant-ph, cs.LG, cs.MM|[2609.14019v1](http://arxiv.org/abs/2609.14019v1)|null|
-|**2026-09-12**|**Scaling Hindi Quantum Natural Language Processing through Automatic Pregroup Supertagging**|cs.CL, quant-ph|[2609.13721v1](http://arxiv.org/abs/2609.13721v1)|null|
-|**2026-09-12**|**The University of Melbourne WMT 2026 CreoleMT Submission: A Domain-Balanced Approach to Low-Resource Pacific Creole Machine Translation**|cs.CL|[2609.13615v1](http://arxiv.org/abs/2609.13615v1)|null|
-|**2026-09-11**|**Breaking the Token Ceiling: Distilling Smaller, Stronger Byte Models**|cs.CL, cs.AI, cs.LG|[2609.12303v1](http://arxiv.org/abs/2609.12303v1)|null|
 
-README omitted **556** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **561** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
