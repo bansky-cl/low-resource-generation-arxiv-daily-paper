@@ -7,29 +7,33 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.24
+## Updated on 2026.11.25
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
-- Total papers in JSON: **761**
-- Recent 30 days: **70**
-- Older than 30 days: **691**
+- Total papers in JSON: **765**
+- Recent 30 days: **73**
+- Older than 30 days: **692**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-23**|**DUET: Dual-MDL Unsupervised Entropy-Trie Segmentation for Low-Resource Languages**|cs.CL|[2611.30273v1](http://arxiv.org/abs/2611.30273v1)|null|
+|**2026-11-23**|**Beyond Fixed Prompt Configuration: Alternating Policy Learning for Adaptive Topology-Based Prompting in Few-Shot Graph Learning**|cs.LG|[2611.29950v1](http://arxiv.org/abs/2611.29950v1)|null|
+|**2026-11-22**|**Diversity in Unity, Theory in Practice: Hierarchical Multitask Benchmarks for Chinese Minority Languages**|cs.CL|[2611.29635v1](http://arxiv.org/abs/2611.29635v1)|null|
 |**2026-11-20**|**Model Carving: Training Transformers That Optimize Their Own Topology**|cs.LG, cs.AI|[2611.27962v1](http://arxiv.org/abs/2611.27962v1)|null|
-|**2026-11-20**|**PaMuk-Bench: A Parallel Multilingual Multitask Benchmark for Vision-Language Tasks**|cs.CV, cs.AI, cs.CL, cs.LG|[2611.27521v1](http://arxiv.org/abs/2611.27521v1)|**[code](https://github.com/ghesil/pamuk_bench)**|
+|**2026-11-20**|**PaMuk-Bench: A Parallel Multilingual Multitask Benchmark for Vision-Language Tasks**|cs.CV, cs.AI, cs.CL, cs.LG|[2611.27521v2](http://arxiv.org/abs/2611.27521v2)|**[code](https://github.com/ghesil/pamuk_bench)**|
 |**2026-11-20**|**Breaking the Barrier of Hard Samples: A Data-Centric Approach to Synthetic Data for Medical Tasks**|cs.LG|[2611.27511v1](http://arxiv.org/abs/2611.27511v1)|null|
 |**2026-11-20**|**ORBIT: Offset-based Activation Steering for Cross-lingual Multimodal Fact Verification**|cs.CL, cs.LG|[2611.27421v1](http://arxiv.org/abs/2611.27421v1)|null|
 |**2026-11-19**|**Modeling Attributional Style at Scale: A Dataset and Analysis for Psychological Attribution Assessment and Reframing**|cs.CL, cs.AI, cs.CY|[2611.26900v1](http://arxiv.org/abs/2611.26900v1)|**[code](https://github.com/qzhou711/ASTD)**|
 |**2026-11-19**|**From Data Alignment to Parameter Generation: Few-Shot Cross-City Traffic Prediction with Conditional Diffusion**|cs.LG|[2611.25592v1](http://arxiv.org/abs/2611.25592v1)|**[code](https://github.com/LingoodBoy/CDPG)**|
 |**2026-11-18**|**Large Language Models or AI Agents for English to Arabic Translation? An assessment on WikiEn-Ar190**|cs.CL|[2611.24588v1](http://arxiv.org/abs/2611.24588v1)|null|
 |**2026-11-18**|**Compression Effects on Low-Resource Multilingual Translation**|cs.CL|[2611.24043v1](http://arxiv.org/abs/2611.24043v1)|null|
+|**2026-11-17**|**VidRouteBench: A Benchmark for Budgeted Video-Generation Routing**|cs.CV, cs.CL|[2611.28099v1](http://arxiv.org/abs/2611.28099v1)|null|
 |**2026-11-17**|**LusoClin: A Synthetic Clinical Note Dataset for Medical Information Retrieval in European Portuguese**|cs.AI, cs.IR|[2611.23454v1](http://arxiv.org/abs/2611.23454v1)|null|
 |**2026-11-17**|**MoE--LoRA Methods for Multilingual Adaptation: A Systematic Empirical Study**|cs.CL, cs.LG|[2611.23158v2](http://arxiv.org/abs/2611.23158v2)|null|
 |**2026-11-17**|**High-Dimensional Black-Box Optimization via Guidance Sampling of Diffusion Models**|cs.LG, cs.AI|[2611.22965v1](http://arxiv.org/abs/2611.22965v1)|null|
@@ -91,12 +95,12 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-26**|**EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware Molecular Conformation Generation**|cs.LG, cs.CE|[2610.36280v1](http://arxiv.org/abs/2610.36280v1)|null|
 |**2026-10-26**|**Ranking Function Generation with LLMs for Termination**|cs.SE, cs.AI, cs.LO|[2610.35523v1](http://arxiv.org/abs/2610.35523v1)|null|
 |**2026-10-26**|**Quality over Quantity: Rethinking Data and Model Assumptions for Bengali Coreference Resolution**|cs.CL|[2610.35114v1](http://arxiv.org/abs/2610.35114v1)|null|
-|**2026-10-25**|**Transformer to GPT-5: Advancements, Limitations, and Future Directions in Large Language Model Design**|cs.CL, cs.LG|[2610.34281v1](http://arxiv.org/abs/2610.34281v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-25**|**Transformer to GPT-5: Advancements, Limitations, and Future Directions in Large Language Model Design**|cs.CL, cs.LG|[2610.34281v1](http://arxiv.org/abs/2610.34281v1)|null|
 |**2026-10-24**|**The Hitchhiker's Guide to System 1 Models: Fast Decision-Making Beyond LLMS**|cs.AI, cs.CL|[2610.33775v2](http://arxiv.org/abs/2610.33775v2)|null|
 |**2026-10-24**|**Beyond Prompts: A Systematic Study of LLM-Based Machine Translation Evaluators**|cs.CL|[2610.33741v1](http://arxiv.org/abs/2610.33741v1)|null|
 |**2026-10-23**|**Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox**|cs.CL, cs.HC, cs.LG|[2610.32955v1](http://arxiv.org/abs/2610.32955v1)|null|
@@ -153,7 +157,7 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-09**|**CB-Orchestrator: Adaptive Workflow Optimization for LLM Agents via Contextual Bandits**|cs.LG|[2610.13064v1](http://arxiv.org/abs/2610.13064v1)|null|
 |**2026-10-09**|**COFFEQA: Counterfactual-Guided Few-Shot Distillation for LLM Question Answering**|cs.CL, cs.AI, cs.LG|[2610.12837v1](http://arxiv.org/abs/2610.12837v1)|null|
 |**2026-10-08**|**STAPLE: Static Sparse Upcycling of Pretrained Checkpoints via Embedding Modules**|cs.LG|[2610.12599v1](http://arxiv.org/abs/2610.12599v1)|null|
-|**2026-10-08**|**Ambient Discrete Diffusion: Using the Wrong Data at the Right Time for Data Efficient Learning**|cs.LG|[2610.12340v1](http://arxiv.org/abs/2610.12340v1)|null|
+|**2026-10-08**|**Ambient Discrete Diffusion: Using the Wrong Data at the Right Time for Data Efficient Learning**|cs.LG|[2610.12340v2](http://arxiv.org/abs/2610.12340v2)|null|
 |**2026-10-08**|**Zatom-2: Multitask Pretraining on Atomistic Data for Generative Modeling across Domains**|cs.LG, cs.AI|[2610.11454v2](http://arxiv.org/abs/2610.11454v2)|null|
 |**2026-10-08**|**Fact over Fiction: Detection of Pathological Hallucinations in Sinhala-to-English Neural Machine Translation**|cs.CL|[2610.11389v1](http://arxiv.org/abs/2610.11389v1)|null|
 |**2026-10-08**|**Sample-Efficient Generative Conformal Prediction**|cs.LG, stat.ME|[2610.11349v1](http://arxiv.org/abs/2610.11349v1)|null|
@@ -223,12 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-15**|**Robust and Efficient AI Frameworks for Scalable Material Design and Property Prediction**|cond-mat.mtrl-sci, cs.LG|[2609.17646v1](http://arxiv.org/abs/2609.17646v1)|null|
 |**2026-09-15**|**Towards Detecting AI-Assisted Responses in Online Surveys**|cs.CL, cs.CY|[2609.17317v1](http://arxiv.org/abs/2609.17317v1)|**[code](https://github.com/mike-qz-wang/ASURRE)**|
 |**2026-09-15**|**MyoFlow: Anchor-Tied Rectified Flow for HD-sEMG Gesture Recognition Across Sessions and Subjects**|cs.LG|[2609.17194v2](http://arxiv.org/abs/2609.17194v2)|null|
-|**2026-09-14**|**A Language-Guided Multimodal Foundation Model for Zero-Shot and Multi-Task Brain Signal Analysis**|cs.LG, cs.AI|[2609.15740v1](http://arxiv.org/abs/2609.15740v1)|null|
-|**2026-09-14**|**Authorship attribution and aesthetic evaluation of AI poetry: a case study with Haiku**|cs.CL, cs.AI|[2609.15511v1](http://arxiv.org/abs/2609.15511v1)|null|
-|**2026-09-14**|**ProtoGuide: Prototype-Driven Guidance for Class-Conditional Graph Generation**|cs.LG, cs.AI, physics.soc-ph|[2609.15239v1](http://arxiv.org/abs/2609.15239v1)|null|
-|**2026-09-13**|**TriCalRAG: A Three-Strategy, Retrieval-Augmented Benchmark for On-Premise LLM-Based Root Cause Analysis in AIOps**|cs.DC, cs.AI, cs.CR, cs.ET, cs.LG|[2609.14762v1](http://arxiv.org/abs/2609.14762v1)|null|
 
-README omitted **561** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **565** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors

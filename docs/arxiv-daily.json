@@ -13689,7 +13689,7 @@
     },
     "2610.12340": {
       "id": "2610.12340",
-      "version": "2610.12340v1",
+      "version": "2610.12340v2",
       "title": "Ambient Discrete Diffusion: Using the Wrong Data at the Right Time for Data Efficient Learning",
       "authors": [
         "Julian Kleutgens",
@@ -13699,13 +13699,13 @@
         "Giannis Daras"
       ],
       "published": "2026-10-08",
-      "updated": "2026-10-08",
+      "updated": "2026-11-21",
       "categories": [
         "cs.LG"
       ],
       "abstract": "We introduce RefineMix, a framework for training discrete diffusion models under severe data scarcity, a common constraint in scientific applications. RefineMix uses out-of-distribution data at selected diffusion times to improve generalization without biasing the sampling distribution. Although this strategy has been explored in continuous diffusion, discrete diffusion presents a distinct challenge: unlike Gaussian noise, masking preserves domain information in surviving tokens, limiting the use of related data at high noise levels. At low noise levels, however, the domains effectively disjoint supports become an advantage, allowing the model to learn from both in-domain and out-of-distribution data without biasing the sampler. We formalize these intuitions and provide a theoretical analysis for the proposed method. Experimentally, across five domain-shift settings, RefineMix matches or outperforms in-domain finetuning and data mixing. For protein sequence generation, finetuning with just 197 in-domain examples nearly doubles the fraction of generated proteins that are simultaneously novel, foldable, and in-family compared to standard finetuning.",
-      "abs_url": "http://arxiv.org/abs/2610.12340v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.12340v1",
+      "abs_url": "http://arxiv.org/abs/2610.12340v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.12340v2",
       "code_url": null
     },
     "2610.11349": {
@@ -16364,7 +16364,7 @@
     },
     "2611.27521": {
       "id": "2611.27521",
-      "version": "2611.27521v1",
+      "version": "2611.27521v2",
       "title": "PaMuk-Bench: A Parallel Multilingual Multitask Benchmark for Vision-Language Tasks",
       "authors": [
         "Silviu-Florin Gheorghe",
@@ -16382,7 +16382,7 @@
         "Radu Tudor Ionescu"
       ],
       "published": "2026-11-20",
-      "updated": "2026-11-20",
+      "updated": "2026-11-23",
       "categories": [
         "cs.CV",
         "cs.AI",
@@ -16390,8 +16390,8 @@
         "cs.LG"
       ],
       "abstract": "While vision-language models (VLMs) currently obtain notable results for highly-studied languages, e.g. English, they exhibit significant performance drops in certain low-resource languages, especially due to the lack of annotated datasets. To this end, we propose PaMuk-Bench, a novel parallel multilingual multitask benchmark for vision-language tasks. Our benchmark includes a set of over 10K curated English prompts that are translated into six languages: Arabic, Danish, French, Hindi, Italian, Romanian. Parallel translations, which are obtained via a semi-automatic process, along with accompanying generated and retrieved images enable the comparative development and evaluation of VLMs across a wide range of tasks: text-to-image generation, image captioning, content-based image retrieval, image generation difficulty estimation, image retrieval difficulty estimation. We empirically show that zero-shot English and multilingual pre-trained VLMs compare consistently worse than their fine-tuned counterparts, confirming that PaMuk-Bench is a valuable resource that can drastically reduce the language gap across a variety of VLM architectures and tasks. PaMuk-Bench is available at https://github.com/ghesil/pamuk_bench.",
-      "abs_url": "http://arxiv.org/abs/2611.27521v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.27521v1",
+      "abs_url": "http://arxiv.org/abs/2611.27521v2",
+      "pdf_url": "https://arxiv.org/pdf/2611.27521v2",
       "code_url": "https://github.com/ghesil/pamuk_bench"
     },
     "2611.27421": {
@@ -16479,6 +16479,89 @@
       "abstract": "Data scarcity and quality issues remain significant barriers to developing robust predictive models in medical research. Traditional reliance on real-world data often leads to biased models with poor generalizability across diverse patient populations. Synthetic data generation has emerged as a promising solution, yet challenges related to these samples' representativeness and effective utilization persist. This paper introduces Profile2Gen, a novel data-centric framework designed to guide the generation and refinement of synthetic data, focusing on addressing hard-to-learn samples in regression tasks. We conducted approximately 18,000 experiments to validate its effectiveness across six medical datasets, utilizing seven state-of-the-art generative models. Results demonstrate that refined synthetic samples can reduce predictive errors and enhance model reliability. Additionally, we generalize the DataIQ framework to support regression tasks, enabling its application in broader contexts. Statistical analyses confirm that our approach achieves equal or superior performance compared to models trained exclusively on real data.",
       "abs_url": "http://arxiv.org/abs/2611.27511v1",
       "pdf_url": "https://arxiv.org/pdf/2611.27511v1",
+      "code_url": null
+    },
+    "2611.30273": {
+      "id": "2611.30273",
+      "version": "2611.30273v1",
+      "title": "DUET: Dual-MDL Unsupervised Entropy-Trie Segmentation for Low-Resource Languages",
+      "authors": [
+        "Xiaotian Wang",
+        "Youyuan Lin",
+        "Zhan Shen",
+        "Hitomi Yanaka"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Morphological segmentation, the task of decomposing words into constituent morphemes, becomes particularly challenging under extreme data scarcity, a regime that can arise in language documentation and linguistic reasoning. This difficulty stems from existing approaches' reliance on annotated data, external resources, or recurring patterns that emerge only in larger corpora. To address this limitation, we propose Dual-MDL Unsupervised Entropy-Trie Segmentation (DUET), a deterministic unsupervised algorithm that decouples structural candidate generation from statistical candidate ranking. DUET combines branching entropy with recursive paradigm discovery to generate linguistically plausible candidate segmentations, then ranks them using a dual minimum description length (MDL) criterion: a corpus-level objective rewards morpheme reuse, while a construction-tree objective guards against over-segmentation. On the SIGMORPHON 2023 interlinear glossing shared task, DUET outperforms unsupervised baselines in Morpheme F1 under both the standard and simulated extremely low-resource settings, while providing broader candidate coverage. Augmenting prompts with DUET segmentations improves performance on a linguistic reasoning benchmark, yielding the best overall results among the evaluated segmentation methods.",
+      "abs_url": "http://arxiv.org/abs/2611.30273v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.30273v1",
+      "code_url": null
+    },
+    "2611.29635": {
+      "id": "2611.29635",
+      "version": "2611.29635v1",
+      "title": "Diversity in Unity, Theory in Practice: Hierarchical Multitask Benchmarks for Chinese Minority Languages",
+      "authors": [
+        "Yijie Li",
+        "Xi Cao",
+        "Yuan Sun",
+        "Quulgan Minggad",
+        "Abdulla Ablikim",
+        " JiaQingCaiWang"
+      ],
+      "published": "2026-11-22",
+      "updated": "2026-11-22",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Despite the rapid advancement of LLMs, their performance on linguistically and culturally diverse minority languages within a unified national context remains underexplored. We present CMiLBench, a collection of hierarchical multitask benchmarks designed to translate theoretical notions of \"diversity in unity\" into practical evaluation for three representative Chinese minority languages: Tibetan, Mongolian, and Uyghur. CMiLBench comprises 24,663 instances across 5 difficulty levels and 17 tasks spanning foundational ability, cultural specificity, and safety alignment. We adopt existing dataset adaptation, minority knowledge construction, and high-resource benchmark translation to construct CMiLBench. We assess 14 state-of-the-art commercial and open-source LLMs with a hybrid framework that integrates automatic metrics and LLM-as-a-Judge scoring. The comparative experimental results reveal the gap between theoretical capability and practical utility. CMiLBench serves as a foundational and scalable evaluation resource to bridge the digital language divide and promote the informatization and intelligentization of low-resource Chinese minority languages.",
+      "abs_url": "http://arxiv.org/abs/2611.29635v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.29635v1",
+      "code_url": null
+    },
+    "2611.29950": {
+      "id": "2611.29950",
+      "version": "2611.29950v1",
+      "title": "Beyond Fixed Prompt Configuration: Alternating Policy Learning for Adaptive Topology-Based Prompting in Few-Shot Graph Learning",
+      "authors": [
+        "Yizhuo Ma",
+        "Yihong Huang",
+        "Rongzheng Wang",
+        "Jiakai Li",
+        "Ke Qin",
+        "Shuang Liang",
+        "Jie Shao"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Graph Prompt Learning (GPL) adapts frozen pre-trained graph models to few-shot graph tasks through a small set of trainable prompts that encode task-specific information. Topology-based prompting instantiates this idea by augmenting an input graph with new prompt nodes and edges, yielding promising performance. However, prompt content and propagation structure are coupled, making it difficult to assess their individual effects and learn compatible configurations. In this paper, we empirically analyze two challenges in learning adaptive policies for topology-based prompting: asymmetric performance effects and coupled configuration selection. We then propose TTPR, a two-stage reinforcement framework that alternately optimizes two policies to generate adaptive configurations, with each policy conditioned on configurations generated by the other fixed policy. These conditional updates separate policy evaluation while preserving configuration compatibility. Specifically, TTPR models an edge-level policy to construct connection patterns and optimizes it with Connection Relative Policy Optimization (CRPO) through group-wise comparisons of complete connection patterns. The other is a node-level policy that generates prompt-node schemes and is optimized with Incremental Node Proximal Policy Optimization (INPPO) through incremental prompt-count decisions and feature generation. Across diverse datasets and pre-training strategies, TTPR ranks first in 8/10 few-shot node classification settings and attains the highest average performance across graph classification benchmarks.",
+      "abs_url": "http://arxiv.org/abs/2611.29950v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.29950v1",
+      "code_url": null
+    },
+    "2611.28099": {
+      "id": "2611.28099",
+      "version": "2611.28099v1",
+      "title": "VidRouteBench: A Benchmark for Budgeted Video-Generation Routing",
+      "authors": [
+        "Dayu Wang"
+      ],
+      "published": "2026-11-17",
+      "updated": "2026-11-17",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "abstract": "Text-to-video generators differ by two orders of magnitude in price, and a cheap configuration of a strong model is often good enough for a prompt. Routing prompts across such arms (model x sampling configuration) should buy quality at fixed budget, but no dataset supports studying it: public video-preference sets contain only closed models, one configuration each. We release VidRouteBench: 16 arms from 7 open families spanning 121x in measured cost ($0.0025-$0.298 per clip), 27,110 clips (1,421 A800-hours) over 1,625 grouped prompts, a quality score frozen after calibration against human preferences (68.7% CV accuracy vs 66.2% for the best single scorer), per-clip scores on 9 identifiable quality dimensions, repeated seeds, an encrypted test split, and a sealed newest family for cold start. The evaluator compares a router against the best prompt-agnostic mixture of arms, not the best single arm. Per-prompt specialisation here is real and predictable (oracle gap 0.642, 47% reproducible across seeds, prompt-arm interaction F=4.47 at p=1.6e-63), unlike LLM-routing arms, where the same pipeline finds none. We then propose OPMU (one probe, many utilities): label a new arm on K probe prompts, predict its 9 dimensions once, and serve any scenario utility by scalarising afterwards. Over 215 utility directions OPMU Pareto-dominates the prompt-agnostic baseline for 94% of directions versus 90% for per-scenario routers, with no per-scenario retraining. Three baselines fail instructively: bag-of-words features lose almost all routing gain in the low-data regime (0.009 vs 0.168); crediting a new arm with its probe average is harmful (-3.32 recovery) although it is the strong baseline on RewardBench-style arms (0.786); Chebyshev scalarisation does not help, our cost-utility front being convex.",
+      "abs_url": "http://arxiv.org/abs/2611.28099v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.28099v1",
       "code_url": null
     }
   }
