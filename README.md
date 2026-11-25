@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **765**
-- Recent 30 days: **73**
+- Total papers in JSON: **766**
+- Recent 30 days: **74**
 - Older than 30 days: **692**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,7 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-24**|**Implementation of Machine Translation for the Uzbek Language Based on Transformer Models**|cs.CL|[2611.32359v1](http://arxiv.org/abs/2611.32359v1)|null|
 |**2026-11-23**|**DUET: Dual-MDL Unsupervised Entropy-Trie Segmentation for Low-Resource Languages**|cs.CL|[2611.30273v1](http://arxiv.org/abs/2611.30273v1)|null|
 |**2026-11-23**|**Beyond Fixed Prompt Configuration: Alternating Policy Learning for Adaptive Topology-Based Prompting in Few-Shot Graph Learning**|cs.LG|[2611.29950v1](http://arxiv.org/abs/2611.29950v1)|null|
 |**2026-11-22**|**Diversity in Unity, Theory in Practice: Hierarchical Multitask Benchmarks for Chinese Minority Languages**|cs.CL|[2611.29635v1](http://arxiv.org/abs/2611.29635v1)|null|
@@ -226,9 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-16**|**When to Call an LLM: A Confidence-Gated Hybrid for Cost-Effective Emotion Recognition in Conversational AI**|cs.AI|[2609.17977v1](http://arxiv.org/abs/2609.17977v1)|null|
 |**2026-09-15**|**Robust and Efficient AI Frameworks for Scalable Material Design and Property Prediction**|cond-mat.mtrl-sci, cs.LG|[2609.17646v1](http://arxiv.org/abs/2609.17646v1)|null|
 |**2026-09-15**|**Towards Detecting AI-Assisted Responses in Online Surveys**|cs.CL, cs.CY|[2609.17317v1](http://arxiv.org/abs/2609.17317v1)|**[code](https://github.com/mike-qz-wang/ASURRE)**|
-|**2026-09-15**|**MyoFlow: Anchor-Tied Rectified Flow for HD-sEMG Gesture Recognition Across Sessions and Subjects**|cs.LG|[2609.17194v2](http://arxiv.org/abs/2609.17194v2)|null|
 
-README omitted **565** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **566** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
