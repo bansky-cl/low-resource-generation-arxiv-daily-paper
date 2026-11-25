@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.25
+## Updated on 2026.11.26
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **766**
-- Recent 30 days: **74**
-- Older than 30 days: **692**
+- Recent 30 days: **71**
+- Older than 30 days: **695**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -93,14 +93,14 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-27**|**Text Generation in Low-Resource Languages Using Human-Curated Vocabularies**|cs.CL|[2610.37105v2](http://arxiv.org/abs/2610.37105v2)|**[code](https://github.com/michaelsinanta/vocab2text)**|
 |**2026-10-27**|**The State and Fate of Multilingual, Contextual Evaluation in the NLP World**|cs.CL|[2610.36990v1](http://arxiv.org/abs/2610.36990v1)|**[code](https://aka.ms/multilingual-evals)**|
 |**2026-10-27**|**Learning from Points and Patches: A Pre-trained Hybrid Attention Transformer for Time Series Analysis**|cs.LG|[2610.36572v1](http://arxiv.org/abs/2610.36572v1)|**[code](https://github.com/TangPeiwang/TimeHAT)**|
-|**2026-10-26**|**EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware Molecular Conformation Generation**|cs.LG, cs.CE|[2610.36280v1](http://arxiv.org/abs/2610.36280v1)|null|
-|**2026-10-26**|**Ranking Function Generation with LLMs for Termination**|cs.SE, cs.AI, cs.LO|[2610.35523v1](http://arxiv.org/abs/2610.35523v1)|null|
-|**2026-10-26**|**Quality over Quantity: Rethinking Data and Model Assumptions for Bengali Coreference Resolution**|cs.CL|[2610.35114v1](http://arxiv.org/abs/2610.35114v1)|null|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-26**|**EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware Molecular Conformation Generation**|cs.LG, cs.CE|[2610.36280v1](http://arxiv.org/abs/2610.36280v1)|null|
+|**2026-10-26**|**Ranking Function Generation with LLMs for Termination**|cs.SE, cs.AI, cs.LO|[2610.35523v1](http://arxiv.org/abs/2610.35523v1)|null|
+|**2026-10-26**|**Quality over Quantity: Rethinking Data and Model Assumptions for Bengali Coreference Resolution**|cs.CL|[2610.35114v1](http://arxiv.org/abs/2610.35114v1)|null|
 |**2026-10-25**|**Transformer to GPT-5: Advancements, Limitations, and Future Directions in Large Language Model Design**|cs.CL, cs.LG|[2610.34281v1](http://arxiv.org/abs/2610.34281v1)|null|
 |**2026-10-24**|**The Hitchhiker's Guide to System 1 Models: Fast Decision-Making Beyond LLMS**|cs.AI, cs.CL|[2610.33775v2](http://arxiv.org/abs/2610.33775v2)|null|
 |**2026-10-24**|**Beyond Prompts: A Systematic Study of LLM-Based Machine Translation Evaluators**|cs.CL|[2610.33741v1](http://arxiv.org/abs/2610.33741v1)|null|
