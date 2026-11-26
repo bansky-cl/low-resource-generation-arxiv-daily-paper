@@ -16581,6 +16581,78 @@
       "abs_url": "http://arxiv.org/abs/2611.32359v1",
       "pdf_url": "https://arxiv.org/pdf/2611.32359v1",
       "code_url": null
+    },
+    "2611.34823": {
+      "id": "2611.34823",
+      "version": "2611.34823v1",
+      "title": "The Linguistic Knowledge Benchmark: Do Language Models Know the Foundations of Early-Grade Literacy?",
+      "authors": [
+        "Maxime Lelièvre",
+        "Alasdair Mackintosh",
+        "Dominic Andrews",
+        "Tobias Murray",
+        "Moritz Boos",
+        "Oliver G. B. Garrod"
+      ],
+      "published": "2026-11-25",
+      "updated": "2026-11-25",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Many languages of instruction in low- and middle-income countries (LMICs) are poorly represented in the data used to train language models. Before these models can support early-grade literacy in such languages, we need to know whether they hold the linguistic knowledge of each language that literacy teaching relies on. To test this, we present the Linguistic Knowledge Benchmark and the reproducible, largely automated pipeline that turns curriculum documents, teacher guides and pupil books into a vetted question set organised on a fixed grid of nine linguistic domains and seven grade levels. The pipeline combines LLM-driven source survey, feature consolidation, item generation and quality control with an item-selection step inspired by item response theory and a final expert review. We instantiate it for Kiswahili (Kenya; 135 items) and English (United Kingdom; 137 items) and evaluate 121 and 119 models respectively. Frontier models exceed 90% accuracy in both languages, but accuracy falls steeply for smaller and cheaper models, and more so in Kiswahili. The two best models under 10 billion parameters reach 91.7% and 73.0% in English but only 51.9% and 40.7% in Kiswahili, and the mean accuracy of models deployable on mobile and tablet hardware is 47% in English against 24% in Kiswahili. The models most practical for low-resource classrooms are therefore the least capable in the languages they would serve. We release a 20-item sample per language, all pipeline prompts, open-source code, and a public leaderboard. This is the first rung of a three-level evaluation ladder for measuring and generating decodable text to support foundational literacy.",
+      "abs_url": "http://arxiv.org/abs/2611.34823v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34823v1",
+      "code_url": null
+    },
+    "2611.33788": {
+      "id": "2611.33788",
+      "version": "2611.33788v1",
+      "title": "InterGenEHR$^+$: An Interactive Framework for Natural Language-Conditioned Generation of Longitudinal Patient Trajectories",
+      "authors": [
+        "Yu Yang",
+        "Jiafeng Song",
+        "Baraa F Abed",
+        "Christina Creel",
+        "Sagar B Dave",
+        "Henry Foote",
+        "Lisa Lima",
+        "Victor Moas",
+        "Craig S Jabaley",
+        "Rishikesan Kamaleswaran",
+        "Pan Xu"
+      ],
+      "published": "2026-11-25",
+      "updated": "2026-11-25",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Objective: To develop and validate InterGenEHR$^+$, an interactive framework for natural language-conditioned generation of synthetic tabular electronic health records (EHRs) and longitudinal trajectories for scenario-based evaluation of machine learning models. Methods: An optional large language model (LLM) parser converts clinical requests into structured constraints. Conditional variational autoencoders and diffusion models generate single-time-point records, while diffusion models generate longitudinal trajectories. We evaluate parsing, distributional fidelity, imputation, clinical-constraint adherence, mortality prediction, and clinical plausibility using a multi-institutional cohort of 874 patients receiving venovenous extracorporeal membrane oxygenation (VV-ECMO). Results: Gemma 3 4B with few-shot prompting achieves the highest parsing performance with a low spurious slot rate. IGE-TabDDPM and IGE-PMVAE perform well in single-time-point generation; IGE-CSDI, IGE-FGTI, and IGE-MTSCI lead on different longitudinal fidelity metrics. Across five random seeds and three classifiers, synthetic cohorts retain predictive utility for mortality prediction on real test data. Clinician ratings support trajectory plausibility and alignment with requested scenarios. Conclusion: InterGenEHR$^+$ supports clinician-specified generation of EHR trajectories with statistical fidelity and downstream predictive utility in the evaluated VV-ECMO cohort. Extension to other clinical settings requires further validation. Significance: The framework supports scenario-based evaluation of machine learning models in data-sparse critical care settings.",
+      "abs_url": "http://arxiv.org/abs/2611.33788v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33788v1",
+      "code_url": null
+    },
+    "2611.33726": {
+      "id": "2611.33726",
+      "version": "2611.33726v1",
+      "title": "NORMCRAFT: Cultural Norm Generation for Context-Aware Language Model Alignment",
+      "authors": [
+        "Tangyuan Zhang",
+        "Zhuang Li",
+        "Fatemeh Shiri",
+        "Xiangyu Zhao",
+        "Junyu Yan",
+        "Xiuzhen Zhang"
+      ],
+      "published": "2026-11-25",
+      "updated": "2026-11-25",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Cultural alignment requires large language models (LLMs) to infer often-implicit social norms from a scenario and its cultural context. Existing approaches typically adapt individual models or supply external cultural knowledge, while learning norm inference independently of downstream response generation remains underexplored. We introduce NORMCRAFT, a modular framework that decouples norm inference from response generation. Through norm-centric multi-view supervision, we train an LLM as a norm generator to recover shared norms from prospective, adherence, and violation scenarios without downstream response labels. The generated norms guide a separate, frozen LLM (the responder). With Qwen3.5-4B as the responder, NORMCRAFT outperforms prompting and supervised fine-tuning (SFT) baselines on four of five downstream metrics. On SafeWorld, its responses reflect the reference norms more often (Coverage) and more precisely (Faithfulness), exceeding Responder SFT by 18.0 and 14.1 percentage points, respectively. Direct norm evaluation also shows higher norm quality than the base and few-shot generators. The same trained generator improves cultural alignment on SafeWorld across fourteen frozen LLMs spanning five families and 0.8B to 27B parameters, with the largest gains for the smallest models.",
+      "abs_url": "http://arxiv.org/abs/2611.33726v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33726v1",
+      "code_url": null
     }
   }
 }

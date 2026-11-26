@@ -13,8 +13,8 @@ This repository tracks low-resource generation related papers from arXiv.
 
 ## Summary
 
-- Total papers in JSON: **766**
-- Recent 30 days: **71**
+- Total papers in JSON: **769**
+- Recent 30 days: **74**
 - Older than 30 days: **695**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
@@ -22,6 +22,9 @@ This repository tracks low-resource generation related papers from arXiv.
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-25**|**The Linguistic Knowledge Benchmark: Do Language Models Know the Foundations of Early-Grade Literacy?**|cs.CL|[2611.34823v1](http://arxiv.org/abs/2611.34823v1)|null|
+|**2026-11-25**|**InterGenEHR$^+$: An Interactive Framework for Natural Language-Conditioned Generation of Longitudinal Patient Trajectories**|cs.AI, cs.LG|[2611.33788v1](http://arxiv.org/abs/2611.33788v1)|null|
+|**2026-11-25**|**NORMCRAFT: Cultural Norm Generation for Context-Aware Language Model Alignment**|cs.CL|[2611.33726v1](http://arxiv.org/abs/2611.33726v1)|null|
 |**2026-11-24**|**Implementation of Machine Translation for the Uzbek Language Based on Transformer Models**|cs.CL|[2611.32359v1](http://arxiv.org/abs/2611.32359v1)|null|
 |**2026-11-23**|**DUET: Dual-MDL Unsupervised Entropy-Trie Segmentation for Low-Resource Languages**|cs.CL|[2611.30273v1](http://arxiv.org/abs/2611.30273v1)|null|
 |**2026-11-23**|**Beyond Fixed Prompt Configuration: Alternating Policy Learning for Adaptive Topology-Based Prompting in Few-Shot Graph Learning**|cs.LG|[2611.29950v1](http://arxiv.org/abs/2611.29950v1)|null|
@@ -224,11 +227,8 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-09-16**|**Machine Translation between English and Syriac (East Syriac Dialect) using Statistical Machine Learning**|cs.CL|[2609.18529v1](http://arxiv.org/abs/2609.18529v1)|null|
 |**2026-09-16**|**Reinforcement Learning for Real-Time Vision-Language-Action Policies**|cs.RO, cs.LG|[2609.18207v1](http://arxiv.org/abs/2609.18207v1)|**[code](https://pd-perry.github.io/real-time-expo-ft)**|
 |**2026-09-16**|**A Comprehensive Review of Generative Physical Artificial Intelligence**|cs.RO, cs.AI, cs.CL, cs.CV, cs.LG|[2609.18111v1](http://arxiv.org/abs/2609.18111v1)|null|
-|**2026-09-16**|**When to Call an LLM: A Confidence-Gated Hybrid for Cost-Effective Emotion Recognition in Conversational AI**|cs.AI|[2609.17977v1](http://arxiv.org/abs/2609.17977v1)|null|
-|**2026-09-15**|**Robust and Efficient AI Frameworks for Scalable Material Design and Property Prediction**|cond-mat.mtrl-sci, cs.LG|[2609.17646v1](http://arxiv.org/abs/2609.17646v1)|null|
-|**2026-09-15**|**Towards Detecting AI-Assisted Responses in Online Surveys**|cs.CL, cs.CY|[2609.17317v1](http://arxiv.org/abs/2609.17317v1)|**[code](https://github.com/mike-qz-wang/ASURRE)**|
 
-README omitted **566** older paper(s). See `docs/arxiv-daily.json` for the full archive.
+README omitted **569** older paper(s). See `docs/arxiv-daily.json` for the full archive.
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/low-resource-generation-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/low-resource-generation-arxiv-daily-paper/graphs/contributors
