@@ -7,15 +7,15 @@
 
 This repository tracks low-resource generation related papers from arXiv.
 
-## Updated on 2026.11.26
+## Updated on 2026.11.27
 
 ![Monthly Trend](imgs/trend.png)
 
 ## Summary
 
 - Total papers in JSON: **769**
-- Recent 30 days: **74**
-- Older than 30 days: **695**
+- Recent 30 days: **69**
+- Older than 30 days: **700**
 - README display limit: **200** papers; extra papers stay in `docs/arxiv-daily.json`.
 
 ## Recent 30 Days
@@ -91,16 +91,16 @@ This repository tracks low-resource generation related papers from arXiv.
 |**2026-10-29**|**Efficient Learning of Mechanism Designs and Compositionality**|cs.AI, cs.CE|[2610.40005v1](http://arxiv.org/abs/2610.40005v1)|null|
 |**2026-10-29**|**Reading-Level Verification of Kanji Words in Japanese Financial Speech Synthesis**|cs.SD, cs.CL, eess.AS|[2610.39168v1](http://arxiv.org/abs/2610.39168v1)|null|
 |**2026-10-28**|**What to randomize matters: a controlled study of volume, axis and representation in low-data molecular generation**|cs.LG, cs.CE, cs.CL, q-bio.BM, q-bio.QM|[2610.38835v1](http://arxiv.org/abs/2610.38835v1)|null|
-|**2026-10-27**|**Statistical Detection of Positional Bias in LLM-Based Recommender Systems: Methodologies and Empirical Evidence**|cs.IR, cs.AI|[2610.37962v1](http://arxiv.org/abs/2610.37962v1)|null|
-|**2026-10-27**|**Aligning Large Language Models for Safety in African Languages: A Case Study of Hausa**|cs.CL, cs.AI|[2610.37245v1](http://arxiv.org/abs/2610.37245v1)|null|
-|**2026-10-27**|**Text Generation in Low-Resource Languages Using Human-Curated Vocabularies**|cs.CL|[2610.37105v2](http://arxiv.org/abs/2610.37105v2)|**[code](https://github.com/michaelsinanta/vocab2text)**|
-|**2026-10-27**|**The State and Fate of Multilingual, Contextual Evaluation in the NLP World**|cs.CL|[2610.36990v1](http://arxiv.org/abs/2610.36990v1)|**[code](https://aka.ms/multilingual-evals)**|
-|**2026-10-27**|**Learning from Points and Patches: A Pre-trained Hybrid Attention Transformer for Time Series Analysis**|cs.LG|[2610.36572v1](http://arxiv.org/abs/2610.36572v1)|**[code](https://github.com/TangPeiwang/TimeHAT)**|
 
 ## Older Than 30 Days
 
 |Date|Title|Categories|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-27**|**Statistical Detection of Positional Bias in LLM-Based Recommender Systems: Methodologies and Empirical Evidence**|cs.IR, cs.AI|[2610.37962v1](http://arxiv.org/abs/2610.37962v1)|null|
+|**2026-10-27**|**Aligning Large Language Models for Safety in African Languages: A Case Study of Hausa**|cs.CL, cs.AI|[2610.37245v1](http://arxiv.org/abs/2610.37245v1)|null|
+|**2026-10-27**|**Text Generation in Low-Resource Languages Using Human-Curated Vocabularies**|cs.CL|[2610.37105v2](http://arxiv.org/abs/2610.37105v2)|**[code](https://github.com/michaelsinanta/vocab2text)**|
+|**2026-10-27**|**The State and Fate of Multilingual, Contextual Evaluation in the NLP World**|cs.CL|[2610.36990v1](http://arxiv.org/abs/2610.36990v1)|**[code](https://aka.ms/multilingual-evals)**|
+|**2026-10-27**|**Learning from Points and Patches: A Pre-trained Hybrid Attention Transformer for Time Series Analysis**|cs.LG|[2610.36572v1](http://arxiv.org/abs/2610.36572v1)|**[code](https://github.com/TangPeiwang/TimeHAT)**|
 |**2026-10-26**|**EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware Molecular Conformation Generation**|cs.LG, cs.CE|[2610.36280v1](http://arxiv.org/abs/2610.36280v1)|null|
 |**2026-10-26**|**Ranking Function Generation with LLMs for Termination**|cs.SE, cs.AI, cs.LO|[2610.35523v1](http://arxiv.org/abs/2610.35523v1)|null|
 |**2026-10-26**|**Quality over Quantity: Rethinking Data and Model Assumptions for Bengali Coreference Resolution**|cs.CL|[2610.35114v1](http://arxiv.org/abs/2610.35114v1)|null|
